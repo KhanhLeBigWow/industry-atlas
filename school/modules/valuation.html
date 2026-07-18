@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" data-module="valuation" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Valuation · Capital Atlas</title>
+<meta name="description" content="What a business is worth: enterprise value, multiples, DCF with a live sandbox, precedent transactions, and the football field.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .val-range { position: relative; height: 74px; margin-top: 10px; }
+  .val-warn { display: none; border-left: 3px solid var(--status-serious); background: var(--surface-2);
+    border-radius: 0 8px 8px 0; padding: 10px 14px; font-size: 0.86rem; color: var(--ink-2); margin-bottom: 12px; }
+  .val-warn.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">Module 04 · Core</span>
+    <h1>Valuation</h1>
+    <p class="hero-tagline">Every deal, every pitch, every investment memo ends at the same question: what is this business worth? Professionals answer it with 3 lenses, and the craft is knowing what each lens distorts.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ============ 04.1 ============ -->
+  <section class="lesson" id="price-vs-value">
+    <h2><span class="sec-num">04.1</span> Two numbers people confuse: enterprise value and equity value</h2>
+    <p class="lede">Before valuing anything, you must be precise about what you are valuing: the whole business, or just the owners' slice of it. Mixing the two is the most common technical error in finance interviews and, embarrassingly often, in real analysis.</p>
+
+    <p><strong>Equity value</strong> (market capitalization for a public company) is what the shareholders' claim is worth. <strong>Enterprise value (EV, sometimes TEV)</strong> is what the entire operating business is worth to all capital providers together: shareholders and lenders alike. Since lenders have a claim that must be settled, buying the whole business means buying the equity and inheriting the net debt.</p>
+
+    <div class="formula">Enterprise value = Equity value + Total debt + Preferred + Minority interest − Cash
+
+(cash subtracts because a buyer pockets it at close: it is negative debt)</div>
+
+    <div class="figure">
+      <p class="figure-title">The EV bridge: Meridian Industrial Co.</p>
+      <p class="figure-sub">From what shareholders own to what the whole business costs, $M.</p>
+      <svg viewBox="0 0 720 300" role="img" aria-label="Bridge chart from equity value of 1500 to enterprise value of 1860.">
+        <line x1="50" y1="260" x2="700" y2="260" class="axis"></line>
+        <!-- equity 1500 -->
+        <rect x="70" y="110" width="90" height="150" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="70" y="256" width="90" height="4" fill="var(--viz-1)"></rect>
+        <text x="115" y="98" text-anchor="middle" class="lbl">$1,500</text>
+        <text x="115" y="280" text-anchor="middle" class="lbl-muted">Equity value</text>
+        <!-- +debt 450 -->
+        <rect x="200" y="65" width="90" height="45" rx="4" fill="var(--viz-2)"></rect>
+        <text x="245" y="53" text-anchor="middle" class="lbl">+450</text>
+        <text x="245" y="280" text-anchor="middle" class="lbl-muted">Total debt</text>
+        <line x1="160" y1="110" x2="200" y2="110" class="gridline"></line>
+        <!-- +minority 60 -->
+        <rect x="330" y="59" width="90" height="6" rx="2" fill="var(--viz-2)"></rect>
+        <text x="375" y="47" text-anchor="middle" class="lbl">+60</text>
+        <text x="375" y="280" text-anchor="middle" class="lbl-muted">Minority int.</text>
+        <line x1="290" y1="65" x2="330" y2="65" class="gridline"></line>
+        <!-- -cash 150 -->
+        <rect x="460" y="59" width="90" height="15" rx="4" fill="var(--viz-6)"></rect>
+        <text x="505" y="47" text-anchor="middle" class="lbl">(150)</text>
+        <text x="505" y="280" text-anchor="middle" class="lbl-muted">Cash</text>
+        <line x1="420" y1="59" x2="460" y2="59" class="gridline"></line>
+        <!-- EV 1860 -->
+        <rect x="590" y="74" width="90" height="186" rx="4" fill="var(--viz-5)"></rect>
+        <text x="635" y="62" text-anchor="middle" class="lbl">$1,860</text>
+        <text x="635" y="280" text-anchor="middle" class="lbl-muted">Enterprise value</text>
+        <line x1="550" y1="74" x2="590" y2="74" class="gridline"></line>
+      </svg>
+      <p class="figure-note">Meridian's shareholders own $1,500M of value, but a buyer of the whole company effectively pays $1,860M once debt is assumed and cash is credited.</p>
+    </div>
+
+    <p>The pairing rule that follows: <strong>match the value measure to the cash flow measure</strong>. EBITDA and revenue belong to the whole enterprise (they are earned before lenders are paid), so they pair with EV. Net income and EPS belong to shareholders alone (interest is already deducted), so they pair with equity value.</p>
+
+    <div class="callout callout-warn">
+      <p>EV/Net income and Price/EBITDA are the classic mismatch errors: they compare a whole-company number with a shareholders-only number. Two companies with identical businesses but different debt loads will look wildly different through a mismatched multiple, and identically through a matched one. Interviewers set this trap on purpose.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04.2 ============ -->
+  <section class="lesson" id="multiples">
+    <h2><span class="sec-num">04.2</span> Relative valuation: multiples and trading comps</h2>
+    <p class="lede">A multiple is a price tag standardized by size: dollars of value per dollar of earnings. Comparable company analysis ("trading comps") reads those price tags off similar public companies and applies them to yours.</p>
+
+    <p>Multiples look like shortcuts, and they are, but they are principled shortcuts: every multiple is a compressed DCF. A company deserves a higher EV/EBITDA when its cash flows grow faster, convert more reliably, or carry less risk. When analysts say "Northgate trades at 10x because of its growth," they are speaking DCF in shorthand.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Multiple</th><th>Pairs with</th><th>Best for</th><th>Watch out</th></tr></thead>
+        <tbody>
+          <tr><td><strong>EV / EBITDA</strong></td><td>Enterprise</td><td>The workhorse: capital-structure neutral, most M&amp;A and credit work</td><td>Ignores capex; flatters asset-heavy businesses</td></tr>
+          <tr><td><strong>EV / Revenue</strong></td><td>Enterprise</td><td>High-growth or pre-profit companies</td><td>A dollar of revenue is not a dollar of profit; margin-blind</td></tr>
+          <tr><td><strong>EV / EBIT</strong></td><td>Enterprise</td><td>Comparing businesses with different capital intensity</td><td>Depreciation policies differ across firms</td></tr>
+          <tr><td><strong>P / E</strong></td><td>Equity</td><td>Mature, profitable companies; the retail favorite</td><td>Leverage and one-off items distort it easily</td></tr>
+          <tr><td><strong>P / B</strong></td><td>Equity</td><td>Banks and insurers, where book value is meaningful</td><td>Nearly meaningless for asset-light businesses</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Running comps is a craft in 3 steps: pick genuinely similar companies (industry, size, growth, margins), scrub their numbers to a common basis (calendarize fiscal years, strip one-time items), then decide where in the peer range your target deserves to sit and why. The tool below lets you feel step 3.</p>
+
+    <div class="tool" id="tool-comps">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Comps Builder</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="select-row">
+            <label for="cmp-metric">Multiple</label>
+            <select id="cmp-metric">
+              <option value="ebitda">EV / EBITDA</option>
+              <option value="rev">EV / Revenue</option>
+            </select>
+          </div>
+          <div class="slider-row">
+            <label>Meridian EBITDA ($M) <output></output></label>
+            <input type="range" id="cmp-ebitda" min="100" max="320" step="5" value="180">
+          </div>
+          <p class="small muted">Meridian's revenue is derived at a 22% EBITDA margin. Drag the slider to see how the implied value scales with the earnings you apply the multiple to.</p>
+        </div>
+        <div class="tool-output">
+          <div class="table-wrap" style="margin-top:0">
+            <table id="cmp-table">
+              <thead><tr><th>Peer</th><th class="num">EV ($M)</th><th class="num">Revenue</th><th class="num">EBITDA</th><th class="num" id="cmp-mult-head">EV/EBITDA</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">Peer low</div><div class="stat-value" id="cmp-min">0x</div></div>
+            <div class="stat-tile"><div class="stat-label">Peer median</div><div class="stat-value" id="cmp-med">0x</div></div>
+            <div class="stat-tile"><div class="stat-label">Peer high</div><div class="stat-value" id="cmp-max">0x</div></div>
+          </div>
+          <div id="cmp-range" class="val-range"></div>
+          <p class="figure-note" id="cmp-narrate"></p>
+        </div>
+      </div>
+      <div class="tool-foot">Fictional peer set. In practice you would calendarize, adjust for leases and one-offs, and defend every peer's inclusion.</div>
+    </div>
+
+    <div class="callout callout-tip">
+      <p>Comps tell you what the market pays today for businesses like yours. That is their power (real, observable prices) and their weakness (if the whole sector is euphoric or depressed, comps import the mood). Multiples are mirrors, not scales.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04.3 ============ -->
+  <section class="lesson" id="dcf-theory">
+    <h2><span class="sec-num">04.3</span> Intrinsic valuation: the DCF from first principles</h2>
+    <p class="lede">A business is worth the cash it will hand its owners over its lifetime, discounted back to today. The discounted cash flow model takes that sentence literally, one assumption at a time.</p>
+
+    <p>The unlevered DCF values the whole enterprise, so it uses cash flows before any payments to lenders, discounted at a blended rate that reflects all capital providers. Three ingredients:</p>
+
+    <h4>1. Free cash flow: what the business actually throws off</h4>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Unlevered FCF build</th><th class="num">Meridian, Year 1 ($M)</th></tr></thead>
+        <tbody>
+          <tr><td>Revenue (growing 8%)</td><td class="num">540</td></tr>
+          <tr><td>EBITDA (22% margin)</td><td class="num">119</td></tr>
+          <tr><td>Less: cash taxes (25%)</td><td class="num">(30)</td></tr>
+          <tr><td>Less: capex and working capital (5% of revenue)</td><td class="num">(27)</td></tr>
+          <tr class="total"><td>Unlevered free cash flow</td><td class="num">62</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">This is the simplified build the sandbox below uses (taxes applied to EBITDA, D&amp;A shield ignored). A full model taxes EBIT and adds back D&amp;A; the shape is identical, the arithmetic slightly kinder.</p>
+
+    <h4>2. WACC: the blended price of the money</h4>
+    <p>Future cash flows are discounted at the weighted average cost of capital: what equity holders demand, blended with what lenders charge, weighted by the capital mix. Debt is cheaper than equity (safer claim, plus interest is tax-deductible), so leverage pulls WACC down, until the added risk starts pushing both costs up.</p>
+    <div class="formula">WACC = (E/V) × Re + (D/V) × Rd × (1 − t)
+
+Re (cost of equity) = risk-free rate + β × equity risk premium     [CAPM]
+Rd (cost of debt)   = yield the company's lenders currently demand</div>
+
+    <h4>3. Terminal value: everything after the forecast</h4>
+    <p>You can forecast 5 years with a straight face, not 50. The terminal value compresses everything beyond the horizon into one number, computed either as a perpetuity growing at a modest rate g, or as an exit multiple on the final year's EBITDA. Professionals compute both and check them against each other.</p>
+    <div class="formula">Gordon growth:   TV = FCF₅ × (1 + g) ÷ (WACC − g)      g must be &lt; WACC
+Exit multiple:   TV = EBITDA₅ × chosen EV/EBITDA</div>
+
+    <div class="callout callout-warn">
+      <p>Terminal value routinely carries 60% to 80% of a DCF's total. That means most of your "intrinsic" valuation lives in the least knowable inputs: g and the far-future WACC. A DCF is not wrong because of this, but anyone quoting one to the third decimal place is performing precision, not achieving it.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04.4 ============ -->
+  <section class="lesson" id="dcf-sandbox">
+    <h2><span class="sec-num">04.4</span> The DCF Sandbox</h2>
+    <p class="lede">Meridian Industrial Co., starting revenue $500M, 5-year horizon. Every slider is one argument in the valuation debate. Watch which ones the value actually cares about.</p>
+
+    <div class="tool" id="tool-dcf">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>DCF Sandbox</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="slider-row">
+            <label>Revenue growth <output></output></label>
+            <input type="range" id="dcf-g" min="0" max="20" step="0.5" value="8">
+          </div>
+          <div class="slider-row">
+            <label>EBITDA margin <output></output></label>
+            <input type="range" id="dcf-margin" min="5" max="40" step="0.5" value="22">
+          </div>
+          <div class="slider-row">
+            <label>Capex + NWC, % of revenue <output></output></label>
+            <input type="range" id="dcf-capex" min="0" max="15" step="0.5" value="5">
+          </div>
+          <div class="slider-row">
+            <label>Tax rate <output></output></label>
+            <input type="range" id="dcf-tax" min="15" max="35" step="1" value="25">
+          </div>
+          <div class="slider-row">
+            <label>WACC <output></output></label>
+            <input type="range" id="dcf-wacc" min="5" max="15" step="0.25" value="9">
+          </div>
+          <div class="slider-row">
+            <label>Terminal growth <output></output></label>
+            <input type="range" id="dcf-tg" min="0" max="5" step="0.25" value="2.5">
+          </div>
+        </div>
+        <div class="tool-output">
+          <div class="val-warn" id="dcf-warn"></div>
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">Enterprise value</div><div class="stat-value" id="dcf-ev">$0M</div></div>
+            <div class="stat-tile"><div class="stat-label">Implied EV / Yr-1 EBITDA</div><div class="stat-value" id="dcf-mult">0x</div></div>
+            <div class="stat-tile"><div class="stat-label">Value from terminal</div><div class="stat-value" id="dcf-tvpct">0%</div></div>
+          </div>
+          <div class="legend"><span><i style="background:var(--viz-1)"></i>Discounted FCF, years 1 to 5</span><span><i style="background:var(--viz-2)"></i>Discounted terminal value</span></div>
+          <div id="dcf-chart"></div>
+          <p class="figure-note" style="margin-bottom:14px">Where the value sits in time. The terminal bar is everything beyond year 5, compressed.</p>
+          <h4>Sensitivity: EV ($M) across WACC × terminal growth</h4>
+          <div class="table-wrap" style="margin-top:8px"><table class="sens" id="dcf-sens"></table></div>
+        </div>
+      </div>
+      <div class="tool-foot">Simplified unlevered DCF: FCF = EBITDA × (1 − tax) − capex/NWC; mid-year convention ignored. Terminal growth is clamped below WACC because a business cannot outgrow its discount rate forever.</div>
+    </div>
+
+    <div class="callout callout-example">
+      <p>Try this experiment: set WACC to 9% and move terminal growth from 2% to 3%. EV jumps by roughly a fifth. Now set terminal growth back and move revenue growth from 8% to 9%. The move is far smaller. One point of forever-growth is worth more than one point of near-term growth, which is why terminal assumptions are where valuation fights actually happen.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04.5 ============ -->
+  <section class="lesson" id="precedents">
+    <h2><span class="sec-num">04.5</span> Precedent transactions: what buyers actually paid</h2>
+    <p class="lede">The third lens looks at real M&amp;A: what did acquirers pay for whole companies like this one? Those prices run systematically higher than trading comps, and the gap has a name.</p>
+
+    <p>The <strong>control premium</strong>. A share price values a passive minority stake; an acquirer buys the right to run the company: replace management, cut costs, redirect cash, merge operations. That control, plus expected synergies, is worth paying up for. US public-company acquisitions have historically closed at premiums of roughly 20% to 40% over the undisturbed share price, higher in competitive auctions.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th></th><th>Trading comps</th><th>Precedent transactions</th><th>DCF</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Answers</strong></td><td>What the market pays for minority stakes today</td><td>What buyers paid for control</td><td>What the cash flows are intrinsically worth</td></tr>
+          <tr><td><strong>Data</strong></td><td>Live prices, always fresh</td><td>Deal disclosures, often stale or private</td><td>Your own forecast</td></tr>
+          <tr><td><strong>Bias</strong></td><td>Imports market mood</td><td>Includes premiums and deal-cycle froth</td><td>Imports your optimism</td></tr>
+          <tr><td><strong>Typical level</strong></td><td>Baseline</td><td>Highest</td><td>Depends on assumptions</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Precedents come with their own traps: deal terms hide earnouts and assumed liabilities, cycles matter enormously (2007 prices tell you little about 2009), and every printed multiple includes synergies specific to that buyer. Good analysts date-stamp every precedent and note the strategic context before citing it.</p>
+
+    <div class="callout callout-deeper">
+      <p>Where do these numbers come from? Public deal terms live in merger proxies and 8-K filings; databases like Refinitiv, CapIQ, and MergerMarket aggregate them; and for private deals, bankers trade intelligence the old-fashioned way. Half the value of a senior M&amp;A banker is a mental database of what things actually cleared at.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04.6 ============ -->
+  <section class="lesson" id="football-field">
+    <h2><span class="sec-num">04.6</span> The football field: putting it all together</h2>
+    <p class="lede">No method gets the final word. The standard summary chart lines up every method's range so a decision-maker can see where they agree, and negotiate inside the overlap.</p>
+
+    <div class="figure">
+      <p class="figure-title">Meridian Industrial Co.: valuation summary ($M, enterprise value)</p>
+      <p class="figure-sub">Each bar is one method's plausible range; the marker is a hypothetical $1,900M offer.</p>
+      <svg viewBox="0 0 720 260" role="img" aria-label="Football field chart showing valuation ranges by method with an offer line at 1900.">
+        <!-- scale: 1200 -> x=120, 2200 -> x=680; x = 120 + (v-1200)*0.56 -->
+        <line x1="120" y1="220" x2="680" y2="220" class="axis"></line>
+        <g font-size="11" fill="var(--ink-3)">
+          <text x="120" y="240" text-anchor="middle" class="lbl-muted">$1,200</text>
+          <text x="260" y="240" text-anchor="middle" class="lbl-muted">$1,450</text>
+          <text x="400" y="240" text-anchor="middle" class="lbl-muted">$1,700</text>
+          <text x="540" y="240" text-anchor="middle" class="lbl-muted">$1,950</text>
+          <text x="680" y="240" text-anchor="middle" class="lbl-muted">$2,200</text>
+        </g>
+        <line x1="260" y1="30" x2="260" y2="220" class="gridline"></line>
+        <line x1="400" y1="30" x2="400" y2="220" class="gridline"></line>
+        <line x1="540" y1="30" x2="540" y2="220" class="gridline"></line>
+        <!-- 52wk trading 1300-1600 : x 176 - 344 -->
+        <rect x="176" y="42" width="168" height="22" rx="4" fill="var(--viz-1)"></rect>
+        <text x="168" y="57" text-anchor="end" class="lbl" font-size="12">52-week trading range</text>
+        <!-- comps 1550-1850: x 316-484 -->
+        <rect x="316" y="86" width="168" height="22" rx="4" fill="var(--viz-2)"></rect>
+        <text x="308" y="101" text-anchor="end" class="lbl" font-size="12">Trading comps</text>
+        <!-- DCF 1600-2000: x 344-568 -->
+        <rect x="344" y="130" width="224" height="22" rx="4" fill="var(--viz-3)"></rect>
+        <text x="336" y="145" text-anchor="end" class="lbl" font-size="12">DCF range</text>
+        <!-- precedents 1750-2100: x 428-624 -->
+        <rect x="428" y="174" width="196" height="22" rx="4" fill="var(--viz-4)"></rect>
+        <text x="420" y="189" text-anchor="end" class="lbl" font-size="12">Precedent transactions</text>
+        <!-- offer line at 1900: x = 512 -->
+        <line x1="512" y1="24" x2="512" y2="220" stroke="var(--neg)" stroke-width="2" stroke-dasharray="6 4"></line>
+        <text x="512" y="16" text-anchor="middle" class="lbl" font-size="12">Offer $1,900</text>
+      </svg>
+      <p class="figure-note">Reading it like a banker: the offer clears the trading range and comps, sits in the upper half of DCF, and inside precedents. A board can defend accepting it; a motivated seller can still argue for more.</p>
+    </div>
+
+    <p>The football field is also a negotiation map. Sellers anchor on the methods printing highest (precedents, optimistic DCF); buyers anchor low (trading comps, conservative DCF). The final price is less a discovery of truth than a settlement between defensible stories, which is why owning the analysis behind each bar is real leverage.</p>
+  </section>
+
+  <!-- ============ 04.7 ============ -->
+  <section class="lesson" id="pitfalls">
+    <h2><span class="sec-num">04.7</span> How valuations go wrong</h2>
+    <p class="lede">The math is easy; the failure modes are behavioral. The classics, so you can spot them in the wild and in the mirror.</p>
+
+    <div class="grid-2">
+      <div class="card"><h4>The hockey stick</h4><p class="small muted">Forecasts where growth conveniently accelerates right after the historical data ends. If years 1 to 3 of history grew 4% and the model shows 12% by year 5, someone is selling something.</p></div>
+      <div class="card"><h4>Terminal value doing all the work</h4><p class="small muted">When 85% of EV sits in the terminal, the 5-year model is decoration. Check the terminal-value share (the sandbox reports it) before trusting any DCF.</p></div>
+      <div class="card"><h4>Cherry-picked peers</h4><p class="small muted">Comps ranges move dramatically based on who makes the list. The peer set is the argument; the median is just arithmetic.</p></div>
+      <div class="card"><h4>False precision</h4><p class="small muted">WACC estimated to 2 decimals from inputs that are themselves guesses. Sensitivity tables exist precisely because point estimates lie about certainty.</p></div>
+    </div>
+
+    <div class="callout callout-case">
+      <p>In the 2013 Dell buyout litigation, the Delaware court's own DCF later suggested a fair value about 28% above the $13.75 per share deal price, roughly $17.62, while other analyses defended the deal price. Same company, same filings, wildly different answers, hundreds of millions at stake. Valuation is a discipline of ranges and arguments, not a calculator with one right output. Courts, boards, and markets all know it.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04.8 ============ -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">04.8</span> Knowledge check</h2>
+    <p class="lede">9 questions, several with quick math. Best score is saved.</p>
+    <div id="quiz-root"></div>
+  </section>
+
+</main>
+
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+
+  /* ============ Comps Builder ============ */
+  var PEERS = [
+    { name: "Northgate Systems",    ev: 4200, rev: 1800, ebitda: 420 },
+    { name: "Harbor Dynamics",      ev: 2760, rev: 1300, ebitda: 300 },
+    { name: "Crestline Industrial", ev: 1980, rev: 950,  ebitda: 220 },
+    { name: "Vantora Group",        ev: 3510, rev: 1520, ebitda: 390 },
+    { name: "Pinnacle Fabrication", ev: 1140, rev: 640,  ebitda: 120 },
+    { name: "Solvex Manufacturing", ev: 2400, rev: 1150, ebitda: 260 }
+  ];
+  var cmpE = Atlas.bind("cmp-ebitda", function (v) { return Atlas.fmt.moneyM(v); });
+
+  function median(arr) {
+    var a = arr.slice().sort(function (x, y) { return x - y; });
+    var mid = Math.floor(a.length / 2);
+    return a.length % 2 ? a[mid] : (a[mid - 1] + a[mid]) / 2;
+  }
+
+  function compsCalc() {
+    var metric = document.getElementById("cmp-metric").value;
+    var isEbitda = metric === "ebitda";
+    document.getElementById("cmp-mult-head").textContent = isEbitda ? "EV/EBITDA" : "EV/Revenue";
+
+    var mults = PEERS.map(function (p) { return p.ev / (isEbitda ? p.ebitda : p.rev); });
+    var tbody = document.querySelector("#cmp-table tbody");
+    tbody.innerHTML = PEERS.map(function (p, i) {
+      return "<tr><td>" + p.name + '</td><td class="num">' + Atlas.fmt.num(p.ev) +
+        '</td><td class="num">' + Atlas.fmt.num(p.rev) + '</td><td class="num">' + Atlas.fmt.num(p.ebitda) +
+        '</td><td class="num"><strong>' + Atlas.fmt.mult(mults[i]) + "</strong></td></tr>";
+    }).join("");
+
+    var lo = Math.min.apply(null, mults), hi = Math.max.apply(null, mults), med = median(mults);
+    document.getElementById("cmp-min").textContent = Atlas.fmt.mult(lo);
+    document.getElementById("cmp-med").textContent = Atlas.fmt.mult(med);
+    document.getElementById("cmp-max").textContent = Atlas.fmt.mult(hi);
+
+    var base = isEbitda ? cmpE.value : cmpE.value / 0.22;   /* revenue at 22% margin */
+    var evLo = lo * base, evMed = med * base, evHi = hi * base;
+
+    /* implied range strip */
+    var W = 640, H = 74, padL = 10, padR = 10;
+    var min = evLo * 0.9, max = evHi * 1.06;
+    var x = function (v) { return padL + (W - padL - padR) * ((v - min) / (max - min)); };
+    var s = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Implied enterprise value range">';
+    s += '<line x1="' + padL + '" y1="40" x2="' + (W - padR) + '" y2="40" class="gridline"></line>';
+    s += '<rect x="' + x(evLo) + '" y="30" width="' + Math.max(2, x(evHi) - x(evLo)) + '" height="20" rx="4" fill="color-mix(in srgb, var(--viz-5) 30%, var(--surface-1))"></rect>';
+    s += '<line x1="' + x(evMed) + '" y1="24" x2="' + x(evMed) + '" y2="56" stroke="var(--viz-5)" stroke-width="3"></line>';
+    s += '<text x="' + x(evLo) + '" y="70" text-anchor="middle" font-size="11" fill="var(--ink-3)">' + Atlas.fmt.moneyM(evLo) + "</text>";
+    s += '<text x="' + x(evMed) + '" y="16" text-anchor="middle" font-size="12" font-weight="600" fill="var(--ink)">median ' + Atlas.fmt.moneyM(evMed) + "</text>";
+    s += '<text x="' + x(evHi) + '" y="70" text-anchor="middle" font-size="11" fill="var(--ink-3)">' + Atlas.fmt.moneyM(evHi) + "</text>";
+    s += "</svg>";
+    document.getElementById("cmp-range").innerHTML = s;
+    document.getElementById("cmp-narrate").textContent = "Applying the peer " + (isEbitda ? "EV/EBITDA" : "EV/Revenue") +
+      " range to Meridian implies an enterprise value between " + Atlas.fmt.moneyM(evLo) + " and " + Atlas.fmt.moneyM(evHi) +
+      ", median " + Atlas.fmt.moneyM(evMed) + ". Where inside that range Meridian deserves to sit is the analyst's actual job.";
+  }
+  Atlas.onInput(["cmp-metric", "cmp-ebitda"], compsCalc);
+
+  /* ============ DCF Sandbox ============ */
+  var g = Atlas.bind("dcf-g", function (v) { return Atlas.fmt.pct(v, 1); });
+  var mgn = Atlas.bind("dcf-margin", function (v) { return Atlas.fmt.pct(v, 1); });
+  var cap = Atlas.bind("dcf-capex", function (v) { return Atlas.fmt.pct(v, 1); });
+  var tax = Atlas.bind("dcf-tax", function (v) { return Atlas.fmt.pct(v, 0); });
+  var wacc = Atlas.bind("dcf-wacc", function (v) { return Atlas.fmt.pct(v, 2); });
+  var tg = Atlas.bind("dcf-tg", function (v) { return Atlas.fmt.pct(v, 2); });
+
+  var REV0 = 500, YEARS = 5;
+
+  function dcfCore(gr, margin, capexPct, taxR, w, termG) {
+    /* returns {ev, dFcfs:[...], dTv, ebitda1, clamped}, rates as decimals */
+    var clamped = false;
+    var maxG = w - 0.005;                 /* keep g at least 50bps under WACC */
+    if (termG > maxG) { termG = Math.max(0, maxG); clamped = true; }
+    var rev = REV0, fcfs = [], ebitda1 = 0;
+    for (var t = 1; t <= YEARS; t++) {
+      rev = rev * (1 + gr);
+      var ebitda = rev * margin;
+      if (t === 1) ebitda1 = ebitda;
+      var fcf = ebitda * (1 - taxR) - rev * capexPct;
+      fcfs.push(fcf);
+    }
+    var dFcfs = fcfs.map(function (f, i) { return f / Math.pow(1 + w, i + 1); });
+    var tvRaw = fcfs[YEARS - 1] * (1 + termG) / (w - termG);
+    var dTv = tvRaw / Math.pow(1 + w, YEARS);
+    var ev = dFcfs.reduce(function (a, b) { return a + b; }, 0) + dTv;
+    return { ev: ev, dFcfs: dFcfs, dTv: dTv, ebitda1: ebitda1, clamped: clamped };
+  }
+
+  function dcfCalc() {
+    var r = dcfCore(g.value / 100, mgn.value / 100, cap.value / 100, tax.value / 100, wacc.value / 100, tg.value / 100);
+
+    var warn = document.getElementById("dcf-warn");
+    if (r.clamped) {
+      warn.textContent = "Terminal growth must stay below WACC (a business cannot outgrow its discount rate forever). Clamped to " + Atlas.fmt.pct(Math.max(0, wacc.value - 0.5), 2) + " for this calculation.";
+      warn.classList.add("show");
+    } else warn.classList.remove("show");
+
+    var tvShare = r.ev > 0 ? 100 * r.dTv / r.ev : 0;
+    document.getElementById("dcf-ev").textContent = Atlas.fmt.moneyM(r.ev);
+    document.getElementById("dcf-mult").textContent = r.ebitda1 > 0 ? Atlas.fmt.mult(r.ev / r.ebitda1) : "n/a";
+    document.getElementById("dcf-tvpct").textContent = Atlas.fmt.pct(tvShare, 0);
+
+    /* bar chart: 5 discounted FCFs + discounted TV */
+    var vals = r.dFcfs.concat([r.dTv]);
+    var maxV = Math.max.apply(null, vals.map(Math.abs));
+    if (maxV <= 0) maxV = 1;
+    var W = 640, H = 240, padL = 56, padR = 16, padT = 14, padB = 30;
+    var plotH = H - padT - padB;
+    var zero = padT + plotH * (maxV / (maxV + Math.max(0, -Math.min.apply(null, vals))));
+    /* simple: all values assumed >= 0 for bars; clamp negatives visually at baseline */
+    var y = function (v) { return padT + plotH * (1 - Math.max(0, v) / maxV); };
+    var baseline = padT + plotH;
+    var slotW = (W - padL - padR) / 6;
+    var s = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Discounted cash flows by year plus terminal value">';
+    [0.5, 1].forEach(function (f) {
+      var gy = padT + plotH * (1 - f);
+      s += '<line x1="' + padL + '" y1="' + gy + '" x2="' + (W - padR) + '" y2="' + gy + '" class="gridline"></line>';
+      s += '<text x="' + (padL - 8) + '" y="' + (gy + 4) + '" text-anchor="end" font-size="11" fill="var(--ink-3)">' + Atlas.fmt.moneyM(maxV * f) + "</text>";
+    });
+    s += '<line x1="' + padL + '" y1="' + baseline + '" x2="' + (W - padR) + '" y2="' + baseline + '" class="axis"></line>';
+    vals.forEach(function (v, i) {
+      var bw = Math.min(24, slotW * 0.5);
+      var bx = padL + slotW * i + (slotW - bw) / 2;
+      var by = y(v);
+      var col = i < 5 ? "var(--viz-1)" : "var(--viz-2)";
+      var h = Math.max(0, baseline - by);
+      s += '<path d="M' + bx + " " + baseline + " V" + (by + 4) + " Q" + bx + " " + by + " " + (bx + 4) + " " + by +
+           " H" + (bx + bw - 4) + " Q" + (bx + bw) + " " + by + " " + (bx + bw) + " " + (by + 4) + " V" + baseline + ' Z" fill="' + col + '"></path>';
+      var lab = i < 5 ? "Yr " + (i + 1) : "Terminal";
+      s += '<text x="' + (bx + bw / 2) + '" y="' + (H - 10) + '" text-anchor="middle" font-size="11" fill="var(--ink-3)">' + lab + "</text>";
+      if (i === 5 || v === Math.max.apply(null, vals)) {
+        s += '<text x="' + (bx + bw / 2) + '" y="' + (by - 6) + '" text-anchor="middle" font-size="11" font-weight="600" fill="var(--ink)">' + Atlas.fmt.moneyM(v) + "</text>";
+      }
+    });
+    s += "</svg>";
+    document.getElementById("dcf-chart").innerHTML = s;
+
+    /* sensitivity 5x5 */
+    var wBase = wacc.value, gBase = tg.value;
+    var wSteps = [wBase - 2, wBase - 1, wBase, wBase + 1, wBase + 2];
+    var gSteps = [gBase - 1, gBase - 0.5, gBase, gBase + 0.5, gBase + 1];
+    var html = "<thead><tr><th>WACC \\ g</th>";
+    gSteps.forEach(function (gs) { html += '<th class="num">' + Atlas.fmt.pct(Math.max(0, gs), 2) + "</th>"; });
+    html += "</tr></thead><tbody>";
+    wSteps.forEach(function (ws) {
+      if (ws < 3) ws = 3;
+      html += "<tr><td><strong>" + Atlas.fmt.pct(ws, 2) + "</strong></td>";
+      gSteps.forEach(function (gs) {
+        gs = Math.max(0, gs);
+        var cell = dcfCore(g.value / 100, mgn.value / 100, cap.value / 100, tax.value / 100, ws / 100, gs / 100);
+        var isBase = Math.abs(ws - wBase) < 0.01 && Math.abs(gs - gBase) < 0.01;
+        var isNear = Math.abs(ws - wBase) <= 1.01 && Math.abs(gs - gBase) <= 0.51 && !isBase;
+        html += '<td class="' + (isBase ? "hot" : isNear ? "warm" : "") + '">' + Atlas.fmt.num(Math.round(cell.ev)) + "</td>";
+      });
+      html += "</tr>";
+    });
+    html += "</tbody>";
+    document.getElementById("dcf-sens").innerHTML = html;
+  }
+  Atlas.onInput(["dcf-g", "dcf-margin", "dcf-capex", "dcf-tax", "dcf-wacc", "dcf-tg"], dcfCalc);
+
+  /* ============ quiz ============ */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "A company has market cap $800M, debt $300M, and cash $100M. Its enterprise value is:",
+      choices: ["$800M", "$1,000M", "$1,100M", "$1,200M"],
+      answer: 1,
+      explain: "EV = 800 + 300 − 100 = $1,000M. Cash subtracts because the buyer effectively gets it back at close."
+    },
+    {
+      q: "Which multiple pairing is correct?",
+      choices: ["EV / Net income", "Price / EBITDA", "EV / EBITDA", "EV / EPS"],
+      answer: 2,
+      explain: "EBITDA is earned before lenders are paid, so it belongs to all capital providers and pairs with EV. Net income and EPS are shareholder numbers and pair with price."
+    },
+    {
+      q: "Peers trade at a median 9.2x EV/EBITDA. Your target earns $200M of EBITDA and carries $400M of net debt. Implied equity value?",
+      choices: ["$1,840M", "$1,440M", "$2,240M", "$1,600M"],
+      answer: 1,
+      explain: "EV = 9.2 × 200 = $1,840M; equity = EV − net debt = 1,840 − 400 = $1,440M. Always take the bridge back to equity."
+    },
+    {
+      q: "In the CAPM, the cost of equity rises when:",
+      choices: ["The company issues more debt at a lower rate", "Beta rises", "The tax rate rises", "Cash balances grow"],
+      answer: 1,
+      explain: "Re = risk-free + β × equity risk premium. Higher beta means more systematic risk, so equity holders demand more."
+    },
+    {
+      q: "Why must terminal growth g stay below WACC in a Gordon growth terminal value?",
+      choices: ["Regulators require it", "The formula divides by (WACC − g), which breaks and turns negative otherwise", "Because inflation is always below WACC", "It does not have to"],
+      answer: 1,
+      explain: "TV = FCF × (1+g)/(WACC − g). At g ≥ WACC the denominator hits zero or flips negative: an infinite or nonsensical value, the math version of 'nothing outgrows its discount rate forever'."
+    },
+    {
+      q: "A DCF shows 82% of value in the terminal. The right conclusion is:",
+      choices: ["The company is a strong buy", "The model is broken and must be discarded", "Most of the answer rests on far-future assumptions, so stress-test g and WACC hard", "The forecast years should be deleted"],
+      answer: 2,
+      explain: "High terminal share is common and not fatal, but it relocates the debate to the least knowable inputs. Sensitivity analysis is the honest response."
+    },
+    {
+      q: "Precedent transaction multiples usually exceed trading comps because:",
+      choices: ["Deal databases have errors", "Acquirers pay for control and expected synergies", "Public markets are always undervalued", "Precedents include more cash deals"],
+      answer: 1,
+      explain: "A control premium (historically roughly 20% to 40% for US public targets) plus buyer-specific synergies gets baked into deal prices."
+    },
+    {
+      q: "Your DCF at 9% WACC gives $1,700M; the sensitivity cell at 8% WACC shows $2,050M. That difference mostly reflects:",
+      choices: ["A modeling error", "How strongly value responds to the discount rate, especially through the terminal value", "Taxes", "Working capital"],
+      answer: 1,
+      explain: "A single point of WACC moves every discounted flow, and the terminal value most of all. This sensitivity is exactly why the discount rate gets argued hardest."
+    },
+    {
+      q: "A board reviewing a $1,900M offer sees: trading range $1,300M to $1,600M, comps $1,550M to $1,850M, DCF $1,600M to $2,000M, precedents $1,750M to $2,100M. The fairest summary is:",
+      choices: ["The offer is clearly inadequate", "The offer clears market-based measures and sits well inside intrinsic and deal-based ranges", "The offer is above every method, take it instantly", "The methods disagree so no conclusion is possible"],
+      answer: 1,
+      explain: "That is precisely how a football field is read: the offer beats where the stock trades and where peers imply, and lands in the upper-middle of DCF and inside precedents. Defensible, with room to negotiate."
+    }
+  ]);
+});
+</script>
+</body>
+</html>

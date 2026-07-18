@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en" data-module="ma-deals" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M&amp;A &amp; the Deal Process · Capital Atlas</title>
+<meta name="description" content="How companies are bought and sold: the sell-side auction step by step, buyer types, synergy math, accretion / dilution, deal structures, and takeover defense.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .ma-ctl-h { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;
+    color: var(--ink-3); margin: 20px 0 10px; }
+  .ma-ctl-h:first-child { margin-top: 0; }
+  .ma-mix { font-size: 0.84rem; color: var(--ink-2); margin: 2px 0 4px; }
+  .ma-mix b { font-family: var(--font-mono); font-weight: 600; color: var(--ink); }
+  .ma-verdict { margin: 2px 0 16px; padding: 10px 14px; border-left: 3px solid var(--viz-1);
+    background: var(--surface-2); border-radius: 6px; font-size: 0.89rem; color: var(--ink-2); }
+  .ma-verdict b { color: var(--ink); }
+  .ma-presets { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+  .ma-presets button { font: 600 0.78rem var(--font-body); padding: 5px 11px; border-radius: 999px;
+    border: 1px solid var(--hairline); background: var(--surface-1); color: var(--ink-2); cursor: pointer; }
+  .ma-presets button:hover { border-color: var(--brand); color: var(--ink); }
+  .ma-compact table { font-size: 0.85rem; }
+  .ma-compact td { padding: 7px 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header class="module-hero">
+    <span class="kicker">Module 05 · Advanced</span>
+    <h1>M&amp;A &amp; the Deal Process</h1>
+    <p class="hero-tagline">How companies are bought and sold, from the first pitch to the closing dinner. M&amp;A is where valuation stops being theory: a real buyer writes a real check, and every number in this module decides how big it is.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ================= 05.1 why deals happen ================= -->
+  <section class="lesson" id="why-deals-happen">
+    <h2><span class="sec-num">05.1</span> Why deals happen (and why many should not)</h2>
+    <p class="lede">Every acquisition is a bet that two companies are worth more together than apart. The strategic logic usually sounds airtight in the board deck. The empirical record says the hard part is not finding the logic, it is refusing to overpay for it. Understanding both halves, the rationale and the record, is what separates a deal advisor from a deal cheerleader.</p>
+
+    <p>Start with the buyer's side of the argument. Nearly every deal rationale you will ever hear is a variation on 4 themes:</p>
+
+    <div class="grid-2">
+      <div class="card"><h4>Scale</h4><p class="small muted">Bigger spreads fixed costs over more revenue. One headquarters instead of 2, one salesforce covering both product lines, better pricing from suppliers. Scale deals live or die on cost synergies, which is why they are the easiest to underwrite.</p></div>
+      <div class="card"><h4>Capabilities</h4><p class="small muted">Buy versus build. A technology, a license, a customer base, or a team that would take 5 years to replicate can be bought in 5 months. Pharma buying biotech pipelines and industrials buying software businesses are both capability deals.</p></div>
+      <div class="card"><h4>Consolidation</h4><p class="small muted">In a fragmented industry, rolling up competitors takes out duplicate cost and, quietly, takes out pricing pressure. Serial acquirers in waste, dental practices, and HVAC services run this playbook dozens of times over.</p></div>
+      <div class="card"><h4>Defense</h4><p class="small muted">Sometimes you buy so a rival cannot. Blocking a competitor from acquiring a key supplier, or acquiring the disruptor before it gets big enough to hurt you. Defensive deals are the hardest to value because the benefit is a loss avoided, not a cash flow gained.</p></div>
+    </div>
+
+    <p>Notice that all 4 arguments reduce to the same claim: 1 + 1 &gt; 2. The combined company will produce more cash than the 2 standalone companies did. The entire deal negotiation is really an argument over who pockets the extra: the buyer, or the seller who demands to be paid for it upfront.</p>
+
+    <div class="callout-warn callout">
+      <p>The most persistent finding in M&amp;A research is that the average deal creates value overall but the <strong>acquirer</strong> captures little or none of it. Across decades of event studies, target shareholders gain roughly 20% to 30% on announcement while acquirer returns cluster around zero, and a large fraction of acquirers see their stock fall. The mechanism is the winner's curse: in a competitive auction the winning bid tends to come from the most optimistic buyer, and optimism is not a synergy. Announced synergies are a forecast; the premium is a wire transfer.</p>
+    </div>
+
+    <div class="figure">
+      <p class="figure-title">Who captures the announcement pop</p>
+      <p class="figure-sub">Stylized average abnormal returns around deal announcement, from decades of academic event studies.</p>
+      <svg viewBox="0 0 720 200" role="img" aria-label="Bar chart: target shareholders gain about 26% on announcement, the combined entity about 1.5%, and acquirer shareholders lose about 1.5%.">
+        <line x1="250" y1="20" x2="250" y2="180" stroke="var(--axis)" stroke-width="1"></line>
+        <text x="240" y="54" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Target shareholders</text>
+        <text x="240" y="109" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Combined entity</text>
+        <text x="240" y="164" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Acquirer shareholders</text>
+        <path d="M250 40 L558 40 Q562 40 562 44 L562 56 Q562 60 558 60 L250 60 Z" fill="var(--pos)"></path>
+        <path d="M250 95 L264 95 Q268 95 268 99 L268 111 Q268 115 264 115 L250 115 Z" fill="var(--pos)"></path>
+        <path d="M250 150 L236 150 Q232 150 232 154 L232 166 Q232 170 236 170 L250 170 Z" fill="var(--neg)"></path>
+        <text x="570" y="54" font-size="12" fill="var(--ink)" font-weight="600">+26%</text>
+        <text x="276" y="109" font-size="12" fill="var(--ink)" font-weight="600">+1.5%</text>
+        <text x="224" y="164" text-anchor="end" font-size="12" fill="var(--ink)" font-weight="600">(1.5%)</text>
+      </svg>
+      <p class="figure-note">Figures are stylized long-run averages; individual deals vary enormously. The lesson is the shape, not the decimals: sellers capture the pop.</p>
+    </div>
+
+    <h3>Who buys: strategics vs financial sponsors</h3>
+    <p>Every sell-side banker sorts the universe of buyers into 2 species, because they bid differently, move differently, and break differently.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th></th><th>Strategic buyer</th><th>Financial sponsor</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Who they are</td><td>An operating company in the same or an adjacent industry</td><td>A private equity fund investing committed capital from its limited partners</td></tr>
+          <tr><td>Why they buy</td><td>Scale, capabilities, consolidation, defense</td><td>Returns: buy, improve, and sell in roughly 4 to 6 years</td></tr>
+          <tr><td>How they pay</td><td>Cash on hand, their own stock, balance sheet debt</td><td>Fund equity plus substantial new debt raised against the target itself</td></tr>
+          <tr><td>Synergies</td><td>Real cost overlaps they can underwrite into the price</td><td>Usually none, unless bolting onto an existing portfolio company (an add-on)</td></tr>
+          <tr><td>Ceiling on price</td><td>Highest when overlap is large; can rationally outbid everyone</td><td>Capped by leverage limits and the fund's return target</td></tr>
+          <tr><td>Speed and discretion</td><td>Slower, more approvals, competitive risk in showing them your data</td><td>Fast, discreet, professional buyers who close dozens of deals a year</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>A well-run process invites both. Strategics set the ceiling on value because synergies let them pay more and still come out ahead. Sponsors set the floor on certainty: they move fast, they do not leak your customer list to a competitor, and they close. The tension between the highest price and the safest path to close runs through everything that follows.</p>
+  </section>
+
+  <!-- ================= 05.2 the cast ================= -->
+  <section class="lesson" id="the-cast">
+    <h2><span class="sec-num">05.2</span> The cast: who does what on a deal</h2>
+    <p class="lede">A live deal is a temporary company staffed by advisors, each with a distinct job and a distinct fee model. Knowing who is in the room, who hired them, and how they get paid tells you most of what you need to predict their behavior.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Advisor</th><th>Hired by</th><th>What they actually do</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sell-side M&amp;A banker</td><td>The seller's board</td><td>Runs the auction: positioning, materials, buyer outreach, bid choreography, negotiation. Paid a success fee at closing, often 1% to 2% of deal value on large deals and higher percentages below roughly $100M.</td></tr>
+          <tr><td>Buy-side M&amp;A banker</td><td>The acquirer</td><td>Valuation, bid tactics, financing structure, board materials. Fee is usually smaller than the sell-side fee and sometimes partly fixed.</td></tr>
+          <tr><td>M&amp;A lawyers</td><td>Each side separately</td><td>Draft and negotiate the purchase agreement, run regulatory strategy, manage closing mechanics. Billed hourly, deal or no deal.</td></tr>
+          <tr><td>Accountants (QoE)</td><td>Mostly buyers; sellers increasingly pre-empt with their own</td><td>Quality of earnings (QoE) work: verifying that the EBITDA the price is based on is real, recurring, and correctly calculated.</td></tr>
+          <tr><td>Consultants</td><td>Either side</td><td>Commercial due diligence: a market study testing whether the growth story in the marketing materials survives contact with customers.</td></tr>
+          <tr><td>Financing banks</td><td>The buyer</td><td>Commit the debt that funds the purchase. Their financing fees on a large leveraged deal can exceed the M&amp;A advisory fee.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Who the banker really works for</h3>
+    <p>Formally, the sell-side banker signs an engagement letter with the company and answers to its board. Economically, the success fee aligns the banker with a high price: 1.25% of $1.2B beats 1.25% of $1.0B. But the sharper incentive is binary. The fee is typically all-or-nothing at closing, so the banker's strongest pull is toward <em>a</em> deal happening, not necessarily the perfect deal. Good boards understand this and treat banker advice on "take the bird in hand" moments with appropriate skepticism.</p>
+    <p>There is a second, softer incentive worth knowing: league tables. Banks are ranked publicly by deal volume, and rankings drive future mandates. A banker will sometimes fight for a marginal deal because the franchise needs the credit, not because the fee is large.</p>
+
+    <h3>Fairness opinions</h3>
+    <p>Before a public company board approves a sale, it almost always obtains a fairness opinion: a short letter from an investment bank stating that the consideration is fair, from a financial point of view, to shareholders. The opinion is backed by a valuation analysis (DCF, comparable companies, precedent transactions, the same toolkit from Module 04) presented to the board.</p>
+    <div class="callout-deeper callout">
+      <p>The polite critique of fairness opinions: they are purchased by the party that wants the deal approved, sometimes from the same bank earning a success fee if it closes, and the range of "fair" is generous. Courts and boards still value them because they document that directors followed a careful process, which is the real legal shield. Read a fairness opinion as evidence of process, not as an independent verdict on price.</p>
+    </div>
+  </section>
+
+  <!-- ================= 05.3 the sell-side process ================= -->
+  <section class="lesson" id="sell-side-process">
+    <h2><span class="sec-num">05.3</span> The sell-side process, end to end</h2>
+    <p class="lede">The auction is the sell-side banker's core product: a manufactured market for a company that trades exactly once. Everything about it, the staged information release, the deadlines, the parallel bidders, exists to create competitive tension and keep leverage with the seller for as long as possible.</p>
+
+    <p>Processes come in flavors. A <strong>broad auction</strong> contacts 75 to 150 buyers and maximizes competition at the cost of confidentiality. A <strong>targeted process</strong> approaches 10 to 25 carefully chosen names, trading some price tension for speed and discretion. A <strong>negotiated sale</strong> deals with a single buyer, usually because they pre-empted with a number too good to shop. The timeline below is a classic mid-market auction; add or subtract weeks for size, complexity, and regulatory heat. Call the seller Juniper Analytics, code name Project Juniper.</p>
+
+    <ol class="timeline">
+      <li>
+        <div class="timeline-when">Weeks 1-4</div>
+        <div class="timeline-title">Preparation and materials</div>
+        <div class="timeline-body"><p>The engagement letter is signed and the working group forms. The banker builds the <strong>model</strong> (a projection model that frames the valuation story), drafts the <strong>teaser</strong> (a 1-2 page anonymous summary with financial highlights but no company name), and writes the <strong>CIM</strong>, the confidential information memorandum: a 50-100+ page book covering the business, market, financials, and growth plan. In parallel the team builds a tiered buyer list of strategics and sponsors and stands up the skeleton of the dataroom.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Weeks 5-6</div>
+        <div class="timeline-title">Launch and outreach</div>
+        <div class="timeline-body"><p>The teaser goes out, broad or targeted per the strategy above. Interested buyers negotiate an <strong>NDA</strong> (non-disclosure agreement, often with non-solicit terms protecting employees) and receive the CIM plus a process letter setting the first-round bid deadline and required contents.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Weeks 7-9</div>
+        <div class="timeline-title">First-round bids: IOIs</div>
+        <div class="timeline-body"><p>Buyers submit <strong>IOIs</strong>, indications of interest: non-binding letters stating a valuation range, funding sources, key assumptions, and diligence needs. The banker's job is reading through the numbers: a sponsor at "$450M to $500M subject to financing" and a strategic at "$470M, no financing condition" are not the same bid. The board culls the field to a second round.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Weeks 9-14</div>
+        <div class="timeline-title">Management presentations and dataroom</div>
+        <div class="timeline-body"><p>The 3 to 8 remaining buyers each get a <strong>management presentation</strong>, a half-day session where the CEO and CFO pitch the business and take questions, plus access to the virtual <strong>dataroom</strong>: contracts, detailed financials, customer data, HR files. A managed Q&amp;A process and site visits run alongside. This is the most operationally exhausting phase for the company, which still has to hit its numbers while being inspected.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Weeks 14-16</div>
+        <div class="timeline-title">Final bids and contract markups</div>
+        <div class="timeline-body"><p>A second process letter demands final bids: a firm price, evidence of committed financing, and a <strong>markup</strong> of the seller's draft purchase agreement showing exactly which terms the buyer accepts and which it rejects. Markups are as informative as price. A high number with an aggressive markup (heavy conditions, broad walk-away rights) can be worth less than a lower, cleaner bid. The banker levels bids on value, terms, and certainty together.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Weeks 16-17</div>
+        <div class="timeline-title">Exclusivity and the LOI</div>
+        <div class="timeline-body"><p>The winner signs an <strong>LOI</strong>, a letter of intent: mostly non-binding on price and structure, but binding on <strong>exclusivity</strong>, the seller's promise to stop talking to other buyers for a set window. The moment exclusivity is granted, leverage flips to the buyer, which is why good bankers keep the window short (30 to 45 days) and keep a runner-up warm.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Weeks 17-21</div>
+        <div class="timeline-title">Confirmatory diligence</div>
+        <div class="timeline-body"><p>The buyer's full diligence machine engages: quality of earnings, legal document review, tax, environmental, insurance, IT, background checks. Findings become negotiating chips. A $3M inventory issue rarely kills a deal; it reappears as a price reduction or an indemnity in the next phase.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Weeks 19-22</div>
+        <div class="timeline-title">Negotiating and signing the SPA</div>
+        <div class="timeline-body"><p>Lawyers converge on the <strong>SPA</strong>, the sale and purchase agreement (in a public merger, the merger agreement): price mechanics (locked box vs completion accounts, the working capital peg), representations and warranties, indemnities, covenants, and termination rights. Signing is announced publicly. The company is now sold on paper but not yet in fact.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Weeks 22-30+</div>
+        <div class="timeline-title">Sign to close: regulatory and funding</div>
+        <div class="timeline-body"><p>Between sign and close sit the conditions: antitrust clearance (in the US, the <strong>HSR</strong> filing under Hart-Scott-Rodino, with a waiting period that stretches to many months if regulators issue a second request), foreign filings, sometimes national security review (CFIUS), financing funding, third-party consents, and for public targets a shareholder vote. Big strategic deals can spend a year or more in this purgatory.</p></div>
+      </li>
+      <li>
+        <div class="timeline-when">Close</div>
+        <div class="timeline-title">Closing and funds flow</div>
+        <div class="timeline-body"><p>A funds flow memo choreographs the wires: debt payoff, escrow funding, advisor fees, and the balance to sellers. Ownership transfers, the press release goes out, and the working group has the closing dinner. Post-closing purchase price adjustments and escrow releases play out over the following months.</p></div>
+      </li>
+    </ol>
+
+    <div class="figure">
+      <p class="figure-title">The auction funnel</p>
+      <p class="figure-sub">A typical broad process: many are teased, few are chosen. Illustrative counts for a mid-market deal.</p>
+      <svg viewBox="0 0 720 290" role="img" aria-label="Funnel chart: 100 buyers contacted narrows to 45 NDAs, 12 IOIs, 6 management meetings, 3 final bids, and 1 signed deal.">
+        <line x1="210" y1="18" x2="210" y2="272" stroke="var(--axis)" stroke-width="1"></line>
+        <text x="200" y="45" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Buyers contacted</text>
+        <text x="200" y="87" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">NDAs signed</text>
+        <text x="200" y="129" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">First-round IOIs</text>
+        <text x="200" y="171" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Management meetings</text>
+        <text x="200" y="213" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Final bids</text>
+        <text x="200" y="255" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Signed deal</text>
+        <path d="M210 30 L666 30 Q670 30 670 34 L670 48 Q670 52 666 52 L210 52 Z" fill="var(--viz-1)"></path>
+        <path d="M210 72 L413 72 Q417 72 417 76 L417 90 Q417 94 413 94 L210 94 Z" fill="var(--viz-1)"></path>
+        <path d="M210 114 L261 114 Q265 114 265 118 L265 132 Q265 136 261 136 L210 136 Z" fill="var(--viz-1)"></path>
+        <path d="M210 156 L234 156 Q238 156 238 160 L238 174 Q238 178 234 178 L210 178 Z" fill="var(--viz-1)"></path>
+        <path d="M210 198 L220 198 Q224 198 224 202 L224 216 Q224 220 220 220 L210 220 Z" fill="var(--viz-1)"></path>
+        <path d="M210 240 L212 240 Q216 240 216 244 L216 258 Q216 262 212 262 L210 262 Z" fill="var(--viz-1)"></path>
+        <text x="678" y="45" font-size="12" fill="var(--ink)" font-weight="600">100</text>
+        <text x="425" y="87" font-size="12" fill="var(--ink)" font-weight="600">45</text>
+        <text x="273" y="129" font-size="12" fill="var(--ink)" font-weight="600">12</text>
+        <text x="246" y="171" font-size="12" fill="var(--ink)" font-weight="600">6</text>
+        <text x="232" y="213" font-size="12" fill="var(--ink)" font-weight="600">3</text>
+        <text x="224" y="255" font-size="12" fill="var(--ink)" font-weight="600">1</text>
+      </svg>
+      <p class="figure-note">Each stage exists to trade information for commitment: buyers get more data only after demonstrating more seriousness.</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>On leaks.</strong> 100 teasers means 100 chances for the process to leak, and leaks are expensive. Employees polish resumes, customers delay renewals, competitors whisper to your accounts that the ship is sinking, and any price talk that escapes becomes an anchor. Bankers mitigate with code names (Project Juniper, never the company name), tiered information release, clean teams for competitively sensitive data like customer-level pricing, and deliberately small first-round lists when the seller is fragile. If a process leaks to the press, the standard playbook is to say nothing and accelerate.</p>
+    </div>
+  </section>
+
+  <!-- ================= 05.4 deal math ================= -->
+  <section class="lesson" id="deal-math">
+    <h2><span class="sec-num">05.4</span> Deal math: premiums and synergies</h2>
+    <p class="lede">Three numbers decide most deals: what the target is worth alone, the premium the buyer pays over that, and the synergies that are supposed to justify the premium. The arithmetic is simple. The discipline is not.</p>
+
+    <h3>The premium</h3>
+    <p>In a public deal, the offer is quoted as a premium over the <strong>unaffected price</strong>: the share price on the last trading day before deal news, leaks, or credible rumors began moving the stock. That last clause matters. If word slipped out 2 weeks ago and the stock is up 12%, measuring the premium off today's price understates what the buyer is really paying. Typical premiums for control of a public company run 20% to 40%, higher in competitive situations.</p>
+    <div class="formula">Premium = Offer price per share ÷ Unaffected price per share - 1</div>
+    <p>Why does control command a premium at all? Because the buyer is purchasing the right to change things: replace management, cut costs, redirect cash flows, sell assets. A minority share trades at the value of the business as it is run today; control is worth the value of the business as it could be run.</p>
+
+    <h3>Synergies: the currency premiums are paid in</h3>
+    <p><strong>Cost synergies</strong> are expense reductions from combining: duplicate headquarters, overlapping salesforces, procurement scale, consolidated facilities. <strong>Revenue synergies</strong> are sales the combined firm supposedly wins that neither could alone: cross-selling each side's products to the other's customers, bundling, geographic extension.</p>
+    <p>Diligence teams credit these very differently, and for good reason. Cost synergies can be built bottom-up (this building, these 40 roles, this contract) and depend mostly on decisions inside management's control. Revenue synergies depend on customers choosing to buy more and competitors politely declining to respond. The working convention: underwrite most of the cost synergies, and treat revenue synergies as upside you do not pay for.</p>
+    <p>To value a synergy stream, convert it to after-tax cash flow and capitalize it like a perpetuity, then subtract the one-time cost of getting it (severance, systems integration, facility exits):</p>
+    <div class="formula">Synergy value = (Pre-tax run-rate synergies × (1 - Tax rate)) ÷ Discount rate - Costs to achieve</div>
+
+    <div class="callout-example callout">
+      <p><strong>Harborline Foods buys Crestway Snacks.</strong> Crestway's unaffected equity value is $900M. Harborline offers a 30% premium, so it pays $1,170M, handing Crestway's shareholders $270M upfront. The integration plan identifies $40M of pre-tax run-rate cost synergies. At a 25% tax rate that is $30M of after-tax cash flow per year; capitalized at a 9% discount rate it is worth roughly $333M. One-time costs to achieve are $50M, so net synergy value is about $283M. Harborline paid $270M of premium to capture $283M of synergy value: the deal creates roughly $13M of value for the buyer if, and only if, every dollar of synergy shows up on schedule.</p>
+    </div>
+
+    <div class="figure">
+      <p class="figure-title">Where the synergy value goes</p>
+      <p class="figure-sub">Harborline / Crestway worked example: the auction hands nearly all of the synergy value to the seller.</p>
+      <svg viewBox="0 0 720 170" role="img" aria-label="Bar chart: net synergy value of 283 million dollars, premium paid to the seller of 270 million, and only 13 million left for the buyer.">
+        <line x1="250" y1="18" x2="250" y2="148" stroke="var(--axis)" stroke-width="1"></line>
+        <text x="240" y="45" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Net synergy value</text>
+        <text x="240" y="87" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Premium paid to the seller</text>
+        <text x="240" y="129" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Left over for the buyer</text>
+        <path d="M250 30 L646 30 Q650 30 650 34 L650 48 Q650 52 646 52 L250 52 Z" fill="var(--viz-1)"></path>
+        <path d="M250 72 L628 72 Q632 72 632 76 L632 90 Q632 94 628 94 L250 94 Z" fill="var(--viz-1)"></path>
+        <path d="M250 114 L264 114 Q268 114 268 118 L268 132 Q268 136 264 136 L250 136 Z" fill="var(--viz-1)"></path>
+        <text x="658" y="45" font-size="12" fill="var(--ink)" font-weight="600">$283M</text>
+        <text x="640" y="87" font-size="12" fill="var(--ink)" font-weight="600">$270M</text>
+        <text x="276" y="129" font-size="12" fill="var(--ink)" font-weight="600">$13M</text>
+      </svg>
+      <p class="figure-note">This is not a failure of the process. It is the process: a competitive auction is designed to make buyers bid their synergies away.</p>
+    </div>
+  </section>
+
+  <!-- ================= 05.5 accretion / dilution lab ================= -->
+  <section class="lesson" id="accretion-lab">
+    <h2><span class="sec-num">05.5</span> Accretion / dilution: the acquirer's first question</h2>
+    <p class="lede">When a public company's board reviews a deal, the first slide they flip to asks one thing: does earnings per share go up or down? A deal that raises pro forma EPS is accretive; one that lowers it is dilutive. It is a crude test, and markets know it is crude, but it frames every public acquisition conversation.</p>
+
+    <p>The mechanics are bookkeeping. Pro forma net income is both companies' earnings, plus after-tax synergies, minus the after-tax cost of the money used to pay for the deal. Pro forma shares are the acquirer's shares plus whatever new stock it issues. Divide, and compare.</p>
+    <div class="formula">Accretion / (dilution) = Pro forma EPS ÷ Standalone EPS - 1</div>
+    <p>The intuition that makes the whole thing click: every funding source has a cost, expressed as an after-tax rate. New debt costs its interest rate times (1 - tax rate). Cash costs the yield you were earning on it, after tax. And stock costs your own earnings yield, which is 1 divided by your P/E: issuing shares at 20x earnings hands away 5% in EPS terms. The deal is accretive when the earnings you buy, measured as a yield on the price you pay, exceed the blended cost of that funding mix. Hence the classic all-stock shortcut: if your P/E is higher than the P/E you pay, you are paying with a cheaper currency than the earnings you receive, and EPS rises automatically.</p>
+
+    <div class="callout-tip callout">
+      <p>Accretion is arithmetic, not value creation. A 25x company buying a 10x business with stock is always accretive on paper, even if the target deserves 10x because it is shrinking. The 1960s conglomerates industrialized this trick, boot-strapping EPS growth by serially acquiring cheaper earnings until the market caught on and the multiples collapsed. Use the tool below to build intuition, then remember that the DCF from Module 04, not the EPS math, is what decides whether a deal creates value.</p>
+    </div>
+
+    <div class="tool" id="tool-accretion">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Accretion / Dilution Calculator</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <p class="ma-ctl-h">Acquirer (Meridian Industrial, 100M shares)</p>
+          <div class="slider-row">
+            <label>Net income <output></output></label>
+            <input type="range" id="acc-ani" min="200" max="2000" step="25" value="900">
+          </div>
+          <div class="slider-row">
+            <label>P/E multiple <output></output></label>
+            <input type="range" id="acc-ape" min="8" max="35" step="0.5" value="19">
+          </div>
+          <p class="ma-ctl-h">Target (Calder Systems) and price</p>
+          <div class="slider-row">
+            <label>Net income <output></output></label>
+            <input type="range" id="acc-tni" min="50" max="800" step="10" value="300">
+          </div>
+          <div class="slider-row">
+            <label>Unaffected P/E <output></output></label>
+            <input type="range" id="acc-tpe" min="6" max="35" step="0.5" value="14">
+          </div>
+          <div class="slider-row">
+            <label>Premium over unaffected value <output></output></label>
+            <input type="range" id="acc-prem" min="0" max="80" step="1" value="30">
+          </div>
+          <p class="ma-ctl-h">Consideration mix</p>
+          <div class="slider-row">
+            <label>Cash <output></output></label>
+            <input type="range" id="acc-cash" min="0" max="100" step="5" value="40">
+          </div>
+          <div class="slider-row">
+            <label>Stock <output></output></label>
+            <input type="range" id="acc-stock" min="0" max="100" step="5" value="40">
+          </div>
+          <p class="ma-mix">New debt (implied): <b id="acc-debt-out">20%</b></p>
+          <p class="ma-ctl-h">Financing and synergies</p>
+          <div class="slider-row">
+            <label>Pre-tax cost of new debt <output></output></label>
+            <input type="range" id="acc-kd" min="3" max="12" step="0.25" value="6">
+          </div>
+          <div class="slider-row">
+            <label>Yield forgone on cash used <output></output></label>
+            <input type="range" id="acc-yc" min="0" max="6" step="0.25" value="4">
+          </div>
+          <div class="slider-row">
+            <label>Tax rate <output></output></label>
+            <input type="range" id="acc-tax" min="15" max="35" step="1" value="25">
+          </div>
+          <div class="slider-row">
+            <label>Pre-tax cost synergies <output></output></label>
+            <input type="range" id="acc-syn" min="0" max="300" step="5" value="60">
+          </div>
+        </div>
+        <div class="tool-output">
+          <div class="ma-presets" id="acc-presets">
+            <button type="button" data-preset="base">Balanced base case</button>
+            <button type="button" data-preset="allstock">All-stock, rich target</button>
+            <button type="button" data-preset="cashdebt">Cash and cheap debt</button>
+          </div>
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">Standalone EPS</div><div class="stat-value" id="acc-k-so">$0.00</div></div>
+            <div class="stat-tile"><div class="stat-label">Pro forma EPS</div><div class="stat-value" id="acc-k-pf">$0.00</div></div>
+            <div class="stat-tile"><div class="stat-label">Accretion / (dilution)</div><div class="stat-value" id="acc-k-accr">0%</div></div>
+            <div class="stat-tile"><div class="stat-label">Effective P/E paid</div><div class="stat-value" id="acc-k-pe">0.0x</div></div>
+          </div>
+          <p class="ma-verdict" id="acc-verdict"></p>
+          <svg viewBox="0 0 460 108" role="img" aria-label="Live bar comparison of standalone versus pro forma earnings per share.">
+            <line x1="118" y1="12" x2="118" y2="96" stroke="var(--axis)" stroke-width="1"></line>
+            <text x="108" y="39" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Standalone</text>
+            <text x="108" y="79" text-anchor="end" font-size="12" fill="var(--ink-2)" font-weight="600">Pro forma</text>
+            <path id="acc-bar-so" fill="var(--viz-1)" d=""></path>
+            <path id="acc-bar-pf" fill="var(--viz-1)" d=""></path>
+            <text id="acc-val-so" x="130" y="39" font-size="12" fill="var(--ink)" font-weight="600"></text>
+            <text id="acc-val-pf" x="130" y="79" font-size="12" fill="var(--ink)" font-weight="600"></text>
+          </svg>
+          <div class="table-wrap ma-compact">
+            <table>
+              <tbody>
+                <tr><td>Acquirer net income</td><td class="num" id="acc-d-a"></td></tr>
+                <tr><td>Target net income</td><td class="num" id="acc-d-t"></td></tr>
+                <tr><td>Cost synergies, after tax</td><td class="num" id="acc-d-s"></td></tr>
+                <tr><td>Interest on new debt, after tax</td><td class="num" id="acc-d-i"></td></tr>
+                <tr><td>Forgone yield on cash used, after tax</td><td class="num" id="acc-d-f"></td></tr>
+                <tr class="total"><td>Pro forma net income</td><td class="num" id="acc-d-pf"></td></tr>
+                <tr><td>New shares issued</td><td class="num" id="acc-d-ns"></td></tr>
+                <tr><td>Pro forma shares outstanding</td><td class="num" id="acc-d-sh"></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="tool-foot">All figures illustrative and fictional. Assumes the acquirer has 100M shares outstanding, its share price equals standalone EPS × P/E, the target is bought at unaffected P/E × (1 + premium), full-year earnings contribution, no purchase accounting adjustments, and synergies at run rate from day 1.</div>
+    </div>
+  </section>
+
+  <!-- ================= 05.6 structures ================= -->
+  <section class="lesson" id="structures">
+    <h2><span class="sec-num">05.6</span> Deal structures: who keeps which risk</h2>
+    <p class="lede">Price gets the headline; structure decides who actually keeps the risk. Two deals at the same $1.2B can be wildly different economic propositions once you look at what is being bought, what it is being paid with, and what happens when something surfaces after closing.</p>
+
+    <h3>Stock deal vs asset deal</h3>
+    <p>In a <strong>stock deal</strong> the buyer purchases the legal entity itself: every asset, every contract, and every liability, including the ones nobody has discovered yet. In an <strong>asset deal</strong> the buyer picks assets and liabilities line by line, leaving the rest (and often the lawsuits) behind, and typically gets a stepped-up tax basis that generates depreciation shelter for years.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th></th><th>Stock deal</th><th>Asset deal</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>What the buyer gets</td><td>The whole entity, everything it owns and owes</td><td>Selected assets and liabilities, chosen line by line</td></tr>
+          <tr><td>Unknown liabilities</td><td>Travel with the company to the buyer</td><td>Generally stay behind unless expressly assumed</td></tr>
+          <tr><td>Buyer tax</td><td>Carryover basis, no step-up (absent special elections)</td><td>Stepped-up basis, more depreciation and amortization shelter</td></tr>
+          <tr><td>Seller tax</td><td>One layer of tax, on the shares</td><td>Corporate sellers can face 2 layers, so they resist</td></tr>
+          <tr><td>Where you see it</td><td>Public mergers and most large deals</td><td>Smaller private deals, carve-outs, distressed sales</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Cash vs stock: who bears market risk</h3>
+    <p>Consideration allocates risk in time. <strong>Cash</strong> fixes the seller's value the moment the deal signs; from then on, every move in markets or in the combined business belongs to the buyer, and the seller pays tax now. <strong>Stock</strong> keeps the seller invested: they share the upside of the combination and the downside of the acquirer's stock.</p>
+    <p>Stock deals then split into 2 mechanics. With a <strong>fixed exchange ratio</strong> (say, 0.85 acquirer shares per target share) the number of shares is locked, so if the acquirer's stock falls 20% between sign and close, the target's shareholders eat it. With a <strong>fixed value</strong> structure the dollar amount is locked and the share count floats, pushing that risk back onto the acquirer's existing holders. Collars split the difference by bounding the ratio. Where the parties land tells you who had leverage and who believes in whose stock.</p>
+
+    <h3>Bridging devices: earnouts, escrows, break fees</h3>
+    <p>An <strong>earnout</strong> bridges a valuation gap with contingent payments: $80M now plus up to $20M more if revenue hits agreed targets over the next 2 years. Earnouts close deals that would otherwise die, and then generate more post-closing litigation than any other clause, because the buyer now controls the business whose performance triggers the payment.</p>
+    <p><strong>Escrows and indemnities</strong> protect the buyer after closing in private deals. A slice of the price (commonly around 10%) sits in escrow for 12 to 24 months against breaches of the seller's representations. Increasingly, representations and warranties insurance replaces much of the escrow, letting sellers take home cleaner proceeds while the buyer claims against a policy instead.</p>
+    <p><strong>Break fees</strong> price the divorce before the wedding. A target break fee (commonly 2% to 4% of equity value) compensates the buyer if the seller walks, typically to accept a superior offer. A <strong>reverse break fee</strong> runs the other way: the buyer pays if the deal dies for buyer-side reasons such as financing failure or antitrust rejection, and in regulatorily hot deals it can be much larger, because the seller is being asked to spend a year in limbo on the buyer's regulatory bet.</p>
+  </section>
+
+  <!-- ================= 05.7 defense and drama ================= -->
+  <section class="lesson" id="defense-and-drama">
+    <h2><span class="sec-num">05.7</span> Defense and drama: when the target says no</h2>
+    <p class="lede">Most deals are friendly, negotiated quietly and announced with matching quotes from both CEOs. The famous ones are not. When a board refuses to sell, a determined buyer can go around it, and an entire legal arsenal exists for exactly that fight.</p>
+
+    <p>A <strong>hostile bid</strong> is any attempt to buy a company over its board's objection. The gentlest opening is the bear hug: a public letter proposing a rich price, designed to force the board's hand by putting the offer in front of shareholders and the press. The blunter instrument is the <strong>tender offer</strong>: the bidder offers to buy shares directly from shareholders at a premium, bypassing the board entirely. If enough shares tender, the board's opinion stops mattering.</p>
+    <p>The defense with teeth is the <strong>poison pill</strong> (formally a shareholder rights plan). If any acquirer crosses a trigger threshold, often 10% to 15%, all <em>other</em> shareholders gain the right to buy new shares at a steep discount, massively diluting the raider's stake. No one has ever deliberately swallowed a modern pill; its purpose is to make hostile accumulation economically ruinous and force the bidder to negotiate with the board. Around it sit the supporting cast: staggered boards (only a third of directors up for election each year, so control takes 2 annual meetings to win), the white knight (a friendlier buyer invited in to top the hostile bid), and assorted exotica like the crown jewel sale and the Pac-Man defense (bid for the bidder), which is discussed more often than it is used.</p>
+    <p><strong>Activist investors</strong> play a different game. They rarely want to buy the company; they buy 5% or so (crossing that threshold in the US requires a public 13D filing), then agitate: sell the company, break it up, return cash, replace directors. Activists are often the opening act of M&amp;A, putting a company in play that management had no intention of selling.</p>
+
+    <div class="callout-case callout">
+      <p><strong>Disney vs Comcast for 21st Century Fox, 2017-2019.</strong> In December 2017 Disney agreed to buy most of Fox's entertainment assets for roughly $52.4B in stock. In June 2018, a day after a court cleared the AT&amp;T / Time Warner merger and de-risked the regulatory path, Comcast crashed the deal with an all-cash offer of about $65B. Disney came back within days at roughly $71.3B in cash and stock, and Fox's board took it. Comcast redirected its firepower to win the auction for Sky at about $39B, and Disney closed the Fox acquisition in March 2019. The saga is a compact lesson in everything this module covers: a motivated strategic underwriting synergies, a rival bidder adding roughly $19B to the price in 6 months, consideration switching between stock and cash as a competitive weapon, and regulatory strategy shaping the timing of every move.</p>
+    </div>
+
+    <p>The quiet lesson from the drama: hostile situations are rare, but the <em>possibility</em> of them disciplines every boardroom. A board that refuses a rich offer must be able to explain to its shareholders why staying independent is worth more. Sometimes it is. The burden of proof, though, sits with the people saying no.</p>
+  </section>
+
+  <!-- ================= 05.8 quiz ================= -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">05.8</span> Knowledge check</h2>
+    <p class="lede">Ten questions across the whole deal arc: rationale, process, math, structure, and defense.</p>
+    <div id="quiz-root"></div>
+  </section>
+</main>
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  var fmt = Atlas.fmt;
+  var SH = 100; /* acquirer shares outstanding, millions */
+
+  function safe(n) { return (typeof n === "number" && isFinite(n)) ? n : 0; }
+
+  /* ---- bind sliders (auto-updates each row's <output>) ---- */
+  var ani = Atlas.bind("acc-ani", function (v) { return fmt.moneyM(v); });
+  var ape = Atlas.bind("acc-ape", function (v) { return fmt.mult(v); });
+  var tni = Atlas.bind("acc-tni", function (v) { return fmt.moneyM(v); });
+  var tpe = Atlas.bind("acc-tpe", function (v) { return fmt.mult(v); });
+  var prem = Atlas.bind("acc-prem", function (v) { return fmt.pct(v, 0); });
+  var cash = Atlas.bind("acc-cash", function (v) { return fmt.pct(v, 0); });
+  var stock = Atlas.bind("acc-stock", function (v) { return fmt.pct(v, 0); });
+  var kd = Atlas.bind("acc-kd", function (v) { return fmt.pct(v, 2); });
+  var yc = Atlas.bind("acc-yc", function (v) { return fmt.pct(v, 2); });
+  var tax = Atlas.bind("acc-tax", function (v) { return fmt.pct(v, 0); });
+  var syn = Atlas.bind("acc-syn", function (v) { return fmt.moneyM(v); });
+
+  function set(id, txt) { document.getElementById(id).textContent = txt; }
+
+  /* rounded-right horizontal bar path (square at baseline) */
+  function barPath(x0, y, w, h) {
+    w = Math.max(0, Math.min(w, 300));
+    if (w < 5) return "M" + x0 + " " + y + " h" + w + " v" + h + " h-" + w + " Z";
+    return "M" + x0 + " " + y + " H" + (x0 + w - 4) +
+      " Q" + (x0 + w) + " " + y + " " + (x0 + w) + " " + (y + 4) +
+      " V" + (y + h - 4) +
+      " Q" + (x0 + w) + " " + (y + h) + " " + (x0 + w - 4) + " " + (y + h) +
+      " H" + x0 + " Z";
+  }
+
+  function model(useSynergies) {
+    var t = tax.value / 100;
+    var price = Math.max(0.01, ani.value * ape.value / SH); /* acquirer share price, $ */
+    var offer = tni.value * tpe.value * (1 + prem.value / 100); /* $M */
+    var cashPart = offer * cash.value / 100;
+    var stockPart = offer * stock.value / 100;
+    var debtPart = Math.max(0, offer - cashPart - stockPart);
+    var newSh = safe(stockPart / price);
+    var synAT = (useSynergies ? syn.value : 0) * (1 - t);
+    var interest = debtPart * (kd.value / 100) * (1 - t);
+    var forgone = cashPart * (yc.value / 100) * (1 - t);
+    var pfNI = ani.value + tni.value + synAT - interest - forgone;
+    var soEPS = ani.value / SH;
+    var pfEPS = safe(pfNI / Math.max(0.01, SH + newSh));
+    return {
+      t: t, price: price, offer: offer, cashPart: cashPart, stockPart: stockPart,
+      debtPart: debtPart, newSh: newSh, synAT: synAT, interest: interest,
+      forgone: forgone, pfNI: pfNI, soEPS: soEPS, pfEPS: pfEPS,
+      accr: safe(pfEPS / Math.max(0.0001, soEPS) - 1)
+    };
+  }
+
+  function recompute(e) {
+    /* keep cash% + stock% within 100; the slider the user moved wins */
+    var moved = (e && e.target) ? e.target.id : "";
+    if (cash.value + stock.value > 100) {
+      if (moved === "acc-stock") cash.value = 100 - stock.value;
+      else stock.value = 100 - cash.value;
+    }
+    var debtPct = Math.max(0, 100 - cash.value - stock.value);
+    set("acc-debt-out", fmt.pct(debtPct, 0));
+
+    var m = model(true);
+    var m0 = model(false);
+
+    /* KPIs */
+    set("acc-k-so", fmt.money(m.soEPS, 2));
+    set("acc-k-pf", fmt.money(m.pfEPS, 2));
+    var accrEl = document.getElementById("acc-k-accr");
+    accrEl.textContent = (m.accr > 0 ? "+" : "") + fmt.pct(m.accr * 100, 1);
+    accrEl.className = "stat-value " + (m.accr > 0.0005 ? "pos" : (m.accr < -0.0005 ? "neg" : ""));
+    var pePaid = safe(m.offer / Math.max(1, tni.value));
+    set("acc-k-pe", fmt.mult(pePaid));
+
+    /* verdict: earnings yield bought vs blended after-tax funding cost */
+    var yieldPct = safe((tni.value + m.synAT) / Math.max(1, m.offer)) * 100;
+    var costPct = safe((m.interest + m.forgone + m.stockPart / Math.max(0.1, ape.value)) / Math.max(1, m.offer)) * 100;
+    var v;
+    if (Math.abs(m.accr) < 0.002) {
+      v = "<b>Roughly breakeven.</b> The earnings you buy yield " + fmt.pct(yieldPct, 1) +
+        " on the price paid, almost exactly the blended after-tax cost of the funding mix (" + fmt.pct(costPct, 1) + ").";
+    } else if (m.accr > 0 && m0.accr <= 0) {
+      v = "<b>Accretive, but only because of synergies.</b> Strip them out and EPS moves " + fmt.pct(m0.accr * 100, 1) +
+        ". At " + fmt.mult(pePaid) + " paid, this deal works on paper only if integration actually delivers.";
+    } else if (m.accr > 0) {
+      v = "<b>Accretive.</b> The earnings you buy yield " + fmt.pct(yieldPct, 1) +
+        " on the price paid, and the funding mix costs " + fmt.pct(costPct, 1) +
+        " after tax. You are paying " + fmt.mult(pePaid) + " with cheaper currency than the earnings you receive.";
+    } else {
+      v = "<b>Dilutive.</b> The earnings you buy yield " + fmt.pct(yieldPct, 1) +
+        " on the price paid, but the funding mix costs " + fmt.pct(costPct, 1) +
+        " after tax. At " + fmt.mult(pePaid) + " paid, the premium or the mix (or both) is too expensive.";
+    }
+    document.getElementById("acc-verdict").innerHTML = v;
+
+    /* live bar chart */
+    var maxEPS = Math.max(m.soEPS, m.pfEPS, 0.01);
+    var wSo = Math.max(0, m.soEPS) / maxEPS * 260;
+    var wPf = Math.max(0, m.pfEPS) / maxEPS * 260;
+    document.getElementById("acc-bar-so").setAttribute("d", barPath(118, 25, wSo, 20));
+    document.getElementById("acc-bar-pf").setAttribute("d", barPath(118, 65, wPf, 20));
+    var lSo = document.getElementById("acc-val-so");
+    var lPf = document.getElementById("acc-val-pf");
+    lSo.setAttribute("x", 118 + wSo + 8); lSo.textContent = fmt.money(m.soEPS, 2);
+    lPf.setAttribute("x", 118 + wPf + 8); lPf.textContent = fmt.money(m.pfEPS, 2);
+
+    /* driver table */
+    set("acc-d-a", fmt.moneyM(ani.value));
+    set("acc-d-t", fmt.moneyM(tni.value));
+    set("acc-d-s", fmt.moneyM(Math.round(m.synAT)));
+    set("acc-d-i", m.interest > 0.5 ? "(" + fmt.moneyM(Math.round(m.interest)) + ")" : "$0M");
+    set("acc-d-f", m.forgone > 0.5 ? "(" + fmt.moneyM(Math.round(m.forgone)) + ")" : "$0M");
+    set("acc-d-pf", fmt.moneyM(Math.round(m.pfNI)));
+    set("acc-d-ns", fmt.num(m.newSh, 1) + "M");
+    set("acc-d-sh", fmt.num(SH + m.newSh, 1) + "M");
+  }
+
+  Atlas.onInput(["acc-ani", "acc-ape", "acc-tni", "acc-tpe", "acc-prem", "acc-cash",
+    "acc-stock", "acc-kd", "acc-yc", "acc-tax", "acc-syn"], recompute);
+
+  /* scenario presets */
+  var PRESETS = {
+    base:     { ani: 900, ape: 19, tni: 300, tpe: 14, prem: 30, cash: 40, stock: 40, kd: 6, yc: 4, tax: 25, syn: 60 },
+    allstock: { ani: 900, ape: 19, tni: 300, tpe: 24, prem: 35, cash: 0, stock: 100, kd: 6, yc: 4, tax: 25, syn: 40 },
+    cashdebt: { ani: 900, ape: 19, tni: 300, tpe: 14, prem: 25, cash: 50, stock: 0, kd: 5, yc: 4, tax: 25, syn: 80 }
+  };
+  var BINDS = { ani: ani, ape: ape, tni: tni, tpe: tpe, prem: prem, cash: cash, stock: stock, kd: kd, yc: yc, tax: tax, syn: syn };
+  document.getElementById("acc-presets").addEventListener("click", function (e) {
+    var key = e.target && e.target.getAttribute ? e.target.getAttribute("data-preset") : null;
+    if (!key || !PRESETS[key]) return;
+    var p = PRESETS[key];
+    Object.keys(p).forEach(function (k) { BINDS[k].value = p[k]; });
+    recompute();
+  });
+
+  /* ---- quiz ---- */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "Across decades of event studies, the value created on a deal announcement mostly goes to...",
+      choices: ["The acquirer's shareholders", "The target's shareholders", "Both sides roughly equally", "The advisors"],
+      answer: 1,
+      explain: "Targets typically gain 20% to 30% on announcement while acquirer returns hover near zero, because auction competition forces buyers to hand most of the expected value to the seller."
+    },
+    {
+      q: "A strategic buyer can usually justify a higher price than a financial sponsor for the same asset because...",
+      choices: ["Strategics always have more cash on hand", "Strategics can underwrite synergies a standalone owner cannot create", "Sponsors are legally capped on the premiums they can pay", "Strategics never need board approval"],
+      answer: 1,
+      explain: "Cost overlaps and shared infrastructure are cash flows that exist only in combination, so a strategic can bid part of them away and still come out ahead."
+    },
+    {
+      q: "The 1-2 page anonymous document sent to a wide buyer list at process launch is the...",
+      choices: ["CIM", "Teaser", "IOI", "Fairness opinion"],
+      answer: 1,
+      explain: "The teaser markets the opportunity without naming the company; only buyers who sign an NDA receive the full CIM."
+    },
+    {
+      q: "In a standard sell-side auction, which comes first?",
+      choices: ["LOI, then IOIs", "IOIs, then the LOI", "The SPA, then the CIM", "Exclusivity, then first-round bids"],
+      answer: 1,
+      explain: "IOIs are non-binding first-round indications used to cut the field; the LOI comes near the end, when one buyer wins exclusivity."
+    },
+    {
+      q: "Meridian trades at 20x earnings and buys a target for 15x its net income, all in stock, with no synergies. The deal is...",
+      choices: ["Accretive", "Dilutive", "Exactly breakeven", "Impossible to tell"],
+      answer: 0,
+      explain: "All-stock shortcut: each dollar of stock issued costs Meridian 5% in earnings yield (1/20) but buys earnings yielding 6.7% (1/15), so EPS rises."
+    },
+    {
+      q: "Cost synergies of $40M pre-tax, a 25% tax rate, and a 10% discount rate imply a capitalized synergy value of about...",
+      choices: ["$400M", "$300M", "$225M", "$120M"],
+      answer: 1,
+      explain: "After tax the run rate is $30M a year; as a perpetuity at 10% that is $30M / 0.10 = $300M, before subtracting costs to achieve."
+    },
+    {
+      q: "In an all-cash deal that takes 6 months to close, the risk that equity markets fall before closing is borne by...",
+      choices: ["The target's shareholders", "The buyer", "Both sides equally", "The escrow agent"],
+      answer: 1,
+      explain: "Cash fixes the seller's value at signing, so market moves after that land on the buyer; in a fixed exchange ratio stock deal the target's holders would share that risk."
+    },
+    {
+      q: "A reverse break fee is paid by...",
+      choices: ["The target if it accepts a superior offer", "The buyer if the deal dies for buyer-side reasons like financing or antitrust", "The bankers if the process leaks", "The escrow agent at closing"],
+      answer: 1,
+      explain: "It compensates the seller when the failure sits on the buyer's side of the ledger; the ordinary target break fee covers the mirror-image case."
+    },
+    {
+      q: "A poison pill deters a hostile acquirer by...",
+      choices: ["Making the target's debt immediately due on any takeover", "Letting all other shareholders buy discounted stock once the raider crosses a trigger, diluting the raider", "Requiring government approval for any share purchase", "Paying management large retention bonuses"],
+      answer: 1,
+      explain: "Above the trigger (often 10% to 15%) every other holder can buy cheap new shares, making hostile accumulation ruinously dilutive and forcing the bidder to negotiate with the board."
+    },
+    {
+      q: "Diligence teams credit cost synergies far more than revenue synergies because cost synergies...",
+      choices: ["Are always larger in dollar terms", "Are tax free", "Depend mostly on decisions within management's control and can be verified bottom-up", "Appear in the CIM"],
+      answer: 2,
+      explain: "Closing a duplicate headquarters is a decision; cross-selling requires customers to cooperate and competitors not to respond, which is why revenue synergies are treated as unpaid-for upside."
+    }
+  ]);
+});
+</script>
+</body>
+</html>

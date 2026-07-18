@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" data-module="home" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capital Atlas · an interactive atlas of the finance industry</title>
+<meta name="description" content="Learn the finance industry end to end: the value chain, accounting, valuation, M&A, private equity, capital markets, and careers. Interactive tools, visual explanations, no account needed.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css">
+<style>
+  .hero-stats { display: flex; gap: 26px; justify-content: center; flex-wrap: wrap; margin-top: 2.2rem; }
+  .hero-stat { text-align: center; }
+  .hero-stat .v { font-family: var(--font-display); font-size: 1.9rem; font-weight: 650; }
+  .hero-stat .k { font-size: 0.8rem; color: var(--ink-3); font-weight: 600; }
+  .cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .path-order { display: none; font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
+    color: #fff; background: var(--brand-strong); border-radius: 999px; padding: 2px 9px; }
+  [data-theme="dark"] .path-order { background: #2a78d6; }
+  body.path-active .module-card.in-path .path-order { display: inline-block; }
+  .toolkit-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+  .tool-card { display: flex; gap: 12px; align-items: flex-start; background: var(--surface-1);
+    border: 1px solid var(--hairline); border-radius: var(--radius); padding: 15px 17px; color: var(--ink); }
+  .tool-card:hover { border-color: var(--brand); text-decoration: none; box-shadow: var(--shadow-1); }
+  .tool-dot { width: 9px; height: 9px; border-radius: 3px; margin-top: 7px; flex: none; }
+  .tool-card b { display: block; font-size: 0.93rem; }
+  .tool-card span { font-size: 0.8rem; color: var(--ink-2); }
+  .how-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  @media (max-width: 900px) { .how-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+
+  <!-- ============ hero ============ -->
+  <section class="home-hero">
+    <span class="kicker" style="justify-content:center">The finance industry, mapped</span>
+    <h1>Understand how money actually moves.</h1>
+    <p class="lede">Capital Atlas takes you from zero to deal-ready: the industry value chain, accounting,
+      valuation, M&amp;A, private equity, and capital markets. Every concept is explained visually and
+      backed by a live, hands-on tool. No account, no cost, progress saved on your device.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="modules/foundations.html">Start with Module 01 →</a>
+      <a class="btn" href="#paths">Pick a learning path</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="v">9</div><div class="k">Modules</div></div>
+      <div class="hero-stat"><div class="v">20+</div><div class="k">Interactive tools</div></div>
+      <div class="hero-stat"><div class="v">200+</div><div class="k">Glossary terms</div></div>
+      <div class="hero-stat"><div class="v">~8h</div><div class="k">Full curriculum</div></div>
+    </div>
+  </section>
+
+  <!-- ============ system map ============ -->
+  <section class="home-section">
+    <div class="figure" style="margin-top:0">
+      <p class="figure-title">The financial system in one picture</p>
+      <p class="figure-sub">Capital flows from the people who have it to the people who can use it. The industry is everything in between.</p>
+      <svg viewBox="0 0 960 250" role="img" aria-label="Diagram: savers provide capital to intermediaries, which allocate it to businesses and governments; returns flow back.">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 z" fill="var(--viz-2)"></path>
+          </marker>
+          <marker id="arrb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 z" fill="var(--viz-1)"></path>
+          </marker>
+        </defs>
+        <!-- nodes -->
+        <g>
+          <rect x="20" y="70" width="200" height="110" rx="12" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+          <text x="120" y="103" text-anchor="middle" class="lbl" font-size="15">Owners of capital</text>
+          <text x="120" y="126" text-anchor="middle" class="lbl-muted">Households · Pensions</text>
+          <text x="120" y="144" text-anchor="middle" class="lbl-muted">Endowments · Sovereign funds</text>
+        </g>
+        <g>
+          <rect x="370" y="45" width="220" height="160" rx="12" fill="color-mix(in srgb, var(--viz-1) 10%, var(--surface-1))" stroke="var(--viz-1)"></rect>
+          <text x="480" y="80" text-anchor="middle" class="lbl" font-size="15">The industry</text>
+          <text x="480" y="105" text-anchor="middle" class="lbl-muted">Banks · Asset managers</text>
+          <text x="480" y="123" text-anchor="middle" class="lbl-muted">PE · VC · Hedge funds</text>
+          <text x="480" y="141" text-anchor="middle" class="lbl-muted">Brokers · Exchanges</text>
+          <text x="480" y="168" text-anchor="middle" font-size="11" fill="var(--ink-3)" font-style="italic">intermediation, advice, risk transfer</text>
+        </g>
+        <g>
+          <rect x="740" y="70" width="200" height="110" rx="12" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+          <text x="840" y="103" text-anchor="middle" class="lbl" font-size="15">Users of capital</text>
+          <text x="840" y="126" text-anchor="middle" class="lbl-muted">Companies · Startups</text>
+          <text x="840" y="144" text-anchor="middle" class="lbl-muted">Governments · Projects</text>
+        </g>
+        <!-- flows -->
+        <path d="M225 100 H 362" stroke="var(--viz-2)" stroke-width="2" fill="none" marker-end="url(#arr)"></path>
+        <path d="M595 100 H 732" stroke="var(--viz-2)" stroke-width="2" fill="none" marker-end="url(#arr)"></path>
+        <text x="293" y="90" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">capital</text>
+        <text x="663" y="90" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">capital</text>
+        <path d="M735 155 H 598" stroke="var(--viz-1)" stroke-width="2" fill="none" marker-end="url(#arrb)"></path>
+        <path d="M365 155 H 228" stroke="var(--viz-1)" stroke-width="2" fill="none" marker-end="url(#arrb)"></path>
+        <text x="663" y="175" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">returns · interest · dividends</text>
+        <text x="293" y="175" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">returns, minus fees</text>
+      </svg>
+      <p class="figure-note">Module 02 turns this picture into a full interactive map of every player and every fee.</p>
+    </div>
+  </section>
+
+  <!-- ============ learning paths ============ -->
+  <section class="home-section" id="paths">
+    <h2>Choose your route</h2>
+    <p class="lede">Three curated paths through the curriculum. Pick one and we highlight your modules in order, or ignore them and roam.</p>
+    <div class="path-grid" id="path-grid"></div>
+  </section>
+
+  <!-- ============ curriculum ============ -->
+  <section class="home-section" id="curriculum">
+    <h2>The curriculum</h2>
+    <p class="lede">Nine modules, each a self-contained deep dive with visuals, live tools, and a knowledge check. Progress is saved in your browser.</p>
+    <div class="module-grid" id="module-grid"></div>
+  </section>
+
+  <!-- ============ toolkit ============ -->
+  <section class="home-section" id="toolkit">
+    <h2>The toolkit</h2>
+    <p class="lede">Every module embeds working tools. Jump straight to one.</p>
+    <div class="toolkit-grid">
+      <a class="tool-card" href="modules/foundations.html#tool-tvm"><i class="tool-dot" style="background:#2a78d6"></i><span><b>Time Value of Money Lab</b><span>Compounding and discounting, live</span></span></a>
+      <a class="tool-card" href="modules/value-chain.html#tool-map"><i class="tool-dot" style="background:#1baf7a"></i><span><b>Industry Map Explorer</b><span>Click any player, see their business</span></span></a>
+      <a class="tool-card" href="modules/accounting.html#tool-linkage"><i class="tool-dot" style="background:#eda100"></i><span><b>Three-Statement Linkage</b><span>Watch one change ripple through</span></span></a>
+      <a class="tool-card" href="modules/valuation.html#tool-dcf"><i class="tool-dot" style="background:#4a3aa7"></i><span><b>DCF Sandbox</b><span>Build a valuation with sliders</span></span></a>
+      <a class="tool-card" href="modules/valuation.html#tool-comps"><i class="tool-dot" style="background:#4a3aa7"></i><span><b>Comps Builder</b><span>Multiples across a peer set</span></span></a>
+      <a class="tool-card" href="modules/ma-deals.html#tool-accretion"><i class="tool-dot" style="background:#e34948"></i><span><b>Accretion / Dilution</b><span>Does the deal add to EPS?</span></span></a>
+      <a class="tool-card" href="modules/lbo-pe.html#tool-lbo"><i class="tool-dot" style="background:#eb6834"></i><span><b>LBO Simulator</b><span>Leverage, exit, IRR and MOIC</span></span></a>
+      <a class="tool-card" href="modules/buy-side.html#tool-fees"><i class="tool-dot" style="background:#008300"></i><span><b>Fee Drag Visualizer</b><span>What 2-and-20 really costs</span></span></a>
+      <a class="tool-card" href="modules/capital-markets.html#tool-bond"><i class="tool-dot" style="background:#e87ba4"></i><span><b>Bond Price Seesaw</b><span>Rates up, prices down. See why</span></span></a>
+      <a class="tool-card" href="modules/capital-markets.html#tool-payoff"><i class="tool-dot" style="background:#e87ba4"></i><span><b>Option Payoff Builder</b><span>Calls, puts, and combinations</span></span></a>
+      <a class="tool-card" href="modules/careers.html#tool-comp"><i class="tool-dot" style="background:#256abf"></i><span><b>Comp Ladder Explorer</b><span>Pay by seat and seniority</span></span></a>
+      <a class="tool-card" href="glossary.html"><i class="tool-dot" style="background:#898781"></i><span><b>Glossary</b><span>200+ terms, searchable</span></span></a>
+    </div>
+  </section>
+
+  <!-- ============ how it works ============ -->
+  <section class="home-section">
+    <h2>Built to be used, not just read</h2>
+    <div class="how-grid">
+      <div class="card"><h4>Interactive first</h4><p class="small muted">Every abstract idea gets a tool you can push on. Move a discount rate and watch a valuation reprice. Crank leverage and watch an LBO's IRR climb, then crack.</p></div>
+      <div class="card"><h4>Honest about the industry</h4><p class="small muted">Fee flows, incentives, and who wins in each transaction, mapped explicitly. Understanding finance means understanding who gets paid and for what.</p></div>
+      <div class="card"><h4>Private by design</h4><p class="small muted">No account, no tracking, no server. Progress and quiz scores live in your browser's local storage and never leave your device.</p></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/data/curriculum.js"></script>
+<script src="assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  var CUR = Atlas.curriculum;
+
+  /* ----- module cards ----- */
+  var grid = document.getElementById("module-grid");
+  CUR.modules.forEach(function (m) {
+    var pct = Atlas.progress.pct(m.id);
+    var a = document.createElement("a");
+    a.className = "module-card";
+    a.href = m.file;
+    a.setAttribute("data-mod", m.id);
+    a.style.setProperty("--mc", m.accent);
+    a.innerHTML =
+      '<div class="mc-top"><span class="mc-num">Module ' + m.num + '</span>' +
+      '<span style="display:flex;gap:6px;align-items:center"><span class="path-order"></span>' +
+      '<span class="pill pill-' + m.level.toLowerCase() + '">' + m.level + "</span></span></div>" +
+      '<div class="mc-title">' + m.title + "</div>" +
+      '<p class="mc-sum">' + m.summary + "</p>" +
+      '<div class="mc-meta"><span>≈ ' + m.minutes + " min</span></div>" +
+      '<div class="mc-progress"><div class="progress-track"><div class="progress-fill" style="width:' + pct + '%;background:' + m.accent + '"></div></div>' +
+      '<div class="mc-pct">' + (pct > 0 ? pct + "% complete" : "Not started") + "</div></div>";
+    grid.appendChild(a);
+  });
+
+  /* ----- learning paths ----- */
+  var pathGrid = document.getElementById("path-grid");
+  var activePath = null;
+  CUR.paths.forEach(function (p) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "path-card";
+    b.innerHTML = '<div class="path-aud">' + p.audience + '</div><h3>' + p.title + "</h3><p>" + p.blurb + "</p>";
+    b.addEventListener("click", function () { setPath(activePath === p.id ? null : p.id, b); });
+    b.setAttribute("data-path", p.id);
+    pathGrid.appendChild(b);
+  });
+  function setPath(id, btn) {
+    activePath = id;
+    document.querySelectorAll(".path-card").forEach(function (c) {
+      c.classList.toggle("active", c.getAttribute("data-path") === id);
+    });
+    var path = CUR.paths.find(function (p) { return p.id === id; });
+    document.body.classList.toggle("path-active", !!path);
+    document.querySelectorAll(".module-card").forEach(function (card) {
+      var mid = card.getAttribute("data-mod");
+      var pos = path ? path.modules.indexOf(mid) : -1;
+      card.classList.toggle("dimmed", !!path && pos === -1);
+      card.classList.toggle("in-path", pos !== -1);
+      var badge = card.querySelector(".path-order");
+      badge.textContent = pos === -1 ? "" : "Step " + (pos + 1);
+    });
+    if (path) document.getElementById("curriculum").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+});
+</script>
+</body>
+</html>

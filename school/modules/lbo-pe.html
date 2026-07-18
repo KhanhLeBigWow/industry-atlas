@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en" data-module="lbo-pe" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Private Equity &amp; LBOs · Capital Atlas</title>
+<meta name="description" content="How leveraged buyouts work: fund structures and 2-and-20, deal anatomy, a live LBO simulator with IRR and MOIC, the value creation playbook, and how deals end.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .lbo-warnbox { display: none; border: 1px solid var(--neg); border-left-width: 4px;
+    background: color-mix(in srgb, var(--neg) 8%, var(--surface-1)); border-radius: 10px;
+    padding: 12px 16px; font-size: 0.9rem; margin: 0 0 14px; }
+  .lbo-warnbox.on { display: block; }
+  .lbo-warnbox b { color: var(--neg); }
+  .lbo-note { font-size: 0.78rem; color: var(--ink-3); margin: 8px 0 0; }
+  .lbo-clamp { display: none; font-size: 0.78rem; color: var(--ink-3); margin: 4px 0 10px;
+    padding: 8px 10px; background: var(--surface-3); border-radius: 8px; }
+  .lbo-clamp.on { display: block; }
+  .lbo-presets { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+  .lbo-wf-sum { font-size: 0.9rem; margin-top: 12px; color: var(--ink-2); }
+  .lbo-wf-sum strong { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <header class="module-hero">
+    <span class="kicker">Module 06 · Advanced</span>
+    <h1>Private Equity &amp; LBOs</h1>
+    <p class="hero-tagline">Borrow most of the price, let the company's own cash pay the loan back, keep the upside. This module shows why that math can work spectacularly, and exactly how it breaks.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ============================ 06.1 ============================ -->
+  <section class="lesson" id="the-big-idea">
+    <h2><span class="sec-num">06.1</span> The big idea: a company with a mortgage</h2>
+    <p class="lede">A leveraged buyout (LBO) is the purchase of a company using mostly borrowed money, where the company's own cash flow services and repays the debt. Private equity (PE) firms have built a multi-trillion dollar industry on this single structure, and everything else in this module (funds, fees, tranches, exits) exists to make it run at scale.</p>
+
+    <p>Start with the version you already understand: a rental house. You buy a $500K property with $100K of your own money and a $400K mortgage. The tenant's rent covers the mortgage payment, so the loan pays itself down without you writing another check.</p>
+    <p>Now run the math forward 10 years and assume the housing market goes exactly nowhere. The house is still worth $500K, but the mortgage balance has amortized to $250K. Sell it and you clear $250K on your $100K, a 2.5x return in a totally flat market. Every dollar of principal the tenant paid off migrated from the lender's slice of the house to yours.</p>
+    <p>Add even mild appreciation and leverage turns the dial hard. If the house drifts up just 10% to $550K, your equity at sale is $300K, a 3.0x. The asset moved 10%; your money tripled. That asymmetry, small moves in asset value producing large moves in a thin equity slice, is the entire engine of private equity. It also runs in reverse: if the house falls 20% to $400K, your equity is worth exactly zero. Leverage does not care which direction it amplifies.</p>
+
+    <div class="figure">
+      <p class="figure-title">The mortgage effect, applied to a company</p>
+      <p class="figure-sub">Meridian Industrial Co. is bought for $800M with $520M of debt. Enterprise value stays flat; the business sweeps $60M of cash to the lenders every year. Watch the equity slice.</p>
+      <div class="legend">
+        <span><i style="background:var(--viz-1)"></i>Debt</span>
+        <span><i style="background:var(--viz-2)"></i>Sponsor equity</span>
+      </div>
+      <svg viewBox="0 0 720 190" role="img" aria-label="Three stacked bars showing constant $800M enterprise value at close, year 3, and year 6. The debt portion shrinks from $520M to $160M while equity grows from $280M to $640M, a 2.3x multiple with no growth.">
+        <!-- gridlines: $0 to $800M -->
+        <line x1="110" y1="26" x2="110" y2="158" stroke="var(--grid-line)" stroke-width="1"></line>
+        <line x1="242.5" y1="26" x2="242.5" y2="158" stroke="var(--grid-line)" stroke-width="1"></line>
+        <line x1="375" y1="26" x2="375" y2="158" stroke="var(--grid-line)" stroke-width="1"></line>
+        <line x1="507.5" y1="26" x2="507.5" y2="158" stroke="var(--grid-line)" stroke-width="1"></line>
+        <line x1="640" y1="26" x2="640" y2="158" stroke="var(--grid-line)" stroke-width="1"></line>
+        <text x="110" y="176" text-anchor="middle" class="lbl-muted">$0</text>
+        <text x="242.5" y="176" text-anchor="middle" class="lbl-muted">$200M</text>
+        <text x="375" y="176" text-anchor="middle" class="lbl-muted">$400M</text>
+        <text x="507.5" y="176" text-anchor="middle" class="lbl-muted">$600M</text>
+        <text x="640" y="176" text-anchor="middle" class="lbl-muted">$800M</text>
+        <!-- close: debt 520, equity 280 -->
+        <text x="100" y="51" text-anchor="end" font-size="12" font-weight="600" fill="var(--ink-2)">Close</text>
+        <rect x="110" y="36" width="344.5" height="22" fill="var(--viz-1)"></rect>
+        <path d="M456.5 36 H636 Q640 36 640 40 V54 Q640 58 636 58 H456.5 Z" fill="var(--viz-2)"></path>
+        <text x="648" y="51" text-anchor="start" font-size="11.5" font-weight="600" fill="var(--ink-2)">$280M · 1.0x</text>
+        <!-- year 3: debt 340, equity 460 -->
+        <text x="100" y="97" text-anchor="end" font-size="12" font-weight="600" fill="var(--ink-2)">Year 3</text>
+        <rect x="110" y="82" width="225.3" height="22" fill="var(--viz-1)"></rect>
+        <path d="M337.3 82 H636 Q640 82 640 86 V100 Q640 104 636 104 H337.3 Z" fill="var(--viz-2)"></path>
+        <text x="648" y="97" text-anchor="start" font-size="11.5" font-weight="600" fill="var(--ink-2)">$460M · 1.6x</text>
+        <!-- year 6: debt 160, equity 640 -->
+        <text x="100" y="143" text-anchor="end" font-size="12" font-weight="600" fill="var(--ink-2)">Year 6</text>
+        <rect x="110" y="128" width="106" height="22" fill="var(--viz-1)"></rect>
+        <path d="M218 128 H636 Q640 128 640 132 V146 Q640 150 636 150 H218 Z" fill="var(--viz-2)"></path>
+        <text x="648" y="143" text-anchor="start" font-size="11.5" font-weight="600" fill="var(--ink-2)">$640M · 2.3x</text>
+      </svg>
+      <p class="figure-note">Zero growth, zero multiple change, and the equity still compounds at roughly 15% a year. That is the mortgage effect, and it is the floor under every LBO thesis. Figures illustrative.</p>
+    </div>
+
+    <h3>Why boring businesses are beautiful</h3>
+    <p>Debt payments are contractual: they arrive every quarter whether the business had a good year or not. So the ideal LBO target is not the most exciting company in the market, it is the most predictable. Sponsors hunt for businesses that throw off steady cash with minimal reinvestment needs.</p>
+    <div class="grid-3">
+      <div class="card"><h4>Steady, recurring cash flow</h4><p class="small muted">Contracted revenue, repeat purchases, mission-critical products. Cash that shows up on schedule can carry a loan on schedule.</p></div>
+      <div class="card"><h4>Light capital needs</h4><p class="small muted">Low capital expenditure (capex) means EBITDA actually converts to cash instead of disappearing into new machinery every year.</p></div>
+      <div class="card"><h4>A defensible position</h4><p class="small muted">Niche leadership, switching costs, or a brand. The business must survive 5-7 years of a levered balance sheet without losing its moat.</p></div>
+    </div>
+    <p>Think industrial distributors, route-based services, insurance brokerage, software with 95% retention, funeral homes. The anti-profile is just as clear: pre-profit biotech, deep cyclicals bought at peak earnings, and anything fashionable. A company that might grow 40% or shrink 40% cannot promise a lender anything.</p>
+
+    <div class="callout-case callout">
+      <p><strong>RJR Nabisco, 1989.</strong> KKR won a bidding war for the tobacco and food conglomerate at roughly $25B (about $31B including assumed debt), the largest LBO the world had seen and the subject of the book "Barbarians at the Gate." The deal was financed with roughly 90% debt, typical of the 1980s. After years of asset sales and restructuring, KKR's investors ended up roughly breaking even. The lesson survives every cycle: winning the auction is not the same as winning the deal, and the price you pay is the one lever you never get back.</p>
+    </div>
+  </section>
+
+  <!-- ============================ 06.2 ============================ -->
+  <section class="lesson" id="the-fund-machine">
+    <h2><span class="sec-num">06.2</span> The fund machine: GPs, LPs, and 2-and-20</h2>
+    <p class="lede">Before a firm can buy anything, it needs a war chest. PE firms do not invest their own balance sheet at scale; they raise funds from institutions, invest that money over a decade, and get paid through a fee structure that is worth understanding in exact dollars, because it explains most behavior in the industry.</p>
+
+    <p>A PE fund is a limited partnership with two kinds of partners. The <strong>limited partners (LPs)</strong> supply almost all the capital: pension funds, endowments, sovereign wealth funds, insurers, and wealthy families. They get limited liability and no say in individual deals. The <strong>general partner (GP)</strong> is the PE firm itself: it raises the fund, sources and manages the deals, and carries legal responsibility. GPs typically invest 2-5% of the fund from their own pockets so they have real money at risk alongside their investors.</p>
+    <p>LPs do not wire the money on day one. They sign a <strong>commitment</strong>, and the GP draws it down through <strong>capital calls</strong> as deals close. A "$1B fund" is $1B of promises, deployed over roughly 5 years and returned over roughly 10.</p>
+
+    <ol class="timeline">
+      <li>
+        <div class="timeline-when">Years 0-1 · Raise</div>
+        <div class="timeline-title">Fundraising and first close</div>
+        <div class="timeline-body">The GP pitches its track record to LPs. Once enough commitments are signed, the fund holds a "first close" and can start investing while it keeps raising.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Years 1-5 · Invest</div>
+        <div class="timeline-title">The investment period</div>
+        <div class="timeline-body">Capital is called and deployed into roughly 10-15 platform companies. After year 5, most fund agreements bar new platform deals (add-ons to existing companies remain allowed).</div>
+      </li>
+      <li>
+        <div class="timeline-when">Years 3-8 · Manage</div>
+        <div class="timeline-title">Build value</div>
+        <div class="timeline-body">Board seats, 100-day plans, new executives, add-on acquisitions, debt paydown. This is where Section 06.5's playbook runs.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Years 5-10 · Harvest</div>
+        <div class="timeline-title">Exit and distribute</div>
+        <div class="timeline-body">Companies are sold or listed, and proceeds flow back to LPs through the distribution waterfall below. Funds typically allow 1-2 one-year extensions to finish selling.</div>
+      </li>
+    </ol>
+
+    <div class="callout-example callout">
+      <p><strong>2-and-20 on a $1B fund, in real dollars.</strong> The classic buyout fee structure is a 2% annual management fee plus 20% carried interest. On a $1B fund: the management fee is 2% of <em>committed</em> capital during the 5-year investment period, $20M a year, or $100M. It then steps down (commonly ~1.5% of invested capital as companies are sold), call it another $50M over years 6-10. That is roughly $150M of fees over the fund's life, paid regardless of performance, and it funds salaries, offices, and deal sourcing. The "20" is <strong>carried interest</strong> ("carry"): 20% of the fund's profits, but only after LPs get all their money back plus a <strong>preferred return</strong> (the "pref" or hurdle), almost always 8% a year. If the fund turns $1B into $2.5B, profit is $1.5B and the GP's carry is $300M. Fees plus carry: roughly $450M to the GP on a good $1B fund. Now you know why everyone wants to be a GP.</p>
+    </div>
+
+    <h3>The distribution waterfall, step by step</h3>
+    <p>When a portfolio company is sold, the cash does not get split 80/20 immediately. It flows through a strict sequence of tiers, each one filling completely before a dollar reaches the next. This ordering is the LPs' core protection: the GP is paid for profit, not for activity.</p>
+
+    <div class="formula">Tier 1  Return of capital   100% to LPs until contributed capital is repaid
+Tier 2  Preferred return    100% to LPs until they have earned 8% per year
+Tier 3  GP catch-up         100% to GP until the GP holds 20% of profits paid so far
+Tier 4  Carried interest    all remaining proceeds split 80% LPs / 20% GP</div>
+
+    <p>The <strong>catch-up</strong> is the tier people find strangest. The pref is a hurdle, not a haircut: once LPs have their 8%, the GP "catches up" so that total profits end up split 80/20 from the first dollar of profit, not just profit above the hurdle. With a full catch-up, a GP that clears the pref earns exactly 20% of all profit. Drag the slider below and watch each tier fill.</p>
+
+    <div class="tool" id="tool-waterfall">
+      <div class="tool-head"><span class="tool-badge">Mini tool</span><h3>Waterfall splitter · $1B fund</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="slider-row">
+            <label>Gross fund proceeds <output></output></label>
+            <input type="range" id="wf-gross" min="0.8" max="3.5" step="0.1" value="2.5">
+          </div>
+          <p class="lbo-note">Assumes $1B called, all proceeds returned in year 5, so the 8% pref compounds to $469M. Full 100% catch-up, 20% carry. Management fees excluded for clarity.</p>
+        </div>
+        <div class="tool-output">
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Tier</th><th>Rule</th><th class="num">LPs receive</th><th class="num">GP receives</th></tr></thead>
+              <tbody>
+                <tr><td>1. Return of capital</td><td>first $1,000M to LPs</td><td class="num" id="wf-t1">$0M</td><td class="num">$0M</td></tr>
+                <tr><td>2. Preferred return</td><td>next $469M to LPs</td><td class="num" id="wf-t2">$0M</td><td class="num">$0M</td></tr>
+                <tr><td>3. GP catch-up</td><td>next $117M to GP</td><td class="num">$0M</td><td class="num" id="wf-t3">$0M</td></tr>
+                <tr><td>4. 80 / 20 split</td><td>everything above</td><td class="num" id="wf-t4lp">$0M</td><td class="num" id="wf-t4gp">$0M</td></tr>
+                <tr class="total"><td colspan="2">Total</td><td class="num" id="wf-lp">$0M</td><td class="num" id="wf-gp">$0M</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="lbo-wf-sum">LP net multiple: <strong id="wf-net">0.00x</strong> · GP share of total profit: <strong id="wf-share">0.0%</strong></p>
+          <p class="lbo-note" id="wf-note"></p>
+        </div>
+      </div>
+      <div class="tool-foot">Illustrative European (whole-fund) waterfall. Real waterfalls run on dated cash flows, not a single year-5 lump.</div>
+    </div>
+
+    <div class="callout-deeper callout">
+      <p><strong>European vs American waterfalls.</strong> The version above is "European": carry is computed on the whole fund, so early wins cannot pay carry while later deals still owe LPs capital. Many US funds historically used "American" deal-by-deal waterfalls, which pay carry on each exit as it happens. That accelerates GP cash but can overpay if later deals sour, so deal-by-deal funds carry a <strong>clawback</strong>: a contractual obligation for the GP to hand excess carry back at the end. LPs have pushed the market steadily toward the European style.</p>
+    </div>
+  </section>
+
+  <!-- ============================ 06.3 ============================ -->
+  <section class="lesson" id="anatomy-of-a-deal">
+    <h2><span class="sec-num">06.3</span> Anatomy of a deal: sources and uses</h2>
+    <p class="lede">Every LBO closes with the same one-page exhibit: a sources and uses table. It answers two questions with forced symmetry. Where is every dollar coming from, and where is every dollar going? If the two columns do not match to the dollar, the deal does not fund.</p>
+
+    <p>Meet the deal we will use for the rest of the module. Crestline Partners (a fictional sponsor) is buying Harbor Foods Group (a fictional snack manufacturer) with $100M of EBITDA at 8.0x, a total enterprise value (TEV) of $800M. TEV is the value of the whole business, debt and equity together. Harbor already carries $150M of old net debt that must be repaid at close, so the sellers' shareholders receive $650M for their equity. Add $32M of fees and the deal needs $832M of total funding.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Sources</th><th class="num">$M</th><th class="num">x EBITDA</th><th>Uses</th><th class="num">$M</th></tr></thead>
+        <tbody>
+          <tr><td>Revolver ($75M facility, undrawn)</td><td class="num">0</td><td class="num">0.0x</td><td>Purchase of equity</td><td class="num">650</td></tr>
+          <tr><td>Term Loan B</td><td class="num">350</td><td class="num">3.5x</td><td>Refinance existing net debt</td><td class="num">150</td></tr>
+          <tr><td>Senior notes</td><td class="num">150</td><td class="num">1.5x</td><td>Advisory and legal fees</td><td class="num">20</td></tr>
+          <tr><td>Sponsor equity (incl. $25M mgmt rollover)</td><td class="num">332</td><td class="num">3.3x</td><td>Financing fees</td><td class="num">12</td></tr>
+          <tr class="total"><td>Total sources</td><td class="num">832</td><td class="num">8.3x</td><td>Total uses</td><td class="num">832</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Read the sources column bottom-up and you see the deal's risk structure. Total debt is $500M, or 5.0x EBITDA (bankers say "5 turns of leverage"). The sponsor writes a $332M equity check, about 40% of the capitalization, which is the modern norm; in the 1980s equity checks of 10% were common, and lenders have been demanding thicker cushions ever since. Note the $25M <strong>management rollover</strong>: Harbor's executives reinvest part of their sale proceeds into the new deal, so the people running the company have skin in the game from day one.</p>
+    <p>Also note what fees do: $32M of the sponsor's $332M is consumed at the closing table before anything improves. An LBO starts life slightly underwater by construction.</p>
+
+    <h3>The debt stack, tranche by tranche</h3>
+    <p>That $500M of debt is not one loan. It is a stack of tranches (French for "slices"), each with its own seniority, security, price, and repayment schedule. Seniority determines who gets paid first if things go wrong, and price compensates for position in the line.</p>
+
+    <div class="grid-2">
+      <div class="card"><h4>Revolver</h4><p class="small muted">A revolving credit facility: the corporate credit card. Drawn and repaid as working capital swings, usually undrawn at close, cheapest money in the stack (roughly SOFR + 2-3%). Sits senior secured, first in line.</p></div>
+      <div class="card"><h4>Term Loan B (TLB)</h4><p class="small muted">The workhorse. A floating-rate institutional loan (roughly SOFR + 3.5%) sold to loan funds and CLOs, secured by the company's assets, with token 1% annual amortization and, these days, very few covenants ("covenant-lite").</p></div>
+      <div class="card"><h4>Senior notes / high yield bonds</h4><p class="small muted">Fixed-rate bonds, typically unsecured, no amortization (all principal due at maturity), roughly 8-10% coupons, with call protection that penalizes early repayment. Covered in depth in Module 08.</p></div>
+      <div class="card"><h4>Mezzanine</h4><p class="small muted">Subordinated debt for deals that need one more turn of leverage. Yields of 12-15%, often partly PIK (payment-in-kind: interest accrues onto the principal instead of being paid in cash). Last debt to be repaid, first debt to be impaired.</p></div>
+    </div>
+
+    <div class="figure">
+      <p class="figure-title">The seniority stack: who gets paid first</p>
+      <p class="figure-sub">In a downside, value pours from the top. Each layer must be filled in full before a dollar reaches the layer below. Heights indicative of a typical deal's funding mix.</p>
+      <svg viewBox="0 0 720 322" role="img" aria-label="Diagram of the LBO capital stack from most senior at the top (revolver, then Term Loan B, senior notes, mezzanine) to sponsor equity at the bottom, which is repaid last and absorbs first losses.">
+        <defs>
+          <marker id="lbo-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 z" fill="var(--ink-3)"></path>
+          </marker>
+        </defs>
+        <line x1="118" y1="30" x2="118" y2="292" stroke="var(--ink-3)" stroke-width="1.5" marker-end="url(#lbo-arr)"></line>
+        <text x="108" y="34" text-anchor="end" font-size="11" fill="var(--ink-3)">repaid</text>
+        <text x="108" y="48" text-anchor="end" font-size="11" fill="var(--ink-3)">first</text>
+        <text x="108" y="282" text-anchor="end" font-size="11" fill="var(--ink-3)">repaid</text>
+        <text x="108" y="296" text-anchor="end" font-size="11" fill="var(--ink-3)">last</text>
+        <!-- revolver -->
+        <rect x="180" y="24" width="290" height="34" rx="8" fill="color-mix(in srgb, var(--viz-1) 12%, var(--surface-1))" stroke="var(--viz-1)"></rect>
+        <text x="325" y="45" text-anchor="middle" font-size="13" font-weight="600" fill="var(--ink)">Revolver</text>
+        <text x="482" y="38" text-anchor="start" font-size="11" fill="var(--ink-2)" font-weight="600">senior secured</text>
+        <text x="482" y="52" text-anchor="start" font-size="11" fill="var(--ink-3)">undrawn at close · ~SOFR + 2.5%</text>
+        <!-- TLB -->
+        <rect x="180" y="62" width="290" height="66" rx="8" fill="color-mix(in srgb, var(--viz-1) 26%, var(--surface-1))" stroke="var(--viz-1)"></rect>
+        <text x="325" y="90" text-anchor="middle" font-size="13" font-weight="600" fill="var(--ink)">Term Loan B</text>
+        <text x="325" y="108" text-anchor="middle" font-size="11" fill="var(--ink-2)">3.0-4.0 turns of EBITDA</text>
+        <text x="482" y="90" text-anchor="start" font-size="11" fill="var(--ink-2)" font-weight="600">senior secured</text>
+        <text x="482" y="104" text-anchor="start" font-size="11" fill="var(--ink-3)">floating · ~SOFR + 3.5%</text>
+        <!-- senior notes -->
+        <rect x="180" y="132" width="290" height="48" rx="8" fill="color-mix(in srgb, var(--viz-1) 42%, var(--surface-1))" stroke="var(--viz-1)"></rect>
+        <text x="325" y="152" text-anchor="middle" font-size="13" font-weight="600" fill="var(--ink)">Senior notes (high yield)</text>
+        <text x="325" y="169" text-anchor="middle" font-size="11" fill="var(--ink-2)">1.0-2.0 turns</text>
+        <text x="482" y="152" text-anchor="start" font-size="11" fill="var(--ink-2)" font-weight="600">senior unsecured</text>
+        <text x="482" y="166" text-anchor="start" font-size="11" fill="var(--ink-3)">fixed · ~8-10%</text>
+        <!-- mezz -->
+        <rect x="180" y="184" width="290" height="36" rx="8" fill="color-mix(in srgb, var(--viz-1) 58%, var(--surface-1))" stroke="var(--viz-1)"></rect>
+        <text x="325" y="206" text-anchor="middle" font-size="13" font-weight="600" fill="var(--ink)">Mezzanine</text>
+        <text x="482" y="199" text-anchor="start" font-size="11" fill="var(--ink-2)" font-weight="600">subordinated</text>
+        <text x="482" y="213" text-anchor="start" font-size="11" fill="var(--ink-3)">12-15% · often PIK</text>
+        <!-- equity -->
+        <rect x="180" y="224" width="290" height="76" rx="8" fill="color-mix(in srgb, var(--viz-1) 78%, var(--surface-1))" stroke="var(--viz-1)"></rect>
+        <text x="325" y="258" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Sponsor equity</text>
+        <text x="325" y="276" text-anchor="middle" font-size="11" fill="#fff" opacity="0.85">~40% of funding</text>
+        <text x="482" y="258" text-anchor="start" font-size="11" fill="var(--ink-2)" font-weight="600">first loss, all upside</text>
+        <text x="482" y="272" text-anchor="start" font-size="11" fill="var(--ink-3)">targets 20%+ IRR</text>
+      </svg>
+      <p class="figure-note">Pricing shown is indicative of recent leveraged finance markets and moves with rates and risk appetite.</p>
+    </div>
+
+    <div class="callout callout-tip">
+      <p><strong>The stack is a market, not a menu.</strong> Sponsors take as much cheap senior debt as lenders will give, then fill the gap with progressively more expensive layers until only the equity check remains. When credit markets are generous, leverage creeps up and equity checks shrink; when they tighten, the reverse. The same company can support 6.5 turns in 2021 and 4.5 turns in 2023 without changing at all.</p>
+    </div>
+  </section>
+
+  <!-- ============================ 06.4 ============================ -->
+  <section class="lesson" id="lbo-lab">
+    <h2><span class="sec-num">06.4</span> The LBO simulator</h2>
+    <p class="lede">Every LBO return decomposes into exactly three levers: grow the EBITDA, sell at a higher multiple than you paid, and pay down debt in between. The simulator below runs a real (simplified) LBO model on a $100M EBITDA company and shows you the attribution live. Push each lever to its edge and watch what breaks.</p>
+
+    <p>Two scorecards matter. <strong>MOIC</strong> (multiple on invested capital) is money-out over money-in: it ignores time. <strong>IRR</strong> (internal rate of return) is the annualized rate that makes the exit check worth the entry check: it is obsessed with time. A 2.0x in 3 years is a 26% IRR; the same 2.0x in 7 years is an 10.4% IRR. Sponsors get paid on both, which is why they care how long the hold takes, not just how it ends.</p>
+
+    <div class="formula">MOIC = equity at exit / equity invested
+IRR  = the rate r where equity invested = equity at exit / (1 + r)^years</div>
+
+    <div class="tool" id="tool-lbo">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>LBO Simulator · $100M EBITDA target</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="slider-row">
+            <label>Entry multiple (EV / EBITDA) <output></output></label>
+            <input type="range" id="lbo-entry" min="6" max="14" step="0.5" value="9">
+          </div>
+          <div class="slider-row">
+            <label>Leverage (debt / EBITDA) <output></output></label>
+            <input type="range" id="lbo-lev" min="2" max="8" step="0.5" value="5.5">
+          </div>
+          <div class="slider-row">
+            <label>EBITDA growth / yr <output></output></label>
+            <input type="range" id="lbo-g" min="-5" max="15" step="0.5" value="6">
+          </div>
+          <div class="slider-row">
+            <label>Blended interest rate <output></output></label>
+            <input type="range" id="lbo-rate" min="4" max="12" step="0.5" value="8">
+          </div>
+          <div class="slider-row">
+            <label>Exit multiple <output></output></label>
+            <input type="range" id="lbo-exit" min="5" max="14" step="0.5" value="9">
+          </div>
+          <div class="select-row">
+            <label for="lbo-hold">Hold period</label>
+            <select id="lbo-hold">
+              <option value="3">3 years</option>
+              <option value="5" selected>5 years</option>
+              <option value="7">7 years</option>
+            </select>
+          </div>
+          <div class="lbo-presets">
+            <button class="btn btn-sm" type="button" id="lbo-p-boom">Boom era</button>
+            <button class="btn btn-sm" type="button" id="lbo-p-rates">Higher rates</button>
+            <button class="btn btn-sm" type="button" id="lbo-p-squeeze">Multiple squeeze</button>
+          </div>
+        </div>
+        <div class="tool-output">
+          <div class="lbo-clamp" id="lbo-clampnote"></div>
+          <div class="lbo-warnbox" id="lbo-warnbox"></div>
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">Equity in</div><div class="stat-value" id="lbo-k-eq0">·</div></div>
+            <div class="stat-tile"><div class="stat-label">Net debt at exit</div><div class="stat-value" id="lbo-k-debt">·</div></div>
+            <div class="stat-tile"><div class="stat-label">Equity at exit</div><div class="stat-value" id="lbo-k-eqh">·</div></div>
+            <div class="stat-tile"><div class="stat-label">MOIC</div><div class="stat-value" id="lbo-k-moic">·</div></div>
+            <div class="stat-tile"><div class="stat-label">IRR</div><div class="stat-value" id="lbo-k-irr">·</div></div>
+          </div>
+          <div class="legend">
+            <span><i style="background:color-mix(in srgb, var(--ink-3) 40%, var(--surface-2))"></i>Equity (entry / exit)</span>
+            <span><i style="background:var(--viz-1)"></i>EBITDA growth</span>
+            <span><i style="background:var(--viz-2)"></i>Multiple expansion</span>
+            <span><i style="background:var(--viz-3)"></i>Debt paydown</span>
+          </div>
+          <svg id="lbo-bridge" viewBox="0 0 720 240" role="img" aria-label="Returns attribution bridge from equity invested to equity at exit, split into EBITDA growth, multiple expansion, and debt paydown."></svg>
+        </div>
+      </div>
+      <div class="tool-foot">Model: EBITDA compounds at the growth rate; free cash flow each year is 50% of EBITDA (covering taxes, capex, and working capital) minus cash interest on opening debt; every remaining dollar pays down debt (a full cash sweep). If cash flow is negative, debt grows. Net debt in parentheses means the company exits holding net cash. Entry and exit fees ignored. Educational, not advice.</div>
+    </div>
+
+    <div class="callout callout-tip">
+      <p><strong>Watch the attribution, not just the IRR.</strong> Set growth to 0% and exit equal to entry: the whole return is debt paydown, the mortgage effect from 06.1, and it still works. Now pay 12x and exit at 9x: growth has to fight multiple contraction just to break even. The bridge tells you which lever carried the deal, and sophisticated LPs read it exactly this way when a GP shows off a track record.</p>
+    </div>
+
+    <div class="callout callout-warn">
+      <p><strong>Leverage amplifies both directions.</strong> At 5.5 turns of debt, equity is a thin slice of a big number, so a 20% EBITDA decline can cut the equity value roughly in half or worse. Slide growth to (3%) and watch: interest eats the shrinking cash flow, the sweep stalls, and at the wrong exit multiple the equity value goes to zero. The simulator shows the wipeout honestly because real markets do too.</p>
+    </div>
+  </section>
+
+  <!-- ============================ 06.5 ============================ -->
+  <section class="lesson" id="value-creation">
+    <h2><span class="sec-num">06.5</span> The value creation playbook</h2>
+    <p class="lede">The caricature of PE is pure financial engineering: buy, lever, wait, sell. That described the 1980s. Today leverage is table stakes and every auction is competitive, so returns increasingly have to be manufactured inside the company. The modern playbook is operational, and it is remarkably consistent from firm to firm.</p>
+
+    <div class="grid-3">
+      <div class="card"><h4>Pricing</h4><p class="small muted">Most mid-size companies underprice out of habit and haven't raised prices in years. Systematic pricing reviews are often the fastest EBITDA dollar in the deal.</p></div>
+      <div class="card"><h4>Procurement</h4><p class="small muted">Consolidate suppliers, renegotiate contracts, pool purchasing across portfolio companies. Unglamorous, reliable, and straight to the margin line.</p></div>
+      <div class="card"><h4>Add-on acquisitions</h4><p class="small muted">Buy smaller competitors cheaply and bolt them onto the platform. The multiple-arbitrage engine, worked below.</p></div>
+      <div class="card"><h4>Management upgrades</h4><p class="small muted">Sponsors replace roughly half of portfolio-company CEOs during a hold. A professional CFO and a real sales leader are usually hires one and two.</p></div>
+      <div class="card"><h4>Incentives</h4><p class="small muted">Management teams get 5-10% of the equity in options and rollover. A CEO who can make $20M at exit runs the plan differently than one paid a salary.</p></div>
+      <div class="card"><h4>Capital discipline</h4><p class="small muted">Tighter working capital, capex triaged by return on investment, dashboards and monthly operating reviews. Cash culture replaces comfort.</p></div>
+    </div>
+
+    <h3>Multiple arbitrage: the buy-and-build machine</h3>
+    <p>Size itself commands a premium. Small businesses trade cheaply because they are risky and illiquid; scaled platforms trade richly because strategics and larger funds can buy them. Buy-and-build exploits the gap: acquire small at low multiples, assemble something big, and let the market reprice the whole at the platform multiple.</p>
+
+    <div class="callout-example callout">
+      <p><strong>Cascade Dental Partners (fictional).</strong> A sponsor buys a dental practice platform with $40M EBITDA at 9.0x ($360M), then acquires 10 small regional groups totaling $30M of EBITDA at an average of 5.0x ($150M). Total spent: $510M for $70M of EBITDA, a blended 7.3x. But scaled dental platforms trade at 9.5x. At exit, $70M x 9.5x = $665M, roughly $155M of value created before any growth or synergies, purely because small EBITDA was repriced as platform EBITDA. Add $5M of real synergies (shared billing, procurement) and the exit is $75M x 9.5x, about $713M.</p>
+      <div class="formula">Blended entry = ($360M + $150M) / $70M = 7.3x
+Exit value    = $70M x 9.5x = $665M   (arbitrage alone: ~$155M)</div>
+    </div>
+
+    <p>One honest caveat: roll-ups fail as spectacularly as they succeed. Integration is real work, and a platform of 11 loosely stapled businesses with 11 IT systems is worth less than the sum of its parts. The arbitrage only pays if the exit buyer believes the platform is genuinely one company.</p>
+  </section>
+
+  <!-- ============================ 06.6 ============================ -->
+  <section class="lesson" id="risks-and-critiques">
+    <h2><span class="sec-num">06.6</span> Risks, critiques, and the honest scoreboard</h2>
+    <p class="lede">Leverage is a contract with the future: EBITDA is a forecast, but interest is a promise. This section covers how LBOs fail, the practices critics target, and what the data actually says about PE returns, because the honest answer is more interesting than either the marketing or the outrage.</p>
+
+    <p><strong>Over-leverage</strong> is the classic failure. A company levered at 6.5x with cyclical revenue has no room for a bad year: when EBITDA drops 25%, leverage math turns 6.5x into nearly 9x, covenants trip, and the sponsor faces a choice between injecting new equity or handing the keys to the lenders. The debt did not cause the downturn; it removed the right to survive one.</p>
+    <p><strong>Dividend recapitalizations</strong> draw the most fire. In a "recap," the portfolio company borrows additional debt specifically to pay its sponsor a dividend, often returning most of the original equity check within 2-3 years. Sponsors call it prudent de-risking; critics note that it leaves the company more fragile while the sponsor has already been paid. Both statements are true, which is exactly why the practice is controversial.</p>
+    <p><strong>Fees on fees</strong> is the LP-side critique. Beyond 2-and-20, GPs historically charged portfolio companies "monitoring fees" and transaction fees, effectively billing the companies their own fund owned. LP pressure has pushed most firms to rebate 100% of these to the fund, but reading the fine print of a fund agreement remains a professional skill.</p>
+
+    <div class="callout callout-warn">
+      <p><strong>IRR can be manufactured; MOIC cannot.</strong> Funds increasingly use subscription credit lines: the fund borrows to close deals and calls LP capital months later, shortening the measured holding period and inflating IRR without creating a dollar of extra profit. When you compare PE performance to anything, look at MOIC and cash actually returned (DPI, distributions to paid-in capital) alongside IRR. If someone quotes you only an IRR, ask what the multiple was.</p>
+    </div>
+
+    <h3>Does PE actually beat the market?</h3>
+    <p>Measured properly (using public market equivalent methods that time-match cash flows against an index), US buyout funds beat public equities by a few points a year, net of fees, for most of the industry's history. Two caveats matter. First, the edge has narrowed since roughly 2010 as money flooded in and entry multiples rose. Second, the dispersion is enormous: the gap between top-quartile and bottom-quartile buyout funds dwarfs the same gap in mutual funds, so <em>which</em> fund you can access matters more than the asset class average. For an LP without access to strong managers, a levered index fund is a serious competitor.</p>
+
+    <div class="callout-case callout">
+      <p><strong>TXU, 2007: the cautionary tale.</strong> KKR, TPG, and Goldman Sachs took the Texas utility TXU private for about $45B, the largest LBO ever signed. The thesis was a bet that natural gas prices, which set Texas electricity prices, would stay high. Then shale drilling flooded the market, gas prices collapsed, and EBITDA fell under roughly $40B of debt that never got lighter. The company (renamed Energy Future Holdings) filed Chapter 11 in 2014, and the sponsors' roughly $8B of equity was essentially wiped out. Leverage turned a wrong commodity call into one of the largest deal losses in history.</p>
+    </div>
+
+    <div class="callout-case callout">
+      <p><strong>Hilton, 2007-2013: the win from the same vintage.</strong> Blackstone took Hilton private for about $26B in October 2007, weeks from the market top, and by 2009 had marked the equity down roughly 70% on paper. Instead of walking away, Blackstone restructured the debt in 2010 (buying chunks back at a discount and injecting roughly $800M of fresh equity), backed management's pivot into asset-light franchising, and took Hilton public in December 2013. The eventual profit was roughly $14B, about 3x, widely called the most profitable PE deal ever. Same year, same leverage, opposite outcome: the difference was a business whose cash flows could carry the debt through the storm, and a sponsor with the capital and nerve to hold on.</p>
+    </div>
+  </section>
+
+  <!-- ============================ 06.7 ============================ -->
+  <section class="lesson" id="exits">
+    <h2><span class="sec-num">06.7</span> Exits: how the money actually comes home</h2>
+    <p class="lede">Paper gains pay nobody: the pref does not stop accruing and carry is not real until cash lands. Every LBO is underwritten with an exit thesis on day one, and the choice of exit route shapes the price, the speed, and how much of the position actually converts to cash.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Route</th><th>Who buys</th><th>Price</th><th>Speed and certainty</th><th>Watch for</th></tr></thead>
+        <tbody>
+          <tr><td>Strategic sale</td><td>A corporate acquirer</td><td>Usually highest: synergies fund a premium</td><td>Fast, 100% cash out</td><td>Antitrust review; fewer natural buyers at scale</td></tr>
+          <tr><td>Sponsor-to-sponsor</td><td>Another PE firm</td><td>Full but rarely a synergy premium</td><td>Reliable; buyers understand the asset</td><td>"Pass the parcel" critique; needs value left for the next owner</td></tr>
+          <tr><td>IPO</td><td>Public investors</td><td>Market-dependent</td><td>Slow: lockups mean selling down over years</td><td>Window can slam shut; ongoing market scrutiny</td></tr>
+          <tr><td>Continuation vehicle</td><td>A new fund run by the same GP</td><td>Set by a competitive process plus fairness opinion</td><td>Flexible; keeps a winner longer</td><td>GP sits on both sides of the trade</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p><strong>Strategic sales</strong> are the premium route because a corporate buyer can pay for synergies (Module 05 covers why). <strong>Sponsor-to-sponsor</strong> deals, also called secondary buyouts, now account for a large share of all exits: one fund's year-7 harvest is another fund's year-1 platform. Skeptics ask how much juice can be left the third time a company is squeezed; the honest answer is that each owner needs a genuinely new plan, usually more add-ons or a new leg of growth.</p>
+    <p><strong>IPOs</strong> convert control into liquidity slowly: the sponsor typically sells 15-25% at listing and dribbles the rest out over years, riding public market risk the whole way (Blackstone's 6-year Hilton sell-down is the canonical example). <strong>Continuation vehicles</strong> are the newest route: the GP sells a prized company from an aging fund to a fresh vehicle that the same GP manages, with new investors pricing the deal and existing LPs choosing to cash out or roll their stake. It solves a real problem (fund clocks expire faster than great compounders) but carries an obvious conflict, since the GP is effectively negotiating with itself.</p>
+
+    <p>What actually drives timing? Five clocks tick at once: the value plan being complete, the debt being paid down enough to show the equity math, hot financing and M&amp;A markets, the fund's own life running out, and the team's hunger to crystallize carry and raise the next fund. A great exit is when three or more of those align. A forced exit is when only the fund clock does, and buyers can smell the difference.</p>
+
+    <div class="callout-deeper callout">
+      <p><strong>DPI is the new IRR.</strong> After the 2022-2024 exit drought, LPs began grading GPs on distributions to paid-in capital (DPI), actual cash returned as a multiple of cash called, rather than on paper IRRs. A fund can mark a 2.5x on its books, but until companies are sold, LPs cannot pay their own pensioners with it. When you hear that "sponsors are under pressure to transact," this metric is the pressure.</p>
+    </div>
+  </section>
+
+  <!-- ============================ 06.8 ============================ -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">06.8</span> Knowledge check</h2>
+    <p class="lede">Ten questions across the module: the mortgage effect, fund economics, the debt stack, simulator math, and exits. Mental math only, no calculator needed.</p>
+    <div id="quiz-root"></div>
+  </section>
+</main>
+
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  var F = Atlas.fmt;
+
+  /* =============== helpers =============== */
+  function rd(n) { return Math.round(n * 10) / 10; }
+  function niceStep(raw) {
+    raw = Math.abs(raw) || 1;
+    var p = Math.pow(10, Math.floor(Math.log(raw) / Math.LN10));
+    var m = raw / p;
+    return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 5 ? 5 : 10) * p;
+  }
+  function signed(c) {
+    if (Math.abs(c) < 0.5) return "$0M";
+    return (c > 0 ? "+" : "") + F.moneyM(c);
+  }
+
+  /* =============== waterfall mini tool =============== */
+  var wfGross = Atlas.bind("wf-gross", function (v) { return F.mult(v) + " gross"; });
+  var WF_PREF = 469;                 /* $1B at 8% compounded for 5 years */
+  function fm(n) { return F.money(Math.round(n)) + "M"; }
+  Atlas.onInput(["wf-gross"], function () {
+    var P = wfGross.value * 1000;
+    var t1 = Math.min(P, 1000); var rem = P - t1;
+    var t2 = Math.min(rem, WF_PREF); rem -= t2;
+    var t3 = Math.min(rem, WF_PREF * 0.25); rem -= t3;
+    var t4lp = rem * 0.8, t4gp = rem * 0.2;
+    var lp = t1 + t2 + t4lp, gp = t3 + t4gp;
+    var profit = P - 1000;
+    document.getElementById("wf-t1").textContent = fm(t1);
+    document.getElementById("wf-t2").textContent = fm(t2);
+    document.getElementById("wf-t3").textContent = fm(t3);
+    document.getElementById("wf-t4lp").textContent = fm(t4lp);
+    document.getElementById("wf-t4gp").textContent = fm(t4gp);
+    document.getElementById("wf-lp").textContent = fm(lp);
+    document.getElementById("wf-gp").textContent = fm(gp);
+    document.getElementById("wf-net").textContent = F.mult(lp / 1000, 2);
+    document.getElementById("wf-share").textContent = profit > 0 ? F.pct(gp / profit * 100, 1) : "0.0%";
+    var note;
+    if (P < 1000) note = "The fund lost money. LPs absorb the entire loss and the GP earns no carry (though it kept its management fees).";
+    else if (P < 1000 + WF_PREF) note = "Capital is back but the 8% pref is not fully paid, so every dollar of profit still belongs to the LPs. Carry: $0.";
+    else if (t3 < WF_PREF * 0.25 - 0.01) note = "The pref is paid and the GP is mid catch-up: this stretch of proceeds goes 100% to the GP.";
+    else note = "Full catch-up complete: the GP now holds exactly 20% of every profit dollar, which is the design.";
+    document.getElementById("wf-note").textContent = note;
+  });
+
+  /* =============== LBO simulator =============== */
+  var entry = Atlas.bind("lbo-entry", F.mult);
+  var lev = Atlas.bind("lbo-lev", F.mult);
+  var g = Atlas.bind("lbo-g", function (v) { return F.pct(v, 1); });
+  var rate = Atlas.bind("lbo-rate", function (v) { return F.pct(v, 1); });
+  var exitM = Atlas.bind("lbo-exit", F.mult);
+  var holdSel = document.getElementById("lbo-hold");
+
+  function drawBridge(Eq0, c1, c2, c3, EqH) {
+    var svg = document.getElementById("lbo-bridge");
+    var W = 720, Ht = 240, padL = 132, padR = 80, padT = 12, padB = 34;
+    var cum = [0, Eq0, Eq0 + c1, Eq0 + c1 + c2, EqH];
+    var lo = Math.min(0, Eq0, EqH, cum[2], cum[3]);
+    var hi = Math.max(0, Eq0, EqH, cum[2], cum[3]);
+    if (hi - lo < 1e-6) hi = lo + 1;
+    var span = hi - lo;
+    lo -= span * 0.02; hi += span * 0.02;
+    var plotW = W - padL - padR;
+    function x(v) { return padL + (v - lo) / (hi - lo) * plotW; }
+    var rowSpace = (Ht - padT - padB) / 5, barH = 20;
+    function rowY(i) { return padT + i * rowSpace + (rowSpace - barH) / 2; }
+    var neutral = "color-mix(in srgb, var(--ink-3) 40%, var(--surface-2))";
+    var s = "";
+
+    /* gridlines + tick labels */
+    var step = niceStep((hi - lo) / 4);
+    var v0 = Math.ceil(lo / step) * step;
+    for (var k = 0; v0 + k * step <= hi + 1e-9; k++) {
+      var tv = v0 + k * step;
+      var gx = rd(x(tv));
+      s += '<line x1="' + gx + '" y1="' + padT + '" x2="' + gx + '" y2="' + (Ht - padB) + '" stroke="var(--grid-line)" stroke-width="1"></line>';
+      s += '<text x="' + gx + '" y="' + (Ht - padB + 17) + '" text-anchor="middle" font-size="11" fill="var(--ink-3)">' + F.moneyM(tv) + '</text>';
+    }
+    /* zero axis */
+    s += '<line x1="' + rd(x(0)) + '" y1="' + (padT - 2) + '" x2="' + rd(x(0)) + '" y2="' + (Ht - padB) + '" stroke="var(--axis)" stroke-width="1"></line>';
+
+    /* connectors between running totals */
+    for (var i = 0; i < 4; i++) {
+      var cx = rd(x(cum[i + 1]));
+      s += '<line x1="' + cx + '" x2="' + cx + '" y1="' + rd(rowY(i) + barH) + '" y2="' + rd(rowY(i + 1)) + '" stroke="var(--axis)" stroke-width="1" stroke-dasharray="2 3"></line>';
+    }
+
+    var rows = [
+      { from: 0, to: Eq0, fill: neutral, label: F.moneyM(Eq0), name: "Entry equity" },
+      { from: Eq0, to: cum[2], fill: "var(--viz-1)", label: signed(c1), name: "EBITDA growth" },
+      { from: cum[2], to: cum[3], fill: "var(--viz-2)", label: signed(c2), name: "Multiple expansion" },
+      { from: cum[3], to: EqH, fill: "var(--viz-3)", label: signed(c3), name: "Debt paydown" },
+      { from: 0, to: EqH, fill: neutral, label: F.moneyM(EqH), name: "Exit equity" }
+    ];
+    rows.forEach(function (sg, ri) {
+      var y = rd(rowY(ri));
+      var a = x(sg.from), b = x(sg.to);
+      var xa = Math.min(a, b), w = Math.max(2, Math.abs(b - a));
+      var r = Math.min(4, w / 2);
+      var right = b >= a;
+      var p;
+      if (right) {
+        p = "M" + rd(xa) + " " + y + " H" + rd(xa + w - r) +
+            " Q" + rd(xa + w) + " " + y + " " + rd(xa + w) + " " + rd(y + r) +
+            " V" + rd(y + barH - r) +
+            " Q" + rd(xa + w) + " " + rd(y + barH) + " " + rd(xa + w - r) + " " + rd(y + barH) +
+            " H" + rd(xa) + " Z";
+      } else {
+        p = "M" + rd(xa + w) + " " + y + " H" + rd(xa + r) +
+            " Q" + rd(xa) + " " + y + " " + rd(xa) + " " + rd(y + r) +
+            " V" + rd(y + barH - r) +
+            " Q" + rd(xa) + " " + rd(y + barH) + " " + rd(xa + r) + " " + rd(y + barH) +
+            " H" + rd(xa + w) + " Z";
+      }
+      s += '<path d="' + p + '" fill="' + sg.fill + '"></path>';
+      var lx = right ? rd(xa + w + 7) : rd(xa - 7);
+      var anchor = right ? "start" : "end";
+      s += '<text x="' + lx + '" y="' + rd(y + barH / 2 + 4) + '" text-anchor="' + anchor + '" font-size="11.5" font-weight="600" fill="var(--ink-2)">' + sg.label + '</text>';
+      s += '<text x="' + (padL - 12) + '" y="' + rd(y + barH / 2 + 4) + '" text-anchor="end" font-size="12" fill="var(--ink-2)">' + sg.name + '</text>';
+    });
+    svg.innerHTML = s;
+  }
+
+  function runLBO() {
+    var E0 = 100;                                /* $M entry EBITDA */
+    var em = entry.value, xm = exitM.value;
+    var gr = g.value / 100, r = rate.value / 100;
+    var H = parseInt(holdSel.value, 10) || 5;
+
+    /* lenders will not fund past the enterprise value: cap leverage */
+    var maxLev = em - 0.5;
+    var turns = Math.min(lev.value, maxLev);
+    var clampNote = document.getElementById("lbo-clampnote");
+    if (turns < lev.value - 1e-9) {
+      clampNote.textContent = "Leverage capped at " + F.mult(maxLev) + ": no lender finances the whole purchase price, so the model keeps at least half a turn of equity in the deal.";
+      clampNote.classList.add("on");
+    } else {
+      clampNote.classList.remove("on");
+    }
+
+    var EV0 = em * E0;
+    var D0 = turns * E0;
+    var Eq0 = EV0 - D0;
+
+    var debt = D0, ebitda = E0;
+    for (var t = 1; t <= H; t++) {
+      var interest = r * Math.max(0, debt);      /* on opening balance; no interest once net cash */
+      ebitda = E0 * Math.pow(1 + gr, t);
+      var fcf = 0.5 * ebitda - interest;         /* full cash sweep; negative fcf accrues onto debt */
+      debt = debt - fcf;
+    }
+    var EVH = xm * ebitda;
+    var EqH = EVH - debt;
+
+    var wiped = EqH <= 0;
+    var moic = wiped ? 0 : EqH / Eq0;
+    var irr;
+    if (wiped) {
+      irr = -1;
+    } else {
+      var flows = [-Eq0];
+      for (var i = 1; i < H; i++) flows.push(0);
+      flows.push(EqH);
+      irr = Atlas.irr(flows);
+      if (isNaN(irr) || !isFinite(irr)) irr = Math.pow(EqH / Eq0, 1 / H) - 1;
+      irr = Math.max(-0.99, Math.min(irr, 9.99));
+    }
+
+    /* KPIs */
+    document.getElementById("lbo-k-eq0").textContent = F.moneyM(Eq0);
+    document.getElementById("lbo-k-debt").textContent = F.moneyM(debt);
+    document.getElementById("lbo-k-eqh").textContent = F.moneyM(Math.max(0, EqH));
+    var moicEl = document.getElementById("lbo-k-moic");
+    var irrEl = document.getElementById("lbo-k-irr");
+    moicEl.textContent = wiped ? "0.0x" : F.mult(moic);
+    irrEl.textContent = wiped ? "(100%)" : F.pct(irr * 100, 1);
+    moicEl.classList.toggle("neg", wiped || moic < 1);
+    moicEl.classList.toggle("pos", !wiped && moic >= 2);
+    irrEl.classList.toggle("neg", wiped || irr < 0);
+    irrEl.classList.toggle("pos", !wiped && irr >= 0.2);
+
+    /* wipeout warning */
+    var warn = document.getElementById("lbo-warnbox");
+    if (wiped) {
+      warn.innerHTML = "<b>Equity wiped out.</b> Exit enterprise value of " + F.moneyM(EVH) +
+        " does not cover " + F.moneyM(debt) + " of remaining net debt. The sponsor's " + F.moneyM(Eq0) +
+        " is a total loss and the lenders take the keys. The bridge below shows the shortfall honestly; equity holders' loss stops at zero thanks to limited liability.";
+      warn.classList.add("on");
+    } else {
+      warn.classList.remove("on");
+    }
+
+    /* attribution: exact decomposition of EqH minus Eq0 */
+    var c1 = em * (ebitda - E0);                 /* EBITDA growth at entry multiple */
+    var c2 = (xm - em) * ebitda;                 /* multiple change on exit EBITDA */
+    var c3 = D0 - debt;                          /* deleveraging (negative if debt grew) */
+    drawBridge(Eq0, c1, c2, c3, EqH);
+  }
+
+  Atlas.onInput(["lbo-entry", "lbo-lev", "lbo-g", "lbo-rate", "lbo-exit", "lbo-hold"], runLBO);
+
+  /* scenario presets */
+  function preset(vals) {
+    entry.value = vals[0]; lev.value = vals[1]; g.value = vals[2];
+    rate.value = vals[3]; exitM.value = vals[4]; holdSel.value = String(vals[5]);
+    runLBO();
+  }
+  document.getElementById("lbo-p-boom").addEventListener("click", function () { preset([8.5, 6.5, 4, 6, 9.5, 5]); });
+  document.getElementById("lbo-p-rates").addEventListener("click", function () { preset([10, 4.5, 6, 10, 10, 5]); });
+  document.getElementById("lbo-p-squeeze").addEventListener("click", function () { preset([12, 5.5, 8, 8.5, 9, 5]); });
+
+  /* =============== quiz =============== */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "A sponsor buys Meridian Industrial Co. for $800M of enterprise value using $500M of debt. Ignoring fees, what is the equity check?",
+      choices: ["$200M", "$300M", "$500M", "$800M"],
+      answer: 1,
+      explain: "Equity fills whatever the debt does not: $800M of TEV minus $500M of debt leaves a $300M equity check."
+    },
+    {
+      q: "Why do LBO investors prefer steady, cash-generative businesses over fast-growing but volatile ones?",
+      choices: [
+        "Steady businesses are always cheaper to buy",
+        "Debt payments are contractual, so predictable cash flow is what safely carries leverage",
+        "Volatile businesses are illegal to leverage under banking rules",
+        "Steady businesses never need management changes"
+      ],
+      answer: 1,
+      explain: "Interest and amortization arrive on schedule no matter what, so the cash flow that services them needs to arrive on schedule too."
+    },
+    {
+      q: "In a private equity fund, who supplies almost all of the capital?",
+      choices: [
+        "The general partner (the PE firm)",
+        "The portfolio companies",
+        "The limited partners (pensions, endowments, sovereign funds)",
+        "The lending banks"
+      ],
+      answer: 2,
+      explain: "LPs commit the vast majority of the money; the GP typically invests only 2-5% of the fund but manages all of it."
+    },
+    {
+      q: "In the classic 2-and-20 structure, what does the '20' refer to?",
+      choices: [
+        "A 20% annual management fee",
+        "20% carried interest: the GP's share of profits above the preferred return",
+        "A 20% cap on fund leverage",
+        "The LPs' guaranteed 20% return"
+      ],
+      answer: 1,
+      explain: "The 2% is the management fee; the 20% is carry, the GP's cut of profits once LPs have received capital back plus the pref."
+    },
+    {
+      q: "In a standard distribution waterfall, which tier is paid first?",
+      choices: [
+        "The GP's carried interest",
+        "The GP catch-up",
+        "The LPs' preferred return",
+        "Return of the LPs' contributed capital"
+      ],
+      answer: 3,
+      explain: "The order is capital back first, then the pref, then the GP catch-up, and only then the 80/20 carry split."
+    },
+    {
+      q: "A deal takes $200M of equity in and returns $600M of equity after 5 years. What is the MOIC?",
+      choices: ["1.5x", "2.0x", "3.0x", "5.0x"],
+      answer: 2,
+      explain: "MOIC is simply money out over money in: $600M / $200M = 3.0x (which works out to roughly a 25% IRR over 5 years)."
+    },
+    {
+      q: "If EBITDA is flat and the exit multiple equals the entry multiple, where does an LBO's equity return come from?",
+      choices: [
+        "Multiple expansion",
+        "Debt paydown from the company's own cash flow",
+        "Management fees",
+        "There can be no return in that scenario"
+      ],
+      answer: 1,
+      explain: "That is the mortgage effect: every dollar of debt repaid transfers a dollar of enterprise value from lenders to the equity slice."
+    },
+    {
+      q: "Which layer of the LBO capital stack is repaid first in a downside scenario?",
+      choices: [
+        "Sponsor equity",
+        "Mezzanine debt",
+        "Senior secured debt (revolver and term loan)",
+        "Senior unsecured notes"
+      ],
+      answer: 2,
+      explain: "Value pours from the top of the stack: senior secured lenders are made whole first, and sponsor equity absorbs the first loss."
+    },
+    {
+      q: "What is a dividend recapitalization?",
+      choices: [
+        "The company issues new shares to pay down its debt",
+        "The company borrows additional debt to pay its PE sponsor a dividend",
+        "Lenders convert their loans into dividend-paying stock",
+        "The fund distributes portfolio company shares directly to LPs"
+      ],
+      answer: 1,
+      explain: "A recap adds leverage specifically to return cash to the sponsor early, de-risking the fund while leaving the company more fragile."
+    },
+    {
+      q: "What is a continuation vehicle?",
+      choices: [
+        "A fund extension that pauses the management fee",
+        "A loan that keeps a defaulted deal out of bankruptcy",
+        "A new fund, run by the same GP, that buys a company from the GP's older fund so LPs can cash out or roll",
+        "An escrow account holding exit proceeds until the pref is paid"
+      ],
+      answer: 2,
+      explain: "It lets a GP keep a prized asset past the old fund's life, with new investors setting the price; the conflict is that the GP sits on both sides."
+    }
+  ]);
+});
+</script>
+</body>
+</html>

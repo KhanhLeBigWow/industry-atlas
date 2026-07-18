@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" data-module="careers" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Careers &amp; Breaking In · Capital Atlas</title>
+<meta name="description" content="Every seat in the finance industry compared: what the work is, what it pays, how recruiting really works, and a technical interview prep bank.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .car-role h4 { margin-bottom: 2px; }
+  .car-role .fit { font-size: 0.8rem; color: var(--ink-3); border-top: 1px solid var(--hairline); margin-top: 10px; padding-top: 8px; }
+  .car-hours { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600; color: var(--mod-accent); }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">Module 09 · Primer</span>
+    <h1>Careers &amp; Breaking In</h1>
+    <p class="hero-tagline">The industry hires for a handful of very different seats, pays them very differently, and recruits for them absurdly early. Here is the honest map: the work, the money, the hours, and how people actually get in.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ============ 09.1 ============ -->
+  <section class="lesson" id="role-map">
+    <h2><span class="sec-num">09.1</span> The role map</h2>
+    <p class="lede">Nine seats cover most of the industry. They differ less in prestige than in what a Tuesday feels like: building models at midnight, making prices in milliseconds, or reading 10-Ks in blissful silence.</p>
+
+    <div class="grid-3">
+      <div class="card car-role"><h4>Investment banking</h4><p class="small muted">Advise companies on M&amp;A and raise capital for them. Pitchbooks, models, deal processes. The classic entry door and the classic 80-hour week.</p><p class="fit">Love it if: you want deal reps and optionality. Hate it if: you value your weekends.</p></div>
+      <div class="card car-role"><h4>Sales &amp; trading</h4><p class="small muted">Make markets and manage risk in real time. Intense from 6am to 5pm, then actually over. Seats are shrinking as machines take the simple flow.</p><p class="fit">Love it if: you want a scoreboard every day. Hate it if: you need slow, deep work.</p></div>
+      <div class="card car-role"><h4>Equity research</h4><p class="small muted">Publish investment views on a coverage list of public companies. Earnings season is brutal; the rest is reading, modeling, and talking to investors.</p><p class="fit">Love it if: you like being the expert. Hate it if: you want to own the decision.</p></div>
+      <div class="card car-role"><h4>Asset management</h4><p class="small muted">Invest other people's money in public markets over long horizons. Saner hours, slower feedback loops, careers measured in track records.</p><p class="fit">Love it if: you think in years. Hate it if: you need daily adrenaline.</p></div>
+      <div class="card car-role"><h4>Hedge funds</h4><p class="small muted">Absolute-return investing with leverage and shorting. Meritocratic and unforgiving: your P&amp;L is your job security.</p><p class="fit">Love it if: you want maximum ownership of ideas. Hate it if: you need stability.</p></div>
+      <div class="card car-role"><h4>Private equity</h4><p class="small muted">Buy whole companies, improve them, sell them (Module 06). Deal work plus portfolio work; usually entered after 2 years of banking.</p><p class="fit">Love it if: you want to own businesses, not just advise them. Hate it if: you disliked banking hours (they only soften somewhat).</p></div>
+      <div class="card car-role"><h4>Venture capital</h4><p class="small muted">Fund startups, lose often, win rarely and enormously. Sourcing, judgment, and network matter more than modeling.</p><p class="fit">Love it if: you love founders and ambiguity. Hate it if: you need proof before deciding.</p></div>
+      <div class="card car-role"><h4>Corporate development</h4><p class="small muted">Run M&amp;A from inside a company. Banking skills, human hours, one client (your CEO). Often the destination after banking or consulting.</p><p class="fit">Love it if: you want deals and a life. Hate it if: you will miss the deal volume.</p></div>
+      <div class="card car-role"><h4>Fintech &amp; infrastructure</h4><p class="small muted">Build the rails: payments, exchanges, data, risk software. Finance knowledge compounds nicely with product and engineering skills.</p><p class="fit">Love it if: you want to build. Hate it if: you wanted the trading floor after all.</p></div>
+    </div>
+
+    <div class="callout callout-tip">
+      <p>Choose by feedback loop, not by prestige. Trading tells you if you were right by lunch; private equity takes 5 years; venture takes 10. People burn out less from hours than from a feedback loop mismatched to their temperament.</p>
+    </div>
+  </section>
+
+  <!-- ============ 09.2 ============ -->
+  <section class="lesson" id="comp">
+    <h2><span class="sec-num">09.2</span> The money, honestly</h2>
+    <p class="lede">Finance pays extraordinarily well by any normal standard, unevenly across seats, and increasingly through performance-linked pieces the more senior you get. The explorer below shows the shape; treat every number as a mid-2020s US ballpark, not a promise.</p>
+
+    <div class="tool" id="tool-comp">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Comp Ladder Explorer</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="select-row">
+            <label for="comp-track">Career track</label>
+            <select id="comp-track">
+              <option value="ib">Investment banking</option>
+              <option value="pe">Private equity</option>
+              <option value="hf">Hedge fund</option>
+              <option value="am">Asset management</option>
+              <option value="cd">Corporate development</option>
+            </select>
+          </div>
+          <p class="small muted" id="comp-note"></p>
+        </div>
+        <div class="tool-output">
+          <div class="legend"><span><i style="background:var(--viz-1)"></i>Base salary</span><span><i style="background:var(--viz-2)"></i>Bonus / performance pay</span></div>
+          <div id="comp-chart"></div>
+          <p class="figure-note">Illustrative US total compensation in $K, mid-2020s, major markets. Ranges vary hugely by firm, city, fund size, and year; senior buy-side pay is dominated by carry or P&amp;L cuts that this chart only hints at.</p>
+        </div>
+      </div>
+      <div class="tool-foot">Sources: aggregated public comp surveys and recruiting chatter, rounded aggressively. Nobody's offer letter matches a chart.</div>
+    </div>
+
+    <p>Two structural truths hide in those bars. First, <strong>the bonus ratio rises with seniority</strong>: an analyst's pay is mostly salary; an MD's is mostly at-risk. Second, <strong>the buy-side back-loads harder</strong>: PE partners earn through carried interest that pays out years later, and hedge fund PMs eat what they kill. High floors on the sell-side, high ceilings on the buy-side.</p>
+  </section>
+
+  <!-- ============ 09.3 ============ -->
+  <section class="lesson" id="day-in-life">
+    <h2><span class="sec-num">09.3</span> A day in each life</h2>
+    <p class="lede">Job titles hide more than they reveal. Hour by hour is where the truth lives.</p>
+
+    <div class="tabs" data-tabs>
+      <div class="tab-list" role="tablist">
+        <button class="tab active" data-tab="dl-ib">IB analyst</button>
+        <button class="tab" data-tab="dl-tr">Trader</button>
+        <button class="tab" data-tab="dl-er">ER associate</button>
+        <button class="tab" data-tab="dl-pe">PE associate</button>
+        <button class="tab" data-tab="dl-hf">HF analyst</button>
+      </div>
+      <div class="tab-panel active" data-panel="dl-ib">
+        <p><span class="car-hours">9:30am</span> Arrive, triage overnight comments from the VP on the CIM draft. <span class="car-hours">11am</span> Turn model changes for a live sell-side; management call at noon. <span class="car-hours">2pm</span> Comps update for a pitch nobody may ever read. <span class="car-hours">6pm</span> Dinner at desk; the associate's "quick markup" lands at 7:45pm. <span class="car-hours">10pm</span> Process the markup, ship to the printer. <span class="car-hours">12:30am</span> Home, unless it is a live deal week, in which case it is not 12:30am. Reality: 70 to 85 hours in crunch, real weekends only when protected policies bite. What you get for it: 2 years of compressed reps that the buy-side pays a premium for.</p>
+      </div>
+      <div class="tab-panel" data-panel="dl-tr">
+        <p><span class="car-hours">6:15am</span> At the desk reading overnight moves; morning meeting at 7. <span class="car-hours">9:30am</span> Open. Quotes, hedges, client flow; lunch is something eaten with one hand. <span class="car-hours">2pm</span> A client wants a price on size; 30 seconds of real risk decision. <span class="car-hours">4pm</span> Close, P&amp;L cut, risk report. <span class="car-hours">5:30pm</span> Actually leave. The hours are humane; the intensity while present is not. Your P&amp;L is public inside the firm, every day, forever.</p>
+      </div>
+      <div class="tab-panel" data-panel="dl-er">
+        <p><span class="car-hours">7am</span> Skim overnight news on the coverage list; a covered company pre-announced, morning note due by 8:15. <span class="car-hours">10am</span> Model maintenance and a client call walking a PM through your thesis. <span class="car-hours">2pm</span> Expert call on channel checks. <span class="car-hours">6pm</span> Draft an initiation section. Normal weeks run 55 to 65 hours; earnings season runs on caffeine and adrenaline, 4 times a year. The craft: being the person the buy-side calls first.</p>
+      </div>
+      <div class="tab-panel" data-panel="dl-pe">
+        <p><span class="car-hours">9am</span> Portfolio company board deck review. <span class="car-hours">11am</span> New deal: turn the LBO model for the second-round bid, diligence calls with consultants at 2. <span class="car-hours">4pm</span> Draft the investment committee memo section on customer concentration. <span class="car-hours">8pm</span> Live deal, so dinner at desk; quiet weeks end at 7pm, signing weeks look like banking again. The shift from banking: fewer deliverables, more judgment, your name attached to the recommendation.</p>
+      </div>
+      <div class="tab-panel" data-panel="dl-hf">
+        <p><span class="car-hours">7:30am</span> Read: filings, notes, the tape. <span class="car-hours">10am</span> Rebuild the short thesis after last night's earnings beat went against you (down 40bps on the book). <span class="car-hours">1pm</span> Management meeting with a company you may never own, because the option to know is the job. <span class="car-hours">5pm</span> Pitch the PM one new idea; get 6 hard questions, keep 1 follow-up. Hours are moderate (55 to 65); the stress is that every position is a graded exam that never ends.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09.4 ============ -->
+  <section class="lesson" id="recruiting">
+    <h2><span class="sec-num">09.4</span> Recruiting timelines: earlier than you think</h2>
+    <p class="lede">The industry's worst-kept dysfunction: seats are filled 1 to 2 years before the work starts. Missing a window does not end a career, but knowing the windows is a real edge.</p>
+
+    <ol class="timeline">
+      <li>
+        <div class="timeline-when">University year 1 to 2</div>
+        <div class="timeline-title">Foundation and first internships</div>
+        <div class="timeline-body">GPA protection, finance club, a first internship of any kind (boutique, wealth management, anything with a Bloomberg within eyeshot). Sophomore-year "insight programs" at large banks are quietly becoming first-round filters.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Year 2, spring to summer</div>
+        <div class="timeline-title">IB summer analyst recruiting opens</div>
+        <div class="timeline-body">Applications for the junior-year summer internship open 12 to 14 months early. Networking calls, HireVue screens, superdays (back-to-back interview gauntlets). The summer internship converts to the full-time offer for most hires; full-time-only recruiting is a thin second door.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Analyst year 1, autumn</div>
+        <div class="timeline-title">PE on-cycle strikes</div>
+        <div class="timeline-body">Mega-fund and upper-middle-market PE recruiting famously kicks off months into your first banking job, interviewing 22-year-olds for seats starting 2 years later. It starts with headhunter coffee chats and erupts into 48 hours of modeling tests and offers. Off-cycle processes run year-round for everyone else and are saner.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Years 2 to 6</div>
+        <div class="timeline-title">Lateral and MBA routes</div>
+        <div class="timeline-body">Lateral hiring (bank to bank, or into corp dev, credit, HFs) runs continuously and rewards deal experience over pedigree. The MBA route re-opens banking at the associate level and remains the classic reset button for career changers.</div>
+      </li>
+    </ol>
+
+    <div class="callout callout-warn">
+      <p>The on-cycle trap: joining PE recruiting before you can comfortably build a paper LBO burns your one first impression with headhunters who gatekeep the industry. If you are not ready in October, skipping to off-cycle is a strategy, not a failure.</p>
+    </div>
+  </section>
+
+  <!-- ============ 09.5 ============ -->
+  <section class="lesson" id="breaking-in">
+    <h2><span class="sec-num">09.5</span> Breaking in, especially from a non-target</h2>
+    <p class="lede">Banks recruit heavily from a short list of "target" schools, but every class contains people who came through the side door. The side door has a known shape.</p>
+
+    <p><strong>The story.</strong> Every interview begins with "walk me through your resume," and the winning answer is a 90-second narrative arc: spark (why finance grabbed you), proof (what you did about it: internships, an investment club portfolio, a valuation you built for fun), destination (why this seat, this firm). Rehearse it until it sounds unrehearsed.</p>
+    <p><strong>The networking math.</strong> Cold outreach works at scale: alumni first, then shared-background bankers, 10 to 15 personalized emails a week, 15-minute calls, always ending with "is there anyone else you'd suggest I speak with?" A referral does not get you the job; it gets your resume read by a human, which is the entire battle at a non-target.</p>
+    <p><strong>The proof of work.</strong> Nothing separates candidates like unforced evidence: a stock pitch with a real model attached, a blog dissecting a deal, completing a curriculum like this one and being able to defend an LBO's math out loud. Interviewers forgive a missing brand name; they do not forgive missing preparation.</p>
+
+    <div class="callout callout-case">
+      <p>The boutique-to-bulge path is the classic non-target route: a no-name summer at a 4-person M&amp;A shop, leveraged into junior-year interviews ("I closed a $30M deal where I built the model myself" beats "I fetched coffee at a famous logo"), then a lateral after a year. Recruiters see this pattern constantly and respect it; the industry is snobbish about entry but mercenary about competence.</p>
+    </div>
+  </section>
+
+  <!-- ============ 09.6 ============ -->
+  <section class="lesson" id="interview-prep">
+    <h2><span class="sec-num">09.6</span> The technical interview bank</h2>
+    <p class="lede">Technicals test whether you can think in the language of Modules 03 to 06 under mild pressure. Work through these until the answers feel obvious; every one is a real interview staple.</p>
+
+    <h4>Accounting</h4>
+    <details class="accordion"><summary>Walk me through the 3 financial statements.</summary><div class="acc-body"><p>The income statement measures profitability over a period: revenue down to net income. The cash flow statement starts from net income, adjusts for non-cash items and working capital, and adds investing and financing flows to show the change in cash. The balance sheet is the snapshot linking them: cash flows into the cash balance, net income (less dividends) rolls into retained earnings, and assets always equal liabilities plus equity.</p></div></details>
+    <details class="accordion"><summary>Walk me through $10 of depreciation (40% of interviews ask exactly this).</summary><div class="acc-body"><p>Assume a 25% tax rate. Income statement: pre-tax income falls $10, taxes fall $2.50, net income falls $7.50. Cash flow statement: start with net income down $7.50, add back the $10 non-cash depreciation, so cash rises $2.50. Balance sheet: cash up $2.50, PP&amp;E down $10, so assets down $7.50; retained earnings down $7.50 on the other side. It balances, and the punchline is that depreciation raises cash through the tax shield.</p></div></details>
+    <details class="accordion"><summary>Why can a profitable company run out of cash?</summary><div class="acc-body"><p>Because accrual profits are not cash. A fast grower books revenue as receivables, builds inventory ahead of sales, and pays suppliers now: working capital soaks up cash even while the income statement smiles. Add capex and debt maturities and profitable companies die of illiquidity regularly. This is why lenders read the cash flow statement first.</p></div></details>
+    <details class="accordion"><summary>What is working capital and why does it matter in deals?</summary><div class="acc-body"><p>Operating current assets minus operating current liabilities: roughly receivables plus inventory minus payables. It is the cash tied up in simply running the business. In M&amp;A, purchase agreements set a normalized working capital "peg"; deliver less at close and the price adjusts against you, which is why unglamorous working capital fights are where real money moves.</p></div></details>
+    <details class="accordion"><summary>EBITDA: why does everyone use it, and what is wrong with it?</summary><div class="acc-body"><p>It approximates operating cash generation before capital structure, taxes, and accounting depreciation choices, making companies comparable and multiples easy. What is wrong: it ignores capex (fatal for asset-heavy businesses), working capital swings, and stock comp if adjusted away. Famous critique: calling EBITDA a proxy for cash flow is how leveraged disasters get funded.</p></div></details>
+
+    <h4>Valuation</h4>
+    <details class="accordion"><summary>What are the 3 main valuation methods, and which prints highest?</summary><div class="acc-body"><p>Trading comps (market prices for minority stakes), precedent transactions (real prices paid for control), and DCF (intrinsic value of forecast cash flows). Precedents usually print highest because they embed control premiums and synergies; the DCF can land anywhere because it obeys its assumptions; comps set the market baseline.</p></div></details>
+    <details class="accordion"><summary>Enterprise value vs equity value, in one breath.</summary><div class="acc-body"><p>Equity value is the shareholders' claim; enterprise value is the whole operating business: equity plus net debt (plus preferred and minorities). EV pairs with pre-interest metrics like EBITDA; equity value pairs with net income. A company with $800M market cap, $300M debt, $100M cash has EV of $1,000M.</p></div></details>
+    <details class="accordion"><summary>Two companies have identical EBITDA. Why might one trade at twice the multiple?</summary><div class="acc-body"><p>Because a multiple is compressed expectations: faster growth, better margins and cash conversion, stickier customers, lower risk, better management, scarcer asset. Saying "it trades at 14x vs 7x" is the market saying its future cash flows are worth twice as much per current dollar of EBITDA.</p></div></details>
+    <details class="accordion"><summary>Walk me through a DCF.</summary><div class="acc-body"><p>Project unlevered free cash flow for 5 to 10 years (revenue growth, margins, taxes, capex, working capital). Discount those flows at WACC. Add a terminal value, either a Gordon growth perpetuity with g safely below WACC or an exit multiple, discounted back. The sum is enterprise value; subtract net debt for equity value; divide by shares for a per-share answer. Then, crucially, sensitize WACC and terminal assumptions, because the terminal usually carries most of the value.</p></div></details>
+    <details class="accordion"><summary>Would raising cheap debt change a company's EV?</summary><div class="acc-body"><p>Not directly: EV measures the operating business, and swapping equity for debt just reallocates claims (equity value falls, debt rises, cash effects net out). Indirectly, yes, at the margins: the tax shield and discipline of debt can lower WACC and nudge intrinsic EV up until distress risk pushes back. The trap answer is "EV rises by the cash raised": it does not, cash is netted out.</p></div></details>
+
+    <h4>M&amp;A</h4>
+    <details class="accordion"><summary>When is a deal accretive vs dilutive?</summary><div class="acc-body"><p>Accretive when the acquisition adds more earnings than the cost of funding it: pro forma EPS rises. Quick screen for all-stock deals: if the acquirer's P/E exceeds the target's (post-premium), the deal is accretive, because you are paying with a currency the market values richer than what you are buying. Cash deals compare the target's earnings yield against the after-tax cost of the cash or debt used.</p></div></details>
+    <details class="accordion"><summary>Why do most synergy estimates favor cost over revenue synergies?</summary><div class="acc-body"><p>Cost synergies (headcount overlap, procurement, facilities) are within management's control and reliably bankable, so buyers will pay for a portion of them. Revenue synergies require customers to behave as hoped, so boards discount them heavily, often to zero, in what they are willing to fund in the price.</p></div></details>
+    <details class="accordion"><summary>What actually happens between signing and closing?</summary><div class="acc-body"><p>Regulatory clearances (antitrust, foreign investment), shareholder votes if required, financing funding, and the covenants that keep the seller running the business normally. The gap can run months; the merger agreement's conditions, MAC clause, and break fees govern who bears which risks if the world changes in between.</p></div></details>
+
+    <h4>LBO</h4>
+    <details class="accordion"><summary>What makes a good LBO target?</summary><div class="acc-body"><p>Stable, predictable cash flows to service debt; low existing leverage; modest capex needs; defensible market position; costs to cut or add-ons to buy; a credible exit. Boring is beautiful: lenders and sponsors both underwrite predictability, not excitement.</p></div></details>
+    <details class="accordion"><summary>Paper LBO: buy at 8x on $50M EBITDA, 60% debt. EBITDA reaches $70M in year 5, exit at 8x, $100M of debt paid down. Returns?</summary><div class="acc-body"><p>Entry: EV = 8 × 50 = $400M; debt $240M, equity $160M. Exit: EV = 8 × 70 = $560M; debt remaining 240 − 100 = $140M; equity = $420M. MOIC = 420 ÷ 160 = roughly 2.6x; over 5 years that is an IRR of about 21%. Say the steps out loud in that order and you have passed.</p></div></details>
+    <details class="accordion"><summary>Why does leverage amplify equity returns?</summary><div class="acc-body"><p>The debt's claim is fixed, so every dollar of value created beyond interest flows entirely to a small equity slice. Buy $400M with $160M of equity and a $160M value gain doubles the equity rather than rising 40%. The same lever works in reverse, which is where Module 06's cautionary tales come from.</p></div></details>
+
+    <h4>Judgment and market questions</h4>
+    <details class="accordion"><summary>"Pitch me a stock" (or a deal). What is the structure?</summary><div class="acc-body"><p>Four beats, 2 minutes: what it is (one sentence), why the market is wrong (the variant view, the heart of the pitch), what it is worth (a number with a method attached), and what proves you right or wrong (catalysts and the kill condition). The kill condition is what separates a thesis from a hope, and interviewers listen for it.</p></div></details>
+    <details class="accordion"><summary>Rates just rose 200bps. Walk me through what happens to valuations.</summary><div class="acc-body"><p>Discount rates rise, so present values fall, hardest for long-duration cash flows: growth equity and long bonds. Multiples compress, LBO math strains as debt costs eat coverage, deal volume slows while bid-ask spreads between buyers and sellers reset. Connecting one macro input through the whole machine is exactly what this curriculum trains.</p></div></details>
+
+    <div class="callout callout-tip">
+      <p>Interviewers are not grading trivia; they are checking whether the machine hangs together in your head. If you can walk depreciation through the statements, bridge EV to equity, and do a paper LBO with round numbers out loud, you are technically ready for almost any entry-level seat in the industry.</p>
+    </div>
+  </section>
+
+  <!-- ============ 09.7 ============ -->
+  <section class="lesson" id="first-year">
+    <h2><span class="sec-num">09.7</span> Offers, first years, and staying human</h2>
+    <p class="lede">Choosing between offers and surviving year 1 are skills of their own, and the industry does not hand out a manual.</p>
+
+    <p><strong>Evaluating offers:</strong> group and deal flow beat brand at the margin. An analyst on a busy team at a strong boutique often exits better than one parked on a quiet mega-bank desk, because the buy-side buys reps, not logos. Ask where the last 3 analyst classes went; firms that place well will tell you instantly, and the ones that dodge are answering too.</p>
+    <p><strong>The first-year contract with yourself:</strong> reliability compounds faster than brilliance. Turning clean work on time, flagging problems early, and being pleasant at 1am is the entire job for 12 months; reputations set in the first 90 days and follow you between firms for a decade.</p>
+    <p><strong>The honest part:</strong> burnout is real and structural, not a personal failing. The healthy operators treat banking years like an expedition: a defined window, a purpose (skills, savings, exits), non-negotiable anchors (sleep floors, one protected day), and a pre-decided exit condition. Leaving on plan is a win, not a defeat; the industry is a toolkit, and the tools stay with you wherever you take them.</p>
+  </section>
+
+  <!-- ============ 09.8 ============ -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">09.8</span> Knowledge check</h2>
+    <p class="lede">8 questions across the map, the money, and the technicals.</p>
+    <div id="quiz-root"></div>
+  </section>
+
+</main>
+
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+
+  /* ============ Comp Ladder Explorer ============ */
+  var TRACKS = {
+    ib: {
+      note: "Sell-side advisory. High floors: the bonus is large but salary alone beats most industries. MD pay swings with deal fees.",
+      levels: [
+        { l: "Analyst", base: 110, bonus: 75 },
+        { l: "Associate", base: 175, bonus: 125 },
+        { l: "VP", base: 250, bonus: 200 },
+        { l: "Director", base: 300, bonus: 250 },
+        { l: "MD", base: 500, bonus: 700 }
+      ]
+    },
+    pe: {
+      note: "Cash comp shown; the real senior prize is carried interest, which can dwarf salary and bonus but pays out over fund lifetimes.",
+      levels: [
+        { l: "Associate", base: 150, bonus: 150 },
+        { l: "Sr. Associate", base: 180, bonus: 180 },
+        { l: "VP", base: 250, bonus: 250 },
+        { l: "Principal", base: 350, bonus: 350 },
+        { l: "Partner", base: 500, bonus: 500 }
+      ]
+    },
+    hf: {
+      note: "The widest error bars in finance: pay is a share of P&L. A PM who prints returns can out-earn everyone on this page; a bad year can pay near zero.",
+      levels: [
+        { l: "Analyst", base: 150, bonus: 150 },
+        { l: "Sr. Analyst", base: 200, bonus: 300 },
+        { l: "Sector head", base: 250, bonus: 450 },
+        { l: "PM", base: 250, bonus: 750 },
+        { l: "Star PM", base: 300, bonus: 1700 }
+      ]
+    },
+    am: {
+      note: "Long-only asset management: saner hours, steadier pay, careers measured in decades and track records.",
+      levels: [
+        { l: "Analyst", base: 100, bonus: 40 },
+        { l: "Associate", base: 130, bonus: 60 },
+        { l: "VP / Sr. Analyst", base: 180, bonus: 100 },
+        { l: "Director / PM", base: 230, bonus: 150 },
+        { l: "Senior PM", base: 350, bonus: 300 }
+      ]
+    },
+    cd: {
+      note: "Corporate development: the trade is roughly 30% to 50% less cash than banking for 40% fewer hours, plus equity comp at public companies.",
+      levels: [
+        { l: "Analyst", base: 90, bonus: 15 },
+        { l: "Associate", base: 120, bonus: 30 },
+        { l: "Manager", base: 150, bonus: 40 },
+        { l: "Director", base: 200, bonus: 70 },
+        { l: "VP Corp Dev", base: 260, bonus: 120 }
+      ]
+    }
+  };
+
+  function compDraw() {
+    var t = TRACKS[document.getElementById("comp-track").value];
+    document.getElementById("comp-note").textContent = t.note;
+    var W = 640, H = 300, padL = 64, padR = 16, padT = 26, padB = 40;
+    var plotH = H - padT - padB;
+    var maxV = 0;
+    t.levels.forEach(function (d) { if (d.base + d.bonus > maxV) maxV = d.base + d.bonus; });
+    var mag = Math.pow(10, Math.floor(Math.log(maxV) / Math.LN10));
+    var ceil = Math.ceil(maxV / (mag / 2)) * (mag / 2);
+    var slotW = (W - padL - padR) / t.levels.length;
+    var y = function (v) { return padT + plotH * (1 - v / ceil); };
+    var baseline = padT + plotH;
+    var s = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Total compensation by level, base and bonus stacked">';
+    [0.5, 1].forEach(function (f) {
+      var gy = y(ceil * f);
+      s += '<line x1="' + padL + '" y1="' + gy + '" x2="' + (W - padR) + '" y2="' + gy + '" class="gridline"></line>';
+      s += '<text x="' + (padL - 8) + '" y="' + (gy + 4) + '" text-anchor="end" font-size="11" fill="var(--ink-3)">$' + Math.round(ceil * f) + "K</text>";
+    });
+    s += '<line x1="' + padL + '" y1="' + baseline + '" x2="' + (W - padR) + '" y2="' + baseline + '" class="axis"></line>';
+    t.levels.forEach(function (d, i) {
+      var bw = Math.min(24, slotW * 0.42);
+      var bx = padL + slotW * i + (slotW - bw) / 2;
+      var yBaseTop = y(d.base);
+      var yTotTop = y(d.base + d.bonus);
+      /* base segment: square corners */
+      s += '<rect x="' + bx + '" y="' + yBaseTop + '" width="' + bw + '" height="' + Math.max(1, baseline - yBaseTop) + '" fill="var(--viz-1)"></rect>';
+      /* bonus segment with 2px surface gap and rounded top */
+      var bonusH = Math.max(0, yBaseTop - yTotTop - 2);
+      if (bonusH > 1) {
+        s += '<path d="M' + bx + " " + (yBaseTop - 2) + " V" + (yTotTop + 4) + " Q" + bx + " " + yTotTop + " " + (bx + 4) + " " + yTotTop +
+             " H" + (bx + bw - 4) + " Q" + (bx + bw) + " " + yTotTop + " " + (bx + bw) + " " + (yTotTop + 4) + " V" + (yBaseTop - 2) + ' Z" fill="var(--viz-2)"></path>';
+      }
+      s += '<text x="' + (bx + bw / 2) + '" y="' + (yTotTop - 7) + '" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--ink)">$' + (d.base + d.bonus) + "K</text>";
+      s += '<text x="' + (bx + bw / 2) + '" y="' + (H - 22) + '" text-anchor="middle" font-size="11" fill="var(--ink-2)">' + d.l + "</text>";
+    });
+    s += "</svg>";
+    document.getElementById("comp-chart").innerHTML = s;
+  }
+  Atlas.onInput(["comp-track"], compDraw);
+
+  /* ============ quiz ============ */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "Which seat has the fastest feedback loop on whether you were right?",
+      choices: ["Private equity", "Venture capital", "Sales & trading", "Investment banking"],
+      answer: 2,
+      explain: "A trader's P&L is marked daily, often by lunch. PE takes years, venture the better part of a decade. Matching temperament to feedback loop is the underrated career decision."
+    },
+    {
+      q: "PE mega-fund on-cycle recruiting typically interviews candidates who are:",
+      choices: ["Graduating seniors", "A few months into their first banking job", "Third-year associates", "MBA students only"],
+      answer: 1,
+      explain: "On-cycle famously strikes in the autumn of the first analyst year, hiring for seats that start roughly 2 years later."
+    },
+    {
+      q: "Walk through $10 of depreciation at a 25% tax rate: net income and cash change by:",
+      choices: ["NI (7.50), cash +2.50", "NI (10), cash (10)", "NI (7.50), cash (7.50)", "NI +2.50, cash (7.50)"],
+      answer: 0,
+      explain: "Pre-tax income falls $10, tax falls $2.50, NI falls $7.50; adding back the non-cash $10 leaves cash UP $2.50. The tax shield is the whole point of the question."
+    },
+    {
+      q: "Paper LBO: entry EV $400M with $240M debt; exit equity $420M on $160M invested. The MOIC is roughly:",
+      choices: ["1.8x", "2.1x", "2.6x", "3.5x"],
+      answer: 2,
+      explain: "MOIC = equity out ÷ equity in = 420 ÷ 160 = 2.625x, call it 2.6x. Over 5 years that is roughly a 21% IRR."
+    },
+    {
+      q: "An all-stock deal is accretive when:",
+      choices: ["The target is bigger than the acquirer", "The acquirer's P/E exceeds the target's post-premium P/E", "The target has more debt", "Synergies are zero"],
+      answer: 1,
+      explain: "Paying with a richer currency (higher P/E) for cheaper earnings mechanically raises pro forma EPS. It says nothing about whether the deal creates value, which is a separate and better question."
+    },
+    {
+      q: "Why does senior buy-side pay have a higher ceiling than senior banking pay?",
+      choices: ["Buy-side salaries are larger", "Carried interest and P&L shares scale with fund performance, not fees for advice", "Banks are regulated to cap pay", "It does not"],
+      answer: 1,
+      explain: "An MD earns a share of advisory fees; a PE partner or HF PM earns a share of investment profits, which scale with capital and performance. High floors on the sell-side, high ceilings on the buy-side."
+    },
+    {
+      q: "The most credible signal a non-target candidate can show is:",
+      choices: ["A high SAT score", "Name-dropping alumni", "Work product: a real pitch or model they can defend, plus relevant internships", "Confidence"],
+      answer: 2,
+      explain: "Interviewers forgive a missing brand; they do not forgive missing preparation. Proof of work plus a referral to get the resume read is the entire non-target playbook."
+    },
+    {
+      q: "A strong stock pitch always includes:",
+      choices: ["At least 10 slides", "A price target from a bank's research", "The variant view and a kill condition", "Technical chart analysis"],
+      answer: 2,
+      explain: "What the market is missing, and what evidence would prove you wrong. Without a kill condition a thesis is just a hope with a ticker attached."
+    }
+  ]);
+});
+</script>
+</body>
+</html>

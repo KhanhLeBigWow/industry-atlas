@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" data-module="foundations" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foundations of Finance · Capital Atlas</title>
+<meta name="description" content="What finance is for: moving money through time, pooling capital, and pricing risk. The primer everything else builds on.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .fnd-jobs .card { text-align: left; }
+  .fnd-jobs .card .big-n { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 700; color: var(--mod-accent); }
+  .fnd-toggle { display: flex; gap: 8px; margin-bottom: 16px; }
+  .fnd-toggle button { flex: 1; }
+  .fnd-toggle button.on { background: var(--brand-strong); color: #fff; border-color: transparent; }
+  [data-theme="dark"] .fnd-toggle button.on { background: #2a78d6; }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">Module 01 · Primer</span>
+    <h1>Foundations of Finance</h1>
+    <p class="hero-tagline">Finance has a reputation for complexity it does not deserve. Underneath the jargon, the whole industry does 3 simple jobs. Learn those jobs and the rest of this curriculum becomes pattern recognition.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ============ 01.1 ============ -->
+  <section class="lesson" id="what-finance-does">
+    <h2><span class="sec-num">01.1</span> The 3 jobs of finance</h2>
+    <p class="lede">Strip away the towers and the ticker tape, and finance exists to solve 3 problems that every household, company, and government has always had.</p>
+
+    <div class="grid-3 fnd-jobs">
+      <div class="card card-accent">
+        <div class="big-n">JOB 1</div>
+        <h4>Move money through time</h4>
+        <p class="small muted">You earn money today but need it in retirement. A company needs a factory today but will earn from it for 20 years. Saving, lending, and investing are all machinery for shifting purchasing power between your present self and your future self.</p>
+      </div>
+      <div class="card card-accent">
+        <div class="big-n">JOB 2</div>
+        <h4>Pool and allocate capital</h4>
+        <p class="small muted">No single household can fund a semiconductor plant. Finance collects small pools of savings into large ones, then competes to route them toward the projects expected to earn the best return. When it works, good ideas get funded and bad ones starve.</p>
+      </div>
+      <div class="card card-accent">
+        <div class="big-n">JOB 3</div>
+        <h4>Transfer and price risk</h4>
+        <p class="small muted">A farmer cannot control grain prices; an airline cannot control fuel. Insurance, derivatives, and even plain equity let risk move from people who cannot bear it to people paid to bear it. The price of that transfer is one of the most useful numbers in the economy.</p>
+      </div>
+    </div>
+
+    <p>Every product you will meet in later modules is a combination of these 3 jobs. A share of stock moves money through time (you invest now, get dividends later), pools capital (thousands of shareholders fund one company), and prices risk (the share price tells you what the market charges for that company's uncertainty). A mortgage, an IPO, a leveraged buyout: same 3 ingredients, different recipes.</p>
+
+    <div class="callout callout-tip">
+      <p>When a financial product seems baffling, ask: whose money is moving through time, whose capital is being pooled, and who is being paid to hold which risk? If you cannot answer any of the 3, either you do not understand the product yet, or nobody does. Both happen.</p>
+    </div>
+  </section>
+
+  <!-- ============ 01.2 ============ -->
+  <section class="lesson" id="the-system">
+    <h2><span class="sec-num">01.2</span> Two routes from saver to spender</h2>
+    <p class="lede">Money gets from the people who have it to the people who can use it by exactly 2 routes: through an intermediary's balance sheet, or directly through a market. The entire industry is variations on these 2 pipes.</p>
+
+    <div class="figure">
+      <p class="figure-title">Intermediated vs direct finance</p>
+      <p class="figure-sub">Same saver, same borrower, 2 different plumbing systems.</p>
+      <svg viewBox="0 0 720 300" role="img" aria-label="Diagram comparing bank intermediation with direct market finance.">
+        <defs>
+          <marker id="fnd-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 z" fill="var(--viz-2)"></path>
+          </marker>
+        </defs>
+        <!-- route 1: bank -->
+        <text x="20" y="30" class="lbl" font-size="13">Route 1 · Through a balance sheet</text>
+        <rect x="20" y="50" width="150" height="58" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="95" y="76" text-anchor="middle" class="lbl">Saver</text>
+        <text x="95" y="94" text-anchor="middle" class="lbl-muted">deposits $10,000</text>
+        <rect x="285" y="50" width="150" height="58" rx="10" fill="color-mix(in srgb, var(--viz-1) 12%, var(--surface-1))" stroke="var(--viz-1)"></rect>
+        <text x="360" y="76" text-anchor="middle" class="lbl">Bank</text>
+        <text x="360" y="94" text-anchor="middle" class="lbl-muted">takes the credit risk</text>
+        <rect x="550" y="50" width="150" height="58" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="625" y="76" text-anchor="middle" class="lbl">Borrower</text>
+        <text x="625" y="94" text-anchor="middle" class="lbl-muted">gets a loan at 8%</text>
+        <path d="M174 79 H 279" class="edge-money" marker-end="url(#fnd-arr)"></path>
+        <path d="M439 79 H 544" class="edge-money" marker-end="url(#fnd-arr)"></path>
+        <text x="226" y="70" text-anchor="middle" font-size="11" fill="var(--ink-2)">pays 3%</text>
+        <text x="491" y="70" text-anchor="middle" font-size="11" fill="var(--ink-2)">charges 8%</text>
+        <text x="360" y="135" text-anchor="middle" font-size="11.5" fill="var(--ink-3)" font-style="italic">the 5% spread pays for risk-taking, screening, and branches</text>
+
+        <!-- route 2: market -->
+        <text x="20" y="185" class="lbl" font-size="13">Route 2 · Through a market</text>
+        <rect x="20" y="205" width="150" height="58" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="95" y="231" text-anchor="middle" class="lbl">Investor</text>
+        <text x="95" y="249" text-anchor="middle" class="lbl-muted">buys the bond</text>
+        <rect x="285" y="205" width="150" height="58" rx="10" fill="color-mix(in srgb, var(--viz-1) 12%, var(--surface-1))" stroke="var(--viz-1)" stroke-dasharray="5 4"></rect>
+        <text x="360" y="231" text-anchor="middle" class="lbl">Market</text>
+        <text x="360" y="249" text-anchor="middle" class="lbl-muted">banks only arrange</text>
+        <rect x="550" y="205" width="150" height="58" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="625" y="231" text-anchor="middle" class="lbl">Issuer</text>
+        <text x="625" y="249" text-anchor="middle" class="lbl-muted">sells a bond at 6%</text>
+        <path d="M174 234 H 279" class="edge-money" marker-end="url(#fnd-arr)"></path>
+        <path d="M439 234 H 544" class="edge-money" marker-end="url(#fnd-arr)"></path>
+        <text x="360" y="290" text-anchor="middle" font-size="11.5" fill="var(--ink-3)" font-style="italic">the investor holds the credit risk directly and keeps the full 6%</text>
+      </svg>
+      <p class="figure-note">Rates illustrative. The dashed border matters: in direct finance, the intermediary arranges the flow but does not hold the loan.</p>
+    </div>
+
+    <p>In <strong>intermediated finance</strong>, a bank stands in the middle and takes the risk onto its own balance sheet. Your deposit is a loan to the bank; the bank's loan to a business is the bank's problem if it sours. You get safety and liquidity; the bank keeps the spread as payment for holding the risk and doing the credit work.</p>
+    <p>In <strong>direct (market) finance</strong>, the saver holds the borrower's IOU directly, as a bond or a share. Investment banks, exchanges, and funds make this route work, but they mostly arrange, package, and trade rather than hold. Risk sits with the end investor, and so does more of the return.</p>
+    <p>The US economy leans on markets more than almost anywhere else; Europe and Asia historically lean on banks. That single difference explains a lot about where investment banking, private credit, and giant bond markets flourish.</p>
+
+    <div class="callout callout-case">
+      <p>The 2008 financial crisis was, at its core, a failure of both pipes at once. Banks had loaded balance sheets with mortgage risk they had misjudged, and markets had distributed the same risk through securities so opaque that when trust broke, buyers simply vanished. Lending froze not because savings disappeared, but because the machinery connecting savers to borrowers stopped being trusted. Roughly $2 trillion of global bank writedowns later, the lesson stands: finance runs on confidence in the plumbing.</p>
+    </div>
+  </section>
+
+  <!-- ============ 01.3 ============ -->
+  <section class="lesson" id="instruments">
+    <h2><span class="sec-num">01.3</span> The instruments: debt, equity, and everything between</h2>
+    <p class="lede">Every security is a claim on someone's future cash flows. What varies is where you stand in line when those cash flows arrive, and what you were promised.</p>
+
+    <p><strong>Debt</strong> is a promise: fixed payments on fixed dates, and legal remedies if they do not show up. Lenders get paid first but their upside is capped at the interest they were promised. <strong>Equity</strong> is ownership of whatever is left after everyone else is paid: unlimited upside, last in line, no promises at all. <strong>Hybrids</strong> like preferred stock and convertible bonds mix the two, trading some safety for some upside or vice versa.</p>
+
+    <div class="figure">
+      <p class="figure-title">The capital structure: who gets paid first</p>
+      <p class="figure-sub">One company's capital, stacked by priority of claim. Risk and expected return rise as you move down.</p>
+      <svg viewBox="0 0 720 320" role="img" aria-label="Capital structure stack from senior secured debt at the top priority to common equity at the bottom.">
+        <g font-size="12.5">
+          <rect x="150" y="20" width="330" height="50" rx="8" fill="color-mix(in srgb, var(--viz-1) 32%, var(--surface-1))"></rect>
+          <text x="315" y="42" text-anchor="middle" class="lbl">Senior secured debt</text>
+          <text x="315" y="59" text-anchor="middle" class="lbl-muted">bank loans, backed by collateral · lowest yield</text>
+          <rect x="150" y="74" width="330" height="50" rx="8" fill="color-mix(in srgb, var(--viz-1) 22%, var(--surface-1))"></rect>
+          <text x="315" y="96" text-anchor="middle" class="lbl">Senior unsecured debt</text>
+          <text x="315" y="113" text-anchor="middle" class="lbl-muted">most corporate bonds live here</text>
+          <rect x="150" y="128" width="330" height="50" rx="8" fill="color-mix(in srgb, var(--viz-1) 13%, var(--surface-1))"></rect>
+          <text x="315" y="150" text-anchor="middle" class="lbl">Subordinated / mezzanine</text>
+          <text x="315" y="167" text-anchor="middle" class="lbl-muted">paid after seniors · higher coupon for the wait</text>
+          <rect x="150" y="182" width="330" height="50" rx="8" fill="color-mix(in srgb, var(--viz-5) 16%, var(--surface-1))"></rect>
+          <text x="315" y="204" text-anchor="middle" class="lbl">Preferred equity</text>
+          <text x="315" y="221" text-anchor="middle" class="lbl-muted">fixed dividend, ahead of common, behind all debt</text>
+          <rect x="150" y="236" width="330" height="56" rx="8" fill="color-mix(in srgb, var(--viz-5) 30%, var(--surface-1))"></rect>
+          <text x="315" y="260" text-anchor="middle" class="lbl">Common equity</text>
+          <text x="315" y="277" text-anchor="middle" class="lbl-muted">owns everything left over · unlimited upside, first loss</text>
+        </g>
+        <path d="M110 30 V 282" class="axis"></path>
+        <path d="M106 36 L110 28 L114 36" fill="none" class="axis"></path>
+        <text x="96" y="60" text-anchor="middle" font-size="11" fill="var(--ink-3)" transform="rotate(-90 96 60)"></text>
+        <text x="80" y="160" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" transform="rotate(-90 80 160)">paid first</text>
+        <path d="M560 30 V 282" class="axis"></path>
+        <path d="M556 276 L560 284 L564 276" fill="none" class="axis"></path>
+        <text x="590" y="160" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" transform="rotate(90 590 160)">risk and expected return</text>
+      </svg>
+      <p class="figure-note">In a bankruptcy, value pours from the top: each layer must be filled in full before a dollar reaches the next. Equity often gets zero, which is exactly the deal equity signed up for.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Instrument</th><th>The promise</th><th>Upside</th><th>Downside</th><th>Typical investor</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Bank loan</strong></td><td>Interest + principal, often secured</td><td>Capped at the coupon</td><td>Loss if default exceeds collateral</td><td>Banks, credit funds</td></tr>
+          <tr><td><strong>Bond</strong></td><td>Fixed coupons, principal at maturity</td><td>Capped, plus price gains if rates fall</td><td>Default, inflation, rate rises</td><td>Pensions, insurers, funds</td></tr>
+          <tr><td><strong>Preferred stock</strong></td><td>Fixed dividend, if declared</td><td>Modest; sometimes convertible</td><td>Behind all debt in a wipeout</td><td>Income investors, banks</td></tr>
+          <tr><td><strong>Common stock</strong></td><td>Nothing, honestly</td><td>Unlimited</td><td>100% loss possible</td><td>Everyone, eventually</td></tr>
+          <tr><td><strong>Convertible bond</strong></td><td>Small coupon + option to convert to shares</td><td>Equity-like if the stock runs</td><td>Bond-like floor, minus credit risk</td><td>Specialist funds</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-warn">
+      <p>Newcomers assume higher yield means a better investment. Read the stack again: yield is the price of risk, not a gift. A bond paying 12% when Treasuries pay 4% is telling you, loudly, that repayment is in doubt. In finance, unusually generous offers are warnings wearing a costume.</p>
+    </div>
+  </section>
+
+  <!-- ============ 01.4 ============ -->
+  <section class="lesson" id="tvm">
+    <h2><span class="sec-num">01.4</span> Time value of money: the one formula that runs everything</h2>
+    <p class="lede">A dollar today is worth more than a dollar next year, because today's dollar can be invested and grow. That single sentence, made precise, is the engine inside every valuation, every loan, and every retirement plan.</p>
+
+    <p>Two directions, one machine. <strong>Compounding</strong> pushes money forward through time: invest PV today at rate r for n years and it becomes the future value. <strong>Discounting</strong> pulls money backward: a payment of FV due in n years is worth less today, and the discount rate r says how much less.</p>
+
+    <div class="formula">FV = PV × (1 + r)^n            PV = FV ÷ (1 + r)^n
+
+with compounding m times per year:
+FV = PV × (1 + r/m)^(m×n)</div>
+
+    <p>The discount rate is where finance hides all its judgment. It bundles the risk-free alternative (what Treasuries pay), expected inflation, and a premium for the risk that the payment never arrives. Riskier promise, higher r, lower present value. Module 04 spends a whole section choosing r; for now, feel how violently it matters:</p>
+
+    <div class="callout callout-example">
+      <p>You are promised $1,000,000 in 10 years. What is that promise worth today?</p>
+      <p>At 4% (a safe promisor): $1,000,000 ÷ 1.04^10 = <strong>$675,564</strong>.<br>
+      At 8% (a normal business): $1,000,000 ÷ 1.08^10 = <strong>$463,193</strong>.<br>
+      At 12% (a shaky startup): $1,000,000 ÷ 1.12^10 = <strong>$321,973</strong>.</p>
+      <p>Same promise, half the value, purely from doubt. When someone argues about a discount rate, they are arguing about trust, dressed in math.</p>
+    </div>
+
+    <div class="tool" id="tool-tvm">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Time Value of Money Lab</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="fnd-toggle">
+            <button type="button" class="btn btn-sm on" id="tvm-mode-fv">Grow forward</button>
+            <button type="button" class="btn btn-sm" id="tvm-mode-pv">Discount back</button>
+          </div>
+          <div class="slider-row">
+            <label><span id="tvm-amt-label">Amount today</span> <output></output></label>
+            <input type="range" id="tvm-amt" min="1000" max="100000" step="1000" value="10000">
+          </div>
+          <div class="slider-row">
+            <label>Annual rate <output></output></label>
+            <input type="range" id="tvm-rate" min="0" max="15" step="0.25" value="7">
+          </div>
+          <div class="slider-row">
+            <label>Years <output></output></label>
+            <input type="range" id="tvm-years" min="1" max="40" step="1" value="20">
+          </div>
+          <div class="select-row">
+            <label for="tvm-freq">Compounding</label>
+            <select id="tvm-freq">
+              <option value="1">Annual</option>
+              <option value="4">Quarterly</option>
+              <option value="12">Monthly</option>
+            </select>
+          </div>
+        </div>
+        <div class="tool-output">
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label" id="tvm-out-label">Value in 20 years</div><div class="stat-value" id="tvm-result">$0</div></div>
+            <div class="stat-tile"><div class="stat-label">Growth multiple</div><div class="stat-value" id="tvm-mult">1.0x</div></div>
+            <div class="stat-tile"><div class="stat-label">From compounding alone</div><div class="stat-value" id="tvm-interest">$0</div></div>
+          </div>
+          <div id="tvm-chart"></div>
+          <p class="figure-note" id="tvm-narrate"></p>
+        </div>
+      </div>
+      <div class="tool-foot">Illustrative. Ignores taxes, fees, and inflation; rate assumed constant. Real compounding is lumpier and ruder.</div>
+    </div>
+
+    <div class="callout callout-tip">
+      <p>Set the lab to 7% for 40 years and look at the shape of the curve: the last 10 years create more wealth than the first 30. Compounding is exponential, and humans reason linearly. Nearly every piece of good long-term financial advice is a correction for that one bug in our intuition.</p>
+    </div>
+  </section>
+
+  <!-- ============ 01.5 ============ -->
+  <section class="lesson" id="risk-return">
+    <h2><span class="sec-num">01.5</span> Risk and return: the tradeoff nobody escapes</h2>
+    <p class="lede">Higher expected returns are compensation for enduring bigger swings and scarier worst cases. The market lets you pick your seat on that spectrum, but it never lets you skip the ride.</p>
+
+    <div class="figure">
+      <p class="figure-title">The risk-return menu</p>
+      <p class="figure-sub">Illustrative long-run annual returns vs volatility (how wildly yearly results swing), major asset classes.</p>
+      <svg viewBox="0 0 720 340" role="img" aria-label="Scatter chart of asset classes: higher volatility associates with higher long-run return.">
+        <g>
+          <line x1="70" y1="290" x2="690" y2="290" class="axis"></line>
+          <line x1="70" y1="30" x2="70" y2="290" class="axis"></line>
+          <line x1="70" y1="225" x2="690" y2="225" class="gridline"></line>
+          <line x1="70" y1="160" x2="690" y2="160" class="gridline"></line>
+          <line x1="70" y1="95" x2="690" y2="95" class="gridline"></line>
+          <text x="58" y="294" text-anchor="end" class="lbl-muted">0%</text>
+          <text x="58" y="229" text-anchor="end" class="lbl-muted">5%</text>
+          <text x="58" y="164" text-anchor="end" class="lbl-muted">10%</text>
+          <text x="58" y="99" text-anchor="end" class="lbl-muted">15%</text>
+          <text x="380" y="322" text-anchor="middle" class="lbl-muted">volatility (annualized swing) →</text>
+          <text x="30" y="160" text-anchor="middle" class="lbl-muted" transform="rotate(-90 30 160)">long-run return →</text>
+        </g>
+        <g>
+          <circle cx="110" cy="245" r="7" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+          <text x="110" y="228" text-anchor="middle" class="lbl" font-size="12">T-bills</text>
+          <circle cx="210" cy="225" r="7" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+          <text x="210" y="208" text-anchor="middle" class="lbl" font-size="12">Treasury bonds</text>
+          <circle cx="270" cy="212" r="7" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+          <text x="270" y="250" text-anchor="middle" class="lbl" font-size="12">IG corporates</text>
+          <circle cx="430" cy="160" r="7" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+          <text x="430" y="143" text-anchor="middle" class="lbl" font-size="12">Large-cap stocks</text>
+          <circle cx="530" cy="134" r="7" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+          <text x="530" y="117" text-anchor="middle" class="lbl" font-size="12">Small-cap stocks</text>
+          <circle cx="640" cy="82" r="7" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+          <text x="640" y="65" text-anchor="middle" class="lbl" font-size="12">Venture capital</text>
+        </g>
+      </svg>
+      <p class="figure-note">Illustrative shapes, not forecasts. Venture's dot hides brutal dispersion: the average is dragged up by a few huge winners while most individual bets lose money.</p>
+    </div>
+
+    <p>Volatility is the polite word for the experience of watching your investment fall 30% in a bad year. The reason stocks out-earn bonds over decades is precisely that they can do that to you, and sometimes do. If an asset reliably paid stock-like returns with T-bill-like calm, everyone would buy it, its price would rise, and its future return would fall until the tradeoff reappeared. Markets grind free lunches out of existence.</p>
+
+    <p>The one honest discount on the price of risk is <strong>diversification</strong>. Individual risks that do not move together partially cancel: one airline's strike does not ground the whole portfolio. Spreading capital across many imperfectly-correlated assets lowers the swing without lowering the expected return by the same amount. It is the closest thing finance has to a free lunch, which is why every institution in Module 07 is built around it.</p>
+
+    <div class="callout callout-deeper">
+      <p>Formally, only <em>systematic</em> risk (the part correlated with the whole market, measured by beta) should earn a premium, because the diversifiable part can be washed out for free. That idea, the Capital Asset Pricing Model, resurfaces in Module 04 as the standard way to estimate the cost of equity. It is imperfect and everyone knows it; it also runs the world's discount rates anyway.</p>
+    </div>
+  </section>
+
+  <!-- ============ 01.6 ============ -->
+  <section class="lesson" id="rates-gravity">
+    <h2><span class="sec-num">01.6</span> Interest rates: the gravity of the system</h2>
+    <p class="lede">Central bank policy rates are the price of money itself. Move that one price and every other asset price on Earth must renegotiate its position.</p>
+
+    <p>Remember the discounting math from 01.4: present value = future cash ÷ (1 + r)^n. The r in that formula starts from the risk-free rate. When the central bank raises rates, r rises for everything, and the present value of every stream of future cash falls, mechanically. Assets whose cash flows sit far in the future (growth stocks, 30-year bonds, speculative ventures) get hit hardest, because the exponent n amplifies the change.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>When rates rise sharply...</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Long bonds fall hard</td><td>Old fixed coupons look stingy next to new ones; price adjusts down (Module 08 has a tool for exactly this)</td></tr>
+          <tr><td>Growth stocks fall harder than value stocks</td><td>Their cash flows live decades out, where discounting bites deepest</td></tr>
+          <tr><td>Deals and IPOs slow down</td><td>Debt costs more, valuations compress, sellers cling to yesterday's prices</td></tr>
+          <tr><td>Cash stops being trash</td><td>Sitting in T-bills finally pays; risk-taking must clear a higher bar</td></tr>
+          <tr><td>Banks feel both sides</td><td>Lending margins can widen while bond portfolios show losses</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout-case">
+      <p>In 2022, the Federal Reserve raised its policy rate from roughly 0% to over 4% inside a year to fight inflation, one of the fastest climbs on record. The result was a textbook demonstration: US aggregate bond indices had their worst year in decades (down roughly 13%), the Nasdaq fell about 33%, IPO volume collapsed by more than 90% from the prior year's peak, and M&A slowed sharply. No scandal, no crash in earnings. Just gravity being switched back on.</p>
+    </div>
+
+    <p>This is why the entire industry watches central banks with the intensity of sailors watching weather. Rates set the tide every boat floats on: valuation multiples, deal activity, fund returns, mortgage payments. When you reach Module 04 and meet WACC, or Module 06 and see leverage math, you are watching this section wearing work clothes.</p>
+  </section>
+
+  <!-- ============ 01.7 ============ -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">01.7</span> Knowledge check</h2>
+    <p class="lede">8 questions. The math ones are mental-math friendly. Your best score is saved to your progress.</p>
+    <div id="quiz-root"></div>
+  </section>
+
+</main>
+
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+
+  /* ---------- TVM Lab ---------- */
+  var mode = "fv";
+  var amt = Atlas.bind("tvm-amt", function (v) { return Atlas.fmt.money(v); });
+  var rate = Atlas.bind("tvm-rate", function (v) { return Atlas.fmt.pct(v, 2); });
+  var yrs = Atlas.bind("tvm-years", function (v) { return v + (v === 1 ? " year" : " years"); });
+
+  var btnFv = document.getElementById("tvm-mode-fv");
+  var btnPv = document.getElementById("tvm-mode-pv");
+  btnFv.addEventListener("click", function () { mode = "fv"; btnFv.classList.add("on"); btnPv.classList.remove("on"); recalc(); });
+  btnPv.addEventListener("click", function () { mode = "pv"; btnPv.classList.add("on"); btnFv.classList.remove("on"); recalc(); });
+
+  function curvePoint(pv, r, m, t) { return pv * Math.pow(1 + r / m, m * t); }
+
+  function drawCurve(points, years, finalLabel) {
+    var W = 640, H = 260, padL = 62, padR = 20, padT = 18, padB = 34;
+    var maxV = 0;
+    points.forEach(function (p) { if (p.v > maxV) maxV = p.v; });
+    if (maxV <= 0) maxV = 1;
+    /* nice ceiling */
+    var mag = Math.pow(10, Math.floor(Math.log(maxV) / Math.LN10));
+    var ceil = Math.ceil(maxV / mag) * mag;
+    var x = function (t) { return padL + (W - padL - padR) * (t / years); };
+    var y = function (v) { return padT + (H - padT - padB) * (1 - v / ceil); };
+    var d = points.map(function (p, i) { return (i ? "L" : "M") + x(p.t).toFixed(1) + " " + y(p.v).toFixed(1); }).join(" ");
+    var ticks = [0, 0.25, 0.5, 0.75, 1];
+    var s = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Value over time">';
+    ticks.forEach(function (f) {
+      var vy = y(ceil * f);
+      var val = ceil * f;
+      var lab = val >= 1e6 ? "$" + (val / 1e6).toFixed(1) + "M" : "$" + Math.round(val / 1000) + "K";
+      if (val === 0) lab = "$0";
+      s += '<line x1="' + padL + '" y1="' + vy + '" x2="' + (W - padR) + '" y2="' + vy + '" class="gridline"></line>';
+      s += '<text x="' + (padL - 8) + '" y="' + (vy + 4) + '" text-anchor="end" font-size="11" fill="var(--ink-3)">' + lab + "</text>";
+    });
+    s += '<line x1="' + padL + '" y1="' + y(0) + '" x2="' + (W - padR) + '" y2="' + y(0) + '" class="axis"></line>';
+    [0, Math.round(years / 2), years].forEach(function (t) {
+      s += '<text x="' + x(t) + '" y="' + (H - 12) + '" text-anchor="middle" font-size="11" fill="var(--ink-3)">yr ' + t + "</text>";
+    });
+    s += '<path d="' + d + '" fill="none" stroke="var(--viz-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>';
+    var last = points[points.length - 1];
+    s += '<circle cx="' + x(last.t) + '" cy="' + y(last.v) + '" r="5" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>';
+    s += '<text x="' + (x(last.t) - 8) + '" y="' + (y(last.v) - 10) + '" text-anchor="end" font-size="12" font-weight="600" fill="var(--ink)">' + finalLabel + "</text>";
+    s += "</svg>";
+    return s;
+  }
+
+  function recalc() {
+    var P = amt.value, r = rate.value / 100, n = yrs.value;
+    var m = parseInt(document.getElementById("tvm-freq").value, 10);
+    var isFv = mode === "fv";
+    document.getElementById("tvm-amt-label").textContent = isFv ? "Amount today" : "Amount promised";
+    document.getElementById("tvm-out-label").textContent = isFv ? "Value in " + n + " years" : "Worth today";
+
+    var result, pts = [], i;
+    if (isFv) {
+      result = curvePoint(P, r, m, n);
+      for (i = 0; i <= n; i++) pts.push({ t: i, v: curvePoint(P, r, m, i) });
+    } else {
+      result = r === 0 ? P : P / Math.pow(1 + r / m, m * n);
+      for (i = 0; i <= n; i++) pts.push({ t: i, v: result * Math.pow(1 + r / m, m * i) });
+    }
+    var multRaw = isFv ? (P > 0 ? result / P : 1) : (result > 0 ? P / result : 1);
+
+    document.getElementById("tvm-result").textContent = Atlas.fmt.money(Math.round(result));
+    document.getElementById("tvm-mult").textContent = Atlas.fmt.mult(multRaw, 1);
+    document.getElementById("tvm-interest").textContent = Atlas.fmt.money(Math.round(Math.abs(isFv ? result - P : P - result)));
+    document.getElementById("tvm-chart").innerHTML = drawCurve(pts, n, Atlas.fmt.money(Math.round(pts[pts.length - 1].v)));
+    document.getElementById("tvm-narrate").textContent = isFv
+      ? Atlas.fmt.money(P) + " compounding at " + Atlas.fmt.pct(rate.value, 2) + " becomes " + Atlas.fmt.money(Math.round(result)) + " in " + n + " years. The curve bends upward: growth earns growth."
+      : "A promise of " + Atlas.fmt.money(P) + " arriving in " + n + " years is worth " + Atlas.fmt.money(Math.round(result)) + " today at a " + Atlas.fmt.pct(rate.value, 2) + " discount rate.";
+  }
+  Atlas.onInput(["tvm-amt", "tvm-rate", "tvm-years", "tvm-freq"], recalc);
+
+  /* ---------- quiz ---------- */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "A pension fund buys a newly issued corporate bond directly. Which route is this, and who holds the credit risk?",
+      choices: ["Intermediated finance; the arranging bank holds the risk", "Direct finance; the pension fund holds the risk", "Direct finance; the exchange holds the risk", "Intermediated finance; the government holds the risk"],
+      answer: 1,
+      explain: "In market (direct) finance the investor holds the borrower's IOU directly. Banks arrange the issue but do not keep the risk on their balance sheet."
+    },
+    {
+      q: "You invest $1,000 at 10% compounded annually. Roughly what is it worth after 2 years?",
+      choices: ["$1,100", "$1,200", "$1,210", "$1,331"],
+      answer: 2,
+      explain: "$1,000 × 1.10 × 1.10 = $1,210. The extra $10 over simple interest is interest on interest, the seed of compounding."
+    },
+    {
+      q: "A payment of $500,000 is due in 5 years. If the discount rate rises, what happens to its present value?",
+      choices: ["It rises", "It falls", "It stays the same", "It depends on inflation only"],
+      answer: 1,
+      explain: "PV = FV ÷ (1 + r)^n. A bigger r makes the divisor bigger, so today's value falls. Doubt is expensive."
+    },
+    {
+      q: "In a bankruptcy, which claim is paid first?",
+      choices: ["Common equity", "Preferred equity", "Subordinated debt", "Senior secured debt"],
+      answer: 3,
+      explain: "Value pours from the top of the capital stack. Secured lenders with collateral stand first in line; common equity owns whatever, if anything, is left."
+    },
+    {
+      q: "A bond yields 13% while Treasuries yield 4%. The most likely explanation is:",
+      choices: ["The issuer is generous to investors", "The market doubts the issuer will repay in full", "The bond is tax-free", "Rates are about to fall"],
+      answer: 1,
+      explain: "Yield is the price of risk. A 9-point spread over the risk-free rate is the market charging heavily for default risk."
+    },
+    {
+      q: "Why do stocks earn more than T-bills over long periods?",
+      choices: ["Stocks are more liquid", "Regulation favors stocks", "Stock returns compensate for much larger swings and worse worst cases", "They do not; it is a statistical illusion"],
+      answer: 2,
+      explain: "The equity premium is payment for enduring volatility and real drawdowns. If the ride were smooth, prices would rise until the extra return vanished."
+    },
+    {
+      q: "Diversification primarily works by:",
+      choices: ["Picking only safe assets", "Combining risks that do not move together so they partially cancel", "Doubling down on winners", "Eliminating market risk entirely"],
+      answer: 1,
+      explain: "Imperfectly correlated risks offset each other, cutting the portfolio's swing. Market-wide (systematic) risk survives, which is why it alone earns a premium."
+    },
+    {
+      q: "The central bank hikes rates sharply. Which asset likely falls MOST, purely from discounting math?",
+      choices: ["A 3-month T-bill", "A 30-year zero-coupon bond", "A money-market fund", "A floating-rate loan"],
+      answer: 1,
+      explain: "The further out the cash flows, the more a higher r compounds against them. A 30-year zero has all its value at n = 30, maximum gravity exposure."
+    }
+  ]);
+});
+</script>
+</body>
+</html>

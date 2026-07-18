@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" data-page="industry" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industry · Industry Atlas</title>
+<meta name="description" content="A full industry profile: overview, structure, value chain, financials, KPIs, valuation, connections, and learning levels.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas2-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t||"dark");})();</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c98500%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-weight=%22bold%22 fill=%22white%22>IA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css?v=3">
+</head>
+<body>
+<main class="wrap page-pad" id="main"></main>
+
+<script src="assets/data/taxonomy.js?v=3"></script>
+<script src="assets/data/graph.js?v=3"></script>
+<script src="assets/data/kpis.js?v=3"></script>
+<script src="assets/data/countries.js?v=3"></script>
+<script src="assets/data/companies.js?v=3"></script>
+<script src="assets/data/industries/semiconductors.js?v=3"></script>
+<script src="assets/data/industries/cloud.js?v=3"></script>
+<script src="assets/data/industries/banking.js?v=3"></script>
+<script src="assets/data/industries/copper-mining.js?v=3"></script>
+<script src="assets/data/industries/insurance.js?v=3"></script>
+<script src="assets/js/core.js?v=3"></script>
+<script src="assets/js/viz.js?v=3"></script>
+<script src="assets/js/assistant.js?v=3"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+  var esc = Atlas.esc, fmt = Atlas.fmt;
+  var id = Atlas.param("id") || "semiconductors";
+  var ind = Atlas.store.industryById[id];
+  var main = document.getElementById("main");
+
+  if (!ind) {
+    main.innerHTML = '<div class="ind-hero"><h1>Unknown industry</h1><p class="lede">No entry for "' + esc(id) + '". Browse the <a href="index.html#industries">catalog</a>.</p></div>';
+    return;
+  }
+  var M = ind.module;
+  var sector = Atlas.store.sectorById[ind.sector];
+  document.title = ind.name + " · Industry Atlas";
+  document.documentElement.style.setProperty("--sec", sector.color);
+
+  /* ---------------- helpers ---------------- */
+  function paras(arr) { return (arr || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join(""); }
+  function dial(n) { var s = ""; for (var i = 1; i <= 5; i++) s += '<i style="display:inline-block;width:7px;height:13px;border-radius:2px;margin-right:2px;background:' + (i <= n ? "var(--amber)" : "var(--surface-3)") + '"></i>'; return s; }
+  function block(bid, ix, title, inner, lede) {
+    return '<section class="block" id="' + bid + '"><h2><span class="b-ix">' + ix + "</span>" + esc(title) + "</h2>" + (lede ? '<p class="lede">' + esc(lede) + "</p>" : "") + inner + "</section>";
+  }
+
+  /* ---------------- Finance School cross-links ---------------- */
+  var SCHOOL = {
+    "banking": ["Foundations of Finance", "school/modules/foundations.html"],
+    "capital-markets": ["Capital Markets", "school/modules/capital-markets.html"],
+    "investment-banking": ["M&A & the Deal Process", "school/modules/ma-deals.html"],
+    "asset-management": ["Asset Management & Hedge Funds", "school/modules/buy-side.html"],
+    "hedge-funds": ["Asset Management & Hedge Funds", "school/modules/buy-side.html"],
+    "private-equity": ["Private Equity & LBOs", "school/modules/lbo-pe.html"],
+    "venture-capital": ["Private Equity & LBOs (fund mechanics)", "school/modules/lbo-pe.html"],
+    "insurance": ["Foundations of Finance (risk transfer)", "school/modules/foundations.html"],
+    "payments": ["The Industry Value Chain", "school/modules/value-chain.html"],
+    "fintech": ["The Industry Value Chain", "school/modules/value-chain.html"]
+  };
+  function schoolBand() {
+    var s = SCHOOL[id];
+    return '<div class="school-band"><span class="sb-icon">🎓</span><div>' +
+      "<b>Finance School</b> · Interactive courses live inside the atlas: " +
+      (s ? '<a href="' + s[1] + '">' + esc(s[0]) + "</a> pairs with this industry, plus " : "") +
+      '<a href="school/modules/valuation.html">Valuation</a> (how any business gets priced), ' +
+      '<a href="school/index.html">9 modules with live tools</a>, and a ' +
+      '<a href="school/glossary.html">252-term glossary</a>.</div></div>';
+  }
+
+  /* ---------------- connections (shared by full + stub) ---------------- */
+  function connectionsHtml() {
+    var edges = Atlas.edgesFor(id);
+    if (!edges.length) return '<p class="muted">No mapped connections yet.</p>';
+    var rows = edges.map(function (e) {
+      var other = e.from === id ? e.to : e.from;
+      var dir = e.from === id ? "→" : "←";
+      var et = Atlas.EDGE_TYPES[e.type] || {};
+      return '<div class="conn-row"><span class="conn-type" style="color:' + et.raw + ';background:color-mix(in srgb, ' + et.raw + ' 14%, var(--surface-2))">' + (et.label || e.type) + '</span>' +
+        '<span class="cl">' + dir + " " + Atlas.indLink(other) + " · " + esc(e.label) +
+        '<span class="cd">' + esc(e.detail || "") + "</span></span></div>";
+    }).join("");
+    return '<div class="conn-list">' + rows + "</div>" +
+      '<p><a class="btn btn-sm" href="graph.html?focus=' + id + '">Open in the knowledge graph →</a></p>';
+  }
+
+  /* ---------------- stub page ---------------- */
+  if (!M) {
+    main.innerHTML =
+      '<header class="ind-hero"><span class="kicker">' + esc(sector.name) + ' · Stub</span>' +
+      "<h1>" + esc(ind.name) + "</h1>" +
+      '<p class="ind-tagline">' + esc(ind.blurb) + "</p>" +
+      '<div class="ind-meta"><span class="badge-status badge-stub">Stub</span><span class="pill">' + esc(sector.name) + "</span></div></header>" +
+      schoolBand() +
+      block("connections", "01", "How it connects", connectionsHtml(), "Even before a full profile exists, this industry lives in the atlas graph.") +
+      block("expand", "02", "Expand this industry",
+        '<div class="callout"><p>This is a living stub. To promote it to a full profile, add <code>assets/data/industries/' + id + '.js</code> following <code>docs/INDUSTRY-SCHEMA.md</code>, or open the AI assistant and ask it to draft the module using the schema. The page upgrades itself automatically once the file exists.</p></div>');
+    Atlas.spy(id);
+    return;
+  }
+
+  /* ---------------- full / profile page ---------------- */
+  var meta = M.meta, ov = M.overview;
+  var st = meta.status === "full" ? '<span class="badge-status badge-full">Full profile</span>' : '<span class="badge-status badge-profile">Profile</span>';
+
+  var navItems = [
+    ["overview", "Overview"], ["structure", "Structure"], ["value-chain", "Value chain"],
+    ["financials", "Financials"], ["kpis", "KPIs"], ["health", "Health"],
+    ["valuation", "Valuation"], ["players", "Players"], ["connections", "Connections"],
+    ["geography", "Geography"], ["history", "History"], ["risks", "Risks"],
+    ["learn", "Learn"], ["quiz", "Quiz"]
+  ];
+
+  var html = "";
+
+  /* ----- hero ----- */
+  html += '<header class="ind-hero"><span class="kicker">' + (sector.icon || "") + " " + esc(sector.name) + "</span>" +
+    "<h1>" + esc(meta.name) + "</h1>" +
+    '<p class="ind-tagline">' + esc(meta.tagline) + "</p>" +
+    '<div class="ind-meta">' + st +
+    '<span class="pill">Market ' + esc(fmt.big(meta.marketSize.value, meta.marketSize.unit === "$T" ? "T" : "B")) + " (" + meta.marketSize.asOf + ")</span>" +
+    '<span class="pill">CAGR ~' + meta.cagr.value + "% " + esc(meta.cagr.horizon) + "</span>" +
+    '<span class="pill">' + esc(meta.maturity) + "</span></div>" +
+    '<div class="stat-strip">' +
+      '<div class="stat-tile"><div class="stat-label">Cyclicality</div><div class="stat-value">' + dial(meta.cyclicality) + '</div></div>' +
+      '<div class="stat-tile"><div class="stat-label">Capital intensity</div><div class="stat-value">' + dial(meta.capitalIntensity) + '</div></div>' +
+      '<div class="stat-tile"><div class="stat-label">Regulation</div><div class="stat-value">' + dial(meta.regulation) + '</div></div>' +
+      '<div class="stat-tile"><div class="stat-label">Disruption risk</div><div class="stat-value">' + dial(meta.disruption) + '</div></div>' +
+    "</div>" +
+    '<div class="lens-bar"><span class="lens-label">Read as</span>' +
+    Atlas.LENSES.map(function (l) { return '<button class="lens" data-lens="' + l + '">' + l + "</button>"; }).join("") +
+    '</div><div class="lens-tip" id="lens-tip"></div></header>' + schoolBand();
+
+  /* ----- section nav ----- */
+  html += '<nav class="section-nav">' + navItems.map(function (n) {
+    return '<a href="#' + n[0] + '">' + n[1] + "</a>";
+  }).join("") + "</nav>";
+
+  /* ----- overview ----- */
+  var ovInner = '<div class="prose"><div class="callout callout-key"><p>' + esc(ov.definition) + "</p></div>" +
+    paras(ov.howItWorks) + "</div>" +
+    '<h3 style="margin-top:2rem">Eras</h3>' +
+    Viz.timeline(ov.history.map(function (h) { return { year: h.era, title: h.title, text: h.text }; })) +
+    '<h3>Current trends</h3><div class="grid-2">' +
+    ov.trends.map(function (t) {
+      var arrow = t.direction === "up" ? "▲" : t.direction === "down" ? "▼" : "⇄";
+      return '<div class="card"><h4>' + arrow + " " + esc(t.title) + '</h4><p class="small muted">' + esc(t.text) + "</p></div>";
+    }).join("") + "</div>" +
+    '<div class="callout"><p><strong>Outlook.</strong> ' + esc(ov.outlook) + "</p></div>";
+  html += block("overview", "01", "Overview", ovInner);
+
+  /* ----- structure ----- */
+  var cols = [["suppliers", "Suppliers"], ["producers", "Producers"], ["distributors", "Distribution"], ["customers", "Customers"], ["regulators", "Regulators"], ["capital", "Capital providers"]];
+  var stInner = '<div class="figure" style="margin-top:1rem"><p class="figure-title">The system at a glance</p>' +
+    '<p class="figure-sub">Supply side feeds the industry, the industry sells into its demand side, capital cycles underneath, regulators sit above.</p>' +
+    '<div id="ind-sys"></div></div>' +
+    '<div class="eco-grid">' + cols.map(function (c) {
+    var items = M.structure[c[0]] || [];
+    if (!items.length) return "";
+    return '<div class="eco-col"><h4>' + c[1] + "</h4>" + items.map(function (it) {
+      return '<div class="eco-item">' + esc(it.name) + '<span class="note">' + esc(it.note || "") + "</span></div>";
+    }).join("") + "</div>";
+  }).join("") + "</div>";
+  html += block("structure", "02", "Industry structure", stInner, "Who supplies whom, who buys, who referees, and who funds it all.");
+
+  /* ----- value chain ----- */
+  html += block("value-chain", "03", "Interactive value chain", '<p class="lede">' + esc(M.valueChain.intro) + '</p><div id="vchain"></div><p class="figure-note">Amber bars = share of the industry profit pool that stage captures (1 to 5). Click any stage to expand it.</p>');
+
+  /* ----- financials ----- */
+  var fin = M.financials;
+  var finInner = '<div class="prose">' + paras(fin.businessModel) + "</div>" +
+    '<div class="grid-2" style="align-items:start">' +
+      '<div class="figure" style="margin:0"><p class="figure-title">Economic fingerprint</p><p class="figure-sub">0 to 100 vs all industries; the shape is the story.</p><div id="radar"></div></div>' +
+      '<div class="table-wrap" style="margin:0"><table><thead><tr><th>Line</th><th>How to read it</th></tr></thead><tbody>' +
+      fin.lines.map(function (l) { return "<tr><td><strong>" + esc(l.label) + "</strong></td><td>" + esc(l.note) + "</td></tr>"; }).join("") +
+      "</tbody></table></div></div>";
+  if (fin.unitEconomics) {
+    finInner += '<h3 style="margin-top:1.6rem">Unit economics: ' + esc(fin.unitEconomics.unit) + "</h3>" +
+      '<div class="table-wrap"><table><tbody>' +
+      fin.unitEconomics.items.map(function (u) { return "<tr><td>" + esc(u.label) + '</td><td class="num"><strong>' + esc(u.value) + '</strong></td><td class="muted small">' + esc(u.note || "") + "</td></tr>"; }).join("") +
+      "</tbody></table></div>";
+  }
+  if (fin.flow) {
+    finInner += '<div class="figure"><p class="figure-title">' + esc(fin.flow.label) + '</p>' +
+      '<p class="figure-sub">' + esc(fin.flow.sub || "Follow the money through the chain.") + '</p><div id="fin-flow"></div></div>';
+  }
+  html += block("financials", "04", "How the money works", finInner);
+
+  /* ----- KPIs ----- */
+  var kpiList = (M.kpiRefs || []).map(function (k) { return Atlas.store.kpiById[k]; }).filter(Boolean).concat(M.kpiLocal || []);
+  html += block("kpis", "05", "The KPIs that matter",
+    kpiList.length ? '<div class="kpi-grid">' + kpiList.map(Viz.kpiCard).join("") + "</div>" : '<p class="muted">See the full <a href="library.html">KPI library</a>.</p>',
+    "Definition, formula, healthy vs warning ranges, and what each audience does with the number.");
+
+  /* ----- health ----- */
+  if (M.health) {
+    html += block("health", "06", "Financial health engine",
+      '<p class="lede">' + esc(M.health.intro) + "</p>" +
+      M.health.pillars.map(function (p) {
+        return '<div class="pillar"><span class="pn">' + esc(p.name) + '</span><span class="pw">' + p.weight + '</span><span class="pd">' + esc(p.metrics) +
+          '<br><span class="pos">Healthy: ' + esc(p.healthy) + '</span> · <span class="neg">Warning: ' + esc(p.warning) + "</span></span></div>";
+      }).join("") +
+      '<div class="callout callout-data"><p>' + esc(M.health.scoringNote) + "</p></div>");
+  }
+
+  /* ----- valuation ----- */
+  var val = M.valuation;
+  var vInner = '<p class="lede">' + esc(val.intro) + '</p><div class="vm-grid">' +
+    val.methods.map(function (v) {
+      var r = v.range && (v.range.low || v.range.high) ? '<div class="vm-range">' + v.range.low + "x to " + v.range.high + "x · " + esc(v.range.note || "") + " (asOf " + v.range.asOf + ")</div>"
+        : '<div class="vm-range">' + esc((v.range && v.range.note) || "") + "</div>";
+      return '<div class="vm-card"><div class="vm-name">' + esc(v.name) + "</div>" + r +
+        '<div class="vm-row use"><b>Use when</b> ' + esc(v.use) + "</div>" +
+        '<div class="vm-row avoid"><b>Avoid when</b> ' + esc(v.avoid) + "</div>" +
+        '<div class="vm-row"><b>Strength</b> ' + esc(v.strengths) + "</div>" +
+        '<div class="vm-row"><b>Weakness</b> ' + esc(v.weaknesses) + "</div></div>";
+    }).join("") + "</div>";
+  if (val.calculator && val.calculator.type === "multiple") {
+    var c = val.calculator;
+    vInner += '<div class="tool" id="val-calc"><div class="tool-head"><span class="tool-badge">Live tool</span><h3>Quick valuation: multiple method</h3></div>' +
+      '<div class="tool-body"><div class="tool-controls">' +
+      c.inputs.map(function (i) {
+        return '<div class="slider-row"><label>' + esc(i.label) + " <output></output></label>" +
+          '<input type="range" id="' + i.id + '" min="' + i.min + '" max="' + i.max + '" step="' + i.step + '" value="' + i.value + '"></div>';
+      }).join("") +
+      '</div><div class="tool-output"><div class="stat-strip" style="margin-top:0">' +
+      '<div class="stat-tile"><div class="stat-label">Enterprise value</div><div class="stat-value" id="calc-ev">$0B</div></div>' +
+      '<div class="stat-tile"><div class="stat-label">Equity value</div><div class="stat-value" id="calc-eq">$0B</div></div>' +
+      "</div><p class=\"figure-note\">" + esc(c.intro) + "</p></div></div>" +
+      '<div class="tool-foot">Illustrative arithmetic, not advice. Normalized EBITDA and a through-cycle multiple are the honest inputs.</div></div>';
+  }
+  html += block("valuation", "07", "How it gets valued", vInner);
+
+  /* ----- players ----- */
+  var featured = Object.keys(Atlas.store.companies).filter(function (k) {
+    return (Atlas.store.companies[k].industries || []).indexOf(id) !== -1;
+  });
+  function coMono(name) {
+    var w = name.replace(/[()]/g, "").split(/\s+/);
+    return (w[0][0] + (w[1] ? w[1][0] : (w[0][1] || ""))).toUpperCase();
+  }
+  var featHtml = featured.length ?
+    '<p class="lede">Click any card for the full company profile: business model, who they sell to, who supplies them, and where the capital flows.</p>' +
+    '<div class="player-grid">' + featured.map(function (k) {
+      var co = Atlas.store.companies[k];
+      var rev = co.stats && co.stats[0] ? co.stats[0].value + " " + co.stats[0].label.toLowerCase() : "";
+      return '<a class="player-card" href="company.html?id=' + k + '">' +
+        '<span class="player-mono">' + esc(coMono(co.name)) + "</span><span>" +
+        '<span class="pc-name">' + esc(co.name) + '<span class="pill">' + esc(co.country) + "</span></span>" +
+        '<span class="pc-role">' + esc(co.role) + "</span>" +
+        '<span class="pc-note">' + esc(rev) + "</span></span></a>";
+    }).join("") + "</div><h4 style=\"margin-top:1.4rem\">The wider cast</h4>" : "";
+  html += block("players", "08", "Who matters",
+    featHtml +
+    '<div class="table-wrap"><table><thead><tr><th>Player</th><th>Role</th><th>Why they matter</th></tr></thead><tbody>' +
+    M.players.map(function (p) {
+      return "<tr><td><strong>" + esc(p.name) + "</strong>" + (p.country ? ' <span class="pill">' + esc(p.country) + "</span>" : "") + "</td><td>" + esc(p.role) + '</td><td class="muted">' + esc(p.note) + "</td></tr>";
+    }).join("") + "</tbody></table></div>");
+
+  /* ----- connections ----- */
+  html += block("connections", "09", "How it connects to everything else", connectionsHtml(),
+    "The atlas graph: typed dependencies with the direction of the flow.");
+
+  /* ----- geography ----- */
+  html += block("geography", "10", "Where it lives",
+    '<div class="table-wrap"><table><thead><tr><th>Geography</th><th>Role</th><th>Note</th></tr></thead><tbody>' +
+    M.geography.map(function (g) {
+      var c = Atlas.store.countries.find(function (x) { return x.code === g.country; });
+      var name = c ? '<a href="map.html#' + g.country + '">' + esc(c.name) + "</a>" : esc(g.country);
+      return "<tr><td><strong>" + name + "</strong></td><td>" + esc(g.role) + '</td><td class="muted">' + esc(g.note) + "</td></tr>";
+    }).join("") + "</tbody></table></div>");
+
+  /* ----- history / cycles ----- */
+  html += block("history", "11", "Cycles and lessons",
+    Viz.timeline(M.cycles.map(function (c) { return { year: c.year, title: c.title, text: c.text, kind: c.kind }; })),
+    "Every cycle taught the industry (and its investors) something. The lessons compound; the amnesia does too.");
+
+  /* ----- risks ----- */
+  html += block("risks", "12", "Risk register",
+    M.risks.map(function (r) {
+      var dots = "";
+      for (var i = 1; i <= 5; i++) dots += '<i class="' + (i <= r.severity ? "on" : "") + '"></i>';
+      return '<div class="risk-row"><span><span class="risk-name">' + esc(r.name) + '</span><br><span class="risk-trans">' + esc(r.transmission) + "</span></span>" +
+        '<span class="risk-score"><span class="risk-dots">' + dots + "</span> sev " + r.severity + " · lik " + r.likelihood + "</span></div>";
+    }).join(""),
+    "Ranked by severity, with the transmission channel: how the risk travels through the graph.");
+
+  /* ----- learn ----- */
+  var lv = M.levels;
+  var order = ["L1", "L2", "L3", "L4", "L5"];
+  html += block("learn", "13", "Learn it at your level",
+    '<div class="level-tabs">' + order.filter(function (k) { return lv[k]; }).map(function (k, i) {
+      return '<button class="level-tab' + (i === 0 ? " on" : "") + '" data-level="' + k + '">' + k + " · " + esc(lv[k].title) + "</button>";
+    }).join("") + '</div><div class="level-body" id="level-body"></div>',
+    "The same industry, five depths: pick where you are, graduate upward.");
+
+  /* ----- quiz ----- */
+  html += block("quiz", "14", "Knowledge check", '<div id="quiz-root"></div>');
+
+  main.innerHTML = html;
+
+  /* ---------------- activate ---------------- */
+  Viz.systemDiagram(document.getElementById("ind-sys"), {
+    accent: sector.color,
+    label: meta.name + " system diagram",
+    center: { title: meta.name, note: fmt.big(meta.marketSize.value, meta.marketSize.unit === "$T" ? "T" : "B") + " market (" + meta.marketSize.asOf + ")", subs: (M.structure.producers || []).slice(0, 5).map(function (p) { return p.name; }) },
+    left: { title: "SUPPLY SIDE · inputs", items: (M.structure.suppliers || []).map(function (x) { return { name: x.name, note: x.note }; }) },
+    right: { title: "DEMAND SIDE · customers", items: (M.structure.customers || []).map(function (x) { return { name: x.name, note: x.note }; }) },
+    capIn: { title: "CAPITAL FLOWS IN", items: (M.structure.capital || []).map(function (x) { return { name: x.name, note: x.note }; }) },
+    capOut: { title: "RETURNS FLOW OUT", items: [
+      { name: "Dividends, buybacks, interest", note: "returns to the capital providers" },
+      { name: "Reinvestment", note: "capex and R&D cycled back into the machine" }
+    ] },
+    top: { title: "REGULATORS & RULES", items: (M.structure.regulators || []).map(function (r) { return r.name.split("(")[0].trim(); }) }
+  });
+  if (fin.flow) {
+    Viz.sankey(document.getElementById("fin-flow"), {
+      label: fin.flow.label, height: fin.flow.height || 300,
+      left: fin.flow.left, right: fin.flow.right, flows: fin.flow.flows
+    });
+  }
+  Viz.valueChain(document.getElementById("vchain"), M.valueChain.stages);
+
+  var fp = fin.fingerprint;
+  Viz.radar(document.getElementById("radar"), { label: meta.name + " economic fingerprint", axes: [
+    { label: "Gross margin", value: fp.grossMargin }, { label: "Recurring rev", value: fp.recurringRevenue },
+    { label: "Capital intensity", value: fp.capitalIntensity }, { label: "Pricing power", value: fp.pricingPower },
+    { label: "Cyclicality", value: fp.cyclicality }, { label: "Op. leverage", value: fp.operatingLeverage }
+  ] });
+
+  if (val.calculator && val.calculator.type === "multiple") {
+    var ids = val.calculator.inputs.map(function (i) { return i.id; });
+    var binds = {};
+    val.calculator.inputs.forEach(function (i) {
+      binds[i.id] = Atlas.bind(i.id, function (v) { return i.fmt === "mult" ? fmt.mult(v) : "$" + v + "B"; });
+    });
+    Atlas.onInput(ids, function () {
+      var ebitda = binds[ids[0]].value, mult = binds[ids[1]].value, nd = binds[ids[2]].value;
+      var ev = ebitda * mult, eq = ev - nd;
+      document.getElementById("calc-ev").textContent = "$" + Math.round(ev) + "B";
+      document.getElementById("calc-eq").textContent = eq < 0 ? "($" + Math.abs(Math.round(eq)) + "B)" : "$" + Math.round(eq) + "B";
+    });
+  }
+
+  /* levels */
+  function showLevel(k) {
+    document.querySelectorAll(".level-tab").forEach(function (b) { b.classList.toggle("on", b.getAttribute("data-level") === k); });
+    document.getElementById("level-body").innerHTML = "<h3>" + esc(lv[k].title) + "</h3>" + paras(lv[k].text);
+  }
+  document.querySelectorAll(".level-tab").forEach(function (b) {
+    b.addEventListener("click", function () { showLevel(b.getAttribute("data-level")); });
+  });
+  showLevel("L1");
+
+  /* lenses */
+  var LENS_TIPS = {
+    Student: "Start with <b>Overview</b>, then the <b>Value chain</b>, then <b>Learn</b> level L1-L2. Take the quiz before moving on.",
+    Executive: "Skim <b>Trends</b> and <b>Outlook</b>, then <b>Connections</b> (what upstream shocks reach you) and the <b>Risk register</b>. L5 in Learn is written for your altitude.",
+    Investor: "Go straight to <b>Financials</b> and the fingerprint, then <b>KPIs</b>, <b>Valuation</b> (mind the when-NOT-to-use rows), <b>Cycles</b>, and <b>Risks</b>.",
+    Operator: "The <b>Value chain</b> stage economics, <b>KPIs</b> (operator rows), and the <b>Health engine</b> weights are your sections; L3-L4 in Learn match your depth.",
+    Consultant: "Work <b>Structure</b> → <b>Value chain</b> → <b>Connections</b> for the system map, then <b>Health</b> and <b>Risks</b> for the diagnostic frame. The AI panel drafts your interview guide."
+  };
+  function applyLens(l) {
+    var tip = document.getElementById("lens-tip");
+    tip.innerHTML = LENS_TIPS[l] || "";
+    tip.classList.add("show");
+  }
+  document.querySelectorAll(".lens[data-lens]").forEach(function (b) {
+    b.addEventListener("click", function () { Atlas.setLens(b.getAttribute("data-lens")); });
+  });
+  document.addEventListener("atlas:lens", function (e) { applyLens(e.detail); });
+  Atlas.setLens(Atlas.getLens());
+
+  /* quiz + progress */
+  Atlas.quiz("#quiz-root", M.quiz, id);
+  Atlas.spy(id);
+});
+</script>
+</body>
+</html>

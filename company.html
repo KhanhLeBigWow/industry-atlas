@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-page="company" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Company · Industry Atlas</title>
+<meta name="description" content="Full company profile: business model, demand side, supply side, and capital flows.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas2-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t||"dark");})();</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c98500%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-weight=%22bold%22 fill=%22white%22>IA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css?v=3">
+</head>
+<body>
+<main class="wrap page-pad" id="main"></main>
+
+<script src="assets/data/taxonomy.js?v=3"></script>
+<script src="assets/data/graph.js?v=3"></script>
+<script src="assets/data/kpis.js?v=3"></script>
+<script src="assets/data/countries.js?v=3"></script>
+<script src="assets/data/companies.js?v=3"></script>
+<script src="assets/data/industries/semiconductors.js?v=3"></script>
+<script src="assets/data/industries/cloud.js?v=3"></script>
+<script src="assets/data/industries/banking.js?v=3"></script>
+<script src="assets/data/industries/copper-mining.js?v=3"></script>
+<script src="assets/data/industries/insurance.js?v=3"></script>
+<script src="assets/js/core.js?v=3"></script>
+<script src="assets/js/viz.js?v=3"></script>
+<script src="assets/js/assistant.js?v=3"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+  var esc = Atlas.esc;
+  var id = Atlas.param("id") || "tsmc";
+  var CO = (window.ATLAS_COMPANIES || {})[id];
+  var main = document.getElementById("main");
+
+  if (!CO) {
+    main.innerHTML = '<div class="ind-hero"><h1>Unknown company</h1><p class="lede">No profile for "' + esc(id) + '". Company profiles are linked from each industry\'s Who Matters section.</p><p><a class="btn" href="index.html#industries">Browse industries</a></p></div>';
+    return;
+  }
+
+  document.title = CO.name + " · Industry Atlas";
+  var primaryInd = Atlas.store.industryById[CO.industries[0]];
+  var sector = primaryInd ? Atlas.store.sectorById[primaryInd.sector] : null;
+  var accent = sector ? sector.color : "#fab219";
+  document.documentElement.style.setProperty("--sec", accent);
+
+  function mono(name) {
+    var words = name.replace(/[()]/g, "").split(/\s+/);
+    return (words[0][0] + (words[1] ? words[1][0] : (words[0][1] || ""))).toUpperCase();
+  }
+  function paras(a) { return (a || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join(""); }
+  function block(bid, ix, title, inner, lede) {
+    return '<section class="block" id="' + bid + '"><h2><span class="b-ix">' + ix + "</span>" + esc(title) + "</h2>" + (lede ? '<p class="lede">' + esc(lede) + "</p>" : "") + inner + "</section>";
+  }
+
+  var indLinks = CO.industries.map(function (i) { return Atlas.indLink(i); }).join(" · ");
+  var html = "";
+
+  /* ----- hero ----- */
+  html += '<header class="ind-hero">' +
+    '<div class="co-hero-row"><div class="co-mono">' + esc(mono(CO.name)) + "</div><div>" +
+    '<span class="kicker">' + (sector ? (sector.icon || "") + " " + esc(sector.name) : "Company") + " · Company profile</span>" +
+    "<h1>" + esc(CO.name) + "</h1></div></div>" +
+    '<p class="ind-tagline">' + esc(CO.full) + " · " + esc(CO.role) + " · founded " + CO.founded + " · " + esc(CO.hq) + "</p>" +
+    '<div class="ind-meta"><span class="pill pill-amber">' + esc(CO.role) + '</span><span class="pill">Industries: </span><span class="small">' + indLinks + "</span></div>" +
+    '<div class="stat-strip">' + (CO.stats || []).map(function (st) {
+      return '<div class="stat-tile"><div class="stat-label">' + esc(st.label) + '</div><div class="stat-value">' + esc(st.value) + '</div><div class="stat-sub">' + esc(st.note || "") + "</div></div>";
+    }).join("") + "</div></header>";
+
+  /* ----- system diagram ----- */
+  html += block("system", "01", "The system around " + CO.name,
+    '<div class="figure" style="margin-top:1rem"><p class="figure-title">Supply side → ' + esc(CO.name) + ' → demand side</p>' +
+    '<p class="figure-sub">Who feeds it, who buys from it, and where the capital enters and exits.</p>' +
+    '<div id="sysdiagram"></div>' +
+    '<p class="figure-note">Figures and shares approximate, from public filings and coverage.</p></div>');
+
+  /* ----- business model ----- */
+  html += block("model", "02", "How the money is made",
+    '<div class="prose">' + paras(CO.model) + "</div>" +
+    (CO.revenueMix && CO.revenueMix.length ?
+      '<h4 style="margin-top:1.4rem">Revenue mix</h4><div class="mix-bar">' +
+      CO.revenueMix.map(function (m, i) {
+        return '<i style="width:' + m.pct + '%;background:var(--viz-' + ((i % 8) + 1) + ')" title="' + esc(m.label) + " " + m.pct + '%"></i>';
+      }).join("") + "</div>" +
+      '<div class="mix-legend">' + CO.revenueMix.map(function (m, i) {
+        return '<span><i style="background:var(--viz-' + ((i % 8) + 1) + ')"></i>' + esc(m.label) + " · " + m.pct + "%</span>";
+      }).join("") + "</div>" : ""));
+
+  /* ----- demand & supply ----- */
+  html += block("flows", "03", "Demand side · Supply side",
+    '<div class="flow-cols">' +
+      '<div class="flow-col"><h4><span class="fc-arrow">→</span> Who they sell to (demand)</h4>' +
+      (CO.customers || []).map(function (c) {
+        return '<div class="flow-item">' + (c.share ? '<span class="fi-share">' + esc(c.share) + "</span>" : "") + "<b>" + esc(c.who) + '</b><span class="fi-note">' + esc(c.note || "") + "</span></div>";
+      }).join("") + "</div>" +
+      '<div class="flow-col"><h4><span class="fc-arrow">←</span> Who supplies them (supply)</h4>' +
+      (CO.suppliers || []).map(function (c) {
+        return '<div class="flow-item"><b>' + esc(c.who) + '</b><span class="fi-note">' + esc(c.note || "") + "</span></div>";
+      }).join("") + "</div>" +
+    "</div>");
+
+  /* ----- capital flows ----- */
+  html += block("capital", "04", "Capital flows",
+    '<div class="flow-cols">' +
+      '<div class="flow-col in"><h4><span class="fc-arrow">↓</span> Where capital comes from</h4>' +
+      (CO.capitalIn || []).map(function (c) {
+        return '<div class="flow-item"><b>' + esc(c.source) + '</b><span class="fi-note">' + esc(c.note || "") + "</span></div>";
+      }).join("") + "</div>" +
+      '<div class="flow-col out"><h4><span class="fc-arrow">↑</span> Where capital goes</h4>' +
+      (CO.capitalOut || []).map(function (c) {
+        return '<div class="flow-item"><b>' + esc(c.use) + '</b><span class="fi-note">' + esc(c.note || "") + "</span></div>";
+      }).join("") + "</div>" +
+    "</div>");
+
+  /* ----- moat, risks, rivals ----- */
+  html += block("edge", "05", "Moat, risks, rivals",
+    '<div class="grid-2">' +
+      '<div class="card"><h4>🏰 The moat</h4><p class="small muted">' + esc(CO.moat) + "</p></div>" +
+      '<div class="card"><h4>⚠ The risks</h4><p class="small muted">' + esc(CO.risks) + "</p></div>" +
+    "</div>" +
+    '<h4 style="margin-top:1rem">Competitors</h4><div class="vc-links small">' +
+    (CO.competitors || []).map(function (c) {
+      var cid = String(c).toLowerCase().replace(/\s+/g, "-");
+      return (window.ATLAS_COMPANIES && window.ATLAS_COMPANIES[cid])
+        ? '<a href="company.html?id=' + cid + '">' + esc(window.ATLAS_COMPANIES[cid].name) + "</a>"
+        : "<span class='pill'>" + esc(c) + "</span>";
+    }).join(" ") + "</div>" +
+    '<p style="margin-top:1.4rem"><a class="btn" href="industry.html?id=' + CO.industries[0] + '#players">← Back to ' + esc(primaryInd ? primaryInd.name : "industry") + "</a> " +
+    '<a class="btn" href="graph.html?focus=' + CO.industries[0] + '">See its industry in the graph →</a></p>');
+
+  main.innerHTML = html;
+
+  /* activate the system diagram */
+  Viz.systemDiagram(document.getElementById("sysdiagram"), {
+    accent: accent,
+    label: CO.name + " system diagram",
+    center: { title: CO.name, note: CO.role, subs: (CO.revenueMix || []).map(function (m) { return m.label + " · " + m.pct + "%"; }) },
+    left: { title: "SUPPLY SIDE · inputs", items: (CO.suppliers || []).map(function (c) { return { name: c.who, note: c.note }; }) },
+    right: { title: "DEMAND SIDE · customers", items: (CO.customers || []).map(function (c) { return { name: c.who + (c.share ? " (" + c.share + ")" : ""), note: c.note }; }) },
+    capIn: { title: "CAPITAL FLOWS IN", items: (CO.capitalIn || []).map(function (c) { return { name: c.source, note: c.note }; }) },
+    capOut: { title: "CAPITAL FLOWS OUT", items: (CO.capitalOut || []).map(function (c) { return { name: c.use, note: c.note }; }) },
+    leftArrow: "supplies", rightArrow: "sells to"
+  });
+});
+</script>
+</body>
+</html>

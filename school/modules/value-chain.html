@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en" data-module="value-chain" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Industry Value Chain · Capital Atlas</title>
+<meta name="description" content="Who does what in finance, who pays whom, and how capital and fees flow through the machine: an interactive map of every player.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  /* value-chain page styles (vc- prefix) */
+  .vc-map-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+  .vc-col { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .vc-col-label {
+    font-family: var(--font-mono); font-size: 0.68rem; font-weight: 600;
+    letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3);
+    text-align: center; margin-bottom: 2px;
+  }
+  .vc-node {
+    appearance: none; font: inherit; text-align: left; width: 100%; cursor: pointer;
+    background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 9px;
+    padding: 9px 12px; color: var(--ink);
+    transition: border-color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+  }
+  .vc-node b { display: block; font-size: 0.86rem; font-weight: 600; }
+  .vc-node small { display: block; font-size: 0.71rem; color: var(--ink-3); margin-top: 1px; }
+  .vc-node:hover { border-color: var(--mod-accent, var(--brand)); }
+  .vc-node.active {
+    border-color: var(--mod-accent, var(--brand));
+    background: color-mix(in srgb, var(--mod-accent, var(--brand)) 10%, var(--surface-1));
+    box-shadow: 0 0 0 1px var(--mod-accent, var(--brand));
+  }
+  .vc-infra { grid-column: 1 / -1; border-top: 1px dashed var(--axis); padding-top: 14px; margin-top: 6px; }
+  .vc-infra-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+  .vc-detail {
+    position: sticky; bottom: 12px; z-index: 5; margin-top: 18px;
+    background: var(--surface-2); border: 1px solid var(--hairline);
+    border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow-1);
+  }
+  .vc-detail-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+  .vc-detail-head h4 { margin: 0; font-size: 1.05rem; }
+  .vc-tag {
+    font-family: var(--font-mono); font-size: 0.66rem; font-weight: 600;
+    letter-spacing: 0.05em; text-transform: uppercase;
+    color: var(--mod-accent, var(--brand));
+    background: color-mix(in srgb, var(--mod-accent, var(--brand)) 12%, var(--surface-1));
+    border-radius: 999px; padding: 2px 10px;
+  }
+  .vc-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 26px; }
+  .vc-dt {
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--ink-3); margin-bottom: 3px;
+  }
+  .vc-dd { font-size: 0.9rem; color: var(--ink-2); line-height: 1.55; }
+  @media (max-width: 880px) {
+    .vc-map-grid { grid-template-columns: 1fr 1fr; }
+    .vc-infra-row { grid-template-columns: 1fr 1fr 1fr; }
+  }
+  @media (max-width: 560px) {
+    .vc-map-grid { grid-template-columns: 1fr; }
+    .vc-infra-row { grid-template-columns: 1fr; }
+    .vc-detail-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="module-hero">
+    <span class="kicker">Module 02 · Primer</span>
+    <h1>The Industry Value Chain</h1>
+    <p class="hero-tagline">Who does what, who pays whom, and how the whole machine fits together.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ============================================================ 02.1 -->
+  <section class="lesson" id="the-map">
+    <h2><span class="sec-num">02.1</span> The map</h2>
+    <p class="lede">Finance looks like chaos from the outside: thousands of firms, impenetrable job
+      titles, everyone apparently rich. From above, it is one simple machine. Capital flows from
+      people who have it to people who can use it, and every firm on the map is either moving that
+      capital, advising on it, or building the rails it moves on. Learn the map once and every
+      headline, job posting, and deal rumor snaps into place.</p>
+
+    <p>The map has four columns. On the far left sit the <strong>owners of capital</strong>:
+      households, and the institutions that pool their savings. On the far right sit the
+      <strong>users of capital</strong>: companies and governments that need money to build things.
+      Everyone in between is an intermediary, and intermediaries come in two families. The
+      <strong>buy-side</strong> invests other people's money for a fee. The
+      <strong>sell-side</strong> sells services around securities: advice, execution, underwriting
+      (buying a new issue of securities from the company and reselling it to investors). Section
+      02.2 draws that line precisely.</p>
+
+    <p>Underneath all of it runs the <strong>infrastructure</strong>: exchanges, clearinghouses,
+      custodians, data vendors, rating agencies, and the regulators refereeing the whole game. You
+      will rarely read a headline about a custodian. That is the point. Plumbing only makes news
+      when it breaks.</p>
+
+    <div class="stat-row">
+      <div class="stat-tile"><div class="stat-label">US household financial assets</div><div class="stat-value">≈ $120T</div></div>
+      <div class="stat-tile"><div class="stat-label">Global pension assets</div><div class="stat-value">≈ $55T</div></div>
+      <div class="stat-tile"><div class="stat-label">Annual global IB fee pool</div><div class="stat-value">≈ $110B</div></div>
+      <div class="stat-tile"><div class="stat-label">One market data terminal, per year</div><div class="stat-value">≈ $30K</div></div>
+    </div>
+
+    <div class="callout callout-tip">
+      <p><strong>Follow the fee.</strong> Capital flows left to right across this map, and returns
+        flow back. But to understand why any firm exists, watch the fees instead: both ends of the
+        map pay the middle. Every product, every job title, and every acronym in finance sits
+        downstream of some fee stream. When you meet a firm you do not understand, ask the mentor's
+        question: who pays them, and for what?</p>
+    </div>
+
+    <div class="tool" id="tool-map">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Industry Map Explorer</h3></div>
+      <div class="tool-body stacked">
+        <div class="tool-output">
+          <p class="small muted" style="margin-top:0">Capital flows left to right, from the people
+            who have it to the people who use it. Fees flow back toward the middle. Click any player.</p>
+          <div class="vc-map-grid" role="group" aria-label="Industry map. Click a player to see what they do, how they make money, and where they sit in the flow.">
+            <div class="vc-col">
+              <div class="vc-col-label">1 · Owners of capital</div>
+              <button type="button" class="vc-node" data-node="households" aria-pressed="false"><b>Households</b><small>the original savers</small></button>
+              <button type="button" class="vc-node" data-node="pensions" aria-pressed="false"><b>Pension funds</b><small>retirement pools</small></button>
+              <button type="button" class="vc-node" data-node="endowments" aria-pressed="false"><b>Endowments &amp; foundations</b><small>perpetual capital</small></button>
+              <button type="button" class="vc-node" data-node="sovereign" aria-pressed="false"><b>Sovereign wealth funds</b><small>state wealth</small></button>
+              <button type="button" class="vc-node" data-node="insurance" aria-pressed="false"><b>Insurance companies</b><small>premium float</small></button>
+            </div>
+            <div class="vc-col">
+              <div class="vc-col-label">2 · Buy-side</div>
+              <button type="button" class="vc-node" data-node="mutual" aria-pressed="false"><b>Mutual funds &amp; ETFs</b><small>everyone's portfolio</small></button>
+              <button type="button" class="vc-node" data-node="hedge" aria-pressed="false"><b>Hedge funds</b><small>absolute return</small></button>
+              <button type="button" class="vc-node" data-node="pe" aria-pressed="false"><b>Private equity</b><small>buyout capital</small></button>
+              <button type="button" class="vc-node" data-node="vc" aria-pressed="false"><b>Venture capital</b><small>startup fuel</small></button>
+            </div>
+            <div class="vc-col">
+              <div class="vc-col-label">3 · Sell-side &amp; advisory</div>
+              <button type="button" class="vc-node" data-node="banks" aria-pressed="false"><b>Investment banks</b><small>the deal factory</small></button>
+              <button type="button" class="vc-node" data-node="st" aria-pressed="false"><b>Sales &amp; trading</b><small>market makers</small></button>
+              <button type="button" class="vc-node" data-node="research" aria-pressed="false"><b>Equity research</b><small>ratings and estimates</small></button>
+              <button type="button" class="vc-node" data-node="brokers" aria-pressed="false"><b>Brokers</b><small>the access layer</small></button>
+            </div>
+            <div class="vc-col">
+              <div class="vc-col-label">4 · Users of capital</div>
+              <button type="button" class="vc-node" data-node="corporates" aria-pressed="false"><b>Corporates</b><small>the CFO's office</small></button>
+              <button type="button" class="vc-node" data-node="startups" aria-pressed="false"><b>Startups</b><small>capital consumers</small></button>
+              <button type="button" class="vc-node" data-node="govs" aria-pressed="false"><b>Governments &amp; munis</b><small>the biggest borrowers</small></button>
+            </div>
+            <div class="vc-infra">
+              <div class="vc-col-label">Underneath everything · Market infrastructure</div>
+              <div class="vc-infra-row">
+                <button type="button" class="vc-node" data-node="exchanges" aria-pressed="false"><b>Exchanges</b><small>where trades match</small></button>
+                <button type="button" class="vc-node" data-node="clearing" aria-pressed="false"><b>Clearing &amp; custody</b><small>the plumbing</small></button>
+                <button type="button" class="vc-node" data-node="data" aria-pressed="false"><b>Data &amp; indices</b><small>terminals, benchmarks</small></button>
+                <button type="button" class="vc-node" data-node="ratings" aria-pressed="false"><b>Rating agencies</b><small>credit gatekeepers</small></button>
+                <button type="button" class="vc-node" data-node="regulators" aria-pressed="false"><b>Regulators</b><small>the referees</small></button>
+              </div>
+            </div>
+          </div>
+          <div class="vc-detail" id="vc-detail" aria-live="polite"></div>
+        </div>
+      </div>
+      <div class="tool-foot">Scale cues are rough, rounded orders of magnitude for orientation, not
+        precise data. AUM = assets under management, the market value of everything a firm manages.</div>
+    </div>
+
+    <p>Before pricing the arrows, hold onto the single most useful picture in this module: the
+      middle of the map gets paid twice.</p>
+
+    <div class="figure">
+      <p class="figure-title">Both ends pay the middle</p>
+      <p class="figure-sub">Capital flows through the intermediaries; fees flow into them, from both directions at once.</p>
+      <svg viewBox="0 0 720 240" role="img" aria-label="Diagram: owners of capital pay management fees, performance fees, and commissions into the intermediaries; users of capital pay advisory fees, underwriting spreads, and interest margin into the same intermediaries.">
+        <defs>
+          <marker id="vc-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 z" fill="var(--viz-1)"></path>
+          </marker>
+        </defs>
+        <rect x="16" y="84" width="150" height="88" rx="12" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="91" y="120" text-anchor="middle" class="lbl" font-size="13.5">Owners of capital</text>
+        <text x="91" y="140" text-anchor="middle" class="lbl-muted">households · institutions</text>
+
+        <rect x="290" y="52" width="140" height="152" rx="12" fill="color-mix(in srgb, var(--viz-2) 10%, var(--surface-1))" stroke="var(--viz-2)"></rect>
+        <text x="360" y="82" text-anchor="middle" class="lbl" font-size="13.5">The industry</text>
+        <text x="360" y="106" text-anchor="middle" class="lbl-muted">buy-side funds</text>
+        <text x="360" y="122" text-anchor="middle" class="lbl-muted">sell-side banks</text>
+        <text x="360" y="138" text-anchor="middle" class="lbl-muted">advisors</text>
+        <text x="360" y="154" text-anchor="middle" class="lbl-muted">infrastructure</text>
+        <text x="360" y="186" text-anchor="middle" font-size="11" font-style="italic" fill="var(--ink-3)">every arrow here is revenue</text>
+
+        <rect x="554" y="84" width="150" height="88" rx="12" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="629" y="120" text-anchor="middle" class="lbl" font-size="13.5">Users of capital</text>
+        <text x="629" y="140" text-anchor="middle" class="lbl-muted">corporates · governments</text>
+
+        <text x="228" y="86" text-anchor="middle" font-size="11" fill="var(--ink-2)" font-weight="600">management fees</text>
+        <text x="228" y="101" text-anchor="middle" font-size="11" fill="var(--ink-2)" font-weight="600">performance fees</text>
+        <text x="228" y="116" text-anchor="middle" font-size="11" fill="var(--ink-2)" font-weight="600">commissions</text>
+        <path d="M171 128 H 282" stroke="var(--viz-1)" stroke-width="2" fill="none" marker-end="url(#vc-arr)"></path>
+
+        <text x="492" y="86" text-anchor="middle" font-size="11" fill="var(--ink-2)" font-weight="600">advisory fees</text>
+        <text x="492" y="101" text-anchor="middle" font-size="11" fill="var(--ink-2)" font-weight="600">underwriting spreads</text>
+        <text x="492" y="116" text-anchor="middle" font-size="11" fill="var(--ink-2)" font-weight="600">interest margin</text>
+        <path d="M549 128 H 438" stroke="var(--viz-1)" stroke-width="2" fill="none" marker-end="url(#vc-arr)"></path>
+
+        <text x="360" y="228" text-anchor="middle" font-size="11" fill="var(--ink-3)">Capital moves left to right; returns flow back to the left, net of everything above.</text>
+      </svg>
+      <p class="figure-note">Section 02.3 puts a price on every one of these arrows.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ 02.2 -->
+  <section class="lesson" id="buy-vs-sell">
+    <h2><span class="sec-num">02.2</span> Buy-side vs sell-side</h2>
+    <p class="lede">The first question anyone in finance asks about a firm, a job, or a person:
+      buy-side or sell-side? It is the industry's continental divide. The names confuse everyone at
+      first, because both sides buy and sell securities all day long. The divide is about the
+      business model, not the direction of the trades.</p>
+
+    <p>The <strong>sell-side</strong> creates, markets, and trades securities, and sells services
+      around them: investment banks, brokerage arms, sales and trading desks, and the research
+      departments attached to them. Their revenue is transactional: a fee when a deal closes, a
+      spread when a client trades. The <strong>buy-side</strong> buys securities and whole companies
+      with pooled client capital and charges for managing it: mutual funds, ETFs, hedge funds,
+      private equity, venture capital. Their revenue is recurring: basis points on assets, plus a
+      share of profits.</p>
+
+    <p>Ask who the client is and the divide gets sharper. A buy-side firm has one client, the asset
+      owner whose money it manages, and one report card, returns net of fees. A sell-side firm
+      serves two masters at once. Issuers pay it to place securities at the highest possible price.
+      Investors, its other clients, want to buy those same securities at the lowest. Managing that
+      tension (with disclosures, walls, and lawyers) is half of what a bank does all day.</p>
+
+    <p>The second divide is whose money is at risk. When a bank underwrites a stock offering, it
+      commits its own balance sheet: it buys the entire issue from the company and resells it within
+      hours. If the market gaps down in between, the bank eats the loss. Market-making desks
+      likewise hold inventory that can move against them. The buy-side risks client capital instead;
+      the firm's own money is mostly not on the table, though PE and hedge fund principals typically
+      invest alongside their clients precisely so that it is, a little.</p>
+
+    <p>Pay follows the model. Sell-side compensation is salary plus an annual bonus keyed to fees
+      generated or desk profits: steadier, paid yearly, sized by the fee pool. Buy-side pay is keyed
+      to assets and performance: management fees fund the salaries, performance fees and carried
+      interest fund the upside. Carry pays out over years, which is why private equity pay looks
+      modest for a decade and then, sometimes, very much does not.</p>
+
+    <div class="callout callout-warn">
+      <p><strong>The names are not about buying vs selling securities.</strong> A sell-side market
+        maker buys thousands of times a day; a hedge fund sells short constantly. The side refers to
+        the flow of services: the sell-side sells research, execution, and deals <em>to</em> the
+        buy-side, and the buy-side buys them with commissions and fees. Remember it this way: the
+        buy-side is the customer.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Dimension</th><th>Sell-side</th><th>Buy-side</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Who they are</td><td>Investment banks, S&amp;T desks, brokers, research</td><td>Mutual funds, ETFs, hedge funds, PE, VC</td></tr>
+          <tr><td>The client</td><td>Issuers and investors, often at the same time</td><td>The asset owner whose capital they manage</td></tr>
+          <tr><td>Core product</td><td>Advice, execution, underwriting, liquidity</td><td>Returns on invested capital</td></tr>
+          <tr><td>Revenue model</td><td>Transactional: deal fees, spreads, commissions</td><td>Recurring: bps on AUM plus a share of profits</td></tr>
+          <tr><td>Whose money is at risk</td><td>The firm's balance sheet (underwriting, inventory)</td><td>Client capital, plus the principals' co-invest</td></tr>
+          <tr><td>Pay structure</td><td>Salary + annual bonus tied to fees or desk P&amp;L</td><td>Salary + bonus tied to AUM and performance; carry</td></tr>
+          <tr><td>Scoreboard</td><td>League tables (rankings by deal volume)</td><td>Returns vs benchmark, net of fees</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>One more cultural marker: the scoreboards in that last row are real. Sell-side firms
+      genuinely compete for league table credit, the quarterly rankings of banks by deal volume,
+      because rankings win the next mandate. Buy-side firms live and die by net returns. When you
+      meet someone in the industry, their scoreboard tells you their side before their business card
+      does.</p>
+  </section>
+
+  <!-- ============================================================ 02.3 -->
+  <section class="lesson" id="follow-the-fees">
+    <h2><span class="sec-num">02.3</span> Follow the fees</h2>
+    <p class="lede">Nobody in the middle of the map works for free, and almost nobody sends an
+      invoice either. Fees in finance are clipped: skimmed as percentages of assets, deals, spreads,
+      and interest, usually invisible to the person ultimately paying. This section prices every
+      arrow on the map, then follows a real-sized check through one full year to count the clips.</p>
+
+    <p>Start with the buy-side's fee, the management fee, quoted in <strong>basis points</strong>.
+      A basis point (bp) is one hundredth of a percentage point: 100 bps = 1%. Small numbers, vast
+      bases:</p>
+
+    <div class="formula">Management fee = AUM x fee rate
+$100M x 0.50% (50 bps) = $500K per year, every year, regardless of performance</div>
+
+    <p>The rate depends on what you are buying. A passive index fund that merely tracks the market
+      charges as little as 3 bps. An active mutual fund trying to beat the market charges 50-100
+      bps. Hedge funds layer a performance fee on top: the classic <strong>2-and-20</strong> (2% of
+      assets plus 20% of profits), though allocator pressure has pulled the average closer to
+      1.5-and-15. Private equity charges roughly 2% on committed capital plus 20%
+      <strong>carried interest</strong> on gains above a hurdle, usually 8%. The pattern: the more
+      active, illiquid, and exclusive the strategy, the fatter the clip.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Fee</th><th>Who clips it</th><th>Typical size</th><th>Charged on</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Management fee</td><td>Mutual funds, ETFs, hedge funds, PE, VC</td><td>3 bps (passive) up to 2% (alternatives)</td><td>AUM or committed capital, annually</td></tr>
+          <tr><td>Performance fee / carry</td><td>Hedge funds, PE, VC</td><td>10-20% of gains, often above a hurdle</td><td>Investment profits</td></tr>
+          <tr><td>M&amp;A advisory fee</td><td>Investment banks</td><td>Roughly 0.3% (mega) to 2%+ (small deals)</td><td>Deal value, paid at closing</td></tr>
+          <tr><td>Underwriting spread</td><td>Bank syndicates</td><td>7% small IPO; 2-3% mega IPO; 0.4-0.7% IG bonds</td><td>Capital raised</td></tr>
+          <tr><td>Commissions + bid-ask spread</td><td>Brokers, S&amp;T desks, market makers</td><td>Basis points, fractions of a % per trade</td><td>Trade value</td></tr>
+          <tr><td>Net interest margin</td><td>Banks and lenders</td><td>Roughly 2-4% per year</td><td>Loan book vs funding cost</td></tr>
+          <tr><td>Rails: custody, clearing, data, ratings</td><td>Infrastructure providers</td><td>A few bps or less; subscriptions</td><td>Assets held, trades cleared, issues rated</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Deal fees work differently: no assets, just a <strong>success fee</strong> as a percentage of
+      deal value, paid at closing. The grandfather of all fee schedules is the Lehman formula from
+      the 1970s: 5% of the first $1M of deal value, 4% of the second, 3% of the third, 2% of the
+      fourth, 1% of everything above. Inflation gutted the original numbers, and bankers now quote
+      scaled or "double Lehman" variants, but the shape survives half a century later: the
+      percentage falls as the deal grows, while the dollars rise. Slide the deal size below and
+      watch both move.</p>
+
+    <div class="tool" id="tool-feescale">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>What does the banker charge?</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="slider-row">
+            <label>Deal size <output></output></label>
+            <input type="range" id="fee-size" min="1" max="4" step="0.02" value="2.7">
+          </div>
+          <p class="small muted">Slide from a $10M storefront sale to a $10B mega merger. Rates are
+            illustrative midpoints of commonly quoted ranges for sell-side M&amp;A advisory.</p>
+        </div>
+        <div class="tool-output">
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">Typical fee rate</div><div class="stat-value" id="fee-pct"></div></div>
+            <div class="stat-tile"><div class="stat-label">Advisory fee</div><div class="stat-value" id="fee-usd"></div></div>
+            <div class="stat-tile"><div class="stat-label">Whose mandate</div><div class="stat-value" id="fee-rule" style="font-size:1rem"></div></div>
+          </div>
+          <p class="small muted" id="fee-note"></p>
+        </div>
+      </div>
+      <div class="tool-foot">Illustrative only. Real fees are negotiated deal by deal: complexity,
+        competition, and relationships all move them. Retainers are usually small and credited
+        against the success fee.</div>
+    </div>
+
+    <p>Underwriting fees, called the <strong>gross spread</strong>, follow the same shape. A
+      small-cap IPO still pays the famous 7% spread, split among the syndicate banks. Mega IPOs
+      negotiate hard: 2-3% is typical, and the very largest go lower still. Investment grade bond
+      deals run far cheaper, roughly 0.4-0.7%, because placing safe debt from a household name takes
+      distribution, not persuasion.</p>
+
+    <div class="callout callout-case">
+      <p><strong>Visa's IPO, March 2008.</strong> Visa went public weeks after Bear Stearns
+        collapsed and still raised about $17.9B, the largest US listing ever at the time. The
+        syndicate, led by JPMorgan, shared a gross spread of roughly 2.8%: about $500M of fees on a
+        single transaction, split across dozens of banks by role, with the lead banks taking the
+        largest slices. Nobody clips 7% on a deal that size. Nobody needs to.</p>
+    </div>
+
+    <p>Finally, the oldest clip in banking: lenders earn the spread between what their loans yield
+      and what their funding costs, the <strong>net interest margin (NIM)</strong>.</p>
+
+    <div class="formula">Net interest margin = yield on assets - cost of funding
+e.g. 6.5% earned on loans vs 2.5% paid on deposits = 4.0% NIM</div>
+
+    <div class="callout callout-example">
+      <p><strong>$100M for one year.</strong> A pension hands $100M to the machine on a typical
+        allocation: $40M passive index funds, $30M active funds, $20M private equity, $10M hedge
+        funds. Count the clips over one year. The investment consultant who designed the allocation
+        takes 5 bps ($50K). The custodian safekeeping everything takes 2 bps ($20K). The index funds
+        take 3 bps on $40M ($12K). The active managers take 50 bps on $30M ($150K). The hedge fund
+        takes 2% on $10M ($200K) plus 20% of an 8% gross gain ($160K). The PE fund takes 2% on $20M
+        ($400K), with carried interest accruing toward exit on top (call it $200K in a decent year).
+        Embedded trading costs inside all the portfolios (spreads and commissions) run about $50K.
+        Cash fees: roughly $1.0M. All-in with accrued carry: about $1.2M, or 1.2%, in a year when
+        nothing dramatic happened.</p>
+    </div>
+
+    <div class="figure">
+      <p class="figure-title">Who clipped what: $100M of pension money, one year</p>
+      <p class="figure-sub">Cash fees by player, in $K, using the allocation and rates from the worked example.</p>
+      <svg viewBox="0 0 720 320" role="img" aria-label="Bar chart of annual fees clipped on $100M of pension assets: private equity management fee $400K, hedge fund fees $360K, active funds $150K, consultant $50K, trading costs $50K, custodian $20K, passive index funds $12K.">
+        <line class="axis" x1="225" y1="34" x2="225" y2="292"></line>
+
+        <text x="215" y="60.5" text-anchor="end" font-size="12" fill="var(--ink-2)">Private equity (mgmt fee)</text>
+        <rect x="225" y="46" width="455" height="20" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="225" y="46" width="6" height="20" fill="var(--viz-1)"></rect>
+        <text x="672" y="60.5" text-anchor="end" font-size="12" font-weight="600" fill="#fff">$400K</text>
+
+        <text x="215" y="96.5" text-anchor="end" font-size="12" fill="var(--ink-2)">Hedge fund (mgmt + perf)</text>
+        <rect x="225" y="82" width="410" height="20" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="225" y="82" width="6" height="20" fill="var(--viz-1)"></rect>
+        <text x="644" y="96.5" font-size="12" font-weight="600" fill="var(--ink)">$360K</text>
+
+        <text x="215" y="132.5" text-anchor="end" font-size="12" fill="var(--ink-2)">Active funds (mgmt fee)</text>
+        <rect x="225" y="118" width="171" height="20" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="225" y="118" width="6" height="20" fill="var(--viz-1)"></rect>
+        <text x="405" y="132.5" font-size="12" font-weight="600" fill="var(--ink)">$150K</text>
+
+        <text x="215" y="168.5" text-anchor="end" font-size="12" fill="var(--ink-2)">Investment consultant</text>
+        <rect x="225" y="154" width="57" height="20" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="225" y="154" width="6" height="20" fill="var(--viz-1)"></rect>
+        <text x="291" y="168.5" font-size="12" font-weight="600" fill="var(--ink)">$50K</text>
+
+        <text x="215" y="204.5" text-anchor="end" font-size="12" fill="var(--ink-2)">Trading costs (embedded)</text>
+        <rect x="225" y="190" width="57" height="20" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="225" y="190" width="6" height="20" fill="var(--viz-1)"></rect>
+        <text x="291" y="204.5" font-size="12" font-weight="600" fill="var(--ink)">$50K</text>
+
+        <text x="215" y="240.5" text-anchor="end" font-size="12" fill="var(--ink-2)">Custodian</text>
+        <rect x="225" y="226" width="23" height="20" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="225" y="226" width="6" height="20" fill="var(--viz-1)"></rect>
+        <text x="257" y="240.5" font-size="12" font-weight="600" fill="var(--ink)">$20K</text>
+
+        <text x="215" y="276.5" text-anchor="end" font-size="12" fill="var(--ink-2)">Passive index funds</text>
+        <rect x="225" y="262" width="14" height="20" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="225" y="262" width="6" height="20" fill="var(--viz-1)"></rect>
+        <text x="248" y="276.5" font-size="12" font-weight="600" fill="var(--ink)">$12K</text>
+
+        <text x="225" y="312" font-size="11" fill="var(--ink-3)">Cash fees ≈ $1.0M (1.0%). PE carried interest accrues on top, roughly $200K in a decent year.</text>
+      </svg>
+      <p class="figure-note">Note who earns the most per dollar managed: $20M in private equity out-clips $40M in index funds by 33x.</p>
+    </div>
+
+    <p>Is 1.2% a lot? In one year it looks like a rounding error. Compounded over 30 years, fee drag
+      can consume a third of a portfolio's ending value, which is why Module 07's fee drag
+      visualizer deserves 5 minutes of your time. It also explains the industry's deepest current:
+      the multi-decade migration of money from active funds to passive index funds is a war fought
+      over exactly this 1.2%.</p>
+  </section>
+
+  <!-- ============================================================ 02.4 -->
+  <section class="lesson" id="inside-a-bank">
+    <h2><span class="sec-num">02.4</span> Inside an investment bank</h2>
+    <p class="lede">"Investment bank" names both a firm and a division inside it, which confuses
+      everyone. The firm you read about in headlines is really 4 or 5 distinct businesses stapled
+      together, selling different products to different clients under one brand. Here is the tour,
+      floor by floor, and the wall that runs through the middle of the building.</p>
+
+    <div class="figure wide">
+      <p class="figure-title">Anatomy of a full-service investment bank</p>
+      <p class="figure-sub">Five businesses, one brand, and a wall down the middle.</p>
+      <svg viewBox="0 0 960 375" role="img" aria-label="Org diagram of an investment bank. Private side: the Investment Banking Division with coverage groups and product groups. Public side: sales and trading, equity research, and asset and wealth management. A dashed information barrier separates the two sides.">
+        <rect x="20" y="18" width="920" height="40" rx="10" fill="color-mix(in srgb, var(--viz-2) 8%, var(--surface-1))" stroke="var(--viz-2)"></rect>
+        <text x="480" y="43" text-anchor="middle" class="lbl" font-size="14">A full-service investment bank</text>
+
+        <text x="245" y="86" text-anchor="middle" font-size="11" fill="var(--ink-3)" font-weight="600">PRIVATE SIDE · WORKS ON NONPUBLIC INFORMATION</text>
+        <text x="720" y="86" text-anchor="middle" font-size="11" fill="var(--ink-3)" font-weight="600">PUBLIC SIDE · TOUCHES MARKETS EVERY DAY</text>
+
+        <line x1="480" y1="70" x2="480" y2="340" stroke="var(--axis)" stroke-width="2" stroke-dasharray="7 6"></line>
+
+        <rect x="30" y="96" width="430" height="170" rx="12" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="245" y="122" text-anchor="middle" class="lbl" font-size="13.5">Investment Banking Division (IBD)</text>
+        <text x="245" y="140" text-anchor="middle" class="lbl-muted">advice and capital raising · paid in success fees and spreads</text>
+
+        <rect x="48" y="152" width="190" height="96" rx="10" fill="var(--surface-1)" stroke="var(--axis)"></rect>
+        <text x="143" y="176" text-anchor="middle" class="lbl" font-size="12.5">Coverage groups</text>
+        <text x="143" y="194" text-anchor="middle" class="lbl-muted">Tech · Healthcare · FIG</text>
+        <text x="143" y="209" text-anchor="middle" class="lbl-muted">Industrials · Energy</text>
+        <text x="143" y="232" text-anchor="middle" font-size="11" font-style="italic" fill="var(--ink-3)">own the relationship</text>
+
+        <rect x="252" y="152" width="190" height="96" rx="10" fill="var(--surface-1)" stroke="var(--axis)"></rect>
+        <text x="347" y="176" text-anchor="middle" class="lbl" font-size="12.5">Product groups</text>
+        <text x="347" y="194" text-anchor="middle" class="lbl-muted">M&amp;A · LevFin</text>
+        <text x="347" y="209" text-anchor="middle" class="lbl-muted">ECM · DCM (new issues)</text>
+        <text x="347" y="232" text-anchor="middle" font-size="11" font-style="italic" fill="var(--ink-3)">own the transaction</text>
+
+        <rect x="500" y="96" width="210" height="100" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="605" y="122" text-anchor="middle" class="lbl" font-size="12.5">Sales &amp; Trading</text>
+        <text x="605" y="141" text-anchor="middle" class="lbl-muted">equities · FICC desks</text>
+        <text x="605" y="156" text-anchor="middle" class="lbl-muted">market making, execution</text>
+        <text x="605" y="180" text-anchor="middle" font-size="11" font-style="italic" fill="var(--ink-3)">sells liquidity: spreads</text>
+
+        <rect x="730" y="96" width="210" height="100" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="835" y="122" text-anchor="middle" class="lbl" font-size="12.5">Equity Research</text>
+        <text x="835" y="141" text-anchor="middle" class="lbl-muted">ratings · estimates · models</text>
+        <text x="835" y="156" text-anchor="middle" class="lbl-muted">the consensus numbers</text>
+        <text x="835" y="180" text-anchor="middle" font-size="11" font-style="italic" fill="var(--ink-3)">paid via trading flow</text>
+
+        <rect x="500" y="216" width="440" height="80" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="720" y="243" text-anchor="middle" class="lbl" font-size="12.5">Asset &amp; Wealth Management</text>
+        <text x="720" y="262" text-anchor="middle" class="lbl-muted">managing client money and portfolios</text>
+        <text x="720" y="281" text-anchor="middle" font-size="11" font-style="italic" fill="var(--ink-3)">sells management: bps on AUM</text>
+
+        <text x="480" y="362" text-anchor="middle" font-size="11" fill="var(--ink-3)">the information barrier, universally called the Chinese wall</text>
+      </svg>
+      <p class="figure-note">Boutique advisory firms are roughly the left half only; a pure asset manager is the bottom-right box grown into a whole company.</p>
+    </div>
+
+    <p>Inside the Investment Banking Division, bankers split two ways. <strong>Coverage</strong>
+      bankers own relationships in a sector: the healthcare team knows every hospital-chain CEO and
+      CFO, calls on them for years, and earns the right to pitch when something stirs.
+      <strong>Product</strong> bankers own transaction types: M&amp;A tactics, leveraged finance
+      structures, equity offerings. A live deal staffs both: coverage brings the client, product
+      executes. Managing directors sell, vice presidents manage, analysts and associates build the
+      models at 1am. Each floor sells something different:</p>
+
+    <details class="accordion">
+      <summary>IBD: coverage and product groups</summary>
+      <div class="acc-body">
+        <p>IBD sells advice and access to capital, and it gets paid almost entirely in contingent
+          success fees: a percentage of the deal at closing, sized by the scale you played with in
+          02.3. That makes IBD a rainmaker economy. A single managing director with strong CEO
+          relationships can generate $20M+ of annual fees, which is why senior bankers are paid like
+          the franchises they are.</p>
+        <p>The rhythm of the floor follows the deal cycle: months of unpaid pitching (the "bake-off"
+          decks), then a mandate, then a sprint to closing. Juniors live in the models and the data
+          room; seniors live on planes.</p>
+      </div>
+    </details>
+    <details class="accordion">
+      <summary>ECM and DCM: the new-issue desks</summary>
+      <div class="acc-body">
+        <p>Equity Capital Markets and Debt Capital Markets are the hinge between the bankers and the
+          markets floor. When a company raises money, ECM or DCM prices the new securities, builds
+          the order book, and allocates them to investors. Their pay comes out of the underwriting
+          spread: on an IPO, the gross spread is carved into a management fee, an underwriting fee,
+          and a selling concession, split across the syndicate by role.</p>
+        <p>Because they know the private deal but must talk to public investors to place it, ECM and
+          DCM sit closest to the wall, and cross it only through scripted, compliance-monitored
+          processes.</p>
+      </div>
+    </details>
+    <details class="accordion">
+      <summary>Sales &amp; Trading: the market floor</summary>
+      <div class="acc-body">
+        <p>S&amp;T sells liquidity. Salespeople cover investor clients; traders quote two-way prices
+          (a bid to buy, an ask to sell) so those clients can transact instantly, and the desk earns
+          the spread between them plus commissions. Desks split into equities and FICC (fixed
+          income, currencies, and commodities). The prime brokerage desk finances hedge funds,
+          lending them money and stock, which is one of the steadiest profit pools in the building.</p>
+        <p>Since the Volcker rule (2010) restricted proprietary trading, the desks mostly trade
+          client flow rather than pure house bets, but they still carry inventory, and inventory can
+          go wrong in a hurry.</p>
+      </div>
+    </details>
+    <details class="accordion">
+      <summary>Equity Research: the public voice</summary>
+      <div class="acc-body">
+        <p>Analysts publish ratings (buy, hold, sell), earnings estimates, and industry deep dives.
+          Their estimates aggregate into the consensus that companies beat or miss every quarter.
+          Almost nobody pays for research directly: historically it rode on trading, with clients
+          rewarding good analysts by routing commission flow to the bank's desks.</p>
+        <p>Europe's MiFID II rules (2018) forced funds to pay for research explicitly rather than
+          bundling it into commissions, and research budgets shrank sharply. The product survives
+          because it still wins corporate access, supports new issues with aftermarket coverage, and
+          keeps the bank's name in front of investors daily.</p>
+      </div>
+    </details>
+    <details class="accordion">
+      <summary>Asset &amp; Wealth Management: the steady engine</summary>
+      <div class="acc-body">
+        <p>The bank's own buy-side: funds it manages and advice it sells to wealthy families and
+          institutions, charging basis points on AUM. It is the least glamorous floor and often the
+          most valuable, because recurring fee revenue smooths the violent cyclicality of deals and
+          trading. Markets pay higher multiples for revenue that shows up every year without a
+          transaction attached.</p>
+      </div>
+    </details>
+
+    <h3>The wall down the middle</h3>
+    <p>IBD lives on <strong>material nonpublic information (MNPI)</strong>: who is for sale, at what
+      price, funded how. Anyone who trades public securities on that knowledge commits a crime. So
+      banks build an information barrier, universally called the <strong>Chinese wall</strong>,
+      between the private side (IBD, which knows things) and the public side (S&amp;T, research, and
+      asset management, which trade and publish). The wall is physical (separate floors, badge
+      access), procedural (restricted lists, surveillance of chats and calls), and cultural: a
+      banker "wall-crosses" a public-side colleague only through compliance, logged, for a defined
+      purpose.</p>
+
+    <div class="callout callout-case">
+      <p><strong>The Global Research Analyst Settlement, 2003.</strong> The wall got its modern
+        enforcement teeth in April 2003, when ten Wall Street firms paid a combined $1.4B to settle
+        charges that their analysts had publicly hyped dot-com stocks their banking colleagues were
+        underwriting, while privately trashing them in emails that regulators gleefully published.
+        The settlement forced structural separation: analyst pay cannot be tied to banking deals,
+        bankers cannot review ratings, and every research report since carries pages of
+        disclosures.</p>
+    </div>
+
+    <div class="callout">
+      <p>Full-service banks bundle all 5 floors; boutique advisory firms sell only the advice,
+        arguing that a firm with no lending book, no trading desk, and no research to manage has
+        fewer conflicts. Boards increasingly hire one of each on big deals: a full-service bank for
+        the financing muscle, a boutique for the clean second opinion. Both fee checks clear.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ 02.5 -->
+  <section class="lesson" id="the-supporting-cast">
+    <h2><span class="sec-num">02.5</span> The supporting cast</h2>
+    <p class="lede">Look at the tombstone announcement of any large deal (the boxed notice listing
+      everyone involved) and count the logos. Two banks, three law firms, two accounting firms, a
+      consultancy, an insurer. Most of them are not "in finance" the way this module has used the
+      word, and the deal literally cannot close without them.</p>
+
+    <div class="grid-3">
+      <div class="card">
+        <h4>Law firms</h4>
+        <p class="small muted">Every deal is ultimately a stack of documents, and lawyers write
+          them: purchase agreements, credit agreements, prospectuses, antitrust filings. Top
+          partners bill $2K+ per hour, and a large deal can generate $5M-15M in combined legal fees.
+          M&amp;A and capital markets work is Big Law's profit engine.</p>
+      </div>
+      <div class="card">
+        <h4>The Big 4 accountants</h4>
+        <p class="small muted">Audit is the recurring annuity; deals are the premium product.
+          Transaction teams produce quality of earnings (QoE) reports that stress-test a target's
+          numbers, plus tax structuring and purchase accounting. In diligence, the QoE is the
+          document buyers trust over the audited statements.</p>
+      </div>
+      <div class="card">
+        <h4>Consultants</h4>
+        <p class="small muted">Strategy houses and specialist shops answer the question bankers
+          cannot: is the market real? Commercial due diligence sizes demand, synergy studies
+          validate the deal math, and post-merger integration teams try to make the combined company
+          actually work. Fees run $500K to several million per study.</p>
+      </div>
+      <div class="card">
+        <h4>Fintech and market rails</h4>
+        <p class="small muted">Payment networks, order management systems, settlement rails, data
+          pipes, and the unglamorous software the industry actually runs on (yes, Excel counts).
+          Increasingly this layer is where the margin hides: software fees scale with volume and
+          never sleep.</p>
+      </div>
+      <div class="card">
+        <h4>Financial media and data</h4>
+        <p class="small muted">Journalists, terminals, and newsletters set the shared facts and the
+          narrative. A well-timed leak to a deals reporter is a negotiating tactic with its own
+          etiquette, and an index provider's decision about what counts as "the market" moves more
+          money than most analyst calls.</p>
+      </div>
+      <div class="card">
+        <h4>Placement agents, proxy advisors, IR</h4>
+        <p class="small muted">Placement agents raise funds for PE firms (roughly 2% of capital
+          raised). Proxy advisors tell institutions how to vote their shares, which gives 2 firms
+          outsized power over every merger vote. Investor relations firms manage the shareholder
+          register between crises.</p>
+      </div>
+    </div>
+
+    <p>Why does every deal need 5 logos? Two forces. The first is specialization: each advisor
+      answers one question no one else can answer as well. What is it worth? Is it legal? Are the
+      numbers real? Is the market real? Who funds it? The second is liability transfer: a board that
+      hired brand-name advisors, commissioned a QoE, and obtained a fairness opinion has a
+      documented, defensible process if the deal later sours. Courts protect directors who took
+      expert advice; shareholders sue the ones who winged it. A meaningful slice of every fee buys
+      not analysis but insurance: for careers, for boards, against hindsight.</p>
+
+    <div class="callout callout-case">
+      <p><strong>The Twitter buyout, 2022.</strong> Elon Musk's $44B take-private made fee math
+        front-page news. Goldman Sachs, advising Twitter, was reported to earn roughly $80M with the
+        bulk contingent on closing; JPMorgan roughly $53M on the same basis. When Musk spent the
+        summer trying to walk away, the advisors' incentive to force a closing became a story in
+        itself. Add Musk's own bankers, 2 armies of lawyers billing through the litigation, and
+        about $13B of buyout debt that underwriting banks were stuck holding when markets turned,
+        and one deal fed nearly every player in this module.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ 02.6 -->
+  <section class="lesson" id="one-deal-through-the-machine">
+    <h2><span class="sec-num">02.6</span> One deal through the machine</h2>
+    <p class="lede">Time to run the whole machine at once, with fictional players. Meridian
+      Packaging Group is a founder-owned maker of food-grade packaging: $250M of revenue, $50M of
+      EBITDA (earnings before interest, taxes, depreciation, and amortization, the standard
+      cash-profit yardstick). The founder is 68 and ready. Cascade Industrial Holdings, a listed
+      packaging group, will end up paying $500M, a 10.0x EBITDA multiple. More than a dozen
+      organizations will touch the deal on its way to closing. Watch what each touch costs.</p>
+
+    <ol class="timeline">
+      <li>
+        <div class="timeline-when">Month 0 · The mandate</div>
+        <div class="timeline-title">The founder hires a banker</div>
+        <div class="timeline-body">Meridian's founder interviews 3 investment banks in a bake-off.
+          Midmarket boutique Harborlight Partners wins the sell-side mandate: a $100K quarterly
+          retainer credited against a success fee of roughly 1.25% of deal value, with everything
+          beyond the retainer contingent on closing. From this moment, Harborlight earns only if the
+          founder sells. Fee at stake: $6.3M.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Months 1-2 · The package</div>
+        <div class="timeline-title">Building the story and scrubbing the numbers</div>
+        <div class="timeline-body">Harborlight's analysts build the model and the confidential
+          information memorandum (CIM), the deal's marketing book. A Big 4 firm runs a sell-side
+          quality of earnings study so buyers cannot later claim surprise ($750K). A virtual data
+          room vendor hosts thousands of documents ($75K). Deal counsel starts drafting ($2.5M
+          through close).</div>
+      </li>
+      <li>
+        <div class="timeline-when">Month 3 · The auction</div>
+        <div class="timeline-title">60 calls, 25 NDAs, 9 bids</div>
+        <div class="timeline-body">Harborlight quietly contacts 60 potential buyers: 40 strategics,
+          20 PE firms. 25 sign NDAs (confidentiality agreements) and receive the CIM. 9 submit
+          first-round indications of interest (IOIs). The median IOI lands around 9.0x EBITDA;
+          Cascade leads at 9.5x. Competition is the sell-side advisor's real product.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Months 4-5 · Diligence</div>
+        <div class="timeline-title">The buyer builds its own machine</div>
+        <div class="timeline-body">Cascade assembles its advisor stack: buy-side bank Stonebriar
+          Securities ($3.5M, mostly contingent), a strategy consultancy for commercial due diligence
+          on packaging demand ($1.2M), and its own QoE team ($750K). After 6 weeks of management
+          meetings, plant tours, and 400 data room questions, Cascade bids 10.0x: $500M. The
+          auction's tension added half a turn of EBITDA.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Month 6 · The financing</div>
+        <div class="timeline-title">$250M of new debt</div>
+        <div class="timeline-body">Cascade funds the deal with cash on hand plus a new $250M term
+          loan. Two commercial banks underwrite it, charging about 2% in arrangement and
+          underwriting fees ($5.0M). A rating agency rates the new debt ($150K, paid by the issuer,
+          as always).</div>
+      </li>
+      <li>
+        <div class="timeline-when">Month 7 · Papers and insurance</div>
+        <div class="timeline-title">200 pages of who-bears-which-risk</div>
+        <div class="timeline-body">Lawyers on both sides grind out the stock purchase agreement
+          (SPA): representations, warranties, indemnities. Cascade's counsel bills $3.0M. A
+          representations and warranties insurance policy ($50M of coverage at a premium of roughly
+          2.8%, or $1.4M) replaces most of the escrow the founder would otherwise leave behind.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Month 8 · The referees</div>
+        <div class="timeline-title">Filings and logistics</div>
+        <div class="timeline-body">The deal crosses regulatory desks: a Hart-Scott-Rodino antitrust
+          filing (about $250K) and its waiting period. An escrow and paying agent is appointed to
+          move the money ($50K). Background checks, lien searches, and closing logistics round out
+          roughly $75K of miscellany.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Closing day</div>
+        <div class="timeline-title">The wires fly</div>
+        <div class="timeline-body">$500M moves from Cascade and its lenders, through the paying
+          agent, to the founder and option holders. Harborlight's $6.3M success fee is wired from
+          proceeds at the closing table, and every contingent fee on both sides crystallizes in the
+          same hour. That evening, the closing dinner. The founder pays for nothing.</div>
+      </li>
+    </ol>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Who</th><th>Hired by</th><th class="num">Fee</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Harborlight Partners (sell-side advisor)</td><td>Meridian</td><td class="num">$6.3M</td></tr>
+          <tr><td>Lenders (arrangement fees on $250M loan)</td><td>Cascade</td><td class="num">$5.0M</td></tr>
+          <tr><td>Stonebriar Securities (buy-side advisor)</td><td>Cascade</td><td class="num">$3.5M</td></tr>
+          <tr><td>Buy-side counsel</td><td>Cascade</td><td class="num">$3.0M</td></tr>
+          <tr><td>Sell-side counsel</td><td>Meridian</td><td class="num">$2.5M</td></tr>
+          <tr><td>Quality of earnings (both sides)</td><td>Both</td><td class="num">$1.5M</td></tr>
+          <tr><td>R&amp;W insurance premium</td><td>Cascade</td><td class="num">$1.4M</td></tr>
+          <tr><td>Commercial due diligence consultants</td><td>Cascade</td><td class="num">$1.2M</td></tr>
+          <tr><td>Data room, rating, HSR filing, escrow, misc</td><td>Both</td><td class="num">$0.6M</td></tr>
+          <tr class="total"><td>Total deal friction</td><td>5.0% of the $500M price</td><td class="num">$25.0M</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Was the friction worth it? Run the founder's math. The first-round median was 9.0x, or $450M.
+      The auction Harborlight staged, the QoE that pre-empted price chips, and the insurance that
+      freed his escrow delivered 10.0x with clean cash at close: call it $50M of price improvement
+      against roughly $10M of sell-side costs (Cascade paid the other $15M and books it into the
+      cost of the acquisition). The machine is expensive. It is usually cheaper than not using
+      it.</p>
+
+    <p>And notice, one last time, where every dollar of that $25M came from and went. It came from
+      the two ends of the map, a buyer and a seller of a real business. It went to the middle: 2
+      banks, 2 lenders, 4 professional firms, an insurer, a data room, a rating agency, and the
+      government. That is the industry value chain, run once, end to end.</p>
+  </section>
+
+  <!-- ============================================================ 02.7 -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">02.7</span> Knowledge check</h2>
+    <p class="lede">Ten questions across the whole map: sides, fees, walls, and the deal machine.
+      Every answer comes with the reasoning.</p>
+    <div id="quiz-root"></div>
+  </section>
+</main>
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+
+  /* ================================================== industry map data */
+  var MAP = {
+    households: {
+      name: "Households", group: "Owners of capital",
+      does: "Every dollar in the system starts as somebody's savings. Households hold wealth directly (brokerage accounts, deposits, home equity) and indirectly through pensions, funds, and insurance policies. They are the ultimate principal in almost every chain on this map.",
+      money: "They do not charge fees; they pay them. Households earn investment returns (interest, dividends, capital gains) minus every clip taken along the way.",
+      scale: "US households hold roughly $120T in financial assets, more than every institution on this map combined.",
+      flow: "Column 1, the origin. Nearly every arrow of capital traces back to a household paycheck, and every fee ultimately comes out of a household return."
+    },
+    pensions: {
+      name: "Pension funds", group: "Owners of capital",
+      does: "Pensions collect contributions from workers and employers, invest them for decades, and pay retirement benefits. They allocate across stocks, bonds, real estate, private equity, and hedge funds, usually with help from investment consultants.",
+      money: "Not-for-profit by design. They exist to fund liabilities (future benefit checks), so their revenue is investment return and their main cost is the fees they pay managers.",
+      scale: "Global pension assets run roughly $55T; the largest single plans manage $300B+ each.",
+      flow: "Column 1. The classic institutional allocator: the $100M we follow in section 02.3 starts here."
+    },
+    endowments: {
+      name: "Endowments & foundations", group: "Owners of capital",
+      does: "Endowments fund universities and nonprofits in perpetuity; foundations fund grants. Both invest aggressively for the very long term, a style pioneered at Yale by David Swensen: heavy in private equity, venture, and hedge funds.",
+      money: "Also not-for-profit. They target a return high enough (often 7-8%) to spend roughly 5% a year without shrinking in real terms.",
+      scale: "US university endowments total roughly $850B; the largest single funds run around $50B.",
+      flow: "Column 1. Small in dollars but influential: the endowment model reshaped how all big allocators invest."
+    },
+    sovereign: {
+      name: "Sovereign wealth funds", group: "Owners of capital",
+      does: "State-owned funds, typically built on oil revenue or trade surpluses, that invest a nation's excess wealth. They buy everything from index funds to airports to stakes in private companies.",
+      money: "They invest for the state; returns fund budgets and future generations. Some also serve policy goals, which can make them strategic as well as financial buyers.",
+      scale: "Roughly $12T globally. Norway's fund alone runs about $1.8T and owns roughly 1.5% of every listed company on Earth.",
+      flow: "Column 1. The whales: when a sovereign fund anchors a deal or a new fund, everyone else pays attention."
+    },
+    insurance: {
+      name: "Insurance companies", group: "Owners of capital",
+      does: "Insurers collect premiums today and pay claims later, so they sit on an enormous pool of investable float. Life insurers especially are among the biggest buyers of corporate and government bonds.",
+      money: "Two engines: underwriting profit (premiums minus claims and costs) and investment income on the float. Regulation pushes them toward safer, longer-dated assets.",
+      scale: "Global insurers manage roughly $35T in general-account assets.",
+      flow: "Column 1, with a twist: insurance is also a product other players buy, as the R&W policy in section 02.6 shows."
+    },
+    mutual: {
+      name: "Mutual funds & ETFs", group: "Buy-side",
+      does: "Pooled vehicles that let anyone own a diversified slice of the market. Mutual funds price once a day; ETFs trade all day on an exchange. Active funds try to beat a benchmark; index funds try to match it at minimal cost.",
+      money: "A management fee in basis points on AUM: as little as 3 bps for passive index funds, often 50-100 bps for active stock funds.",
+      scale: "US mutual funds and ETFs hold roughly $35T. The 3 biggest index managers together hold significant stakes in most large US companies.",
+      flow: "Column 2. The main pipe between household savings and the public markets."
+    },
+    hedge: {
+      name: "Hedge funds", group: "Buy-side",
+      does: "Lightly regulated private funds for institutions and the wealthy. They can short (bet against securities), use leverage, and trade almost anything: equities, credit, currencies, commodities. The goal is absolute return in any market, not tracking an index.",
+      money: "The classic 2-and-20: a 2% management fee on AUM plus 20% of profits. Fee pressure has pulled the average closer to 1.5-and-15, but the structure survives.",
+      scale: "Roughly $4T-5T in AUM globally, amplified by leverage.",
+      flow: "Column 2, and also the sell-side's best customer: hedge funds generate an outsized share of trading commissions and prime brokerage revenue."
+    },
+    pe: {
+      name: "Private equity", group: "Buy-side",
+      does: "PE firms raise 10-year funds from institutions, buy whole companies (usually with substantial debt: the leveraged buyout), improve or grow them, and sell in 3-7 years. Module 06 covers the mechanics.",
+      money: "Roughly 2% management fee on committed capital plus carried interest, typically 20% of profits above an 8% hurdle. Investors (LPs) put up almost all the money; the firm (GP) takes a large share of the upside.",
+      scale: "Roughly $8T-9T of global AUM, plus over $1T of committed but uninvested dry powder.",
+      flow: "Column 2, but reaching into column 4: PE does not just fund companies, it owns and operates them."
+    },
+    vc: {
+      name: "Venture capital", group: "Buy-side",
+      does: "VC funds buy minority stakes in young companies that could grow 100x, expecting most to fail. A fund's returns usually come from 1-2 breakout winners out of 25-30 bets. Structurally it is PE's high-variance sibling: same fund shape, opposite risk profile.",
+      money: "Same economics as PE: management fees on committed capital plus roughly 20% carry on gains.",
+      scale: "Roughly $3T of global AUM; venture-backed startups absorb about $300B of new capital in a typical year.",
+      flow: "Column 2, feeding column 4's startups: the riskiest capital on the map, and when it works, the most profitable."
+    },
+    banks: {
+      name: "Investment banks", group: "Sell-side & advisory",
+      does: "The deal factories. Investment banks advise companies on mergers and acquisitions, underwrite new stocks and bonds (buy them from the issuer and resell them to investors), and arrange loans. Section 02.4 dissects one floor by floor.",
+      money: "Success fees on M&A (roughly 0.3-2% of deal value, scaling down with size), underwriting spreads on new issues (7% on a small IPO down to 2-3% on a mega deal, under 1% on investment grade bonds), plus lending income.",
+      scale: "The global investment banking fee pool runs roughly $100B-120B in a normal year.",
+      flow: "Column 3. Banks touch both ends of the map: issuers pay them to raise capital, investors pay them to deploy it."
+    },
+    st: {
+      name: "Sales & trading", group: "Sell-side & advisory",
+      does: "The markets arm of a bank. Salespeople cover investor clients; traders make markets, quoting prices at which the desk will buy (bid) or sell (ask) so clients can trade instantly. The desk carries inventory and hedges the risk.",
+      money: "The bid-ask spread, commissions on executed trades, and financing charges to hedge funds through the prime brokerage desk. High volume, thin margins, real risk.",
+      scale: "The largest global banks together book roughly $200B a year in trading revenue.",
+      flow: "Column 3, on the public side of the wall. S&T is where the buy-side and sell-side physically meet, thousands of times a day."
+    },
+    research: {
+      name: "Equity research", group: "Sell-side & advisory",
+      does: "Analysts who publish ratings (buy, hold, sell), earnings estimates, and industry deep dives on public companies. Their estimates aggregate into the consensus numbers companies beat or miss each quarter.",
+      money: "Almost never paid directly. Research historically rides on trading: clients reward good analysts with commission flow. Since Europe's MiFID II rules (2018) forced explicit pricing, research budgets have shrunk sharply.",
+      scale: "Global spend on external equity research is measured in the low single-digit billions, tiny next to the trading revenue it helps generate.",
+      flow: "Column 3, public side, legally walled off from the bankers on the private side, for reasons section 02.4 explains."
+    },
+    brokers: {
+      name: "Brokers", group: "Sell-side & advisory",
+      does: "The access layer: platforms and intermediaries that let investors, retail and institutional, reach the market. Retail brokers offer accounts and execution; interdealer brokers connect the big banks to each other.",
+      money: "Commissions, payment for order flow (market makers paying to execute retail trades), net interest on client cash, and margin lending. Free trading is monetized indirectly.",
+      scale: "The largest retail platforms each hold several trillion dollars of client assets.",
+      flow: "Column 3. The retail on-ramp: for most households, a broker is the only node on this map they ever touch directly."
+    },
+    corporates: {
+      name: "Corporates", group: "Users of capital",
+      does: "Established companies that use the system rather than staff it: they borrow to build plants, issue shares to fund growth, buy competitors, and hedge currencies and commodities. The CFO's office is the industry's customer.",
+      money: "They make money selling products, not financial services. To the industry they are revenue: every bond issue, credit line, and acquisition generates fees.",
+      scale: "Listed companies worldwide carry a combined market value of roughly $110T.",
+      flow: "Column 4. The destination for most of the capital on the map, and the source of the returns that flow back."
+    },
+    startups: {
+      name: "Startups", group: "Users of capital",
+      does: "Young companies burning cash to find a scalable business. They raise equity in stages (seed, Series A, B, C) because they cannot borrow meaningfully: no profits, no collateral, just a story and a growth rate.",
+      money: "They consume capital rather than supply it, and they pay for it with ownership. Founders' stakes shrink each round in exchange for fuel.",
+      scale: "Venture-backed startups absorb roughly $300B of new capital in a typical year.",
+      flow: "Column 4, funded almost entirely by column 2's venture funds, until an IPO or an acquisition hands them to the wider market."
+    },
+    govs: {
+      name: "Governments & munis", group: "Users of capital",
+      does: "The biggest borrowers on Earth. National treasuries issue bonds to fund deficits; states, cities, and agencies issue municipal bonds for roads, schools, and stadiums. Government debt is the market's benchmark risk-free asset, the yardstick everything else is priced against.",
+      money: "Governments pay interest funded by taxes. Underwriters, dealers, and rating agencies all clip fees on the way through.",
+      scale: "The US Treasury market alone is roughly $28T; munis add about $4T.",
+      flow: "Column 4, and also the referee: the same government that borrows from the market regulates it."
+    },
+    exchanges: {
+      name: "Exchanges", group: "Infrastructure",
+      does: "The venues where buyers meet sellers: NYSE, Nasdaq, CME, and their global peers. They run the matching engines, set listing standards, and publish the prices everyone else quotes.",
+      money: "Listing fees from companies, transaction fees per trade, and increasingly, selling market data back to the industry at premium prices.",
+      scale: "US equities alone trade hundreds of billions of dollars of volume on a typical day.",
+      flow: "Infrastructure row. Every public-market arrow above passes through here."
+    },
+    clearing: {
+      name: "Clearing & custody", group: "Infrastructure",
+      does: "The plumbing. Clearinghouses stand between buyer and seller after every trade, guaranteeing both sides settle (T+1 in US equities). Custodians safekeep assets, collect dividends, and run the record keeping for institutions.",
+      money: "Tiny fees on enormous volumes: a few basis points or less for custody, per-contract fees for clearing. Boring, low-margin, utterly systemic.",
+      scale: "The largest custodians each safekeep roughly $40T-50T of client assets.",
+      flow: "Infrastructure row. Invisible when it works; a global emergency when it does not."
+    },
+    data: {
+      name: "Data & indices", group: "Infrastructure",
+      does: "The information layer: market data terminals, index providers (S&P, MSCI, FTSE), and financial databases. Indices decide what counts as the market; when an index adds a stock, trillions of passive dollars must buy it.",
+      money: "Subscriptions and licensing. A single Bloomberg terminal runs roughly $30K a year; index providers charge funds basis points for the right to track their benchmarks.",
+      scale: "Roughly 350K desks pay for a terminal; index licensing generates billions a year.",
+      flow: "Infrastructure row. Quiet kingmakers: index inclusion moves more money than most analyst calls."
+    },
+    ratings: {
+      name: "Rating agencies", group: "Infrastructure",
+      does: "Moody's, S&P, and Fitch grade the creditworthiness of borrowers and bonds, from AAA down to default. Many institutions may only hold investment grade paper, so a rating decides who can buy a bond and what the issuer pays.",
+      money: "The issuer pays for its own rating, typically a few basis points of the deal. That conflict of interest was at the heart of 2008, when highly rated mortgage securities defaulted en masse.",
+      scale: "The 2 largest agencies each book roughly $6B-7B a year in revenue.",
+      flow: "Infrastructure row. Gatekeepers of the bond market: 3 firms, one oligopoly, every borrower's cost of capital."
+    },
+    regulators: {
+      name: "Regulators", group: "Infrastructure",
+      does: "The referees: the SEC (securities markets), the Federal Reserve (banks), FINRA (brokers), and their global counterparts. They write the rules, license the players, and prosecute the cheats.",
+      money: "Funded by government budgets and industry fees; they charge the market for policing it.",
+      scale: "The SEC polices US markets, over $100T of securities, on a budget of roughly $2.5B.",
+      flow: "Infrastructure row. Every fee, wall, and disclosure on this map exists in the shape regulation carved for it."
+    }
+  };
+
+  var panel = document.getElementById("vc-detail");
+  var nodeBtns = Array.prototype.slice.call(document.querySelectorAll("#tool-map .vc-node"));
+
+  function detailBlock(label, text) {
+    var w = Atlas.el("div", {});
+    w.appendChild(Atlas.el("div", { class: "vc-dt", text: label }));
+    w.appendChild(Atlas.el("div", { class: "vc-dd", text: text }));
+    return w;
+  }
+  function selectNode(id) {
+    var d = MAP[id];
+    if (!d || !panel) return;
+    nodeBtns.forEach(function (b) {
+      var on = b.getAttribute("data-node") === id;
+      b.classList.toggle("active", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    panel.innerHTML = "";
+    var head = Atlas.el("div", { class: "vc-detail-head" });
+    head.appendChild(Atlas.el("h4", { text: d.name }));
+    head.appendChild(Atlas.el("span", { class: "vc-tag", text: d.group }));
+    panel.appendChild(head);
+    panel.appendChild(Atlas.el("div", { class: "vc-detail-grid" }, [
+      detailBlock("What they do", d.does),
+      detailBlock("How they make money", d.money),
+      detailBlock("Scale cue", d.scale),
+      detailBlock("Where they sit in the flow", d.flow)
+    ]));
+  }
+  nodeBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () { selectNode(btn.getAttribute("data-node")); });
+  });
+  selectNode("households");
+
+  /* ================================================== advisory fee scale */
+  /* Anchor points: [log10(deal size in $M), typical fee %], interpolated
+     linearly in log space. Illustrative midpoints of commonly quoted ranges. */
+  var FEE_ANCHORS = [[1, 4.0], [1.7, 2.6], [2, 2.0], [2.7, 1.2], [3, 0.9], [3.7, 0.5], [4, 0.35]];
+
+  function snapSize(v) {           /* slider value -> rounded deal size in $M */
+    var lv = Math.min(4, Math.max(1, v));
+    var raw = Math.pow(10, lv);
+    if (raw >= 1000) return Math.round(raw / 100) * 100;
+    if (raw >= 100) return Math.round(raw / 10) * 10;
+    return Math.round(raw);
+  }
+  function feePct(sizeM) {         /* deal size in $M -> typical fee % */
+    var lv = Math.min(4, Math.max(1, Math.log10(sizeM)));
+    var a = FEE_ANCHORS[0], b = FEE_ANCHORS[FEE_ANCHORS.length - 1];
+    if (lv <= a[0]) return a[1];
+    if (lv >= b[0]) return b[1];
+    for (var i = 1; i < FEE_ANCHORS.length; i++) {
+      if (lv <= FEE_ANCHORS[i][0]) {
+        var p = FEE_ANCHORS[i - 1], q = FEE_ANCHORS[i];
+        var t = (lv - p[0]) / (q[0] - p[0]);
+        return p[1] + t * (q[1] - p[1]);
+      }
+    }
+    return b[1];
+  }
+  function fmtFeeM(fm) {           /* fee in $M -> readable string */
+    if (!isFinite(fm) || fm <= 0) return "$0";
+    if (fm >= 100) return Atlas.fmt.moneyM(fm, 0);
+    if (fm >= 1) return Atlas.fmt.moneyM(fm, 1);
+    return "$" + Math.round(fm * 1000) + "K";
+  }
+
+  var feeSize = Atlas.bind("fee-size", function (v) { return Atlas.fmt.moneyM(snapSize(v)); });
+  Atlas.onInput(["fee-size"], function () {
+    var size = snapSize(feeSize.value);
+    var pct = feePct(size);
+    var fee = size * pct / 100;
+    var rule;
+    if (size < 50) rule = "Main Street brokers";
+    else if (size < 500) rule = "Midmarket boutiques";
+    else if (size < 5000) rule = "Bulge bracket territory";
+    else rule = "Trophy mandate";
+    document.getElementById("fee-pct").textContent = Atlas.fmt.pct(pct, pct < 1 ? 2 : 1);
+    document.getElementById("fee-usd").textContent = fmtFeeM(fee);
+    document.getElementById("fee-rule").textContent = rule;
+    document.getElementById("fee-note").textContent =
+      "On a " + Atlas.fmt.moneyM(size) + " deal, a " + Atlas.fmt.pct(pct, pct < 1 ? 2 : 1) +
+      " success fee comes to about " + fmtFeeM(fee) +
+      ", nearly all of it contingent on the deal actually closing. The percentage falls as deals grow; the dollars never do.";
+  });
+
+  /* ================================================== quiz */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "A portfolio manager at a mutual fund is on which side of the industry?",
+      choices: [
+        "The sell-side, because the fund sells its shares to investors",
+        "The buy-side, because the fund invests pooled client capital",
+        "Neither: funds are market infrastructure",
+        "Both sides at once, like a universal bank"
+      ],
+      answer: 1,
+      explain: "Buy-side firms invest money on behalf of asset owners; buying securities with pooled client capital is the definition, even though the fund also markets its own shares."
+    },
+    {
+      q: "An asset manager charges 75 bps on $200M of AUM. What is the annual management fee?",
+      choices: ["$150K", "$750K", "$1.5M", "$15M"],
+      answer: 2,
+      explain: "75 bps is 0.75% (100 bps = 1%), and 0.75% of $200M is $1.5M."
+    },
+    {
+      q: "In a typical sell-side M&A mandate, who pays the bank's success fee, and when?",
+      choices: [
+        "The buyer, when the deal signs",
+        "Both sides split it at signing",
+        "The target's employees, via retention pools",
+        "The seller, out of proceeds at closing"
+      ],
+      answer: 3,
+      explain: "The sell-side advisor works for the seller and is paid from the sale proceeds at close, which is why the fee is called contingent."
+    },
+    {
+      q: "A $200M small-cap IPO prices with the classic 7% gross spread. Roughly what does the underwriting syndicate earn?",
+      choices: ["$1.4M", "$7M", "$14M", "$40M"],
+      answer: 2,
+      explain: "7% of $200M is $14M, split among the syndicate banks by role; mega IPOs negotiate that rate down to 2-3%."
+    },
+    {
+      q: "What does the Chinese wall inside an investment bank separate?",
+      choices: [
+        "Bankers holding nonpublic deal information from public-side traders and analysts",
+        "Equities traders from bond traders",
+        "The bank's domestic offices from its foreign offices",
+        "Junior analysts from managing directors"
+      ],
+      answer: 0,
+      explain: "IBD routinely holds material nonpublic information, and the wall (plus compliance surveillance) keeps it away from people who trade or publish on public markets."
+    },
+    {
+      q: "A hedge fund runs $1B on classic 2-and-20 terms and returns 12% gross this year. Ignoring hurdles and netting, total fees are roughly:",
+      choices: ["$20M", "$24M", "$64M", "$44M"],
+      answer: 3,
+      explain: "2% management on $1B is $20M, plus 20% of the $120M gain is $24M, for about $44M in total."
+    },
+    {
+      q: "A bank earns 6.5% on its $10B loan book and pays 2.5% on the deposits funding it. Its annual net interest income is roughly:",
+      choices: ["$250M", "$400M", "$650M", "$900M"],
+      answer: 1,
+      explain: "The net interest margin is 6.5% minus 2.5%, or 4.0%, and 4% of $10B is $400M."
+    },
+    {
+      q: "Who pays Moody's or S&P for the credit rating on a new corporate bond?",
+      choices: [
+        "The investors who rely on the rating",
+        "The exchange where the bond trades",
+        "The issuer selling the bond",
+        "The SEC, out of filing fees"
+      ],
+      answer: 2,
+      explain: "Ratings run on an issuer-pays model, a built-in conflict of interest that became infamous when highly rated mortgage bonds defaulted in 2008."
+    },
+    {
+      q: "Trace any arrow of capital on the industry map back far enough and it starts with:",
+      choices: [
+        "Central banks printing money",
+        "Household savings",
+        "Corporate treasuries",
+        "Sovereign wealth funds"
+      ],
+      answer: 1,
+      explain: "Pensions, funds, insurers, and endowments are all pooling household wealth; households are the ultimate principal, and every fee ultimately comes out of a household return."
+    },
+    {
+      q: "In this module's $500M acquisition walkthrough, total deal fees and friction came to roughly what share of the purchase price?",
+      choices: ["About 5%", "About 0.5%", "About 2%", "About 12%"],
+      answer: 0,
+      explain: "Advisors, lenders, lawyers, accountants, consultants, insurance, and filings added up to about $25M, which is 5% of the $500M price."
+    }
+  ]);
+});
+</script>
+</body>
+</html>

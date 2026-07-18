@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en" data-module="buy-side" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asset Management &amp; Hedge Funds · Capital Atlas</title>
+<meta name="description" content="Who owns the market: mutual funds, ETFs, pensions, endowments, sovereign wealth funds, and hedge fund strategies, with a live fee drag visualizer.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .bs-btnrow { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 14px; }
+  .bs-btnrow button { font: inherit; font-size: 0.78rem; font-weight: 600; padding: 5px 12px;
+    border-radius: 999px; border: 1px solid var(--hairline); background: var(--surface-1);
+    color: var(--ink-2); cursor: pointer; }
+  .bs-btnrow button:hover { border-color: var(--brand); color: var(--ink); }
+  .bs-btnrow button.active { background: var(--brand); border-color: var(--brand); color: #fff; }
+  .bs-sketch { max-width: 440px; margin: 16px auto 6px; }
+  .bs-preset-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.07em;
+    text-transform: uppercase; color: var(--ink-3); margin: 18px 0 6px; }
+  .bs-fee-note { font-size: 0.8rem; color: var(--ink-3); margin: 4px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <header class="module-hero">
+    <span class="kicker">Module 07 · Core</span>
+    <h1>Asset Management &amp; Hedge Funds</h1>
+    <p class="hero-tagline">Wall Street's noisiest players are not its biggest. Meet the institutions that actually own the market, the fees they charge, and the quiet arithmetic that decides who keeps the returns.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ==================== 07.1 ==================== -->
+  <section class="lesson" id="who-owns-the-market">
+    <h2><span class="sec-num">07.1</span> Who owns the market</h2>
+    <p class="lede">Turn on financial television and you will see traders. But trading is not owning. The true owners of the world's stocks and bonds are pension funds, mutual funds, ETFs, insurers, and sovereign funds, running other people's money at a scale no individual can approach. This section maps who they are, and how the map got redrawn over 70 years.</p>
+
+    <p>In the 1950s, the US stock market belonged to households. By most estimates, individuals held over 90% of US equities directly, in their own names, one certificate at a time. A broker called you about a stock, you bought 100 shares, and you were the shareholder of record. That world is gone. Today direct household holdings are well under half of the market, and the majority of equity is held by institutions: pooled vehicles investing on behalf of millions of underlying savers.</p>
+
+    <p>Three forces drove the shift. First, retirement saving was institutionalized: pension plans and later 401(k) accounts channeled a generation of paychecks into professionally managed pools. Second, pooled funds solved two problems the individual investor could not: diversification at low cost and access to professional management. Third, scale fed on itself. Bigger pools negotiated lower trading costs and lower fees, which attracted more assets, which lowered costs again.</p>
+
+    <p>A definition worth locking in now: the <strong>buy side</strong> is everyone whose job is to invest capital (asset managers, hedge funds, pensions, endowments, sovereign funds). The <strong>sell side</strong> (investment banks, brokers, dealers) exists to serve them: raising capital, executing trades, providing research and advice. Modules 02 and 05 covered the sell side's business. This module is about its clients.</p>
+
+    <div class="figure">
+      <p class="figure-title">Who owns the world's investable assets</p>
+      <p class="figure-sub">Illustrative global assets under management by owner type, $ trillions. Treat as scale, not census: categories overlap, and estimates vary widely by source.</p>
+      <svg viewBox="0 0 720 252" role="img" aria-label="Horizontal bar chart of illustrative global assets under management: mutual funds and ETFs about 75 trillion dollars, pension funds 55, insurance 35, sovereign wealth funds 13, private equity 9, hedge funds 5.">
+        <line class="gridline" x1="337" y1="14" x2="337" y2="218"></line>
+        <line class="gridline" x1="493" y1="14" x2="493" y2="218"></line>
+        <line class="gridline" x1="650" y1="14" x2="650" y2="218"></line>
+        <line class="axis" x1="180" y1="14" x2="180" y2="218"></line>
+
+        <rect x="180" y="22" width="470" height="22" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="180" y="22" width="6" height="22" fill="var(--viz-1)"></rect>
+        <text x="172" y="37" text-anchor="end" class="lbl" font-size="12.5">Mutual funds &amp; ETFs</text>
+        <text x="658" y="37" font-size="12" font-weight="600">$75T</text>
+
+        <rect x="180" y="56" width="345" height="22" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="180" y="56" width="6" height="22" fill="var(--viz-1)"></rect>
+        <text x="172" y="71" text-anchor="end" class="lbl" font-size="12.5">Pension funds</text>
+        <text x="533" y="71" font-size="12" font-weight="600">$55T</text>
+
+        <rect x="180" y="90" width="219" height="22" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="180" y="90" width="6" height="22" fill="var(--viz-1)"></rect>
+        <text x="172" y="105" text-anchor="end" class="lbl" font-size="12.5">Insurance</text>
+        <text x="407" y="105" font-size="12" font-weight="600">$35T</text>
+
+        <rect x="180" y="124" width="81" height="22" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="180" y="124" width="6" height="22" fill="var(--viz-1)"></rect>
+        <text x="172" y="139" text-anchor="end" class="lbl" font-size="12.5">Sovereign wealth funds</text>
+        <text x="269" y="139" font-size="12" font-weight="600">$13T</text>
+
+        <rect x="180" y="158" width="56" height="22" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="180" y="158" width="6" height="22" fill="var(--viz-1)"></rect>
+        <text x="172" y="173" text-anchor="end" class="lbl" font-size="12.5">Private equity</text>
+        <text x="244" y="173" font-size="12" font-weight="600">$9T</text>
+
+        <rect x="180" y="192" width="31" height="22" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="180" y="192" width="6" height="22" fill="var(--viz-1)"></rect>
+        <text x="172" y="207" text-anchor="end" class="lbl" font-size="12.5">Hedge funds</text>
+        <text x="219" y="207" font-size="12" font-weight="600">$5T</text>
+
+        <text x="180" y="238" text-anchor="middle" class="lbl-muted">0</text>
+        <text x="337" y="238" text-anchor="middle" class="lbl-muted">$25T</text>
+        <text x="493" y="238" text-anchor="middle" class="lbl-muted">$50T</text>
+        <text x="650" y="238" text-anchor="middle" class="lbl-muted">$75T</text>
+      </svg>
+      <p class="figure-note">All figures illustrative. The categories double count: a pension plan's money often sits inside mutual funds, and sovereign funds invest through private equity. The point is the pecking order, not the totals.</p>
+    </div>
+
+    <p>Two things in that chart should surprise you. Hedge funds, the most talked-about pool in finance, are the smallest bar. Their influence comes from turnover and leverage, not size: they trade constantly and aggressively, so they set prices at the margin far more than their assets suggest. Private equity is also a small bar, but it owns companies outright rather than fractional shares, so its control per dollar is unmatched. Meanwhile the giants at the top of the chart (funds, pensions, insurers) mostly hold diversified portfolios and trade little.</p>
+
+    <p>The organizing idea for this whole module: <strong>follow the liabilities</strong>. Every pool of capital invests the way its obligations demand. A pension owes retirees monthly checks for decades, so it can hold illiquid assets. An insurer owes claims that arrive unpredictably, so it holds bonds it can sell or match. Once you know what a pool of money has promised, you can usually guess its portfolio.</p>
+  </section>
+
+  <!-- ==================== 07.2 ==================== -->
+  <section class="lesson" id="asset-managers">
+    <h2><span class="sec-num">07.2</span> Asset managers: mutual funds, ETFs, and the index revolution</h2>
+    <p class="lede">An asset manager runs other people's money for a fee and never owns the assets it manages. Its product is a wrapper called a fund, and the two wrappers that conquered the world are the mutual fund and the ETF. The fee war between active and passive management inside those wrappers is the defining industry story of the last 30 years.</p>
+
+    <p>The business model is beautifully simple: revenue equals assets under management (AUM) times the fee rate. Costs are mostly people and technology, and they grow far slower than assets do. A firm managing $10B at a 0.5% fee earns $50M a year; double the AUM and revenue doubles while costs barely move. This is why asset gathering, not investment brilliance, is the commercial heart of the industry, and why distribution (getting your fund onto retirement menus and advisor platforms) matters as much as performance.</p>
+
+    <h3>The mutual fund</h3>
+    <p>An open-end <strong>mutual fund</strong> pools investor cash and issues shares priced once per day at <strong>net asset value (NAV)</strong>: total assets minus liabilities, divided by shares outstanding. You buy and redeem directly with the fund itself, always at that day's closing NAV. The structure is simple and battle-tested, but it has quirks: the manager must hold some cash to meet redemptions (a drag on returns), and when the fund sells winners to pay departing investors, remaining shareholders can receive taxable capital gains distributions they never asked for.</p>
+
+    <h3>The ETF</h3>
+    <p>An <strong>exchange-traded fund (ETF)</strong> holds a portfolio just like a mutual fund but trades on an exchange all day like a stock. Its market price is set by supply and demand, not by the fund. What stops the price from drifting away from the value of the holdings is a mechanism most investors never see, and it is worth 3 minutes to understand properly.</p>
+
+    <details class="accordion">
+      <summary>How ETF creation and redemption actually works</summary>
+      <div class="acc-body">
+        <p>ETFs do not sell shares to the public. They deal only with <strong>authorized participants (APs)</strong>, large trading firms with a standing agreement with the fund. The loop works like this:</p>
+        <ol>
+          <li><strong>Creation.</strong> When an ETF trades above the value of its holdings (its NAV), an AP buys the underlying basket of stocks in the market, delivers it to the fund <em>in kind</em>, and receives newly created ETF shares in return. The AP sells those shares at the rich price and pockets the difference.</li>
+          <li><strong>Redemption.</strong> When the ETF trades below NAV, the AP does the reverse: buys cheap ETF shares, hands them to the fund, and receives the basket of underlying stocks, which it sells at full value.</li>
+          <li><strong>The result.</strong> This arbitrage is riskless enough that APs compete to do it instantly, which pins the ETF's price to its NAV within pennies for liquid funds. Nobody does it out of civic duty; the profit motive is the glue.</li>
+        </ol>
+        <p>The in-kind exchange has a famous side effect in the US: because the fund hands out securities rather than selling them, it rarely realizes taxable gains internally. That is the main reason ETFs are more tax-efficient than otherwise identical mutual funds, and a large part of why flows have migrated to the wrapper.</p>
+      </div>
+    </details>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th></th><th>Mutual fund</th><th>ETF</th></tr></thead>
+        <tbody>
+          <tr><td>How you buy</td><td>Directly from the fund</td><td>On an exchange, from another investor</td></tr>
+          <tr><td>Pricing</td><td>Once daily, at NAV</td><td>Continuously, at market price near NAV</td></tr>
+          <tr><td>Minimums</td><td>Often $1,000 to $3,000</td><td>One share</td></tr>
+          <tr><td>Tax efficiency (US)</td><td>Can distribute capital gains</td><td>In-kind mechanism defers most gains</td></tr>
+          <tr><td>Cash drag</td><td>Holds cash for redemptions</td><td>Essentially fully invested</td></tr>
+          <tr><td>Natural home</td><td>401(k) menus, active strategies</td><td>Index exposure, brokerage accounts, trading</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Active vs passive, and the revolution</h3>
+    <p><strong>Active management</strong> tries to beat a benchmark by picking securities or timing markets. <strong>Passive management</strong> tries to <em>be</em> the benchmark: hold every stock in an index at market weights, trade almost never, and charge almost nothing. The case for passive rests on an arithmetic fact, not an opinion: all investors together hold the market, so the average actively managed dollar earns the market return before fees, and less than the market return after fees. Skilled managers exist, but for every winner there must be a loser on the other side of the trade, and both pay their managers.</p>
+
+    <p>Investors took decades to accept this, then moved all at once.</p>
+
+    <div class="figure">
+      <p class="figure-title">The index revolution</p>
+      <p class="figure-sub">Illustrative share of US equity fund assets held in index funds and index ETFs.</p>
+      <svg viewBox="0 0 720 264" role="img" aria-label="Line chart showing the passive share of US equity fund assets rising from about 4% in 1995 to roughly 55% by 2025, crossing 50% in the early 2020s.">
+        <line class="gridline" x1="60" y1="230" x2="690" y2="230"></line>
+        <line class="gridline" x1="60" y1="160" x2="690" y2="160"></line>
+        <line class="gridline" x1="60" y1="90" x2="690" y2="90"></line>
+        <line class="gridline" x1="60" y1="20" x2="690" y2="20"></line>
+        <text x="50" y="234" text-anchor="end" class="lbl-muted">0%</text>
+        <text x="50" y="164" text-anchor="end" class="lbl-muted">20%</text>
+        <text x="50" y="94" text-anchor="end" class="lbl-muted">40%</text>
+        <text x="50" y="24" text-anchor="end" class="lbl-muted">60%</text>
+        <text x="60" y="252" text-anchor="middle" class="lbl-muted">1995</text>
+        <text x="270" y="252" text-anchor="middle" class="lbl-muted">2005</text>
+        <text x="480" y="252" text-anchor="middle" class="lbl-muted">2015</text>
+        <text x="690" y="252" text-anchor="middle" class="lbl-muted">2025</text>
+        <path d="M60 216 L165 191.5 L270 174 L375 146 L480 111 L585 62 L690 37.5"
+              fill="none" stroke="var(--viz-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle cx="615" cy="55" r="4" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+        <text x="600" y="48" text-anchor="end" class="lbl-muted">crosses 50%, early 2020s</text>
+        <circle cx="690" cy="37.5" r="4.5" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+        <text x="686" y="26" text-anchor="end" font-size="12" font-weight="600">≈55%</text>
+      </svg>
+      <p class="figure-note">Illustrative, drawn from the broad industry trend: the passive share of US equity fund assets crossed 50% in the early 2020s. Definitions and exact figures vary by source.</p>
+    </div>
+
+    <p>The flip side of the passive flood is <strong>fee compression</strong>. Index funds compete on a single number, the expense ratio, and that number has been ground toward zero. Active managers, forced to justify their premium against a 0.03% alternative, have cut fees for two decades and still lost share. Some firms now offer 0% expense ratio index funds as loss leaders, earning their money on adjacent services instead.</p>
+
+    <div class="stat-row">
+      <div class="stat-tile"><div class="stat-label">Average active equity fund fee, 2000</div><div class="stat-value">≈1.0%</div></div>
+      <div class="stat-tile"><div class="stat-label">Average active equity fund fee, today</div><div class="stat-value">≈0.6%</div><div class="stat-delta down">asset-weighted, still falling</div></div>
+      <div class="stat-tile"><div class="stat-label">Broad index funds today</div><div class="stat-value">0.03% to 0.10%</div></div>
+    </div>
+    <p class="small muted">Approximate asset-weighted US averages, for scale only.</p>
+
+    <div class="callout-case">
+      <p>In 1976 John Bogle launched the First Index Investment Trust, the first index mutual fund available to the public. Underwriters hoped to raise roughly $150M; the offering brought in about $11M, and competitors mocked it as "Bogle's folly." The fund, which became the Vanguard 500 Index Fund, proved the arithmetic over time: matching the market at near-zero cost beats most managers who try to beat it. Vanguard's unusual mutual ownership structure (the funds' shareholders effectively own the management company) let it keep cutting fees as it grew, and by the mid-2020s the firm managed roughly $10T. The product nobody wanted in 1976 became the default way Americans own stocks.</p>
+    </div>
+  </section>
+
+  <!-- ==================== 07.3 ==================== -->
+  <section class="lesson" id="the-allocators">
+    <h2><span class="sec-num">07.3</span> The allocators: pensions, endowments, sovereign funds, insurers</h2>
+    <p class="lede">Above the asset managers sit the allocators: the institutions that actually own the capital and hire managers to run it. Asset managers compete for their mandates the way contractors bid for buildings. To understand an allocator, start with its liabilities, because a portfolio is always shaped by the promises it has to keep.</p>
+
+    <h3>Pensions: two very different animals</h3>
+    <div class="grid-2">
+      <div class="card card-accent">
+        <h4>Defined benefit (DB)</h4>
+        <p class="small">The employer promises a specific retirement check ("60% of final salary for life") and must invest to fund it. The <strong>plan</strong> bears the investment risk: if returns fall short, the sponsor tops up the gap. DB plans obsess over <strong>funded status</strong> (assets divided by the present value of promised benefits) and increasingly practice <strong>liability-driven investing (LDI)</strong>: holding long-dated bonds that move with the value of the liabilities, so the gap stays stable even when markets swing.</p>
+      </div>
+      <div class="card card-accent">
+        <h4>Defined contribution (DC)</h4>
+        <p class="small">The employer promises only a contribution ("we match 4% of salary"), and the <strong>employee</strong> bears the investment risk in an individual account, the 401(k) being the classic example. The plan sponsor's job shrinks to picking the fund menu and the default option. That default, usually a <strong>target-date fund</strong> that automatically de-risks as retirement approaches, quietly became one of the largest pools of equity demand in the world.</p>
+      </div>
+    </div>
+    <p>The great pension story of the last 40 years is the migration from DB to DC in the private sector: risk moved from corporate balance sheets onto household ones, one plan freeze at a time. Public-sector plans remain mostly DB, which is why state pension funding debates never leave the news.</p>
+
+    <h3>Endowments and the Yale model</h3>
+    <p>University <strong>endowments</strong> and foundations are perpetual pools: they exist forever, spend roughly 5% of assets a year, and answer to no depositor who can demand cash tomorrow. That makes them the purest long-horizon investors in the system, and one of them rewrote the playbook.</p>
+
+    <div class="callout-case">
+      <p>When David Swensen took over Yale's endowment in 1985, it held roughly $1B in a conventional stock and bond mix. He rebuilt it around one insight: a perpetual institution needs no daily liquidity, so it should harvest the extra return that illiquid assets pay. Yale shifted heavily into private equity, venture capital, real assets, and absolute return strategies, keeping only a sliver in US public equities, and compounded at roughly 13% a year for decades; the endowment reached roughly $40B by 2021. The approach became famous as the Yale model and was copied by institutions everywhere. The copycats learned a hard lesson in 2008: the model demands iron liquidity planning, because private funds keep calling committed capital even when public markets freeze and donations dry up.</p>
+    </div>
+
+    <h3>Sovereign wealth funds</h3>
+    <p>A <strong>sovereign wealth fund (SWF)</strong> is a state-owned investment pool, typically built from commodity revenue or accumulated foreign exchange reserves. Some are stabilization funds, parking money to smooth government budgets through oil price swings; others are savings funds converting a finite resource into a permanent income stream for future generations. Norway's oil fund alone owns a small slice of nearly every listed company on earth, and Gulf and Asian funds have become some of the most important checks in private markets. Their horizon is generational, their liabilities political rather than contractual.</p>
+
+    <h3>Insurance general accounts</h3>
+    <p>Insurers collect premiums today and pay claims later, investing the <strong>float</strong> in between. The <strong>general account</strong> (the insurer's own balance sheet portfolio) is dominated by investment-grade bonds chosen to match the timing of expected claims, because regulation charges insurers more capital for holding risky assets. Life insurers, whose liabilities stretch decades, are the natural buyers of the longest corporate bonds and, increasingly, of private credit. It is unglamorous and enormous.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Allocator</th><th>Money comes from</th><th>The promise to keep</th><th>Horizon</th><th>Typical posture</th></tr></thead>
+        <tbody>
+          <tr><td>DB pension</td><td>Employer contributions</td><td>Lifetime benefit checks</td><td>Decades</td><td>Balanced, shifting toward liability matching</td></tr>
+          <tr><td>DC plan (401(k))</td><td>Employee paychecks</td><td>None; employee bears risk</td><td>Per participant</td><td>Fund menus, target-date defaults</td></tr>
+          <tr><td>Endowment</td><td>Donations, returns</td><td>≈5% annual spending, forever</td><td>Perpetual</td><td>Heavy alternatives, illiquidity premium</td></tr>
+          <tr><td>Sovereign wealth fund</td><td>Commodity or FX revenue</td><td>Political mandate</td><td>Generational</td><td>Global, diversified, large private stakes</td></tr>
+          <tr><td>Insurance general account</td><td>Policy premiums</td><td>Claims, on demand</td><td>Matched to claims</td><td>Investment-grade bonds, credit</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Mandates, the IPS, and the gatekeepers</h3>
+    <p>When an allocator hires a manager, it awards a <strong>mandate</strong>: a contractual assignment to run a specific pool in a specific style ("$200M in US small-cap value against the Russell 2000 Value index, tracking error under 5%"). The rules of the whole portfolio live in the <strong>investment policy statement (IPS)</strong>: a board-approved document stating objectives, risk tolerance, allowed asset classes, target allocation and ranges, benchmarks, and spending or liquidity rules. The IPS is the constitution; committees and managers operate inside it.</p>
+    <p>Between allocators and managers stand the <strong>investment consultants</strong>, hired by boards to recommend allocations and maintain approved manager lists. A small number of consulting firms advise on trillions of dollars, which makes them the industry's quiet gatekeepers: an asset manager who cannot get rated by the big consultants is invisible to much of the pension world. Critics note the incentive problem: consultants are rarely fired for recommending famous names, so safe, conventional advice dominates. Keep that thought; it returns in section 07.6.</p>
+  </section>
+
+  <!-- ==================== 07.4 ==================== -->
+  <section class="lesson" id="hedge-funds">
+    <h2><span class="sec-num">07.4</span> Hedge funds: freedom, leverage, and 2 and 20</h2>
+    <p class="lede">A hedge fund is defined not by what it trades but by what it is allowed to do. Strip away the mystique and you find a lightly regulated private fund with the freedom to short, to lever, to concentrate, and to charge performance fees. Some hedge. Many do not. The name survives mostly as a legal and fee structure.</p>
+
+    <div class="grid-2">
+      <div class="card"><h4>Mandate freedom</h4><p class="small">A mutual fund must follow its prospectus: long-only, diversified, fully invested. A hedge fund's private placement documents allow almost anything: any asset class, any concentration, any direction. The manager sells judgment, unconstrained.</p></div>
+      <div class="card"><h4>Shorting and leverage</h4><p class="small">Hedge funds can <strong>short</strong> (borrow a security, sell it, and profit if it falls) and can amplify positions with borrowed money. Both expand the toolkit and both cut in reverse: a short position's loss is theoretically unlimited, and leverage turns small errors into fatal ones.</p></div>
+      <div class="card"><h4>The fee model</h4><p class="small">The classic terms are <strong>2 and 20</strong>: a 2% annual management fee on assets plus 20% of profits. A <strong>high-water mark</strong> means performance fees apply only to gains above the fund's previous peak, so investors do not pay twice for the same recovery. Some funds add a <strong>hurdle rate</strong>: no performance fee until returns clear a stated minimum.</p></div>
+      <div class="card"><h4>Structure and liquidity</h4><p class="small">Legally, a hedge fund is a private partnership: investors are limited partners, the manager the general partner. Only institutions and wealthy (accredited or qualified) investors may buy in. Capital is sticky by design: <strong>lockups</strong> bar withdrawals for a period, and <strong>gates</strong> can slow redemptions in a crisis.</p></div>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat-tile"><div class="stat-label">Global hedge fund assets</div><div class="stat-value">≈$5T</div></div>
+      <div class="stat-tile"><div class="stat-label">Classic fee model</div><div class="stat-value">2 and 20</div><div class="stat-delta down">averages have drifted lower</div></div>
+      <div class="stat-tile"><div class="stat-label">First long/short fund</div><div class="stat-value">1949</div></div>
+    </div>
+    <p class="small muted">Figures approximate and illustrative.</p>
+
+    <p>Two exposure numbers describe any long/short book. Add the long and short positions and you get <strong>gross exposure</strong>, a measure of how much total risk and leverage the fund is running. Subtract them and you get <strong>net exposure</strong>, a measure of how much the fund still cares which way the market goes.</p>
+
+    <div class="formula">Gross exposure = Long + Short&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Net exposure = Long - Short</div>
+
+    <div class="callout-example">
+      <p><strong>The hedge in hedge fund.</strong> Meridian Ridge Capital runs a market-neutral book: long $100 of Alpine Organics, a well-run grocer taking market share, and short $100 of Basin Retail, a leveraged chain losing customers. Assume Alpine always performs 4 points better than the market and Basin 4 points worse. Pick a market scenario and watch what nets out.</p>
+      <div class="bs-btnrow" id="bs-ls-scen">
+        <button type="button" data-mkt="-20" class="active">Market falls 20%</button>
+        <button type="button" data-mkt="0">Market flat</button>
+        <button type="button" data-mkt="20">Market rises 20%</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Position</th><th class="num">Size</th><th class="num">Stock return</th><th class="num">P&amp;L</th><th class="num">Market piece</th><th class="num">Selection piece</th></tr></thead>
+          <tbody>
+            <tr><td>Long Alpine Organics</td><td class="num">$100</td><td class="num" id="ls-r-a">(16%)</td><td class="num" id="ls-p-a">($16)</td><td class="num" id="ls-m-a">($20)</td><td class="num">+$4</td></tr>
+            <tr><td>Short Basin Retail</td><td class="num">$100</td><td class="num" id="ls-r-b">(24%)</td><td class="num" id="ls-p-b">$24</td><td class="num" id="ls-m-b">$20</td><td class="num">+$4</td></tr>
+            <tr class="total"><td>Net portfolio</td><td class="num">$0 net, $200 gross</td><td class="num"></td><td class="num" id="ls-p-t">$8</td><td class="num">$0</td><td class="num">+$8</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small" id="bs-ls-note">With the market down 20%, Alpine fell 16% and Basin fell 24%. The short's $24 gain more than covers the long's $16 loss. The $20 market hit on the long leg is exactly offset by a $20 gain on the short leg; only the 8 points of stock selection remain.</p>
+      <p class="small muted">Simplified: real books also pay stock borrow fees, owe dividends on short positions, and rarely net to exactly zero.</p>
+    </div>
+
+    <p>That is the original meaning of "hedged": the market component cancels, leaving only the manager's stock selection. Run the three scenarios and notice the net P&amp;L never changes. The fund gave up the market's upside to buy immunity from its downside, and what it kept is called <strong>alpha</strong>: return that comes from skill rather than market direction.</p>
+
+    <h3>The strategy map</h3>
+    <p>The industry sorts itself into a handful of broad strategy families. The tabs below give you the elevator version of each, with a sketch of what the exposure or payoff looks like.</p>
+
+    <div class="tabs" data-tabs>
+      <div class="tab-list" role="tablist">
+        <button class="tab active" data-tab="ls" type="button">Long/short equity</button>
+        <button class="tab" data-tab="event" type="button">Event-driven</button>
+        <button class="tab" data-tab="macro" type="button">Global macro</button>
+        <button class="tab" data-tab="rv" type="button">Relative value / quant</button>
+        <button class="tab" data-tab="credit" type="button">Credit</button>
+      </div>
+
+      <div class="tab-panel active" data-panel="ls">
+        <p>The original strategy, invented in 1949 when a journalist turned money manager first paired longs against shorts. Buy the stocks you believe in, short the ones you do not, and let the market exposure partially cancel. Most funds run net long (say 100% long against 60% short), keeping some market upside while cushioning drawdowns. The product is stock picking with the market turned down, not off, and returns live or die on the spread between the longs and the shorts.</p>
+        <div class="figure bs-sketch">
+          <svg viewBox="0 0 340 150" role="img" aria-label="Sketch of a long/short book: 100% long, 80% short, 20% net exposure.">
+            <line class="axis" x1="26" y1="78" x2="314" y2="78"></line>
+            <rect x="57" y="36" width="46" height="42" rx="3" fill="var(--viz-1)"></rect>
+            <rect x="57" y="72" width="46" height="6" fill="var(--viz-1)"></rect>
+            <text x="80" y="28" text-anchor="middle" font-size="12" font-weight="600">+100%</text>
+            <text x="80" y="140" text-anchor="middle" class="lbl-muted">Long book</text>
+            <rect x="147" y="78" width="46" height="34" rx="3" fill="var(--viz-1)"></rect>
+            <rect x="147" y="78" width="46" height="6" fill="var(--viz-1)"></rect>
+            <text x="170" y="126" text-anchor="middle" font-size="12" font-weight="600">(80%)</text>
+            <text x="170" y="140" text-anchor="middle" class="lbl-muted">Short book</text>
+            <rect x="237" y="70" width="46" height="8" rx="3" fill="var(--viz-1)"></rect>
+            <rect x="237" y="74" width="46" height="4" fill="var(--viz-1)"></rect>
+            <text x="260" y="62" text-anchor="middle" font-size="12" font-weight="600">+20%</text>
+            <text x="260" y="140" text-anchor="middle" class="lbl-muted">Net exposure</text>
+          </svg>
+          <p class="figure-note">Illustrative book: 100% long and 80% short leaves 20% net market exposure.</p>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="event">
+        <p>Event-driven funds invest around corporate events: mergers, spinoffs, restructurings, bankruptcies. The classic trade is merger arbitrage: after a deal is announced, the target trades slightly below the offer price, and the fund buys the target (shorting the acquirer in a stock deal) to capture the spread if the deal closes. The payoff is lopsided: many small wins when deals close, a rare large loss when one breaks. It behaves like selling insurance on deal completion, which is fine as long as you price the premium honestly.</p>
+        <div class="figure bs-sketch">
+          <svg viewBox="0 0 340 150" role="img" aria-label="Sketch of a merger arbitrage payoff: small gain if the deal closes, large loss if it breaks.">
+            <line class="axis" x1="40" y1="52" x2="300" y2="52"></line>
+            <rect x="87" y="39" width="56" height="13" rx="3" fill="var(--pos)"></rect>
+            <rect x="87" y="47" width="56" height="5" fill="var(--pos)"></rect>
+            <text x="115" y="32" text-anchor="middle" font-size="12" font-weight="600">+6%</text>
+            <text x="115" y="142" text-anchor="middle" class="lbl-muted">Deal closes</text>
+            <rect x="197" y="52" width="56" height="55" rx="3" fill="var(--neg)"></rect>
+            <rect x="197" y="52" width="56" height="5" fill="var(--neg)"></rect>
+            <text x="225" y="122" text-anchor="middle" font-size="12" font-weight="600">(25%)</text>
+            <text x="225" y="142" text-anchor="middle" class="lbl-muted">Deal breaks</text>
+          </svg>
+          <p class="figure-note">Illustrative merger arb outcomes: frequent small spreads earned, occasional large losses.</p>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="macro">
+        <p>Macro funds trade entire markets rather than single securities: interest rates, currencies, commodities, equity indices, usually through liquid futures and forwards. Positions express big-picture views, like betting one central bank will cut rates while another hikes. Leverage is standard because the underlying moves are small; sizing and risk management do the heavy lifting. It is the most freewheeling mandate in the industry, and the most dependent on a few big calls a year being right.</p>
+        <div class="figure bs-sketch">
+          <svg viewBox="0 0 340 150" role="img" aria-label="Sketch of a global macro book with long and short positions across rates, currencies, commodities, and equities.">
+            <line class="axis" x1="24" y1="76" x2="322" y2="76"></line>
+            <rect x="44" y="46" width="44" height="30" rx="3" fill="var(--viz-1)"></rect>
+            <rect x="44" y="70" width="44" height="6" fill="var(--viz-1)"></rect>
+            <text x="66" y="38" text-anchor="middle" font-size="12" font-weight="600">+60%</text>
+            <text x="66" y="140" text-anchor="middle" class="lbl-muted">Rates</text>
+            <rect x="124" y="76" width="44" height="20" rx="3" fill="var(--viz-1)"></rect>
+            <rect x="124" y="76" width="44" height="5" fill="var(--viz-1)"></rect>
+            <text x="146" y="112" text-anchor="middle" font-size="12" font-weight="600">(40%)</text>
+            <text x="146" y="140" text-anchor="middle" class="lbl-muted">FX</text>
+            <rect x="204" y="61" width="44" height="15" rx="3" fill="var(--viz-1)"></rect>
+            <rect x="204" y="71" width="44" height="5" fill="var(--viz-1)"></rect>
+            <text x="226" y="53" text-anchor="middle" font-size="12" font-weight="600">+30%</text>
+            <text x="226" y="140" text-anchor="middle" class="lbl-muted">Cmdties</text>
+            <rect x="278" y="76" width="44" height="10" rx="3" fill="var(--viz-1)"></rect>
+            <rect x="278" y="76" width="44" height="4" fill="var(--viz-1)"></rect>
+            <text x="300" y="102" text-anchor="middle" font-size="12" font-weight="600">(20%)</text>
+            <text x="300" y="140" text-anchor="middle" class="lbl-muted">Equities</text>
+          </svg>
+          <p class="figure-note">Illustrative macro book: directional views expressed long and short across whole markets.</p>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="rv">
+        <p>Relative value funds hunt pairs of securities that should trade in a fixed relationship but have drifted apart: two bond issues from the same government, a convertible bond against its underlying stock. Buy the cheap leg, short the rich leg, and earn the convergence regardless of market direction. The edges are tiny, so funds apply leverage to make them worth owning, which is exactly what made LTCM lethal (see below). Quant funds industrialize the same idea, running thousands of small statistical bets by machine and living on the law of large numbers.</p>
+        <div class="figure bs-sketch">
+          <div class="legend"><span><i style="background:var(--viz-1)"></i>Rich asset</span><span><i style="background:var(--viz-2)"></i>Cheap asset</span></div>
+          <svg viewBox="0 0 340 150" role="img" aria-label="Sketch of two converging price lines: short the rich asset, buy the cheap one, profit as the spread closes.">
+            <line x1="30" y1="44" x2="30" y2="104" stroke="var(--axis)" stroke-width="1"></line>
+            <text x="38" y="30" font-size="11" class="lbl-muted">wide spread: short rich, buy cheap</text>
+            <path d="M36 44 L300 70" fill="none" stroke="var(--viz-1)" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M36 104 L300 78" fill="none" stroke="var(--viz-2)" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="300" cy="70" r="4" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+            <circle cx="300" cy="78" r="4" fill="var(--viz-2)" stroke="var(--surface-1)" stroke-width="2"></circle>
+            <text x="296" y="126" text-anchor="end" font-size="11" class="lbl-muted">spread converges, profit locked in</text>
+          </svg>
+          <p class="figure-note">Illustrative convergence trade. The risk: spreads can widen violently before they close.</p>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="credit">
+        <p>Credit funds trade corporate debt across the quality spectrum, from performing high yield down to distressed and defaulted paper. A distressed investor might buy a bond at 60 cents on the dollar, betting the eventual restructuring pays more than that. Some funds buy enough of the debt to control the bankruptcy process itself, converting bonds into ownership of the reorganized company. Returns hinge on legal outcomes and recovery values more than on the equity market's mood.</p>
+        <div class="figure bs-sketch">
+          <svg viewBox="0 0 340 150" role="img" aria-label="Sketch of a distressed debt trade bought at 60 cents: gain of 30 points if the workout pays 90 cents, loss of 15 points if liquidation recovers 45 cents.">
+            <line class="axis" x1="40" y1="62" x2="300" y2="62"></line>
+            <rect x="87" y="23" width="56" height="39" rx="3" fill="var(--pos)"></rect>
+            <rect x="87" y="57" width="56" height="5" fill="var(--pos)"></rect>
+            <text x="115" y="16" text-anchor="middle" font-size="12" font-weight="600">+30 pts</text>
+            <text x="115" y="142" text-anchor="middle" class="lbl-muted">Workout pays 90c</text>
+            <rect x="197" y="62" width="56" height="20" rx="3" fill="var(--neg)"></rect>
+            <rect x="197" y="62" width="56" height="5" fill="var(--neg)"></rect>
+            <text x="225" y="96" text-anchor="middle" font-size="12" font-weight="600">(15 pts)</text>
+            <text x="225" y="142" text-anchor="middle" class="lbl-muted">Liquidation at 45c</text>
+          </svg>
+          <p class="figure-note">Illustrative: bond bought at 60c on the dollar. The outcome depends on recovery, not the market.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout-case">
+      <p>Long-Term Capital Management, launched in 1994 with two future Nobel laureates on the team, ran relative value trades at roughly 25x leverage on about $4.7B of capital. Its models said the positions were nearly riskless; they were merely usually profitable. When Russia defaulted in August 1998, spreads that had always converged blew apart instead, and LTCM lost roughly $4.4B in a few months. The Federal Reserve corralled 14 banks into a roughly $3.6B recapitalization, not to save the fund but to prevent a fire sale of its positions from cascading through every dealer on the Street. The lesson outlived the fund: leverage converts "eventually right" into "immediately insolvent."</p>
+    </div>
+  </section>
+
+  <!-- ==================== 07.5 ==================== -->
+  <section class="lesson" id="fee-drag">
+    <h2><span class="sec-num">07.5</span> The price of admission: fee drag</h2>
+    <p class="lede">Fees look tiny in any single year and monstrous over a career. A 2% fee does not take 2% of your returns; it takes 2% of your capital every year, earned or not, and the money it removes stops compounding forever. This is the single most consequential piece of arithmetic in the module, so we built a machine for it.</p>
+
+    <p>Recall the two fee types. The <strong>management fee</strong> is charged on assets under management regardless of performance: it pays the rent and the salaries. The <strong>performance fee</strong> takes a share of profits, classically 20%, usually calculated after the management fee and often subject to a hurdle rate or high-water mark. In private equity the same 20% is called carried interest. Stack them and the net return to the investor looks like this:</p>
+
+    <div class="formula">Net annual return = Gross return - Management fee - Perf fee % × max(0, Gross return - Management fee)</div>
+
+    <p>Run the numbers below. Start with the hedge fund preset, then click the index fund preset and watch the gap. The starting pot is $100K in every case; the only thing that changes is who keeps the growth.</p>
+
+    <div class="tool" id="tool-fees">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Fee Drag Visualizer</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="slider-row">
+            <label>Gross annual return <output></output></label>
+            <input type="range" id="fee-gross" min="0" max="15" step="0.5" value="8">
+          </div>
+          <div class="slider-row">
+            <label>Management fee <output></output></label>
+            <input type="range" id="fee-mgmt" min="0" max="3" step="0.05" value="2">
+          </div>
+          <div class="slider-row">
+            <label>Performance fee <output></output></label>
+            <input type="range" id="fee-perf" min="0" max="30" step="1" value="20">
+          </div>
+          <div class="slider-row">
+            <label>Horizon <output></output></label>
+            <input type="range" id="fee-years" min="1" max="30" step="1" value="20">
+          </div>
+          <p class="bs-fee-note">Starting portfolio: $100K, one deposit, no additions.</p>
+          <div class="bs-preset-label">Presets</div>
+          <div class="bs-btnrow" data-role="fee">
+            <button type="button" data-preset="idx">Index fund: 0.05% / 0</button>
+            <button type="button" data-preset="act">Active mutual fund: 0.8% / 0</button>
+            <button type="button" data-preset="hf">Hedge fund: 2 and 20</button>
+          </div>
+        </div>
+        <div class="tool-output">
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">Final wealth, net of fees</div><div class="stat-value" id="fee-kpi-net">$0</div></div>
+            <div class="stat-tile"><div class="stat-label">Final wealth, before fees</div><div class="stat-value" id="fee-kpi-gross">$0</div></div>
+            <div class="stat-tile"><div class="stat-label">Total fees paid</div><div class="stat-value" id="fee-kpi-fees">$0</div></div>
+            <div class="stat-tile"><div class="stat-label">Share of gains kept</div><div class="stat-value" id="fee-kpi-kept">0%</div></div>
+          </div>
+          <div class="legend"><span><i style="background:var(--viz-1)"></i>Gross wealth (before fees)</span><span><i style="background:var(--viz-2)"></i>Net wealth (after fees)</span></div>
+          <div id="fee-chart"></div>
+        </div>
+      </div>
+      <div class="tool-foot">All figures illustrative and simplified. Assumes returns and fees accrue annually, the management fee is charged on beginning-of-year assets, the performance fee takes the stated share of gains above the management fee (no hurdle, no high-water mark, no taxes), and returns are constant every year. Note the gap between the gross and net curves grows larger than the fees actually paid: the difference is compounding the investor never earned.</div>
+    </div>
+
+    <div class="callout-tip">
+      <p>Fees compound exactly like returns, in reverse. At 8% gross over 30 years, $100K grows to roughly $1.01M before fees. Under 2 and 20 the net return drops to about 4.8% and the final pot to roughly $410K: the investor keeps about a third of the gains their own capital produced. The same investor in a 0.05% index fund keeps roughly 98%. Nothing has to go wrong for this to happen. It is pure arithmetic, which is why the burden of proof always sits on the expensive fund to show its gross returns clear the bar.</p>
+    </div>
+
+    <p>This arithmetic is why fee terms, not just returns, are negotiated hard by large allocators, why hedge fund fees have drifted below the classic 2 and 20 toward something like 1.4 and 16 on average, and why the index fund, the cheapest wrapper ever built, keeps winning share. High-fee managers can absolutely be worth it. The tool just shows you exactly how good they have to be.</p>
+  </section>
+
+  <!-- ==================== 07.6 ==================== -->
+  <section class="lesson" id="how-institutions-decide">
+    <h2><span class="sec-num">07.6</span> How institutions actually decide</h2>
+    <p class="lede">Sit in on an investment committee and you discover the least glamorous truth in finance: the big decision is the asset allocation, not the stock picks. Everything else, rebalancing, manager selection, benchmarking, is machinery for staying faithful to that one decision, operated by human beings with careers to protect.</p>
+
+    <h3>Asset allocation is the whole ballgame</h3>
+    <p>An institution's <strong>policy portfolio</strong> is its long-run target mix: say 40% global equities, 25% fixed income, 20% private markets, 10% real assets, 5% cash. A famous 1986 study of large US pension plans found that roughly 90% of the variability of a plan's returns over time was explained by its asset allocation policy rather than by security selection or market timing. The exact number has been argued about ever since; the ranking has not. Choose the mix well and the details are survivable. Choose it badly and no manager can save you.</p>
+
+    <h3>Rebalancing: the discipline machine</h3>
+    <p><strong>Rebalancing</strong> means trading back to the policy weights after markets move them. If equities rally from 40% to 46% of the portfolio, the institution sells equities and buys what lagged, typically when weights drift outside preset bands. Notice what this forces: systematically selling what just went up and buying what just went down, which is emotionally miserable and historically sensible. The IPS makes it automatic precisely so that no committee has to feel brave at the bottom of a bear market.</p>
+
+    <h3>Hiring a manager: the gauntlet</h3>
+    <p>When the allocation calls for outside talent, a mandate goes through a process that can take a year. Consultants call the evaluation framework the four Ps: people, philosophy, process, and performance, roughly in that order of importance, because past performance is the least reliable of the four.</p>
+    <ol class="timeline">
+      <li><span class="timeline-when">Step 1 · Define</span><div class="timeline-title">Define the mandate</div><div class="timeline-body">The committee specifies the assignment: asset class, size, benchmark, risk limits. Example: $150M, US small-cap value, benchmarked to a small-cap value index, tracking error under 6%.</div></li>
+      <li><span class="timeline-when">Step 2 · Screen</span><div class="timeline-title">Screen and issue RFPs</div><div class="timeline-body">Databases and consultant ratings cut thousands of funds to a short list, which receives a request for proposal covering strategy, team, capacity, and fees.</div></li>
+      <li><span class="timeline-when">Step 3 · Diligence</span><div class="timeline-title">Investment due diligence</div><div class="timeline-body">On-site visits and interviews probe the four Ps. Does the stated process match the actual portfolio? Who leaves if the star leaves? Is performance skill or one lucky year repeated in the marketing deck?</div></li>
+      <li><span class="timeline-when">Step 4 · ODD</span><div class="timeline-title">Operational due diligence</div><div class="timeline-body">A separate team verifies the boring things: independent administrator, real auditor, segregated custody, compliance staffing. This became non-negotiable after the Madoff fraud surfaced in 2008; his returns were fake, but so was his back office, and ODD would have caught the second part.</div></li>
+      <li><span class="timeline-when">Step 5 · Approve</span><div class="timeline-title">Committee approval and legal</div><div class="timeline-body">The investment committee votes, and lawyers negotiate the investment management agreement: fees, guidelines, termination rights, reporting.</div></li>
+      <li><span class="timeline-when">Step 6 · Monitor</span><div class="timeline-title">Fund and monitor</div><div class="timeline-body">Capital transfers and the quarterly review cycle begins. Underperformance or personnel turnover puts a manager on the watch list; persistent problems end the mandate.</div></li>
+    </ol>
+
+    <h3>Benchmarks and tracking error</h3>
+    <p>Every mandate is judged against a <strong>benchmark</strong>: the index the manager is paid to beat. Two statistics frame the evaluation. <strong>Tracking error</strong> is the volatility of the difference between the portfolio's returns and the benchmark's: it measures how differently the manager behaves, not how well. <strong>Active share</strong> measures how much the holdings differ from the index. Together they expose a quiet scandal: a fund with low active share and low tracking error is a <strong>closet indexer</strong>, hugging the benchmark while charging active fees. You now know from section 07.5 exactly why that deal is poor.</p>
+
+    <h3>Career risk: the invisible hand on the wheel</h3>
+    <p>Here is the agency problem at the heart of institutional investing. The people making these decisions, staff, consultants, committee members, are judged over 1 to 3 year windows, while the portfolios they run have horizons of decades. Underperforming with a famous manager in a conventional portfolio is professionally survivable; underperforming with an unusual choice is not, even if the unusual choice had better odds. So institutions cluster: same benchmarks, same consultants, same manager lists. The old line captures it: nobody ever got fired for hiring the biggest name in the database.</p>
+
+    <div class="callout-warn">
+      <p>The classic institutional error is judging managers on 1 to 3 year returns. Even genuinely skilled managers spend long stretches behind their benchmarks, so committees that fire the laggard and hire the recent winner end up systematically selling low and buying high. Studies of institutional hiring have found that fired managers often outperform their replacements over the following years. The fix is unglamorous: decide in advance what evidence would justify a firing (people left, process broke, style drifted) and refuse to act on performance alone.</p>
+    </div>
+
+    <p>That completes the buy side: who owns the capital, the wrappers it flows through, the funds that swing for alpha, and the fee math that quietly decides outcomes. Next, Module 08 crosses back to where these institutions meet issuers: the capital markets, where stocks and bonds are born and traded.</p>
+  </section>
+
+  <!-- ==================== 07.7 quiz ==================== -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">07.7</span> Knowledge check</h2>
+    <p class="lede">Ten questions across the whole module: owners, wrappers, allocators, hedge funds, and fees. A calculator should stay in the drawer.</p>
+    <div id="quiz-root"></div>
+  </section>
+</main>
+
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+
+  /* ---------- long/short scenario table (07.4) ---------- */
+  var lsWrap = document.getElementById("bs-ls-scen");
+  if (lsWrap) {
+    var lsNotes = {
+      "-20": "With the market down 20%, Alpine fell 16% and Basin fell 24%. The short's $24 gain more than covers the long's $16 loss. The $20 market hit on the long leg is exactly offset by a $20 gain on the short leg; only the 8 points of stock selection remain.",
+      "0": "With the market flat, Alpine rose 4% and Basin fell 4%. No market help, no market harm: the entire $8 comes from picking the right long and the right short.",
+      "20": "With the market up 20%, Alpine rose 24% and Basin rose 16%. The long makes $24 but the short loses $16 as it gets dragged up with the market. Net result: the same $8. The fund gave up the rally to be immune from the crash."
+    };
+    var fpct = function (v) { return v < 0 ? "(" + Math.abs(v) + "%)" : v + "%"; };
+    var fdol = function (v) { return v < 0 ? "($" + Math.abs(v) + ")" : "$" + v; };
+    var lsSet = function (id, txt) { document.getElementById(id).textContent = txt; };
+    function lsRender(mkt) {
+      var rA = mkt + 4, rB = mkt - 4;
+      lsSet("ls-r-a", fpct(rA));
+      lsSet("ls-r-b", fpct(rB));
+      lsSet("ls-p-a", fdol(rA));
+      lsSet("ls-p-b", fdol(-rB));
+      lsSet("ls-m-a", fdol(mkt));
+      lsSet("ls-m-b", fdol(-mkt));
+      lsSet("ls-p-t", fdol(rA - rB));
+      document.getElementById("bs-ls-note").textContent = lsNotes[String(mkt)];
+      lsWrap.querySelectorAll("button").forEach(function (b) {
+        b.classList.toggle("active", parseInt(b.getAttribute("data-mkt"), 10) === mkt);
+      });
+    }
+    lsWrap.querySelectorAll("button").forEach(function (b) {
+      b.addEventListener("click", function () { lsRender(parseInt(b.getAttribute("data-mkt"), 10)); });
+    });
+    lsRender(-20);
+  }
+
+  /* ---------- fee drag visualizer (07.5, #tool-fees) ---------- */
+  var START_W = 100000;
+  var gross = Atlas.bind("fee-gross", function (v) { return Atlas.fmt.pct(v, 1); });
+  var mgmt = Atlas.bind("fee-mgmt", function (v) { return Atlas.fmt.pct(v, 2); });
+  var perf = Atlas.bind("fee-perf", function (v) { return Atlas.fmt.pct(v, 0); });
+  var yrs = Atlas.bind("fee-years", function (v) { return Math.round(v) + (Math.round(v) === 1 ? " yr" : " yrs"); });
+
+  function moneyShort(v) {
+    var neg = v < 0, a = Math.abs(v), s;
+    if (a >= 1e6) s = "$" + (a / 1e6).toFixed(2) + "M";
+    else if (a >= 1e3) s = "$" + Math.round(a / 1e3) + "K";
+    else s = "$" + Math.round(a);
+    return neg ? "(" + s + ")" : s;
+  }
+  function niceCeil(v) {
+    if (!(v > 0)) return 1;
+    var pow = Math.pow(10, Math.floor(Math.log10(v)));
+    var steps = [1, 1.2, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10];
+    for (var i = 0; i < steps.length; i++) {
+      if (steps[i] * pow >= v - 1e-9) return steps[i] * pow;
+    }
+    return 10 * pow;
+  }
+
+  function drawFeeChart(grossPts, netPts) {
+    var n = grossPts.length - 1;
+    var W = 720, H = 300, padL = 66, padR = 104, padT = 16, padB = 36;
+    var pw = W - padL - padR, ph = H - padT - padB;
+    var maxV = niceCeil(grossPts[n] * 1.02);
+    function X(i) { return padL + pw * i / Math.max(1, n); }
+    function Y(v) { return padT + ph * (1 - v / maxV); }
+    var s = [];
+    s.push('<svg viewBox="0 0 720 300" role="img" aria-label="Wealth over time: gross of fees versus net of fees">');
+    for (var k = 0; k <= 4; k++) {
+      var gv = maxV * k / 4, gy = Y(gv).toFixed(1);
+      s.push('<line x1="' + padL + '" y1="' + gy + '" x2="' + (W - padR + 34) + '" y2="' + gy + '" stroke="var(--grid-line)" stroke-width="1"></line>');
+      s.push('<text x="' + (padL - 8) + '" y="' + (parseFloat(gy) + 4) + '" text-anchor="end" font-size="11" fill="var(--ink-3)">' + moneyShort(gv) + '</text>');
+    }
+    var ticks = [0, Math.round(n / 2), n].filter(function (t, i, a) { return a.indexOf(t) === i; });
+    ticks.forEach(function (t) {
+      s.push('<text x="' + X(t).toFixed(1) + '" y="' + (H - 12) + '" text-anchor="middle" font-size="11" fill="var(--ink-3)">' + (t === n ? t + (t === 1 ? " yr" : " yrs") : t) + '</text>');
+    });
+    function linePath(pts) {
+      var d = "";
+      for (var i = 0; i <= n; i++) d += (i ? "L" : "M") + X(i).toFixed(1) + " " + Y(pts[i]).toFixed(1);
+      return d;
+    }
+    s.push('<path d="' + linePath(grossPts) + '" fill="none" stroke="var(--viz-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>');
+    s.push('<path d="' + linePath(netPts) + '" fill="none" stroke="var(--viz-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>');
+    var xe = X(n), yg = Y(grossPts[n]), yn = Y(netPts[n]);
+    s.push('<circle cx="' + xe.toFixed(1) + '" cy="' + yg.toFixed(1) + '" r="4.5" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>');
+    s.push('<circle cx="' + xe.toFixed(1) + '" cy="' + yn.toFixed(1) + '" r="4.5" fill="var(--viz-2)" stroke="var(--surface-1)" stroke-width="2"></circle>');
+    var lg = Math.max(padT + 6, Math.min(H - padB - 4, yg));
+    var ln = Math.max(padT + 6, Math.min(H - padB - 4, yn));
+    if (ln - lg < 15) ln = lg + 15;
+    s.push('<text x="' + (xe + 9).toFixed(1) + '" y="' + (lg + 4).toFixed(1) + '" font-size="11.5" font-weight="600" fill="var(--ink)">Gross ' + moneyShort(grossPts[n]) + '</text>');
+    s.push('<text x="' + (xe + 9).toFixed(1) + '" y="' + (ln + 4).toFixed(1) + '" font-size="11.5" font-weight="600" fill="var(--ink)">Net ' + moneyShort(netPts[n]) + '</text>');
+    s.push('</svg>');
+    document.getElementById("fee-chart").innerHTML = s.join("");
+  }
+
+  var FEE_PRESETS = { idx: [0.05, 0], act: [0.8, 0], hf: [2, 20] };
+
+  function computeFees() {
+    var g = gross.value / 100, m = mgmt.value / 100, p = perf.value / 100;
+    var n = Math.max(1, Math.round(yrs.value));
+    var grossPts = [START_W], netPts = [START_W];
+    var G = START_W, Wn = START_W, fees = 0;
+    for (var t = 1; t <= n; t++) {
+      G = G * (1 + g);
+      var gains = Wn * g;
+      var mFee = Wn * m;
+      var pFee = p * Math.max(0, gains - mFee);
+      fees += mFee + pFee;
+      Wn = Math.max(0, Wn + gains - mFee - pFee);
+      grossPts.push(G);
+      netPts.push(Wn);
+    }
+    document.getElementById("fee-kpi-net").textContent = moneyShort(Wn);
+    document.getElementById("fee-kpi-gross").textContent = moneyShort(G);
+    document.getElementById("fee-kpi-fees").textContent = moneyShort(fees);
+    var gGain = G - START_W, nGain = Wn - START_W, keptTxt;
+    if (gGain < 1) {
+      keptTxt = "n/a";
+    } else {
+      var kp = 100 * nGain / gGain;
+      keptTxt = kp < 0 ? "(" + Math.abs(kp).toFixed(0) + "%)" : kp.toFixed(0) + "%";
+    }
+    document.getElementById("fee-kpi-kept").textContent = keptTxt;
+    drawFeeChart(grossPts, netPts);
+    /* sync preset button highlight with current slider values */
+    document.querySelectorAll('.bs-btnrow[data-role="fee"] button').forEach(function (b) {
+      var pv = FEE_PRESETS[b.getAttribute("data-preset")];
+      b.classList.toggle("active", Math.abs(mgmt.value - pv[0]) < 0.001 && Math.abs(perf.value - pv[1]) < 0.001);
+    });
+  }
+
+  document.querySelectorAll('.bs-btnrow[data-role="fee"] button').forEach(function (b) {
+    b.addEventListener("click", function () {
+      var pv = FEE_PRESETS[b.getAttribute("data-preset")];
+      mgmt.value = pv[0];
+      perf.value = pv[1];
+      computeFees();
+    });
+  });
+
+  Atlas.onInput(["fee-gross", "fee-mgmt", "fee-perf", "fee-years"], computeFees);
+
+  /* ---------- quiz (07.7) ---------- */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "In the 1950s, US households owned the overwhelming majority of stocks directly. What best describes ownership today?",
+      choices: [
+        "Households still hold most stocks directly in brokerage accounts",
+        "Institutions such as funds, pensions, and insurers now hold most of the market, largely on households' behalf",
+        "Governments have nationalized most listed equity",
+        "Public companies mostly own their own shares"
+      ],
+      answer: 1,
+      explain: "Ownership migrated from direct household accounts into pooled institutional vehicles like mutual funds, ETFs, and pension plans; households still benefit, but through intermediaries."
+    },
+    {
+      q: "What does the ETF creation and redemption mechanism primarily accomplish?",
+      choices: [
+        "It guarantees an ETF can never fall in value",
+        "It lets retail investors buy shares directly from the manager at NAV",
+        "It determines the fund's expense ratio",
+        "It keeps the ETF's market price close to the value of its underlying holdings"
+      ],
+      answer: 3,
+      explain: "Authorized participants arbitrage any gap between the ETF's price and its NAV by creating or redeeming shares in kind, pinning the two together."
+    },
+    {
+      q: "In a defined contribution (DC) plan such as a 401(k), who bears the investment risk?",
+      choices: [
+        "The employer, which must top up any shortfall",
+        "The investment consultant who chose the fund menu",
+        "The employee, whose retirement depends on contributions and market returns",
+        "The government pension insurance agency"
+      ],
+      answer: 2,
+      explain: "In DC plans the employer promises only a contribution; the account's ultimate value, and therefore the risk, belongs to the employee."
+    },
+    {
+      q: "A hedge fund manages $100M and returns 12% gross this year. Fees are 2% of assets plus 20% of profits after the management fee. Total fees?",
+      choices: ["$2.4M", "$4.0M", "$4.4M", "$2.0M"],
+      answer: 1,
+      explain: "The management fee is $2M; profits after that fee are $10M, and 20% of $10M adds $2M more, for $4M total."
+    },
+    {
+      q: "A market-neutral fund is long $100 of stock A and short $100 of stock B. The market falls 10%; A falls 6% and B falls 14%. Net P&L?",
+      choices: ["($20)", "$0", "+$8", "+$14"],
+      answer: 2,
+      explain: "The long loses $6 and the short gains $14; the market moves cancel across the two legs and the $8 that remains is pure stock selection."
+    },
+    {
+      q: "What most distinguishes the Yale endowment model?",
+      choices: [
+        "Large allocations to illiquid alternatives such as private equity and real assets",
+        "Holding mostly Treasury bills for safety",
+        "Trading in and out of the market based on forecasts",
+        "Refusing to use outside managers"
+      ],
+      answer: 0,
+      explain: "Swensen's insight was that a perpetual institution can harvest the extra return illiquid assets pay, because it never needs the money tomorrow."
+    },
+    {
+      q: "An investment policy statement (IPS) primarily does what?",
+      choices: [
+        "Markets the fund to prospective investors",
+        "Sets the institution's objectives, constraints, benchmarks, and asset allocation policy in writing",
+        "Guarantees a minimum investment return",
+        "Reports the portfolio's annual tax liability"
+      ],
+      answer: 1,
+      explain: "The IPS is the board-approved constitution of the portfolio; committees and managers operate inside its rules."
+    },
+    {
+      q: "Tracking error measures which of the following?",
+      choices: [
+        "The fee a fund charges for trading errors",
+        "The gap between an ETF's market price and its NAV",
+        "The total volatility of a portfolio's returns",
+        "How differently a portfolio behaves from its benchmark, as the volatility of the return difference"
+      ],
+      answer: 3,
+      explain: "Tracking error is the standard deviation of portfolio returns minus benchmark returns: a measure of how active the manager is, not how good."
+    },
+    {
+      q: "A high-water mark in a hedge fund's terms means what?",
+      choices: [
+        "Performance fees are earned only on gains above the fund's previous peak value",
+        "The maximum leverage the fund may use",
+        "The minimum investment for new limited partners",
+        "The level at which regulators halt the fund's trading"
+      ],
+      answer: 0,
+      explain: "After a losing year the fund must first recover past losses before charging performance fees again, so investors do not pay twice for the same gains."
+    },
+    {
+      q: "Why do so many institutional portfolios cluster close to their benchmarks?",
+      choices: [
+        "Regulators require institutions to hold index weights",
+        "Benchmarks are mathematically optimal portfolios",
+        "Underperforming unconventionally is more career-damaging than underperforming with the crowd",
+        "Index data is free while active research is expensive"
+      ],
+      answer: 2,
+      explain: "Career risk pushes staff, consultants, and committees toward safe, conventional choices, which is why closet indexing and manager herding persist."
+    }
+  ]);
+});
+</script>
+</body>
+</html>

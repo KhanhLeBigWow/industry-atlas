@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en" data-module="accounting" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accounting &amp; the Three Statements · Capital Atlas</title>
+<meta name="description" content="How the income statement, balance sheet, and cash flow statement are built, how one change ripples through all three, and the ratios that turn them into insight.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .acc-scen-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .acc-scen-row .btn.active { background: var(--brand-strong); border-color: transparent; color: #fff; }
+  .acc-link-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  @media (max-width: 980px) { .acc-link-grid { grid-template-columns: 1fr; } }
+  .acc-stmt { border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface-1); overflow: hidden; }
+  .acc-stmt h4 { margin: 0; padding: 9px 14px; font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--ink-2); background: var(--surface-2); border-bottom: 1px solid var(--hairline); }
+  .acc-stmt table { font-size: 0.83rem; }
+  .acc-stmt td { padding: 5px 14px; border-bottom: 1px solid var(--hairline); }
+  .acc-stmt tr:last-child td { border-bottom: 0; }
+  .acc-stmt td.num { font-family: var(--font-mono); font-size: 0.8rem; }
+  .acc-sub td { font-weight: 650; border-top: 1px solid var(--axis); }
+  .acc-dim { color: var(--ink-3); }
+  .acc-hit { background: color-mix(in srgb, var(--viz-3) 13%, transparent); }
+  .acc-hit td:first-child { font-weight: 600; }
+  .acc-narrate { margin: 14px 0 0; padding: 12px 16px; background: var(--surface-2);
+    border-left: 3px solid var(--viz-3); border-radius: 0 10px 10px 0; font-size: 0.93rem; color: var(--ink-2); }
+  .acc-check { margin: 10px 0 0; font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-2); }
+  .acc-caption { font-size: 0.8rem; color: var(--ink-3); margin: 0 0 12px; }
+</style>
+</head>
+<body>
+<main>
+  <header class="module-hero">
+    <span class="kicker">Module 03 · Core</span>
+    <h1>Accounting &amp; the Three Statements</h1>
+    <p class="hero-tagline">Every model, every valuation, every deal argument starts here. The three statements are how a business describes itself in numbers, and fluency in them is the price of admission to the rest of finance.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ============================ 03.1 ============================ -->
+  <section class="lesson" id="the-language">
+    <h2><span class="sec-num">03.1</span> The language of business</h2>
+    <p class="lede">Warren Buffett calls accounting the language of business, and like any language it exists to answer questions. A company's financial statements answer exactly three: did we make money, what do we own and owe, and where did the cash actually go? One statement per question. Learn to read all three together and a company stops being a logo and becomes a machine you can inspect.</p>
+
+    <div class="grid-3">
+      <div class="card card-accent">
+        <h4>Income statement</h4>
+        <p class="small muted"><strong>Performance.</strong> Did we make money over a period (a quarter, a year)? Revenue at the top, costs subtracted in layers, profit at the bottom. It is a video of earning, not a photo of owning.</p>
+      </div>
+      <div class="card card-accent">
+        <h4>Balance sheet</h4>
+        <p class="small muted"><strong>Position.</strong> What do we own, what do we owe, and what is left for the shareholders, at a single instant? A snapshot taken at midnight on the last day of the period.</p>
+      </div>
+      <div class="card card-accent">
+        <h4>Cash flow statement</h4>
+        <p class="small muted"><strong>Cash.</strong> Where did money physically move? It reconciles accounting profit to the change in the bank account, and it is the hardest of the three to manipulate.</p>
+      </div>
+    </div>
+
+    <p>Why three documents instead of one? Because of a deliberate design choice called <strong>accrual accounting</strong>: companies record revenue when it is <em>earned</em> and expenses when they are <em>incurred</em>, not when cash changes hands. That single choice makes profit a better measure of economic performance, and it simultaneously makes profit different from cash. The cash flow statement exists to bridge that gap, and the balance sheet is where the timing differences (unpaid invoices, unsold inventory, unpaid bills) sit while they wait to become cash.</p>
+
+    <p>A vivid example. Alpine Plow Co., a fictional snow-removal outfit, signs a $90K winter contract. It buys $30K of salt for cash in November, does all the plowing in December, invoices on December 31, and collects in February. Ask "how did December go?" and the two accounting views give wildly different answers:</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>View</th><th class="num">November</th><th class="num">December</th><th class="num">February</th></tr></thead>
+        <tbody>
+          <tr><td>Cash view (money in and out)</td><td class="num">($30K)</td><td class="num">$0</td><td class="num">$90K</td></tr>
+          <tr><td>Accrual view (profit earned)</td><td class="num">$0</td><td class="num">$60K</td><td class="num">$0</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>The cash view says December, the month of all the actual work, was a non-event, and February, a month of doing nothing, was a triumph. The accrual view tells the economic truth: the business earned $60K in December ($90K of revenue against the $30K of salt it consumed). The salt purchase in November was not an expense when it was bought; it became inventory, an asset, and turned into an expense only when it was used. Collecting the invoice in February creates no new profit; it just converts one asset (a receivable) into another (cash).</p>
+
+    <div class="callout-tip callout">
+      <p>Revenue is an opinion, cash is a fact. Accrual profit involves judgment calls (when is revenue earned? how fast do machines depreciate?), while the movement of cash is close to indisputable. That is why every serious analysis reads the income statement and the cash flow statement side by side, and treats a persistent gap between them as a question demanding an answer.</p>
+    </div>
+
+    <div class="callout">
+      <p>Where you find these documents: US public companies file audited annual statements in the 10-K and unaudited quarterly ones in the 10-Q, both free on the SEC's EDGAR site. The statements themselves take minutes to read. The footnotes behind them, where the judgment calls are disclosed, are where professionals spend their time.</p>
+    </div>
+  </section>
+
+  <!-- ============================ 03.2 ============================ -->
+  <section class="lesson" id="income-statement">
+    <h2><span class="sec-num">03.2</span> The income statement, line by line</h2>
+    <p class="lede">The income statement is a controlled descent from revenue to profit, with each line subtracting a different category of cost. To make it concrete, meet Meridian Industrial Co., a fictional maker of industrial pumps and compressors with $850M of revenue. We will use Meridian's numbers for the rest of this module.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Line item</th><th class="num">$M</th><th class="num">Margin</th></tr></thead>
+        <tbody>
+          <tr><td>Revenue</td><td class="num">850</td><td class="num">100%</td></tr>
+          <tr><td>Cost of goods sold</td><td class="num">(510)</td><td class="num"></td></tr>
+          <tr><td><strong>Gross profit</strong></td><td class="num"><strong>340</strong></td><td class="num"><strong>40.0%</strong></td></tr>
+          <tr><td>SG&amp;A, R&amp;D and other operating costs</td><td class="num">(170)</td><td class="num"></td></tr>
+          <tr><td><strong>EBITDA</strong> (memo line, not GAAP)</td><td class="num"><strong>170</strong></td><td class="num"><strong>20.0%</strong></td></tr>
+          <tr><td>Depreciation and amortization</td><td class="num">(42)</td><td class="num"></td></tr>
+          <tr><td><strong>EBIT</strong> (operating income)</td><td class="num"><strong>128</strong></td><td class="num"><strong>15.1%</strong></td></tr>
+          <tr><td>Interest expense</td><td class="num">(24)</td><td class="num"></td></tr>
+          <tr><td>Pre-tax income</td><td class="num">104</td><td class="num"></td></tr>
+          <tr><td>Income taxes at 25%</td><td class="num">(26)</td><td class="num"></td></tr>
+          <tr class="total"><td>Net income</td><td class="num">78</td><td class="num">9.2%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="figure">
+      <p class="figure-title">From revenue to net income: the Meridian waterfall</p>
+      <p class="figure-sub">Each bar removes one layer of cost. The connectors mark the running subtotals where the famous margins live.</p>
+      <div class="legend"><span><i style="background:var(--viz-1)"></i>Revenue and profit</span><span><i style="background:var(--neg)"></i>Costs and charges</span></div>
+      <svg viewBox="0 0 720 350" role="img" aria-label="Waterfall chart from Meridian's revenue of 850 million dollars down to net income of 78 million, subtracting COGS, opex, depreciation, interest, and tax.">
+        <!-- connectors -->
+        <path d="M82 40 H158" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M182 196 H258" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M282 248 H358" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M382 261 H458" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M482 268 H558" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M582 276 H658" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <!-- bars -->
+        <rect x="58" y="40" width="24" height="260" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="58" y="292" width="24" height="8" fill="var(--viz-1)"></rect>
+        <rect x="158" y="40" width="24" height="156" rx="4" fill="var(--neg)"></rect>
+        <rect x="258" y="196" width="24" height="52" rx="4" fill="var(--neg)"></rect>
+        <rect x="358" y="248" width="24" height="13" rx="3" fill="var(--neg)"></rect>
+        <rect x="458" y="261" width="24" height="7" rx="2" fill="var(--neg)"></rect>
+        <rect x="558" y="268" width="24" height="8" rx="2" fill="var(--neg)"></rect>
+        <rect x="658" y="276" width="24" height="24" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="658" y="292" width="24" height="8" fill="var(--viz-1)"></rect>
+        <!-- subtotal labels on connectors -->
+        <text x="240" y="190" text-anchor="middle" font-size="10.5" fill="var(--ink-3)">Gross profit $340M · 40%</text>
+        <text x="334" y="242" text-anchor="middle" font-size="10.5" fill="var(--ink-3)">EBITDA $170M · 20%</text>
+        <text x="424" y="255" text-anchor="middle" font-size="10.5" fill="var(--ink-3)">EBIT $128M · 15%</text>
+        <text x="522" y="260" text-anchor="middle" font-size="10.5" fill="var(--ink-3)">Pre-tax $104M</text>
+        <!-- axis -->
+        <line x1="40" y1="300" x2="700" y2="300" class="axis"></line>
+        <!-- category labels -->
+        <text x="70" y="320" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Revenue</text>
+        <text x="170" y="320" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">COGS</text>
+        <text x="270" y="320" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Opex</text>
+        <text x="370" y="320" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">D&amp;A</text>
+        <text x="470" y="320" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Interest</text>
+        <text x="570" y="320" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Tax @25%</text>
+        <text x="670" y="320" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Net income</text>
+        <!-- amounts -->
+        <text x="70" y="336" text-anchor="middle" font-size="11" fill="var(--ink-3)">$850M</text>
+        <text x="170" y="336" text-anchor="middle" font-size="11" fill="var(--ink-3)">($510M)</text>
+        <text x="270" y="336" text-anchor="middle" font-size="11" fill="var(--ink-3)">($170M)</text>
+        <text x="370" y="336" text-anchor="middle" font-size="11" fill="var(--ink-3)">($42M)</text>
+        <text x="470" y="336" text-anchor="middle" font-size="11" fill="var(--ink-3)">($24M)</text>
+        <text x="570" y="336" text-anchor="middle" font-size="11" fill="var(--ink-3)">($26M)</text>
+        <text x="670" y="336" text-anchor="middle" font-size="11" fill="var(--ink-3)">$78M</text>
+      </svg>
+      <p class="figure-note">Net margin: $78M on $850M of revenue, or 9.2%. Fictional company, illustrative figures.</p>
+    </div>
+
+    <p>Walk the descent. <strong>Revenue</strong> (the top line) is the value of goods and services delivered during the period, recognized when earned. <strong>Cost of goods sold</strong> (COGS) is what it directly cost to make what was sold: Meridian's steel, castings, and factory labor. What remains is <strong>gross profit</strong>, and gross margin (40% here) measures the raw economics of the product itself, before the cost of running the company around it.</p>
+
+    <p>Next comes <strong>operating expense</strong> (opex): selling, general and administrative costs (SG&amp;A), research and development, the salespeople, the headquarters, the ERP system. These support the business as a whole rather than any single unit sold. Subtracting them leaves operating profit before depreciation, which the industry calls <strong>EBITDA</strong>.</p>
+
+    <p><strong>Depreciation and amortization</strong> (D&amp;A) deserves a pause because it confuses everyone at first. When Meridian buys a $50M production line, accrual accounting refuses to expense it all at once, since the machine will produce for 10 years. Instead the cost is spread: $5M of depreciation per year. D&amp;A is therefore a real expense with no cash attached; the cash left in year one, and the income statement feels it gradually. Amortization is the same idea applied to intangible assets such as acquired customer relationships or software.</p>
+
+    <p>After D&amp;A comes <strong>EBIT</strong>, or operating income: profit from actually running the business, before anyone asks how it is financed. Then the capital structure enters. <strong>Interest expense</strong> ($24M here, on $400M of debt at 6%) compensates lenders. <strong>Taxes</strong> take their statutory share of what is left (we use a flat 25% throughout this module). The residual, <strong>net income</strong>, belongs to shareholders, which is why per-share metrics (EPS) and the P/E ratio are built on it.</p>
+
+    <div class="formula">EBITDA = Net income + Taxes + Interest + D&amp;A&nbsp;&nbsp;&nbsp;(equivalently: EBIT + D&amp;A)</div>
+
+    <p>An honest word on EBITDA, because you will hear it constantly. Earnings before interest, taxes, depreciation, and amortization is meant to approximate the operating cash engine of the business, stripped of financing choices (interest), jurisdiction (taxes), and historical capex (D&amp;A). It is useful precisely because it ignores those things: it lets you compare two identical factories even if one is leveraged and one is not, and it is the denominator of the debt market's favorite ratio, net debt to EBITDA. Sellers and lenders quote it, and buyout math practically runs on it.</p>
+
+    <div class="callout-warn callout">
+      <p>EBITDA is not cash flow, and treating it as cash flow is one of the classic ways smart people lose money. It ignores capital expenditure (Meridian must spend roughly $55M a year on equipment just to stay competitive), ignores cash absorbed by working capital as the business grows, and ignores the fact that interest and taxes must be paid in actual dollars. A capital-intensive company can post fat EBITDA and still generate almost no free cash. Charlie Munger liked to say that every time you hear EBITDA you should substitute a much ruder phrase.</p>
+    </div>
+  </section>
+
+  <!-- ============================ 03.3 ============================ -->
+  <section class="lesson" id="balance-sheet">
+    <h2><span class="sec-num">03.3</span> The balance sheet: a snapshot that always balances</h2>
+    <p class="lede">If the income statement is a video of the period, the balance sheet is a photograph taken at the final midnight. It lists everything the company owns (assets), everything it owes (liabilities), and the residual claim belonging to shareholders (equity). One identity governs the whole document, and it is true by construction, not by luck.</p>
+
+    <div class="formula">Assets = Liabilities + Shareholders' equity</div>
+
+    <p>The logic is simple: everything a company owns was paid for with somebody's money, either borrowed money (liabilities) or the owners' money (equity, both what they invested and the profits retained over the years). Equity is defined as whatever makes the equation hold, which is why it is called the residual claim. If assets rise and liabilities do not, the owners got richer. Every transaction in accounting touches at least two accounts precisely so that this identity survives, which is what "double-entry bookkeeping" means.</p>
+
+    <div class="figure">
+      <p class="figure-title">Meridian Industrial Co.: the balance sheet in one picture</p>
+      <p class="figure-sub">Left column: what the company owns. Right column: who financed it. Both stacks total $800M, always.</p>
+      <div class="legend">
+        <span><i style="background:var(--viz-1)"></i>Current assets</span>
+        <span><i style="background:var(--viz-2)"></i>Long-term assets</span>
+        <span><i style="background:var(--viz-3)"></i>Current liabilities</span>
+        <span><i style="background:var(--viz-4)"></i>Long-term liabilities</span>
+        <span><i style="background:var(--viz-5)"></i>Equity</span>
+      </div>
+      <svg viewBox="0 0 720 440" role="img" aria-label="Two stacked columns showing Meridian's 800 million dollars of assets on the left and 800 million of liabilities plus equity on the right, with working capital highlighted between them.">
+        <text x="192" y="40" text-anchor="middle" class="lbl" font-size="13">Assets · $800M</text>
+        <text x="528" y="40" text-anchor="middle" class="lbl" font-size="13">Liabilities + equity · $800M</text>
+        <!-- left column: assets -->
+        <rect x="180" y="61" width="24" height="23.5" rx="2" fill="var(--viz-1)"></rect>
+        <rect x="180" y="86.5" width="24" height="42.6" rx="2" fill="var(--viz-1)"></rect>
+        <rect x="180" y="131.1" width="24" height="44.8" rx="2" fill="var(--viz-1)"></rect>
+        <rect x="180" y="177.9" width="24" height="159.5" rx="2" fill="var(--viz-2)"></rect>
+        <rect x="180" y="339.4" width="24" height="59.6" rx="2" fill="var(--viz-2)"></rect>
+        <!-- right column: liabilities + equity -->
+        <rect x="516" y="61" width="24" height="34.1" rx="2" fill="var(--viz-3)"></rect>
+        <rect x="516" y="97.1" width="24" height="12.9" rx="2" fill="var(--viz-3)"></rect>
+        <rect x="516" y="112" width="24" height="168" rx="2" fill="var(--viz-4)"></rect>
+        <rect x="516" y="282" width="24" height="10.8" rx="2" fill="var(--viz-4)"></rect>
+        <rect x="516" y="294.8" width="24" height="104.3" rx="2" fill="var(--viz-5)"></rect>
+        <!-- left labels -->
+        <text x="170" y="77" text-anchor="end" font-size="11.5" fill="var(--ink-2)">Cash $60M</text>
+        <text x="170" y="112" text-anchor="end" font-size="11.5" fill="var(--ink-2)">Receivables $105M</text>
+        <text x="170" y="158" text-anchor="end" font-size="11.5" fill="var(--ink-2)">Inventory $110M</text>
+        <text x="170" y="262" text-anchor="end" font-size="11.5" fill="var(--ink-2)">PP&amp;E, net $380M</text>
+        <text x="170" y="373" text-anchor="end" font-size="11.5" fill="var(--ink-2)">Goodwill and intangibles $145M</text>
+        <!-- right labels -->
+        <text x="552" y="82" text-anchor="start" font-size="11.5" fill="var(--ink-2)">Payables $85M</text>
+        <text x="552" y="108" text-anchor="start" font-size="11.5" fill="var(--ink-2)">Accrued and other $35M</text>
+        <text x="552" y="200" text-anchor="start" font-size="11.5" fill="var(--ink-2)">Long-term debt $400M</text>
+        <text x="552" y="291" text-anchor="start" font-size="11.5" fill="var(--ink-2)">Other long-term $30M</text>
+        <text x="552" y="351" text-anchor="start" font-size="11.5" fill="var(--ink-2)">Shareholders' equity $250M</text>
+        <!-- working capital annotation -->
+        <path d="M208 176.9 H276" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M444 111 H512" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <text x="286" y="181" text-anchor="start" font-size="11" fill="var(--ink-2)">Current assets $275M</text>
+        <text x="434" y="115" text-anchor="end" font-size="11" fill="var(--ink-2)">Current liabilities $120M</text>
+        <text x="360" y="235" text-anchor="middle" class="lbl" font-size="13">Working capital = $155M</text>
+        <text x="360" y="252" text-anchor="middle" font-size="10.5" fill="var(--ink-3)">$275M current assets less $120M current liabilities</text>
+        <!-- axis -->
+        <line x1="140" y1="400" x2="580" y2="400" class="axis"></line>
+        <text x="192" y="421" text-anchor="middle" font-size="11" fill="var(--ink-3)">What it owns</text>
+        <text x="528" y="421" text-anchor="middle" font-size="11" fill="var(--ink-3)">How it is financed</text>
+      </svg>
+      <p class="figure-note">"Current" means expected to convert to cash (or come due) within 12 months. Fictional figures.</p>
+    </div>
+
+    <p>The dashed region matters more than it looks. <strong>Working capital</strong>, current assets minus current liabilities, is the money tied up in the everyday plumbing of the business: inventory sitting in the warehouse, invoices customers have not paid yet, minus the bills Meridian itself has not paid. It is capital the company must fund but that earns nothing sitting there. Watch it closely: when a company grows, working capital usually grows with it, silently consuming cash. Section 03.4 shows how that consumption can kill a profitable company.</p>
+
+    <div class="formula">Working capital = Current assets - Current liabilities</div>
+
+    <p>One more idea before the line items: <strong>book value is not market value</strong>. Meridian's equity is carried at $250M, but that number is an accounting residual built on historical costs. The stock market might value the same equity at $600M because it prices future profits, not past transactions. The balance sheet records history; markets price the future. The gap between the two is where valuation (Module 04) lives.</p>
+
+    <p>The vocabulary you will meet on nearly every balance sheet:</p>
+
+    <details class="accordion">
+      <summary>Cash and equivalents</summary>
+      <div class="acc-body"><p>Actual money plus anything convertible to money within about 90 days (money market funds, T-bills). The most honest line on the statement, and the first thing a lender checks. Analysts usually net it against debt to compute net debt.</p></div>
+    </details>
+    <details class="accordion">
+      <summary>Accounts receivable</summary>
+      <div class="acc-body"><p>Money customers owe for goods already delivered. Revenue has been recognized; cash has not arrived. Measured in days ("DSO", days sales outstanding), it tells you how fast customers pay. Receivables growing much faster than revenue is a classic warning sign (see 03.7).</p></div>
+    </details>
+    <details class="accordion">
+      <summary>Inventory</summary>
+      <div class="acc-body"><p>Raw materials, work in progress, and finished goods waiting to be sold, carried at cost. Inventory is an expense-in-waiting: it moves to COGS only when the product ships. Bloated inventory means cash trapped in the warehouse and possible write-downs ahead.</p></div>
+    </details>
+    <details class="accordion">
+      <summary>Property, plant and equipment (PP&amp;E)</summary>
+      <div class="acc-body"><p>Land, buildings, machines. Shown net: original cost minus accumulated depreciation. Meridian's $380M net PP&amp;E might be $700M of historical purchases less $320M of depreciation taken so far. Capex adds to it; depreciation grinds it down.</p></div>
+    </details>
+    <details class="accordion">
+      <summary>Goodwill and intangibles</summary>
+      <div class="acc-body"><p>Goodwill appears only after acquisitions: it is the premium paid above the fair value of the target's identifiable net assets. It is not amortized but tested annually for impairment; a goodwill write-down is management publicly admitting it overpaid. Other intangibles (patents, brands, customer lists) amortize over their useful lives.</p></div>
+    </details>
+    <details class="accordion">
+      <summary>Accounts payable</summary>
+      <div class="acc-body"><p>Bills the company owes suppliers for goods already received. Payables are free financing: every extra day Meridian takes to pay is a day it holds the supplier's cash. Stretching payables boosts cash flow once, not forever, and suppliers eventually push back.</p></div>
+    </details>
+    <details class="accordion">
+      <summary>Accrued expenses and deferred revenue</summary>
+      <div class="acc-body"><p>Accrued expenses are costs incurred but not yet billed (wages earned this week, paid next month). Deferred revenue is cash collected before the work is done (a 12-month software subscription paid upfront); it is a liability because the company still owes the service. Counterintuitively, growing deferred revenue is usually great news: customers are prepaying.</p></div>
+    </details>
+    <details class="accordion">
+      <summary>Debt, current and long-term</summary>
+      <div class="acc-body"><p>Borrowed money with a contractual claim: revolvers, term loans, bonds. The portion due within 12 months sits in current liabilities. Unlike equity, debt has a maturity date and a coupon, and missing either hands control to the lenders. Leverage ratios (03.6) measure how heavy this burden is.</p></div>
+    </details>
+    <details class="accordion">
+      <summary>Shareholders' equity and retained earnings</summary>
+      <div class="acc-body"><p>Paid-in capital (what shareholders contributed) plus retained earnings (every dollar of net income ever earned, minus every dividend ever paid, accumulated over the company's life). Retained earnings is the hinge that connects the income statement to the balance sheet: this period's net income flows into it.</p></div>
+    </details>
+  </section>
+
+  <!-- ============================ 03.4 ============================ -->
+  <section class="lesson" id="cash-flow">
+    <h2><span class="sec-num">03.4</span> The cash flow statement: the lie detector</h2>
+    <p class="lede">Accrual accounting is powerful and manipulable in equal measure, so the third statement follows the one thing that cannot be conjured: cash. The cash flow statement starts from net income, unwinds every accrual judgment, and reconciles all the way to the change in the bank balance. It is organized into three sections, and the pattern across them tells you what kind of company you are looking at.</p>
+
+    <div class="grid-3">
+      <div class="card"><h4>Operating (CFO)</h4><p class="small muted">Cash from actually running the business: collecting from customers, paying suppliers and staff and taxes. The engine. Mature healthy companies generate strongly positive CFO, period after period.</p></div>
+      <div class="card"><h4>Investing (CFI)</h4><p class="small muted">Cash spent on the future: capital expenditure, acquisitions, minus asset sales. Usually negative, and that is fine; a growing company should be planting seeds. The question is whether operations fund the planting.</p></div>
+      <div class="card"><h4>Financing (CFF)</h4><p class="small muted">Cash to and from capital providers: debt raised or repaid, shares issued or bought back, dividends. Tells you whether the company is drawing fuel from outside or returning it.</p></div>
+    </div>
+
+    <div class="formula">Net change in cash = CFO + CFI + CFF</div>
+
+    <p>Nearly every company builds the operating section with the <strong>indirect method</strong>: begin with net income, then adjust. Add back expenses that consumed no cash (D&amp;A is the big one). Then correct for working capital: subtract growth in receivables (sales booked but not collected) and inventory (cash converted into boxes), add growth in payables (bills you have not paid yet, meaning suppliers are lending to you). Meridian's year:</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Meridian Industrial Co., cash flow statement</th><th class="num">$M</th></tr></thead>
+        <tbody>
+          <tr><td>Net income</td><td class="num">78</td></tr>
+          <tr><td>Add back: D&amp;A (non-cash)</td><td class="num">42</td></tr>
+          <tr><td>Increase in receivables</td><td class="num">(12)</td></tr>
+          <tr><td>Increase in inventory</td><td class="num">(8)</td></tr>
+          <tr><td>Increase in payables</td><td class="num">6</td></tr>
+          <tr><td><strong>Cash from operations</strong></td><td class="num"><strong>106</strong></td></tr>
+          <tr><td>Capital expenditure</td><td class="num">(55)</td></tr>
+          <tr><td><strong>Cash from investing</strong></td><td class="num"><strong>(55)</strong></td></tr>
+          <tr><td>Debt repaid</td><td class="num">(20)</td></tr>
+          <tr><td>Dividends paid</td><td class="num">(15)</td></tr>
+          <tr><td><strong>Cash from financing</strong></td><td class="num"><strong>(35)</strong></td></tr>
+          <tr class="total"><td>Net change in cash (beginning $44M, ending $60M)</td><td class="num">16</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="figure">
+      <p class="figure-title">From profit to free cash flow</p>
+      <p class="figure-sub">Meridian converts $78M of net income into $106M of operating cash, then reinvests $55M, leaving $51M free.</p>
+      <div class="legend"><span><i style="background:var(--viz-1)"></i>Subtotal</span><span><i style="background:var(--pos)"></i>Source of cash</span><span><i style="background:var(--neg)"></i>Use of cash</span></div>
+      <svg viewBox="0 0 720 300" role="img" aria-label="Bridge chart from net income of 78 million to operating cash flow of 106 million to free cash flow of 51 million.">
+        <!-- connectors -->
+        <path d="M92 139.5 H172" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M196 80 H276" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M300 100 H380" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M404 100 H484" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <path d="M508 178 H588" stroke="var(--axis)" stroke-width="1" stroke-dasharray="3 3" fill="none"></path>
+        <!-- bars -->
+        <rect x="68" y="139.5" width="24" height="110.5" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="68" y="242" width="24" height="8" fill="var(--viz-1)"></rect>
+        <rect x="172" y="80" width="24" height="59.5" rx="4" fill="var(--pos)"></rect>
+        <rect x="276" y="80" width="24" height="20" rx="3" fill="var(--neg)"></rect>
+        <rect x="380" y="100" width="24" height="150" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="380" y="242" width="24" height="8" fill="var(--viz-1)"></rect>
+        <rect x="484" y="100" width="24" height="78" rx="4" fill="var(--neg)"></rect>
+        <rect x="588" y="178" width="24" height="72" rx="4" fill="var(--viz-1)"></rect>
+        <rect x="588" y="242" width="24" height="8" fill="var(--viz-1)"></rect>
+        <!-- axis -->
+        <line x1="40" y1="250" x2="680" y2="250" class="axis"></line>
+        <!-- labels -->
+        <text x="80" y="270" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Net income</text>
+        <text x="184" y="270" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">+ D&amp;A</text>
+        <text x="288" y="270" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Working capital</text>
+        <text x="392" y="270" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">CFO</text>
+        <text x="496" y="270" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Capex</text>
+        <text x="600" y="270" text-anchor="middle" font-size="11.5" fill="var(--ink-2)" font-weight="600">Free cash flow</text>
+        <text x="80" y="286" text-anchor="middle" font-size="11" fill="var(--ink-3)">$78M</text>
+        <text x="184" y="286" text-anchor="middle" font-size="11" fill="var(--ink-3)">+$42M</text>
+        <text x="288" y="286" text-anchor="middle" font-size="11" fill="var(--ink-3)">($14M)</text>
+        <text x="392" y="286" text-anchor="middle" font-size="11" fill="var(--ink-3)">$106M</text>
+        <text x="496" y="286" text-anchor="middle" font-size="11" fill="var(--ink-3)">($55M)</text>
+        <text x="600" y="286" text-anchor="middle" font-size="11" fill="var(--ink-3)">$51M</text>
+      </svg>
+      <p class="figure-note">Free cash flow here means CFO minus capex, the cash genuinely available to lenders and shareholders.</p>
+    </div>
+
+    <p>Now the punchline of this section: <strong>profitable companies can die</strong>. Bankruptcy is not triggered by losses on an income statement; it is triggered by an empty bank account on payroll day. And the fastest route to an empty bank account, strangely, is rapid profitable growth, because growth demands working capital upfront while profits arrive on paper first and in cash much later.</p>
+
+    <div class="callout-example callout">
+      <p><strong>Juniper Beverage Co. grows itself into a corner.</strong> Juniper, a fictional drinks brand, doubles revenue from $20M to $40M in a year and earns an 8% net margin, so net income is a healthy $3.2M. But its grocery-chain customers pay in 60 days, it holds 90 days of inventory, and its suppliers demand payment in 30. Doubling the business doubles all of that plumbing: receivables climb $3.3M, inventory climbs $3.2M, and payables help by only $1.0M. Run the reconciliation: $3.2M net income + $0.8M of D&amp;A ($3.3M) receivables build ($3.2M) inventory build + $1.0M payables = <strong>($1.5M) of operating cash flow</strong>. Add $1.0M of capex for a new filling line and Juniper burned <strong>($2.5M)</strong> of cash in its best year ever. Record profits, empty account. Unless it raises debt or equity, next year's growth is unfundable. This is why bankers say growth eats cash, and why working capital terms (how fast you collect versus how fast you pay) are fought over in every deal.</p>
+    </div>
+
+    <p>The reverse pattern is just as informative. Some businesses collect cash before they owe anyone anything: an insurer collects premiums years before paying claims, a software firm collects annual subscriptions upfront, a supermarket sells inventory for cash weeks before paying its suppliers. These companies enjoy negative working capital, meaning growth <em>generates</em> cash. When you hear investors describe a business model as beautiful, this is often what they mean.</p>
+  </section>
+
+  <!-- ============================ 03.5 ============================ -->
+  <section class="lesson" id="linkage">
+    <h2><span class="sec-num">03.5</span> How the three statements link</h2>
+    <p class="lede">The statements are not three documents; they are one machine viewed from three angles, bolted together at three joints. Net income closes into retained earnings on the balance sheet. The same net income opens the cash flow statement. And the cash flow statement's ending cash is the cash line on the balance sheet. Push on any line and the ripple must travel through all three, or the books do not balance.</p>
+
+    <p>This is also the most reliable interview topic in finance. "Walk me through $100 of depreciation" has opened analyst interviews for decades, not because the math is hard, but because it instantly reveals whether you understand the machine or memorized the vocabulary. The tool below lets you rehearse the five classic ripples until the pattern is reflex. All scenarios assume a 25% tax rate, paid in cash immediately, and view each event in isolation.</p>
+
+    <div class="tool" id="tool-linkage">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Three-Statement Ripple Explorer</h3></div>
+      <div class="tool-body stacked">
+        <div class="tool-controls">
+          <div class="acc-scen-row">
+            <button type="button" class="btn btn-sm" data-scen="sale">+$100 sale on credit</button>
+            <button type="button" class="btn btn-sm" data-scen="dep">+$100 depreciation</button>
+            <button type="button" class="btn btn-sm" data-scen="capex">Buy $500 machine with cash</button>
+            <button type="button" class="btn btn-sm" data-scen="debt">Raise $200 of debt</button>
+            <button type="button" class="btn btn-sm" data-scen="div">Pay $150 dividend</button>
+          </div>
+        </div>
+        <div class="tool-output">
+          <p class="acc-caption">Income statement and cash flow figures show the effect on profit and cash; balance sheet figures show the change in each balance. Highlighted rows are the lines the event touches.</p>
+          <div class="acc-link-grid">
+            <div class="acc-stmt">
+              <h4>Income statement</h4>
+              <table><tbody id="acc-tb-is"></tbody></table>
+            </div>
+            <div class="acc-stmt">
+              <h4>Cash flow statement</h4>
+              <table><tbody id="acc-tb-cf"></tbody></table>
+            </div>
+            <div class="acc-stmt">
+              <h4>Balance sheet</h4>
+              <table><tbody id="acc-tb-bs"></tbody></table>
+            </div>
+          </div>
+          <p class="acc-narrate" id="acc-narrate"></p>
+          <p class="acc-check" id="acc-check"></p>
+        </div>
+      </div>
+      <div class="tool-foot">Assumes a 25% tax rate settled in cash immediately and each event in isolation on day one (no knock-on interest or depreciation until later periods). A teaching device, not bookkeeping.</div>
+    </div>
+
+    <p>Notice the recurring grammar. Anything that touches profit must also touch equity (via retained earnings) and usually taxes. Anything that touches cash must appear somewhere on the cash flow statement. And several important events (the machine purchase, the debt raise, the dividend) never touch the income statement at all, which is exactly why reading only the income statement leaves you half blind.</p>
+  </section>
+
+  <!-- ============================ 03.6 ============================ -->
+  <section class="lesson" id="ratios">
+    <h2><span class="sec-num">03.6</span> Ratios: turning statements into judgment</h2>
+    <p class="lede">Raw financial statements answer "what happened." Ratios answer "so what?" Each one is a question posed to the numbers: is the product profitable, can the company pay its bills this year, how heavy is the debt, and how hard is the owners' money working? Here are the roughly 12 that professionals actually use, computed on Meridian.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Group</th><th>Ratio</th><th>How to compute</th><th class="num">Meridian</th><th>The question it answers</th></tr></thead>
+        <tbody>
+          <tr><td rowspan="3"><strong>Profitability</strong></td><td>Gross margin</td><td>Gross profit / Revenue</td><td class="num">40.0%</td><td>Does the product itself make money?</td></tr>
+          <tr><td>EBITDA margin</td><td>EBITDA / Revenue</td><td class="num">20.0%</td><td>How efficient is the whole operation?</td></tr>
+          <tr><td>Net margin</td><td>Net income / Revenue</td><td class="num">9.2%</td><td>What share of each $1 of sales reaches owners?</td></tr>
+          <tr><td rowspan="3"><strong>Liquidity</strong></td><td>Current ratio</td><td>Current assets / Current liabilities</td><td class="num">2.3x</td><td>Can it cover the next 12 months of bills?</td></tr>
+          <tr><td>Quick ratio</td><td>(Current assets - Inventory) / Current liabilities</td><td class="num">1.4x</td><td>Same question, without hoping inventory sells.</td></tr>
+          <tr><td>Cash conversion cycle</td><td>DSO + DIO - DPO</td><td class="num">63 days</td><td>How long is a dollar trapped in the plumbing?</td></tr>
+          <tr><td rowspan="3"><strong>Leverage</strong></td><td>Net debt / EBITDA</td><td>(Debt - Cash) / EBITDA</td><td class="num">2.0x</td><td>How many years of earnings to repay the debt?</td></tr>
+          <tr><td>Interest coverage</td><td>EBIT / Interest expense</td><td class="num">5.3x</td><td>How comfortably do profits cover the coupon?</td></tr>
+          <tr><td>Debt / Equity</td><td>Total debt / Shareholders' equity</td><td class="num">1.6x</td><td>Whose money is really at work here?</td></tr>
+          <tr><td rowspan="3"><strong>Returns</strong></td><td>Return on equity (ROE)</td><td>Net income / Shareholders' equity</td><td class="num">31.2%</td><td>What do owners earn on their stake?</td></tr>
+          <tr><td>Return on assets (ROA)</td><td>Net income / Total assets</td><td class="num">9.8%</td><td>How productive is the whole asset base?</td></tr>
+          <tr><td>ROIC</td><td>EBIT x (1 - tax) / (Debt + Equity)</td><td class="num">14.8%</td><td>What does all invested capital earn, however financed?</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Three habits separate people who use ratios well from people who recite them. First, compare against peers and against the company's own history; 2.0x leverage is sleepy for a utility and terrifying for a game studio. Second, mind the denominator: EBITDA-based ratios inherit every flaw of EBITDA. Third, never read one ratio alone. Meridian's DSO of 45 days (receivables of $105M against $850M of sales), inventory days of 79, and payable days of 61 combine into a 63-day cash conversion cycle, and it is the combination, not any single number, that describes the working capital machine.</p>
+
+    <div class="callout-deeper callout">
+      <p>Why professionals prefer ROIC to ROE: leverage flatters ROE without creating a single dollar of operating value. Meridian earns 31.2% on equity partly because its $800M asset base is financed with only $250M of equity. Refinance to double the debt and halve the equity, and ROE roughly doubles while the pumps and compressors earn exactly what they earned before. ROIC (14.8% here) charges the business for all capital used, debt and equity alike, so it cannot be dressed up with borrowing. High-ROIC businesses compound; high-ROE, low-ROIC businesses are often just leveraged.</p>
+    </div>
+
+    <p>Build the intuition with your hands. The calculator below applies Meridian-style assumptions (D&amp;A at 5% of revenue, interest at 6% of net debt, 25% tax) so you can watch profitability, leverage, and returns move together as you reshape the company.</p>
+
+    <div class="tool" id="tool-ratios">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Ratio Mini-Lab</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="slider-row">
+            <label>Revenue <output></output></label>
+            <input type="range" id="acc-r-rev" min="300" max="2000" step="25" value="850">
+          </div>
+          <div class="slider-row">
+            <label>EBITDA <output></output></label>
+            <input type="range" id="acc-r-ebitda" min="30" max="500" step="5" value="170">
+          </div>
+          <div class="slider-row">
+            <label>Net debt <output></output></label>
+            <input type="range" id="acc-r-nd" min="-200" max="1200" step="20" value="340">
+          </div>
+          <div class="slider-row">
+            <label>Shareholders' equity <output></output></label>
+            <input type="range" id="acc-r-eq" min="50" max="1500" step="25" value="250">
+          </div>
+        </div>
+        <div class="tool-output">
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">EBITDA margin</div><div class="stat-value" id="acc-k-margin">·</div></div>
+            <div class="stat-tile"><div class="stat-label">Net income (derived)</div><div class="stat-value" id="acc-k-ni">·</div></div>
+            <div class="stat-tile"><div class="stat-label">Net debt / EBITDA</div><div class="stat-value" id="acc-k-lev">·</div></div>
+            <div class="stat-tile"><div class="stat-label">Return on equity</div><div class="stat-value" id="acc-k-roe">·</div></div>
+          </div>
+          <p class="small muted" id="acc-r-read"></p>
+        </div>
+      </div>
+      <div class="tool-foot">Derived net income = (EBITDA - D&amp;A at 5% of revenue - interest at 6% of net debt) x (1 - 25% tax); no tax benefit assumed on losses; EBITDA capped at revenue; interest is $0 when in a net cash position. All figures in $M, illustrative only.</div>
+    </div>
+  </section>
+
+  <!-- ============================ 03.7 ============================ -->
+  <section class="lesson" id="red-flags">
+    <h2><span class="sec-num">03.7</span> Red flags: when the numbers lie</h2>
+    <p class="lede">Accrual accounting hands management a set of dials: when to recognize revenue, what to capitalize, how fast to depreciate, what to call "one-time." Most teams use the dials honestly. Some lean on them, and a few break them off. Earnings quality is the discipline of asking how much of reported profit is real, recurring, and backed by cash.</p>
+
+    <div class="grid-2">
+      <div class="card">
+        <h4>Aggressive revenue recognition</h4>
+        <p class="small muted">Booking revenue before it is truly earned: recognizing a 3-year contract upfront, shipping to a warehouse and calling it sold, or "bill and hold" arrangements where goods never leave the dock. The tell: revenue grows, receivables grow faster, and DSO creeps relentlessly upward.</p>
+      </div>
+      <div class="card">
+        <h4>Capitalizing operating costs</h4>
+        <p class="small muted">Recording an everyday expense as an asset so it hits the income statement over years instead of today. Profit jumps instantly; nothing about the business improved. The tell: capex or "other assets" ballooning while reported margins mysteriously outrun every peer's.</p>
+      </div>
+      <div class="card">
+        <h4>Channel stuffing</h4>
+        <p class="small muted">Cramming product into distributors at quarter-end, with discounts or generous return rights, to borrow next quarter's sales. It works until the channel is full, then revenue falls off a cliff. The tell: quarter-end sales spikes, rising returns, and distributors' inventories swelling.</p>
+      </div>
+      <div class="card">
+        <h4>Serial "one-time" charges</h4>
+        <p class="small muted">Restructuring costs, impairments, and adjustments presented as exceptional, every single year. Each exclusion nudges "adjusted" earnings above reality. The tell: a decade of "non-recurring" items that somehow always recur, and an ever-widening gap between adjusted and GAAP profit.</p>
+      </div>
+    </div>
+
+    <p>The universal detector is the one you already own: <strong>compare net income to operating cash flow over multiple years</strong>. Accruals can be stretched for a quarter or four, but cash eventually refuses to cooperate. A company reporting rising profits while CFO stagnates or turns negative is either growing very fast and hungry for working capital (Juniper in 03.4, a legitimate story you can verify) or manufacturing earnings (a story you cannot). Rising DSO, swelling inventory, growing gaps between adjusted and GAAP numbers, and frequent auditor changes tell you which story you are in.</p>
+
+    <div class="callout-case callout">
+      <p><strong>WorldCom, 2002.</strong> The telecom giant executed the capitalization trick at industrial scale: roughly $3.8B of ordinary network line costs (fees paid to other carriers, plainly an operating expense) were booked as capital expenditure, initially, with total misstatements eventually put at about $11B. The effect was mechanical: expenses vanished from the income statement and reappeared as assets, turning losses into reported profits while cash told the truth the whole time. An internal auditor, Cynthia Cooper, unraveled it; the company filed what was then the largest bankruptcy in US history in July 2002, months after Enron's 2001 collapse (hidden liabilities in off-balance-sheet entities and aggressive mark-to-market gains). Congress responded with the Sarbanes-Oxley Act of 2002, which is why CEOs and CFOs now personally certify their financial statements.</p>
+    </div>
+
+    <p>The professional's posture is skepticism without cynicism. Most statements are honest. But every fraud in the record books was visible in advance to readers who checked whether profits were becoming cash, and every one punished readers who stopped at the income statement. You now know where to look. The next module puts these statements to work on the biggest question in finance: what is the business worth?</p>
+  </section>
+
+  <!-- ============================ 03.8 quiz ============================ -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">03.8</span> Knowledge check</h2>
+    <p class="lede">Ten questions, a mix of concepts and quick math. The mental arithmetic is deliberately friendly; the linkages are the point.</p>
+    <div id="quiz-root"></div>
+  </section>
+</main>
+
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+
+  /* ================= tool-linkage: three-statement ripple explorer ================= */
+  var IS_ROWS = [
+    { k: "rev",  label: "Revenue" },
+    { k: "opx",  label: "Operating costs" },
+    { k: "da",   label: "D&A" },
+    { k: "ebit", label: "EBIT", sub: true },
+    { k: "int",  label: "Interest expense" },
+    { k: "tax",  label: "Taxes (25%)" },
+    { k: "ni",   label: "Net income", sub: true }
+  ];
+  var CF_ROWS = [
+    { k: "ni",    label: "Net income" },
+    { k: "da",    label: "D&A add-back" },
+    { k: "ar",    label: "Change in receivables" },
+    { k: "cfo",   label: "Cash from operations", sub: true },
+    { k: "capex", label: "Capital expenditure" },
+    { k: "cfi",   label: "Cash from investing", sub: true },
+    { k: "debt",  label: "Debt issued (repaid)" },
+    { k: "div",   label: "Dividends paid" },
+    { k: "cff",   label: "Cash from financing", sub: true },
+    { k: "net",   label: "Net change in cash", sub: true }
+  ];
+  var BS_ROWS = [
+    { k: "cash", label: "Cash" },
+    { k: "ar",   label: "Receivables" },
+    { k: "ppe",  label: "PP&E, net" },
+    { k: "ta",   label: "Total assets", sub: true },
+    { k: "debt", label: "Debt" },
+    { k: "eq",   label: "Equity (retained earnings)" },
+    { k: "tle",  label: "Total liabilities + equity", sub: true }
+  ];
+
+  var SCENARIOS = {
+    sale: {
+      label: "+$100 sale on credit",
+      is: { rev: 100, ebit: 100, tax: -25, ni: 75 },
+      cf: { ni: 75, ar: -100, cfo: -25, net: -25 },
+      bs: { cash: -25, ar: 100, ta: 75, eq: 75, tle: 75 },
+      note: "Meridian ships $100 of goods and invoices the customer. Accrual accounting says the revenue is earned, so the income statement books $100 of sales and, after $25 of tax, $75 of net income. The customer has not paid yet, so the cash flow statement claws it back: $75 of profit minus a $100 build in receivables leaves cash from operations at ($25), which is just the tax paid in cash. On the balance sheet, receivables rise $100 while cash falls $25, so assets are up $75, matched exactly by $75 of retained earnings. Profitable on paper, poorer in cash."
+    },
+    dep: {
+      label: "+$100 depreciation",
+      is: { da: -100, ebit: -100, tax: 25, ni: -75 },
+      cf: { ni: -75, da: 100, cfo: 25, net: 25 },
+      bs: { cash: 25, ppe: -100, ta: -75, eq: -75, tle: -75 },
+      note: "Depreciation of $100 is a real expense but not a cash payment; the cash left years ago when the asset was bought. Pre-tax profit falls $100, the tax bill falls $25, so net income falls $75. The cash flow statement adds the whole $100 back because no cash moved, leaving operating cash flow up $25 (the tax saved). On the balance sheet, cash is up $25, PP&E is down $100, so assets fall $75, matched by $75 less retained earnings. This is the classic interview question, and the counterintuitive answer is that more depreciation means more cash."
+    },
+    capex: {
+      label: "Buy $500 machine with cash",
+      is: {},
+      cf: { capex: -500, cfi: -500, net: -500 },
+      bs: { cash: -500, ppe: 500, ta: 0, tle: 0 },
+      note: "Buying a $500 machine is not an expense; it swaps one asset (cash) for another (equipment), so the income statement shows nothing today. The cash flow statement records $500 out the door under investing activities. On the balance sheet, cash falls $500 and PP&E rises $500, so total assets are unchanged and the equation never wobbles. The income statement will feel this purchase later, as depreciation, spread over the machine's useful life."
+    },
+    debt: {
+      label: "Raise $200 of debt",
+      is: {},
+      cf: { debt: 200, cff: 200, net: 200 },
+      bs: { cash: 200, ta: 200, debt: 200, tle: 200 },
+      note: "Borrowing money is not income, so the income statement is untouched today (the interest will show up in future periods). The cash flow statement records $200 arriving through financing activities. The balance sheet grows on both sides: cash up $200 on the left, debt up $200 on the right. The company is bigger but not richer, and equity has not moved a dollar."
+    },
+    div: {
+      label: "Pay $150 dividend",
+      is: {},
+      cf: { div: -150, cff: -150, net: -150 },
+      bs: { cash: -150, ta: -150, eq: -150, tle: -150 },
+      note: "Dividends are a distribution of profit, not a cost of earning it, so they never touch the income statement. The cash flow statement shows $150 leaving through financing activities. On the balance sheet, cash falls $150 and retained earnings fall $150. The balance sheet shrinks on both sides: the company handed part of itself back to its owners."
+    }
+  };
+
+  function signed(v) { return (v > 0 ? "+" : "") + Atlas.fmt.money(v); }
+
+  function renderStmt(tbodyId, rows, deltas) {
+    var tb = document.getElementById(tbodyId);
+    tb.innerHTML = "";
+    rows.forEach(function (r) {
+      var has = Object.prototype.hasOwnProperty.call(deltas, r.k);
+      var tr = document.createElement("tr");
+      if (r.sub) tr.className = "acc-sub";
+      var td1 = document.createElement("td");
+      td1.textContent = r.label;
+      var td2 = document.createElement("td");
+      td2.className = "num";
+      if (has) {
+        var v = deltas[r.k];
+        tr.classList.add("acc-hit");
+        if (v > 0) { td2.textContent = signed(v); td2.classList.add("pos"); }
+        else if (v < 0) { td2.textContent = Atlas.fmt.money(v); td2.classList.add("neg"); }
+        else { td2.textContent = "$0"; }
+      } else {
+        td2.textContent = "·";
+        td2.classList.add("acc-dim");
+      }
+      tr.appendChild(td1);
+      tr.appendChild(td2);
+      tb.appendChild(tr);
+    });
+  }
+
+  function setScenario(id) {
+    var s = SCENARIOS[id];
+    if (!s) return;
+    renderStmt("acc-tb-is", IS_ROWS, s.is);
+    renderStmt("acc-tb-cf", CF_ROWS, s.cf);
+    renderStmt("acc-tb-bs", BS_ROWS, s.bs);
+
+    var nar = document.getElementById("acc-narrate");
+    nar.innerHTML = "";
+    var st = document.createElement("strong");
+    st.textContent = s.label + ". ";
+    nar.appendChild(st);
+    nar.appendChild(document.createTextNode(s.note));
+
+    var dA = s.bs.ta || 0;
+    var dLE = s.bs.tle || 0;
+    document.getElementById("acc-check").textContent =
+      "Balance check: assets " + signed(dA) + "  =  liabilities + equity " + signed(dLE) +
+      (dA === dLE ? "   ·  still balanced ✓" : "");
+
+    document.querySelectorAll("#tool-linkage .acc-scen-row .btn").forEach(function (b) {
+      b.classList.toggle("active", b.getAttribute("data-scen") === id);
+    });
+  }
+
+  document.querySelectorAll("#tool-linkage .acc-scen-row .btn").forEach(function (b) {
+    b.addEventListener("click", function () { setScenario(b.getAttribute("data-scen")); });
+  });
+  setScenario("sale");
+
+  /* ================= tool-ratios: ratio mini-lab ================= */
+  var rRev = Atlas.bind("acc-r-rev", function (v) { return Atlas.fmt.moneyM(v); });
+  var rEbd = Atlas.bind("acc-r-ebitda", function (v) { return Atlas.fmt.moneyM(v); });
+  var rNd  = Atlas.bind("acc-r-nd", function (v) { return Atlas.fmt.moneyM(v); });
+  var rEq  = Atlas.bind("acc-r-eq", function (v) { return Atlas.fmt.moneyM(v); });
+
+  Atlas.onInput(["acc-r-rev", "acc-r-ebitda", "acc-r-nd", "acc-r-eq"], function () {
+    var rev = Math.max(rRev.value, 1);
+    var ebitda = Math.min(rEbd.value, rev);        /* cap EBITDA at revenue */
+    var nd = rNd.value;
+    var eq = Math.max(rEq.value, 1);
+
+    var margin = ebitda / rev * 100;
+    var da = 0.05 * rev;
+    var interest = 0.06 * Math.max(nd, 0);
+    var pretax = ebitda - da - interest;
+    var ni = pretax > 0 ? pretax * 0.75 : pretax;  /* no tax benefit on losses */
+    var lev = nd / ebitda;
+    var roe = ni / eq * 100;
+
+    document.getElementById("acc-k-margin").textContent = Atlas.fmt.pct(margin, 1);
+    document.getElementById("acc-k-ni").textContent = Atlas.fmt.moneyM(Math.round(ni));
+    document.getElementById("acc-k-lev").textContent = nd < 0 ? "Net cash" : Atlas.fmt.mult(lev, 1);
+    document.getElementById("acc-k-roe").textContent = Atlas.fmt.pct(roe, 1);
+
+    var read;
+    if (ni < 0) {
+      read = "This configuration loses money: interest and D&A overwhelm EBITDA. Lenders would call this structure broken.";
+    } else if (nd < 0) {
+      read = "A net cash balance sheet: no leverage risk, and every point of ROE is earned by operations rather than borrowing.";
+    } else if (lev > 4.5) {
+      read = "Leverage above 4.5x EBITDA is deep in high-yield territory; note how borrowing inflates ROE while the operations are unchanged.";
+    } else if (lev > 2.5) {
+      read = "Moderate-to-full leverage. ROE is being helped by debt; check whether the margin justifies the balance sheet.";
+    } else {
+      read = "A conservative structure. ROE here mostly reflects genuine operating performance, not financial engineering.";
+    }
+    document.getElementById("acc-r-read").textContent = read;
+  });
+
+  /* ================= quiz ================= */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "A consulting firm signs a $1.2M engagement in March, delivers the work in April, and collects cash in June. Under accrual accounting, when is the revenue recognized?",
+      choices: ["March, when the contract is signed", "April, when the work is delivered", "June, when the cash arrives", "Spread evenly across all three months"],
+      answer: 1,
+      explain: "Accrual accounting recognizes revenue when it is earned (the work is delivered), not when the contract is signed or the cash shows up."
+    },
+    {
+      q: "Which statement answers the question: what does the company own and owe at this exact moment?",
+      choices: ["The income statement", "The cash flow statement", "The balance sheet", "The auditor's opinion letter"],
+      answer: 2,
+      explain: "The balance sheet is the snapshot of position at an instant; the other two statements describe flows over a period."
+    },
+    {
+      q: "Revenue is $800M and cost of goods sold is $480M. What is the gross margin?",
+      choices: ["35%", "40%", "45%", "60%"],
+      answer: 1,
+      explain: "Gross profit is $800M less $480M, or $320M, and $320M / $800M = 40%."
+    },
+    {
+      q: "Depreciation rises by $100 and the tax rate is 25%. What happens to cash?",
+      choices: ["Falls by $100", "Falls by $75", "Rises by $25", "No change"],
+      answer: 2,
+      explain: "Net income falls $75, but the full $100 is added back on the cash flow statement because no cash moved, so cash rises by the $25 of tax saved."
+    },
+    {
+      q: "A company buys a $500 machine with cash. Where does the purchase itself appear?",
+      choices: ["On the income statement, as an expense", "In the operating section of the cash flow statement", "In the investing section of the cash flow statement", "In the financing section of the cash flow statement"],
+      answer: 2,
+      explain: "Capital expenditure is an investing outflow; the income statement only feels the machine later, through depreciation."
+    },
+    {
+      q: "Net income is $50, D&A is $20, receivables rose $30, and payables rose $10. What is cash from operations?",
+      choices: ["$30", "$50", "$70", "$110"],
+      answer: 1,
+      explain: "Start at $50, add $20 of non-cash D&A, subtract the $30 trapped in receivables, add the $10 of supplier financing: $50."
+    },
+    {
+      q: "EBITDA is $200M, total debt is $560M, and cash is $60M. What is net leverage?",
+      choices: ["2.5x", "2.8x", "3.5x", "0.4x"],
+      answer: 0,
+      explain: "Net debt is $560M less $60M of cash, or $500M, and $500M / $200M of EBITDA = 2.5x."
+    },
+    {
+      q: "A company pays a $150 dividend. What happens to net income?",
+      choices: ["It falls by $150", "It falls by $112.50 after tax", "Nothing", "It rises, because equity gets cheaper"],
+      answer: 2,
+      explain: "Dividends are a distribution of profit to owners, not a cost of earning it, so they never touch the income statement; cash and retained earnings absorb the hit."
+    },
+    {
+      q: "Current assets are $300M and current liabilities are $150M. What is the current ratio?",
+      choices: ["0.5x", "1.5x", "2.0x", "$150M"],
+      answer: 2,
+      explain: "$300M / $150M = 2.0x, meaning short-term assets cover short-term obligations twice over."
+    },
+    {
+      q: "Revenue grew 10%, but receivable days jumped from 45 to 80 and operating cash flow turned negative while net income hit a record. The most likely story?",
+      choices: ["Healthy growth, nothing to check", "Channel stuffing or aggressive revenue recognition", "Depreciation is running too high", "The company holds too much cash"],
+      answer: 1,
+      explain: "Sales booked far ahead of cash collected is the classic signature of channel stuffing and pulled-forward revenue; the cash flow statement is the lie detector."
+    }
+  ]);
+});
+</script>
+</body>
+</html>

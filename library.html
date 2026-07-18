@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-page="library" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KPI & Valuation Library · Industry Atlas</title>
+<meta name="description" content="Every KPI with definition, formula, healthy and warning ranges, benchmarks, and lenses; plus industry valuation methods.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas2-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t||"dark");})();</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c98500%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-weight=%22bold%22 fill=%22white%22>IA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css?v=3">
+</head>
+<body>
+<main class="wrap page-pad">
+  <header style="margin-bottom:18px">
+    <span class="kicker">The library</span>
+    <h1>KPIs &amp; valuation methods</h1>
+    <p class="lede">The measurement layer of the atlas: every metric with its definition, formula, healthy and
+      warning bands, benchmark, what investors and operators each do with it, and the classic mistakes.</p>
+  </header>
+
+  <input type="search" id="lib-search" class="search-input" placeholder="Search metrics: NRR, combined ratio, AISC…" aria-label="Search KPIs">
+  <div class="filter-pills" id="lib-pills" style="margin-top:14px"></div>
+  <p class="small faint" id="lib-count"></p>
+  <div class="kpi-grid" id="lib-grid"></div>
+
+  <hr>
+  <h2>Valuation methods by industry</h2>
+  <p class="lede">How each profiled industry actually gets valued, with the honesty rows: when NOT to use each method.</p>
+  <div id="vm-all"></div>
+</main>
+
+<script src="assets/data/taxonomy.js?v=3"></script>
+<script src="assets/data/graph.js?v=3"></script>
+<script src="assets/data/kpis.js?v=3"></script>
+<script src="assets/data/countries.js?v=3"></script>
+<script src="assets/data/companies.js?v=3"></script>
+<script src="assets/data/industries/semiconductors.js?v=3"></script>
+<script src="assets/data/industries/cloud.js?v=3"></script>
+<script src="assets/data/industries/banking.js?v=3"></script>
+<script src="assets/data/industries/copper-mining.js?v=3"></script>
+<script src="assets/data/industries/insurance.js?v=3"></script>
+<script src="assets/js/core.js?v=3"></script>
+<script src="assets/js/viz.js?v=3"></script>
+<script src="assets/js/assistant.js?v=3"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+  var esc = Atlas.esc;
+  var ALL = Atlas.store.kpis;
+  var activeInd = "All", q = "";
+
+  /* industry filter pills, from KPI tags */
+  var tags = [];
+  ALL.forEach(function (k) { (k.industries || []).forEach(function (i) { if (tags.indexOf(i) === -1) tags.push(i); }); });
+  tags.sort();
+  var pills = document.getElementById("lib-pills");
+  function renderPills() {
+    pills.innerHTML = ['All'].concat(tags).map(function (t) {
+      var name = t === "All" ? "All" : (Atlas.store.industryById[t] ? Atlas.store.industryById[t].name : t);
+      return '<button class="filter-pill' + (t === activeInd ? " active" : "") + '" data-t="' + t + '">' + esc(name) + "</button>";
+    }).join("");
+  }
+  pills.addEventListener("click", function (e) {
+    var b = e.target.closest(".filter-pill");
+    if (!b) return;
+    activeInd = b.getAttribute("data-t");
+    renderPills(); render();
+  });
+
+  function render() {
+    var ql = q.toLowerCase();
+    var shown = ALL.filter(function (k) {
+      if (activeInd !== "All" && (k.industries || []).indexOf(activeInd) === -1) return false;
+      if (!ql) return true;
+      return (k.name + " " + k.definition + " " + (k.formula || "")).toLowerCase().indexOf(ql) !== -1;
+    });
+    document.getElementById("lib-grid").innerHTML = shown.map(Viz.kpiCard).join("") || '<p class="muted">No matches.</p>';
+    document.getElementById("lib-count").textContent = "Showing " + shown.length + " of " + ALL.length + " metrics";
+    if (location.hash) {
+      var t = document.getElementById(location.hash.slice(1));
+      if (t) t.scrollIntoView({ block: "center" });
+    }
+  }
+  document.getElementById("lib-search").addEventListener("input", function (e) { q = e.target.value; render(); });
+  renderPills(); render();
+
+  /* valuation methods across loaded modules */
+  var vmAll = document.getElementById("vm-all");
+  Object.keys(Atlas.store.modules).forEach(function (mid) {
+    var m = Atlas.store.modules[mid];
+    if (!m.valuation) return;
+    var h = '<h3 style="margin-top:1.6rem"><a href="industry.html?id=' + mid + '#valuation">' + esc(m.meta.name) + "</a></h3>" +
+      '<div class="vm-grid">' + m.valuation.methods.map(function (v) {
+        var r = v.range && (v.range.low || v.range.high) ? '<div class="vm-range">' + v.range.low + "x to " + v.range.high + "x · " + esc(v.range.note || "") + "</div>" : '<div class="vm-range">' + esc((v.range && v.range.note) || "") + "</div>";
+        return '<div class="vm-card"><div class="vm-name">' + esc(v.name) + "</div>" + r +
+          '<div class="vm-row use"><b>Use when</b> ' + esc(v.use) + "</div>" +
+          '<div class="vm-row avoid"><b>Avoid when</b> ' + esc(v.avoid) + "</div></div>";
+      }).join("") + "</div>";
+    vmAll.insertAdjacentHTML("beforeend", h);
+  });
+});
+</script>
+</body>
+</html>

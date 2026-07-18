@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" data-page="graph" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Knowledge Graph · Industry Atlas</title>
+<meta name="description" content="The force-directed knowledge graph of the global economy: industries as nodes, typed dependencies as edges.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas2-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t||"dark");})();</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c98500%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-weight=%22bold%22 fill=%22white%22>IA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css?v=3">
+</head>
+<body>
+<main class="wrap page-pad">
+  <header style="margin-bottom:18px">
+    <span class="kicker">The graph</span>
+    <h1>One economy, fully connected</h1>
+    <p class="lede">Industries cluster by sector (each with its icon), sized by how connected they are. Edges are
+      typed dependencies. Drag nodes, scroll to zoom, click for a dossier, or use the filters to isolate one
+      sector or one kind of flow.</p>
+  </header>
+
+  <div class="panel">
+    <div class="panel-head">
+      <div class="gsearch"><span class="hs-icon">⌕</span>
+        <input type="search" id="gjump" placeholder="Jump to industry…" aria-label="Jump to industry">
+        <div class="hs-results" id="gjump-results"></div>
+      </div>
+      <span class="lens-label">Edge type</span>
+      <div class="gfilter" id="type-filter"></div>
+      <span style="margin-left:auto" class="small faint" id="graph-count"></span>
+    </div>
+    <div class="panel-head" style="border-top:0;padding-top:0">
+      <span class="lens-label">Sector</span>
+      <div class="gfilter" id="sector-filter"></div>
+    </div>
+    <div class="panel-body">
+      <canvas class="graph-canvas" id="gcanvas"></canvas>
+      <aside class="graph-side" id="gside"></aside>
+    </div>
+  </div>
+
+  <div class="legend" style="margin-top:14px" id="sector-legend"></div>
+
+  <div class="callout callout-key" style="max-width:860px">
+    <p>Try this: click <strong>Semiconductors</strong> and watch the economy light up around it, then filter to
+      <strong>Geopolitics</strong> edges to see where nations lean on the machine. The example chain from the
+      home page (AI → cloud → power → copper → shipping → banking) is all here, walkable in both directions.</p>
+  </div>
+</main>
+
+<script src="assets/data/taxonomy.js?v=3"></script>
+<script src="assets/data/graph.js?v=3"></script>
+<script src="assets/data/kpis.js?v=3"></script>
+<script src="assets/data/countries.js?v=3"></script>
+<script src="assets/data/companies.js?v=3"></script>
+<script src="assets/data/industries/semiconductors.js?v=3"></script>
+<script src="assets/data/industries/cloud.js?v=3"></script>
+<script src="assets/data/industries/banking.js?v=3"></script>
+<script src="assets/data/industries/copper-mining.js?v=3"></script>
+<script src="assets/data/industries/insurance.js?v=3"></script>
+<script src="assets/js/core.js?v=3"></script>
+<script src="assets/js/viz.js?v=3"></script>
+<script src="assets/js/assistant.js?v=3"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+  var esc = Atlas.esc;
+  var edges = Atlas.store.graph.edges;
+
+  /* degree-sized nodes */
+  var degree = {};
+  edges.forEach(function (e) { degree[e.from] = (degree[e.from] || 0) + 1; degree[e.to] = (degree[e.to] || 0) + 1; });
+  var nodes = Atlas.store.industries.map(function (i) {
+    var s = Atlas.store.sectorById[i.sector];
+    return { id: i.id, label: i.name, color: s.color, icon: s.icon, size: Math.min(5, 1 + (degree[i.id] || 0) / 3), sector: i.sector };
+  });
+  document.getElementById("graph-count").textContent = nodes.length + " nodes · " + edges.length + " edges";
+
+  var side = document.getElementById("gside");
+  function showNode(n) {
+    if (!n) { side.classList.remove("open"); return; }
+    var ind = Atlas.store.industryById[n.id];
+    var conns = Atlas.edgesFor(n.id);
+    side.innerHTML = "<h4>" + esc(ind.name) + "</h4>" +
+      '<p class="small muted" style="margin-bottom:8px">' + esc(ind.blurb) + "</p>" +
+      '<a class="btn btn-sm btn-primary" href="industry.html?id=' + n.id + '">Open profile →</a>' +
+      '<div style="margin-top:12px">' + conns.slice(0, 12).map(function (e) {
+        var other = e.from === n.id ? e.to : e.from;
+        var et = Atlas.EDGE_TYPES[e.type] || {};
+        var o = Atlas.store.industryById[other];
+        return '<div class="cp-row"><span class="k" style="color:' + et.raw + '">' + (et.label || e.type) + '</span><span class="v"><a href="industry.html?id=' + other + '">' + esc(o ? o.name : other) + "</a></span></div>";
+      }).join("") + (conns.length > 12 ? '<p class="small faint">+ ' + (conns.length - 12) + " more on the profile page</p>" : "") + "</div>";
+    side.classList.add("open");
+  }
+
+  var g = Viz.forceGraph(document.getElementById("gcanvas"), {
+    nodes: nodes, edges: edges, labelMin: 3,
+    focus: Atlas.param("focus"),
+    onSelect: showNode
+  });
+  if (Atlas.param("focus")) {
+    var f = Atlas.store.industryById[Atlas.param("focus")];
+    if (f) showNode({ id: f.id });
+  }
+
+  /* edge-type filter */
+  var tf = document.getElementById("type-filter");
+  var types = Object.keys(Atlas.EDGE_TYPES);
+  function pill(label, value, color) {
+    var b = document.createElement("button");
+    b.className = "lens" + (value === null ? " on" : "");
+    b.textContent = label;
+    if (color) b.style.color = color;
+    b.addEventListener("click", function () {
+      tf.querySelectorAll(".lens").forEach(function (x) { x.classList.remove("on"); });
+      b.classList.add("on");
+      g.filterType(value);
+    });
+    return b;
+  }
+  tf.appendChild(pill("All", null));
+  types.forEach(function (t) { tf.appendChild(pill(Atlas.EDGE_TYPES[t].label, t, Atlas.EDGE_TYPES[t].raw)); });
+
+  /* sector filter pills */
+  var sf = document.getElementById("sector-filter");
+  function spill(label, value, color, icon) {
+    var b = document.createElement("button");
+    b.className = "lens" + (value === null ? " on" : "");
+    b.textContent = (icon ? icon + " " : "") + label;
+    if (color) b.style.color = color;
+    b.addEventListener("click", function () {
+      sf.querySelectorAll(".lens").forEach(function (x) { x.classList.remove("on"); });
+      b.classList.add("on");
+      g.filterSector(value);
+    });
+    return b;
+  }
+  sf.appendChild(spill("All", null));
+  Atlas.store.sectors.forEach(function (s) { sf.appendChild(spill(s.name.split(",")[0].split(" &")[0], s.id, s.color, s.icon)); });
+
+  /* jump-to-industry search */
+  var jump = document.getElementById("gjump");
+  var jumpBox = document.getElementById("gjump-results");
+  function renderJump() {
+    var q = jump.value.trim().toLowerCase();
+    if (!q) { jumpBox.classList.remove("open"); return; }
+    var hits = Atlas.store.industries.filter(function (i) {
+      return i.name.toLowerCase().indexOf(q) !== -1 || (i.aliases || []).join(" ").toLowerCase().indexOf(q) !== -1;
+    }).slice(0, 8);
+    if (!hits.length) { jumpBox.classList.remove("open"); return; }
+    jumpBox.innerHTML = hits.map(function (i) {
+      var s = Atlas.store.sectorById[i.sector];
+      return '<a class="hs-item" href="#" data-jump="' + i.id + '"><span class="hs-kind">' + (s.icon || "") + '</span><span>' + esc(i.name) + "</span></a>";
+    }).join("");
+    jumpBox.classList.add("open");
+  }
+  jump.addEventListener("input", renderJump);
+  jumpBox.addEventListener("click", function (e) {
+    var a = e.target.closest("[data-jump]");
+    if (!a) return;
+    e.preventDefault();
+    g.select(a.getAttribute("data-jump"));
+    jumpBox.classList.remove("open");
+    jump.value = "";
+  });
+
+  /* sector legend */
+  document.getElementById("sector-legend").innerHTML = Atlas.store.sectors.map(function (s) {
+    return '<span>' + (s.icon || "") + ' <i style="background:' + s.color + '"></i>' + esc(s.name) + "</span>";
+  }).join("");
+});
+</script>
+</body>
+</html>

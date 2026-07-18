@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-page="map" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Map · Industry Atlas</title>
+<meta name="description" content="The global economy by country: GDP, exports, resources, energy mix, and the industries each nation anchors.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas2-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t||"dark");})();</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c98500%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-weight=%22bold%22 fill=%22white%22>IA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css?v=3">
+</head>
+<body>
+<main class="wrap page-pad">
+  <header style="margin-bottom:18px">
+    <span class="kicker">The map</span>
+    <h1>Where the economy lives</h1>
+    <p class="lede">A real world map (Natural Earth geometry, rendered without any library). The
+      <span class="map-dot" style="background:color-mix(in srgb, var(--brand-strong) 34%, var(--surface-3))"></span>
+      highlighted countries have atlas profiles: click one for GDP, exports, resources, energy mix, and the
+      industries it anchors. Dots mark economies too small to click at this scale (hello, Singapore).</p>
+  </header>
+
+  <div class="map-grid">
+    <div class="panel"><div class="panel-body" style="padding:14px" id="worldmap"></div>
+      <p class="map-hint" style="padding:0 16px 12px">44 profiled economies · hover any country for its name · Phase 3 wires World Bank live data into this map.</p>
+    </div>
+    <div class="panel country-panel" style="padding:18px 20px" id="cpanel">
+      <p class="muted">Select a highlighted country to open its profile.</p>
+    </div>
+  </div>
+</main>
+
+<script src="assets/data/taxonomy.js?v=3"></script>
+<script src="assets/data/graph.js?v=3"></script>
+<script src="assets/data/kpis.js?v=3"></script>
+<script src="assets/data/countries.js?v=3"></script>
+<script src="assets/data/companies.js?v=3"></script>
+<script src="assets/data/industries/semiconductors.js?v=3"></script>
+<script src="assets/data/industries/cloud.js?v=3"></script>
+<script src="assets/data/industries/banking.js?v=3"></script>
+<script src="assets/data/industries/copper-mining.js?v=3"></script>
+<script src="assets/data/industries/insurance.js?v=3"></script>
+<script src="assets/js/core.js?v=3"></script>
+<script src="assets/js/viz.js?v=3"></script>
+<script src="assets/js/assistant.js?v=3"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+  var esc = Atlas.esc;
+  var panel = document.getElementById("cpanel");
+
+  function row(k, v) { return '<div class="cp-row"><span class="k">' + k + '</span><span class="v">' + v + "</span></div>"; }
+
+  function show(c) {
+    var links = (c.strengths || []).map(function (id) { return Atlas.indLink(id); }).join(" · ");
+    panel.innerHTML =
+      "<h3>" + esc(c.name) + ' <span class="pill">' + esc(c.code) + "</span></h3>" +
+      '<p class="small muted" style="margin:4px 0 12px">' + esc(c.note) + "</p>" +
+      row("GDP (2024, approx)", esc(c.gdp)) +
+      row("Population", esc(c.pop)) +
+      row("Currency", esc(c.currency)) +
+      row("Key exports", esc(c.exports)) +
+      row("Resources", esc(c.resources)) +
+      row("Energy mix", esc(c.energy)) +
+      '<div style="margin-top:12px"><span class="lens-label">Anchor industries</span><p class="small" style="margin-top:6px">' + links + "</p></div>" +
+      '<p class="figure-note">Figures are rounded estimates for orientation; the Phase 3 World Bank adapter replaces them with live data.</p>';
+    location.hash = c.code;
+  }
+
+  var mount = document.getElementById("worldmap");
+  var api = Viz.geoMap(mount, {
+    url: "assets/data/world-110m.json",
+    countries: Atlas.store.countries,
+    onSelect: show,
+    onError: function () {
+      /* offline or file:// fallback: the tile cartogram still works everywhere */
+      api = Viz.tileMap(mount, Atlas.store.countries, show);
+      selectInitial();
+    }
+  });
+
+  function selectInitial() {
+    var initial = (location.hash || "").replace("#", "");
+    if (initial && Atlas.store.countries.some(function (c) { return c.code === initial; })) api.select(initial);
+    else api.select("US");
+  }
+  selectInitial();
+});
+</script>
+</body>
+</html>

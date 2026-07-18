@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en" data-module="capital-markets" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capital Markets · Capital Atlas</title>
+<meta name="description" content="The IPO process end to end, bond math with a live price-yield seesaw, credit ratings and leveraged finance, a derivatives primer with an option payoff builder, and how trading actually works.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .cm-badge { display: inline-block; font-size: 0.72rem; font-weight: 750; letter-spacing: 0.07em;
+    text-transform: uppercase; border: 1px solid currentColor; border-radius: 999px; padding: 3px 10px; }
+  .cm-prem { color: var(--viz-1); }
+  .cm-disc { color: var(--viz-8); }
+  .cm-par  { color: var(--ink-3); }
+  .cm-flat { box-shadow: none; border: 0; background: transparent; padding: 0; margin: 12px 0 0; }
+  .cm-best td { font-weight: 700; }
+  .cm-spread-row td { text-align: center; font-size: 0.8rem; color: var(--ink-3);
+    background: var(--surface-2); font-style: italic; }
+  .cm-scenarios { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+  .cm-scenarios .btn { padding: 5px 10px; font-size: 0.79rem; }
+</style>
+</head>
+<body>
+<main>
+  <header class="module-hero">
+    <span class="kicker">Module 08 · Core</span>
+    <h1>Capital Markets</h1>
+    <p class="hero-tagline">Where companies meet investors: how equity and debt get issued, priced, and traded, and what all those derivatives are actually for. This is the machinery every other module quietly assumes.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <!-- ================= 08.1 PRIMARY VS SECONDARY ================= -->
+  <section class="lesson" id="primary-vs-secondary">
+    <h2><span class="sec-num">08.1</span> Primary and secondary markets</h2>
+    <p class="lede">Capital markets do exactly two jobs. In the primary market, companies and governments sell brand-new securities and walk away with cash. In the secondary market, investors trade those securities with each other, and the issuer does not see a dime. Almost everything you watch on a market screen is the second kind, yet the first kind is why any of it exists.</p>
+
+    <div class="grid-2">
+      <div class="card card-accent">
+        <h4>Primary market</h4>
+        <p class="small muted">New securities, new cash. An IPO, a follow-on stock offering, a bond issue, a private placement. The issuer sets the terms with its bankers, investors hand over money, and the company's balance sheet actually changes. Primary activity is lumpy: it spikes when markets are calm and confident, and slams shut when they are not.</p>
+      </div>
+      <div class="card">
+        <h4>Secondary market</h4>
+        <p class="small muted">Used securities changing hands. A pension fund sells 50,000 shares to a hedge fund on an exchange; a dealer trades a corporate bond over the counter. The issuer receives nothing, but it watches obsessively, because the secondary price is the scoreboard that sets the terms of its next primary raise.</p>
+      </div>
+    </div>
+
+    <div class="figure">
+      <p class="figure-title">Two markets, one security</p>
+      <p class="figure-sub">Cash reaches the company exactly once. Every trade after that is investors reshuffling among themselves.</p>
+      <svg viewBox="0 0 720 250" role="img" aria-label="Diagram contrasting the primary market, where an issuer sells new shares to investors for cash, with the secondary market, where investors trade shares and cash between themselves while the issuer receives nothing.">
+        <defs>
+          <marker id="cmA1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--viz-1)"></path></marker>
+          <marker id="cmA2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--viz-2)"></path></marker>
+        </defs>
+        <text x="190" y="26" text-anchor="middle" class="lbl" font-size="14">Primary market</text>
+        <text x="190" y="44" text-anchor="middle" class="lbl-muted">new securities for new cash</text>
+        <rect x="70" y="58" width="240" height="52" rx="10" fill="color-mix(in srgb, var(--viz-1) 12%, var(--surface-1))" stroke="var(--viz-1)"></rect>
+        <text x="190" y="80" text-anchor="middle" class="lbl" font-size="13">Meridian Grid Software</text>
+        <text x="190" y="98" text-anchor="middle" class="lbl-muted">the issuer</text>
+        <rect x="70" y="176" width="240" height="52" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="190" y="198" text-anchor="middle" class="lbl" font-size="13">Investors</text>
+        <text x="190" y="216" text-anchor="middle" class="lbl-muted">funds, institutions, you</text>
+        <path d="M140 112 V 170" stroke="var(--viz-1)" stroke-width="2" fill="none" marker-end="url(#cmA1)"></path>
+        <text x="130" y="145" text-anchor="end" font-size="11.5" fill="var(--ink-2)" font-weight="600">new shares</text>
+        <path d="M240 174 V 116" stroke="var(--viz-2)" stroke-width="2" fill="none" marker-end="url(#cmA2)"></path>
+        <text x="250" y="145" text-anchor="start" font-size="11.5" fill="var(--ink-2)" font-weight="600">cash</text>
+        <line x1="360" y1="20" x2="360" y2="232" class="gridline"></line>
+        <text x="545" y="26" text-anchor="middle" class="lbl" font-size="14">Secondary market</text>
+        <text x="545" y="44" text-anchor="middle" class="lbl-muted">investors trade with each other</text>
+        <rect x="400" y="58" width="115" height="52" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="457" y="88" text-anchor="middle" class="lbl" font-size="13">Investor A</text>
+        <rect x="575" y="58" width="115" height="52" rx="10" fill="var(--surface-2)" stroke="var(--axis)"></rect>
+        <text x="632" y="88" text-anchor="middle" class="lbl" font-size="13">Investor B</text>
+        <path d="M519 74 H 571" stroke="var(--viz-1)" stroke-width="2" fill="none" marker-end="url(#cmA1)"></path>
+        <text x="545" y="66" text-anchor="middle" font-size="11" fill="var(--ink-2)" font-weight="600">shares</text>
+        <path d="M571 96 H 519" stroke="var(--viz-2)" stroke-width="2" fill="none" marker-end="url(#cmA2)"></path>
+        <text x="545" y="112" text-anchor="middle" font-size="11" fill="var(--ink-2)" font-weight="600">cash</text>
+        <rect x="430" y="170" width="230" height="54" rx="10" fill="var(--surface-2)" stroke="var(--axis)" stroke-dasharray="5 4"></rect>
+        <text x="545" y="192" text-anchor="middle" class="lbl" font-size="13">The issuer</text>
+        <text x="545" y="210" text-anchor="middle" class="lbl-muted">gets no new cash from these trades</text>
+      </svg>
+      <p class="figure-note">Secondary prices still matter enormously to the issuer: they mark the value of employee equity, set the exchange ratio in stock deals, and price the next raise.</p>
+    </div>
+
+    <p>Here is the connection people miss. Investors pay more, today, for anything they can sell quickly tomorrow. A share that trades a few cents wide, millions of times a day, carries almost no exit risk, so investors accept a lower expected return to own it. A lower required return is, from the issuer's side of the table, a cheaper cost of capital. Stakes in private companies routinely change hands at discounts of roughly 20% to 30% versus comparable public ones, and illiquidity is a large part of that gap.</p>
+    <p>So the secondary market is not a casino bolted onto the "real" market. It is the feature that makes primary raising cheap. Every improvement in secondary liquidity (tighter spreads, deeper books, more participants) flows backward into better terms for the next company that needs money.</p>
+
+    <div class="callout-tip callout">
+      <p>The secondary market is the primary market's subsidy. Nobody would pay full price for a security they could never resell, so the daily churn of trading, which raises the issuer nothing directly, is precisely what lets the issuer raise money cheaply when it wants to. Judge a market by its exits, not its entrances.</p>
+    </div>
+  </section>
+
+  <!-- ================= 08.2 EQUITY: THE IPO ================= -->
+  <section class="lesson" id="equity-ipo">
+    <h2><span class="sec-num">08.2</span> The IPO, end to end</h2>
+    <p class="lede">An initial public offering (IPO) is the most theatrical event in finance: a private company sells shares to the public for the first time and becomes a listed stock. Underneath the bell-ringing is a 6-month industrial process with a well-worn script. Here it is, step by step, followed by the economics of who gets paid.</p>
+
+    <ol class="timeline">
+      <li>
+        <div class="timeline-when">T minus 6 months</div>
+        <div class="timeline-title">The pitch and the bakeoff</div>
+        <div class="timeline-body">Banks compete for the mandate in a beauty contest called a bakeoff. Each pitches its valuation view (usually flattering), its research franchise, and its league-table credentials. The company picks 2 to 4 lead bookrunners plus a tail of co-managers. No fees are paid yet; banks work on spec for months.</div>
+      </li>
+      <li>
+        <div class="timeline-when">T minus 5 months</div>
+        <div class="timeline-title">Organizational meeting</div>
+        <div class="timeline-body">The all-hands kickoff. Management, bankers, two sets of lawyers (company counsel and underwriters' counsel), and the auditors agree on the timetable, workstreams, and who drafts what. From here the deal runs on weekly checklists.</div>
+      </li>
+      <li>
+        <div class="timeline-when">T minus 4 to 2 months</div>
+        <div class="timeline-title">Drafting the S-1</div>
+        <div class="timeline-body">The S-1 is the registration statement filed with the SEC: audited financials, the business story, use of proceeds, and a famously grim risk-factors section. Most companies file confidentially first (allowed since the JOBS Act of 2012), absorb 2 or 3 rounds of SEC comment letters, then flip the filing public a few weeks before launch.</div>
+      </li>
+      <li>
+        <div class="timeline-when">T minus 2 weeks</div>
+        <div class="timeline-title">The roadshow</div>
+        <div class="timeline-body">Management and the bookrunners tour institutional investors for 7 to 10 days, giving the same 45-minute pitch 60 or more times, city after city (much of it now by video). A preliminary price range, say $16 to $18, anchors the conversation.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Roadshow, continuously</div>
+        <div class="timeline-title">Bookbuilding</div>
+        <div class="timeline-body">As meetings happen, investors submit indications of interest: how many shares, and at what price, they would buy. The bookrunners assemble these into the order book. A healthy deal is "multiple times oversubscribed," which is both real demand and, since everyone inflates orders expecting to be cut back, a bit of theater.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Pricing night</div>
+        <div class="timeline-title">Pricing</div>
+        <div class="timeline-body">The evening before trading, the pricing committee and the bookrunners set the final price and deal size off the book. The tension is permanent: price high and maximize proceeds, or price a little low and buy a strong first day. Banks also hold a greenshoe, an option to sell 15% extra shares, which they use to stabilize the stock if it wobbles.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Day 1</div>
+        <div class="timeline-title">First trade</div>
+        <div class="timeline-body">The stock does not open at 9:30. The exchange runs an opening auction that can take hours as buy and sell interest is balanced, then the first print hits the tape. The gap between the offer price and that first trade is the pop, or occasionally the flop.</div>
+      </li>
+      <li>
+        <div class="timeline-when">Day ~180</div>
+        <div class="timeline-title">Lockup expiry</div>
+        <div class="timeline-body">Insiders and pre-IPO investors are contractually barred from selling for about 180 days. When the lockup expires, a wall of potential supply hits the market, and stocks often sag into that date. Only after this do founders actually get liquid.</div>
+      </li>
+    </ol>
+
+    <h3>Underwriting economics: the gross spread</h3>
+    <p>Underwriters are paid the gross spread: a discount to the offer price on every share they sell. The folk number is 7%, and mid-sized US IPOs really do cluster there with suspicious precision. The spread slides down as deals get bigger, to roughly 3.5% to 5% on $1B+ offerings and as low as 1% to 2% on the true mega-deals, where banks accept thin percentages for the league-table glory. The spread is conventionally split three ways: about 20% management fee (for running the deal), 20% underwriting fee (for briefly bearing risk), and 60% selling concession (paid to whoever places the shares).</p>
+
+    <div class="formula">Net to company = Shares sold × Offer price × (1 - Gross spread)</div>
+
+    <div class="callout-example callout">
+      <p><strong>Meridian Grid Software goes public.</strong> Meridian sells 20M new shares at $18.00, a $360M raise. With a 7% gross spread, the syndicate keeps $25.2M ($1.26 per share), so Meridian nets $16.74 per share, or $334.8M. The split: roughly $5M management fee, $5M underwriting fee, and $15.1M in selling concessions. Add $4M to $8M of legal, audit, and listing costs, and Meridian's all-in bill runs near $30M to $33M, before counting a single dollar of underpricing.</p>
+    </div>
+
+    <h3>The pop: why IPOs are priced to jump</h3>
+    <p>US IPOs have historically opened about 15% to 20% above their offer price on average, and in hot stretches like 2020 and 2021 the average first-day gain ran roughly 40%. That is not a pricing accident repeated for decades. Bookbuilding rewards investors for honestly revealing demand, and the reward is an allocation at a price everyone expects to be low. Banks allocate hot deals to their best repeat clients, and issuers themselves often prefer a strong debut, treating the pop as marketing.</p>
+    <p>Follow the money, though. The winners are the institutions that received shares at the offer price and can sell into the open, plus the banks whose buy-side clients just got a gift. The loser is the company (and any selling shareholders), which sold stock for less than the market immediately proved it was worth. Money left on the table is the shortfall: shares sold times the gap between offer and first-day close.</p>
+
+    <div class="callout-case callout">
+      <p><strong>Snowflake, 2020.</strong> The data-warehousing company priced its IPO at $120, above an already-raised range, collecting roughly $3.4B in the largest software IPO to date. The stock opened around $245 and closed near $254, up roughly 110% in a day. By the money-left-on-the-table arithmetic, Snowflake sold shares for billions less than day-1 buyers were willing to pay, a gap most estimates put near $4B. A perfect debut on television; an expensive one on the balance sheet.</p>
+    </div>
+
+    <h3>The alternatives</h3>
+    <p>The traditional IPO's costs pushed some companies toward two other doors onto the public market. Neither killed the IPO, but both reshaped its pricing conversation.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th></th><th>Traditional IPO</th><th>Direct listing</th><th>SPAC merger</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Fresh capital raised</td><td>Yes, new shares sold</td><td>No in the classic form (rules now permit a raise)</td><td>Yes, from the SPAC's trust plus a PIPE side-raise</td></tr>
+          <tr><td>Fees</td><td>Gross spread, roughly 3.5% to 7%</td><td>Flat advisory fees, no spread</td><td>Sponsor promote of about 20% of SPAC shares plus fees; often the priciest path</td></tr>
+          <tr><td>Price set by</td><td>Bookbuilding with institutions</td><td>The exchange's opening auction</td><td>Negotiation with the sponsor</td></tr>
+          <tr><td>Lockup</td><td>Typically 180 days</td><td>Usually none</td><td>Varies by deal</td></tr>
+          <tr><td>Best suited to</td><td>Companies that need capital and a marketed debut</td><td>Famous names with cash and patient insiders</td><td>Speed, and companies that want to market forecasts</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= 08.3 BONDS ================= -->
+  <section class="lesson" id="bonds">
+    <h2><span class="sec-num">08.3</span> Bonds and the price-yield seesaw</h2>
+    <p class="lede">A bond is a loan chopped into securities. The debt market dwarfs the stock market, yet it runs on one piece of arithmetic that trips up almost everyone at first: when market yields rise, bond prices fall, mechanically, like a seesaw. Master four words and one formula and the whole asset class opens up.</p>
+
+    <div class="grid-4">
+      <div class="card"><h4>Face (par)</h4><p class="small muted">The amount repaid at the end, $1,000 by convention for corporates. Prices are quoted against it: "trading at 96" means $960.</p></div>
+      <div class="card"><h4>Coupon</h4><p class="small muted">The fixed annual interest, as a % of face. A 5% coupon pays $50 a year, usually $25 every 6 months in the US. Set once at issue, never changes.</p></div>
+      <div class="card"><h4>Maturity</h4><p class="small muted">When the face amount comes back. Anything from 1 year to 30-year corporates and even 100-year curiosities.</p></div>
+      <div class="card"><h4>Yield (YTM)</h4><p class="small muted">The single discount rate that makes the bond's future cash flows worth today's price. It is the market's live, required return, and it moves every minute.</p></div>
+    </div>
+
+    <p>The price of a bond is just the present value of its remaining cash flows, discounted at the market yield. With semiannual coupons:</p>
+
+    <div class="formula">Price = Σ (Coupon / 2) / (1 + y/2)^t  +  Face / (1 + y/2)^(2T)     for t = 1 ... 2T</div>
+
+    <p>The coupon is frozen at issue; the yield is not. Say Harbor Foods Co. issued a 10-year bond with a 5% coupon at par. A year later, similar new bonds yield 7%. Nobody will pay $1,000 for $50 a year when $70 is on offer next door, so Harbor's bond reprices to about $858, exactly the level where a buyer's all-in return (coupons plus the pull back up to $1,000 at maturity) equals 7%. If yields instead fell to 3%, the same bond would climb to roughly $1,172. Same company, same paper, opposite ends of the seesaw.</p>
+
+    <div class="callout-warn callout">
+      <p>Coupon and yield are not synonyms. The coupon is a fixed contractual cash flow; the yield is the market's current required return, and the price is the shock absorber between them. When you hear "yields rose," no company changed what it pays. Existing bond prices simply fell until old paper matched the new deal on offer.</p>
+    </div>
+
+    <div class="tool" id="tool-bond">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>The price-yield seesaw</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="slider-row">
+            <label>Coupon rate <output></output></label>
+            <input type="range" id="bond-c" min="0" max="12" step="0.25" value="5">
+          </div>
+          <div class="slider-row">
+            <label>Market yield <output></output></label>
+            <input type="range" id="bond-y" min="0.5" max="15" step="0.25" value="7">
+          </div>
+          <div class="slider-row">
+            <label>Years to maturity <output></output></label>
+            <input type="range" id="bond-t" min="1" max="30" step="1" value="10">
+          </div>
+          <div class="cm-scenarios">
+            <button type="button" class="btn" id="bond-hike">Rates spike +2%</button>
+            <button type="button" class="btn" id="bond-cut">Rates cut (2%)</button>
+            <button type="button" class="btn" id="bond-parbtn">Back to par</button>
+          </div>
+        </div>
+        <div class="tool-output">
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">Price per $1,000 face</div><div class="stat-value" id="bond-price">$0</div></div>
+            <div class="stat-tile"><div class="stat-label">Trading at</div><div class="stat-value"><span id="bond-badge" class="cm-badge cm-par">Par</span></div></div>
+            <div class="stat-tile"><div class="stat-label">If yields rise 1%</div><div class="stat-value neg" id="bond-chg">0%</div></div>
+          </div>
+          <div class="figure cm-flat">
+            <p class="figure-sub">Price across market yields, holding your coupon and maturity fixed. The dot is your current spot on the curve.</p>
+            <svg viewBox="0 0 720 300" role="img" aria-label="Bond price versus market yield curve. Price falls as yield rises, with the current position marked by a dot and par value of one thousand dollars shown as a reference line.">
+              <g id="bond-grid"></g>
+              <g id="bond-par"></g>
+              <line x1="62" y1="264" x2="702" y2="264" class="axis"></line>
+              <text x="128" y="282" text-anchor="middle" class="lbl-muted">2%</text>
+              <text x="217" y="282" text-anchor="middle" class="lbl-muted">4%</text>
+              <text x="305" y="282" text-anchor="middle" class="lbl-muted">6%</text>
+              <text x="393" y="282" text-anchor="middle" class="lbl-muted">8%</text>
+              <text x="481" y="282" text-anchor="middle" class="lbl-muted">10%</text>
+              <text x="570" y="282" text-anchor="middle" class="lbl-muted">12%</text>
+              <text x="658" y="282" text-anchor="middle" class="lbl-muted">14%</text>
+              <text x="702" y="297" text-anchor="end" class="lbl-muted">market yield</text>
+              <path id="bond-curve" fill="none" stroke="var(--viz-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <circle id="bond-dot" r="5" fill="var(--viz-1)" stroke="var(--surface-1)" stroke-width="2"></circle>
+              <text id="bond-dot-lbl" class="lbl" font-size="12"></text>
+            </svg>
+          </div>
+          <p class="small muted" id="bond-read"></p>
+        </div>
+      </div>
+      <div class="tool-foot">Illustrative only. Assumes $1,000 face, semiannual coupons, and a single flat yield to maturity. Real-world pricing adds accrued interest, day counts, and credit risk.</div>
+    </div>
+
+    <p>Notice two things as you play. First, when the yield equals the coupon, the price is exactly par: the bond offers precisely the market rate, so it needs no discount or premium. Second, the longer the maturity, the steeper the ride. That sensitivity has a name: duration, roughly the % price change for a 1% move in yields. A 2-year note with a duration near 2 shrugs off rate moves; a 30-year bond with a duration near 15 to 20 is a rate bet wearing a bond costume. Long maturities and low coupons both stretch duration, because they push more of the bond's value far into the future where discounting bites hardest.</p>
+
+    <div class="callout-deeper callout">
+      <p>The curve you see bows toward the origin; it is not a straight line. That bow is convexity: a bond gains more from a 1% yield drop than it loses from a 1% yield rise. Duration is the slope of the curve at your dot; convexity is the curvature, and it is why duration estimates get sloppy for big rate moves.</p>
+    </div>
+  </section>
+
+  <!-- ================= 08.4 CREDIT & LEVFIN ================= -->
+  <section class="lesson" id="credit-and-levfin">
+    <h2><span class="sec-num">08.4</span> Credit and leveraged finance</h2>
+    <p class="lede">Not all borrowers are Treasury-grade, and the credit market's whole job is pricing the difference. A corporate bond yields more than a Treasury of the same maturity, and that extra yield, the credit spread, is the market's live estimate of what could go wrong. Below a famous line on the ratings ladder, the game changes name entirely: welcome to leveraged finance.</p>
+
+    <p>Rating agencies (S&amp;P, Moody's, Fitch) grade borrowers on a ladder from AAA down to D for default. The cliff sits between BBB- and BB+. At BBB- and above, a bond is investment grade (IG): insurers, pension funds, and conservative mandates can own it freely. One notch lower it becomes high yield (HY), also called speculative grade or, affectionately, junk. Many institutions are forbidden to hold it, which is why a downgrade across the line, a fallen angel, triggers forced selling regardless of anyone's view of the company.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Rating (S&amp;P / Moody's)</th><th>Grade</th><th class="num">Illustrative spread</th><th>Who lives here</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>AAA / Aaa</td><td>Investment grade</td><td class="num">≈ 40 bps</td><td>A tiny club: a couple of corporates and top sovereigns</td></tr>
+          <tr><td>AA / Aa</td><td>Investment grade</td><td class="num">≈ 60 bps</td><td>Fortress balance sheets</td></tr>
+          <tr><td>A / A</td><td>Investment grade</td><td class="num">≈ 85 bps</td><td>Strong, steady large caps</td></tr>
+          <tr><td>BBB / Baa</td><td>Investment grade (floor: BBB-)</td><td class="num">≈ 130 bps</td><td>The bulk of the IG market</td></tr>
+          <tr><td>BB / Ba</td><td>High yield</td><td class="num">≈ 275 bps</td><td>Solid businesses with real leverage</td></tr>
+          <tr><td>B / B</td><td>High yield</td><td class="num">≈ 425 bps</td><td>LBO territory; sponsor-owned credits</td></tr>
+          <tr><td>CCC / Caa</td><td>High yield</td><td class="num">≈ 900 bps</td><td>Distress watch; priced for meaningful default odds</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="figure">
+      <p class="figure-title">The spread ladder</p>
+      <p class="figure-sub">Illustrative spreads over Treasuries by rating. Note the jump as you cross the investment grade floor.</p>
+      <div class="legend">
+        <span><i style="background:var(--viz-1)"></i>Investment grade</span>
+        <span><i style="background:var(--viz-3)"></i>High yield</span>
+      </div>
+      <svg viewBox="0 0 720 286" role="img" aria-label="Horizontal bar chart of illustrative credit spreads by rating, from about 40 basis points at AAA to about 900 basis points at CCC, with a marked jump between BBB and BB at the investment grade floor.">
+        <line x1="270" y1="20" x2="270" y2="252" class="gridline"></line>
+        <line x1="470" y1="20" x2="470" y2="252" class="gridline"></line>
+        <line x1="670" y1="20" x2="670" y2="252" class="gridline"></line>
+        <!-- IG bars -->
+        <g fill="var(--viz-1)">
+          <rect x="70" y="24" width="26.7" height="20" rx="4"></rect><rect x="70" y="24" width="6" height="20"></rect>
+          <rect x="70" y="58" width="40" height="20" rx="4"></rect><rect x="70" y="58" width="6" height="20"></rect>
+          <rect x="70" y="92" width="56.7" height="20" rx="4"></rect><rect x="70" y="92" width="6" height="20"></rect>
+          <rect x="70" y="126" width="86.7" height="20" rx="4"></rect><rect x="70" y="126" width="6" height="20"></rect>
+        </g>
+        <!-- HY bars -->
+        <g fill="var(--viz-3)">
+          <rect x="70" y="160" width="183.3" height="20" rx="4"></rect><rect x="70" y="160" width="6" height="20"></rect>
+          <rect x="70" y="194" width="283.3" height="20" rx="4"></rect><rect x="70" y="194" width="6" height="20"></rect>
+          <rect x="70" y="228" width="600" height="20" rx="4"></rect><rect x="70" y="228" width="6" height="20"></rect>
+        </g>
+        <text x="62" y="38" text-anchor="end">AAA</text>
+        <text x="62" y="72" text-anchor="end">AA</text>
+        <text x="62" y="106" text-anchor="end">A</text>
+        <text x="62" y="140" text-anchor="end">BBB</text>
+        <text x="62" y="174" text-anchor="end">BB</text>
+        <text x="62" y="208" text-anchor="end">B</text>
+        <text x="62" y="242" text-anchor="end">CCC</text>
+        <text x="103" y="38" font-size="11">≈ 40 bps</text>
+        <text x="163" y="140" font-size="11">≈ 130 bps</text>
+        <text x="260" y="174" font-size="11">≈ 275 bps</text>
+        <text x="670" y="222" text-anchor="end" font-size="11">≈ 900 bps</text>
+        <line x1="70" y1="153" x2="690" y2="153" stroke="var(--axis)" stroke-width="1"></line>
+        <text x="690" y="148" text-anchor="end" class="lbl-muted">investment grade floor (BBB-)</text>
+        <line x1="70" y1="258" x2="690" y2="258" class="axis"></line>
+        <text x="70" y="276" text-anchor="middle" class="lbl-muted">0</text>
+        <text x="270" y="276" text-anchor="middle" class="lbl-muted">300</text>
+        <text x="470" y="276" text-anchor="middle" class="lbl-muted">600</text>
+        <text x="670" y="276" text-anchor="middle" class="lbl-muted">900 bps</text>
+      </svg>
+      <p class="figure-note">Spreads are illustrative mid-cycle levels; they compress in booms and can triple in panics.</p>
+    </div>
+
+    <div class="formula">Credit spread = Corporate bond yield - Treasury yield (same maturity)</div>
+
+    <p>What is that spread actually paying you for? Four things, roughly in order: expected default losses (the probability of default times the loss if it happens, since recoveries average maybe 40 cents on the dollar for unsecured bonds); downgrade and mark-to-market risk, because a rating cut hits the price long before any default; illiquidity, since off-the-run corporates can be slow and costly to sell; and a residual risk premium for the ugly fact that defaults cluster in recessions, exactly when you can least afford them.</p>
+
+    <h3>Leveraged loans vs high yield bonds</h3>
+    <p>Below the IG line, companies (very often private-equity owned) borrow through two parallel instruments. Same issuers, same purpose, different plumbing.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th></th><th>Leveraged loan</th><th>High yield bond</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Rate</td><td>Floating: SOFR plus 300 to 500 bps</td><td>Fixed coupon</td></tr>
+          <tr><td>Security</td><td>Senior secured, typically first lien on assets</td><td>Often unsecured or subordinated</td></tr>
+          <tr><td>Prepayment</td><td>Repayable at par almost any time</td><td>Call protection: early repayment costs a premium</td></tr>
+          <tr><td>Covenants</td><td>Historically maintenance; now mostly "cov-lite"</td><td>Incurrence only</td></tr>
+          <tr><td>Main buyers</td><td>CLOs, banks, loan funds</td><td>Mutual funds, ETFs, insurers</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Covenants deserve their own sentence because the two flavors behave completely differently. A maintenance covenant is tested on a schedule, every quarter, whether or not the borrower does anything: keep leverage below 5.0x or you are in default and at the lender's table renegotiating. An incurrence covenant only trips when the borrower acts, say by issuing new debt or paying a dividend while over a leverage threshold. A borrower who quietly deteriorates never trips an incurrence test, which is why lenders prize maintenance covenants and why their near-disappearance from loans (the cov-lite era) shifted power decisively toward borrowers.</p>
+
+    <p>And the buyers? A CLO (collateralized loan obligation) buys 150 to 300 leveraged loans and funds the portfolio by issuing its own tranched debt, AAA at the top down to an unrated equity slice, each tranche absorbing losses in reverse order of seniority. CLOs take down roughly two-thirds of new leveraged loans, which makes them the marginal lender to private-equity-owned corporate America.</p>
+
+    <div class="callout-case callout">
+      <p><strong>The fallen angel wave, 2020.</strong> When COVID hit, roughly $200B of investment grade debt was downgraded into high yield in a matter of months, the largest such wave on record. Ford alone brought about $36B of index-eligible debt across the line in March 2020. HY investors had to absorb a sudden flood of paper, IG funds were forced sellers at the worst moment, and the Federal Reserve took the unprecedented step of backstopping recent fallen angels.</p>
+    </div>
+  </section>
+
+  <!-- ================= 08.5 DERIVATIVES ================= -->
+  <section class="lesson" id="derivatives">
+    <h2><span class="sec-num">08.5</span> Derivatives: forwards, swaps, and options</h2>
+    <p class="lede">A derivative is a contract whose value derives from something else: a stock, a rate, a barrel of oil. Strip away the mystique and there are only two families. Linear contracts (forwards, futures, swaps) lock in a price and move dollar for dollar with the underlying. Options are the interesting ones: they bend the payoff, which is why they cost money up front.</p>
+
+    <div class="grid-3">
+      <div class="card">
+        <h4>Forwards</h4>
+        <p class="small muted">A private, customized deal to trade something at a set price on a set date. An airline agrees today to buy jet fuel next June at $2.40 a gallon: no cash changes hands now, and both sides are locked in, for better or worse. Traded over the counter (OTC), directly between institutions.</p>
+      </div>
+      <div class="card">
+        <h4>Futures</h4>
+        <p class="small muted">A forward that grew up and moved to an exchange: standardized size and dates, prices marked and settled daily, and a clearinghouse standing in the middle so neither side has to trust the other. Margin posted daily keeps everyone honest.</p>
+      </div>
+      <div class="card">
+        <h4>Swaps</h4>
+        <p class="small muted">An agreement to exchange streams of cash flows over time, most commonly fixed-for-floating interest payments on an agreed notional amount. The interest rate swap market is, by notional value, the largest market on earth.</p>
+      </div>
+    </div>
+
+    <p>Here is a swap in plain English. Crestline Manufacturing has a $100M loan that charges a floating rate, SOFR (the Secured Overnight Financing Rate, the benchmark that replaced LIBOR) plus 2.5%. The CFO cannot budget when the rate resets constantly, so Crestline enters a swap with a bank: it pays a fixed 4% and receives SOFR on $100M. The received SOFR cancels the loan's floating leg, and Crestline's all-in cost is locked at 6.5% (4% fixed plus the 2.5% loan margin) no matter what the Fed does. No principal moves; only the difference in interest changes hands each period.</p>
+
+    <h3>Options: paying for asymmetry</h3>
+    <div class="grid-2">
+      <div class="card card-accent">
+        <h4>Call option</h4>
+        <p class="small muted">The right, but not the obligation, to buy at a fixed strike price by an expiry date. A $100-strike call is worthless noise if the stock sits at $90, and a money machine at $130. Upside participation, downside capped at what you paid.</p>
+      </div>
+      <div class="card">
+        <h4>Put option</h4>
+        <p class="small muted">The right to sell at the strike. Puts are insurance: a fund holding a stock at $100 can buy a $90 put and know its worst case. Like all insurance, the premium is a certain small loss accepted to kill an uncertain large one.</p>
+      </div>
+    </div>
+    <p>The price of that right is the premium, and it flips the risk picture depending on which side you stand. Buyers risk only the premium and get open-ended exposure. Sellers pocket the premium up front and carry the tail risk, collecting small sums on most days and occasionally paying out enormously. Combining a few of these building blocks produces almost any payoff shape you can draw, which is exactly what the tool below lets you do.</p>
+
+    <div class="tool" id="tool-payoff">
+      <div class="tool-head"><span class="tool-badge">Live tool</span><h3>Option payoff builder</h3></div>
+      <div class="tool-body">
+        <div class="tool-controls">
+          <div class="select-row">
+            <label for="pay-inst">Position</label>
+            <select id="pay-inst">
+              <option value="lc" selected>Long call</option>
+              <option value="sc">Short call</option>
+              <option value="lp">Long put</option>
+              <option value="sp">Short put</option>
+              <option value="cc">Covered call</option>
+              <option value="st">Straddle (long)</option>
+            </select>
+          </div>
+          <div class="slider-row">
+            <label>Strike price <output></output></label>
+            <input type="range" id="pay-k" min="50" max="150" step="5" value="100">
+          </div>
+          <div class="slider-row">
+            <label>Premium <output></output></label>
+            <input type="range" id="pay-prem" min="1" max="25" step="0.5" value="8">
+          </div>
+        </div>
+        <div class="tool-output">
+          <div class="tool-kpis">
+            <div class="stat-tile"><div class="stat-label">Max gain</div><div class="stat-value" id="pay-gain">$0</div></div>
+            <div class="stat-tile"><div class="stat-label">Max loss</div><div class="stat-value" id="pay-loss">$0</div></div>
+            <div class="stat-tile"><div class="stat-label">Breakeven</div><div class="stat-value" id="pay-bek">$0</div></div>
+          </div>
+          <p class="small muted" id="pay-note"></p>
+          <div class="figure cm-flat">
+            <svg viewBox="0 0 720 300" role="img" aria-label="Profit and loss at expiry across stock prices from zero to two hundred dollars, with the zero line, breakeven points, and the profit region shaded.">
+              <defs>
+                <clipPath id="cm-pay-clip"><rect id="pay-clip-rect" x="56" y="14" width="646" height="0"></rect></clipPath>
+              </defs>
+              <g id="pay-grid"></g>
+              <line id="pay-strike" y1="14" y2="264" class="gridline"></line>
+              <text id="pay-strike-lbl" y="26" text-anchor="middle" class="lbl-muted">strike</text>
+              <line id="pay-zero" x1="56" x2="702" stroke="var(--axis)" stroke-width="1"></line>
+              <text id="pay-zero-lbl" x="48" text-anchor="end" class="lbl-muted">$0</text>
+              <path id="pay-fill" fill="var(--viz-1)" fill-opacity="0.1" stroke="none" clip-path="url(#cm-pay-clip)"></path>
+              <path id="pay-line" fill="none" stroke="var(--viz-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <g id="pay-be"></g>
+              <line x1="56" y1="264" x2="702" y2="264" class="axis"></line>
+              <text x="56" y="282" text-anchor="middle" class="lbl-muted">$0</text>
+              <text x="217" y="282" text-anchor="middle" class="lbl-muted">$50</text>
+              <text x="379" y="282" text-anchor="middle" class="lbl-muted">$100</text>
+              <text x="540" y="282" text-anchor="middle" class="lbl-muted">$150</text>
+              <text x="700" y="282" text-anchor="end" class="lbl-muted">$200</text>
+              <text x="379" y="297" text-anchor="middle" class="lbl-muted">stock price at expiry</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="tool-foot">Payoff at expiry only: real option prices before expiry include time value, so this understates what early exits look like. Covered call assumes the stock was bought at $100. Per-share figures; one listed contract covers 100 shares.</div>
+    </div>
+
+    <p>Try the short put and notice how it collects a modest premium while quietly accepting nearly the whole downside of the stock. Then flip to the straddle: it does not care which way the stock goes, only that it goes somewhere, which is why traders reach for it around binary events like earnings or drug trial readouts. Every payoff here obeys one law: the buyer's picture and the seller's picture are mirror images across the zero line. Derivatives never create money; they relocate risk to whoever will hold it for a price.</p>
+  </section>
+
+  <!-- ================= 08.6 THE PLUMBING ================= -->
+  <section class="lesson" id="the-plumbing">
+    <h2><span class="sec-num">08.6</span> The plumbing: how trading actually works</h2>
+    <p class="lede">You tap buy, and 300 milliseconds later you own stock. In between sits a stack of machinery that the industry calls market structure and everyone else never thinks about. Five pieces explain nearly all of it.</p>
+
+    <h3>The order book</h3>
+    <p>An exchange is, at its core, a list. Investors post limit orders (I will buy 1,100 shares at $42.05; I will sell 700 at $42.08) and the exchange queues them by price, then by arrival time, a rule called price-time priority. A market order simply consumes the best resting order on the other side. That constantly updating list of bids and asks is the order book, and its top line is what a "stock price" actually is.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Side</th><th class="num">Size (shares)</th><th class="num">Price</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sell</td><td class="num">900</td><td class="num">$42.12</td></tr>
+          <tr><td>Sell</td><td class="num">1,400</td><td class="num">$42.10</td></tr>
+          <tr class="cm-best"><td>Sell (best ask)</td><td class="num">700</td><td class="num">$42.08</td></tr>
+          <tr class="cm-spread-row"><td colspan="3">the spread: $0.03, about 7 bps</td></tr>
+          <tr class="cm-best"><td>Buy (best bid)</td><td class="num">1,100</td><td class="num">$42.05</td></tr>
+          <tr><td>Buy</td><td class="num">2,000</td><td class="num">$42.03</td></tr>
+          <tr><td>Buy</td><td class="num">3,500</td><td class="num">$42.00</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">An illustrative order book for Meridian Grid Software. Buy at the ask, sell at the bid; the book's depth tells you how much size trades before the price moves.</p>
+
+    <h3>The bid-ask spread</h3>
+    <p>The gap between the best bid and the best ask is the price of immediacy. Want to trade right now, guaranteed? You cross the spread and pay it. In the book above that costs $0.03 a share, roughly 7 bps, which sounds like nothing until you multiply by billions of shares a day. Liquid mega-caps trade a penny wide; small caps can run 20 to 50 bps or more, and the spread widens instantly when uncertainty spikes, because it is also the liquidity provider's compensation for getting run over by better-informed traders.</p>
+
+    <h3>Market makers</h3>
+    <p>A market maker quotes both sides at once, standing ready to buy at $42.05 and sell at $42.08 all day, earning the spread on each round trip. The catch is inventory risk: buy from a wave of sellers who know something you do not, and the spread you collected vanishes in one adverse move. Modern market making is done almost entirely by a handful of electronic trading firms whose servers sit physically next to the exchange's, updating quotes in microseconds and going home most nights owning close to nothing.</p>
+
+    <h3>From floors to servers</h3>
+    <p>Into the 1990s, trading meant humans shouting on exchange floors and quoting in fractions, an eighth of a dollar (12.5 cents) wide. Electronification and the 2001 switch to penny pricing crushed spreads by more than 90%, shrank average trade sizes, and replaced floor crowds with matching engines that fill orders in millionths of a second. Retail investors have never had cheaper execution; the arms race for speed among professionals, meanwhile, moved from the pit to fiber optics and microwave towers.</p>
+
+    <h3>Block trades and dark pools</h3>
+    <p>The lit order book has a weakness: size. A fund that shows a 2M-share sell order in a book quoting 700 shares would crater the price before selling 1% of it, because the information leaks faster than the trade fills. So large orders travel differently: as negotiated block trades, where a bank's desk commits its own capital to take the whole position and works out of it quietly, or through dark pools, private venues that match buyers and sellers anonymously (often at the midpoint of the lit spread) and report the trade only after it happens. Add it up and roughly 40% of US equity volume now executes away from the lit exchanges: less transparency before the trade, in exchange for less damage from it.</p>
+  </section>
+
+  <!-- ================= 08.7 QUIZ ================= -->
+  <section class="lesson" id="quiz">
+    <h2><span class="sec-num">08.7</span> Knowledge check</h2>
+    <p class="lede">Ten questions across the module: markets, IPO economics, bond math, credit, derivatives, and the plumbing. Mental math only.</p>
+    <div id="quiz-root"></div>
+  </section>
+</main>
+
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  var F = Atlas.fmt;
+  var SVGNS = "http://www.w3.org/2000/svg";
+  function sv(tag, attrs) {
+    var n = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) n.setAttribute(k, attrs[k]);
+    return n;
+  }
+  function txt(x, y, s, attrs) {
+    var t = sv("text", attrs || {});
+    t.setAttribute("x", x); t.setAttribute("y", y);
+    t.textContent = s;
+    return t;
+  }
+  function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+
+  /* ============ 08.3 Bond price-yield seesaw ============ */
+  function bondPrice(cPct, yPct, years) {
+    var n = Math.round(years * 2);
+    var c = (cPct / 100) * 1000 / 2;
+    var r = (yPct / 100) / 2;
+    if (n < 1) return 1000;
+    if (r < 1e-9) return c * n + 1000;
+    var d = Math.pow(1 + r, -n);
+    return c * (1 - d) / r + 1000 * d;
+  }
+
+  Atlas.bind("bond-c", function (v) { return F.pct(v, 2); });
+  var bondY = Atlas.bind("bond-y", function (v) { return F.pct(v, 2); });
+  Atlas.bind("bond-t", function (v) { return v + (v === 1 ? " year" : " years"); });
+
+  var BX = { L: 62, R: 702, T: 16, B: 264, yLo: 0.5, yHi: 15 };
+  function bx(yld) { return BX.L + (yld - BX.yLo) / (BX.yHi - BX.yLo) * (BX.R - BX.L); }
+
+  function renderBond() {
+    var c = parseFloat(document.getElementById("bond-c").value);
+    var y = parseFloat(document.getElementById("bond-y").value);
+    var t = parseFloat(document.getElementById("bond-t").value);
+    var p0 = bondPrice(c, y, t);
+
+    document.getElementById("bond-price").textContent = F.money(p0, 2);
+
+    var badge = document.getElementById("bond-badge");
+    if (Math.abs(p0 - 1000) < 2) { badge.textContent = "At par"; badge.className = "cm-badge cm-par"; }
+    else if (p0 > 1000) { badge.textContent = "Premium"; badge.className = "cm-badge cm-prem"; }
+    else { badge.textContent = "Discount"; badge.className = "cm-badge cm-disc"; }
+
+    var up = bondPrice(c, y + 1, t);
+    var dn = bondPrice(c, Math.max(y - 1, 0), t);
+    var chg = (up - p0) / p0 * 100;
+    document.getElementById("bond-chg").textContent = F.pct(chg, 1);
+    var dur = (dn - up) / (2 * p0) * 100;
+    document.getElementById("bond-read").textContent =
+      "Duration intuition: at " + t + (t === 1 ? " year" : " years") + " to maturity, this bond moves roughly " +
+      F.pct(Math.abs(dur), 1) + " for every 1% move in yields, in the opposite direction. Stretch the maturity slider and watch the seesaw arm get longer.";
+
+    /* curve + scales */
+    var pts = [], lo = 1000, hi = 1000;
+    for (var yy = BX.yLo; yy <= BX.yHi + 1e-9; yy += 0.25) {
+      var p = bondPrice(c, yy, t);
+      pts.push([yy, p]);
+      if (p < lo) lo = p;
+      if (p > hi) hi = p;
+    }
+    var pad = (hi - lo) * 0.07 + 1;
+    lo -= pad; hi += pad;
+    function py(v) { return BX.B - (v - lo) / (hi - lo) * (BX.B - BX.T); }
+
+    var grid = document.getElementById("bond-grid");
+    clear(grid);
+    var span = hi - lo, step = 1000;
+    [25, 50, 100, 200, 250, 500, 1000].some(function (s) {
+      if (span / s <= 5) { step = s; return true; }
+      return false;
+    });
+    for (var g = Math.ceil(lo / step) * step; g < hi; g += step) {
+      grid.appendChild(sv("line", { x1: BX.L, x2: BX.R, y1: py(g), y2: py(g), "class": "gridline" }));
+      grid.appendChild(txt(BX.L - 8, py(g) + 4, "$" + g.toLocaleString("en-US"), { "text-anchor": "end", "class": "lbl-muted" }));
+    }
+
+    var parG = document.getElementById("bond-par");
+    clear(parG);
+    var parY = py(1000);
+    parG.appendChild(sv("line", { x1: BX.L, x2: BX.R, y1: parY, y2: parY, stroke: "var(--ink-3)", "stroke-width": 1 }));
+    parG.appendChild(txt(BX.R - 4, parY < BX.T + 22 ? parY + 15 : parY - 6, "Par $1,000", { "text-anchor": "end", "class": "lbl-muted" }));
+
+    var d = pts.map(function (pt, i) {
+      return (i ? "L" : "M") + bx(pt[0]).toFixed(1) + " " + py(pt[1]).toFixed(1);
+    }).join(" ");
+    document.getElementById("bond-curve").setAttribute("d", d);
+
+    var dot = document.getElementById("bond-dot");
+    dot.setAttribute("cx", bx(y));
+    dot.setAttribute("cy", py(p0));
+    var lbl = document.getElementById("bond-dot-lbl");
+    var anchor = "start", ox = 10;
+    if (bx(y) > BX.R - 90) { anchor = "end"; ox = -10; }
+    lbl.setAttribute("x", bx(y) + ox);
+    lbl.setAttribute("y", Math.max(BX.T + 12, py(p0) - 10));
+    lbl.setAttribute("text-anchor", anchor);
+    lbl.textContent = F.money(p0, 0);
+  }
+  Atlas.onInput(["bond-c", "bond-y", "bond-t"], renderBond);
+
+  document.getElementById("bond-hike").addEventListener("click", function () {
+    bondY.value = Math.min(bondY.value + 2, 15); renderBond();
+  });
+  document.getElementById("bond-cut").addEventListener("click", function () {
+    bondY.value = Math.max(bondY.value - 2, 0.5); renderBond();
+  });
+  document.getElementById("bond-parbtn").addEventListener("click", function () {
+    var c = parseFloat(document.getElementById("bond-c").value);
+    bondY.value = Math.min(Math.max(c, 0.5), 15); renderBond();
+  });
+
+  /* ============ 08.5 Option payoff builder ============ */
+  Atlas.bind("pay-k", function (v) { return F.money(v, 0); });
+  Atlas.bind("pay-prem", function (v) { return F.money(v, 2); });
+
+  var PX = { L: 56, R: 702, T: 14, B: 264, sLo: 0, sHi: 200 };
+  function px(s) { return PX.L + (s - PX.sLo) / (PX.sHi - PX.sLo) * (PX.R - PX.L); }
+
+  function payMeta(inst, K, p) {
+    switch (inst) {
+      case "lc": return {
+        gain: "Unlimited", loss: F.money(-p, 2), be: [K + p],
+        note: "You paid " + F.money(p, 2) + " for the right to buy at " + F.money(K, 0) + ". Losses stop at the premium; the upside is open ended."
+      };
+      case "sc": return {
+        gain: F.money(p, 2), loss: "Unlimited", be: [K + p],
+        note: "You collected " + F.money(p, 2) + " for promising to sell at " + F.money(K, 0) + ". Comfortable in a flat market; a melt-up hurts without limit."
+      };
+      case "lp": return {
+        gain: F.money(K - p, 2), loss: F.money(-p, 2), be: [K - p],
+        note: "You paid " + F.money(p, 2) + " for the right to sell at " + F.money(K, 0) + ". This is insurance: max gain lands if the stock goes to $0."
+      };
+      case "sp": return {
+        gain: F.money(p, 2), loss: F.money(-(K - p), 2), be: [K - p],
+        note: "You collected " + F.money(p, 2) + " for promising to buy at " + F.money(K, 0) + ". You sold the insurance, so you own the downside below the strike."
+      };
+      case "cc": return {
+        gain: F.money(K - 100 + p, 2), loss: F.money(-(100 - p), 2),
+        be: (K + p > 100) ? [100 - p] : [],
+        note: "You own stock bought at $100.00 and sold a " + F.money(K, 0) + " call for " + F.money(p, 2) + ". Income today; upside capped at the strike."
+      };
+      default: return {
+        gain: "Unlimited", loss: F.money(-p, 2), be: [K - p, K + p],
+        note: "A call and a put at the same " + F.money(K, 0) + " strike for " + F.money(p, 2) + " total. A bet on a big move, direction unknown."
+      };
+    }
+  }
+
+  function renderPayoff() {
+    var inst = document.getElementById("pay-inst").value;
+    var K = parseFloat(document.getElementById("pay-k").value);
+    var p = parseFloat(document.getElementById("pay-prem").value);
+
+    function pnl(S) {
+      switch (inst) {
+        case "lc": return Math.max(S - K, 0) - p;
+        case "sc": return p - Math.max(S - K, 0);
+        case "lp": return Math.max(K - S, 0) - p;
+        case "sp": return p - Math.max(K - S, 0);
+        case "cc": return (S - 100) + p - Math.max(S - K, 0);
+        default:   return Math.abs(S - K) - p;
+      }
+    }
+
+    var meta = payMeta(inst, K, p);
+
+    /* sample points, forcing exact kinks and breakevens onto the line */
+    var xs = [], seen = {};
+    for (var s = 0; s <= 200; s += 2) { xs.push(s); seen[s] = 1; }
+    [K, 100, K - p, K + p, 100 - p].forEach(function (v) {
+      var r = Math.round(v * 100) / 100;
+      if (r > 0 && r < 200 && !seen[r]) { xs.push(r); seen[r] = 1; }
+    });
+    xs.sort(function (a, b) { return a - b; });
+
+    var lo = 0, hi = 0, pts = [];
+    xs.forEach(function (S) {
+      var v = pnl(S);
+      pts.push([S, v]);
+      if (v < lo) lo = v;
+      if (v > hi) hi = v;
+    });
+    var pad = (hi - lo) * 0.10 + 2;
+    lo -= pad; hi += pad;
+    function py(v) { return PX.B - (v - lo) / (hi - lo) * (PX.B - PX.T); }
+    var y0 = py(0);
+
+    /* gridlines (skip zero, it has its own line) */
+    var grid = document.getElementById("pay-grid");
+    clear(grid);
+    var span = hi - lo, step = 200;
+    [10, 20, 25, 50, 100, 200].some(function (st) {
+      if (span / st <= 5) { step = st; return true; }
+      return false;
+    });
+    for (var g = Math.ceil(lo / step) * step; g < hi; g += step) {
+      if (Math.abs(g) < 1e-9) continue;
+      grid.appendChild(sv("line", { x1: PX.L, x2: PX.R, y1: py(g), y2: py(g), "class": "gridline" }));
+      grid.appendChild(txt(PX.L - 8, py(g) + 4, F.money(g, 0), { "text-anchor": "end", "class": "lbl-muted" }));
+    }
+
+    /* zero line + strike guide */
+    var zl = document.getElementById("pay-zero");
+    zl.setAttribute("y1", y0); zl.setAttribute("y2", y0);
+    document.getElementById("pay-zero-lbl").setAttribute("y", y0 + 4);
+    var kg = document.getElementById("pay-strike");
+    kg.setAttribute("x1", px(K)); kg.setAttribute("x2", px(K));
+    var kl = document.getElementById("pay-strike-lbl");
+    kl.setAttribute("x", Math.min(Math.max(px(K), PX.L + 22), PX.R - 22));
+
+    /* payoff line + profit fill (clipped above the zero line) */
+    var d = pts.map(function (pt, i) {
+      return (i ? "L" : "M") + px(pt[0]).toFixed(1) + " " + py(pt[1]).toFixed(1);
+    }).join(" ");
+    document.getElementById("pay-line").setAttribute("d", d);
+    document.getElementById("pay-fill").setAttribute("d",
+      d + " L" + px(200).toFixed(1) + " " + y0.toFixed(1) + " L" + px(0).toFixed(1) + " " + y0.toFixed(1) + " Z");
+    var clipRect = document.getElementById("pay-clip-rect");
+    clipRect.setAttribute("y", PX.T);
+    clipRect.setAttribute("height", Math.max(0, y0 - PX.T));
+
+    /* breakeven markers */
+    var beG = document.getElementById("pay-be");
+    clear(beG);
+    var bes = meta.be.filter(function (b) { return b >= 0 && b <= 200; });
+    var tight = bes.length === 2 && (px(bes[1]) - px(bes[0])) < 110;
+    bes.forEach(function (b, i) {
+      var x = px(b);
+      beG.appendChild(sv("circle", { cx: x, cy: y0, r: 4, fill: "var(--viz-1)", stroke: "var(--surface-1)", "stroke-width": 2 }));
+      var above = tight && i === 0;
+      var ly = above ? y0 - 10 : y0 + 17;
+      if (ly > PX.B - 4) ly = y0 - 10;
+      if (ly < PX.T + 10) ly = y0 + 17;
+      var lx = Math.min(Math.max(x, PX.L + 36), PX.R - 36);
+      beG.appendChild(txt(lx, ly, "BE " + F.money(b, 2), { "text-anchor": "middle", "class": "lbl", "font-size": "11.5" }));
+    });
+
+    /* KPIs + narration */
+    document.getElementById("pay-gain").textContent = meta.gain;
+    document.getElementById("pay-loss").textContent = meta.loss;
+    document.getElementById("pay-bek").textContent = bes.length
+      ? bes.map(function (b) { return F.money(b, 2); }).join(" / ")
+      : "None";
+    document.getElementById("pay-note").textContent = meta.note;
+  }
+  Atlas.onInput(["pay-inst", "pay-k", "pay-prem"], renderPayoff);
+
+  /* ============ 08.7 Quiz ============ */
+  Atlas.quiz("#quiz-root", [
+    {
+      q: "A pension fund buys 50,000 existing shares of a listed company on an exchange. Who receives the fund's cash?",
+      choices: [
+        "The company, as new equity capital",
+        "The selling investor on the other side of the trade",
+        "The exchange, which passes it to the company monthly",
+        "The underwriters of the original IPO"
+      ],
+      answer: 1,
+      explain: "That is a secondary market trade. The issuer received cash only once, when the shares were first sold in the primary market."
+    },
+    {
+      q: "An issuer raises $500M in an IPO with a 7% gross spread. Roughly what does the underwriting syndicate earn?",
+      choices: ["$3.5M", "$7M", "$35M", "$70M"],
+      answer: 2,
+      explain: "7% of $500M is $35M, conventionally split into a management fee, an underwriting fee, and the selling concession."
+    },
+    {
+      q: "An IPO is priced at $20 and opens at $30. Who captured most of that $10 gap per share?",
+      choices: [
+        "The issuing company",
+        "Retail investors buying at the open",
+        "Institutions that received allocations at $20",
+        "The stock exchange"
+      ],
+      answer: 2,
+      explain: "Allocated investors bought at $20 and could sell near $30. The company sold at $20, so the gap is money it left on the table."
+    },
+    {
+      q: "The classic difference between a direct listing and a traditional IPO is that a direct listing...",
+      choices: [
+        "requires a larger underwriting syndicate",
+        "sells no new shares, so the company raises no fresh capital",
+        "is only available to companies worth under $1B",
+        "always includes a 180-day lockup"
+      ],
+      answer: 1,
+      explain: "In its classic form a direct listing just opens existing shares for trading via an auction: no underwritten sale, no spread, and usually no lockup."
+    },
+    {
+      q: "A bond pays a 4% coupon while new bonds of the same risk and maturity yield 6%. The old bond trades...",
+      choices: ["at a premium to par", "at par", "at a discount to par", "not at all until maturity"],
+      answer: 2,
+      explain: "Nobody pays full price for 4% when 6% is on offer. The price falls until the buyer's all-in yield equals 6%."
+    },
+    {
+      q: "A bond has a duration of about 8. If yields fall by 1%, its price should move roughly...",
+      choices: ["up about 8%", "down about 8%", "up about 1%", "up about 0.8%"],
+      answer: 0,
+      explain: "Duration approximates the % price change for a 1% yield move, in the opposite direction: yields down 1%, price up about 8%."
+    },
+    {
+      q: "The lowest rating that still counts as investment grade is...",
+      choices: ["BB+", "BBB-", "A-", "B+"],
+      answer: 1,
+      explain: "BBB- (Baa3 at Moody's) is the floor. One notch below, at BB+, the bond is high yield and many mandates are forced to sell."
+    },
+    {
+      q: "A covenant tested every quarter, whether or not the borrower takes any action, is...",
+      choices: ["an incurrence covenant", "a maintenance covenant", "a negative pledge", "a make-whole call"],
+      answer: 1,
+      explain: "Maintenance covenants are tested on a schedule; incurrence covenants trip only when the borrower acts, like issuing debt or paying a dividend."
+    },
+    {
+      q: "Crestline Manufacturing has a floating-rate loan and wants certainty over its interest cost. Which swap does it enter?",
+      choices: [
+        "Pay floating, receive fixed",
+        "Pay fixed, receive floating",
+        "Buy a call on its own stock",
+        "Sell Treasury futures"
+      ],
+      answer: 1,
+      explain: "Receiving floating cancels the loan's floating leg, leaving a known fixed payment: the all-in rate is locked."
+    },
+    {
+      q: "You buy a put with a $100 strike for a $6 premium. Ignoring time value, your breakeven at expiry is...",
+      choices: ["$106", "$100", "$94", "$88"],
+      answer: 2,
+      explain: "The stock must fall far enough below the strike to cover the premium: $100 less $6 is $94."
+    }
+  ]);
+});
+</script>
+</body>
+</html>
