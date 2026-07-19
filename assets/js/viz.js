@@ -230,6 +230,53 @@
       cam.k = Math.max(0.35, Math.min(3, k)); kick();
     }, { passive: false });
 
+    /* touch support (phones): tap = select, drag node, one-finger pan,
+       two-finger pinch to zoom */
+    var pinchDist = null;
+    function touchDist(ev) {
+      var a = ev.touches[0], b = ev.touches[1];
+      return Math.sqrt(Math.pow(a.clientX - b.clientX, 2) + Math.pow(a.clientY - b.clientY, 2));
+    }
+    canvas.addEventListener("touchstart", function (ev) {
+      if (ev.touches.length === 2) { pinchDist = touchDist(ev); dragging = null; panning = false; return; }
+      var p = evPos(ev);
+      var n = nodeAt(p.x, p.y);
+      moved = 0;
+      if (n) { dragging = n; alpha = Math.max(alpha, 0.3); }
+      else { panning = true; }
+      lastM = p; kick();
+    }, { passive: true });
+    canvas.addEventListener("touchmove", function (ev) {
+      if (ev.touches.length === 2 && pinchDist) {
+        ev.preventDefault();
+        var d = touchDist(ev);
+        cam.k = Math.max(0.35, Math.min(3, cam.k * (d / pinchDist)));
+        pinchDist = d; moved += 10; kick();
+        return;
+      }
+      if (!dragging && !panning) return;
+      ev.preventDefault();
+      var p = evPos(ev);
+      if (dragging) {
+        var w = toWorld(p.x, p.y);
+        dragging.x = w.x; dragging.y = w.y;
+        alpha = Math.max(alpha, 0.25); moved += 2;
+      } else if (lastM) {
+        cam.x += (p.x - lastM.x) / cam.k;
+        cam.y += (p.y - lastM.y) / cam.k;
+        moved += Math.abs(p.x - lastM.x) + Math.abs(p.y - lastM.y);
+      }
+      lastM = p; kick();
+    }, { passive: false });
+    canvas.addEventListener("touchend", function () {
+      if ((dragging || panning) && moved < 8 && lastM) {
+        var n = dragging || nodeAt(lastM.x, lastM.y);
+        selected = n || null; kick();
+        if (cfg.onSelect) cfg.onSelect(selected);
+      }
+      dragging = null; panning = false; lastM = null; pinchDist = null;
+    });
+
     window.addEventListener("resize", function () { resize(); kick(); });
     document.addEventListener("atlas:theme", function () { kick(); });
     resize();

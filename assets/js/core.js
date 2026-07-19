@@ -251,22 +251,32 @@
     header.appendChild(hs);
     wireSearch(input, results);
 
-    var nav = el("nav", { class: "header-nav" });
-    [
+    var LINKS = [
       { t: "Industries", h: "index.html#industries", k: "home" },
       { t: "Graph", h: "graph.html", k: "graph" },
       { t: "Map", h: "map.html", k: "map" },
       { t: "Library", h: "library.html", k: "library" },
       { t: "Finance School", h: "school/index.html", k: "school" }
-    ].forEach(function (l) {
+    ];
+    var nav = el("nav", { class: "header-nav" });
+    LINKS.forEach(function (l) {
       var a = el("a", { href: href(l.h), text: l.t });
       if (l.k === PAGE) a.className = "active";
       nav.appendChild(a);
     });
+
+    /* mobile menu (burger shows <= 720px where nav links are hidden) */
+    var burger = el("button", { class: "icon-btn nav-burger keep", "aria-label": "Open menu", html: "&#9776;" });
+    var mm = el("div", { class: "mobile-menu" });
+    LINKS.forEach(function (l) {
+      mm.appendChild(el("a", { href: href(l.h), text: l.t }));
+    });
+    burger.addEventListener("click", function () { document.body.classList.toggle("mm-open"); });
+    mm.addEventListener("click", function (e) { if (e.target.closest("a")) document.body.classList.remove("mm-open"); });
     var theme = el("button", { class: "theme-toggle keep", "aria-label": "Switch between light and dark mode", title: "Switch light / dark mode" });
     function ic() {
       var dark = docEl.getAttribute("data-theme") !== "light";
-      theme.innerHTML = '<span class="dot"></span>' + (dark ? "&#9728; Light mode" : "&#9790; Dark mode");
+      theme.innerHTML = '<span class="dot"></span><span class="tt-label">' + (dark ? "&#9728; Light mode" : "&#9790; Dark mode") + "</span>";
     }
     theme.addEventListener("click", function () {
       var next = docEl.getAttribute("data-theme") === "light" ? "dark" : "light";
@@ -277,7 +287,9 @@
     });
     ic();
     nav.appendChild(theme);
+    nav.appendChild(burger);
     header.appendChild(nav);
+    header.appendChild(mm);
     document.body.insertBefore(header, document.body.firstChild);
   }
   function buildFooter() {

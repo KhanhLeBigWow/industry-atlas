@@ -600,3 +600,43 @@ input[type="range"] { width: 100%; accent-color: var(--brand-strong); cursor: po
 
 /* system diagram figure sizing */
 .sysdiagram svg { display: block; width: 100%; height: auto; }
+
+/* ============================================================
+   v4 additions: mobile usability
+   ============================================================ */
+
+/* mobile menu */
+.nav-burger { display: none; }
+.mobile-menu {
+  display: none; position: fixed; top: var(--header-h); left: 0; right: 0; z-index: 79;
+  background: var(--plane); border-bottom: 1px solid var(--hairline);
+  padding: 8px 18px 14px; box-shadow: var(--shadow-2);
+}
+body.mm-open .mobile-menu { display: block; }
+.mobile-menu a {
+  display: block; padding: 12px 6px; font-size: 1rem; font-weight: 600;
+  color: var(--ink); border-bottom: 1px solid var(--grid-line);
+}
+.mobile-menu a:last-child { border-bottom: 0; }
+.mobile-menu a:hover { text-decoration: none; color: var(--brand); }
+
+@media (max-width: 720px) {
+  .nav-burger { display: grid; }
+  .theme-toggle .tt-label { display: none; }
+  .theme-toggle { padding: 6px 9px; }
+  .hsearch { width: 100%; min-width: 0; flex: 1; }
+
+  /* wide visuals scroll inside their own container instead of shrinking
+     to unreadable size; the page body never scrolls horizontally */
+  .figure, .tool-output, .panel-body { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .figure svg { min-width: 520px; }
+  .sysdiagram svg { min-width: 760px; }
+  .geomap { min-width: 640px; }
+  .graph-canvas { height: 62vh; touch-action: none; }
+  .graph-side { left: 10px; right: 10px; width: auto; max-height: 46%; }
+
+  .ind-hero h1 { font-size: 1.9rem; }
+  .stat-strip { grid-template-columns: 1fr 1fr; }
+  .co-mono { width: 46px; height: 46px; font-size: .95rem; }
+  .block { padding: 32px 0 6px; }
+}
