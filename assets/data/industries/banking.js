@@ -103,6 +103,51 @@ window.ATLAS_INDUSTRIES["banking"] = {
       { name: "Dividend discount / capital return yield", use: "Mature banks returning most earnings", avoid: "Growth or turnaround stories", strengths: "Payouts are regulator-vetted, hence credible", weaknesses: "Buyback timing optionality is hard to model", range: { low: 8, high: 12, asOf: 2024, note: "total payout yields at large banks" } }
     ]
   },
+  pmView: {
+    positioning: "The desk trades banks as levered rate-and-credit carry: the value factor's home address. The frame is simple and unforgiving: buy proven underwriters below tangible book with capital-return catalysts, avoid balance-sheet growth stories late in credit cycles, and remember the sector's returns cluster around policy inflections, not earnings seasons.",
+    debates: [
+      { topic: "NIM after the hiking cycle: plateau or bleed?", bull: "Deposit betas lag on the way down too: funding reprices faster than asset books roll off, and the securities buried at 2021 yields reinvest at double. The margin tailwind has years of asset-repricing left.", bear: "Deposit competition is now structural (apps, money funds at a tap), the curve's shape punishes maturity transformation, and every cut compresses the spread the sector just learned to love." },
+      { topic: "CRE, especially office: contained regional pain or rolling crisis?", bull: "Marks are taken, reserves built, and maturities extend-and-pretend into a recovering rate environment; office is 3% of big-bank books and concentrated in names everyone already avoids.", bear: "The refinancing wall rolls through 2026-27 at doubled rates against halved valuations; regional banks hold the concentration, and regulators' forbearance delays rather than deletes the loss." },
+      { topic: "Private credit: partner or parasite?", bull: "Banks keep the client and the fee (originate, distribute, finance the funds) while shedding the capital charge: regulatory arbitrage working as intended, for the banks.", bear: "The most profitable lending migrated out with the risk, banks now hold leveraged exposure to the same credits one step removed, and the next credit cycle tests a system where the risk-takers have no deposit insurance and the banks financed them." }
+    ],
+    cycle: {
+      where: "Mid credit-normalization: provisions rising from unnaturally low bases, NIM past peak but fat, capital returns constrained by Basel endgame uncertainty. The trade has rotated from rate-beneficiaries to credit-quality differentiation.",
+      drivers: "Policy rates and curve shape, credit formation (the lagged cost of past underwriting), loan growth, and the regulatory capital regime that gates payouts.",
+      leads: [
+        "Fed SLOOS (quarterly): lending standards lead charge-offs by 3 to 4 quarters",
+        "H.8 weekly: loan growth and deposit flows in near-real-time",
+        "NPL formation rate (not the stock) in quarterly filings",
+        "Deposit beta disclosures: the funding war's scoreboard",
+        "CRE maturity schedules and special-servicing rates (Trepp free summaries)"
+      ]
+    },
+    exposure: [
+      { vehicle: "Money centers (JPM class)", note: "Quality carry: diversified earnings, fortress capital, the sector's safe expression" },
+      { vehicle: "Regionals", note: "The CRE/credit beta and the M&A consolidation call option, in one volatile package" },
+      { vehicle: "IB-heavy names (GS class)", note: "The capital-markets cycle trade: deal recovery beta" },
+      { vehicle: "European banks", note: "The deep-value expression: decade-cheap, payout-rich, politically capped" },
+      { vehicle: "Preferreds & AT1s", note: "The carry without the equity beta; remember Credit Suisse's lesson on subordination" }
+    ],
+    catalysts: [
+      { when: "FOMC meetings", what: "The discount rate of the whole trade; curve shifts move book values and NIM guides" },
+      { when: "Mid-January (and quarterly)", what: "Big banks open earnings season: provisions and NII guides set the sector tone" },
+      { when: "June (stress tests / CCAR)", what: "Payout capacity revealed; buyback announcements follow within weeks" },
+      { when: "Quarterly SLOOS release", what: "The credit cycle's forward indicator, traded within the hour" }
+    ],
+    data: [
+      { series: "FDIC Quarterly Banking Profile", source: "fdic.gov (free)", why: "The whole US system's P&L and credit quality, aggregated" },
+      { series: "Fed H.8 weekly", source: "federalreserve.gov (free)", why: "Loan and deposit flows at weekly frequency" },
+      { series: "SLOOS", source: "federalreserve.gov (free)", why: "Underwriting standards: the best lead indicator in credit" },
+      { series: "FFIEC call reports", source: "ffiec.gov (free)", why: "Bank-by-bank granularity for the regional book" }
+    ],
+    playbook: [
+      { regime: "Rates rising", behavior: "First hikes are champagne (NIM expands), late hikes are hangover (deposit costs catch up, bond marks bite, credit cracks). The curve's shape beats its level: steepening is the real friend." },
+      { regime: "Recession", behavior: "Provisions spike, stocks trough 2 to 3 quarters before charge-offs peak; the historical money is made buying mid-recession below tangible book, not waiting for clean credit." },
+      { regime: "Inflation", behavior: "Mildly positive via nominal loan growth and rate pass-through, until it forces the hikes that end the cycle." },
+      { regime: "Risk-off / funding stress", behavior: "The sector gaps on liquidity fear (SVB template: hours, not weeks); uninsured-deposit concentration is the tell to screen before the storm, never during." }
+    ]
+  },
+
   players: [
     { name: "JPMorgan", role: "The fortress universal", country: "US", real: true, note: "~$4T balance sheet; the industry's benchmark" },
     { name: "Bank of America / Wells / Citi", role: "US megabanks", country: "US", real: true, note: "Deposit giants with divergent execution" },

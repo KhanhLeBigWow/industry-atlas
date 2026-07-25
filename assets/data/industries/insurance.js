@@ -223,6 +223,51 @@ window.ATLAS_INDUSTRIES["insurance"] = {
     }
   },
 
+  pmView: {
+    positioning: "The desk runs insurance as three uncorrelated books wearing one sector label: underwriting cyclicals (carriers/reinsurers, traded on the pricing cycle), distribution compounders (brokers/MGA platforms, owned like software), and ILS (pure cat premium, the portfolio's least-correlated return stream). Higher rates re-armed the whole sector's float income.",
+    debates: [
+      { topic: "Is climate outrunning the industry's repricing rights?", bull: "Insurance reprices annually: the 2023 reset proved rates and terms can move 30%+ in one renewal. Cat losses are a revenue opportunity in disguise; specialty and E&S absorb what standard markets flee, at better margins.", bear: "Availability retreat (Florida, California) shows the limit: when actuarially fair prices are politically unpayable, states suppress rates, residual markets balloon, and the tail risk quietly re-socializes onto the industry anyway." },
+      { topic: "Social inflation: contained or compounding?", bull: "Casualty rates are re-accelerating, reserves for 2016-19 vintages are largely trued, and disciplined underwriters priced litigation trends years ago.", bear: "Nuclear verdicts and litigation funding are growing 10%+ annually against reserves set in a calmer era; adverse development has a habit of arriving in clusters, and the soft-market vintages now aging are the exposed ones." },
+      { topic: "Brokers at software multiples: deserved or crowded?", bull: "90%+ retention, zero balance-sheet risk, pricing that rises with premiums: the best business quality in financials deserves its 25x.", bear: "Organic growth is GDP-plus at best, the roll-up math needs ever-larger deals at ever-higher multiples, and fee transparency regulation is the tail nobody prices." }
+    ],
+    cycle: {
+      where: "Softening from the hardest market in a generation: property cat rates peaked at the January 2023-24 renewals and are easing; casualty is re-hardening on social inflation; float income is the earnings engine either way.",
+      drivers: "Catastrophe losses (the capital destroyer), reserve adequacy cycles, interest rates (float yield), and capacity flows: capital enters after good years and softens the market on schedule.",
+      leads: [
+        "January 1 reinsurance renewal pricing (Guy Carpenter/Howden reports, free summaries)",
+        "Cat bond spreads vs expected loss on Artemis (free): the marginal price of hurricane risk",
+        "Quarterly reserve development disclosures across the casualty cohort",
+        "Florida/California residual market policy counts: the availability-crisis thermometer",
+        "P&C rate surveys (CIAB quarterly, free): the pricing cycle by line"
+      ]
+    },
+    exposure: [
+      { vehicle: "Specialty & E&S carriers", note: "The structural share-gainers; underwriting quality compounds here" },
+      { vehicle: "Brokers (MMC, AON, AJG class)", note: "The fee compounders; own through cycles, watch the multiple you pay" },
+      { vehicle: "Reinsurers (Munich/Swiss/Hannover, Bermuda)", note: "The hard-market trade: returns cluster in the 2 years after resets" },
+      { vehicle: "Cat bonds / ILS funds", note: "Equity-like yields uncorrelated with markets; the drawdown is a hurricane, not a recession" },
+      { vehicle: "Life consolidators & annuity writers", note: "The rates trade in insurance clothing; watch PE-owned illiquid asset books" }
+    ],
+    catalysts: [
+      { when: "January 1 (and mid-year Jun/Jul)", what: "Reinsurance renewals set the cycle's price; treaty outcomes leak through broker reports within days" },
+      { when: "June-November", what: "Hurricane season: the sector's live P&L; a quiet season IS a positive catalyst" },
+      { when: "September (Monte Carlo Rendez-Vous)", what: "The reinsurance industry pre-negotiates January in public" },
+      { when: "Q4 earnings", what: "Annual reserve reviews: where social inflation confessions happen" }
+    ],
+    data: [
+      { series: "Artemis cat bond & ILS dashboards", source: "artemis.bm (free)", why: "Live pricing of catastrophe risk: the sector's cleanest market signal" },
+      { series: "CIAB / MarketScout rate surveys", source: "free quarterly summaries", why: "The pricing cycle by line of business" },
+      { series: "NAIC statutory filings", source: "naic.org (free)", why: "Reserve development and RBC, from the source" },
+      { series: "NOAA seasonal hurricane outlook", source: "noaa.gov (free)", why: "The season's base rate, priced into every property book" }
+    ],
+    playbook: [
+      { regime: "Rates rising", behavior: "Structurally positive: float reprices upward, life insurers' solvency rebuilds. The rare financial sector that likes hikes; watch bond marks (AOCI) as the offset." },
+      { regime: "Recession", behavior: "Premiums track exposure (GDP) with a lag; brokers hold up best; workers' comp and credit lines feel it first. Historically a relative defensive." },
+      { regime: "Inflation", behavior: "The enemy: claims severity (repair costs, medical, verdicts) outruns priced assumptions; carriers with short-tail books and annual repricing defend best." },
+      { regime: "Risk-off", behavior: "Brokers behave like staples; carriers with cat concentration gap on event headlines; ILS marks only move when the wind actually blows." }
+    ]
+  },
+
   players: [
     { name: "Berkshire Hathaway", role: "The float machine", country: "US", real: true, note: "GEICO + National Indemnity + the reinsurance book: float as an investment engine, the industry's defining case study" },
     { name: "Marsh McLennan / Aon / Gallagher / WTW", role: "The big 4 brokers", country: "US", real: true, note: "$60B+ of combined revenue; the relationship layer of world commerce" },

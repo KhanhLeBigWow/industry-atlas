@@ -9,25 +9,28 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c98500%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-weight=%22bold%22 fill=%22white%22>IA</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=4">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css?v=5">
 </head>
 <body>
 <main class="wrap page-pad" id="main"></main>
 
-<script src="assets/data/taxonomy.js?v=4"></script>
-<script src="assets/data/graph.js?v=4"></script>
-<script src="assets/data/kpis.js?v=4"></script>
-<script src="assets/data/countries.js?v=4"></script>
-<script src="assets/data/companies.js?v=4"></script>
-<script src="assets/data/industries/semiconductors.js?v=4"></script>
-<script src="assets/data/industries/cloud.js?v=4"></script>
-<script src="assets/data/industries/banking.js?v=4"></script>
-<script src="assets/data/industries/copper-mining.js?v=4"></script>
-<script src="assets/data/industries/insurance.js?v=4"></script>
-<script src="assets/js/core.js?v=4"></script>
-<script src="assets/js/viz.js?v=4"></script>
-<script src="assets/js/assistant.js?v=4"></script>
+<script src="assets/data/taxonomy.js?v=5"></script>
+<script src="assets/data/graph.js?v=5"></script>
+<script src="assets/data/kpis.js?v=5"></script>
+<script src="assets/data/countries.js?v=5"></script>
+<script src="assets/data/companies.js?v=5"></script>
+<script src="assets/data/industries/semiconductors.js?v=5"></script>
+<script src="assets/data/industries/cloud.js?v=5"></script>
+<script src="assets/data/industries/banking.js?v=5"></script>
+<script src="assets/data/industries/copper-mining.js?v=5"></script>
+<script src="assets/data/industries/insurance.js?v=5"></script>
+<script src="assets/data/industries/saas.js?v=5"></script>
+<script src="assets/data/industries/oil-gas.js?v=5"></script>
+<script src="assets/data/industries/pharma.js?v=5"></script>
+<script src="assets/js/core.js?v=5"></script>
+<script src="assets/js/viz.js?v=5"></script>
+<script src="assets/js/assistant.js?v=5"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
@@ -113,30 +116,46 @@ document.addEventListener("atlas:ready", function () {
   var navItems = [
     ["overview", "Overview"], ["structure", "Structure"], ["value-chain", "Value chain"],
     ["financials", "Financials"], ["kpis", "KPIs"], ["health", "Health"],
-    ["valuation", "Valuation"], ["players", "Players"], ["connections", "Connections"],
+    ["valuation", "Valuation"]
+  ];
+  if (M.pmView) navItems.push(["pm-desk", "Investor's Desk"]);
+  navItems = navItems.concat([
+    ["players", "Players"], ["connections", "Connections"],
     ["geography", "Geography"], ["history", "History"], ["risks", "Risks"],
     ["learn", "Learn"], ["quiz", "Quiz"]
-  ];
+  ]);
 
   var html = "";
 
-  /* ----- hero ----- */
-  html += '<header class="ind-hero"><span class="kicker">' + (sector.icon || "") + " " + esc(sector.name) + "</span>" +
+  /* ----- hero with breadcrumbs + encyclopedic infobox ----- */
+  var topPlayers = (M.players || []).slice(0, 3).map(function (p) { return p.name.split("/")[0].split("(")[0].trim(); }).join(", ");
+  var infobox =
+    '<aside class="infobox"><div class="ib-head">At a glance</div>' +
+    '<div class="ib-row"><span class="ib-k">Sector</span><span class="ib-v">' + (sector.icon || "") + " " + esc(sector.name) + "</span></div>" +
+    '<div class="ib-row"><span class="ib-k">Market size</span><span class="ib-v">' + esc(fmt.big(meta.marketSize.value, meta.marketSize.unit === "$T" ? "T" : "B")) + " (" + meta.marketSize.asOf + ")</span></div>" +
+    '<div class="ib-row"><span class="ib-k">Growth</span><span class="ib-v">~' + meta.cagr.value + "% " + esc(meta.cagr.horizon) + "</span></div>" +
+    '<div class="ib-row"><span class="ib-k">Maturity</span><span class="ib-v">' + esc(meta.maturity) + "</span></div>" +
+    (topPlayers ? '<div class="ib-row"><span class="ib-k">Leaders</span><span class="ib-v">' + esc(topPlayers) + "</span></div>" : "") +
+    '<div class="ib-row"><span class="ib-k">Cyclicality</span><span class="ib-v">' + dial(meta.cyclicality) + "</span></div>" +
+    '<div class="ib-row"><span class="ib-k">Capital intensity</span><span class="ib-v">' + dial(meta.capitalIntensity) + "</span></div>" +
+    '<div class="ib-row"><span class="ib-k">Regulation</span><span class="ib-v">' + dial(meta.regulation) + "</span></div>" +
+    '<div class="ib-row"><span class="ib-k">Disruption risk</span><span class="ib-v">' + dial(meta.disruption) + "</span></div>" +
+    '<div class="ib-row"><span class="ib-k">Connections</span><span class="ib-v">' + Atlas.edgesFor(id).length + ' mapped · <a href="graph.html?focus=' + id + '">graph</a></span></div>' +
+    "</aside>";
+
+  html += '<header class="ind-hero">' +
+    '<nav class="crumbs"><a href="index.html">Atlas</a><span class="sep">▸</span><a href="index.html#' + sector.id + '">' + esc(sector.name) + '</a><span class="sep">▸</span><span class="here">' + esc(meta.name) + "</span></nav>" +
+    '<div class="hero-grid"><div>' +
+    '<span class="kicker">' + (sector.icon || "") + " " + esc(sector.name) + "</span>" +
     "<h1>" + esc(meta.name) + "</h1>" +
     '<p class="ind-tagline">' + esc(meta.tagline) + "</p>" +
     '<div class="ind-meta">' + st +
     '<span class="pill">Market ' + esc(fmt.big(meta.marketSize.value, meta.marketSize.unit === "$T" ? "T" : "B")) + " (" + meta.marketSize.asOf + ")</span>" +
-    '<span class="pill">CAGR ~' + meta.cagr.value + "% " + esc(meta.cagr.horizon) + "</span>" +
-    '<span class="pill">' + esc(meta.maturity) + "</span></div>" +
-    '<div class="stat-strip">' +
-      '<div class="stat-tile"><div class="stat-label">Cyclicality</div><div class="stat-value">' + dial(meta.cyclicality) + '</div></div>' +
-      '<div class="stat-tile"><div class="stat-label">Capital intensity</div><div class="stat-value">' + dial(meta.capitalIntensity) + '</div></div>' +
-      '<div class="stat-tile"><div class="stat-label">Regulation</div><div class="stat-value">' + dial(meta.regulation) + '</div></div>' +
-      '<div class="stat-tile"><div class="stat-label">Disruption risk</div><div class="stat-value">' + dial(meta.disruption) + '</div></div>' +
-    "</div>" +
+    '<span class="pill">CAGR ~' + meta.cagr.value + "% " + esc(meta.cagr.horizon) + "</span></div>" +
     '<div class="lens-bar"><span class="lens-label">Read as</span>' +
     Atlas.LENSES.map(function (l) { return '<button class="lens" data-lens="' + l + '">' + l + "</button>"; }).join("") +
-    '</div><div class="lens-tip" id="lens-tip"></div></header>' + schoolBand();
+    '</div><div class="lens-tip" id="lens-tip"></div></div>' +
+    infobox + "</div></header>" + schoolBand();
 
   /* ----- section nav ----- */
   html += '<nav class="section-nav">' + navItems.map(function (n) {
@@ -237,6 +256,46 @@ document.addEventListener("atlas:ready", function () {
       '<div class="tool-foot">Illustrative arithmetic, not advice. Normalized EBITDA and a through-cycle multiple are the honest inputs.</div></div>';
   }
   html += block("valuation", "07", "How it gets valued", vInner);
+
+  /* ----- the Investor's Desk (pmView) ----- */
+  if (M.pmView) {
+    var pv = M.pmView;
+    var deskInner = '<p class="lede">' + esc(pv.positioning) + "</p>";
+    if (pv.debates && pv.debates.length) {
+      deskInner += '<h3 style="margin-top:1.6rem">The live debates</h3>' + pv.debates.map(function (d, i) {
+        return '<div class="debate"><div class="debate-topic"><span class="b-ix">' + String(i + 1).padStart(2, "0") + "</span>" + esc(d.topic) + "</div>" +
+          '<div class="debate-sides"><div class="debate-side bull"><b>Bull case</b>' + esc(d.bull) + "</div>" +
+          '<div class="debate-side bear"><b>Bear case</b>' + esc(d.bear) + "</div></div></div>";
+      }).join("");
+    }
+    if (pv.cycle) {
+      deskInner += '<h3 style="margin-top:1.8rem">The cycle clock</h3><div class="cycle-clock">' +
+        '<div class="card"><h4>Where we are</h4><p class="small muted">' + esc(pv.cycle.where) + "</p>" +
+        '<h4 style="margin-top:12px">What drives it</h4><p class="small muted" style="margin:0">' + esc(pv.cycle.drivers) + "</p></div>" +
+        '<div class="card"><h4>Lead indicators to watch</h4><ul class="lead-list">' +
+        (pv.cycle.leads || []).map(function (l) { return "<li>" + esc(l) + "</li>"; }).join("") + "</ul></div></div>";
+    }
+    if (pv.exposure && pv.exposure.length) {
+      deskInner += '<h3 style="margin-top:1.8rem">How to get exposure</h3><div class="table-wrap"><table><thead><tr><th>Vehicle</th><th>The trade</th></tr></thead><tbody>' +
+        pv.exposure.map(function (x) { return "<tr><td><strong>" + esc(x.vehicle) + '</strong></td><td class="muted">' + esc(x.note) + "</td></tr>"; }).join("") +
+        "</tbody></table></div>";
+    }
+    if (pv.catalysts && pv.catalysts.length) {
+      deskInner += '<h3 style="margin-top:1.8rem">Catalyst calendar</h3><ol class="timeline">' +
+        pv.catalysts.map(function (c) { return '<li><div class="tl-when">' + esc(c.when) + '</div><div class="tl-body">' + esc(c.what) + "</div></li>"; }).join("") + "</ol>";
+    }
+    if (pv.data && pv.data.length) {
+      deskInner += '<h3 style="margin-top:1.4rem">Free data worth tracking</h3><div class="table-wrap"><table><thead><tr><th>Series</th><th>Source</th><th>Why it matters</th></tr></thead><tbody>' +
+        pv.data.map(function (d) { return "<tr><td><strong>" + esc(d.series) + "</strong></td><td>" + esc(d.source) + '</td><td class="muted">' + esc(d.why) + "</td></tr>"; }).join("") +
+        "</tbody></table></div>";
+    }
+    if (pv.playbook && pv.playbook.length) {
+      deskInner += '<h3 style="margin-top:1.8rem">The regime playbook</h3>' +
+        pv.playbook.map(function (p) { return '<div class="playbook-row"><span class="regime">' + esc(p.regime) + '</span><span class="beh">' + esc(p.behavior) + "</span></div>"; }).join("") +
+        '<div class="callout callout-data" style="margin-top:1.2rem"><p>Framework, not advice: the desk view summarizes how professionals typically analyze this sector. Positions, sizing, and timing are your own judgment.</p></div>';
+    }
+    html += block("pm-desk", "07b", "The Investor's Desk", deskInner);
+  }
 
   /* ----- players ----- */
   var featured = Object.keys(Atlas.store.companies).filter(function (k) {

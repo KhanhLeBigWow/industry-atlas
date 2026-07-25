@@ -177,6 +177,51 @@ window.ATLAS_INDUSTRIES["semiconductors"] = {
     }
   },
 
+  pmView: {
+    positioning: "The desk splits semis into tollbooths (owned through the cycle: EDA, litho, leading foundry), cyclicals (traded: memory on P/B bands, equipment on capex inflections), and the AI complex (crowded, momentum-driven, sized with respect). It is the market's highest-beta quality sector: nothing expresses a global growth view faster.",
+    debates: [
+      { topic: "Is AI capex a supercycle or an air pocket in waiting?", bull: "Hyperscaler capex guides keep rising, accelerators remain allocated not sold, HBM is contracted years out, and inference demand compounds on top of training. The compute buildout is early: think 1996, not 2000.", bear: "Ten buyers fund the leading edge; the moment AI revenue disappoints their boards, orders pause in unison. Double-ordering, record positioning, and a 2-year capacity lag are exactly how every semi bust has started." },
+      { topic: "Do CHIPS-era subsidies end in glut?", bull: "Subsidies de-risk geographic resilience without changing discipline at the leading edge, where 3 players rationally manage supply.", bear: "China's mature-node buildout plus subsidized Western fabs is textbook capacity overshoot; 28nm+ pricing already shows it. The commodity half of the industry faces a structural margin squeeze." },
+      { topic: "How should Taiwan risk be priced?", bull: "The silicon shield holds: deterrence is stable, and TSMC's Arizona/Kumamoto spread thins the tail yearly. The discount on the world's best manufacturing franchise is the opportunity.", bear: "A low-probability, portfolio-ending magnitude event that correlates with everything else failing at once deserves more than 50bps of discount; hedges are underpriced because the scenario is unmodelable." }
+    ],
+    cycle: {
+      where: "A split cycle: AI silicon and HBM supply-constrained (boom), analog/MCU/mature nodes digesting the 2021 over-order (late downcycle, bottoming). The composite indices mask two opposite phases.",
+      drivers: "Hyperscaler capex, smartphone/PC replacement waves, auto/industrial inventory, and the 2-year lag between capex decisions and wafers out.",
+      leads: [
+        "TSMC monthly revenue (published ~10th, free): the chain's highest-frequency truth",
+        "Lead times (falling = downcycle loading) and distributor inventory days",
+        "SEMI equipment book-to-bill and WSTS monthly billings (3-month average)",
+        "Memory spot vs contract pricing: the commodity end turns first",
+        "HBM contract coverage and CoWoS capacity announcements for the AI complex"
+      ]
+    },
+    exposure: [
+      { vehicle: "Tollbooths (ASML, EDA duopoly, TSMC)", note: "Own through the cycle: monopoly economics compound across busts" },
+      { vehicle: "AI complex (NVDA and the HBM chain)", note: "The momentum book; size for 30% drawdowns that arrive without appointments" },
+      { vehicle: "Memory (Samsung, SK Hynix, Micron)", note: "The P/B band trade: buy near 1x book in loss quarters, trim past 2x" },
+      { vehicle: "Equipment (AMAT, Lam, TEL, KLA)", note: "Capex beta with consolidation quality; leads the cycle both ways" },
+      { vehicle: "SOXX/SMH archetypes", note: "The sector beta: increasingly an NVDA-weighted single bet; know the concentration" }
+    ],
+    catalysts: [
+      { when: "~10th monthly", what: "TSMC revenue release: the sector's pulse check" },
+      { when: "Late Jan / Apr / Jul / Oct", what: "Earnings waves: TSMC and ASML guide first, NVIDIA closes the loop a month later" },
+      { when: "March (GTC), December (SEMICON)", what: "Product and capacity narratives reset" },
+      { when: "Irregular, watch October", what: "US export-control updates: each round re-prices China exposure across the chain" }
+    ],
+    data: [
+      { series: "WSTS/SIA monthly billings", source: "semiconductors.org (free)", why: "The industry's official revenue pulse, 3-month smoothed" },
+      { series: "TSMC monthly revenue", source: "pr.tsmc.com (free)", why: "Leading-edge demand in near-real-time" },
+      { series: "SEMI book-to-bill & fab forecasts", source: "semi.org (free summaries)", why: "The capex cycle's direction" },
+      { series: "DRAM/NAND spot price summaries", source: "TrendForce free notes", why: "The commodity end's turn signal" }
+    ],
+    playbook: [
+      { regime: "Recession", behavior: "Orders fall 20% to 30% with a violent inventory unwind; the buy signal is inventory normalization plus capex cuts, historically 2 quarters before the trough in fundamentals." },
+      { regime: "Rates rising", behavior: "Multiple compression on the growth half; tollbooths hold best. Less rate-sensitive than software: earnings are nearer-dated." },
+      { regime: "Inflation", behavior: "Mildly positive: pricing power at the constrained leading edge passes costs through; commodity semis cannot." },
+      { regime: "Risk-off", behavior: "1.5x market beta and the first sector sold on global growth fear; Taiwan headlines add a gap-risk layer no other sector carries." }
+    ]
+  },
+
   players: [
     { name: "TSMC", role: "Pure-play foundry", country: "TW", real: true, note: "~60% foundry share, ~90% of leading-edge logic; the chain's center of gravity" },
     { name: "NVIDIA", role: "Fabless AI leader", country: "US", real: true, note: "Accelerators + CUDA ecosystem; captured the AI profit pool" },

@@ -104,6 +104,51 @@ window.ATLAS_INDUSTRIES["copper-mining"] = {
       { name: "EV per tonne of capacity/resource", use: "M&A math and junior comparisons", avoid: "Comparing across grade and stage", strengths: "Cuts through accounting entirely", weaknesses: "A tonne in Chile ≠ a tonne in a war zone", range: { low: 0, high: 0, asOf: 2024, note: "recent major M&A paid $30,000+ per tonne of production, versus ~$20,000 to build" } }
     ]
   },
+  pmView: {
+    positioning: "The desk holds copper as the highest-conviction structural long in commodities, expressed through cost-curve leaders and royalties rather than the metal itself, and sized as the violently cyclical, China-levered asset it remains. The thesis is supply arithmetic (15-year lags, falling grades) meeting electrification demand; the risk is that the thesis is consensus.",
+    debates: [
+      { topic: "The deficit: inevitable or perpetually postponed?", bull: "Grades fall, permits take decades, majors pay $30,000+/t to BUY production versus ~$20,000 to build: the supply side has already voted. AI datacenters, grids, and EVs stack demand the pipeline cannot meet by the late 2020s.", bear: "Deficit forecasts have been 5 years away for 15 years: scrap supply surges at high prices, substitution (aluminum) caps spikes above ~$10,000/t, and Chinese demand: 55% of the market: is tied to a property sector in structural decline." },
+      { topic: "China: floor or trapdoor?", bull: "Grid capex and EVs already replaced property as the demand engine: China's copper use keeps growing through the construction bust, and stimulus always finds copper-intensive channels.", bear: "Manufacturing plus grid cannot forever offset the largest construction downturn in modern history; inventory cycles amplify every wobble, and the market's marginal buyer sets the price on the way down too." },
+      { topic: "Resource nationalism: priced or underpriced?", bull: "Royalty regimes stabilized post-2023 (Chile's deal), and scarcity gives quality jurisdictions pricing power: the political premium is the moat for incumbent producers.", bear: "Every deficit year raises the government take: Panama closed a top-10 mine overnight (Cobre Panamá), Peru cycles through crises, and the DRC concentration in the growth supply is itself the risk." }
+    ],
+    cycle: {
+      where: "Deficit narrative meeting soft Chinese reality: prices range-bound at historically high levels, treatment charges at record lows (concentrate scarcity), exchange inventories the tie-breaker quarter to quarter.",
+      drivers: "Chinese demand (~55%), grid and EV buildouts, mine supply disruptions (guidance misses are chronic), scrap elasticity, and the dollar.",
+      leads: [
+        "TC/RCs (smelter treatment charges): record lows = mine scarcity, the chain's clearest signal",
+        "LME + SHFE + COMEX combined inventories vs seasonal norms",
+        "China grid-investment announcements and monthly PMIs",
+        "Producer quarterly reports: guidance cuts ARE the supply thesis arriving",
+        "Chilean/Peruvian/DRC political calendars: supply risk on a schedule"
+      ]
+    },
+    exposure: [
+      { vehicle: "Pure plays (Freeport class)", note: "The equity beta: 2x to 3x the metal's move, both directions" },
+      { vehicle: "Diversified majors (BHP class)", note: "Copper growth inside iron-ore cash flows: the lower-octane expression" },
+      { vehicle: "Royalty & streaming companies", note: "Cost-curve immunity: price upside without opex inflation" },
+      { vehicle: "Futures / physical ETPs", note: "The clean macro expression; contango costs carry" },
+      { vehicle: "Developers & juniors", note: "The option book on the incentive price: mostly expires worthless, occasionally 10x" }
+    ],
+    catalysts: [
+      { when: "China stimulus announcements (Politburo meetings, Two Sessions in March)", what: "The demand-side gap risk in both directions" },
+      { when: "Quarterly producer reports (Jan/Apr/Jul/Oct)", what: "Guidance cuts have been the supply story's recurring proof" },
+      { when: "October (LME Week)", what: "The industry marks its book and sets the narrative for the year" },
+      { when: "Annual TC/RC benchmark negotiations (Q4)", what: "Mine-vs-smelter power balance made public" }
+    ],
+    data: [
+      { series: "LME stocks & prices", source: "lme.com (free daily)", why: "The market's inventory truth" },
+      { series: "ICSG monthly balance", source: "icsg.org (free)", why: "Global supply-demand accounting" },
+      { series: "Cochilco statistics", source: "cochilco.cl (free)", why: "Chilean production: a quarter of world supply" },
+      { series: "China PMI + grid capex", source: "NBS / SGCC releases (free)", why: "The demand engine's dashboard" }
+    ],
+    playbook: [
+      { regime: "Inflation", behavior: "Strong hedge: copper IS the input cost; real-asset bid arrives with every CPI surprise." },
+      { regime: "Recession (global)", behavior: "Down 30%+ historically; the China-shaped exception: Beijing stimulus has twice turned global recessions into copper rallies." },
+      { regime: "Rates / dollar", behavior: "Dollar strength is the headwind (inverse correlation ~0.6); rate cuts are a bid via both dollar and construction." },
+      { regime: "Risk-off", behavior: "High-beta commodity: sold first with equities, but physical tightness (backwardation) cushions crashes that inventory gluts would amplify." }
+    ]
+  },
+
   players: [
     { name: "Codelco", role: "Largest producer (state-owned)", country: "CL", real: true, note: "Chile's crown jewel, fighting grade decline with $40B of reinvestment" },
     { name: "Freeport-McMoRan", role: "Largest listed pure-play", country: "US", real: true, note: "Grasberg's operator; the equity market's copper proxy" },

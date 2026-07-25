@@ -533,5 +533,187 @@ window.ATLAS_COMPANIES = {
     moat: "The endowment: the largest copper reserve base on Earth, in a stable(ish) mining jurisdiction, with sunk infrastructure a century deep.",
     risks: "Grade decline vs debt spiral; state ownership politics (royalties, lithium mandates); execution on megaprojects with a mixed record.",
     competitors: ["freeport", "BHP (Escondida operator)", "Zijin, CMOC"]
+  },
+
+  /* ================= saas ================= */
+  "salesforce": {
+    id: "salesforce", name: "Salesforce", full: "Salesforce, Inc.", country: "US",
+    industries: ["saas"], role: "The SaaS category creator", founded: 1999, hq: "San Francisco, USA",
+    stats: [{ label: "Revenue", value: "$38B", note: "FY2025 (calendar 2024)" }, { label: "CRM share", value: "#1", note: "for 11 straight years" }, { label: "Op margin", value: "~33%", note: "post efficiency turn" }, { label: "Customers", value: "150K+", note: "" }],
+    model: [
+      "Salesforce invented the SaaS playbook (\"No Software\", 1999) and still runs its largest pure-play: CRM as the system of record for the world's sales teams, extended into service, marketing, data (MuleSoft, Tableau), and collaboration (Slack) through serial acquisition. Revenue is ~95% subscription, sold top-down through one of software's great enterprise salesforces.",
+      "The company is also the sector's efficiency-era case study: activist pressure in 2022-23 converted a growth-at-all-costs P&L into 30%+ operating margins within 2 years while keeping ~10% growth, proving the model's latent profitability. The current bet is Agentforce: pricing AI agents per conversation rather than per seat, the industry's most-watched experiment in post-seat economics."
+    ],
+    customers: [
+      { who: "Enterprises (the Fortune 500 core)", note: "multi-cloud contracts, 7-figure ACVs", share: "most of revenue" },
+      { who: "Mid-market sales & service teams", note: "the volume base" },
+      { who: "ISVs on AppExchange", note: "the pioneering app marketplace; partners pay to reach the base" }
+    ],
+    suppliers: [
+      { who: "Hyperscalers (AWS primarily)", note: "infrastructure under most of the stack" },
+      { who: "AI model providers", note: "Agentforce runs on frontier models plus its own" },
+      { who: "The SI ecosystem (Accenture class)", note: "implementation armies making enterprise deals land" }
+    ],
+    capitalIn: [
+      { source: "Subscription cash flow (~$13B FCF)", note: "the annuity engine" },
+      { source: "Historically: equity for M&A", note: "Slack ($28B), Tableau, MuleSoft bought with stock" }
+    ],
+    capitalOut: [
+      { use: "Buybacks (~$8B+/yr)", note: "the efficiency era's signature; first dividend initiated 2024" },
+      { use: "R&D + Agentforce buildout", note: "the post-seat pricing bet" },
+      { use: "M&A (paused, then selective)", note: "Informatica-scale data deals over mega-platforms" }
+    ],
+    revenueMix: [
+      { label: "Sales + Service clouds", pct: 50 }, { label: "Platform, Data & Slack", pct: 35 }, { label: "Marketing + Commerce", pct: 15 }
+    ],
+    moat: "The system-of-record position: 150K companies' revenue data lives here, and AppExchange plus the admin/developer ecosystem (Trailhead) make leaving a re-implementation of the business.",
+    risks: "Growth maturity (~10%); Microsoft bundling pressure; whether agent pricing cannibalizes seats faster than it adds; acquisition integration debt.",
+    competitors: ["microsoft (Dynamics)", "HubSpot, ServiceNow", "Oracle, SAP"]
+  },
+
+  /* ================= oil & gas ================= */
+  "exxonmobil": {
+    id: "exxonmobil", name: "ExxonMobil", full: "Exxon Mobil Corporation", country: "US",
+    industries: ["oil-gas"], role: "Largest Western major", founded: 1870, hq: "Houston, USA",
+    stats: [{ label: "Revenue", value: "$340B", note: "2024, approx" }, { label: "Production", value: "4.6 mboe/d", note: "post-Pioneer" }, { label: "Breakeven", value: "~$35", note: "corporate, per company guidance" }, { label: "Payouts", value: "$36B", note: "2024 dividends + buybacks" }],
+    model: [
+      "ExxonMobil is the integrated model at maximum scale: upstream production (Permian, Guyana, LNG), the West's largest refining circuit, and a chemicals major, run under one capital-allocation machine descended from Standard Oil. The $60B Pioneer acquisition (2024) made it the Permian's largest producer; Guyana is the decade's best conventional discovery, with sub-$35 breakevens.",
+      "The strategy is discipline codified: a conservative price deck, structural cost cuts ($12B+ removed since 2019), counter-cyclical balance-sheet strength, and shareholder returns as the residual claim on every barrel. The transition bet is pragmatic and contrarian: carbon capture, hydrogen, and lithium as fee-based businesses layered on existing engineering skills rather than a pivot to renewables."
+    ],
+    customers: [
+      { who: "Refiners & product markets", note: "crude and products across its own and third-party systems" },
+      { who: "Chemical converters", note: "polyethylene-class feedstocks worldwide" },
+      { who: "LNG buyers (Asia, Europe)", note: "long-term contracted cargoes" },
+      { who: "Motorists & aviation", note: "branded fuels at the retail end" }
+    ],
+    suppliers: [
+      { who: "Oilfield services (SLB, Halliburton)", note: "the drilling and completion machine" },
+      { who: "Host governments (Guyana, Qatar, US)", note: "the license holders; fiscal terms are the real price" },
+      { who: "Steel, EPC & shipping", note: "megaproject inputs" }
+    ],
+    capitalIn: [
+      { source: "Operating cash flow ($55B+ at $80 Brent)", note: "self-funding at scale" },
+      { source: "AAA-adjacent debt capacity", note: "drawn counter-cyclically (2020), repaid promptly" }
+    ],
+    capitalOut: [
+      { use: "Capex ~$28B", note: "Permian, Guyana, LNG, low-carbon" },
+      { use: "Dividends ($16B+, 42 straight years raised)", note: "the sector's flagship payout" },
+      { use: "Buybacks (~$20B/yr program)", note: "the discipline era's flex" },
+      { use: "M&A (Pioneer $60B)", note: "buying inventory instead of exploring for it" }
+    ],
+    revenueMix: [
+      { label: "Energy products (refining)", pct: 55 }, { label: "Upstream", pct: 30 }, { label: "Chemicals + specialty", pct: 15 }
+    ],
+    moat: "Scale + integration + project execution: the ability to build Guyana-class megaprojects on budget is rarer than the oil itself, and the balance sheet buys distressed assets at every trough.",
+    risks: "Oil price and the demand-plateau debate; Guyana concentration; climate litigation and policy; the transition bet being too slow or too small.",
+    competitors: ["aramco", "Chevron", "Shell, TotalEnergies"]
+  },
+
+  "aramco": {
+    id: "aramco", name: "Saudi Aramco", full: "Saudi Arabian Oil Company", country: "SA",
+    industries: ["oil-gas"], role: "The central bank of oil", founded: 1933, hq: "Dhahran, Saudi Arabia",
+    stats: [{ label: "Revenue", value: "~$480B", note: "2024" }, { label: "Net income", value: "~$106B", note: "2024: the world's most profitable company" }, { label: "Capacity", value: "~12 mb/d", note: "plus the world's spare capacity" }, { label: "Lifting cost", value: "~$3/bbl", note: "the planet's cheapest barrels" }],
+    model: [
+      "Aramco is geology as a business model: the Ghawar-class fields produce the world's cheapest barrels (~$3 lifting costs) at the world's largest scale, generating ~$100B+ of annual profit that funds the Saudi state (the ~81% shareholder plus royalties and taxes take most of it). Its spare capacity is OPEC+ policy made physical: the ability to add or withhold millions of barrels is the market's stabilizer and weapon.",
+      "The corporate strategy diversifies down the barrel: giant expansions in gas (Jafurah), chemicals (SABIC), refining stakes across Asia (locking in demand for its own crude), and a venture arm. The 2019 IPO listed a sliver on the Tadawul; the dividend, ~$85B+ in recent years and partly borrowed in lean quarters, is effectively Saudi fiscal policy wearing a payout ratio."
+    ],
+    customers: [
+      { who: "Asian refiners (China, India, Japan, Korea)", note: "the core demand relationships, term contracts", share: "most of exports" },
+      { who: "Its own refining JVs", note: "captive demand from Fujian to Port Arthur" },
+      { who: "The Saudi state", note: "the ultimate customer: oil revenue is the budget" }
+    ],
+    suppliers: [
+      { who: "Oilfield services majors", note: "the largest single client of SLB-class firms" },
+      { who: "EPC contractors", note: "Jafurah gas and expansion megaprojects" },
+      { who: "Desalination & power", note: "industrial inputs at national scale" }
+    ],
+    capitalIn: [
+      { source: "Oil revenue", note: "~$480B at 2024 prices" },
+      { source: "Bond & sukuk markets", note: "borrowing occasionally bridges the dividend" },
+      { source: "Asset monetizations", note: "pipeline stake sales to global infrastructure funds" }
+    ],
+    capitalOut: [
+      { use: "Dividends to the state (~$85B+)", note: "Saudi fiscal policy, paid quarterly" },
+      { use: "Capex ~$50B", note: "capacity maintenance, gas expansion, chemicals" },
+      { use: "Downstream acquisitions", note: "buying the demand for its own barrels" }
+    ],
+    revenueMix: [
+      { label: "Upstream crude & gas", pct: 75 }, { label: "Downstream (refining, chemicals)", pct: 25 }
+    ],
+    moat: "The reserves themselves: ~250B barrels at the bottom of the global cost curve, plus the spare capacity that makes it the market's central banker rather than a price-taker.",
+    risks: "One commodity, one state: budget breakevens (~$90 fiscal) above corporate ones; the demand-plateau debate lands hardest on the longest-reserve holder; geopolitical target risk (Abqaiq 2019).",
+    competitors: ["exxonmobil", "ADNOC, QatarEnergy", "The energy transition itself"]
+  },
+
+  /* ================= pharma ================= */
+  "lilly": {
+    id: "lilly", name: "Eli Lilly", full: "Eli Lilly and Company", country: "US",
+    industries: ["pharma"], role: "The GLP-1 king", founded: 1876, hq: "Indianapolis, USA",
+    stats: [{ label: "Revenue", value: "$45B", note: "2024, +32%" }, { label: "Tirzepatide franchise", value: "$16B+", note: "Mounjaro + Zepbound, year 2" }, { label: "Patent runway", value: "to 2036+", note: "tirzepatide compound" }, { label: "Manufacturing", value: "$20B+", note: "committed capacity buildout" }],
+    model: [
+      "Lilly spent a century as a diversified drugmaker (insulin since the 1920s) and then hit the largest franchise in pharmaceutical history: tirzepatide, a dual-agonist metabolic drug sold as Mounjaro (diabetes) and Zepbound (obesity), growing faster than any medicine ever launched. The pipeline logic is a metabolic platform: oral GLP-1s (orforglipron), next-generation triple agonists, and label expansions into heart, kidney, and sleep apnea indications.",
+      "The model is patented pricing power plus manufacturing as moat: demand so exceeds supply that Lilly's $20B+ factory buildout IS the competitive strategy, deciding market share until the 2030s. Beyond metabolics: oncology (Verzenio), immunology, and a high-risk Alzheimer's franchise (donanemab). The market prices Lilly like a tech platform, which is precisely the debate."
+    ],
+    customers: [
+      { who: "PBMs & payers", note: "formulary access negotiations set the franchise's net price", share: "the real gate" },
+      { who: "Employers & governments", note: "the obesity-coverage battleground" },
+      { who: "Patients (via pharmacies + LillyDirect)", note: "direct-to-consumer telehealth channel, an industry first at scale" }
+    ],
+    suppliers: [
+      { who: "CDMOs + own plants", note: "sterile fill-finish capacity: the binding constraint of the GLP-1 era" },
+      { who: "API & peptide chemistry suppliers", note: "complex synthesis at unprecedented volume" },
+      { who: "CROs", note: "the trial machine across dozens of indications" }
+    ],
+    capitalIn: [
+      { source: "Franchise cash flow", note: "accelerating with every quarter of supply growth" },
+      { source: "Bond markets", note: "funding the manufacturing race cheaply" }
+    ],
+    capitalOut: [
+      { use: "Manufacturing capex ($20B+ program)", note: "Indiana, North Carolina, Ireland, Germany plants" },
+      { use: "R&D ~$11B", note: "metabolic platform + oncology + neuro" },
+      { use: "Dividends + modest buybacks", note: "growth still outranks payouts" },
+      { use: "Bolt-on M&A", note: "obesity adjacencies and radiopharma" }
+    ],
+    revenueMix: [
+      { label: "Metabolic (GLP-1 + insulin)", pct: 55 }, { label: "Oncology", pct: 20 }, { label: "Immunology + neuro + other", pct: 25 }
+    ],
+    moat: "Best-in-class molecule efficacy + a manufacturing scale race only 2 companies can run + patents to 2036: a physical moat layered on a legal one.",
+    risks: "Franchise concentration; payer capacity for population-scale pricing; oral competition and compounders; a valuation that prices flawless execution.",
+    competitors: ["novo", "Amgen, Roche (pipelines)", "Compounders (gray market)"]
+  },
+
+  "novo": {
+    id: "novo", name: "Novo Nordisk", full: "Novo Nordisk A/S", country: "DK",
+    industries: ["pharma"], role: "The other half of the GLP-1 duopoly", founded: 1923, hq: "Bagsværd, Denmark",
+    stats: [{ label: "Revenue", value: "~$42B", note: "2024 (DKK 290B), +25%" }, { label: "GLP-1 share", value: "~2/3 of sales", note: "semaglutide franchise" }, { label: "Diabetes heritage", value: "100+ years", note: "insulin since 1923" }, { label: "Semaglutide LOE", value: "~2031", note: "core US compound patent" }],
+    model: [
+      "Novo Nordisk turned a century of insulin specialization into the first-mover GLP-1 franchise: semaglutide as Ozempic (diabetes), Wegovy (obesity), and Rybelsus (the first oral GLP-1). At peak it became Europe's most valuable company, its market cap exceeding Denmark's GDP, an entire national economy reshaped by one molecule's supply curve.",
+      "The structure is unique: the Novo Nordisk Foundation controls the votes, enforcing century-horizon capital allocation. The strategic race is threefold: scale manufacturing (the $11B+ Catalent fill-finish acquisition), defend share against Lilly's higher-efficacy tirzepatide, and replace semaglutide before its ~2031 LOE with next-generation assets (CagriSema, amycretin). Concentration is the price of the crown: roughly two-thirds of revenue rides one franchise."
+    ],
+    customers: [
+      { who: "PBMs & payers (US)", note: "net price erosion vs volume growth: the franchise's core tension" },
+      { who: "European & emerging-market health systems", note: "the global diabetes base" },
+      { who: "Patients", note: "brand recognition unprecedented in pharma history" }
+    ],
+    suppliers: [
+      { who: "Own plants + Catalent (acquired)", note: "vertical integration of the fill-finish bottleneck" },
+      { who: "Peptide API chain", note: "semaglutide synthesis at population scale" },
+      { who: "CROs", note: "outcome trials (SELECT) that unlocked cardiology labels" }
+    ],
+    capitalIn: [
+      { source: "Franchise cash flow", note: "~40% operating margins on surging volume" },
+      { source: "Foundation-anchored equity", note: "permanent capital, no activist can force the horizon" }
+    ],
+    capitalOut: [
+      { use: "Manufacturing capex + Catalent ($11B)", note: "the supply race with Lilly" },
+      { use: "R&D ~$6B", note: "next-gen obesity, oral scaling, rare disease heritage" },
+      { use: "Dividends + buybacks", note: "Danish-steady returns" }
+    ],
+    revenueMix: [
+      { label: "GLP-1 (Ozempic, Wegovy, Rybelsus)", pct: 66 }, { label: "Insulin + other diabetes", pct: 22 }, { label: "Rare disease + other", pct: 12 }
+    ],
+    moat: "First-mover brand equity (Ozempic is a household word), a century of metabolic-disease depth, foundation-controlled patience, and manufacturing scale only one rival matches.",
+    risks: "Two-thirds concentration in one franchise with ~2031 core LOE; Lilly's efficacy lead; pipeline transitions (CagriSema data) carrying national-economy-sized expectations.",
+    competitors: ["lilly", "Amgen, Boehringer (pipelines)", "Generic semaglutide, eventually"]
   }
 };

@@ -107,6 +107,17 @@ window.ATLAS_TAXONOMY = {
 
     /* ---- digital assets ---- */
     { id: "crypto", name: "Cryptocurrency & Blockchain", sector: "digital-assets", blurb: "Programmable money and the infrastructure being built around it.", aliases: ["bitcoin", "ethereum", "defi", "digital assets"] },
-    { id: "crypto-infrastructure", name: "Crypto Infrastructure", sector: "digital-assets", blurb: "Exchanges, custody, mining, and stablecoin rails.", aliases: ["exchanges", "stablecoins", "mining"] }
+    { id: "crypto-infrastructure", name: "Crypto Infrastructure", sector: "digital-assets", blurb: "Exchanges, custody, mining, and stablecoin rails.", aliases: ["exchanges", "stablecoins", "mining"] },
+
+    /* ---- 2026-07 expansion ---- */
+    { id: "market-infrastructure", name: "Exchanges & Market Infrastructure", sector: "finance", blurb: "The tollbooths of trading: exchanges, clearinghouses, and the data they mint.", aliases: ["exchanges", "clearing", "market data", "ICE", "CME"] },
+    { id: "private-credit", name: "Private Credit", sector: "finance", blurb: "Direct lending's $1.7T migration out of the banking system.", aliases: ["direct lending", "BDC", "private debt"] },
+    { id: "wealth-management", name: "Wealth Management", sector: "finance", blurb: "Managing the world's private fortunes, by the basis point.", aliases: ["private banking", "RIA", "financial advisors"] },
+    { id: "waste-management", name: "Waste & Environmental Services", sector: "industrials", blurb: "Route density, landfills, and the most reliable pricing power in industrials.", aliases: ["recycling", "environmental services"] },
+    { id: "packaging", name: "Packaging", sector: "materials", blurb: "Everything ships inside its products: GDP-plus stability in boxes, cans, and films.", aliases: ["containers", "corrugated", "cans"] },
+    { id: "forestry-paper", name: "Forestry & Paper", sector: "materials", blurb: "Timberland, pulp cycles, and the box economy behind e-commerce.", aliases: ["timber", "pulp", "lumber"] },
+    { id: "textiles-apparel", name: "Textiles & Apparel", sector: "consumer", blurb: "From fiber to fast fashion: the world's most labor-intensive supply chain.", aliases: ["fashion", "garments", "footwear"] },
+    { id: "gambling", name: "Gambling & Betting", sector: "consumer", blurb: "Casinos, sports betting, and the mathematics of the house edge.", aliases: ["casinos", "sports betting", "igaming"] },
+    { id: "water", name: "Water", sector: "real-assets", blurb: "The scarcest utility: rights, treatment, desalination, and pipes.", aliases: ["water utilities", "desalination"] }
   ]
 };

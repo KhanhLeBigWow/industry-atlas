@@ -102,6 +102,50 @@ window.ATLAS_INDUSTRIES["cloud"] = {
       { name: "DCF with power-constrained scenarios", use: "Long-horizon AI demand cases", avoid: "Point estimates", strengths: "Forces the AI-monetization question explicitly", weaknesses: "Terminal assumptions dominate", range: { low: 0, high: 0, asOf: 2024, note: "scenario engine, not price target" } }
     ]
   },
+  pmView: {
+    positioning: "The desk treats cloud as the AI era's toll road, expressed through 3 megacaps that dominate every index: the position most portfolios own whether they chose it or not. The live work is second-derivative: capex guides as the AI demand signal, and the supplier chain (power, cooling, optics, datacenter REITs) as the purer trades.",
+    debates: [
+      { topic: "Does AI capex earn its cost of capital?", bull: "RPO growth, AI service revenue disclosures, and enterprise commitments all accelerate; the buildout is contract-backed, not speculative, and the clouds hold the customer relationship whatever model wins.", bear: "$250B+ of annual capex against AI revenues still measured in low tens of billions; depreciation is a lagged margin bomb, and history's verdict on capacity races (telecom 2000) is unkind." },
+      { topic: "Is power the new binding constraint or a solvable queue?", bull: "Hyperscalers are solving it with money: nuclear PPAs, behind-the-meter generation, and grid investments turn a constraint into a moat smaller rivals cannot fund.", bear: "Interconnection queues run 4+ years, communities are revolting against datacenter load, and electricity costs are rising into COGS exactly as AI margins are being promised." },
+      { topic: "Repatriation and sovereignty: noise or leak?", bull: "Every optimization cycle ends with workloads returning; sovereignty demands become new product SKUs (sovereign clouds) at premium pricing.", bear: "At scale, the cloud premium over owned infrastructure is real; AI-era unit costs revive the build-vs-rent math for the biggest tenants, who are also the growth." }
+    ],
+    cycle: {
+      where: "Mid AI-buildout: growth re-accelerated, capex guides climbing, margins beginning to feel depreciation; the optimization hangover of 2022-23 is finished.",
+      drivers: "Enterprise IT budgets, AI training/inference demand, and the capex-depreciation lag that turns today's buildout into tomorrow's margin question.",
+      leads: [
+        "Hyperscaler RPO growth vs revenue growth each quarter",
+        "Capex guidance revisions: the AI demand signal the whole supply chain trades on",
+        "GPU lead times and NVIDIA's data center print as the demand proxy",
+        "Power PPA and interconnection announcements: capacity 2 years out",
+        "Cloud optimization commentary: the consumption model's early-warning phrase"
+      ]
+    },
+    exposure: [
+      { vehicle: "The megacap trio (via parents)", note: "The core position; cloud economics wrapped in ads/software conglomerates" },
+      { vehicle: "GPU clouds (CoreWeave class)", note: "Pure AI-compute beta with financing leverage; the cycle's high-wire act" },
+      { vehicle: "Datacenter REITs & builders", note: "The landlord trade: contracted yields on the buildout" },
+      { vehicle: "Power & cooling chain (utilities, nuclear, liquid cooling)", note: "The constraint trade: whoever solves gigawatts gets paid" },
+      { vehicle: "Optics & networking suppliers", note: "Picks-and-shovels on datacenter interconnect intensity" }
+    ],
+    catalysts: [
+      { when: "Late Jan / Apr / Jul / Oct", what: "Hyperscaler earnings: capex guides and RPO move the entire AI complex" },
+      { when: "Nov-Dec (re:Invent, Ignite)", what: "Product and pricing narratives for the next year" },
+      { when: "NVIDIA earnings (a month after the clouds)", what: "The demand check on everything the clouds claimed" },
+      { when: "Power deal announcements", what: "Nuclear PPAs and interconnection wins re-rate the constraint story" }
+    ],
+    data: [
+      { series: "Hyperscaler capex & RPO disclosures", source: "10-Qs / IR (free)", why: "The buildout's primary source" },
+      { series: "Synergy / Canalys share estimates", source: "free press summaries", why: "Market share shifts quarterly" },
+      { series: "EIA electricity data", source: "eia.gov (free)", why: "Datacenter load growth in the actual grid numbers" }
+    ],
+    playbook: [
+      { regime: "Rates rising", behavior: "Megacap balance sheets shrug; the levered edge (GPU clouds, REITs) feels it first. Multiple pressure is real but earnings are near-dated." },
+      { regime: "Recession", behavior: "The 2022-23 template: consumption optimization before churn: growth halves, does not reverse. Enterprise commitments make it a slowdown story, not a collapse." },
+      { regime: "Inflation", behavior: "Power and construction costs squeeze; pricing power on proprietary services offsets. Net mild negative." },
+      { regime: "Risk-off", behavior: "Hides inside the megacaps until AI crowding unwinds, then leads the downside; supplier chain moves 2x the parents in both directions." }
+    ]
+  },
+
   players: [
     { name: "AWS", role: "Infrastructure leader (~31% share)", country: "US", real: true, note: "The category creator; margin benchmark" },
     { name: "Microsoft Azure", role: "Enterprise & AI challenger (~24%)", country: "US", real: true, note: "OpenAI partnership made it the AI-era share taker" },

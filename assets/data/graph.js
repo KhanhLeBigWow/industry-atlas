@@ -132,6 +132,26 @@ window.ATLAS_GRAPH = {
     { from: "government", to: "utilities", type: "geo", strength: 2, label: "Rates are set in hearing rooms", detail: "Regulated returns and permitting timelines are political outputs." },
     { from: "oil-gas", to: "government", type: "geo", strength: 2, label: "Petrostates and price politics", detail: "OPEC decisions, sanctions, and strategic reserves make oil a diplomatic instrument." },
     { from: "insurance", to: "agriculture", type: "risk", strength: 1, label: "Crop insurance carries climate risk", detail: "Subsidized crop programs and reinsurance absorb increasingly volatile harvests." },
-    { from: "banking", to: "government", type: "risk", strength: 2, label: "Sovereigns backstop the banking system", detail: "Deposit insurance and lender-of-last-resort powers tie bank risk to public balance sheets, and vice versa via bond holdings." }
+    { from: "banking", to: "government", type: "risk", strength: 2, label: "Sovereigns backstop the banking system", detail: "Deposit insurance and lender-of-last-resort powers tie bank risk to public balance sheets, and vice versa via bond holdings." },
+
+    /* ===== 2026-07 expansion edges ===== */
+    { from: "market-infrastructure", to: "capital-markets", type: "supply", strength: 3, label: "Exchanges and clearinghouses are the market's venue layer", detail: "Trading happens on their rails; clearing mutualizes counterparty risk; volatility is their revenue." },
+    { from: "market-infrastructure", to: "asset-management", type: "data", strength: 2, label: "Market data is the industry's subscription tax", detail: "Exchanges mint index licenses and data feeds every fund must buy: the fee that grows faster than trading itself." },
+    { from: "private-credit", to: "private-equity", type: "capital", strength: 3, label: "Direct lending funds the buyouts now", detail: "Private credit displaced syndicated banks in mid-market LBO financing; sponsors and lenders share the same LPs." },
+    { from: "banking", to: "private-credit", type: "capital", strength: 2, label: "Banks finance the funds that replaced them", detail: "Subscription lines and fund leverage mean bank risk returns one step removed from the loans it exited." },
+    { from: "insurance", to: "private-credit", type: "capital", strength: 2, label: "Annuity float feeds private lending", detail: "PE-owned insurers channel policyholder assets into their affiliated credit funds: the regulatory debate of the decade." },
+    { from: "wealth-management", to: "asset-management", type: "capital", strength: 2, label: "Advisors allocate the fortunes", detail: "Wealth platforms gatekeep trillions of retail and HNW flows into funds and, increasingly, private markets." },
+    { from: "construction", to: "waste-management", type: "demand", strength: 1, label: "Building and demolition feed the waste stream", detail: "C&D debris is a major tonnage line; construction cycles ripple into hauler volumes." },
+    { from: "waste-management", to: "utilities", type: "tech", strength: 1, label: "Landfill gas becomes grid power", detail: "Methane capture and waste-to-energy tie the sectors at the site level." },
+    { from: "packaging", to: "food-beverage", type: "supply", strength: 2, label: "Food ships in its packaging", detail: "Cans, cartons, and films are a top input cost for CPG; resin and paper prices pass through here." },
+    { from: "packaging", to: "ecommerce", type: "supply", strength: 2, label: "The box economy", detail: "Corrugated demand tracks parcel volumes so tightly that box shipments are used as an e-commerce indicator." },
+    { from: "forestry-paper", to: "packaging", type: "supply", strength: 2, label: "Pulp to box", detail: "Containerboard is the paper industry's growth engine as graphic paper declines." },
+    { from: "textiles-apparel", to: "retail", type: "supply", strength: 2, label: "Fashion fills the stores", detail: "Apparel remains retail's core discretionary category and its fastest inventory-risk lesson." },
+    { from: "agriculture", to: "textiles-apparel", type: "supply", strength: 1, label: "Cotton starts on farms", detail: "Fiber prices link harvests to fashion margins." },
+    { from: "sports", to: "gambling", type: "supply", strength: 2, label: "Live sport is betting's content", detail: "Legalized sports betting turned leagues' rights into wagering rails; the industries co-monetize the same audience." },
+    { from: "gambling", to: "tourism", type: "demand", strength: 1, label: "Casino destinations anchor travel", detail: "Integrated resorts drive visitation economies from Las Vegas to Macau." },
+    { from: "water", to: "semiconductors", type: "supply", strength: 2, label: "Fabs drink ultrapure water", detail: "A leading-edge fab uses millions of gallons daily at purity levels beyond drinking water; scarcity gates siting." },
+    { from: "water", to: "agriculture", type: "supply", strength: 2, label: "Irrigation is the biggest water user", detail: "~70% of freshwater withdrawals feed farming; rights and drought reprice food." },
+    { from: "water", to: "mining", type: "supply", strength: 1, label: "No water, no mine", detail: "Atacama desalination and tailings management make water the permit's hardest question." }
   ]
 };
