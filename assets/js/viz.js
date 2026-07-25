@@ -771,9 +771,95 @@
     container.classList.add("sysdiagram");
   }
 
+  /* ================= market map (finviz-style two-level squarified treemap) ================= */
+  function squarify(items, x, y, w, h, out) {
+    /* Bruls et al. squarified layout; items: [{value, ...}] pre-sorted desc.
+       Rows are laid along the shorter side; a row is closed when adding the
+       next item would worsen the row's worst tile aspect ratio. */
+    if (!items.length || w <= 0 || h <= 0) return;
+    var total = items.reduce(function (a, b) { return a + b.value; }, 0);
+    if (total <= 0) return;
+    var scale = (w * h) / total;
+
+    function worstRatio(rowAreas, side) {
+      var s = 0, minA = Infinity, maxA = 0;
+      rowAreas.forEach(function (a) { s += a; if (a < minA) minA = a; if (a > maxA) maxA = a; });
+      var s2 = s * s, side2 = side * side;
+      return Math.max((side2 * maxA) / s2, s2 / (side2 * minA));
+    }
+
+    var i = 0;
+    while (i < items.length) {
+      var side = Math.min(w, h);
+      var row = [items[i]];
+      var areas = [items[i].value * scale];
+      var j = i + 1;
+      while (j < items.length) {
+        var test = areas.concat([items[j].value * scale]);
+        if (worstRatio(test, side) > worstRatio(areas, side)) break;
+        row.push(items[j]); areas = test; j++;
+      }
+      var rowSum = areas.reduce(function (a, b) { return a + b; }, 0);
+      var rowLen = rowSum / side;
+      var off = 0;
+      row.forEach(function (it, k) {
+        var itLen = areas[k] / rowLen;
+        if (w >= h) out.push({ item: it, x: x, y: y + off, w: rowLen, h: itLen });
+        else out.push({ item: it, x: x + off, y: y, w: itLen, h: rowLen });
+        off += itLen;
+      });
+      if (w >= h) { x += rowLen; w -= rowLen; } else { y += rowLen; h -= rowLen; }
+      i = j;
+    }
+  }
+
+  function marketMap(container, cfg) {
+    var W = 1120, H = cfg.height || 620, GAP = 4, LABEL_H = 17;
+    var groups = cfg.groups.map(function (g) {
+      var items = g.items.slice().sort(function (a, b) { return b.value - a.value; });
+      return { g: g, items: items, value: items.reduce(function (a, b) { return a + b.value; }, 0) };
+    }).filter(function (g) { return g.value > 0; }).sort(function (a, b) { return b.value - a.value; });
+
+    var groupRects = [];
+    squarify(groups.map(function (g) { return { value: g.value, ref: g }; }), 0, 0, W, H, groupRects);
+
+    var s = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(cfg.label || "Market map") + '" style="display:block;width:100%;height:auto">';
+    groupRects.forEach(function (gr) {
+      var grp = gr.item.ref;
+      var gx = gr.x + GAP / 2, gy = gr.y + GAP / 2, gw = gr.w - GAP, gh = gr.h - GAP;
+      if (gw < 8 || gh < 8) return;
+      s += '<rect x="' + gx + '" y="' + gy + '" width="' + gw + '" height="' + gh + '" rx="6" fill="color-mix(in srgb, ' + grp.g.color + ' 7%, var(--surface-1))" stroke="var(--hairline)"></rect>';
+      var showLabel = gw > 74 && gh > 40;
+      if (showLabel) s += '<text class="mm-sector-label" x="' + (gx + 7) + '" y="' + (gy + 12.5) + '" font-size="9">' + esc((grp.g.icon || "") + " " + grp.g.name.toUpperCase().slice(0, Math.floor(gw / 6.2))) + "</text>";
+      var innerY = gy + (showLabel ? LABEL_H : 2), innerH = gh - (showLabel ? LABEL_H + 2 : 4);
+      var tileRects = [];
+      squarify(gr.item.ref.items.map(function (it) { return { value: it.value, ref: it }; }), gx + 2, innerY, gw - 4, innerH, tileRects);
+      tileRects.forEach(function (tr) {
+        var it = tr.item.ref;
+        var tx = tr.x + 1, ty = tr.y + 1, tw = tr.w - 2, th = tr.h - 2;
+        if (tw < 3 || th < 3) return;
+        var mix = it.status === "full" ? 78 : it.status === "profile" ? 55 : 30;
+        s += '<g class="mm-tile" data-mm="' + esc(it.id) + '"><rect x="' + tx + '" y="' + ty + '" width="' + tw + '" height="' + th + '" rx="4" fill="color-mix(in srgb, ' + grp.g.color + " " + mix + '%, var(--surface-2))"></rect>';
+        s += "<title>" + esc(it.name) + " · " + esc(it.display || "") + (it.status !== "stub" ? " · " + it.status + " profile" : "") + "</title>";
+        if (tw > 58 && th > 26) {
+          var fs = Math.min(13, Math.max(9, tw / 9));
+          s += '<text x="' + (tx + tw / 2) + '" y="' + (ty + th / 2 + (th > 42 ? -3 : 3)) + '" text-anchor="middle" font-size="' + fs + '" font-weight="650" fill="var(--ink)">' + esc(it.short || it.name).slice(0, Math.floor(tw / (fs * 0.52))) + "</text>";
+          if (th > 42 && it.display) s += '<text x="' + (tx + tw / 2) + '" y="' + (ty + th / 2 + 13) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-2)">' + esc(it.display) + "</text>";
+        }
+        s += "</g>";
+      });
+    });
+    s += "</svg>";
+    container.innerHTML = s;
+    container.querySelectorAll(".mm-tile").forEach(function (t) {
+      t.addEventListener("click", function () { if (cfg.onClick) cfg.onClick(t.getAttribute("data-mm")); });
+    });
+  }
+
   window.Viz = {
     forceGraph: forceGraph, valueChain: valueChain, sankey: sankey,
     treemap: treemap, radar: radar, bars: bars, tileMap: tileMap, geoMap: geoMap,
-    kpiCard: kpiCard, timeline: timeline, systemDiagram: systemDiagram
+    kpiCard: kpiCard, timeline: timeline, systemDiagram: systemDiagram,
+    marketMap: marketMap
   };
 })();

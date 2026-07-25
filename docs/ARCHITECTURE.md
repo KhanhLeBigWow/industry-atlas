@@ -229,3 +229,66 @@ API pulls into static JSON so the deployed site stays static and fast.
   company pages (EDGAR-backed), earnings-transcript summaries through the AI panel.
 - **Phase 4:** community authoring via the schema, versioned data snapshots,
   classroom mode, scenario simulators (shock propagation through the graph).
+
+---
+
+## 9. v2 architecture (2026-07): the terminal layer
+
+The platform grew a live layer on top of the knowledge layer. Everything remains
+static-hosted and $0; live data arrives client-side from free, keyless APIs.
+
+```
++----------------------------------------------------------------------+
+|                             PAGES (views)                            |
+|  index      industry?id=X    company?id=X    markets    news         |
+|  (home)     (genome+desk)    (flows+news)  (market map) (terminal)   |
+|  graph      map              library        school/                  |
++----------------------------------------------------------------------+
+|                        DOCS RAIL (structured library)                |
+|  core.buildDocSide(): sticky left sidebar on every profile page:    |
+|  on-page sections (scroll-spy) + atlas tree (all profiled pages)    |
++----------------------------------------------------------------------+
+|                              ENGINES                                 |
+|  core.js   viz.js (+ marketMap: squarified 2-level treemap)          |
+|  news.js   (GDELT client, 30-min localStorage cache)                 |
+|  assistant.js (BYO Anthropic key)                                    |
++----------------------------------------------------------------------+
+|                    KNOWLEDGE DATA (authored, versioned)              |
+|  taxonomy (79) · graph (131+ edges) · kpis (40+) · countries (44)    |
+|  companies (19) · industries/*.js (11 full/profile genomes + pmView) |
++----------------------------------------------------------------------+
+|                    LIVE DATA (free, keyless, client-side)            |
+|  GDELT DOC API ... news wires, per-industry + terminal desks         |
+|  world-110m.json . geographic base (local snapshot)                  |
+|  [planned] World Bank/FRED/EIA adapters ... macro & country series   |
+|  [designed] BYO-free-key quotes (Finnhub/AlphaVantage class) for     |
+|             finviz-style performance heatmaps on the market map      |
++----------------------------------------------------------------------+
+```
+
+### The news pipeline (Bloomberg-terminal feel, $0)
+Every industry/company page queries GDELT (a free global news index updated
+every 15 minutes, CORS-open) with a curated `newsQuery` (or an auto-built one
+from name + aliases). Results cache 30 minutes per query in localStorage.
+`news.html` is the cross-sector terminal: 9 desks with tuned queries over 24h
+windows. Optional hardening (Phase 3): a GitHub Action snapshots desk feeds
+daily into static JSON as a fallback when GDELT is slow.
+
+### The finviz layer: status and path
+- SHIPPED: `markets.html` market map: squarified treemap of all industries,
+  clustered by sector, sized by market size (or graph connections), brightness
+  by profile depth, click-through to profiles. This is finviz's MAP applied to
+  the real economy rather than tickers.
+- DESIGNED (Phase 3): performance heat: a BYO-free-key quotes module
+  (Finnhub/Alpha Vantage class, both offer free tiers with CORS) colors the
+  company layer by daily % move and adds live stat rows to company pages. Same
+  pattern as the AI assistant: key stored locally, never on a server. finviz
+  itself has no free API; screener-style filtering will run over our own
+  company records as that layer grows.
+
+### The structured library (docs rail)
+Profile pages now render inside a docs-grade layout: a sticky left rail with
+(1) every section of the current page, scroll-spy highlighted, and (2) the
+atlas tree: every profiled industry grouped by sector, plus the tool pages.
+Nothing is more than one glance and one click away. On mobile the rail yields
+to the horizontal section nav and burger menu.

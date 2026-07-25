@@ -253,6 +253,8 @@
 
     var LINKS = [
       { t: "Industries", h: "index.html#industries", k: "home" },
+      { t: "Markets", h: "markets.html", k: "markets" },
+      { t: "Terminal", h: "news.html", k: "news" },
       { t: "Graph", h: "graph.html", k: "graph" },
       { t: "Map", h: "map.html", k: "map" },
       { t: "Library", h: "library.html", k: "library" },
@@ -299,14 +301,65 @@
     document.body.appendChild(f);
   }
 
+  /* ---------- structured docs sidebar (the library rail) ----------
+     Called by content pages AFTER they render their sections. Wraps the
+     page in a docs layout: sticky left rail with on-page sections plus the
+     whole atlas tree, so every section is one click away, always. */
+  function buildDocSide(opts) {
+    opts = opts || {};
+    var main = document.getElementById("main") || document.querySelector("main");
+    var blocks = Array.prototype.slice.call(document.querySelectorAll("section.block[id]"));
+    if (!main || main.classList.contains("doc-layout")) return;
+
+    var side = el("aside", { class: "doc-side", "aria-label": "Document navigation" });
+
+    if (blocks.length) {
+      side.appendChild(el("div", { class: "ds-label", text: "On this page" }));
+      blocks.forEach(function (b) {
+        var h = b.querySelector("h2");
+        var t = h ? h.textContent.replace(/^[\d.b]+\s*/, "").trim() : b.id;
+        side.appendChild(el("a", { href: "#" + b.id, "data-sec": b.id, text: t }));
+      });
+    }
+
+    side.appendChild(el("div", { class: "ds-label", text: "The atlas" }));
+    [["Market map", "markets.html"], ["Terminal (news)", "news.html"], ["Knowledge graph", "graph.html"],
+     ["World map", "map.html"], ["KPI library", "library.html"], ["Finance School", "school/index.html"]]
+      .forEach(function (l) { side.appendChild(el("a", { href: href(l[1]), text: l[0] })); });
+
+    var tree = el("div", { class: "ds-tree" });
+    tree.appendChild(el("div", { class: "ds-label", text: "Profiled industries" }));
+    store.sectors.forEach(function (s) {
+      var built = store.industries.filter(function (i) { return i.sector === s.id && i.status !== "stub"; });
+      if (!built.length) return;
+      tree.appendChild(el("div", { class: "ds-sec", text: (s.icon || "") + " " + s.name }));
+      built.forEach(function (i) {
+        var a = el("a", { href: href("industry.html?id=" + i.id) });
+        a.innerHTML = esc(i.name) + ' <span class="badge-status badge-' + i.status + '">' + (i.status === "full" ? "F" : "P") + "</span>";
+        if (opts.currentId === i.id) a.classList.add("active");
+        tree.appendChild(a);
+      });
+    });
+    side.appendChild(tree);
+
+    /* wrap: main becomes the grid, existing content moves into .doc-main */
+    var mainInner = el("div", { class: "doc-main" });
+    while (main.firstChild) mainInner.appendChild(main.firstChild);
+    main.classList.add("doc-layout");
+    main.appendChild(side);
+    main.appendChild(mainInner);
+    document.body.classList.add("has-docside");
+  }
+
   /* ---------- section spy (industry pages) ---------- */
   function spy(industryId) {
     var blocks = Array.prototype.slice.call(document.querySelectorAll("section.block[id]"));
     if (!blocks.length) return;
     var total = blocks.length;
     function setActive(id) {
-      document.querySelectorAll(".section-nav a").forEach(function (a) {
-        a.classList.toggle("active", a.getAttribute("href") === "#" + id);
+      document.querySelectorAll(".section-nav a, .doc-side a[data-sec]").forEach(function (a) {
+        var target = a.getAttribute("data-sec") || (a.getAttribute("href") || "").replace("#", "");
+        a.classList.toggle("active", target === id);
       });
     }
     if ("IntersectionObserver" in window) {
@@ -337,6 +390,6 @@
     bind: bind, onInput: onInput,
     search: search, wireSearch: wireSearch,
     LENSES: LENSES, getLens: getLens, setLens: setLens,
-    progress: progress, quiz: quiz, spy: spy
+    progress: progress, quiz: quiz, spy: spy, buildDocSide: buildDocSide
   };
 })();

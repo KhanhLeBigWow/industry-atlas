@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-page="markets" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Map · Industry Atlas</title>
+<meta name="description" content="The whole economy on one screen: a finviz-style treemap of every industry, sized by market size, clustered by sector.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas2-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t||"dark");})();</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c98500%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-weight=%22bold%22 fill=%22white%22>IA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css?v=8">
+</head>
+<body>
+<main class="wrap page-pad">
+  <header style="margin-bottom:16px">
+    <span class="kicker">The market map</span>
+    <h1>The whole economy on one screen</h1>
+    <p class="lede">Every industry in the atlas as a tile: clustered by sector, sized by global market size,
+      brightness showing profile depth. Click any tile to open its full profile. The finviz view of the real economy,
+      not just the stock market.</p>
+  </header>
+
+  <div class="mm-controls">
+    <span class="lens-label">Size by</span>
+    <button class="lens on" data-size="market">Market size</button>
+    <button class="lens" data-size="degree">Graph connections</button>
+    <span style="margin-left:auto" class="small faint" id="mm-count"></span>
+  </div>
+
+  <div class="panel"><div class="panel-body" style="padding:10px" id="mmap"></div></div>
+
+  <div class="legend" style="margin-top:14px" id="mm-legend"></div>
+  <p class="figure-note">Tile brightness: bright = full profile, medium = profile, dim = stub awaiting research.
+    Market sizes are authored estimates with vintages (see each profile); stubs carry a small placeholder size so
+    everything stays visible. Phase 3 wires live data into the sizes.</p>
+</main>
+
+<script src="assets/data/taxonomy.js?v=8"></script>
+<script src="assets/data/graph.js?v=8"></script>
+<script src="assets/data/kpis.js?v=8"></script>
+<script src="assets/data/countries.js?v=8"></script>
+<script src="assets/data/companies.js?v=8"></script>
+<script src="assets/data/industries/semiconductors.js?v=8"></script>
+<script src="assets/data/industries/cloud.js?v=8"></script>
+<script src="assets/data/industries/banking.js?v=8"></script>
+<script src="assets/data/industries/copper-mining.js?v=8"></script>
+<script src="assets/data/industries/insurance.js?v=8"></script>
+<script src="assets/data/industries/saas.js?v=8"></script>
+<script src="assets/data/industries/oil-gas.js?v=8"></script>
+<script src="assets/data/industries/pharma.js?v=8"></script>
+<script src="assets/data/industries/defense.js?v=8"></script>
+<script src="assets/data/industries/utilities.js?v=8"></script>
+<script src="assets/data/industries/private-credit.js?v=8"></script>
+<script src="assets/js/core.js?v=8"></script>
+<script src="assets/js/viz.js?v=8"></script>
+<script src="assets/js/news.js?v=8"></script>
+<script src="assets/js/assistant.js?v=8"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+
+  var degree = {};
+  Atlas.store.graph.edges.forEach(function (e) {
+    degree[e.from] = (degree[e.from] || 0) + 1;
+    degree[e.to] = (degree[e.to] || 0) + 1;
+  });
+
+  function sizeOf(ind, mode) {
+    if (mode === "degree") return Math.max(1, degree[ind.id] || 1);
+    var m = ind.module && ind.module.meta.marketSize;
+    if (!m) return 25;                                  /* stub placeholder */
+    return m.unit === "$T" ? m.value * 1000 : m.value;  /* normalize to $B */
+  }
+  function displayOf(ind, mode) {
+    if (mode === "degree") return (degree[ind.id] || 0) + " links";
+    var m = ind.module && ind.module.meta.marketSize;
+    if (!m) return "";
+    return "$" + m.value + (m.unit === "$T" ? "T" : "B");
+  }
+
+  function draw(mode) {
+    var groups = Atlas.store.sectors.map(function (s) {
+      return {
+        id: s.id, name: s.name.split(",")[0], color: s.color, icon: s.icon,
+        items: Atlas.store.industries.filter(function (i) { return i.sector === s.id; }).map(function (i) {
+          return { id: i.id, name: i.name, short: i.name.replace(/ & /g, " · "), value: sizeOf(i, mode), display: displayOf(i, mode), status: i.status };
+        })
+      };
+    });
+    Viz.marketMap(document.getElementById("mmap"), {
+      label: "Industry market map",
+      height: 640,
+      groups: groups,
+      onClick: function (id) { location.href = "industry.html?id=" + id; }
+    });
+    document.getElementById("mm-count").textContent = Atlas.store.industries.length + " industries · " + Atlas.store.sectors.length + " sectors";
+  }
+
+  document.querySelectorAll("[data-size]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      document.querySelectorAll("[data-size]").forEach(function (x) { x.classList.remove("on"); });
+      b.classList.add("on");
+      draw(b.getAttribute("data-size"));
+    });
+  });
+
+  document.getElementById("mm-legend").innerHTML = Atlas.store.sectors.map(function (s) {
+    return "<span>" + (s.icon || "") + ' <i style="background:' + s.color + '"></i>' + Atlas.esc(s.name) + "</span>";
+  }).join("");
+
+  draw("market");
+});
+</script>
+</body>
+</html>

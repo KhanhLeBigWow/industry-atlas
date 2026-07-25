@@ -10,27 +10,31 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=5">
+<link rel="stylesheet" href="assets/css/atlas.css?v=8">
 </head>
 <body>
 <main class="wrap page-pad" id="main"></main>
 
-<script src="assets/data/taxonomy.js?v=5"></script>
-<script src="assets/data/graph.js?v=5"></script>
-<script src="assets/data/kpis.js?v=5"></script>
-<script src="assets/data/countries.js?v=5"></script>
-<script src="assets/data/companies.js?v=5"></script>
-<script src="assets/data/industries/semiconductors.js?v=5"></script>
-<script src="assets/data/industries/cloud.js?v=5"></script>
-<script src="assets/data/industries/banking.js?v=5"></script>
-<script src="assets/data/industries/copper-mining.js?v=5"></script>
-<script src="assets/data/industries/insurance.js?v=5"></script>
-<script src="assets/data/industries/saas.js?v=5"></script>
-<script src="assets/data/industries/oil-gas.js?v=5"></script>
-<script src="assets/data/industries/pharma.js?v=5"></script>
-<script src="assets/js/core.js?v=5"></script>
-<script src="assets/js/viz.js?v=5"></script>
-<script src="assets/js/assistant.js?v=5"></script>
+<script src="assets/data/taxonomy.js?v=8"></script>
+<script src="assets/data/graph.js?v=8"></script>
+<script src="assets/data/kpis.js?v=8"></script>
+<script src="assets/data/countries.js?v=8"></script>
+<script src="assets/data/companies.js?v=8"></script>
+<script src="assets/data/industries/semiconductors.js?v=8"></script>
+<script src="assets/data/industries/cloud.js?v=8"></script>
+<script src="assets/data/industries/banking.js?v=8"></script>
+<script src="assets/data/industries/copper-mining.js?v=8"></script>
+<script src="assets/data/industries/insurance.js?v=8"></script>
+<script src="assets/data/industries/saas.js?v=8"></script>
+<script src="assets/data/industries/oil-gas.js?v=8"></script>
+<script src="assets/data/industries/pharma.js?v=8"></script>
+<script src="assets/data/industries/defense.js?v=8"></script>
+<script src="assets/data/industries/utilities.js?v=8"></script>
+<script src="assets/data/industries/private-credit.js?v=8"></script>
+<script src="assets/js/core.js?v=8"></script>
+<script src="assets/js/news.js?v=8"></script>
+<script src="assets/js/viz.js?v=8"></script>
+<script src="assets/js/assistant.js?v=8"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
@@ -102,9 +106,12 @@ document.addEventListener("atlas:ready", function () {
       '<p class="ind-tagline">' + esc(ind.blurb) + "</p>" +
       '<div class="ind-meta"><span class="badge-status badge-stub">Stub</span><span class="pill">' + esc(sector.name) + "</span></div></header>" +
       schoolBand() +
-      block("connections", "01", "How it connects", connectionsHtml(), "Even before a full profile exists, this industry lives in the atlas graph.") +
-      block("expand", "02", "Expand this industry",
+      block("news", "01", "Newsroom · live", '<div id="news-feed"></div>', "Even as a stub, this industry gets live coverage from the global wires.") +
+      block("connections", "02", "How it connects", connectionsHtml(), "This industry already lives in the atlas graph.") +
+      block("expand", "03", "Expand this industry",
         '<div class="callout"><p>This is a living stub. To promote it to a full profile, add <code>assets/data/industries/' + id + '.js</code> following <code>docs/INDUSTRY-SCHEMA.md</code>, or open the AI assistant and ask it to draft the module using the schema. The page upgrades itself automatically once the file exists.</p></div>');
+    if (window.AtlasNews) AtlasNews.render(document.getElementById("news-feed"), AtlasNews.queryFor({ name: ind.name, aliases: ind.aliases }), { timespan: "3d", max: 6 });
+    Atlas.buildDocSide({ currentId: id });
     Atlas.spy(id);
     return;
   }
@@ -114,7 +121,7 @@ document.addEventListener("atlas:ready", function () {
   var st = meta.status === "full" ? '<span class="badge-status badge-full">Full profile</span>' : '<span class="badge-status badge-profile">Profile</span>';
 
   var navItems = [
-    ["overview", "Overview"], ["structure", "Structure"], ["value-chain", "Value chain"],
+    ["overview", "Overview"], ["news", "Newsroom"], ["structure", "Structure"], ["value-chain", "Value chain"],
     ["financials", "Financials"], ["kpis", "KPIs"], ["health", "Health"],
     ["valuation", "Valuation"]
   ];
@@ -174,6 +181,11 @@ document.addEventListener("atlas:ready", function () {
     }).join("") + "</div>" +
     '<div class="callout"><p><strong>Outlook.</strong> ' + esc(ov.outlook) + "</p></div>";
   html += block("overview", "01", "Overview", ovInner);
+
+  /* ----- newsroom (live wires via GDELT) ----- */
+  html += block("news", "01b", "Newsroom · live",
+    '<div id="news-feed"></div>',
+    "Fresh coverage of this industry from the global news wires, refreshed on every visit.");
 
   /* ----- structure ----- */
   var cols = [["suppliers", "Suppliers"], ["producers", "Producers"], ["distributors", "Distribution"], ["customers", "Customers"], ["regulators", "Regulators"], ["capital", "Capital providers"]];
@@ -437,8 +449,16 @@ document.addEventListener("atlas:ready", function () {
   document.addEventListener("atlas:lens", function (e) { applyLens(e.detail); });
   Atlas.setLens(Atlas.getLens());
 
-  /* quiz + progress */
+  /* newsroom */
+  if (window.AtlasNews) {
+    AtlasNews.render(document.getElementById("news-feed"),
+      M.newsQuery || AtlasNews.queryFor({ name: ind.name, aliases: ind.aliases }),
+      { timespan: "3d", max: 8 });
+  }
+
+  /* quiz + progress + docs rail */
   Atlas.quiz("#quiz-root", M.quiz, id);
+  Atlas.buildDocSide({ currentId: id });
   Atlas.spy(id);
 });
 </script>

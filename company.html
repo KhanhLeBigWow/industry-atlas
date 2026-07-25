@@ -10,27 +10,31 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=5">
+<link rel="stylesheet" href="assets/css/atlas.css?v=8">
 </head>
 <body>
 <main class="wrap page-pad" id="main"></main>
 
-<script src="assets/data/taxonomy.js?v=5"></script>
-<script src="assets/data/graph.js?v=5"></script>
-<script src="assets/data/kpis.js?v=5"></script>
-<script src="assets/data/countries.js?v=5"></script>
-<script src="assets/data/companies.js?v=5"></script>
-<script src="assets/data/industries/semiconductors.js?v=5"></script>
-<script src="assets/data/industries/cloud.js?v=5"></script>
-<script src="assets/data/industries/banking.js?v=5"></script>
-<script src="assets/data/industries/copper-mining.js?v=5"></script>
-<script src="assets/data/industries/insurance.js?v=5"></script>
-<script src="assets/data/industries/saas.js?v=5"></script>
-<script src="assets/data/industries/oil-gas.js?v=5"></script>
-<script src="assets/data/industries/pharma.js?v=5"></script>
-<script src="assets/js/core.js?v=5"></script>
-<script src="assets/js/viz.js?v=5"></script>
-<script src="assets/js/assistant.js?v=5"></script>
+<script src="assets/data/taxonomy.js?v=8"></script>
+<script src="assets/data/graph.js?v=8"></script>
+<script src="assets/data/kpis.js?v=8"></script>
+<script src="assets/data/countries.js?v=8"></script>
+<script src="assets/data/companies.js?v=8"></script>
+<script src="assets/data/industries/semiconductors.js?v=8"></script>
+<script src="assets/data/industries/cloud.js?v=8"></script>
+<script src="assets/data/industries/banking.js?v=8"></script>
+<script src="assets/data/industries/copper-mining.js?v=8"></script>
+<script src="assets/data/industries/insurance.js?v=8"></script>
+<script src="assets/data/industries/saas.js?v=8"></script>
+<script src="assets/data/industries/oil-gas.js?v=8"></script>
+<script src="assets/data/industries/pharma.js?v=8"></script>
+<script src="assets/data/industries/defense.js?v=8"></script>
+<script src="assets/data/industries/utilities.js?v=8"></script>
+<script src="assets/data/industries/private-credit.js?v=8"></script>
+<script src="assets/js/core.js?v=8"></script>
+<script src="assets/js/news.js?v=8"></script>
+<script src="assets/js/viz.js?v=8"></script>
+<script src="assets/js/assistant.js?v=8"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
@@ -79,6 +83,11 @@ document.addEventListener("atlas:ready", function () {
     '<p class="figure-sub">Who feeds it, who buys from it, and where the capital enters and exits.</p>' +
     '<div id="sysdiagram"></div>' +
     '<p class="figure-note">Figures and shares approximate, from public filings and coverage.</p></div>');
+
+  /* ----- newsroom ----- */
+  html += block("news", "01b", "In the news · live",
+    '<div id="news-feed"></div>',
+    "Fresh coverage of " + CO.name + " from the global wires.");
 
   /* ----- business model ----- */
   html += block("model", "02", "How the money is made",
@@ -135,6 +144,14 @@ document.addEventListener("atlas:ready", function () {
     '<a class="btn" href="graph.html?focus=' + CO.industries[0] + '">See its industry in the graph →</a></p>');
 
   main.innerHTML = html;
+
+  /* newsroom + docs rail */
+  if (window.AtlasNews) {
+    AtlasNews.render(document.getElementById("news-feed"),
+      CO.newsQuery || ('"' + CO.name.replace(/\s*\(.*\)/, "") + '"'),
+      { timespan: "7d", max: 7 });
+  }
+  Atlas.buildDocSide({});
 
   /* activate the system diagram */
   Viz.systemDiagram(document.getElementById("sysdiagram"), {

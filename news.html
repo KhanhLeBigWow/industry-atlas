@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-page="news" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terminal · Industry Atlas</title>
+<meta name="description" content="The daily brief: live headlines across every sector of the global economy, free and keyless.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas2-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t||"dark");})();</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c98500%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 font-family=%22monospace%22 font-weight=%22bold%22 fill=%22white%22>IA</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css?v=8">
+</head>
+<body>
+<main class="wrap page-pad">
+  <header style="margin-bottom:14px">
+    <span class="kicker">The terminal</span>
+    <h1>Today, across the economy</h1>
+    <p class="lede">Live headlines from the global news wires (the free GDELT index: 15-minute updates, every major
+      outlet on Earth), organized by the atlas's sectors. Pick a desk; every headline links to its source, and every
+      industry page carries its own newsroom.</p>
+  </header>
+
+  <div class="terminal-tabs" id="desk-tabs"></div>
+  <p class="small faint" id="desk-note"></p>
+  <div id="desk-feed"></div>
+
+  <div class="callout callout-data" style="margin-top:22px">
+    <p><strong>How this works (and stays free).</strong> Headlines come straight from the GDELT Project's open news
+      index, queried from your browser: no server, no API key, no cost. Results cache for 30 minutes on your device.
+      For deeper synthesis, open any industry's page and use the AI assistant, which reads the profile plus these wires.</p>
+  </div>
+</main>
+
+<script src="assets/data/taxonomy.js?v=8"></script>
+<script src="assets/data/graph.js?v=8"></script>
+<script src="assets/data/kpis.js?v=8"></script>
+<script src="assets/data/countries.js?v=8"></script>
+<script src="assets/data/companies.js?v=8"></script>
+<script src="assets/data/industries/semiconductors.js?v=8"></script>
+<script src="assets/data/industries/cloud.js?v=8"></script>
+<script src="assets/data/industries/banking.js?v=8"></script>
+<script src="assets/data/industries/copper-mining.js?v=8"></script>
+<script src="assets/data/industries/insurance.js?v=8"></script>
+<script src="assets/data/industries/saas.js?v=8"></script>
+<script src="assets/data/industries/oil-gas.js?v=8"></script>
+<script src="assets/data/industries/pharma.js?v=8"></script>
+<script src="assets/data/industries/defense.js?v=8"></script>
+<script src="assets/data/industries/utilities.js?v=8"></script>
+<script src="assets/data/industries/private-credit.js?v=8"></script>
+<script src="assets/js/core.js?v=8"></script>
+<script src="assets/js/viz.js?v=8"></script>
+<script src="assets/js/news.js?v=8"></script>
+<script src="assets/js/assistant.js?v=8"></script>
+<script>
+document.addEventListener("atlas:ready", function () {
+  "use strict";
+
+  var DESKS = [
+    { id: "macro", label: "🏛 Macro & Markets", q: '("federal reserve" OR "stock market" OR "interest rates" OR "bond market")' },
+    { id: "tech", label: "💻 Technology", q: '(semiconductor OR "artificial intelligence" OR "cloud computing" OR cybersecurity)' },
+    { id: "finance", label: "💰 Finance", q: '("investment banking" OR "private equity" OR "hedge fund" OR insurance OR banks)' },
+    { id: "energy", label: "⚡ Energy", q: '("oil prices" OR OPEC OR "natural gas" OR "renewable energy" OR nuclear)' },
+    { id: "materials", label: "⛏️ Materials & Mining", q: '(copper OR lithium OR "iron ore" OR mining OR "rare earth")' },
+    { id: "health", label: "🩺 Healthcare", q: '(pharmaceutical OR biotech OR FDA OR "drug prices" OR "clinical trial")' },
+    { id: "industrial", label: "🏭 Industrials", q: '(aerospace OR defense OR shipping OR manufacturing OR logistics)' },
+    { id: "consumer", label: "🛒 Consumer", q: '(retail OR "consumer spending" OR ecommerce OR luxury)' },
+    { id: "geo", label: "🌍 Geopolitics & Trade", q: '(tariffs OR sanctions OR "trade war" OR "supply chain" OR geopolitics)' }
+  ];
+
+  var tabs = document.getElementById("desk-tabs");
+  var feed = document.getElementById("desk-feed");
+  var note = document.getElementById("desk-note");
+
+  function open(desk, btn) {
+    tabs.querySelectorAll(".lens").forEach(function (x) { x.classList.remove("on"); });
+    btn.classList.add("on");
+    note.textContent = "Desk: " + desk.label.replace(/^\S+\s/, "") + " · last 24 hours · sorted by relevance";
+    AtlasNews.render(feed, desk.q, { timespan: "1d", max: 15 });
+  }
+
+  DESKS.forEach(function (d, i) {
+    var b = document.createElement("button");
+    b.className = "lens" + (i === 0 ? " on" : "");
+    b.textContent = d.label;
+    b.addEventListener("click", function () { open(d, b); });
+    tabs.appendChild(b);
+  });
+
+  open(DESKS[0], tabs.querySelector(".lens"));
+});
+</script>
+</body>
+</html>

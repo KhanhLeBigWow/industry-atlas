@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=5">
+<link rel="stylesheet" href="assets/css/atlas.css?v=8">
 <style>
   .hero-stats { display: flex; gap: 28px; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
   .hero-stat .v { font-family: var(--font-display); font-size: 1.9rem; font-weight: 650; text-align: center; }
@@ -56,6 +56,8 @@
     </div>
 
     <div class="teaser-grid">
+      <a class="teaser" href="markets.html"><h3>🗺 The market map</h3><p>The whole economy on one screen: a finviz-style treemap of every industry, sized by market size, clustered by sector. Click any tile.</p></a>
+      <a class="teaser" href="news.html"><h3>📡 The terminal</h3><p>Live headlines across 9 desks: macro, tech, energy, healthcare and more, free from the global news wires, refreshed all day.</p></a>
       <a class="teaser" href="graph.html"><h3>The knowledge graph</h3><p>Every industry as a node, every dependency typed and directional: supply, demand, capital, data, risk, talent, geopolitics, technology. Drag, zoom, click.</p></a>
       <a class="teaser" href="map.html"><h3>The world map</h3><p>A real, clickable world map: GDP, exports, resources, energy mix, and which industries each of 44 economies anchors.</p></a>
       <a class="teaser" href="school/index.html"><h3>🎓 Finance School</h3><p>The complete Capital Atlas curriculum lives inside: 9 interactive modules (DCF sandbox, LBO simulator, M&A process), quizzes, and a 252-term glossary.</p></a>
@@ -74,22 +76,26 @@
   </section>
 </main>
 
-<script src="assets/data/taxonomy.js?v=5"></script>
-<script src="assets/data/graph.js?v=5"></script>
-<script src="assets/data/kpis.js?v=5"></script>
-<script src="assets/data/countries.js?v=5"></script>
-<script src="assets/data/companies.js?v=5"></script>
-<script src="assets/data/industries/semiconductors.js?v=5"></script>
-<script src="assets/data/industries/cloud.js?v=5"></script>
-<script src="assets/data/industries/banking.js?v=5"></script>
-<script src="assets/data/industries/copper-mining.js?v=5"></script>
-<script src="assets/data/industries/insurance.js?v=5"></script>
-<script src="assets/data/industries/saas.js?v=5"></script>
-<script src="assets/data/industries/oil-gas.js?v=5"></script>
-<script src="assets/data/industries/pharma.js?v=5"></script>
-<script src="assets/js/core.js?v=5"></script>
-<script src="assets/js/viz.js?v=5"></script>
-<script src="assets/js/assistant.js?v=5"></script>
+<script src="assets/data/taxonomy.js?v=8"></script>
+<script src="assets/data/graph.js?v=8"></script>
+<script src="assets/data/kpis.js?v=8"></script>
+<script src="assets/data/countries.js?v=8"></script>
+<script src="assets/data/companies.js?v=8"></script>
+<script src="assets/data/industries/semiconductors.js?v=8"></script>
+<script src="assets/data/industries/cloud.js?v=8"></script>
+<script src="assets/data/industries/banking.js?v=8"></script>
+<script src="assets/data/industries/copper-mining.js?v=8"></script>
+<script src="assets/data/industries/insurance.js?v=8"></script>
+<script src="assets/data/industries/saas.js?v=8"></script>
+<script src="assets/data/industries/oil-gas.js?v=8"></script>
+<script src="assets/data/industries/pharma.js?v=8"></script>
+<script src="assets/data/industries/defense.js?v=8"></script>
+<script src="assets/data/industries/utilities.js?v=8"></script>
+<script src="assets/data/industries/private-credit.js?v=8"></script>
+<script src="assets/js/core.js?v=8"></script>
+<script src="assets/js/news.js?v=8"></script>
+<script src="assets/js/viz.js?v=8"></script>
+<script src="assets/js/assistant.js?v=8"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
