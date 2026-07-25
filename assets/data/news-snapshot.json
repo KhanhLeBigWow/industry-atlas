@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-25 15:58z",
+ "generated": "2026-07-25 16:05z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -93,7 +93,98 @@
     "when": "Jul 25 · 02:00z"
    }
   ],
-  "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [],
+  "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
+   {
+    "title": "Morgan State Launches New Artificial Intelligence Degree",
+    "url": "https://92q.com/5910331/morgan-state-artificial-intelligence-degree/",
+    "domain": "92q.com",
+    "when": "Jul 24 · 16:30z"
+   },
+   {
+    "title": "Pakistan joins Global AI Powerhouses with Launch of Sky47 Karakorum - 01 AI Data Centre",
+    "url": "https://pakobserver.net/pakistan-joins-global-ai-powerhouses-with-launch-of-sky47-karakorum-01-ai-data-centre/",
+    "domain": "pakobserver.net",
+    "when": "Jul 24 · 17:15z"
+   },
+   {
+    "title": "Trust Stamp selected for EU advanced semiconductor technology initiative",
+    "url": "https://www.proactiveinvestors.com/companies/news/1096015/trust-stamp-selected-for-eu-advanced-semiconductor-technology-initiative.html",
+    "domain": "proactiveinvestors.com",
+    "when": "Jul 24 · 16:45z"
+   },
+   {
+    "title": "PM Shehbaz inaugurates Sky47 AI data centre , calls it step towards a  forward - looking Pakistan  ",
+    "url": "https://tribune.com.pk/story/2620021/pm-shehbaz-inaugurates-sky47-ai-data-centre-calls-it-step-towards-a-forward-looking-pakistan",
+    "domain": "tribune.com.pk",
+    "when": "Jul 24 · 17:15z"
+   },
+   {
+    "title": "Pakistan inaugurates largest domestic AI data facility | The Peninsula Qatar",
+    "url": "http://thepeninsulaqatar.com/article/24/07/2026/pakistan-inaugurates-largest-domestic-ai-data-facility",
+    "domain": "thepeninsulaqatar.com",
+    "when": "Jul 24 · 23:00z"
+   },
+   {
+    "title": "Magnificent 7 Lose $767 Billion as AI Skeptics Dump Tech Stocks",
+    "url": "https://www.spokesman.com/stories/2026/jul/23/magnificent-7-lose-767-billion-as-ai-skeptics-dump/",
+    "domain": "spokesman.com",
+    "when": "Jul 24 · 23:30z"
+   },
+   {
+    "title": "Verizon Google Deal Surpasses $1 Billion as US Customers Could Benefit From Faster Cloud Services",
+    "url": "https://www.fingerlakes1.com/2026/07/25/verizon-google-deal-surpasses-1-billion-as-us-customers-could-benefit-from-faster-cloud-services/",
+    "domain": "fingerlakes1.com",
+    "when": "Jul 25 · 13:00z"
+   },
+   {
+    "title": "The Data Center Conversation America Needs To Have | The Daily Caller",
+    "url": "https://dailycaller.com/2026/07/23/the-data-center-conversation-america-needs-to-have/",
+    "domain": "dailycaller.com",
+    "when": "Jul 24 · 17:15z"
+   },
+   {
+    "title": "Thank your friendly neighborhood data center",
+    "url": "https://www.americanthinker.com/blog/2026/07/thank-your-friendly-neighborhood-data-center/",
+    "domain": "americanthinker.com",
+    "when": "Jul 24 · 16:45z"
+   },
+   {
+    "title": "Nvidia and SK Group unveil plans for more than $500 billion in business partnerships",
+    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/25/nvidia-and-sk-group-unveil-plans-for-more-than-500-billion-in-business-partnerships",
+    "domain": "thestar.com.my",
+    "when": "Jul 25 · 06:00z"
+   },
+   {
+    "title": "Intel , Lens Technology to Collaborate on Semiconductor Packaging",
+    "url": "https://www.morningstar.com/news/dow-jones/202607246185/intel-lens-technology-to-collaborate-on-semiconductor-packaging",
+    "domain": "morningstar.com",
+    "when": "Jul 24 · 18:45z"
+   },
+   {
+    "title": "Intel rises as strong forecasts signal AI boost for turnaround",
+    "url": "https://finance.yahoo.com/technology/ai/articles/intel-rises-strong-forecasts-signal-103424987.html",
+    "domain": "finance.yahoo.com",
+    "when": "Jul 25 · 12:00z"
+   },
+   {
+    "title": "This semi stock just struck a deal with Nvidia . UBS sees big gains ahead",
+    "url": "https://www.cnbc.com/2026/07/24/this-semi-stock-just-struck-a-deal-with-nvidia-ubs-sees-big-gains-ahead.html",
+    "domain": "cnbc.com",
+    "when": "Jul 24 · 16:30z"
+   },
+   {
+    "title": "Nvidia , SK to announce $500 billion partnership , Jensen Huang says",
+    "url": "https://www.koreaherald.com:443/article/10819890",
+    "domain": "koreaherald.com",
+    "when": "Jul 25 · 03:45z"
+   },
+   {
+    "title": "Amazon vs . Microsoft : Which Cloud Empire Is the Better Buy Now ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-vs-microsoft-cloud-empire-233500002.html",
+    "domain": "finance.yahoo.com",
+    "when": "Jul 25 · 07:00z"
+   }
+  ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
@@ -451,7 +542,80 @@
     "when": "Jul 25 · 11:45z"
    }
   ],
-  "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [],
+  "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
+   {
+    "title": "Retail News and Trends | Retail Dive",
+    "url": "https://www.retaildive.com/?page=2&_sp=34da9729-7b6a-405a-a247-439d182b5b21",
+    "domain": "retaildive.com",
+    "when": "Jul 24 · 21:30z"
+   },
+   {
+    "title": "News 12 | Westchester | Most Inheritance Dollars From Baby Boomers Expected To Go To Households With Above Median Net Worth Visa Study Says",
+    "url": "https://westchester.news12.com/most-inheritance-dollars-from-baby-boomers-expected-to-go-to-households-with-above-median-net-worth-visa-study-says",
+    "domain": "westchester.news12.com",
+    "when": "Jul 25 · 00:15z"
+   },
+   {
+    "title": "Retail space leasing in Delhi - NCR up 78 % in January - June driven by fashion , F & B segments : C & W",
+    "url": "https://www.moneycontrol.com/news/business/real-estate/retail-space-leasing-in-delhi-ncr-up-78-pc-in-jan-jun-driven-by-fashion-fb-segments-cw-13983421.html",
+    "domain": "moneycontrol.com",
+    "when": "Jul 25 · 12:30z"
+   },
+   {
+    "title": "Best Hotel Stocks Worth Watching – July 24th",
+    "url": "https://www.dailypolitical.com/2026/07/25/best-hotel-stocks-worth-watching-july-24th.html",
+    "domain": "dailypolitical.com",
+    "when": "Jul 25 · 14:45z"
+   },
+   {
+    "title": "Mercedes - Benz Varanasi : Mercedes - Benz Unveils First Luxury Service Centre in Varanasi to Boost Eastern Uttar Pradesh Presence , ETAuto",
+    "url": "https://auto.economictimes.indiatimes.com/news/aftermarket/mercedes-benz-unveils-first-luxury-service-centre-in-varanasi-to-boost-eastern-uttar-pradesh-presence/132624634",
+    "domain": "auto.economictimes.indiatimes.com",
+    "when": "Jul 25 · 14:30z"
+   },
+   {
+    "title": "Carrefour core markets drive recovery , but long - term sales growth must remain its focus , says GlobalData",
+    "url": "https://retailtimes.co.uk/carrefours-core-markets-drive-recovery-but-long-term-sales-growth-must-remain-its-focus-says-globaldata/",
+    "domain": "retailtimes.co.uk",
+    "when": "Jul 25 · 11:45z"
+   },
+   {
+    "title": "Alexandra Gendenberg Says Beauty Brands Cannot Win Retail Placement Without Retail Execution",
+    "url": "https://marketrealist.com/retail-and-wholesale/alexandra-gendenberg-beauty-brands-retail-execution/",
+    "domain": "marketrealist.com",
+    "when": "Jul 25 · 13:15z"
+   },
+   {
+    "title": "SYF vs . ALLY vs . COF : Which Consumer Finance Stock Is the Best Buy After Earnings ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/syf-vs-ally-vs-cof-123637415.html",
+    "domain": "finance.yahoo.com",
+    "when": "Jul 25 · 15:00z"
+   },
+   {
+    "title": "How FEMSA Is Building Mexico Everyday Economy -- From Convenience Stores To Digital Banking : - Fomento Ec",
+    "url": "https://www.benzinga.com/Opinion/26/07/60676974/how-femsa-is-building-mexicos-everyday-economy-from-convenience-stores-to-digital-banking",
+    "domain": "benzinga.com",
+    "when": "Jul 24 · 18:45z"
+   },
+   {
+    "title": "Luxury Housing Outperforms Amid Global Headwinds",
+    "url": "https://news.webindia123.com/news/Articles/Business/20260725/4479107.html",
+    "domain": "news.webindia123.com",
+    "when": "Jul 25 · 11:45z"
+   },
+   {
+    "title": "Chicago man arrested in alleged $250K fragrance return fraud scheme – NBC Chicago",
+    "url": "https://www.nbcchicago.com/news/local/250k-in-high-end-fragrances-seized-during-chicago-return-fraud-scheme/3965977/",
+    "domain": "nbcchicago.com",
+    "when": "Jul 25 · 01:30z"
+   },
+   {
+    "title": "Hollywood Preferred Luxury Destination in India : Phoenix Palladium Mumbai Hosts the Odyssey Premiere",
+    "url": "https://news.webindia123.com/news/Articles/Business/20260725/4479013.html",
+    "domain": "news.webindia123.com",
+    "when": "Jul 25 · 08:15z"
+   }
+  ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": []
  }
 }
