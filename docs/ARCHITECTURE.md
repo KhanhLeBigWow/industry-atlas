@@ -260,9 +260,9 @@ static-hosted and $0; live data arrives client-side from free, keyless APIs.
 |                    LIVE DATA (free, keyless, client-side)            |
 |  GDELT DOC API ... news wires, per-industry + terminal desks         |
 |  world-110m.json . geographic base (local snapshot)                  |
+|  news-snapshot.json . daily GDELT sweep via GitHub Action (fallback) |
+|  quotes.js . BYO-free-key Finnhub quotes: live heat strip + pills    |
 |  [planned] World Bank/FRED/EIA adapters ... macro & country series   |
-|  [designed] BYO-free-key quotes (Finnhub/AlphaVantage class) for     |
-|             finviz-style performance heatmaps on the market map      |
 +----------------------------------------------------------------------+
 ```
 
@@ -271,20 +271,25 @@ Every industry/company page queries GDELT (a free global news index updated
 every 15 minutes, CORS-open) with a curated `newsQuery` (or an auto-built one
 from name + aliases). Results cache 30 minutes per query in localStorage.
 `news.html` is the cross-sector terminal: 9 desks with tuned queries over 24h
-windows. Optional hardening (Phase 3): a GitHub Action snapshots desk feeds
-daily into static JSON as a fallback when GDELT is slow.
+windows. Hardening (SHIPPED): `.github/workflows/news-snapshot.yml` runs
+`scripts/snapshot-news.mjs` daily (11:30 UTC), sweeping all 9 desk queries into
+`assets/data/news-snapshot.json`; `news.js` falls back to that snapshot
+automatically whenever the live wire fails, labeling it as such.
 
 ### The finviz layer: status and path
 - SHIPPED: `markets.html` market map: squarified treemap of all industries,
   clustered by sector, sized by market size (or graph connections), brightness
   by profile depth, click-through to profiles. This is finviz's MAP applied to
   the real economy rather than tickers.
-- DESIGNED (Phase 3): performance heat: a BYO-free-key quotes module
-  (Finnhub/Alpha Vantage class, both offer free tiers with CORS) colors the
-  company layer by daily % move and adds live stat rows to company pages. Same
-  pattern as the AI assistant: key stored locally, never on a server. finviz
-  itself has no free API; screener-style filtering will run over our own
-  company records as that layer grows.
+- SHIPPED: performance heat: `assets/js/quotes.js`, a BYO-free-key quotes
+  module (Finnhub free tier, 60 calls/min, CORS-enabled). The Market Map page
+  carries a live heat strip of every tracked company colored by daily % move
+  (saturating at +/-4%, the finviz convention), and each company page hero
+  shows a live price pill. Same pattern as the AI assistant: the key lives
+  only in localStorage, never on a server; without a key the site works
+  normally and shows a one-time setup card instead. finviz itself has no free
+  API; screener-style filtering will run over our own company records as that
+  layer grows.
 
 ### The structured library (docs rail)
 Profile pages now render inside a docs-grade layout: a sticky left rail with

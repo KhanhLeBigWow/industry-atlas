@@ -1,0 +1,34 @@
+name: Daily news snapshot
+
+# Sweeps the Terminal's 9 desk queries against the free GDELT index once a
+# day and commits the results to assets/data/news-snapshot.json, so the site
+# always has a fallback set of headlines when the live wire is unreachable.
+
+on:
+  schedule:
+    - cron: "30 11 * * *" # 11:30 UTC daily, before the US open
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snapshot
+        run: node scripts/snapshot-news.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "atlas-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/data/news-snapshot.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily news snapshot"
+            git push
+          fi

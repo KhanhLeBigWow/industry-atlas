@@ -26,6 +26,20 @@
     } catch (e) { /* storage full: fine, just uncached */ }
   }
 
+  /* Daily snapshot fallback: a GitHub Action saves the desk headlines to
+     assets/data/news-snapshot.json once a day, so the Terminal still shows
+     the last daily sweep when GDELT is slow, rate-limited, or blocked. */
+  var snapPromise = null;
+  function loadSnapshot() {
+    if (!snapPromise) {
+      snapPromise = fetch("assets/data/news-snapshot.json").then(function (r) {
+        if (!r.ok) throw new Error("no snapshot");
+        return r.json();
+      }).catch(function () { return null; });
+    }
+    return snapPromise;
+  }
+
   /* build a GDELT query for an industry or company */
   function queryFor(entity) {
     if (entity.newsQuery) return entity.newsQuery;
@@ -99,6 +113,17 @@
       });
       cacheSet(key, arts);
       return arts;
+    }).catch(function (err) {
+      /* live wire failed: fall back to the committed daily snapshot */
+      return loadSnapshot().then(function (snap) {
+        var arts = snap && snap.queries && snap.queries[query];
+        if (arts && arts.length) {
+          var copy = arts.slice(0, opts.max || 12);
+          copy.snapshot = snap.generated || "earlier today";
+          return copy;
+        }
+        throw err;
+      });
     });
   }
 
@@ -113,13 +138,16 @@
         container.innerHTML = '<div class="news-list"><div class="news-skel">No fresh coverage found for this query in the last ' + (opts.timespan || "3d").replace("d", " days") + ". The wire updates every 15 minutes; try again later.</div></div>";
         return;
       }
+      var snapStamp = arts.snapshot;
       container.innerHTML =
         '<div class="news-list">' + arts.slice(0, opts.max || 10).map(function (a) {
           return '<a class="news-item" href="' + esc(a.url) + '" target="_blank" rel="noopener">' +
             '<span class="news-when">' + esc(a.when) + '</span>' +
             '<span><span class="news-title">' + esc(a.title) + '</span><br><span class="news-src">' + esc(a.domain) + "</span></span></a>";
         }).join("") + "</div>" +
-        '<div class="news-note"><span>Live from the GDELT global news index · headlines link to the original source · refreshed on load (30 min cache)</span>' +
+        '<div class="news-note"><span>' + (snapStamp
+          ? "From the daily snapshot (" + esc(snapStamp) + ") · the live wire was unreachable · headlines link to the original source"
+          : "Live from the GDELT global news index · headlines link to the original source · refreshed on load (30 min cache)") + "</span>" +
         '<span>Coverage ≠ endorsement; verify before trading on anything.</span></div>';
     }).catch(function (err) {
       container.innerHTML = '<div class="news-list"><div class="news-skel">News feed unavailable right now (' + esc(err.message) + "). The rest of the atlas works offline; headlines need a connection.</div></div>";

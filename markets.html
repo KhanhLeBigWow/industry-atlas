@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=8">
+<link rel="stylesheet" href="assets/css/atlas.css?v=9">
 </head>
 <body>
 <main class="wrap page-pad">
@@ -21,6 +21,12 @@
       brightness showing profile depth. Click any tile to open its full profile. The finviz view of the real economy,
       not just the stock market.</p>
   </header>
+
+  <section id="heat" style="margin-bottom:26px">
+    <h3 style="margin-bottom:4px">⚡ Live market heat · tracked companies</h3>
+    <p class="small muted" style="margin-bottom:8px">The finviz layer: the atlas's 19 tracked companies colored by today's move. Click any tile for the full profile.</p>
+    <div id="heat-mount"></div>
+  </section>
 
   <div class="mm-controls">
     <span class="lens-label">Size by</span>
@@ -37,26 +43,30 @@
     everything stays visible. Phase 3 wires live data into the sizes.</p>
 </main>
 
-<script src="assets/data/taxonomy.js?v=8"></script>
-<script src="assets/data/graph.js?v=8"></script>
-<script src="assets/data/kpis.js?v=8"></script>
-<script src="assets/data/countries.js?v=8"></script>
-<script src="assets/data/companies.js?v=8"></script>
-<script src="assets/data/industries/semiconductors.js?v=8"></script>
-<script src="assets/data/industries/cloud.js?v=8"></script>
-<script src="assets/data/industries/banking.js?v=8"></script>
-<script src="assets/data/industries/copper-mining.js?v=8"></script>
-<script src="assets/data/industries/insurance.js?v=8"></script>
-<script src="assets/data/industries/saas.js?v=8"></script>
-<script src="assets/data/industries/oil-gas.js?v=8"></script>
-<script src="assets/data/industries/pharma.js?v=8"></script>
-<script src="assets/data/industries/defense.js?v=8"></script>
-<script src="assets/data/industries/utilities.js?v=8"></script>
-<script src="assets/data/industries/private-credit.js?v=8"></script>
-<script src="assets/js/core.js?v=8"></script>
-<script src="assets/js/viz.js?v=8"></script>
-<script src="assets/js/news.js?v=8"></script>
-<script src="assets/js/assistant.js?v=8"></script>
+<script src="assets/data/taxonomy.js?v=9"></script>
+<script src="assets/data/graph.js?v=9"></script>
+<script src="assets/data/kpis.js?v=9"></script>
+<script src="assets/data/countries.js?v=9"></script>
+<script src="assets/data/companies.js?v=9"></script>
+<script src="assets/data/industries/semiconductors.js?v=9"></script>
+<script src="assets/data/industries/cloud.js?v=9"></script>
+<script src="assets/data/industries/banking.js?v=9"></script>
+<script src="assets/data/industries/copper-mining.js?v=9"></script>
+<script src="assets/data/industries/insurance.js?v=9"></script>
+<script src="assets/data/industries/saas.js?v=9"></script>
+<script src="assets/data/industries/oil-gas.js?v=9"></script>
+<script src="assets/data/industries/pharma.js?v=9"></script>
+<script src="assets/data/industries/defense.js?v=9"></script>
+<script src="assets/data/industries/utilities.js?v=9"></script>
+<script src="assets/data/industries/private-credit.js?v=9"></script>
+<script src="assets/data/industries/aerospace.js?v=9"></script>
+<script src="assets/data/industries/payments.js?v=9"></script>
+<script src="assets/data/industries/asset-management.js?v=9"></script>
+<script src="assets/js/core.js?v=9"></script>
+<script src="assets/js/viz.js?v=9"></script>
+<script src="assets/js/news.js?v=9"></script>
+<script src="assets/js/quotes.js?v=9"></script>
+<script src="assets/js/assistant.js?v=9"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
@@ -111,6 +121,7 @@ document.addEventListener("atlas:ready", function () {
   }).join("");
 
   draw("market");
+  if (window.AtlasQuotes) AtlasQuotes.renderHeatStrip(document.getElementById("heat-mount"));
 });
 </script>
 </body>
