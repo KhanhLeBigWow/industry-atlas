@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-25 16:05z",
+ "generated": "2026-07-26 12:46z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -95,40 +95,16 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Morgan State Launches New Artificial Intelligence Degree",
-    "url": "https://92q.com/5910331/morgan-state-artificial-intelligence-degree/",
-    "domain": "92q.com",
-    "when": "Jul 24 · 16:30z"
-   },
-   {
-    "title": "Pakistan joins Global AI Powerhouses with Launch of Sky47 Karakorum - 01 AI Data Centre",
-    "url": "https://pakobserver.net/pakistan-joins-global-ai-powerhouses-with-launch-of-sky47-karakorum-01-ai-data-centre/",
+    "title": "Digital future - Pakistan Observer",
+    "url": "https://pakobserver.net/digital-future/",
     "domain": "pakobserver.net",
-    "when": "Jul 24 · 17:15z"
+    "when": "Jul 26 · 06:15z"
    },
    {
-    "title": "Trust Stamp selected for EU advanced semiconductor technology initiative",
-    "url": "https://www.proactiveinvestors.com/companies/news/1096015/trust-stamp-selected-for-eu-advanced-semiconductor-technology-initiative.html",
-    "domain": "proactiveinvestors.com",
-    "when": "Jul 24 · 16:45z"
-   },
-   {
-    "title": "PM Shehbaz inaugurates Sky47 AI data centre , calls it step towards a  forward - looking Pakistan  ",
-    "url": "https://tribune.com.pk/story/2620021/pm-shehbaz-inaugurates-sky47-ai-data-centre-calls-it-step-towards-a-forward-looking-pakistan",
-    "domain": "tribune.com.pk",
-    "when": "Jul 24 · 17:15z"
-   },
-   {
-    "title": "Pakistan inaugurates largest domestic AI data facility | The Peninsula Qatar",
-    "url": "http://thepeninsulaqatar.com/article/24/07/2026/pakistan-inaugurates-largest-domestic-ai-data-facility",
-    "domain": "thepeninsulaqatar.com",
-    "when": "Jul 24 · 23:00z"
-   },
-   {
-    "title": "Magnificent 7 Lose $767 Billion as AI Skeptics Dump Tech Stocks",
-    "url": "https://www.spokesman.com/stories/2026/jul/23/magnificent-7-lose-767-billion-as-ai-skeptics-dump/",
-    "domain": "spokesman.com",
-    "when": "Jul 24 · 23:30z"
+    "title": "Amazon vs . Booking : Comparing Revenue Trends Between a Retail Giant and a Travel Titan",
+    "url": "https://www.fool.com/coverage/charts/2026/07/25/amazon-vs-booking-comparing-revenue-trends-between-a-retail-giant-and-a-travel-titan/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Jul 26 · 10:00z"
    },
    {
     "title": "Verizon Google Deal Surpasses $1 Billion as US Customers Could Benefit From Faster Cloud Services",
@@ -137,52 +113,70 @@
     "when": "Jul 25 · 13:00z"
    },
    {
-    "title": "The Data Center Conversation America Needs To Have | The Daily Caller",
-    "url": "https://dailycaller.com/2026/07/23/the-data-center-conversation-america-needs-to-have/",
-    "domain": "dailycaller.com",
-    "when": "Jul 24 · 17:15z"
+    "title": "Morocco Elected to ATU Administrative Council – The North Africa Post",
+    "url": "https://northafricapost.com/99092-morocco-elected-to-atu-administrative-council.html",
+    "domain": "northafricapost.com",
+    "when": "Jul 25 · 16:30z"
    },
    {
-    "title": "Thank your friendly neighborhood data center",
-    "url": "https://www.americanthinker.com/blog/2026/07/thank-your-friendly-neighborhood-data-center/",
-    "domain": "americanthinker.com",
-    "when": "Jul 24 · 16:45z"
+    "title": "Wipro Launches Integrated AI Data Centre Solution to Accelerate Enterprise Digital Transformation",
+    "url": "http://topnews.ae/index.php/wipro-launches-integrated-ai-data-centre-solution-accelerate-enterprise-digital-transformation-2291",
+    "domain": "topnews.ae",
+    "when": "Jul 25 · 20:00z"
    },
    {
-    "title": "Nvidia and SK Group unveil plans for more than $500 billion in business partnerships",
-    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/25/nvidia-and-sk-group-unveil-plans-for-more-than-500-billion-in-business-partnerships",
-    "domain": "thestar.com.my",
-    "when": "Jul 25 · 06:00z"
+    "title": "Adopting AI may cut banking fraud",
+    "url": "https://tribune.com.pk/story/2620301/adopting-ai-may-cut-banking-fraud",
+    "domain": "tribune.com.pk",
+    "when": "Jul 26 · 00:45z"
    },
    {
-    "title": "Intel , Lens Technology to Collaborate on Semiconductor Packaging",
-    "url": "https://www.morningstar.com/news/dow-jones/202607246185/intel-lens-technology-to-collaborate-on-semiconductor-packaging",
-    "domain": "morningstar.com",
-    "when": "Jul 24 · 18:45z"
+    "title": "Best Technology Stocks To Watch Now – July 25th",
+    "url": "https://www.dailypolitical.com/2026/07/25/best-technology-stocks-to-watch-now-july-25th.html",
+    "domain": "dailypolitical.com",
+    "when": "Jul 25 · 20:00z"
    },
    {
-    "title": "Intel rises as strong forecasts signal AI boost for turnaround",
-    "url": "https://finance.yahoo.com/technology/ai/articles/intel-rises-strong-forecasts-signal-103424987.html",
+    "title": "Warren Buffett Successor , Greg Abel , Tripled Berkshire Stake in This Megacap AI Stock ( Hint : Not Apple ) ",
+    "url": "https://www.fool.com/investing/2026/07/26/greg-abel-tripled-stake-megacap-ai-stock-not-apple/",
+    "domain": "fool.com",
+    "when": "Jul 26 · 09:15z"
+   },
+   {
+    "title": "Cyber laws exist but enforcement remains weak , says ICT Lawyer Guild – The Island",
+    "url": "https://island.lk/cyber-laws-exist-but-enforcement-remains-weak-says-ict-lawyers-guild/",
+    "domain": "island.lk",
+    "when": "Jul 26 · 10:45z"
+   },
+   {
+    "title": "International Business : AI  reshapes GCC employment map  ",
+    "url": "https://www.gdnonline.com:443/Details/1401654/AI-%E2%80%98reshapes-GCC-employment-map%E2%80%99",
+    "domain": "gdnonline.com",
+    "when": "Jul 26 · 03:30z"
+   },
+   {
+    "title": "From Lahore to Microsoft : How Hamza Chishti Became a Global AI Leader",
+    "url": "https://www.pakistantimes.com/from-lahore-to-microsoft-how-hamza-chishti-became-a-global-ai-leader-13835/",
+    "domain": "pakistantimes.com",
+    "when": "Jul 26 · 00:00z"
+   },
+   {
+    "title": "Samsung , Broadcom expand AI chip partnership through 2030",
+    "url": "https://dunyanews.tv/en/Technology/964642-samsung-broadcom-expand-ai-chip-partnership-through-2030",
+    "domain": "dunyanews.tv",
+    "when": "Jul 26 · 07:00z"
+   },
+   {
+    "title": "Got $100 ? 1 Artificial Intelligence ( AI ) Memory ETF to Buy Right Now . ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/got-100-1-artificial-intelligence-173100111.html",
     "domain": "finance.yahoo.com",
-    "when": "Jul 25 · 12:00z"
+    "when": "Jul 25 · 18:00z"
    },
    {
-    "title": "This semi stock just struck a deal with Nvidia . UBS sees big gains ahead",
-    "url": "https://www.cnbc.com/2026/07/24/this-semi-stock-just-struck-a-deal-with-nvidia-ubs-sees-big-gains-ahead.html",
-    "domain": "cnbc.com",
-    "when": "Jul 24 · 16:30z"
-   },
-   {
-    "title": "Nvidia , SK to announce $500 billion partnership , Jensen Huang says",
-    "url": "https://www.koreaherald.com:443/article/10819890",
-    "domain": "koreaherald.com",
-    "when": "Jul 25 · 03:45z"
-   },
-   {
-    "title": "Amazon vs . Microsoft : Which Cloud Empire Is the Better Buy Now ? ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-vs-microsoft-cloud-empire-233500002.html",
-    "domain": "finance.yahoo.com",
-    "when": "Jul 25 · 07:00z"
+    "title": "Why Semiconductor Factories Cost Billions : Inside the World Most Expensive Buildings",
+    "url": "https://techstory.in/why-semiconductor-factories-cost-billions-inside-the-worlds-most-expensive-buildings/",
+    "domain": "techstory.in",
+    "when": "Jul 25 · 21:15z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [],
@@ -280,34 +274,22 @@
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "Anglo American faces earnings miss despite lower copper costs",
-    "url": "https://www.proactiveinvestors.co.uk/companies/news/1096010/anglo-american-faces-earnings-miss-despite-lower-copper-costs-1096010.html",
-    "domain": "proactiveinvestors.co.uk",
-    "when": "Jul 24 · 16:30z"
-   },
-   {
-    "title": "USA Rare Earth ( USAR ) Strengthens Its Mine - to - Magnet Strategy With Serra Verde Acquisition",
-    "url": "https://www.insidermonkey.com/blog/usa-rare-earth-usar-strengthens-its-mine-to-magnet-strategy-with-serra-verde-acquisition-1803994/",
-    "domain": "insidermonkey.com",
-    "when": "Jul 24 · 17:15z"
-   },
-   {
-    "title": "Iron ore edges lower as China demand steadies",
-    "url": "https://www.riotimesonline.com/iron-ore-markets-latam-saturday-july-25-2026/",
-    "domain": "riotimesonline.com",
-    "when": "Jul 25 · 08:15z"
-   },
-   {
     "title": "Kudremukh Mazdoor Sangh seeks merger of KIOCL with NMDC",
     "url": "https://www.thehindu.com/news/cities/Mangalore/kudremukh-mazdoor-sangh-seeks-merger-of-kiocl-with-nmdc/article71265867.ece",
     "domain": "thehindu.com",
     "when": "Jul 25 · 13:00z"
    },
    {
-    "title": "Unlocking Hidden Wealth : America Coal Ash Could Yield Billions in Rare Earth Elements |",
-    "url": "https://timesofindia.indiatimes.com/science/americas-coal-plants-left-behind-1-87-billion-tonnes-of-ash-researchers-say-it-could-yield-8-4-billion-in-rare-earth-elements/articleshow/132602678.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Jul 25 · 09:30z"
+    "title": "OMERS ADMINISTRATION Corp Makes New Investment in Vale S . A . $VALE",
+    "url": "https://www.themarketsdaily.com/2026/07/26/omers-administration-corp-makes-new-investment-in-vale-s-a-vale.html",
+    "domain": "themarketsdaily.com",
+    "when": "Jul 26 · 10:45z"
+   },
+   {
+    "title": "Japan Identifies Large Share Of Rare Earths In Deep - Sea Mud Off Remote Island",
+    "url": "https://gcaptain.com/japan-identifies-large-share-of-rare-earths-in-deep-sea-mud-off-remote-island/",
+    "domain": "gcaptain.com",
+    "when": "Jul 26 · 01:30z"
    },
    {
     "title": "Best Mining Stocks To Consider – July 24th",
@@ -316,58 +298,70 @@
     "when": "Jul 25 · 14:45z"
    },
    {
-    "title": "Emily residents voice skepticism about mining manganese",
-    "url": "https://www.brainerddispatch.com/news/local/emily-residents-voice-skepticism-about-mining-manganese",
-    "domain": "brainerddispatch.com",
-    "when": "Jul 25 · 01:00z"
+    "title": "Shareholders and Aurenne Group raise concerns over takeover transparency in Forrestania Resources bid for Zenith Minerals",
+    "url": "https://www.afr.com/street-talk/investors-fume-over-forrestania-s-zenith-bid-eyes-on-takeovers-panel-20260723-p60ht7",
+    "domain": "afr.com",
+    "when": "Jul 26 · 10:15z"
    },
    {
-    "title": "As US weans from China critical minerals , mining firms see opportunity",
-    "url": "https://cronkitenews.azpbs.org/2026/07/24/critical-minerals-us-opportunity/",
-    "domain": "cronkitenews.azpbs.org",
-    "when": "Jul 24 · 19:15z"
+    "title": "How next - generation photovoltaics could contribute to electricity storage",
+    "url": "https://theconversation.com/how-next-generation-photovoltaics-could-contribute-to-electricity-storage-287396",
+    "domain": "theconversation.com",
+    "when": "Jul 26 · 10:00z"
    },
    {
-    "title": "40 million tonnes of lithium confirmed at Sandawana , says Mutapa Energy Resources",
-    "url": "https://www.newzimbabwe.com/40-million-tonnes-of-lithium-confirmed-at-sandawana-says-mutapa-energy-resources/",
-    "domain": "newzimbabwe.com",
-    "when": "Jul 25 · 02:00z"
+    "title": "UN debate puts spotlight on critical minerals governance – Channel Africa",
+    "url": "https://www.channelafrica.co.za/channelafrica/news/un-debate-puts-spotlight-on-critical-minerals-governance/",
+    "domain": "channelafrica.co.za",
+    "when": "Jul 25 · 15:45z"
    },
    {
-    "title": "TSX : MNO Forum Post | Grimey2 - 37062346 | motivation ! Glta !! ",
-    "url": "https://stockhouse.com/companies/bullboard?symbol=t.mno&postid=37062346",
-    "domain": "stockhouse.com",
-    "when": "Jul 24 · 23:15z"
+    "title": "McEwen ( NYSE : MUX ) & Capstone Copper ( OTCMKTS : CSFFF ) Critical Contrast",
+    "url": "https://www.tickerreport.com/banking-finance/13515789/mcewen-nysemux-capstone-copper-otcmktscsfff-critical-contrast.html",
+    "domain": "tickerreport.com",
+    "when": "Jul 25 · 23:00z"
    },
    {
-    "title": "2026 - 07 - 24 | Copper One Advances 2026 Drill Program with MHB - 38 at Majuba Hill Copper - Silver - Gold Project , Nevada | CSE : CEXY",
-    "url": "https://stockhouse.com/news/press-releases/2026/07/24/copper-one-advances-2026-drill-program-with-mhb-38-at-majuba-hill-copper-silver",
-    "domain": "stockhouse.com",
-    "when": "Jul 24 · 23:15z"
+    "title": "OMERS ADMINISTRATION Corp Buys Shares of 912 , 303 Global X Copper Miners ETF $COPX",
+    "url": "https://www.themarketsdaily.com/2026/07/26/omers-administration-corp-buys-shares-of-912303-global-x-copper-miners-etf-copx.html",
+    "domain": "themarketsdaily.com",
+    "when": "Jul 26 · 10:45z"
    },
    {
-    "title": "2026 - 07 - 24 | NovaRed Mining Identifies Large High - Intensity Magnetic Target Associated with Regional Copper - Gold Intrusive System | CSE : NRED",
-    "url": "https://stockhouse.com/news/press-releases/2026/07/24/novared-mining-identifies-large-high-intensity-magnetic-target-associated-with",
-    "domain": "stockhouse.com",
-    "when": "Jul 24 · 19:30z"
+    "title": "India next commodity cycle could be driven by scrap as organised metal recycling gains momentum",
+    "url": "https://news.webindia123.com/news/Articles/Business/20260726/4479332.html",
+    "domain": "news.webindia123.com",
+    "when": "Jul 26 · 07:15z"
    },
    {
-    "title": "Rio Tinto Group ( LON : RIO ) Insider Sells £265 . 60 in Stock",
-    "url": "https://www.dailypolitical.com/2026/07/24/rio-tinto-group-lonrio-insider-sells-265-60-in-stock.html",
-    "domain": "dailypolitical.com",
-    "when": "Jul 25 · 05:45z"
+    "title": "Escape to remote sandy cove near Abersoch beach with secret tunnel",
+    "url": "https://www.dailypost.co.uk/whats-on/whats-on-news/escape-remote-sandy-cove-near-34347057",
+    "domain": "dailypost.co.uk",
+    "when": "Jul 26 · 11:15z"
    },
    {
-    "title": "Enervoxa eyes rare earth processing project in India",
-    "url": "https://www.mining-technology.com/news/enervoxa-rare-earth-processing-project-india/",
-    "domain": "mining-technology.com",
-    "when": "Jul 24 · 16:45z"
+    "title": "Top Gold Stocks To Watch Now – July 25th",
+    "url": "https://www.themarketsdaily.com/2026/07/25/top-gold-stocks-to-watch-now-july-25th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Jul 25 · 18:45z"
    },
    {
-    "title": "أول خريطة عالمية للتنبؤ بمواقع العناصر الأرضية النادرة",
-    "url": "https://www.okaz.com.sa/variety/na/2258468",
-    "domain": "okaz.com.sa",
-    "when": "Jul 25 · 03:45z"
+    "title": "North Wales coastal town near area that  looks straight out of Alien movie  ",
+    "url": "https://www.liverpoolecho.co.uk/whats-on/whats-on-news/north-wales-coastal-town-near-34341567",
+    "domain": "liverpoolecho.co.uk",
+    "when": "Jul 26 · 03:30z"
+   },
+   {
+    "title": "Power beneath the surface : Mining , politics and the Marcos devt agenda",
+    "url": "https://www.bulatlat.com/2026/07/26/power-beneath-the-surface-mining-politics-and-the-marcos-devt-agenda/",
+    "domain": "bulatlat.com",
+    "when": "Jul 26 · 11:15z"
+   },
+   {
+    "title": "POSCO Group maps out resource - led strategy , targets $127 . 8 bil . sales by 2035",
+    "url": "https://www.koreatimes.co.kr/business/companies/20260726/posco-group-maps-out-resource-led-strategy-targets-1278-bil-sales-by-2035",
+    "domain": "koreatimes.co.kr",
+    "when": "Jul 26 · 07:30z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -544,22 +538,46 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
+    "title": "Best Ecommerce Stocks To Follow Today – July 25th",
+    "url": "https://www.tickerreport.com/banking-finance/13515783/best-ecommerce-stocks-to-follow-today-july-25th.html",
+    "domain": "tickerreport.com",
+    "when": "Jul 25 · 20:00z"
+   },
+   {
+    "title": "Promising Retail Stocks To Keep An Eye On – July 25th",
+    "url": "https://www.dailypolitical.com/2026/07/25/promising-retail-stocks-to-keep-an-eye-on-july-25th.html",
+    "domain": "dailypolitical.com",
+    "when": "Jul 25 · 20:00z"
+   },
+   {
+    "title": "Global apparel company sells lingerie brand after sales declines",
+    "url": "https://finance.yahoo.com/small-business/articles/global-apparel-company-sells-lingerie-191300248.html",
+    "domain": "finance.yahoo.com",
+    "when": "Jul 25 · 20:00z"
+   },
+   {
     "title": "Retail News and Trends | Retail Dive",
-    "url": "https://www.retaildive.com/?page=2&_sp=34da9729-7b6a-405a-a247-439d182b5b21",
+    "url": "https://www.retaildive.com/?page=2&_sp=a98b176f-599f-4d4e-a150-66f973e5d30b",
     "domain": "retaildive.com",
-    "when": "Jul 24 · 21:30z"
+    "when": "Jul 26 · 11:15z"
    },
    {
-    "title": "News 12 | Westchester | Most Inheritance Dollars From Baby Boomers Expected To Go To Households With Above Median Net Worth Visa Study Says",
-    "url": "https://westchester.news12.com/most-inheritance-dollars-from-baby-boomers-expected-to-go-to-households-with-above-median-net-worth-visa-study-says",
-    "domain": "westchester.news12.com",
-    "when": "Jul 25 · 00:15z"
+    "title": "5 Proven Strategies for Ecommerce Customer Acquisition",
+    "url": "https://smallbiztrends.com/ecommerce-customer-acquisition/",
+    "domain": "smallbiztrends.com",
+    "when": "Jul 25 · 23:30z"
    },
    {
-    "title": "Retail space leasing in Delhi - NCR up 78 % in January - June driven by fashion , F & B segments : C & W",
-    "url": "https://www.moneycontrol.com/news/business/real-estate/retail-space-leasing-in-delhi-ncr-up-78-pc-in-jan-jun-driven-by-fashion-fb-segments-cw-13983421.html",
-    "domain": "moneycontrol.com",
-    "when": "Jul 25 · 12:30z"
+    "title": "Space Dinosaurs Successfully Migrates Custom Service Hardware from BigCommerce to Shopify",
+    "url": "https://www.manilatimes.net/2026/07/26/tmt-newswire/plentisoft/space-dinosaurs-successfully-migrates-custom-service-hardware-from-bigcommerce-to-shopify/2391594",
+    "domain": "manilatimes.net",
+    "when": "Jul 26 · 09:15z"
+   },
+   {
+    "title": "SouthPark center signs two luxury brands for first NC stores",
+    "url": "https://www.wsoctv.com/news/local/southpark-center-signs-two-luxury-brands-first-nc-stores/6SP2U77K45D6XCSYLMSJ6PYLLE/",
+    "domain": "wsoctv.com",
+    "when": "Jul 25 · 18:15z"
    },
    {
     "title": "Best Hotel Stocks Worth Watching – July 24th",
@@ -574,12 +592,6 @@
     "when": "Jul 25 · 14:30z"
    },
    {
-    "title": "Carrefour core markets drive recovery , but long - term sales growth must remain its focus , says GlobalData",
-    "url": "https://retailtimes.co.uk/carrefours-core-markets-drive-recovery-but-long-term-sales-growth-must-remain-its-focus-says-globaldata/",
-    "domain": "retailtimes.co.uk",
-    "when": "Jul 25 · 11:45z"
-   },
-   {
     "title": "Alexandra Gendenberg Says Beauty Brands Cannot Win Retail Placement Without Retail Execution",
     "url": "https://marketrealist.com/retail-and-wholesale/alexandra-gendenberg-beauty-brands-retail-execution/",
     "domain": "marketrealist.com",
@@ -592,30 +604,91 @@
     "when": "Jul 25 · 15:00z"
    },
    {
-    "title": "How FEMSA Is Building Mexico Everyday Economy -- From Convenience Stores To Digital Banking : - Fomento Ec",
-    "url": "https://www.benzinga.com/Opinion/26/07/60676974/how-femsa-is-building-mexicos-everyday-economy-from-convenience-stores-to-digital-banking",
-    "domain": "benzinga.com",
-    "when": "Jul 24 · 18:45z"
+    "title": "British Heart Foundation , Morrisons and more united kingdom high street staples announce closures",
+    "url": "https://www.aol.co.uk/articles/british-heart-foundation-morrisons-more-070206000.html",
+    "domain": "aol.co.uk",
+    "when": "Jul 26 · 07:30z"
    },
    {
-    "title": "Luxury Housing Outperforms Amid Global Headwinds",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260725/4479107.html",
-    "domain": "news.webindia123.com",
-    "when": "Jul 25 · 11:45z"
+    "title": "Las Vegas Strip buffets drop to only 4 as luxury dining takes over",
+    "url": "https://www.foxnews.com/travel/bargain-buffet-refuses-die-while-luxury-dining-takes-over-vegas",
+    "domain": "foxnews.com",
+    "when": "Jul 26 · 00:00z"
    },
    {
-    "title": "Chicago man arrested in alleged $250K fragrance return fraud scheme – NBC Chicago",
-    "url": "https://www.nbcchicago.com/news/local/250k-in-high-end-fragrances-seized-during-chicago-return-fraud-scheme/3965977/",
-    "domain": "nbcchicago.com",
-    "when": "Jul 25 · 01:30z"
+    "title": "Top Hotel Stocks To Add to Your Watchlist – July 25th",
+    "url": "https://www.themarketsdaily.com/2026/07/25/top-hotel-stocks-to-add-to-your-watchlist-july-25th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Jul 25 · 18:45z"
    },
    {
-    "title": "Hollywood Preferred Luxury Destination in India : Phoenix Palladium Mumbai Hosts the Odyssey Premiere",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260725/4479013.html",
-    "domain": "news.webindia123.com",
-    "when": "Jul 25 · 08:15z"
+    "title": "China Imports 200 , 000 Vehicles in H1 , Price War Pressures Demand",
+    "url": "https://www.el-balad.com/17035819",
+    "domain": "el-balad.com",
+    "when": "Jul 26 · 11:30z"
    }
   ],
-  "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": []
+  "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
+   {
+    "title": "Australia to raise concerns over new tariffs with Trump , PM Albanese says",
+    "url": "https://www.thehindubusinessline.com/news/world/australia-to-raise-concerns-over-new-tariffs-with-trump-pm-albanese-says/article71268739.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Jul 26 · 07:30z"
+   },
+   {
+    "title": "What Trump Latest Tariffs Mean for the Economy",
+    "url": "https://politicalwire.com/2026/07/25/what-trumps-latest-tariffs-mean-for-the-economy/",
+    "domain": "politicalwire.com",
+    "when": "Jul 26 · 01:30z"
+   },
+   {
+    "title": "10 % on T & T exports remains",
+    "url": "https://trinidadexpress.com/news/local/10-on-t-t-exports-remains/article_c15c09f4-0be9-4ae4-a259-b88be7d275b8.html",
+    "domain": "trinidadexpress.com",
+    "when": "Jul 25 · 15:45z"
+   },
+   {
+    "title": "Targeted News Service",
+    "url": "https://targetednews.com/disp_story.php?s_id=1872744",
+    "domain": "targetednews.com",
+    "when": "Jul 25 · 18:45z"
+   },
+   {
+    "title": "Trump new tariff threats , levies on generic drugs and Brookfield latest private - equity deal : Must - read business and investing stories for the week of July 25",
+    "url": "https://www.theglobeandmail.com/business/article-trump-tariffs-canada-generic-drugs-brookfield-gregg-distributors-july/",
+    "domain": "theglobeandmail.com",
+    "when": "Jul 25 · 15:30z"
+   },
+   {
+    "title": "US exempts 2 , 231 Taiwanese products from new tariffs",
+    "url": "https://www.taipeitimes.com/News/front/archives/2026/07/26/2003861385",
+    "domain": "taipeitimes.com",
+    "when": "Jul 25 · 17:00z"
+   },
+   {
+    "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+    "url": "https://www.ksat.com/business/2026/07/26/a-forced-labor-crackdown-or-an-end-run-around-congress-dissecting-trumps-new-tariffs/",
+    "domain": "ksat.com",
+    "when": "Jul 26 · 10:45z"
+   },
+   {
+    "title": " 《 TAIPEI TIMES 》 US exempts 2 , 231 Taiwanese products from new tariffs - 焦點",
+    "url": "https://news.ltn.com.tw/news/focus/breakingnews/5517785",
+    "domain": "news.ltn.com.tw",
+    "when": "Jul 25 · 20:15z"
+   },
+   {
+    "title": "Mexico  stepping up  in wildfire response , says Mark Carney",
+    "url": "https://www.stcatharinesstandard.ca/news/carney-canada-ontario-cusma-trump/article_bc0ce40e-e0e5-54ec-8eaa-fe814833f818.html",
+    "domain": "stcatharinesstandard.ca",
+    "when": "Jul 25 · 15:15z"
+   },
+   {
+    "title": "Trump says EU to pay  very big price  for Google fine",
+    "url": "https://www.jamaicaobserver.com/2026/07/25/trump-says-eu-pay-big-price-google-fine/",
+    "domain": "jamaicaobserver.com",
+    "when": "Jul 25 · 16:30z"
+   }
+  ]
  }
 }
