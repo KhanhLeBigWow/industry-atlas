@@ -1,96 +1,30 @@
 {
- "generated": "2026-07-27 14:03z",
+ "generated": "2026-07-28 13:18z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "Fed Chair Kevin Warsh Blunt 2 - Word Statement on Inflation That Could Determine Interest Rates in 2026",
-    "url": "https://www.fool.com/investing/2026/07/25/fed-chair-kevin-warsh-inflation-rates/",
-    "domain": "fool.com",
-    "when": "Jul 25 · 14:15z"
+    "title": "July Fed Meeting : Live Updates and Commentary",
+    "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-july-2026",
+    "domain": "kiplinger.com",
+    "when": "Jul 27 · 19:00z"
    },
    {
-    "title": "Bond Markets React to Iran Tensions With Higher Borrowing Costs",
-    "url": "https://finance.yahoo.com/markets/options/articles/bond-markets-react-iran-tensions-214420060.html",
+    "title": "Artificial inequality in the age of AI",
+    "url": "https://independentaustralia.net/politics/politics-display/artificial-inequality-in-the-age-of-ai,21356",
+    "domain": "independentaustralia.net",
+    "when": "Jul 28 · 04:15z"
+   },
+   {
+    "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+    "url": "https://finance.yahoo.com/economy/policy/articles/treasury-market-sending-fed-chair-123000264.html",
     "domain": "finance.yahoo.com",
-    "when": "Jul 25 · 04:00z"
+    "when": "Jul 28 · 00:30z"
    },
    {
-    "title": "Oil Prices Surge Amid Middle East Tensions",
-    "url": "https://arynews.tv/oil-prices-surge-amid-middle-east-tensions",
-    "domain": "arynews.tv",
-    "when": "Jul 24 · 16:45z"
-   },
-   {
-    "title": "Investors fret that spiking oil prices and rising yields could threaten stock rally",
-    "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-investors-fret-that-spiking-oil-prices-and-rising-yields-could/",
-    "domain": "theglobeandmail.com",
-    "when": "Jul 24 · 16:30z"
-   },
-   {
-    "title": "Cyclical factors underpin US dollar resilience despite structural headwinds : QNB",
-    "url": "http://thepeninsulaqatar.com/article/25/07/2026/cyclical-factors-underpin-us-dollar-resilience-despite-structural-headwinds-qnb",
-    "domain": "thepeninsulaqatar.com",
-    "when": "Jul 25 · 08:15z"
-   },
-   {
-    "title": "Average mortgage rate climbs to highest level in nearly a year",
-    "url": "https://www.ironmountaindailynews.com/news/business/2026/07/average-mortgage-rate-climbs-to-highest-level-in-nearly-a-year/",
-    "domain": "ironmountaindailynews.com",
-    "when": "Jul 24 · 16:00z"
-   },
-   {
-    "title": "Stock Market Sell Signal From BofA at Highest Level Since 2021",
-    "url": "https://www.businessinsider.com/stock-market-sell-signal-bofa-bull-bear-indicator-2026-7",
-    "domain": "businessinsider.com",
-    "when": "Jul 24 · 16:45z"
-   },
-   {
-    "title": "Best high - yield savings interest rates today , Friday , July 24 , 2026 : Earn up to 4 . 15 % APY",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-july-24-2026-earn-up-to-415-apy-100000162.html",
-    "domain": "finance.yahoo.com",
-    "when": "Jul 25 · 04:00z"
-   },
-   {
-    "title": "Investors : July 29 Will Be a Critical Day for the Stock Market . Here Why . ",
-    "url": "https://www.fool.com/investing/2026/07/25/investors-july-29-critical-day-stocks-fed-meeting/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Jul 25 · 15:15z"
-   },
-   {
-    "title": "US Dollar Posts Best Weekly Gain in Over a Month as Middle East Tensions Boost Safe - Haven Demand",
-    "url": "http://www.econotimes.com/US-Dollar-Posts-Best-Weekly-Gain-in-Over-a-Month-as-Middle-East-Tensions-Boost-Safe-Haven-Demand-1747715",
-    "domain": "econotimes.com",
-    "when": "Jul 25 · 01:30z"
-   },
-   {
-    "title": "Kevin Warsh Just Vowed to Bring a  Regime Change  to the Fed . It Could Rattle Wall Street . ",
-    "url": "https://www.fool.com/investing/2026/07/24/kevin-warsh-vowed-regime-change-to-fed-wall-street/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Jul 25 · 04:00z"
-   },
-   {
-    "title": "Global Bond Yields Hit Highest Since 2008 as Brent Surges Above $100",
-    "url": "https://finance.yahoo.com/economy/policy/articles/global-bond-yields-hit-highest-171437019.html",
-    "domain": "finance.yahoo.com",
-    "when": "Jul 24 · 17:45z"
-   },
-   {
-    "title": "Wall Street Ends Mixed as Fed Decision , Earnings and Tariffs Keep Investors on Edge",
-    "url": "http://www.econotimes.com/Wall-Street-Ends-Mixed-as-Fed-Decision-Earnings-and-Tariffs-Keep-Investors-on-Edge-1747712",
-    "domain": "econotimes.com",
-    "when": "Jul 25 · 01:30z"
-   },
-   {
-    "title": "US 30 - year Treasury streak : how will 5 % yields reshape global capital flows ? ",
-    "url": "https://www.scmp.com/economy/global-economy/article/3361757/us-30-year-treasury-streak-how-will-5-yields-reshape-global-capital-flows",
-    "domain": "scmp.com",
-    "when": "Jul 24 · 16:45z"
-   },
-   {
-    "title": "Bitcoin May Have Already Bottomed If the Fed Helps , Says Grayscale",
-    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-may-already-bottomed-fed-185317247.html",
-    "domain": "finance.yahoo.com",
-    "when": "Jul 25 · 02:00z"
+    "title": "Trump Urges Fed To Cut Interest Rates Amid Inflation Concerns",
+    "url": "https://newsradio1049.iheart.com/content/2026-07-27-trump-urges-fed-to-cut-interest-rates-amid-inflation-concerns/",
+    "domain": "newsradio1049.iheart.com",
+    "when": "Jul 27 · 22:45z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
@@ -268,94 +202,82 @@
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "Kudremukh Mazdoor Sangh seeks merger of KIOCL with NMDC",
-    "url": "https://www.thehindu.com/news/cities/Mangalore/kudremukh-mazdoor-sangh-seeks-merger-of-kiocl-with-nmdc/article71265867.ece",
-    "domain": "thehindu.com",
-    "when": "Jul 25 · 13:00z"
+    "title": "TSXV : LOT Forum Post | jeep91 - 37064033 | Last ten trades today",
+    "url": "https://stockhouse.com/companies/bullboard?symbol=v.lot&postid=37064033",
+    "domain": "stockhouse.com",
+    "when": "Jul 27 · 21:15z"
    },
    {
-    "title": "OMERS ADMINISTRATION Corp Makes New Investment in Vale S . A . $VALE",
-    "url": "https://www.themarketsdaily.com/2026/07/26/omers-administration-corp-makes-new-investment-in-vale-s-a-vale.html",
+    "title": "Altius Minerals doubles down on TNR Gold royalty strategy as first cashflow nears",
+    "url": "https://www.proactiveinvestors.com/companies/news/1096086/altius-minerals-doubles-down-on-tnr-gold-s-royalty-strategy-as-first-cashflow-nears-1096086.html",
+    "domain": "proactiveinvestors.com",
+    "when": "Jul 27 · 17:00z"
+   },
+   {
+    "title": "South African iron - ore quality among strongest of seaborne market , Kumba reports",
+    "url": "https://www.miningweekly.com/article/south-african-iron-ore-quality-among-strongest-of-seaborne-market-kumba-reports-2026-07-28",
+    "domain": "miningweekly.com",
+    "when": "Jul 28 · 12:30z"
+   },
+   {
+    "title": "Anglo American ( AAUKF ) Projected to Post Quarterly Earnings on Thursday",
+    "url": "https://www.themarketsdaily.com/2026/07/28/anglo-american-aaukf-projected-to-post-quarterly-earnings-on-thursday.html",
     "domain": "themarketsdaily.com",
-    "when": "Jul 26 · 10:45z"
+    "when": "Jul 28 · 10:45z"
    },
    {
-    "title": "Japan Identifies Large Share Of Rare Earths In Deep - Sea Mud Off Remote Island",
-    "url": "https://gcaptain.com/japan-identifies-large-share-of-rare-earths-in-deep-sea-mud-off-remote-island/",
-    "domain": "gcaptain.com",
-    "when": "Jul 26 · 01:30z"
+    "title": "The CSL Group Inc : CSL Marks the Completion of the First Vessel in World - Leading Transhipment Fleet for Simandou Project",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69143021-the-csl-group-inc-csl-marks-the-completion-of-the-first-vessel-in-world-leading-transhipment-fleet-for-simandou-project-399.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Jul 28 · 11:45z"
    },
    {
-    "title": "Best Mining Stocks To Consider – July 24th",
-    "url": "https://www.themarketsdaily.com/2026/07/25/best-mining-stocks-to-consider-july-24th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Jul 25 · 14:45z"
+    "title": "Sundance wins $616m arbitration award against Cameroon",
+    "url": "https://www.miningmx.com/trending/66023-sundance-wins-616m-arbitration-award-against-cameroon/",
+    "domain": "miningmx.com",
+    "when": "Jul 27 · 17:00z"
    },
    {
-    "title": "Shareholders and Aurenne Group raise concerns over takeover transparency in Forrestania Resources bid for Zenith Minerals",
-    "url": "https://www.afr.com/street-talk/investors-fume-over-forrestania-s-zenith-bid-eyes-on-takeovers-panel-20260723-p60ht7",
-    "domain": "afr.com",
-    "when": "Jul 26 · 10:15z"
+    "title": "CSL Marks the Completion of the First Vessel in World - Leading Transhipment Fleet for Simandou Project",
+    "url": "https://www.manilatimes.net/2026/07/28/tmt-newswire/globenewswire/csl-marks-the-completion-of-the-first-vessel-in-world-leading-transhipment-fleet-for-simandou-project/2392898",
+    "domain": "manilatimes.net",
+    "when": "Jul 28 · 12:00z"
    },
    {
-    "title": "How next - generation photovoltaics could contribute to electricity storage",
-    "url": "https://theconversation.com/how-next-generation-photovoltaics-could-contribute-to-electricity-storage-287396",
-    "domain": "theconversation.com",
-    "when": "Jul 26 · 10:00z"
+    "title": "Rare Earth Mining in Myanmar Expands to TNLA - Held Territory • Stimson Center",
+    "url": "https://www.stimson.org/2026/rare-earth-mining-in-myanmar-expands-to-tnla-held-territory/",
+    "domain": "stimson.org",
+    "when": "Jul 27 · 23:15z"
    },
    {
-    "title": "UN debate puts spotlight on critical minerals governance – Channel Africa",
-    "url": "https://www.channelafrica.co.za/channelafrica/news/un-debate-puts-spotlight-on-critical-minerals-governance/",
-    "domain": "channelafrica.co.za",
-    "when": "Jul 25 · 15:45z"
+    "title": "Australian shares edge lower as miners weigh",
+    "url": "https://www.perthnow.com.au/news/business/australian-shares-edge-lower-as-miners-weigh-c-22638968",
+    "domain": "perthnow.com.au",
+    "when": "Jul 28 · 03:30z"
    },
    {
-    "title": "McEwen ( NYSE : MUX ) & Capstone Copper ( OTCMKTS : CSFFF ) Critical Contrast",
-    "url": "https://www.tickerreport.com/banking-finance/13515789/mcewen-nysemux-capstone-copper-otcmktscsfff-critical-contrast.html",
-    "domain": "tickerreport.com",
-    "when": "Jul 25 · 23:00z"
+    "title": "Global critical mineral concentration and export controls puts USD 6 . 5 trillion industry outside China at risk : IEA",
+    "url": "http://www.shanghaisun.com/news/279211800/global-critical-mineral-concentration-and-export-controls-puts-usd-65-trillion-industry-outside-china-at-risk-iea",
+    "domain": "shanghaisun.com",
+    "when": "Jul 27 · 14:00z"
    },
    {
-    "title": "OMERS ADMINISTRATION Corp Buys Shares of 912 , 303 Global X Copper Miners ETF $COPX",
-    "url": "https://www.themarketsdaily.com/2026/07/26/omers-administration-corp-buys-shares-of-912303-global-x-copper-miners-etf-copx.html",
-    "domain": "themarketsdaily.com",
-    "when": "Jul 26 · 10:45z"
+    "title": "Pentagon Suppliers Warn U . S . Wont Have Magnet Capacity By 2027",
+    "url": "https://finance.yahoo.com/energy/articles/pentagon-suppliers-warn-u-wont-150000087.html",
+    "domain": "finance.yahoo.com",
+    "when": "Jul 27 · 16:30z"
    },
    {
-    "title": "India next commodity cycle could be driven by scrap as organised metal recycling gains momentum",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260726/4479332.html",
-    "domain": "news.webindia123.com",
-    "when": "Jul 26 · 07:15z"
+    "title": "Komatsu 1 , 000th autonomous haul truck goes to work at Barrick Nevada Gold Mines",
+    "url": "https://www.ecoportal.net/uk/komatsu-000th-autonomous-haul-truck-goes/2057/",
+    "domain": "ecoportal.net",
+    "when": "Jul 28 · 00:15z"
    },
    {
-    "title": "Escape to remote sandy cove near Abersoch beach with secret tunnel",
-    "url": "https://www.dailypost.co.uk/whats-on/whats-on-news/escape-remote-sandy-cove-near-34347057",
-    "domain": "dailypost.co.uk",
-    "when": "Jul 26 · 11:15z"
-   },
-   {
-    "title": "Top Gold Stocks To Watch Now – July 25th",
-    "url": "https://www.themarketsdaily.com/2026/07/25/top-gold-stocks-to-watch-now-july-25th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Jul 25 · 18:45z"
-   },
-   {
-    "title": "North Wales coastal town near area that  looks straight out of Alien movie  ",
-    "url": "https://www.liverpoolecho.co.uk/whats-on/whats-on-news/north-wales-coastal-town-near-34341567",
-    "domain": "liverpoolecho.co.uk",
-    "when": "Jul 26 · 03:30z"
-   },
-   {
-    "title": "Power beneath the surface : Mining , politics and the Marcos devt agenda",
-    "url": "https://www.bulatlat.com/2026/07/26/power-beneath-the-surface-mining-politics-and-the-marcos-devt-agenda/",
-    "domain": "bulatlat.com",
-    "when": "Jul 26 · 11:15z"
-   },
-   {
-    "title": "POSCO Group maps out resource - led strategy , targets $127 . 8 bil . sales by 2035",
-    "url": "https://www.koreatimes.co.kr/business/companies/20260726/posco-group-maps-out-resource-led-strategy-targets-1278-bil-sales-by-2035",
-    "domain": "koreatimes.co.kr",
-    "when": "Jul 26 · 07:30z"
+    "title": "VUKA Group / Press release | Nigeria Mining Week promises high - level engagement on critical minerals and industrialisation roadmap",
+    "url": "https://vukagroup.africa-newsroom.com/press/nigeria-mining-week-promises-highlevel-engagement-on-critical-minerals-and-industrialisation-roadmap",
+    "domain": "vukagroup.africa-newsroom.com",
+    "when": "Jul 28 · 09:45z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -624,64 +546,88 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Australia to raise concerns over new tariffs with Trump , PM Albanese says",
-    "url": "https://www.thehindubusinessline.com/news/world/australia-to-raise-concerns-over-new-tariffs-with-trump-pm-albanese-says/article71268739.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Jul 26 · 07:30z"
+    "title": "French government may have something to say about EU sanctions on Aughinish",
+    "url": "https://www.irishtimes.com/ireland/2026/07/28/french-government-may-have-something-to-say-about-eu-sanctions-on-aughinish/",
+    "domain": "irishtimes.com",
+    "when": "Jul 28 · 06:15z"
    },
    {
-    "title": "What Trump Latest Tariffs Mean for the Economy",
-    "url": "https://politicalwire.com/2026/07/25/what-trumps-latest-tariffs-mean-for-the-economy/",
-    "domain": "politicalwire.com",
-    "when": "Jul 26 · 01:30z"
+    "title": "What the latest US sanctions bill means for Russia and for China , India , and Iran",
+    "url": "https://www.atlanticcouncil.org/dispatches/what-the-latest-us-sanctions-bill-means-for-russia-and-for-china-india-and-iran/",
+    "domain": "atlanticcouncil.org",
+    "when": "Jul 27 · 21:30z"
    },
    {
-    "title": "10 % on T & T exports remains",
-    "url": "https://trinidadexpress.com/news/local/10-on-t-t-exports-remains/article_c15c09f4-0be9-4ae4-a259-b88be7d275b8.html",
-    "domain": "trinidadexpress.com",
-    "when": "Jul 25 · 15:45z"
+    "title": "Vehicle - Chip Synergy , Strength in Unity | Seminar on Supply Chain Risks for Chinese Auto Exports Successfully Held at Yangjie Technology",
+    "url": "https://autonews.gasgoo.com/articles/market-industry/vehicle-chip-synergy-strength-in-unity-seminar-on-supply-chain-risks-for-chinese-auto-exports-successfully-held-at-yangjie-technology-2081770283437359104",
+    "domain": "autonews.gasgoo.com",
+    "when": "Jul 27 · 19:00z"
    },
    {
-    "title": "Targeted News Service",
-    "url": "https://targetednews.com/disp_story.php?s_id=1872744",
-    "domain": "targetednews.com",
-    "when": "Jul 25 · 18:45z"
+    "title": "US Customs Inspects China - Linked Factories in Vietnam Amid Trade Compliance Review",
+    "url": "http://www.econotimes.com/US-Customs-Inspects-China-Linked-Factories-in-Vietnam-Amid-Trade-Compliance-Review-1747902",
+    "domain": "econotimes.com",
+    "when": "Jul 28 · 06:15z"
    },
    {
-    "title": "Trump new tariff threats , levies on generic drugs and Brookfield latest private - equity deal : Must - read business and investing stories for the week of July 25",
-    "url": "https://www.theglobeandmail.com/business/article-trump-tariffs-canada-generic-drugs-brookfield-gregg-distributors-july/",
-    "domain": "theglobeandmail.com",
-    "when": "Jul 25 · 15:30z"
+    "title": "Zelensky To Meet With US Senators as Russia Sanctions Vote Is Expected",
+    "url": "https://news.antiwar.com/2026/07/27/zelensky-to-meet-with-us-senators-as-russia-sanctions-vote-is-expected/",
+    "domain": "news.antiwar.com",
+    "when": "Jul 28 · 00:45z"
    },
    {
-    "title": "US exempts 2 , 231 Taiwanese products from new tariffs",
-    "url": "https://www.taipeitimes.com/News/front/archives/2026/07/26/2003861385",
-    "domain": "taipeitimes.com",
-    "when": "Jul 25 · 17:00z"
+    "title": "It not just Canadians who are upset with latest Trump tariffs",
+    "url": "https://nationalpost.com/news/canadians-are-fed-up-with-trumps-tariffs-and-so-are-americans-americans-trump-tariffs",
+    "domain": "nationalpost.com",
+    "when": "Jul 27 · 20:15z"
    },
    {
-    "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
-    "url": "https://www.ksat.com/business/2026/07/26/a-forced-labor-crackdown-or-an-end-run-around-congress-dissecting-trumps-new-tariffs/",
-    "domain": "ksat.com",
-    "when": "Jul 26 · 10:45z"
+    "title": "Putting American Workers First in South Carolina",
+    "url": "https://www.americanthinker.com/articles/2026/07/putting-american-workers-first-in-south-carolina/",
+    "domain": "americanthinker.com",
+    "when": "Jul 28 · 10:45z"
    },
    {
-    "title": " 《 TAIPEI TIMES 》 US exempts 2 , 231 Taiwanese products from new tariffs - 焦點",
-    "url": "https://news.ltn.com.tw/news/focus/breakingnews/5517785",
-    "domain": "news.ltn.com.tw",
-    "when": "Jul 25 · 20:15z"
+    "title": "US Threatens Sanctions Over Alleged Chinese AI Model Distillation",
+    "url": "https://www.techrepublic.com/article/news-us-threatens-sanctions-chinese-ai-model-distillation-apac/",
+    "domain": "techrepublic.com",
+    "when": "Jul 27 · 21:15z"
    },
    {
-    "title": "Mexico  stepping up  in wildfire response , says Mark Carney",
-    "url": "https://www.stcatharinesstandard.ca/news/carney-canada-ontario-cusma-trump/article_bc0ce40e-e0e5-54ec-8eaa-fe814833f818.html",
-    "domain": "stcatharinesstandard.ca",
-    "when": "Jul 25 · 15:15z"
+    "title": "Trump Tariffs Are Targeting Indian Drugmakers . Americans Could Soon Pay More for Generic Medicines , CEO Warns",
+    "url": "https://www.ibtimes.com/trumps-tariffs-are-targeting-indian-drugmakers-americans-could-soon-pay-more-generic-medicines-3805690",
+    "domain": "ibtimes.com",
+    "when": "Jul 27 · 15:30z"
    },
    {
-    "title": "Trump says EU to pay  very big price  for Google fine",
-    "url": "https://www.jamaicaobserver.com/2026/07/25/trump-says-eu-pay-big-price-google-fine/",
-    "domain": "jamaicaobserver.com",
-    "when": "Jul 25 · 16:30z"
+    "title": "AI demand , U . S . tariffs reshape South Korean manufacturing",
+    "url": "https://www.upi.com/Top_News/World-News/2026/07/27/semiconductors-taiwan-artificial-intelligence/1761785195622/",
+    "domain": "upi.com",
+    "when": "Jul 28 · 01:15z"
+   },
+   {
+    "title": "Tata Power eyes first solar exports to Europe as EU curbs China reliance",
+    "url": "https://economictimes.indiatimes.com/industry/renewables/tata-power-eyes-first-solar-exports-to-europe-as-eu-curbs-china-reliance/articleshow/132663868.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Jul 27 · 14:45z"
+   },
+   {
+    "title": "UK Games Workshop falls as tariff , cost concerns overshadow record profit",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/07/28/uk039s-games-workshop-falls-as-tariff-cost-concerns-overshadow-record-profit",
+    "domain": "thestar.com.my",
+    "when": "Jul 28 · 09:30z"
+   },
+   {
+    "title": "FleetOwner reviews this past year : Highlights on economy and technician training",
+    "url": "https://www.fleetowner.com:443/operations/article/55392891/fleetowner-reviews-this-past-year-highlights-on-economy-and-technician-training",
+    "domain": "fleetowner.com",
+    "when": "Jul 27 · 16:15z"
+   },
+   {
+    "title": "Zelenskyy to meet Trump as Ukraine , Iran conflicts increasingly intersect",
+    "url": "https://www.samaa.tv/2087354310-zelenskyy-to-meet-trump-as-ukraine-iran-conflicts-increasingly-intersect",
+    "domain": "samaa.tv",
+    "when": "Jul 28 · 08:30z"
    }
   ]
  }
