@@ -11,7 +11,7 @@ window.ATLAS_INDUSTRIES["private-equity"] = {
   meta: {
     id: "private-equity", name: "Private Equity", sector: "finance", status: "full",
     tagline: "A $9T machine for buying companies with borrowed money: currently brilliant at buying, jammed at selling.",
-    marketSize: { value: 9, unit: "$T", asOf: 2025, note: "global PE AUM (Preqin); buyout is the core, VC/growth/secondaries the rest; alternatives overall forecast to $32T by 2030" },
+    marketSize: { value: 9, unit: "$T", asOf: 2025, mapValue: 200, note: "global PE AUM (Preqin); buyout is the core, VC/growth/secondaries the rest; alternatives overall forecast to $32T by 2030. Map sizing uses the ~$200B annual fee-and-carry revenue pool" },
     cagr: { value: 10, range: [8, 13], horizon: "2025-2030" },
     maturity: "maturing-growth", cyclicality: 4, capitalIntensity: 1, regulation: 3, disruption: 3
   },

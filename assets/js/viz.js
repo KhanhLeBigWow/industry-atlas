@@ -847,6 +847,19 @@
           s += '<text x="' + (tx + tw / 2) + '" y="' + (ty + th / 2 + (th > 42 ? -3 : 3)) + '" text-anchor="middle" font-size="' + fs + '" font-weight="650" fill="var(--ink)">' + esc(it.short || it.name).slice(0, Math.floor(tw / (fs * 0.52))) + "</text>";
           if (th > 42 && it.display) s += '<text x="' + (tx + tw / 2) + '" y="' + (ty + th / 2 + 13) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-2)">' + esc(it.display) + "</text>";
         }
+        /* top-company chips: small clickable boxes along the tile's bottom edge */
+        if (it.chips && it.chips.length && tw > 64 && th > 44) {
+          var cx = tx + 4, cy = ty + th - 18;
+          it.chips.forEach(function (ch) {
+            var cw = 10 + ch.label.length * 5.6;
+            if (cx + cw > tx + tw - 4) return;
+            s += '<g class="mm-chip" data-co="' + esc(ch.id) + '">' +
+              '<rect x="' + cx + '" y="' + cy + '" width="' + cw + '" height="14" rx="4" fill="var(--surface-1)" stroke="var(--hairline)"></rect>' +
+              '<text x="' + (cx + cw / 2) + '" y="' + (cy + 10) + '" text-anchor="middle" font-size="8.5" font-weight="700" fill="var(--ink)" style="font-family:var(--font-mono)">' + esc(ch.label) + "</text>" +
+              "<title>" + esc(ch.title || ch.label) + " · open company profile</title></g>";
+            cx += cw + 4;
+          });
+        }
         s += "</g>";
       });
     });
@@ -854,6 +867,12 @@
     container.innerHTML = s;
     container.querySelectorAll(".mm-tile").forEach(function (t) {
       t.addEventListener("click", function () { if (cfg.onClick) cfg.onClick(t.getAttribute("data-mm")); });
+    });
+    container.querySelectorAll(".mm-chip").forEach(function (ch) {
+      ch.addEventListener("click", function (e) {
+        e.stopPropagation();
+        if (cfg.onChipClick) cfg.onChipClick(ch.getAttribute("data-co"));
+      });
     });
   }
 

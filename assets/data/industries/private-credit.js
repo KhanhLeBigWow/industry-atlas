@@ -6,7 +6,7 @@ window.ATLAS_INDUSTRIES["private-credit"] = {
   meta: {
     id: "private-credit", name: "Private Credit", sector: "finance", status: "full",
     tagline: "The $2 trillion migration of lending out of banks and into funds: the defining financial-structure story of the decade.",
-    marketSize: { value: 2, unit: "$T", asOf: 2024, note: "global private credit AUM; forecasts run toward $5T by 2029" },
+    marketSize: { value: 2, unit: "$T", asOf: 2024, mapValue: 30, note: "global private credit AUM; forecasts run toward $5T by 2029. Map sizing uses the ~$30B annual fee revenue pool" },
     cagr: { value: 15, range: [10, 20], horizon: "2024-2029" },
     maturity: "growth", cyclicality: 3, capitalIntensity: 2, regulation: 2, disruption: 2
   },

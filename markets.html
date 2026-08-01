@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=10">
+<link rel="stylesheet" href="assets/css/atlas.css?v=11">
 </head>
 <body>
 <main class="wrap page-pad">
@@ -33,10 +33,11 @@
   <div class="panel"><div class="panel-body" style="padding:10px" id="mmap"></div></div>
 
   <div class="legend" style="margin-top:14px" id="mm-legend"></div>
-  <p class="figure-note">Industry views: tile brightness = profile depth (bright = full, medium = profile, dim = stub);
-    market sizes are authored estimates with vintages (see each profile). Companies view: boxes sized by market cap;
-    with a free Finnhub key saved below, boxes recolor by today's % move (green/red saturates at ±4%, the finviz
-    convention) and click through to full company profiles.</p>
+  <p class="figure-note">How to read it: big tiles = industries (brightness = profile depth: bright full, medium
+    profile, dim stub; sizes are authored estimates with vintages). The small ticker chips inside a tile are that
+    industry's largest companies by market cap: click a chip to open the company's full profile, click anywhere else
+    on the tile for the industry. Companies view: boxes sized by market cap; with a free Finnhub key saved below,
+    boxes recolor by today's % move (green/red saturates at ±4%, the finviz convention).</p>
 
   <section id="heat" style="margin:34px 0 10px">
     <span class="kicker">The watchlist strip</span>
@@ -48,52 +49,52 @@
   </section>
 </main>
 
-<script src="assets/data/taxonomy.js?v=10"></script>
-<script src="assets/data/graph.js?v=10"></script>
-<script src="assets/data/kpis.js?v=10"></script>
-<script src="assets/data/countries.js?v=10"></script>
-<script src="assets/data/companies.js?v=10"></script>
-<script src="assets/data/companies/aerospace.js?v=10"></script>
-<script src="assets/data/companies/asset-management.js?v=10"></script>
-<script src="assets/data/companies/automotive.js?v=10"></script>
-<script src="assets/data/companies/aviation.js?v=10"></script>
-<script src="assets/data/companies/defense.js?v=10"></script>
-<script src="assets/data/companies/ecommerce.js?v=10"></script>
-<script src="assets/data/companies/lithium.js?v=10"></script>
-<script src="assets/data/companies/market-infrastructure.js?v=10"></script>
-<script src="assets/data/companies/payments.js?v=10"></script>
-<script src="assets/data/companies/private-credit.js?v=10"></script>
-<script src="assets/data/companies/private-equity.js?v=10"></script>
-<script src="assets/data/companies/real-estate.js?v=10"></script>
-<script src="assets/data/companies/telecom.js?v=10"></script>
-<script src="assets/data/companies/utilities.js?v=10"></script>
-<script src="assets/data/industries/semiconductors.js?v=10"></script>
-<script src="assets/data/industries/cloud.js?v=10"></script>
-<script src="assets/data/industries/banking.js?v=10"></script>
-<script src="assets/data/industries/copper-mining.js?v=10"></script>
-<script src="assets/data/industries/insurance.js?v=10"></script>
-<script src="assets/data/industries/saas.js?v=10"></script>
-<script src="assets/data/industries/oil-gas.js?v=10"></script>
-<script src="assets/data/industries/pharma.js?v=10"></script>
-<script src="assets/data/industries/defense.js?v=10"></script>
-<script src="assets/data/industries/utilities.js?v=10"></script>
-<script src="assets/data/industries/private-credit.js?v=10"></script>
-<script src="assets/data/industries/aerospace.js?v=10"></script>
-<script src="assets/data/industries/payments.js?v=10"></script>
-<script src="assets/data/industries/asset-management.js?v=10"></script>
-<script src="assets/data/industries/aviation.js?v=10"></script>
-<script src="assets/data/industries/private-equity.js?v=10"></script>
-<script src="assets/data/industries/market-infrastructure.js?v=10"></script>
-<script src="assets/data/industries/automotive.js?v=10"></script>
-<script src="assets/data/industries/real-estate.js?v=10"></script>
-<script src="assets/data/industries/telecom.js?v=10"></script>
-<script src="assets/data/industries/ecommerce.js?v=10"></script>
-<script src="assets/data/industries/lithium.js?v=10"></script>
-<script src="assets/js/core.js?v=10"></script>
-<script src="assets/js/viz.js?v=10"></script>
-<script src="assets/js/news.js?v=10"></script>
-<script src="assets/js/quotes.js?v=10"></script>
-<script src="assets/js/assistant.js?v=10"></script>
+<script src="assets/data/taxonomy.js?v=11"></script>
+<script src="assets/data/graph.js?v=11"></script>
+<script src="assets/data/kpis.js?v=11"></script>
+<script src="assets/data/countries.js?v=11"></script>
+<script src="assets/data/companies.js?v=11"></script>
+<script src="assets/data/companies/aerospace.js?v=11"></script>
+<script src="assets/data/companies/asset-management.js?v=11"></script>
+<script src="assets/data/companies/automotive.js?v=11"></script>
+<script src="assets/data/companies/aviation.js?v=11"></script>
+<script src="assets/data/companies/defense.js?v=11"></script>
+<script src="assets/data/companies/ecommerce.js?v=11"></script>
+<script src="assets/data/companies/lithium.js?v=11"></script>
+<script src="assets/data/companies/market-infrastructure.js?v=11"></script>
+<script src="assets/data/companies/payments.js?v=11"></script>
+<script src="assets/data/companies/private-credit.js?v=11"></script>
+<script src="assets/data/companies/private-equity.js?v=11"></script>
+<script src="assets/data/companies/real-estate.js?v=11"></script>
+<script src="assets/data/companies/telecom.js?v=11"></script>
+<script src="assets/data/companies/utilities.js?v=11"></script>
+<script src="assets/data/industries/semiconductors.js?v=11"></script>
+<script src="assets/data/industries/cloud.js?v=11"></script>
+<script src="assets/data/industries/banking.js?v=11"></script>
+<script src="assets/data/industries/copper-mining.js?v=11"></script>
+<script src="assets/data/industries/insurance.js?v=11"></script>
+<script src="assets/data/industries/saas.js?v=11"></script>
+<script src="assets/data/industries/oil-gas.js?v=11"></script>
+<script src="assets/data/industries/pharma.js?v=11"></script>
+<script src="assets/data/industries/defense.js?v=11"></script>
+<script src="assets/data/industries/utilities.js?v=11"></script>
+<script src="assets/data/industries/private-credit.js?v=11"></script>
+<script src="assets/data/industries/aerospace.js?v=11"></script>
+<script src="assets/data/industries/payments.js?v=11"></script>
+<script src="assets/data/industries/asset-management.js?v=11"></script>
+<script src="assets/data/industries/aviation.js?v=11"></script>
+<script src="assets/data/industries/private-equity.js?v=11"></script>
+<script src="assets/data/industries/market-infrastructure.js?v=11"></script>
+<script src="assets/data/industries/automotive.js?v=11"></script>
+<script src="assets/data/industries/real-estate.js?v=11"></script>
+<script src="assets/data/industries/telecom.js?v=11"></script>
+<script src="assets/data/industries/ecommerce.js?v=11"></script>
+<script src="assets/data/industries/lithium.js?v=11"></script>
+<script src="assets/js/core.js?v=11"></script>
+<script src="assets/js/viz.js?v=11"></script>
+<script src="assets/js/news.js?v=11"></script>
+<script src="assets/js/quotes.js?v=11"></script>
+<script src="assets/js/assistant.js?v=11"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
@@ -108,13 +109,30 @@ document.addEventListener("atlas:ready", function () {
     if (mode === "degree") return Math.max(1, degree[ind.id] || 1);
     var m = ind.module && ind.module.meta.marketSize;
     if (!m) return 25;                                  /* stub placeholder */
+    if (m.mapValue != null) return m.mapValue;          /* revenue-basis override for AUM/asset-value stocks */
     return m.unit === "$T" ? m.value * 1000 : m.value;  /* normalize to $B */
   }
   function displayOf(ind, mode) {
     if (mode === "degree") return (degree[ind.id] || 0) + " links";
     var m = ind.module && ind.module.meta.marketSize;
     if (!m) return "";
+    if (m.mapValue != null) return m.mapValue >= 1000 ? "$" + (m.mapValue / 1000).toFixed(1) + "T rev" : "$" + m.mapValue + "B rev";
     return "$" + m.value + (m.unit === "$T" ? "T" : "B");
+  }
+
+  /* top companies per industry (by market cap), for the in-tile chips */
+  var coByInd = {};
+  Object.keys(window.ATLAS_COMPANIES || {}).forEach(function (k) {
+    var c = window.ATLAS_COMPANIES[k];
+    (c.industries || []).forEach(function (i) { (coByInd[i] = coByInd[i] || []).push(c); });
+  });
+  Object.keys(coByInd).forEach(function (i) {
+    coByInd[i].sort(function (a, b) { return (b.mcap || 0) - (a.mcap || 0); });
+  });
+  function chipsFor(indId) {
+    return (coByInd[indId] || []).slice(0, 2).map(function (c) {
+      return { id: c.id, label: c.ticker || c.name.split(" ")[0].slice(0, 5).toUpperCase(), title: c.name };
+    });
   }
 
   var heatTimers = [];
@@ -168,7 +186,7 @@ document.addEventListener("atlas:ready", function () {
       return {
         id: s.id, name: s.name.split(",")[0], color: s.color, icon: s.icon,
         items: Atlas.store.industries.filter(function (i) { return i.sector === s.id; }).map(function (i) {
-          return { id: i.id, name: i.name, short: i.name.replace(/ & /g, " · "), value: sizeOf(i, mode), display: displayOf(i, mode), status: i.status };
+          return { id: i.id, name: i.name, short: i.name.replace(/ & /g, " · "), value: sizeOf(i, mode), display: displayOf(i, mode), status: i.status, chips: chipsFor(i.id) };
         })
       };
     });
@@ -176,7 +194,8 @@ document.addEventListener("atlas:ready", function () {
       label: "Industry market map",
       height: 640,
       groups: groups,
-      onClick: function (id) { location.href = "industry.html?id=" + id; }
+      onClick: function (id) { location.href = "industry.html?id=" + id; },
+      onChipClick: function (id) { location.href = "company.html?id=" + id; }
     });
     document.getElementById("mm-count").textContent = Atlas.store.industries.length + " industries · " + Atlas.store.sectors.length + " sectors";
   }

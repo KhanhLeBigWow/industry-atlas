@@ -13,7 +13,7 @@ window.ATLAS_INDUSTRIES["real-estate"] = {
   meta: {
     id: "real-estate", name: "Real Estate", sector: "real-assets", status: "full",
     tagline: "The world's largest asset class ($393T) repricing to a higher cost of capital: one lease, one refinancing, one appraisal at a time.",
-    marketSize: { value: 393, unit: "$T", asOf: 2024, note: "Savills estimate of all global property value; commercial ~$58.5T, residential ~$269T, the rest agricultural land" },
+    marketSize: { value: 393, unit: "$T", asOf: 2024, mapValue: 4000, note: "Savills estimate of all global property value; commercial ~$58.5T, residential ~$269T, the rest agricultural land. Map sizing uses the ~$4T annual revenue pool (rents, transactions, services) so tiles stay on a comparable revenue basis" },
     cagr: { value: 4, range: [2, 5], horizon: "2024-2030" },
     maturity: "mature", cyclicality: 4, capitalIntensity: 5, regulation: 4, disruption: 2
   },

@@ -8,7 +8,7 @@ window.ATLAS_INDUSTRIES["asset-management"] = {
   meta: {
     id: "asset-management", name: "Asset Management", sector: "finance", status: "full",
     tagline: "$128T of other people's money, ~21bps at a time: an industry whose growth the market gave, and fee wars keep taking away.",
-    marketSize: { value: 128, unit: "$T", asOf: 2024, note: "global AUM (BCG); industry revenue ~$430B" },
+    marketSize: { value: 128, unit: "$T", asOf: 2024, mapValue: 430, note: "global AUM (BCG); industry revenue ~$430B (the map sizes on revenue so AUM stocks do not dwarf revenue pools)" },
     cagr: { value: 6, range: [4, 9], horizon: "2024-2030, AUM terms" },
     maturity: "mature-restructuring", cyclicality: 4, capitalIntensity: 1, regulation: 4, disruption: 3
   },
