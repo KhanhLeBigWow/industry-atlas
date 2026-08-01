@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" data-module="toolkit" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Toolkit · Capital Atlas</title>
+<meta name="description" content="Six standalone finance calculators: WACC, quick DCF, the EV bridge, comps pricing, LBO returns, and compounding. No account, all client-side.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css">
+<style>
+  .tk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 940px) { .tk-grid { grid-template-columns: 1fr; } }
+  .tk-card { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 18px 20px; }
+  .tk-card h3 { margin: 0 0 2px; }
+  .tk-card .use { font-size: .82rem; color: var(--ink-2); margin: 0 0 12px; }
+  .tk-row { display: grid; grid-template-columns: 150px 1fr 86px; gap: 10px; align-items: center; margin: 7px 0; }
+  .tk-row label { font-size: .8rem; font-weight: 600; color: var(--ink-2); }
+  .tk-row input[type=range] { width: 100%; }
+  .tk-row .val { font-family: var(--font-mono); font-size: .8rem; font-weight: 650; text-align: right; }
+  .tk-out { display: flex; gap: 20px; flex-wrap: wrap; border-top: 1px dashed var(--hairline); margin-top: 12px; padding-top: 12px; }
+  .tk-out div { min-width: 110px; }
+  .tk-out .k { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+  .tk-out .v { font-family: var(--font-display); font-size: 1.45rem; font-weight: 650; }
+  .tk-note { font-size: .74rem; color: var(--ink-3); margin-top: 10px; }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">The Toolkit</span>
+    <h1>Six calculators, zero setup.</h1>
+    <p class="hero-tagline">The workhorse math of the industry as standalone tools: cost of capital, a quick DCF,
+      the EV bridge, comps pricing, LBO returns, and the compounding machine. Everything runs in your browser;
+      each module of the curriculum teaches the theory behind one of these.</p>
+    <div class="hero-meta"></div>
+  </header>
+
+  <section class="lesson">
+    <div class="tk-grid">
+
+      <div class="tk-card" id="tk-wacc">
+        <h3>1 · WACC</h3>
+        <p class="use">The discount rate a whole business must beat: equity and debt costs, blended and tax-shielded. Theory: Module 04.</p>
+        <div class="tk-row"><label>Equity weight</label><input type="range" min="10" max="100" step="5" value="70" data-k="ew"><span class="val" data-v="ew"></span></div>
+        <div class="tk-row"><label>Cost of equity</label><input type="range" min="5" max="20" step="0.5" value="9.5" data-k="ke"><span class="val" data-v="ke"></span></div>
+        <div class="tk-row"><label>Cost of debt (pre-tax)</label><input type="range" min="2" max="14" step="0.5" value="5.5" data-k="kd"><span class="val" data-v="kd"></span></div>
+        <div class="tk-row"><label>Tax rate</label><input type="range" min="0" max="40" step="1" value="25" data-k="tax"><span class="val" data-v="tax"></span></div>
+        <div class="tk-out"><div><div class="k">WACC</div><div class="v" id="wacc-out">·</div></div>
+          <div><div class="k">After-tax cost of debt</div><div class="v" id="wacc-kd">·</div></div></div>
+      </div>
+
+      <div class="tk-card" id="tk-dcf">
+        <h3>2 · Quick DCF</h3>
+        <p class="use">Five years of growing free cash flow plus a Gordon terminal value. The fastest honest intrinsic value. Theory: Module 04.</p>
+        <div class="tk-row"><label>FCF next year ($M)</label><input type="range" min="10" max="1000" step="10" value="100" data-k="fcf"><span class="val" data-v="fcf"></span></div>
+        <div class="tk-row"><label>Growth, years 1-5</label><input type="range" min="-5" max="25" step="1" value="8" data-k="g1"><span class="val" data-v="g1"></span></div>
+        <div class="tk-row"><label>Terminal growth</label><input type="range" min="0" max="4" step="0.5" value="2.5" data-k="gt"><span class="val" data-v="gt"></span></div>
+        <div class="tk-row"><label>Discount rate</label><input type="range" min="6" max="16" step="0.5" value="9" data-k="r"><span class="val" data-v="r"></span></div>
+        <div class="tk-out"><div><div class="k">Enterprise value</div><div class="v" id="dcf-ev">·</div></div>
+          <div><div class="k">Terminal value share</div><div class="v" id="dcf-tv">·</div></div></div>
+        <p class="tk-note" id="dcf-warn"></p>
+      </div>
+
+      <div class="tk-card" id="tk-bridge">
+        <h3>3 · The EV bridge</h3>
+        <p class="use">From what shareholders own to what the whole business costs. The most common interview trip-wire. Theory: Module 04.</p>
+        <div class="tk-row"><label>Equity value ($M)</label><input type="range" min="100" max="5000" step="50" value="1500" data-k="eq"><span class="val" data-v="eq"></span></div>
+        <div class="tk-row"><label>Total debt ($M)</label><input type="range" min="0" max="3000" step="25" value="450" data-k="debt"><span class="val" data-v="debt"></span></div>
+        <div class="tk-row"><label>Cash ($M)</label><input type="range" min="0" max="2000" step="25" value="120" data-k="cash"><span class="val" data-v="cash"></span></div>
+        <div class="tk-row"><label>Preferred + minority ($M)</label><input type="range" min="0" max="500" step="10" value="30" data-k="pref"><span class="val" data-v="pref"></span></div>
+        <div class="tk-out"><div><div class="k">Enterprise value</div><div class="v" id="ev-out">·</div></div>
+          <div><div class="k">Net debt</div><div class="v" id="ev-nd">·</div></div></div>
+      </div>
+
+      <div class="tk-card" id="tk-comps">
+        <h3>4 · Comps pricing</h3>
+        <p class="use">What the market's multiple says this business is worth, and what the equity keeps after net debt. Theory: Module 04.</p>
+        <div class="tk-row"><label>EBITDA ($M)</label><input type="range" min="10" max="1000" step="10" value="150" data-k="ebitda"><span class="val" data-v="ebitda"></span></div>
+        <div class="tk-row"><label>EV / EBITDA multiple</label><input type="range" min="4" max="25" step="0.5" value="11" data-k="mult"><span class="val" data-v="mult"></span></div>
+        <div class="tk-row"><label>Net debt ($M)</label><input type="range" min="-500" max="2000" step="25" value="300" data-k="nd"><span class="val" data-v="nd"></span></div>
+        <div class="tk-out"><div><div class="k">Enterprise value</div><div class="v" id="cp-ev">·</div></div>
+          <div><div class="k">Implied equity value</div><div class="v" id="cp-eq">·</div></div></div>
+      </div>
+
+      <div class="tk-card" id="tk-lbo">
+        <h3>5 · LBO quick returns</h3>
+        <p class="use">The napkin version of a buyout: buy with leverage, grow EBITDA, pay down debt, sell. Theory: Module 06.</p>
+        <div class="tk-row"><label>Entry EBITDA ($M)</label><input type="range" min="20" max="500" step="10" value="100" data-k="e0"><span class="val" data-v="e0"></span></div>
+        <div class="tk-row"><label>Entry multiple</label><input type="range" min="5" max="16" step="0.5" value="10" data-k="m0"><span class="val" data-v="m0"></span></div>
+        <div class="tk-row"><label>Debt at close</label><input type="range" min="30" max="75" step="5" value="55" data-k="lev"><span class="val" data-v="lev"></span></div>
+        <div class="tk-row"><label>EBITDA growth / yr</label><input type="range" min="-5" max="20" step="1" value="7" data-k="g"><span class="val" data-v="g"></span></div>
+        <div class="tk-row"><label>Exit multiple</label><input type="range" min="5" max="16" step="0.5" value="10" data-k="m1"><span class="val" data-v="m1"></span></div>
+        <div class="tk-row"><label>Hold (years)</label><input type="range" min="3" max="7" step="1" value="5" data-k="yrs"><span class="val" data-v="yrs"></span></div>
+        <div class="tk-out"><div><div class="k">MOIC</div><div class="v" id="lbo-moic">·</div></div>
+          <div><div class="k">IRR (approx)</div><div class="v" id="lbo-irr">·</div></div></div>
+        <p class="tk-note">Assumes ~40% of cumulative EBITDA goes to debt paydown; fees and cash sweeps simplified away. Directionally honest, deliberately napkin-grade.</p>
+      </div>
+
+      <div class="tk-card" id="tk-comp">
+        <h3>6 · The compounding machine</h3>
+        <p class="use">The eighth wonder, quantified: what patience does to money. Theory: Module 01 (and every module after it).</p>
+        <div class="tk-row"><label>Starting amount ($)</label><input type="range" min="1000" max="100000" step="1000" value="10000" data-k="pv"><span class="val" data-v="pv"></span></div>
+        <div class="tk-row"><label>Annual return</label><input type="range" min="1" max="15" step="0.5" value="8" data-k="ret"><span class="val" data-v="ret"></span></div>
+        <div class="tk-row"><label>Years</label><input type="range" min="1" max="50" step="1" value="30" data-k="n"><span class="val" data-v="n"></span></div>
+        <div class="tk-out"><div><div class="k">Future value</div><div class="v" id="cmp-fv">·</div></div>
+          <div><div class="k">Doubling time (rule of 72)</div><div class="v" id="cmp-dbl">·</div></div></div>
+      </div>
+
+    </div>
+
+    <div class="callout" style="margin-top:24px">
+      <p><strong>Where the theory lives.</strong> Each tool is the executable version of a lesson:
+        WACC, DCF, the bridge, and comps are Module 04 (Valuation); LBO returns are Module 06 (LBOs &amp; Private Equity);
+        compounding opens Module 01 (Foundations). For live industry numbers to plug in, the
+        <a href="../markets.html">Industry Atlas market map</a> is one click away.</p>
+    </div>
+  </section>
+
+</main>
+<script src="assets/data/curriculum.js"></script>
+<script src="assets/js/atlas.js"></script>
+<script>
+(function () {
+  "use strict";
+  function fm(n) { return n >= 1000 ? "$" + (n / 1000).toFixed(2) + "B" : "$" + Math.round(n) + "M"; }
+  function fk(n) { return "$" + Math.round(n).toLocaleString("en-US"); }
+
+  function wire(cardId, fmt, calc) {
+    var card = document.getElementById(cardId);
+    var state = {};
+    var inputs = card.querySelectorAll("input[type=range]");
+    function read() {
+      inputs.forEach(function (i) {
+        state[i.getAttribute("data-k")] = parseFloat(i.value);
+        var v = card.querySelector('[data-v="' + i.getAttribute("data-k") + '"]');
+        if (v) v.textContent = fmt(i.getAttribute("data-k"), parseFloat(i.value));
+      });
+      calc(state, card);
+    }
+    inputs.forEach(function (i) { i.addEventListener("input", read); });
+    read();
+  }
+
+  wire("tk-wacc", function (k, v) { return k === "ew" || k === "tax" ? v + "%" : v.toFixed(1) + "%"; }, function (s) {
+    var kdAT = s.kd * (1 - s.tax / 100);
+    var wacc = (s.ew / 100) * s.ke + (1 - s.ew / 100) * kdAT;
+    document.getElementById("wacc-out").textContent = wacc.toFixed(2) + "%";
+    document.getElementById("wacc-kd").textContent = kdAT.toFixed(2) + "%";
+  });
+
+  wire("tk-dcf", function (k, v) { return k === "fcf" ? "$" + v + "M" : v.toFixed(1) + "%"; }, function (s) {
+    var r = s.r / 100, g1 = s.g1 / 100, gt = s.gt / 100;
+    var warn = document.getElementById("dcf-warn");
+    if (r <= gt + 0.005) {
+      document.getElementById("dcf-ev").textContent = "n/a";
+      document.getElementById("dcf-tv").textContent = "·";
+      warn.textContent = "Discount rate must exceed terminal growth (the Gordon model's guardrail): raise r or lower terminal g.";
+      return;
+    }
+    warn.textContent = "";
+    var pv = 0, fcf = s.fcf;
+    for (var t = 1; t <= 5; t++) { pv += fcf / Math.pow(1 + r, t); fcf *= (1 + g1); }
+    var fcf5 = s.fcf * Math.pow(1 + g1, 4);
+    var tv = (fcf5 * (1 + gt)) / (r - gt) / Math.pow(1 + r, 5);
+    document.getElementById("dcf-ev").textContent = fm(pv + tv);
+    document.getElementById("dcf-tv").textContent = Math.round((tv / (pv + tv)) * 100) + "%";
+  });
+
+  wire("tk-bridge", function (k, v) { return "$" + v + "M"; }, function (s) {
+    var ev = s.eq + s.debt + s.pref - s.cash;
+    document.getElementById("ev-out").textContent = fm(ev);
+    var nd = s.debt - s.cash;
+    document.getElementById("ev-nd").textContent = nd < 0 ? "($" + Math.abs(nd) + "M)" : "$" + nd + "M";
+  });
+
+  wire("tk-comps", function (k, v) { return k === "mult" ? v.toFixed(1) + "x" : "$" + v + "M"; }, function (s) {
+    var ev = s.ebitda * s.mult, eq = ev - s.nd;
+    document.getElementById("cp-ev").textContent = fm(ev);
+    document.getElementById("cp-eq").textContent = eq < 0 ? "($" + Math.abs(Math.round(eq)) + "M)" : fm(eq);
+  });
+
+  wire("tk-lbo", function (k, v) {
+    if (k === "e0") return "$" + v + "M";
+    if (k === "lev") return v + "% of EV";
+    if (k === "g") return v + "%";
+    if (k === "yrs") return v + " yrs";
+    return v.toFixed(1) + "x";
+  }, function (s) {
+    var ev0 = s.e0 * s.m0, debt0 = ev0 * (s.lev / 100), eq0 = ev0 - debt0;
+    var cumEbitda = 0, e = s.e0;
+    for (var t = 1; t <= s.yrs; t++) { e *= (1 + s.g / 100); cumEbitda += e; }
+    var debtN = Math.max(0, debt0 - 0.4 * cumEbitda);
+    var evN = e * s.m1, eqN = Math.max(0, evN - debtN);
+    var moic = eq0 > 0 ? eqN / eq0 : 0;
+    var irr = eq0 > 0 && moic > 0 ? (Math.pow(moic, 1 / s.yrs) - 1) * 100 : 0;
+    document.getElementById("lbo-moic").textContent = moic.toFixed(1) + "x";
+    document.getElementById("lbo-irr").textContent = (irr < 0 ? "(" + Math.abs(irr).toFixed(0) + "%)" : irr.toFixed(0) + "%");
+  });
+
+  wire("tk-comp", function (k, v) { return k === "pv" ? fk(v) : k === "n" ? v + " yrs" : v.toFixed(1) + "%"; }, function (s) {
+    document.getElementById("cmp-fv").textContent = fk(s.pv * Math.pow(1 + s.ret / 100, s.n));
+    document.getElementById("cmp-dbl").textContent = (72 / s.ret).toFixed(1) + " yrs";
+  });
+})();
+</script>
+</body>
+</html>

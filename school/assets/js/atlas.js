@@ -149,6 +149,7 @@
     var links = [
       { t: "Curriculum", h: "index.html#curriculum" },
       { t: "Learning paths", h: "index.html#paths" },
+      { t: "Toolkit", h: "toolkit.html", id: "toolkit" },
       { t: "Glossary", h: "glossary.html", id: "glossary" },
       { t: "Industry Atlas ↗", h: "../index.html" }
     ];

@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=11">
+<link rel="stylesheet" href="assets/css/atlas.css?v=12">
 </head>
 <body>
 <main class="wrap page-pad">
@@ -25,7 +25,7 @@
 
   <div class="map-grid">
     <div class="panel"><div class="panel-body" style="padding:14px" id="worldmap"></div>
-      <p class="map-hint" style="padding:0 16px 12px">44 profiled economies · hover any country for its name · Phase 3 wires World Bank live data into this map.</p>
+      <p class="map-hint" style="padding:0 16px 12px">44 profiled economies · hover any country for its name · click for the full dossier: facts, its roles across every industry profile, and the companies headquartered there.</p>
     </div>
     <div class="panel country-panel" style="padding:18px 20px" id="cpanel">
       <p class="muted">Select a highlighted country to open its profile.</p>
@@ -33,51 +33,69 @@
   </div>
 </main>
 
-<script src="assets/data/taxonomy.js?v=11"></script>
-<script src="assets/data/graph.js?v=11"></script>
-<script src="assets/data/kpis.js?v=11"></script>
-<script src="assets/data/countries.js?v=11"></script>
-<script src="assets/data/companies.js?v=11"></script>
-<script src="assets/data/companies/aerospace.js?v=11"></script>
-<script src="assets/data/companies/asset-management.js?v=11"></script>
-<script src="assets/data/companies/automotive.js?v=11"></script>
-<script src="assets/data/companies/aviation.js?v=11"></script>
-<script src="assets/data/companies/defense.js?v=11"></script>
-<script src="assets/data/companies/ecommerce.js?v=11"></script>
-<script src="assets/data/companies/lithium.js?v=11"></script>
-<script src="assets/data/companies/market-infrastructure.js?v=11"></script>
-<script src="assets/data/companies/payments.js?v=11"></script>
-<script src="assets/data/companies/private-credit.js?v=11"></script>
-<script src="assets/data/companies/private-equity.js?v=11"></script>
-<script src="assets/data/companies/real-estate.js?v=11"></script>
-<script src="assets/data/companies/telecom.js?v=11"></script>
-<script src="assets/data/companies/utilities.js?v=11"></script>
-<script src="assets/data/industries/semiconductors.js?v=11"></script>
-<script src="assets/data/industries/cloud.js?v=11"></script>
-<script src="assets/data/industries/banking.js?v=11"></script>
-<script src="assets/data/industries/copper-mining.js?v=11"></script>
-<script src="assets/data/industries/insurance.js?v=11"></script>
-<script src="assets/data/industries/saas.js?v=11"></script>
-<script src="assets/data/industries/oil-gas.js?v=11"></script>
-<script src="assets/data/industries/pharma.js?v=11"></script>
-<script src="assets/data/industries/defense.js?v=11"></script>
-<script src="assets/data/industries/utilities.js?v=11"></script>
-<script src="assets/data/industries/private-credit.js?v=11"></script>
-<script src="assets/data/industries/aerospace.js?v=11"></script>
-<script src="assets/data/industries/payments.js?v=11"></script>
-<script src="assets/data/industries/asset-management.js?v=11"></script>
-<script src="assets/data/industries/aviation.js?v=11"></script>
-<script src="assets/data/industries/private-equity.js?v=11"></script>
-<script src="assets/data/industries/market-infrastructure.js?v=11"></script>
-<script src="assets/data/industries/automotive.js?v=11"></script>
-<script src="assets/data/industries/real-estate.js?v=11"></script>
-<script src="assets/data/industries/telecom.js?v=11"></script>
-<script src="assets/data/industries/ecommerce.js?v=11"></script>
-<script src="assets/data/industries/lithium.js?v=11"></script>
-<script src="assets/js/core.js?v=11"></script>
-<script src="assets/js/news.js?v=11"></script>
-<script src="assets/js/viz.js?v=11"></script>
-<script src="assets/js/assistant.js?v=11"></script>
+<script src="assets/data/taxonomy.js?v=12"></script>
+<script src="assets/data/graph.js?v=12"></script>
+<script src="assets/data/kpis.js?v=12"></script>
+<script src="assets/data/countries.js?v=12"></script>
+<script src="assets/data/companies.js?v=12"></script>
+<script src="assets/data/companies/aerospace.js?v=12"></script>
+<script src="assets/data/companies/asset-management.js?v=12"></script>
+<script src="assets/data/companies/automotive.js?v=12"></script>
+<script src="assets/data/companies/aviation.js?v=12"></script>
+<script src="assets/data/companies/defense.js?v=12"></script>
+<script src="assets/data/companies/ecommerce.js?v=12"></script>
+<script src="assets/data/companies/lithium.js?v=12"></script>
+<script src="assets/data/companies/market-infrastructure.js?v=12"></script>
+<script src="assets/data/companies/payments.js?v=12"></script>
+<script src="assets/data/companies/private-credit.js?v=12"></script>
+<script src="assets/data/companies/private-equity.js?v=12"></script>
+<script src="assets/data/companies/real-estate.js?v=12"></script>
+<script src="assets/data/companies/telecom.js?v=12"></script>
+<script src="assets/data/companies/utilities.js?v=12"></script>
+<script src="assets/data/companies/luxury.js?v=12"></script>
+<script src="assets/data/companies/media.js?v=12"></script>
+<script src="assets/data/companies/mining.js?v=12"></script>
+<script src="assets/data/companies/retail.js?v=12"></script>
+<script src="assets/data/industries/semiconductors.js?v=12"></script>
+<script src="assets/data/industries/cloud.js?v=12"></script>
+<script src="assets/data/industries/banking.js?v=12"></script>
+<script src="assets/data/industries/copper-mining.js?v=12"></script>
+<script src="assets/data/industries/insurance.js?v=12"></script>
+<script src="assets/data/industries/saas.js?v=12"></script>
+<script src="assets/data/industries/oil-gas.js?v=12"></script>
+<script src="assets/data/industries/pharma.js?v=12"></script>
+<script src="assets/data/industries/defense.js?v=12"></script>
+<script src="assets/data/industries/utilities.js?v=12"></script>
+<script src="assets/data/industries/private-credit.js?v=12"></script>
+<script src="assets/data/industries/aerospace.js?v=12"></script>
+<script src="assets/data/industries/payments.js?v=12"></script>
+<script src="assets/data/industries/asset-management.js?v=12"></script>
+<script src="assets/data/industries/aviation.js?v=12"></script>
+<script src="assets/data/industries/private-equity.js?v=12"></script>
+<script src="assets/data/industries/market-infrastructure.js?v=12"></script>
+<script src="assets/data/industries/automotive.js?v=12"></script>
+<script src="assets/data/industries/real-estate.js?v=12"></script>
+<script src="assets/data/industries/telecom.js?v=12"></script>
+<script src="assets/data/industries/ecommerce.js?v=12"></script>
+<script src="assets/data/industries/lithium.js?v=12"></script>
+<script src="assets/data/industries/ai.js?v=12"></script>
+<script src="assets/data/industries/cybersecurity.js?v=12"></script>
+<script src="assets/data/industries/mining.js?v=12"></script>
+<script src="assets/data/industries/steel.js?v=12"></script>
+<script src="assets/data/industries/chemicals.js?v=12"></script>
+<script src="assets/data/industries/biotech.js?v=12"></script>
+<script src="assets/data/industries/medical-devices.js?v=12"></script>
+<script src="assets/data/industries/retail.js?v=12"></script>
+<script src="assets/data/industries/luxury.js?v=12"></script>
+<script src="assets/data/industries/media.js?v=12"></script>
+<script src="assets/data/industries/gaming.js?v=12"></script>
+<script src="assets/data/industries/shipping.js?v=12"></script>
+<script src="assets/data/industries/hedge-funds.js?v=12"></script>
+<script src="assets/data/industries/venture-capital.js?v=12"></script>
+<script src="assets/js/core.js?v=12"></script>
+<script src="assets/js/news.js?v=12"></script>
+<script src="assets/js/viz.js?v=12"></script>
+<script src="assets/js/assistant.js?v=12"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
@@ -88,6 +106,20 @@ document.addEventListener("atlas:ready", function () {
 
   function show(c) {
     var links = (c.strengths || []).map(function (id) { return Atlas.indLink(id); }).join(" · ");
+
+    /* derived detail: everything the atlas dossiers know about this economy */
+    var roles = [];
+    Object.keys(window.ATLAS_INDUSTRIES || {}).forEach(function (k) {
+      var m = window.ATLAS_INDUSTRIES[k];
+      (m.geography || []).forEach(function (g) {
+        if (g.country === c.code) roles.push({ ind: k, name: (Atlas.store.industryById[k] || { name: k }).name, role: g.role, note: g.note || "" });
+      });
+    });
+    var cos = Object.keys(window.ATLAS_COMPANIES || {}).map(function (k) { return window.ATLAS_COMPANIES[k]; })
+      .filter(function (co) { return co.country === c.code; })
+      .sort(function (a, b) { return (b.mcap || 0) - (a.mcap || 0); });
+    function cap(m) { return m ? (m >= 1000 ? "$" + (m / 1000).toFixed(1) + "T" : "$" + Math.round(m) + "B") : ""; }
+
     panel.innerHTML =
       "<h3>" + esc(c.name) + ' <span class="pill">' + esc(c.code) + "</span></h3>" +
       '<p class="small muted" style="margin:4px 0 12px">' + esc(c.note) + "</p>" +
@@ -98,7 +130,16 @@ document.addEventListener("atlas:ready", function () {
       row("Resources", esc(c.resources)) +
       row("Energy mix", esc(c.energy)) +
       '<div style="margin-top:12px"><span class="lens-label">Anchor industries</span><p class="small" style="margin-top:6px">' + links + "</p></div>" +
-      '<p class="figure-note">Figures are rounded estimates for orientation; the Phase 3 World Bank adapter replaces them with live data.</p>';
+      (roles.length ? '<div class="cp-derived"><span class="lens-label">Its roles in the industry dossiers</span>' +
+        roles.slice(0, 8).map(function (r) {
+          return '<a class="cp-item" href="industry.html?id=' + r.ind + '" title="' + esc(r.note) + '"><b>' + esc(r.name) + "</b><span>" + esc(r.role) + "</span></a>";
+        }).join("") + "</div>" : "") +
+      (cos.length ? '<div class="cp-derived"><span class="lens-label">Companies based here</span>' +
+        cos.slice(0, 8).map(function (co) {
+          return '<a class="cp-item" href="company.html?id=' + co.id + '"><b>' + esc(co.name) + "</b><span>" +
+            (co.ticker ? esc(co.ticker) + " · " : "") + cap(co.mcap) + "</span></a>";
+        }).join("") + "</div>" : "") +
+      '<p class="figure-note">Facts are rounded estimates for orientation; the roles and companies above are cross-referenced live from the atlas dossiers.</p>';
     location.hash = c.code;
   }
 

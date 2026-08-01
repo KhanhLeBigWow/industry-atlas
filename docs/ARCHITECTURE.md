@@ -304,6 +304,18 @@ enforced by `scripts/validate-modules.mjs` (run it before every deploy):
 schema completeness, taxonomy link integrity, sector consistency, health
 weights, quiz shape, mcap sanity, and the em-dash ban.
 
+### Navigation & orientation chrome (v12)
+Every page carries: the header search reachable from anywhere via Ctrl/Cmd+K
+or "/", a site-map footer (explore links, sector links, learn/build links,
+live counts), and on the Market Map a sector-isolation chip row that filters
+all 3 views down to a single sector. The world map's country panel is
+cross-referenced live from the dossiers: it lists every role the selected
+country plays across industry profiles (from modules' geography arrays) and
+every company headquartered there (from the company records), all clickable.
+Finance School gained `school/toolkit.html`: 6 standalone calculators (WACC,
+quick DCF, EV bridge, comps pricing, LBO napkin returns, compounding), each
+linked back to the module that teaches its theory.
+
 ### The structured library (docs rail)
 Profile pages now render inside a docs-grade layout: a sticky left rail with
 (1) every section of the current page, scroll-spy highlighted, and (2) the

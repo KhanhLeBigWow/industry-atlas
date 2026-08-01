@@ -245,11 +245,21 @@
 
     var hs = el("div", { class: "hsearch" });
     hs.appendChild(el("span", { class: "hs-icon", text: "⌕" }));
-    var input = el("input", { type: "search", placeholder: "Search industries, KPIs, countries…", "aria-label": "Search" });
+    var input = el("input", { type: "search", placeholder: "Search the atlas…  (Ctrl K)", "aria-label": "Search" });
     var results = el("div", { class: "hs-results" });
     hs.appendChild(input); hs.appendChild(results);
     header.appendChild(hs);
     wireSearch(input, results);
+
+    /* keyboard: Ctrl/Cmd+K or "/" jumps to search from anywhere */
+    document.addEventListener("keydown", function (e) {
+      var typing = /input|textarea|select/i.test((document.activeElement || {}).tagName || "");
+      if ((e.ctrlKey || e.metaKey) && (e.key === "k" || e.key === "K")) {
+        e.preventDefault(); input.focus(); input.select();
+      } else if (e.key === "/" && !typing) {
+        e.preventDefault(); input.focus();
+      }
+    });
 
     var LINKS = [
       { t: "Industries", h: "index.html#industries", k: "home" },
@@ -295,9 +305,33 @@
     document.body.insertBefore(header, document.body.firstChild);
   }
   function buildFooter() {
+    var built = store.industries.filter(function (i) { return i.status !== "stub"; }).length;
+    var cos = Object.keys(window.ATLAS_COMPANIES || {}).length;
+    function links(list) {
+      return list.map(function (l) {
+        return '<a href="' + (l[1].indexOf("http") === 0 ? l[1] : href(l[1])) + '"' + (l[1].indexOf("http") === 0 ? ' target="_blank" rel="noopener"' : "") + ">" + esc(l[0]) + "</a>";
+      }).join("");
+    }
     var f = el("footer", { class: "site-footer" });
-    f.appendChild(el("span", { text: "Industry Atlas · the connected map of the global economy" }));
-    f.appendChild(el("span", { text: "Educational reference. Figures are estimates unless sourced; nothing here is investment advice." }));
+    f.innerHTML =
+      '<div class="wrap sf-grid">' +
+        '<div class="sf-brand"><span class="brand-mark">IA</span>' +
+          "<p><b>Industry Atlas</b><br>The connected map of the global economy: " + store.industries.length +
+          " industries (" + built + " profiled in depth), " + cos + " companies, 44 economies, one knowledge graph. All free.</p>" +
+          '<p class="sf-fine">Educational reference. Figures are estimates unless sourced; nothing here is investment advice.</p></div>' +
+        '<div class="sf-col"><div class="sf-h">Explore</div>' + links([
+          ["The market map", "markets.html"], ["The terminal", "news.html"], ["Knowledge graph", "graph.html"],
+          ["World map", "map.html"], ["KPI library", "library.html"], ["All industries", "index.html#industries"], ["All companies", "index.html#companies"]
+        ]) + "</div>" +
+        '<div class="sf-col"><div class="sf-h">Sectors</div>' + links(store.sectors.slice(0, 7).map(function (s) {
+          return [(s.icon || "") + " " + s.name.split(",")[0], "index.html#" + s.id];
+        })) + "</div>" +
+        '<div class="sf-col"><div class="sf-h">Learn & build</div>' + links([
+          ["Finance School", "school/index.html"], ["The toolkit (calculators)", "school/toolkit.html"],
+          ["Live market heat setup", "markets.html#heat"], ["Architecture notes", "https://github.com/KhanhLeBigWow/industry-atlas/blob/main/docs/ARCHITECTURE.md"],
+          ["Source on GitHub", "https://github.com/KhanhLeBigWow/industry-atlas"]
+        ]) + "</div>" +
+      "</div>";
     document.body.appendChild(f);
   }
 
