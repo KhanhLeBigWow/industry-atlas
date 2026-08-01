@@ -81,7 +81,7 @@
           t.style.background = heatColor(q.pct);
           t.querySelector("span").textContent = fmtPct(q.pct);
         });
-      }, i * 250);                                        /* stay far under 60/min */
+      }, i * 1100);                                       /* stay under the 60/min free tier */
     });
   }
 
@@ -100,5 +100,5 @@
     });
   }
 
-  window.AtlasQuotes = { getKey: getKey, fetchQuote: fetchQuote, renderHeatStrip: renderHeatStrip, renderPricePill: renderPricePill };
+  window.AtlasQuotes = { getKey: getKey, fetchQuote: fetchQuote, heatColor: heatColor, fmtPct: fmtPct, renderHeatStrip: renderHeatStrip, renderPricePill: renderPricePill };
 })();

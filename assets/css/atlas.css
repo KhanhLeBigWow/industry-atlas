@@ -752,3 +752,136 @@ body.mm-open .mobile-menu { display: block; }
 .heat-tile:hover { text-decoration: none; filter: brightness(1.18); }
 .heat-tile b { font-family: var(--font-mono); font-size: .74rem; letter-spacing: .02em; }
 .heat-tile span { font-family: var(--font-mono); font-size: .68rem; color: var(--ink-2); }
+
+/* ================= v10: vibrancy + the company universe ================= */
+
+/* gradient display type: headline color runs into the page accent */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .home-hero h1 {
+    background: linear-gradient(94deg, var(--ink) 25%, var(--brand) 70%, var(--viz-1) 108%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: transparent;
+  }
+  .ind-hero h1 {
+    background: linear-gradient(94deg, var(--ink) 35%, color-mix(in srgb, var(--sec, var(--brand)) 78%, var(--ink)) 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: transparent;
+  }
+}
+
+/* aurora: soft multi-color light behind the home hero */
+.home-hero { position: relative; }
+.home-hero::before {
+  content: ""; position: absolute; inset: -40px -10% 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(38% 55% at 18% 18%, color-mix(in srgb, var(--viz-1) 16%, transparent), transparent 70%),
+    radial-gradient(42% 60% at 82% 12%, color-mix(in srgb, var(--brand) 15%, transparent), transparent 70%),
+    radial-gradient(34% 50% at 55% 78%, color-mix(in srgb, var(--viz-2) 10%, transparent), transparent 72%);
+  filter: blur(6px);
+}
+.ind-hero { position: relative; }
+.ind-hero::after {
+  content: ""; position: absolute; inset: 0 -6% auto; height: 130%; z-index: -1; pointer-events: none;
+  background: radial-gradient(46% 70% at 78% 8%, color-mix(in srgb, var(--sec, var(--brand)) 13%, transparent), transparent 72%);
+}
+
+/* kicker gets a live accent tick */
+.kicker::before { content: ""; display: inline-block; width: 17px; height: 3px; border-radius: 2px; margin-right: 8px;
+  background: linear-gradient(90deg, var(--sec, var(--brand)), color-mix(in srgb, var(--sec, var(--brand)) 30%, transparent)); vertical-align: middle; }
+
+/* section numbers become colored chips; section titles get a gradient underline */
+.block h2 .b-ix {
+  background: color-mix(in srgb, var(--sec, var(--brand)) 16%, var(--surface-2));
+  color: color-mix(in srgb, var(--sec, var(--brand)) 80%, var(--ink));
+  border: 1px solid color-mix(in srgb, var(--sec, var(--brand)) 35%, transparent);
+  border-radius: 7px; padding: 2px 8px;
+}
+.block > h2 { position: relative; padding-bottom: 8px; }
+.block > h2::after { content: ""; position: absolute; left: 0; bottom: 0; width: 64px; height: 2.5px; border-radius: 2px;
+  background: linear-gradient(90deg, var(--sec, var(--brand)), transparent); }
+
+/* cards, teasers, players: lift + colored glow on hover */
+.card, .teaser, .ind-card, .player-card, .stat-tile, .co-tile, .heat-tile {
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+.card:hover, .player-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--sec, var(--brand)) 55%, var(--hairline));
+  box-shadow: 0 8px 26px color-mix(in srgb, var(--sec, var(--brand)) 14%, transparent);
+}
+.ind-card:hover, .teaser:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--sec, var(--brand)) 60%, var(--hairline));
+  box-shadow: 0 8px 26px color-mix(in srgb, var(--sec, var(--brand)) 16%, transparent);
+}
+.stat-tile { border-top: 2.5px solid color-mix(in srgb, var(--sec, var(--brand)) 55%, transparent); }
+.stat-tile:hover { transform: translateY(-2px); }
+
+/* primary buttons and active lenses glow */
+.btn-primary {
+  background: linear-gradient(120deg, var(--brand), color-mix(in srgb, var(--brand) 68%, var(--viz-3)));
+  box-shadow: 0 3px 14px color-mix(in srgb, var(--brand) 30%, transparent);
+}
+.lens.on {
+  background: linear-gradient(120deg, color-mix(in srgb, var(--brand) 26%, var(--surface-2)), color-mix(in srgb, var(--brand) 12%, var(--surface-2)));
+  border-color: color-mix(in srgb, var(--brand) 55%, var(--hairline));
+  box-shadow: 0 2px 10px color-mix(in srgb, var(--brand) 18%, transparent);
+}
+
+/* market map tiles feel alive */
+.mm-tile { cursor: pointer; }
+.mm-tile rect { transition: filter .14s ease; }
+.mm-tile:hover rect { filter: brightness(1.18) saturate(1.15); }
+
+/* the company mosaic (home) */
+.co-mosaic { display: grid; grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); gap: 10px; margin-top: 14px; }
+.co-tile {
+  display: flex; align-items: center; gap: 10px; padding: 10px 12px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--sec, var(--brand)) 9%, var(--surface-1)), var(--surface-1) 65%);
+  border: 1px solid color-mix(in srgb, var(--sec, var(--brand)) 26%, var(--hairline));
+  border-radius: 11px; color: var(--ink); min-width: 0;
+}
+.co-tile:hover {
+  text-decoration: none; transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--sec, var(--brand)) 65%, var(--hairline));
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--sec, var(--brand)) 18%, transparent);
+}
+.co-mg {
+  flex: none; width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center;
+  font-family: var(--font-mono); font-size: .74rem; font-weight: 700; color: #fff;
+  background: linear-gradient(135deg, var(--sec, var(--brand)), color-mix(in srgb, var(--sec, var(--brand)) 55%, #000 12%));
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.14);
+}
+.co-body { min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.co-nm { font-weight: 650; font-size: .88rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.co-meta { font-size: .7rem; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.co-meta b { color: color-mix(in srgb, var(--sec, var(--brand)) 75%, var(--ink)); font-family: var(--font-mono); font-weight: 650; }
+.co-cap { margin-left: auto; flex: none; font-family: var(--font-mono); font-size: .72rem; font-weight: 650;
+  color: color-mix(in srgb, var(--sec, var(--brand)) 80%, var(--ink));
+  background: color-mix(in srgb, var(--sec, var(--brand)) 12%, var(--surface-2));
+  border: 1px solid color-mix(in srgb, var(--sec, var(--brand)) 28%, transparent);
+  padding: 2px 7px; border-radius: 7px; }
+
+/* newsroom rows: accent bar slides in */
+.news-item { border-left: 2.5px solid transparent; transition: border-color .14s ease, background .14s ease; }
+.news-item:hover { border-left-color: var(--sec, var(--brand)); background: color-mix(in srgb, var(--sec, var(--brand)) 5%, var(--surface-1)); }
+
+/* sector shelf headers pop */
+.sector-head .sec-ic { box-shadow: 0 0 0 5px color-mix(in srgb, var(--sec, var(--brand)) 10%, transparent); border-radius: 10px; }
+
+/* desk band + debates pick up the page accent */
+.debate { border-top: 2.5px solid color-mix(in srgb, var(--sec, var(--brand)) 50%, transparent); }
+.playbook-row:hover { background: color-mix(in srgb, var(--sec, var(--brand)) 6%, var(--surface-1)); }
+
+/* v10b: organization chrome (sector jump chips) */
+.sec-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
+.sec-chip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px;
+  font-size: .8rem; font-weight: 600; color: var(--ink-2);
+  background: color-mix(in srgb, var(--sec, var(--brand)) 9%, var(--surface-1));
+  border: 1px solid color-mix(in srgb, var(--sec, var(--brand)) 30%, var(--hairline));
+  transition: transform .14s ease, box-shadow .14s ease, color .14s ease;
+}
+.sec-chip:hover { text-decoration: none; color: var(--ink); transform: translateY(-1px);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--sec, var(--brand)) 20%, transparent); }
+.sector-shelf { scroll-margin-top: 70px; }

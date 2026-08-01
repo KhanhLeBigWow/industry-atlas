@@ -291,6 +291,19 @@ automatically whenever the live wire fails, labeling it as such.
   API; screener-style filtering will run over our own company records as that
   layer grows.
 
+### The company universe (v10)
+Companies are first-class data: `assets/data/companies.js` plus per-industry
+fragment files in `assets/data/companies/` (each registers records via
+`Object.assign(window.ATLAS_COMPANIES, {...})`). Every record carries `mcap`
+(approx market cap, $B) which powers: (1) the home-page company mosaic
+(top-N by cap, sector-colored, expandable), (2) the Market Map's third view,
+"Companies · live heat": a finviz-style treemap sized by market cap that
+recolors by daily % move when a Finnhub key is saved, and (3) featured-player
+cards on industry pages (matched by `industries[]`). Structural integrity is
+enforced by `scripts/validate-modules.mjs` (run it before every deploy):
+schema completeness, taxonomy link integrity, sector consistency, health
+weights, quiz shape, mcap sanity, and the em-dash ban.
+
 ### The structured library (docs rail)
 Profile pages now render inside a docs-grade layout: a sticky left rail with
 (1) every section of the current page, scroll-spy highlighted, and (2) the

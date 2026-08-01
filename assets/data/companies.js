@@ -7,7 +7,7 @@ window.ATLAS_COMPANIES = {
 
   /* ================= semiconductors ================= */
   "tsmc": {
-    id: "tsmc", ticker: "TSM", name: "TSMC", full: "Taiwan Semiconductor Manufacturing Co.", country: "TW",
+    id: "tsmc", ticker: "TSM", mcap: 1940, name: "TSMC", full: "Taiwan Semiconductor Manufacturing Co.", country: "TW",
     industries: ["semiconductors"], role: "Pure-play foundry #1", founded: 1987, hq: "Hsinchu, Taiwan",
     stats: [{ label: "Revenue", value: "$88B", note: "2024" }, { label: "Foundry share", value: "~60%", note: "~90% at leading edge" }, { label: "Gross margin", value: "~56%", note: "2024" }, { label: "Capex", value: "$30B+", note: "annual" }],
     model: [
@@ -47,7 +47,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "nvidia": {
-    id: "nvidia", ticker: "NVDA", name: "NVIDIA", full: "NVIDIA Corporation", country: "US",
+    id: "nvidia", ticker: "NVDA", mcap: 4600, name: "NVIDIA", full: "NVIDIA Corporation", country: "US",
     industries: ["semiconductors", "ai"], role: "AI accelerator leader", founded: 1993, hq: "Santa Clara, USA",
     stats: [{ label: "Revenue", value: "$130B", note: "FY2025 (calendar 2024)" }, { label: "Data center share", value: "~88%", note: "of revenue" }, { label: "Gross margin", value: "~75%", note: "" }, { label: "R&D", value: "$12B+", note: "annual" }],
     model: [
@@ -85,7 +85,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "asml": {
-    id: "asml", ticker: "ASML", name: "ASML", full: "ASML Holding N.V.", country: "NL",
+    id: "asml", ticker: "ASML", mcap: 380, name: "ASML", full: "ASML Holding N.V.", country: "NL",
     industries: ["semiconductors"], role: "Lithography monopoly", founded: 1984, hq: "Veldhoven, Netherlands",
     stats: [{ label: "Revenue", value: "€28B", note: "2024" }, { label: "EUV share", value: "100%", note: "sole producer" }, { label: "Backlog", value: "€36B+", note: "" }, { label: "EUV price", value: "€180M to €380M", note: "per machine" }],
     model: [
@@ -122,7 +122,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "samsung": {
-    id: "samsung", ticker: null, name: "Samsung Electronics", full: "Samsung Electronics Co.", country: "KR",
+    id: "samsung", ticker: null, mcap: 350, name: "Samsung Electronics", full: "Samsung Electronics Co.", country: "KR",
     industries: ["semiconductors", "consumer-electronics"], role: "Memory #1 + foundry challenger", founded: 1969, hq: "Suwon, South Korea",
     stats: [{ label: "Revenue", value: "~$220B", note: "2024, all divisions" }, { label: "DRAM share", value: "~40%", note: "world #1" }, { label: "Phones", value: "#1 by units", note: "with Apple by value" }, { label: "Capex", value: "$40B+", note: "mostly chips" }],
     model: [
@@ -160,7 +160,7 @@ window.ATLAS_COMPANIES = {
 
   /* ================= cloud ================= */
   "amazon": {
-    id: "amazon", ticker: "AMZN", name: "Amazon (AWS)", full: "Amazon.com, Inc.", country: "US",
+    id: "amazon", ticker: "AMZN", mcap: 2440, name: "Amazon (AWS)", full: "Amazon.com, Inc.", country: "US",
     industries: ["cloud", "ecommerce"], role: "Cloud #1 + everything store", founded: 1994, hq: "Seattle, USA",
     stats: [{ label: "Revenue", value: "$638B", note: "2024, all Amazon" }, { label: "AWS revenue", value: "$108B", note: "2024, ~+19%" }, { label: "AWS op margin", value: "~37%", note: "most of Amazon's profit" }, { label: "Capex", value: "$75B+", note: "2024, AI-led" }],
     model: [
@@ -198,7 +198,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "microsoft": {
-    id: "microsoft", ticker: "MSFT", name: "Microsoft", full: "Microsoft Corporation", country: "US",
+    id: "microsoft", ticker: "MSFT", mcap: 2900, name: "Microsoft", full: "Microsoft Corporation", country: "US",
     industries: ["cloud", "saas", "ai"], role: "Enterprise cloud + AI challenger", founded: 1975, hq: "Redmond, USA",
     stats: [{ label: "Revenue", value: "$245B", note: "FY2024" }, { label: "Cloud revenue", value: "$135B+", note: "Microsoft Cloud run-rate" }, { label: "Op margin", value: "~45%", note: "the enterprise machine" }, { label: "Capex", value: "$55B+", note: "AI datacenters" }],
     model: [
@@ -237,7 +237,7 @@ window.ATLAS_COMPANIES = {
 
   /* ================= banking ================= */
   "jpmorgan": {
-    id: "jpmorgan", ticker: "JPM", name: "JPMorgan Chase", full: "JPMorgan Chase & Co.", country: "US",
+    id: "jpmorgan", ticker: "JPM", mcap: 920, name: "JPMorgan Chase", full: "JPMorgan Chase & Co.", country: "US",
     industries: ["banking", "investment-banking", "capital-markets"], role: "The fortress universal bank", founded: 1799, hq: "New York, USA",
     stats: [{ label: "Revenue", value: "$180B", note: "2024 managed" }, { label: "Net income", value: "$58B", note: "2024, US record" }, { label: "Assets", value: "$4.0T", note: "largest US bank" }, { label: "CET1", value: "~15%", note: "fortress buffer" }],
     model: [
@@ -275,7 +275,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "berkshire": {
-    id: "berkshire", ticker: "BRK.B", name: "Berkshire Hathaway", full: "Berkshire Hathaway Inc.", country: "US",
+    id: "berkshire", ticker: "BRK.B", mcap: 1100, name: "Berkshire Hathaway", full: "Berkshire Hathaway Inc.", country: "US",
     industries: ["insurance", "asset-management"], role: "The float machine", founded: 1965, hq: "Omaha, USA",
     stats: [{ label: "Revenue", value: "$371B", note: "2024" }, { label: "Insurance float", value: "~$170B", note: "cost below zero most years" }, { label: "Cash pile", value: "$330B+", note: "record, 2024-25" }, { label: "Equity portfolio", value: "$270B+", note: "Apple-heavy" }],
     model: [
@@ -314,7 +314,7 @@ window.ATLAS_COMPANIES = {
 
   /* ================= insurance chain ================= */
   "marsh": {
-    id: "marsh", ticker: "MMC", name: "Marsh McLennan", full: "Marsh & McLennan Companies", country: "US",
+    id: "marsh", ticker: "MMC", mcap: 100, name: "Marsh McLennan", full: "Marsh & McLennan Companies", country: "US",
     industries: ["insurance"], role: "World's largest broker", founded: 1905, hq: "New York, USA",
     stats: [{ label: "Revenue", value: "$24.5B", note: "2024, #1 for 15 straight years" }, { label: "Employees", value: "90K+", note: "" }, { label: "Op margin", value: "~25%+", note: "fee business" }, { label: "Capital at risk", value: "~$0", note: "holds no insurance risk" }],
     model: [
@@ -350,7 +350,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "chubb": {
-    id: "chubb", ticker: "CB", name: "Chubb", full: "Chubb Limited", country: "CH",
+    id: "chubb", ticker: "CB", mcap: 115, name: "Chubb", full: "Chubb Limited", country: "CH",
     industries: ["insurance"], role: "Premier commercial P&C carrier", founded: 1882, hq: "Zurich (ops from NY)",
     stats: [{ label: "Net premiums", value: "$52B", note: "2024 written" }, { label: "Combined ratio", value: "~86%", note: "best-in-class underwriting" }, { label: "Invested assets", value: "$150B+", note: "the float at work" }, { label: "Countries", value: "54", note: "global platform" }],
     model: [
@@ -388,7 +388,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "munich-re": {
-    id: "munich-re", ticker: "MURGY", name: "Munich Re", full: "Münchener Rück AG", country: "DE",
+    id: "munich-re", ticker: "MURGY", mcap: 75, name: "Munich Re", full: "Münchener Rück AG", country: "DE",
     industries: ["insurance"], role: "World's largest reinsurer", founded: 1880, hq: "Munich, Germany",
     stats: [{ label: "Revenue", value: "€67B", note: "2024" }, { label: "Net result", value: "€5.7B", note: "2024 record" }, { label: "Capital", value: "€30B+", note: "equity base" }, { label: "Founded", value: "1880", note: "paid 1906 SF quake in full" }],
     model: [
@@ -463,7 +463,7 @@ window.ATLAS_COMPANIES = {
 
   /* ================= copper ================= */
   "freeport": {
-    id: "freeport", ticker: "FCX", name: "Freeport-McMoRan", full: "Freeport-McMoRan Inc.", country: "US",
+    id: "freeport", ticker: "FCX", mcap: 65, name: "Freeport-McMoRan", full: "Freeport-McMoRan Inc.", country: "US",
     industries: ["copper-mining", "mining"], role: "Largest listed copper pure-play", founded: 1912, hq: "Phoenix, USA",
     stats: [{ label: "Revenue", value: "$25.5B", note: "2024" }, { label: "Copper sold", value: "~4.2B lbs", note: "2024" }, { label: "Key asset", value: "Grasberg", note: "world-class Indonesian mine" }, { label: "Unit cost", value: "~$1.60/lb net", note: "byproduct credits help" }],
     model: [
@@ -537,7 +537,7 @@ window.ATLAS_COMPANIES = {
 
   /* ================= saas ================= */
   "salesforce": {
-    id: "salesforce", ticker: "CRM", name: "Salesforce", full: "Salesforce, Inc.", country: "US",
+    id: "salesforce", ticker: "CRM", mcap: 250, name: "Salesforce", full: "Salesforce, Inc.", country: "US",
     industries: ["saas"], role: "The SaaS category creator", founded: 1999, hq: "San Francisco, USA",
     stats: [{ label: "Revenue", value: "$38B", note: "FY2025 (calendar 2024)" }, { label: "CRM share", value: "#1", note: "for 11 straight years" }, { label: "Op margin", value: "~33%", note: "post efficiency turn" }, { label: "Customers", value: "150K+", note: "" }],
     model: [
@@ -573,7 +573,7 @@ window.ATLAS_COMPANIES = {
 
   /* ================= oil & gas ================= */
   "exxonmobil": {
-    id: "exxonmobil", ticker: "XOM", name: "ExxonMobil", full: "Exxon Mobil Corporation", country: "US",
+    id: "exxonmobil", ticker: "XOM", mcap: 490, name: "ExxonMobil", full: "Exxon Mobil Corporation", country: "US",
     industries: ["oil-gas"], role: "Largest Western major", founded: 1870, hq: "Houston, USA",
     stats: [{ label: "Revenue", value: "$340B", note: "2024, approx" }, { label: "Production", value: "4.6 mboe/d", note: "post-Pioneer" }, { label: "Breakeven", value: "~$35", note: "corporate, per company guidance" }, { label: "Payouts", value: "$36B", note: "2024 dividends + buybacks" }],
     model: [
@@ -610,7 +610,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "aramco": {
-    id: "aramco", ticker: null, name: "Saudi Aramco", full: "Saudi Arabian Oil Company", country: "SA",
+    id: "aramco", ticker: null, mcap: 1600, name: "Saudi Aramco", full: "Saudi Arabian Oil Company", country: "SA",
     industries: ["oil-gas"], role: "The central bank of oil", founded: 1933, hq: "Dhahran, Saudi Arabia",
     stats: [{ label: "Revenue", value: "~$480B", note: "2024" }, { label: "Net income", value: "~$106B", note: "2024: the world's most profitable company" }, { label: "Capacity", value: "~12 mb/d", note: "plus the world's spare capacity" }, { label: "Lifting cost", value: "~$3/bbl", note: "the planet's cheapest barrels" }],
     model: [
@@ -647,7 +647,7 @@ window.ATLAS_COMPANIES = {
 
   /* ================= pharma ================= */
   "lilly": {
-    id: "lilly", ticker: "LLY", name: "Eli Lilly", full: "Eli Lilly and Company", country: "US",
+    id: "lilly", ticker: "LLY", mcap: 935, name: "Eli Lilly", full: "Eli Lilly and Company", country: "US",
     industries: ["pharma"], role: "The GLP-1 king", founded: 1876, hq: "Indianapolis, USA",
     stats: [{ label: "Revenue", value: "$45B", note: "2024, +32%" }, { label: "Tirzepatide franchise", value: "$16B+", note: "Mounjaro + Zepbound, year 2" }, { label: "Patent runway", value: "to 2036+", note: "tirzepatide compound" }, { label: "Manufacturing", value: "$20B+", note: "committed capacity buildout" }],
     model: [
@@ -683,7 +683,7 @@ window.ATLAS_COMPANIES = {
   },
 
   "novo": {
-    id: "novo", ticker: "NVO", name: "Novo Nordisk", full: "Novo Nordisk A/S", country: "DK",
+    id: "novo", ticker: "NVO", mcap: 300, name: "Novo Nordisk", full: "Novo Nordisk A/S", country: "DK",
     industries: ["pharma"], role: "The other half of the GLP-1 duopoly", founded: 1923, hq: "Bagsværd, Denmark",
     stats: [{ label: "Revenue", value: "~$42B", note: "2024 (DKK 290B), +25%" }, { label: "GLP-1 share", value: "~2/3 of sales", note: "semaglutide franchise" }, { label: "Diabetes heritage", value: "100+ years", note: "insulin since 1923" }, { label: "Semaglutide LOE", value: "~2031", note: "core US compound patent" }],
     model: [

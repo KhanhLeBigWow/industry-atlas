@@ -10,63 +10,90 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=9">
+<link rel="stylesheet" href="assets/css/atlas.css?v=10">
 </head>
 <body>
 <main class="wrap page-pad">
   <header style="margin-bottom:16px">
     <span class="kicker">The market map</span>
     <h1>The whole economy on one screen</h1>
-    <p class="lede">Every industry in the atlas as a tile: clustered by sector, sized by global market size,
-      brightness showing profile depth. Click any tile to open its full profile. The finviz view of the real economy,
-      not just the stock market.</p>
+    <p class="lede">Three views of one map: every industry sized by market size, the same industries by how connected
+      they are, or every tracked company sized by market cap and colored by today's move. Click any tile to open its
+      full profile.</p>
   </header>
 
-  <section id="heat" style="margin-bottom:26px">
-    <h3 style="margin-bottom:4px">⚡ Live market heat · tracked companies</h3>
-    <p class="small muted" style="margin-bottom:8px">The finviz layer: the atlas's 19 tracked companies colored by today's move. Click any tile for the full profile.</p>
-    <div id="heat-mount"></div>
-  </section>
-
   <div class="mm-controls">
-    <span class="lens-label">Size by</span>
-    <button class="lens on" data-size="market">Market size</button>
-    <button class="lens" data-size="degree">Graph connections</button>
+    <span class="lens-label">View</span>
+    <button class="lens on" data-size="market">Industries · market size</button>
+    <button class="lens" data-size="degree">Industries · connections</button>
+    <button class="lens" data-size="companies">Companies · live heat</button>
     <span style="margin-left:auto" class="small faint" id="mm-count"></span>
   </div>
 
   <div class="panel"><div class="panel-body" style="padding:10px" id="mmap"></div></div>
 
   <div class="legend" style="margin-top:14px" id="mm-legend"></div>
-  <p class="figure-note">Tile brightness: bright = full profile, medium = profile, dim = stub awaiting research.
-    Market sizes are authored estimates with vintages (see each profile); stubs carry a small placeholder size so
-    everything stays visible. Phase 3 wires live data into the sizes.</p>
+  <p class="figure-note">Industry views: tile brightness = profile depth (bright = full, medium = profile, dim = stub);
+    market sizes are authored estimates with vintages (see each profile). Companies view: boxes sized by market cap;
+    with a free Finnhub key saved below, boxes recolor by today's % move (green/red saturates at ±4%, the finviz
+    convention) and click through to full company profiles.</p>
+
+  <section id="heat" style="margin:34px 0 10px">
+    <span class="kicker">The watchlist strip</span>
+    <h2 style="margin-bottom:4px">Every tracked company, today</h2>
+    <p class="small muted" style="margin-bottom:10px">The compact ticker wall: daily % moves for the whole company
+      universe, powered by your own free Finnhub key (stored only in this browser). This is also where you save or
+      forget the key that lights up the Companies view above.</p>
+    <div id="heat-mount"></div>
+  </section>
 </main>
 
-<script src="assets/data/taxonomy.js?v=9"></script>
-<script src="assets/data/graph.js?v=9"></script>
-<script src="assets/data/kpis.js?v=9"></script>
-<script src="assets/data/countries.js?v=9"></script>
-<script src="assets/data/companies.js?v=9"></script>
-<script src="assets/data/industries/semiconductors.js?v=9"></script>
-<script src="assets/data/industries/cloud.js?v=9"></script>
-<script src="assets/data/industries/banking.js?v=9"></script>
-<script src="assets/data/industries/copper-mining.js?v=9"></script>
-<script src="assets/data/industries/insurance.js?v=9"></script>
-<script src="assets/data/industries/saas.js?v=9"></script>
-<script src="assets/data/industries/oil-gas.js?v=9"></script>
-<script src="assets/data/industries/pharma.js?v=9"></script>
-<script src="assets/data/industries/defense.js?v=9"></script>
-<script src="assets/data/industries/utilities.js?v=9"></script>
-<script src="assets/data/industries/private-credit.js?v=9"></script>
-<script src="assets/data/industries/aerospace.js?v=9"></script>
-<script src="assets/data/industries/payments.js?v=9"></script>
-<script src="assets/data/industries/asset-management.js?v=9"></script>
-<script src="assets/js/core.js?v=9"></script>
-<script src="assets/js/viz.js?v=9"></script>
-<script src="assets/js/news.js?v=9"></script>
-<script src="assets/js/quotes.js?v=9"></script>
-<script src="assets/js/assistant.js?v=9"></script>
+<script src="assets/data/taxonomy.js?v=10"></script>
+<script src="assets/data/graph.js?v=10"></script>
+<script src="assets/data/kpis.js?v=10"></script>
+<script src="assets/data/countries.js?v=10"></script>
+<script src="assets/data/companies.js?v=10"></script>
+<script src="assets/data/companies/aerospace.js?v=10"></script>
+<script src="assets/data/companies/asset-management.js?v=10"></script>
+<script src="assets/data/companies/automotive.js?v=10"></script>
+<script src="assets/data/companies/aviation.js?v=10"></script>
+<script src="assets/data/companies/defense.js?v=10"></script>
+<script src="assets/data/companies/ecommerce.js?v=10"></script>
+<script src="assets/data/companies/lithium.js?v=10"></script>
+<script src="assets/data/companies/market-infrastructure.js?v=10"></script>
+<script src="assets/data/companies/payments.js?v=10"></script>
+<script src="assets/data/companies/private-credit.js?v=10"></script>
+<script src="assets/data/companies/private-equity.js?v=10"></script>
+<script src="assets/data/companies/real-estate.js?v=10"></script>
+<script src="assets/data/companies/telecom.js?v=10"></script>
+<script src="assets/data/companies/utilities.js?v=10"></script>
+<script src="assets/data/industries/semiconductors.js?v=10"></script>
+<script src="assets/data/industries/cloud.js?v=10"></script>
+<script src="assets/data/industries/banking.js?v=10"></script>
+<script src="assets/data/industries/copper-mining.js?v=10"></script>
+<script src="assets/data/industries/insurance.js?v=10"></script>
+<script src="assets/data/industries/saas.js?v=10"></script>
+<script src="assets/data/industries/oil-gas.js?v=10"></script>
+<script src="assets/data/industries/pharma.js?v=10"></script>
+<script src="assets/data/industries/defense.js?v=10"></script>
+<script src="assets/data/industries/utilities.js?v=10"></script>
+<script src="assets/data/industries/private-credit.js?v=10"></script>
+<script src="assets/data/industries/aerospace.js?v=10"></script>
+<script src="assets/data/industries/payments.js?v=10"></script>
+<script src="assets/data/industries/asset-management.js?v=10"></script>
+<script src="assets/data/industries/aviation.js?v=10"></script>
+<script src="assets/data/industries/private-equity.js?v=10"></script>
+<script src="assets/data/industries/market-infrastructure.js?v=10"></script>
+<script src="assets/data/industries/automotive.js?v=10"></script>
+<script src="assets/data/industries/real-estate.js?v=10"></script>
+<script src="assets/data/industries/telecom.js?v=10"></script>
+<script src="assets/data/industries/ecommerce.js?v=10"></script>
+<script src="assets/data/industries/lithium.js?v=10"></script>
+<script src="assets/js/core.js?v=10"></script>
+<script src="assets/js/viz.js?v=10"></script>
+<script src="assets/js/news.js?v=10"></script>
+<script src="assets/js/quotes.js?v=10"></script>
+<script src="assets/js/assistant.js?v=10"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
@@ -90,7 +117,53 @@ document.addEventListener("atlas:ready", function () {
     return "$" + m.value + (m.unit === "$T" ? "T" : "B");
   }
 
+  var heatTimers = [];
+  function clearHeat() { heatTimers.forEach(clearTimeout); heatTimers = []; }
+
+  function drawCompanies() {
+    clearHeat();
+    var all = Object.keys(window.ATLAS_COMPANIES || {}).map(function (k) { return window.ATLAS_COMPANIES[k]; })
+      .filter(function (c) { return c.mcap; });
+    var groups = Atlas.store.sectors.map(function (s) {
+      return {
+        id: s.id, name: s.name.split(",")[0], color: s.color, icon: s.icon,
+        items: all.filter(function (c) {
+          var ind = Atlas.store.industryById[c.industries[0]];
+          return ind && ind.sector === s.id;
+        }).map(function (c) {
+          return { id: c.id, name: c.name, short: c.ticker || c.name.split(" ")[0], value: c.mcap,
+                   display: "$" + (c.mcap >= 1000 ? (c.mcap / 1000).toFixed(1) + "T" : Math.round(c.mcap) + "B"), status: "full" };
+        })
+      };
+    });
+    Viz.marketMap(document.getElementById("mmap"), {
+      label: "Company market map",
+      height: 640,
+      groups: groups,
+      onClick: function (id) { location.href = "company.html?id=" + id; }
+    });
+    document.getElementById("mm-count").textContent = all.length + " companies · sized by market cap" +
+      (window.AtlasQuotes && AtlasQuotes.getKey() ? " · coloring by today's move…" : " · save a free Finnhub key below for live colors");
+
+    /* live heat: recolor tiles by daily % move, staggered under the 60/min free tier */
+    if (!window.AtlasQuotes || !AtlasQuotes.getKey()) return;
+    var withTickers = all.filter(function (c) { return c.ticker; });
+    withTickers.forEach(function (c, i) {
+      heatTimers.push(setTimeout(function () {
+        AtlasQuotes.fetchQuote(c.ticker).then(function (q) {
+          var g = document.querySelector('.mm-tile[data-mm="' + c.id + '"]');
+          if (!g || !q) return;
+          g.querySelector("rect").setAttribute("fill", AtlasQuotes.heatColor(q.pct));
+          var texts = g.querySelectorAll("text");
+          if (texts[1]) texts[1].textContent = AtlasQuotes.fmtPct(q.pct);
+        });
+      }, i * 1150));
+    });
+  }
+
   function draw(mode) {
+    if (mode === "companies") { drawCompanies(); return; }
+    clearHeat();
     var groups = Atlas.store.sectors.map(function (s) {
       return {
         id: s.id, name: s.name.split(",")[0], color: s.color, icon: s.icon,

@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css?v=9">
+<link rel="stylesheet" href="assets/css/atlas.css?v=10">
 <style>
   .hero-stats { display: flex; gap: 28px; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
   .hero-stat .v { font-family: var(--font-display); font-size: 1.9rem; font-weight: 650; text-align: center; }
@@ -42,6 +42,7 @@
       <div class="hero-stat"><div class="v" id="stat-edges">100+</div><div class="k">Graph connections</div></div>
       <div class="hero-stat"><div class="v" id="stat-kpis">35</div><div class="k">KPIs in the library</div></div>
       <div class="hero-stat"><div class="v" id="stat-countries">44</div><div class="k">Country profiles</div></div>
+      <div class="hero-stat"><div class="v" id="stat-cos">19</div><div class="k">Company profiles</div></div>
     </div>
   </section>
 
@@ -55,6 +56,10 @@
       <a class="btn" href="graph.html?focus=semiconductors" style="margin-left:8px">See its graph neighborhood</a>
     </div>
 
+    <div style="margin-top:2.4rem">
+      <span class="kicker">Explore</span>
+      <h2 style="margin-bottom:2px">Ways into the atlas</h2>
+    </div>
     <div class="teaser-grid">
       <a class="teaser" href="markets.html"><h3>🗺 The market map</h3><p>The whole economy on one screen: a finviz-style treemap of every industry, sized by market size, clustered by sector. Click any tile.</p></a>
       <a class="teaser" href="news.html"><h3>📡 The terminal</h3><p>Live headlines across 9 desks: macro, tech, energy, healthcare and more, free from the global news wires, refreshed all day.</p></a>
@@ -67,38 +72,73 @@
     </div>
   </section>
 
+  <section class="wrap" id="companies" style="padding-bottom:8px">
+    <span class="kicker">The company universe</span>
+    <h2>The companies that run it</h2>
+    <p class="lede">The atlas's major players, sorted by market cap and colored by sector. Click any box for the
+      full profile: business model, who they sell to, who supplies them, and where the capital flows.</p>
+    <div class="co-mosaic" id="co-mosaic"></div>
+    <p style="margin-top:12px"><button class="btn" id="co-more">Show all companies</button>
+      <a class="btn" href="markets.html" style="margin-left:8px">See them as a live heat map →</a></p>
+  </section>
+
   <section class="wrap" id="industries" style="padding-bottom:40px">
+    <span class="kicker">The library</span>
     <h2>Every industry, one atlas</h2>
     <p class="lede">Profiles marked <span class="badge-status badge-full">Full</span> and
       <span class="badge-status badge-profile">Profile</span> are complete deep dives; the rest are living
-      <span class="badge-status badge-stub">Stubs</span>, already wired into the graph and ready to expand.</p>
+      <span class="badge-status badge-stub">Stubs</span>, already wired into the graph and ready to expand.
+      Jump to a sector:</p>
+    <div class="sec-jump" id="sec-jump"></div>
     <div id="shelves"></div>
   </section>
 </main>
 
-<script src="assets/data/taxonomy.js?v=9"></script>
-<script src="assets/data/graph.js?v=9"></script>
-<script src="assets/data/kpis.js?v=9"></script>
-<script src="assets/data/countries.js?v=9"></script>
-<script src="assets/data/companies.js?v=9"></script>
-<script src="assets/data/industries/semiconductors.js?v=9"></script>
-<script src="assets/data/industries/cloud.js?v=9"></script>
-<script src="assets/data/industries/banking.js?v=9"></script>
-<script src="assets/data/industries/copper-mining.js?v=9"></script>
-<script src="assets/data/industries/insurance.js?v=9"></script>
-<script src="assets/data/industries/saas.js?v=9"></script>
-<script src="assets/data/industries/oil-gas.js?v=9"></script>
-<script src="assets/data/industries/pharma.js?v=9"></script>
-<script src="assets/data/industries/defense.js?v=9"></script>
-<script src="assets/data/industries/utilities.js?v=9"></script>
-<script src="assets/data/industries/private-credit.js?v=9"></script>
-<script src="assets/data/industries/aerospace.js?v=9"></script>
-<script src="assets/data/industries/payments.js?v=9"></script>
-<script src="assets/data/industries/asset-management.js?v=9"></script>
-<script src="assets/js/core.js?v=9"></script>
-<script src="assets/js/news.js?v=9"></script>
-<script src="assets/js/viz.js?v=9"></script>
-<script src="assets/js/assistant.js?v=9"></script>
+<script src="assets/data/taxonomy.js?v=10"></script>
+<script src="assets/data/graph.js?v=10"></script>
+<script src="assets/data/kpis.js?v=10"></script>
+<script src="assets/data/countries.js?v=10"></script>
+<script src="assets/data/companies.js?v=10"></script>
+<script src="assets/data/companies/aerospace.js?v=10"></script>
+<script src="assets/data/companies/asset-management.js?v=10"></script>
+<script src="assets/data/companies/automotive.js?v=10"></script>
+<script src="assets/data/companies/aviation.js?v=10"></script>
+<script src="assets/data/companies/defense.js?v=10"></script>
+<script src="assets/data/companies/ecommerce.js?v=10"></script>
+<script src="assets/data/companies/lithium.js?v=10"></script>
+<script src="assets/data/companies/market-infrastructure.js?v=10"></script>
+<script src="assets/data/companies/payments.js?v=10"></script>
+<script src="assets/data/companies/private-credit.js?v=10"></script>
+<script src="assets/data/companies/private-equity.js?v=10"></script>
+<script src="assets/data/companies/real-estate.js?v=10"></script>
+<script src="assets/data/companies/telecom.js?v=10"></script>
+<script src="assets/data/companies/utilities.js?v=10"></script>
+<script src="assets/data/industries/semiconductors.js?v=10"></script>
+<script src="assets/data/industries/cloud.js?v=10"></script>
+<script src="assets/data/industries/banking.js?v=10"></script>
+<script src="assets/data/industries/copper-mining.js?v=10"></script>
+<script src="assets/data/industries/insurance.js?v=10"></script>
+<script src="assets/data/industries/saas.js?v=10"></script>
+<script src="assets/data/industries/oil-gas.js?v=10"></script>
+<script src="assets/data/industries/pharma.js?v=10"></script>
+<script src="assets/data/industries/defense.js?v=10"></script>
+<script src="assets/data/industries/utilities.js?v=10"></script>
+<script src="assets/data/industries/private-credit.js?v=10"></script>
+<script src="assets/data/industries/aerospace.js?v=10"></script>
+<script src="assets/data/industries/payments.js?v=10"></script>
+<script src="assets/data/industries/asset-management.js?v=10"></script>
+<script src="assets/data/industries/aviation.js?v=10"></script>
+<script src="assets/data/industries/private-equity.js?v=10"></script>
+<script src="assets/data/industries/market-infrastructure.js?v=10"></script>
+<script src="assets/data/industries/automotive.js?v=10"></script>
+<script src="assets/data/industries/real-estate.js?v=10"></script>
+<script src="assets/data/industries/telecom.js?v=10"></script>
+<script src="assets/data/industries/ecommerce.js?v=10"></script>
+<script src="assets/data/industries/lithium.js?v=10"></script>
+<script src="assets/js/core.js?v=10"></script>
+<script src="assets/js/news.js?v=10"></script>
+<script src="assets/js/viz.js?v=10"></script>
+<script src="assets/js/assistant.js?v=10"></script>
 <script>
 document.addEventListener("atlas:ready", function () {
   "use strict";
@@ -112,6 +152,41 @@ document.addEventListener("atlas:ready", function () {
 
   /* hero search */
   Atlas.wireSearch(document.getElementById("home-search"), document.getElementById("home-results"));
+
+  /* company mosaic */
+  var cos = Object.keys(window.ATLAS_COMPANIES || {}).map(function (k) { return window.ATLAS_COMPANIES[k]; })
+    .sort(function (a, b) { return (b.mcap || 0) - (a.mcap || 0); });
+  document.getElementById("stat-cos").textContent = cos.length;
+  function monogram(name) {
+    var w = name.replace(/[()]/g, "").split(/\s+/);
+    return (w[0][0] + (w[1] ? w[1][0] : (w[0][1] || ""))).toUpperCase();
+  }
+  function coTile(c) {
+    var ind = Atlas.store.industryById[c.industries[0]];
+    var sec = ind ? Atlas.store.sectorById[ind.sector] : null;
+    var color = sec ? sec.color : "#fab219";
+    return '<a class="co-tile" style="--sec:' + color + '" href="company.html?id=' + c.id + '" title="' + esc(c.full || c.name) + '">' +
+      '<span class="co-mg">' + esc(monogram(c.name)) + '</span>' +
+      '<span class="co-body"><span class="co-nm">' + esc(c.name) + '</span>' +
+      '<span class="co-meta">' + (c.ticker ? '<b>' + esc(c.ticker) + '</b> · ' : "") + esc(ind ? ind.name : "") + '</span></span>' +
+      (c.mcap ? '<span class="co-cap">$' + (c.mcap >= 1000 ? (c.mcap / 1000).toFixed(1) + "T" : Math.round(c.mcap) + "B") + '</span>' : "") +
+      '</a>';
+  }
+  var SHOW = 24;
+  var mosaic = document.getElementById("co-mosaic");
+  var moreBtn = document.getElementById("co-more");
+  mosaic.innerHTML = cos.slice(0, SHOW).map(coTile).join("");
+  moreBtn.textContent = "Show all " + cos.length + " companies";
+  if (cos.length <= SHOW) moreBtn.style.display = "none";
+  moreBtn.addEventListener("click", function () {
+    mosaic.innerHTML = cos.map(coTile).join("");
+    moreBtn.style.display = "none";
+  });
+
+  /* sector jump chips */
+  document.getElementById("sec-jump").innerHTML = Atlas.store.sectors.map(function (s) {
+    return '<a class="sec-chip" style="--sec:' + s.color + '" href="#' + s.id + '">' + (s.icon || "") + " " + esc(s.name.split(",")[0]) + "</a>";
+  }).join("");
 
   /* sector shelves */
   var shelves = document.getElementById("shelves");

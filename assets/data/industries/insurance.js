@@ -12,6 +12,8 @@ window.ATLAS_INDUSTRIES["insurance"] = {
     maturity: "mature", cyclicality: 3, capitalIntensity: 4, regulation: 5, disruption: 3
   },
 
+  newsQuery: '(insurance OR reinsurance OR "catastrophe bond" OR underwriting OR "combined ratio")',
+
   overview: {
     definition: "Insurance transfers risk from people and companies who cannot afford a loss to institutions paid to absorb it. Policyholders pay premiums now; insurers promise money later, invest the pool in between, and profit when premiums plus investment income exceed claims plus costs.",
     howItWorks: [

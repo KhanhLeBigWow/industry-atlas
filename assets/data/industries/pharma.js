@@ -13,6 +13,8 @@ window.ATLAS_INDUSTRIES["pharma"] = {
     maturity: "mature", cyclicality: 1, capitalIntensity: 3, regulation: 5, disruption: 3
   },
 
+  newsQuery: '(pharmaceutical OR "FDA approval" OR "drug pricing" OR GLP-1 OR "clinical trial" results)',
+
   overview: {
     definition: "The pharmaceutical industry discovers, tests, manufactures, and sells medicines. Its economics rest on a state-granted bargain: prove a molecule safe and effective through a decade of trials, and receive a patent monopoly long enough to earn back the billions the failures consumed.",
     howItWorks: [

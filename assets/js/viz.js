@@ -839,7 +839,8 @@
         var tx = tr.x + 1, ty = tr.y + 1, tw = tr.w - 2, th = tr.h - 2;
         if (tw < 3 || th < 3) return;
         var mix = it.status === "full" ? 78 : it.status === "profile" ? 55 : 30;
-        s += '<g class="mm-tile" data-mm="' + esc(it.id) + '"><rect x="' + tx + '" y="' + ty + '" width="' + tw + '" height="' + th + '" rx="4" fill="color-mix(in srgb, ' + grp.g.color + " " + mix + '%, var(--surface-2))"></rect>';
+        var fill = it.fill || "color-mix(in srgb, " + grp.g.color + " " + mix + "%, var(--surface-2))";
+        s += '<g class="mm-tile" data-mm="' + esc(it.id) + '"><rect x="' + tx + '" y="' + ty + '" width="' + tw + '" height="' + th + '" rx="4" fill="' + fill + '"></rect>';
         s += "<title>" + esc(it.name) + " · " + esc(it.display || "") + (it.status !== "stub" ? " · " + it.status + " profile" : "") + "</title>";
         if (tw > 58 && th > 26) {
           var fs = Math.min(13, Math.max(9, tw / 9));

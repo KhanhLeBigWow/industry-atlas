@@ -12,6 +12,8 @@ window.ATLAS_INDUSTRIES["oil-gas"] = {
     maturity: "cyclical-mature", cyclicality: 5, capitalIntensity: 5, regulation: 4, disruption: 3
   },
 
+  newsQuery: '("oil prices" OR OPEC OR shale OR LNG OR "natural gas" OR crude)',
+
   overview: {
     definition: "The oil and gas industry finds, extracts, transports, refines, and sells hydrocarbons: the molecules that still supply over half of the world's primary energy, nearly all of its transport fuel, and the feedstock of modern chemistry.",
     howItWorks: [

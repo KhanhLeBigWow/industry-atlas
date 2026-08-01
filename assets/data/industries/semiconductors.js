@@ -10,6 +10,8 @@ window.ATLAS_INDUSTRIES["semiconductors"] = {
     maturity: "cyclical-mature", cyclicality: 5, capitalIntensity: 5, regulation: 4, disruption: 3
   },
 
+  newsQuery: '(semiconductor OR TSMC OR Nvidia OR "chip manufacturing" OR foundry OR "export controls" chips)',
+
   overview: {
     definition: "Semiconductors are the tiny switches (transistors) etched into silicon that perform all digital computation and much of the world's sensing and power control. The industry designs, manufactures, and packages these chips, from $0.10 microcontrollers to $40,000 AI accelerators.",
     howItWorks: [

@@ -11,6 +11,8 @@ window.ATLAS_INDUSTRIES["saas"] = {
     maturity: "growth", cyclicality: 2, capitalIntensity: 1, regulation: 2, disruption: 4
   },
 
+  newsQuery: '("enterprise software" OR SaaS OR Salesforce OR "software subscription" OR "net revenue retention")',
+
   overview: {
     definition: "SaaS (software as a service) delivers applications over the internet on subscription: the vendor runs one continuously updated version for all customers and rents access by seat or usage. It replaced software you bought and installed with software you subscribe to forever.",
     howItWorks: [
