@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" data-module="interviews" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview Prep · Capital Atlas</title>
+<meta name="description" content="An original investment banking interview question bank: fit, accounting, valuation, DCF, M&A, LBO, restructuring, and markets, with model answers and progress tracking.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css">
+<style>
+  .career-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .career-nav a { font-size: .82rem; font-weight: 600; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
+  .career-nav a.on, .career-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
+  .qp-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 6px; }
+  .qp-tab { appearance: none; cursor: pointer; font: inherit; font-size: .8rem; font-weight: 600; color: var(--ink-2);
+    background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 999px; padding: 7px 13px; }
+  .qp-tab.on { color: var(--ink); border-color: var(--brand); background: var(--surface-2); }
+  .qp-tab .n { font-family: var(--font-mono); font-size: .68rem; color: var(--ink-3); margin-left: 5px; }
+  .qp-progress { height: 7px; background: var(--surface-2); border-radius: 4px; overflow: hidden; margin: 12px 0 20px; }
+  .qp-progress i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--brand), var(--viz-2)); transition: width .3s ease; }
+  .q-card { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 16px 18px; margin-bottom: 12px; }
+  .q-card.known { border-color: color-mix(in srgb, var(--status-good, #0ca30c) 45%, var(--hairline)); }
+  .q-top { display: flex; gap: 10px; align-items: baseline; }
+  .q-num { font-family: var(--font-mono); font-size: .7rem; font-weight: 700; color: var(--ink-3); flex: none; }
+  .q-text { font-weight: 600; font-size: .95rem; }
+  .q-diff { flex: none; margin-left: auto; font-family: var(--font-mono); font-size: .62rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; padding: 2px 8px; border-radius: 5px; }
+  .q-diff.d1 { background: var(--surface-2); color: var(--ink-3); }
+  .q-diff.d2 { background: color-mix(in srgb, var(--brand) 16%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
+  .q-ans { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--hairline); font-size: .89rem; color: var(--ink-2); line-height: 1.6; }
+  .q-card.open .q-ans { display: block; }
+  .q-actions { margin-top: 10px; display: flex; gap: 14px; align-items: center; }
+  .q-reveal { appearance: none; cursor: pointer; font: inherit; font-size: .78rem; font-weight: 650; color: var(--brand-strong, var(--brand));
+    background: none; border: 0; padding: 0; }
+  .q-know { font-size: .76rem; color: var(--ink-3); display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">The career wing · 01</span>
+    <h1>The interview bank.</h1>
+    <p class="hero-tagline">An original question bank covering the full canon of investment banking interviews:
+      fit, accounting, enterprise value, valuation, DCF, M&amp;A, LBOs, restructuring, and markets. Every answer is a
+      model answer: tight enough to say out loud, complete enough to survive follow-ups. Progress saves on your device.</p>
+    <nav class="career-nav">
+      <a href="interview-prep.html" class="on">📋 Interview bank</a>
+      <a href="lateral.html">🔁 The lateral guide</a>
+      <a href="groups.html">🏛 Firms &amp; groups</a>
+      <a href="toolkit.html">🧮 Toolkit</a>
+    </nav>
+    <div class="hero-meta"></div>
+  </header>
+
+  <section class="lesson">
+    <div class="callout">
+      <p><strong>How to use it.</strong> Interviewers test in layers: they ask the base question, then pull one thread.
+        Read each model answer, close it, and say your version out loud. Mark a card "I can say this cold" only when
+        you can. The curriculum modules teach the theory behind every category; each tab names its module.</p>
+    </div>
+
+    <div class="qp-tabs" id="qp-tabs"></div>
+    <div class="qp-progress"><i id="qp-bar"></i></div>
+    <p class="small muted" id="qp-count" style="margin-bottom:14px"></p>
+    <div id="qp-list"></div>
+  </section>
+
+</main>
+<script src="assets/data/curriculum.js"></script>
+<script src="assets/js/atlas.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var CATS = [
+    { id: "fit", name: "Fit & story", mod: "Every module" },
+    { id: "acct", name: "Accounting", mod: "Module 03" },
+    { id: "ev", name: "EV & equity value", mod: "Module 04" },
+    { id: "val", name: "Valuation", mod: "Module 04" },
+    { id: "dcf", name: "DCF", mod: "Module 04" },
+    { id: "ma", name: "M&A", mod: "Module 05" },
+    { id: "lbo", name: "LBO", mod: "Module 06" },
+    { id: "rx", name: "Restructuring", mod: "Modules 05-07" },
+    { id: "mkt", name: "Markets & judgment", mod: "Module 07" }
+  ];
+
+  /* Original question bank. d: 1 = base, 2 = advanced. */
+  var Q = [
+    /* ---------- fit ---------- */
+    { c: "fit", d: 1, q: "Walk me through your resume.", a: "Structure: 90 seconds, chronological, each chapter ending with the decision that led to the next. Open with where you started and the skill it gave you, connect 2 or 3 chapters with choices (not job descriptions), and land on: that is why this seat, at this firm, is the logical next step. The test is narrative logic and brevity, not completeness. Rehearse until it sounds unrehearsed." },
+    { c: "fit", d: 1, q: "Why investment banking?", a: "Give 2 reasons that survive cross-examination and 1 proof point. Strong reasons: the apprenticeship intensity (reps on live transactions), being where analysis meets decision (advice that changes outcomes, not reports that get filed), and exposure to how owners and boards actually think. Then prove it: a deal you followed, a course, a prior internship moment. Avoid: money, prestige, or anything a consultant could say verbatim." },
+    { c: "fit", d: 1, q: "Why this firm, and why this group?", a: "Name 3 specifics: a transaction the group ran (and what was clever about it), the platform structure (independent advice, sector depth, restructuring franchise, whatever is actually true), and a person you spoke with plus what they said. Generic praise reads as no research. For a boutique, mention the model: fewer, more senior people per deal means more responsibility per analyst." },
+    { c: "fit", d: 1, q: "Tell me about a deal you have been following.", a: "Framework: parties and price (with the multiple if public), strategic logic in 1 sentence, financing structure, 1 thing the market debated (premium, synergies, antitrust, timing), and your view. Two minutes maximum. Pick a deal in the group's sector, know the headline numbers cold, and have an opinion an associate could disagree with productively." },
+    { c: "fit", d: 1, q: "What is your greatest weakness?", a: "Give a real one with a management system, not a strength in costume. Pattern: name it specifically, show the system you built around it, show the delta. Example shape: early drafts of my written work ran long; I now write the summary first and cut 30% before anyone sees it. Avoid perfectionism cliches and anything fatal to the job (detail orientation, deadlines, teamwork)." },
+    { c: "fit", d: 2, q: "Tell me about a time you disagreed with someone senior.", a: "Use STAR but weight the R: they want judgment plus deference in the right ratio. Strong shape: you spotted a substantive issue, checked your facts first, raised it privately with a proposed fix, and accepted the final call gracefully whichever way it went. The failure modes are never disagreeing (no spine) and relitigating after the decision (no team)." },
+    { c: "fit", d: 2, q: "You will get better hours and similar pay elsewhere. Why should we believe you will stay?", a: "Answer the real question: do you understand what you are signing up for? Acknowledge the trade honestly, then anchor on what the seat uniquely buys you: reps, responsibility, and optionality that compound. Cite something concrete you have already done that looked like banking hours by choice. Do not pretend the hours are fine; pretend-nothing candidates read as flight risks." },
+    { c: "fit", d: 1, q: "What questions do you have for us?", a: "Ask 2 or 3 that show you think like a future teammate: how staffing works across products in this group, what separates the analysts they promote fastest, how the group's deal mix has shifted in the last year. Never ask anything Google answers (office locations, group size) and never ask about hours or exit options in a first round." },
+
+    /* ---------- accounting ---------- */
+    { c: "acct", d: 1, q: "Walk me through the 3 financial statements.", a: "Income statement: revenue to net income over a period; the accrual view of profitability. Cash flow statement: starts at net income, adjusts for non-cash items and working capital, then investing and financing; the cash truth. Balance sheet: assets equal liabilities plus equity at a point in time; the cumulative record. They interlock: net income feeds retained earnings and starts the CFS; the CFS ending cash is the balance sheet's cash line." },
+    { c: "acct", d: 1, q: "Depreciation goes up by $10. Walk me through the statements (40% tax rate).", a: "IS: pretax income falls $10, taxes fall $4, net income falls $6. CFS: start down $6, add back the $10 non-cash depreciation, cash up $4. BS: cash up $4, PP&E down $10 (assets net down $6); retained earnings down $6. Balanced. The takeaway they are testing: a non-cash expense reduces earnings but increases cash through the tax shield." },
+    { c: "acct", d: 1, q: "How do the 3 statements link?", a: "Three joints: net income flows to both the top of the cash flow statement and into retained earnings; the CFS translates accrual earnings into cash and its ending cash is the balance sheet cash; balance sheet deltas (working capital, PP&E via capex and depreciation, debt and equity via financing) are exactly what the CFS itemizes. If a model does not tie at those 3 joints, it is wrong." },
+    { c: "acct", d: 1, q: "What happens when accounts receivable increases by $20?", a: "You booked revenue you have not collected. IS: no change now (revenue was already recognized). CFS: the AR increase is a working-capital use, cash down $20 (ignoring tax since revenue was already taxed when booked). BS: AR up $20, cash down $20; balanced with no equity change. The lesson: growth eats cash through working capital even when the P&L looks great." },
+    { c: "acct", d: 2, q: "Where do deferred taxes come from?", a: "From timing differences between book and tax accounting. Classic source: accelerated tax depreciation means you pay less cash tax today than the IS shows, creating a deferred tax liability that unwinds later. Deferred tax assets arise the other way (NOLs, reserves booked before deductible). They matter in M&A because write-ups create DTLs and NOLs can be a real, if limited, asset." },
+    { c: "acct", d: 2, q: "A company writes down $100 of inventory. Walk through the statements.", a: "IS: $100 impairment reduces pretax income; at 40% tax, net income falls $60. CFS: start down $60, add back the $100 non-cash write-down, cash up $40. BS: inventory down $100, cash up $40 (assets net down $60), retained earnings down $60. Same architecture as the depreciation question: the interviewer is checking you see write-downs as non-cash with a cash tax benefit." },
+    { c: "acct", d: 1, q: "Capitalizing vs expensing: what changes?", a: "Expensing hits the IS now; capitalizing parks the cost on the balance sheet and releases it through depreciation over the useful life. Capitalizing raises near-term earnings and EBITDA, moves the cash outflow to investing instead of operations, and inflates assets. That is exactly why aggressive capitalization (classic examples: software costs, WorldCom's lines) is a red flag in quality-of-earnings work." },
+    { c: "acct", d: 1, q: "How can a profitable company go bankrupt?", a: "Because bills are paid in cash, not net income. Three routes: working capital swallows cash faster than earnings generate it (fast growth, slow collections); debt maturities arrive that cannot be refinanced (a liquidity event, not a solvency one); or capex needs exceed operating cash flow. This is why restructuring work starts with a 13-week cash flow, not an income statement." },
+    { c: "acct", d: 1, q: "Is EBITDA a good proxy for cash flow?", a: "Useful but flawed. It approximates pre-capex operating cash generation and enables capital-structure-neutral comparison, which is why lending and valuation lean on it. It ignores capex (fatal in asset-heavy industries), working capital swings, cash taxes, and anything management labels an add-back. The honest pairing is EBITDA minus capex, or just going to actual free cash flow." },
+    { c: "acct", d: 2, q: "How does stock-based compensation flow through the statements, and how should analysts treat it?", a: "It is an expense on the IS, added back on the CFS as non-cash, and increases equity (APIC). But it is a real cost paid in dilution: existing holders give up ownership instead of cash. Treat it as an expense in valuation (do not add it back to FCF without counting dilution), and use diluted share counts. Companies pitching EBITDA ex-SBC are asking you to price employees as free." },
+
+    /* ---------- ev & equity value ---------- */
+    { c: "ev", d: 1, q: "What is the difference between enterprise value and equity value?", a: "Equity value is the shareholders' claim: share price times fully diluted shares. Enterprise value is the value of the whole operating business to all capital providers: equity plus net debt plus preferred plus minority interest. EV answers 'what does the business cost to own outright'; equity value answers 'what is the owners' slice worth'. Multiples must match the claim: EV over EBITDA, price over earnings." },
+    { c: "ev", d: 1, q: "Why do you subtract cash in the EV bridge?", a: "Because a buyer inherits the cash at close: it effectively reduces the purchase price, like buying a $100 wallet that has $20 inside. Equivalently, cash is non-operating and EV prices only the operating business; or think of cash as negative debt that could immediately repay borrowings. Same logic in reverse for why debt adds: the buyer assumes the obligation." },
+    { c: "ev", d: 2, q: "Can enterprise value be negative? Equity value?", a: "EV can be negative when cash exceeds market cap plus debt: the market is pricing the operations below zero (common in biotech busts or deep-value screens; sometimes a genuine opportunity, sometimes a signal the cash will be burned). Equity value of a listed company cannot go below zero because shares carry limited liability: the floor is worthlessness, not negative." },
+    { c: "ev", d: 1, q: "How do options and convertibles affect the share count?", a: "Use the treasury stock method for options: assume in-the-money options exercise, the company receives the strike proceeds and buys back shares at the current price; the net new shares add to the count. Convertibles: if in the money, assume conversion and add the shares (removing the debt); if out, keep them as debt. Interviews test whether you say 'fully diluted' and mean it." },
+    { c: "ev", d: 2, q: "Why does minority interest get added to enterprise value?", a: "Consistency. When you own more than 50% of a subsidiary, accounting consolidates 100% of its revenue and EBITDA even though you own less. Since the denominator (EBITDA) includes 100% of the sub, the numerator (EV) must include the part you do not own: that is the minority interest. Otherwise the multiple compares a whole-business metric against a partial-business value." },
+    { c: "ev", d: 2, q: "How did lease accounting changes affect EV and multiples?", a: "Operating leases now sit on the balance sheet as lease liabilities with right-of-use assets, and rent splits into depreciation plus interest, inflating EBITDA. Consistent treatment: either include lease liabilities in EV and use EBITDA (post-IFRS 16 style), or use EBITDAR against a lease-inclusive EV for cross-border comps. The classic error is mixing a lease-free EV with a lease-inflated EBITDA: retail and airline multiples break if you do." },
+    { c: "ev", d: 1, q: "A company raises $200 of debt. What happens to enterprise value?", a: "Immediately, nothing: cash rises $200 and debt rises $200, so the net debt component of EV is unchanged, and the operations did not change. Equity value is also unchanged at the moment of raising. EV moves later based on what the company does with the money: if it invests at above its cost of capital, value grows; the financing event itself is neutral." },
+    { c: "ev", d: 1, q: "Which multiples pair with which metrics, and why?", a: "The rule: numerator and denominator must serve the same claim-holders. EV pairs with metrics before interest: revenue, EBITDA, EBIT, unlevered FCF. Equity value pairs with after-interest metrics: net income (P/E), book value, FCFE. Pairing EV with net income, or price with EBITDA, mixes claims and produces numbers that move mechanically with leverage rather than with the business." },
+
+    /* ---------- valuation ---------- */
+    { c: "val", d: 1, q: "What are the main valuation methodologies?", a: "Three families: market-based (trading comparables: what similar public companies are worth today), transaction-based (precedent transactions: what buyers actually paid for control, premiums included), and intrinsic (DCF: the present value of projected cash flows). Bankers triangulate all 3 on a football field. Typical ordering: precedents above comps (control premium), DCF widest depending on assumptions. Also situational: LBO analysis as a floor, sum-of-the-parts for conglomerates." },
+    { c: "val", d: 1, q: "When is a DCF the wrong tool?", a: "When cash flows cannot be sensibly projected: early-stage companies with no path to positive FCF, banks and insurers (capital structure is the business; use dividend discount or P/B against ROE), deep cyclicals at unknown points in the cycle, and businesses in distress where the going-concern assumption itself is the question. Also when terminal value would be 90%+ of the answer: at that point you have a multiple in DCF costume." },
+    { c: "val", d: 1, q: "How do you pick comparable companies?", a: "Match the economics, not the SIC code: same business model and value drivers, similar growth and margin profile, comparable scale and geography. Five to 10 names beats 20 loose ones. Then be honest about why the target deserves its place in the range: a faster grower with better margins earns the top; do not pretend the median is destiny. The comp set choice IS the analysis; everything after is arithmetic." },
+    { c: "val", d: 1, q: "Why do precedent transactions usually show higher multiples than trading comps?", a: "Control premium: buyers pay for the right to run the business differently (synergies, management change, capital reallocation), typically 20-40% above market. Precedents can also embed competitive dynamics (auctions), cycle timing, and strategic desperation. Caveats: they go stale fast, deal terms distort headline multiples, and public data on private deals is patchy: use them as evidence of what real buyers paid, not gospel." },
+    { c: "val", d: 2, q: "EV/EBITDA vs EV/EBIT vs P/E: when does each earn its place?", a: "EV/EBITDA: the workhorse; capital-structure and depreciation-policy neutral, best for comparing operators. EV/EBIT: better where capex intensity differs (depreciation is a real economic cost: autos, telecom, transport), since EBITDA flatters asset-heavy models. P/E: when equity holders' earnings are what matters and leverage is comparable (banks, mature steady payers). The advanced answer names the distortion each one hides." },
+    { c: "val", d: 2, q: "How would you value a company with negative EBITDA?", a: "Move up the statement or out in time: EV/revenue against growth-and-margin-matched peers, gross-profit multiples, unit economics (per subscriber, per GWh, per store), or a DCF that carries losses to a normalized year and discounts back. Precedents in the sector help if buyers were pricing the same immaturity. Say the honest part: the valuation is a view on the path to profitability, so state that path explicitly." },
+    { c: "val", d: 1, q: "What is a football field and how do you read one?", a: "A chart laying the valuation ranges from every method side by side: comps, precedents, DCF (with sensitivity range), LBO ability-to-pay, and the 52-week trading range. You read it for overlap: where multiple independent lenses agree is the defensible zone; an offer is judged by where it lands across the bars. It is also an honesty exercise: a method whose bar had to be stretched to overlap is telling you something." },
+    { c: "val", d: 2, q: "What is calendarization and why does it matter for comps?", a: "Companies have different fiscal year ends, so raw fiscal-year multiples compare different periods of time. Calendarization restates metrics to a common calendar year (weighting quarters), and LTM restates to the last 12 months. It matters when growth is fast or the macro is turning: a January-FYE retailer and a December-FYE one can differ by a whole holiday season. Sloppy calendarization is the most common quiet error in comp sheets." },
+
+    /* ---------- dcf ---------- */
+    { c: "dcf", d: 1, q: "Walk me through a DCF.", a: "Project unlevered free cash flows for 5 to 10 years: revenue growth to EBIT, tax it, add back D&A, subtract capex and working capital investment. Estimate terminal value by Gordon growth or exit multiple. Discount everything at WACC to get enterprise value, bridge to equity value by subtracting net debt (and preferred, minorities), divide by diluted shares. Then sensitize WACC and terminal assumptions, because that is where the answer actually lives." },
+    { c: "dcf", d: 1, q: "Why unlevered free cash flow, and what is the formula?", a: "UFCF = EBIT x (1 minus tax) + D&A minus capex minus increase in net working capital. It is the cash the operating business generates for ALL capital providers before financing choices, which is why it pairs with WACC (the blended required return of those providers) and yields enterprise value. Interest is excluded precisely because the discount rate already prices the capital structure: counting it twice is the classic error." },
+    { c: "dcf", d: 1, q: "How do you calculate WACC?", a: "Weight the after-tax costs of each capital source by target market-value weights: equity weight times cost of equity plus debt weight times cost of debt times (1 minus tax). Cost of equity from CAPM: risk-free rate plus beta times equity risk premium. For beta, unlever comparables' betas (strip their leverage) and relever at the target's structure. The interview follow-up is always beta mechanics or why debt is cheaper (seniority plus tax shield)." },
+    { c: "dcf", d: 1, q: "Two ways to compute terminal value, and their sanity checks.", a: "Gordon growth: final-year FCF times (1+g) over (WACC minus g), with g at or below long-run nominal GDP (2-3%). Exit multiple: terminal EBITDA times a defensible multiple. Cross-check each against the other: what implied multiple does your growth rate produce, and what implied growth does your multiple assume? If terminal value is more than ~75% of total value, say so and defend the projection length." },
+    { c: "dcf", d: 2, q: "Which DCF inputs move the answer most?", a: "WACC and terminal assumptions dominate: a 1-point WACC move can swing value 15-25% for a long-duration business, and terminal value is usually 60-80% of the total. Within projections, revenue growth compounds while single-year margin tweaks wash out. That hierarchy dictates the work: spend your effort defending the discount rate and the terminal state, and always present the sensitivity grid rather than a point estimate." },
+    { c: "dcf", d: 2, q: "What is the mid-year convention and when do you use it?", a: "Standard discounting assumes cash arrives at year-end; in reality it arrives throughout the year. The mid-year convention discounts each year's flow by (t minus 0.5) periods, effectively giving cash a half-year head start and raising the valuation a few %. Use it for businesses with even intra-year cash generation; skip it for lumpy or seasonal collectors. It shows up in interviews as a check on whether you know discounting mechanics rather than a formula recital." },
+    { c: "dcf", d: 2, q: "When would you use a levered DCF (FCFE)?", a: "When equity cash flows are the natural object: financial institutions (where leverage IS the business), project finance, or any case with a fixed, contractual debt schedule. FCFE = net income + D&A minus capex minus working capital minus mandatory debt paydown plus new borrowings, discounted at the cost of equity, giving equity value directly. It is more assumption-hungry (you must model the debt path), which is why UFCF is the default." },
+    { c: "dcf", d: 1, q: "What are the most common DCF errors?", a: "Double-counting financing (interest in the cash flows AND in WACC), terminal growth above GDP (your company quietly becomes the economy), mismatched nominal/real terms, working capital that never scales with growth, capex below depreciation forever (the business eats itself), stale betas, and presenting a point estimate without sensitivities. Naming the errors crisply is often the differentiating answer." },
+
+    /* ---------- m&a ---------- */
+    { c: "ma", d: 1, q: "What makes a deal accretive or dilutive?", a: "Whether the earnings acquired exceed the cost of the capital used to buy them. All-stock shortcut: if the acquirer's P/E exceeds the target's (post-premium), the deal is accretive: you are paying with expensive paper for cheaper earnings. For cash or debt, compare the target's earnings yield (E/P) against the after-tax cost of the cash or debt. Then add synergies and new intangible amortization, which can flip the sign." },
+    { c: "ma", d: 1, q: "Walk me through a merger model.", a: "Inputs: both companies' standalone projections, price and premium, financing mix. Build sources and uses, purchase price allocation (write-ups, goodwill, new amortization and any DTLs), combine the income statements, layer synergies (net of costs to achieve), add financing effects (interest on new debt, foregone interest on cash, new shares). Output: pro forma EPS versus standalone across years, sensitized on price and mix. The model's real product is the accretion/dilution table and its credibility." },
+    { c: "ma", d: 1, q: "Cash vs stock vs debt: how does financing choice affect a deal?", a: "Cost ordering usually: cash (foregone interest, cheapest) then debt (after-tax interest) then stock (the full earnings-yield swap, most expensive when your paper is cheap). Stock shares risk with the seller and preserves the balance sheet; cash and debt concentrate risk and signal confidence. Sellers read the currency too: stock offers say 'share our upside', cash says 'certainty, priced today'. Real deals mix all 3 for exactly these reasons." },
+    { c: "ma", d: 1, q: "Where does goodwill come from in a deal?", a: "Purchase price allocation: the price paid for equity minus the fair value of identifiable net assets. Mechanically: write assets up to fair value, create identifiable intangibles (customer lists, technology, brand: these amortize and hit future EPS), book deferred tax liabilities on the write-ups, and the remainder is goodwill: the un-nameable premium for synergies and control. Goodwill does not amortize but gets tested annually; impairments are the market's told-you-so." },
+    { c: "ma", d: 2, q: "Types of synergies, and who actually captures them?", a: "Cost synergies (headcount, procurement, facilities) are bankable: markets credit maybe 50-100% of announced cost synergies. Revenue synergies (cross-sell, pricing) are discounted heavily, often to zero, because they require customers to cooperate. The capture question: competitive auctions transfer most synergy value to the SELLER through the premium: the winner pays away what it hoped to gain. That is half of why acquirer stocks fall on announcement." },
+    { c: "ma", d: 2, q: "A deal is EPS-accretive. Is it a good deal?", a: "Not necessarily: accretion is arithmetic, not economics. Buying anything with a lower P/E than yours accretes, including melting businesses; cheap debt makes almost anything accrete. The real tests: does the price beat the value of the target to you (with synergies honestly haircut), is the strategic logic durable, and could the same capital do better elsewhere (buybacks are the alternative deal). Value creation and accretion correlate loosely at best." },
+    { c: "ma", d: 2, q: "What are earnouts and CVRs, and when do they appear?", a: "Deferred, contingent consideration: pay part of the price only if the business hits milestones. Earnouts bridge valuation gaps in private deals (founder optimism vs buyer skepticism) and retain sellers through transition. CVRs are the public-market cousin, common in pharma for pipeline milestones. They trade certainty for alignment, and they generate litigation when buyers control the levers that determine payout: draft accordingly." },
+    { c: "ma", d: 1, q: "Name the main hostile-defense mechanisms.", a: "Poison pill (rights plan diluting an unwanted acquirer past a trigger), staggered board (cannot replace control in 1 proxy season), white knight (friendlier buyer), Pac-Man (bid back), crown-jewel sales, and golden parachutes. Modern reality: pills and staggered boards do most of the work; the rest is largely history. The strategic effect is rarely to block forever: it is to force negotiation and buy leverage on price." },
+
+    /* ---------- lbo ---------- */
+    { c: "lbo", d: 1, q: "Walk me through an LBO. Why does leverage amplify returns?", a: "A sponsor buys a company using mostly debt (historically 50-70% of the price), the company's own cash flows service and repay that debt over a ~5-year hold, and the sponsor exits via sale or IPO. Returns amplify because the equity check is small: if EV is flat but debt falls, every dollar of paydown transfers to equity. The costs of that amplification are fixed obligations and reduced room for error: leverage is symmetric." },
+    { c: "lbo", d: 1, q: "What makes an ideal LBO candidate?", a: "Stable, predictable cash flows (the debt must be fed), low existing leverage (capacity to add), modest capex needs, defensible market position, a value-creation angle (operational improvement, add-ons, mix shift), credible management, and a plausible exit. Cyclicals and capex monsters can work only at lower leverage. One-line version: boring cash machines with a fixable flaw." },
+    { c: "lbo", d: 1, q: "Set up sources and uses for a simple LBO.", a: "Uses: equity purchase price, refinanced existing debt, transaction fees, financing fees (capitalized). Sources: new debt by tranche (revolver undrawn, term loan, bonds), sponsor equity as the plug, sometimes rollover equity from management. The equity check is uses minus debt raised: the single number the fund actually wires. Interviews often test that fees sit in uses and that the revolver is a source of liquidity, not of purchase price." },
+    { c: "lbo", d: 1, q: "Decompose the drivers of an LBO's return.", a: "Four levers: EBITDA growth (operations), multiple expansion or contraction (market timing and repositioning), debt paydown (FCF converting EV into equity), and leverage itself (magnifying all of the above per equity dollar). Attribution matters: a return built on multiple expansion is luck-adjacent; one built on EBITDA growth is repeatable. Modern PE underwrites operations because entry multiples no longer leave room for the other levers." },
+    { c: "lbo", d: 1, q: "IRR vs MOIC: what is the difference, and the quick math?", a: "MOIC is money-out over money-in, time-blind; IRR is the annualized rate that discounts flows to zero, time-obsessed. Quick conversions: 2x over 5 years is ~15% IRR (1.15^5 is roughly 2), 3x over 5 years ~25%, 2x over 3 years ~26%. Sponsors quote both because each can flatter: early distributions pump IRR with little money made; long holds grind IRR while MOIC looks fine." },
+    { c: "lbo", d: 2, q: "Sketch the debt stack in a buyout.", a: "Top: revolver (liquidity line, first-lien, undrawn at close ideally). First-lien term loan B: floating rate, covenant-lite these days, the volume workhorse: increasingly from private credit as much as syndicated markets. Then second lien or senior unsecured high-yield bonds: pricier, longer, looser. Bottom: mezzanine or PIK, and preferred structures in stretched deals. Each layer down: higher yield, weaker claim, more equity-like behavior in stress." },
+    { c: "lbo", d: 2, q: "What is a dividend recapitalization and what does it signal?", a: "The company issues new debt mid-hold and pays the proceeds to the sponsor as a dividend: returning capital early without selling. It locks in DPI and pumps IRR, at the cost of releveraging the business. Benign reading: lenders re-underwrote a stronger company. Cynical reading: the sponsor is taking chips off a table it does not fully trust. Creditors price the signal accordingly, and recap waves mark late-cycle credit markets." },
+    { c: "lbo", d: 2, q: "Why might a financial sponsor outbid a strategic buyer?", a: "Usually strategics should win: they have synergies. Sponsors outbid when they have a platform with its own synergies (add-on math), cheaper or bolder financing, speed and certainty (no antitrust, no integration), a genuinely different operating thesis, or the strategic is capital-constrained or distracted. In frothy credit markets, leverage alone can carry the day: which is exactly when discipline is tested." },
+
+    /* ---------- restructuring ---------- */
+    { c: "rx", d: 1, q: "What is Chapter 11, and what actually happens when a company files?", a: "Court-supervised reorganization: the company keeps operating as debtor-in-possession while restructuring its liabilities. Filing triggers the automatic stay (creditor collection freezes), enables DIP financing with super-priority, allows rejection of burdensome contracts and leases, and starts the path to a plan of reorganization that creditors vote on by class and the court confirms. Contrast Chapter 7: liquidation by a trustee. Chapter 11 exists on the theory that going concerns are worth more alive." },
+    { c: "rx", d: 1, q: "Out-of-court vs in-court restructuring: the trade-offs?", a: "Out-of-court (exchange offers, amend-and-extend, new money) is faster, cheaper, and quieter, but needs near-unanimous consent from the affected class: holdouts keep their original claims, which is the fundamental problem. Chapter 11 binds holdouts (a class approves at two-thirds by amount, half by number: cram-down beyond that), cleans contracts, and offers 363 sales, at the price of fees, stigma, and time. The prepackaged filing is the hybrid: solicit votes first, file, confirm in weeks." },
+    { c: "rx", d: 1, q: "Explain the capital structure waterfall and the fulcrum security.", a: "Value pours from the top: secured claims first (to collateral value), then administrative and priority claims, unsecured, subordinated, preferred, equity: absolute priority. The fulcrum security is the class where value runs out: it recovers partially and typically converts into the equity of the reorganized company. Finding the fulcrum IS distressed investing: buy the layer that becomes the new owners. Where it sits depends entirely on your enterprise-value estimate, which is why RX valuation fights are existential." },
+    { c: "rx", d: 1, q: "How would you screen for companies heading toward distress?", a: "Four families of signals: leverage and coverage (net debt/EBITDA drifting up, EBITDA/interest under ~2x, fixed charges uncovered), liquidity (revolver utilization, cash burn against the 13-week horizon), the maturity wall (what must refinance within 24 months and at what new coupon), and market prices doing the screening for you (loans below 90, bonds yielding 12%+, CDS steepening). Layer sector stress (secular decline, input shocks) and covenant headroom. This is precisely the PJT-RSSG-style new-business screen." },
+    { c: "rx", d: 1, q: "What is a 13-week cash flow model and why is it the first thing built?", a: "A weekly direct cash forecast: receipts by source, disbursements by vendor criticality, payroll, rent, debt service, ending liquidity each week against the revolver. It answers the only question that matters in distress: when exactly does the money run out? It drives DIP sizing, vendor negotiations, and the runway for any deal. Direct method, weekly granularity, refreshed constantly: accrual accounting is a luxury of the solvent." },
+    { c: "rx", d: 2, q: "What is DIP financing and why would anyone lend to a bankrupt company?", a: "Debtor-in-possession financing funds operations during Chapter 11. Lenders come because the package is the safest in finance: super-priority administrative claims, priming liens (court-approved seniority over existing secured debt after adequate-protection fights), tight covenants and milestones, and fat economics. Existing lenders often provide it defensively (a defensive DIP) or roll up prepetition debt into the DIP: controlling the DIP means controlling the case's tempo." },
+    { c: "rx", d: 2, q: "How does valuation work in a restructuring, and why is it so contested?", a: "The same tools (comps, precedents, DCF on the reorganized business plan) but the answer allocates recoveries: a higher EV means junior classes are in the money, a lower one concentrates ownership with seniors. So juniors argue high, the fulcrum-and-above argue low, and experts testify against each other at confirmation. Add liquidation analysis (the best-interests floor) and feasibility. Valuation in RX is not a number: it is a negotiating position with exhibits." },
+    { c: "rx", d: 2, q: "What is liability management: uptiers, drop-downs, and why do they exist?", a: "Transactions that restructure debt out of court by exploiting document flexibility. Drop-down: move valuable assets to an unrestricted subsidiary and borrow against them there (the J.Crew trapdoor). Uptier: a majority lender group exchanges into new super-senior debt, subordinating the minority (Serta). Both weaponize covenant loopholes to raise liquidity or force negotiation, and both spawned years of litigation and tighter documents. Know the names: interviewers in RX ask." },
+    { c: "rx", d: 1, q: "Which credit metrics matter most, and what are the danger thresholds?", a: "Leverage: net debt/EBITDA (investment grade lives under ~3x, LBOs 5-7x, distress conversations start when the number outruns the sector's debt capacity). Coverage: EBITDA/interest under ~2x means little cushion; under 1.5x, the clock is loud. Fixed-charge coverage adds rent and capex reality. Liquidity: months of runway, revolver headroom. And the market's own verdict: yields, loan prices, CDS. No single number: the trajectory and the maturity wall give the diagnosis." },
+    { c: "rx", d: 2, q: "What is a 363 sale and what is credit bidding?", a: "Section 363 lets the debtor sell assets in bankruptcy free and clear of liens, via a court-run auction: faster and cleaner than a plan, often with a stalking-horse bidder setting the floor (with bid protections). Credit bidding: secured creditors can bid their CLAIMS instead of cash up to their secured amount: if you hold $300M of secured debt on assets selling for $250M, you can win without writing a check. It anchors distressed M&A pricing and strategy." },
+
+    /* ---------- markets & judgment ---------- */
+    { c: "mkt", d: 1, q: "Where are the 10-year Treasury, fed funds, and the S&P 500 right now?", a: "A framework, since the numbers move: check all 3 the morning of every interview, know the direction over the past quarter and the consensus narrative why. Then form 1 sentence of view: what would surprise the market from here? The test is not precision: it is whether you inhabit markets or just study them. Sound wrong-but-current beats right-but-stale from 6 months ago." },
+    { c: "mkt", d: 1, q: "Pitch me a stock.", a: "Structure: name and 1-line business, the setup (what the market believes), your variant view (what the market misses, with 2 pieces of evidence), valuation (what it is worth if you are right, roughly), and the catalyst plus the risk you would watch. Under 3 minutes. Pick something you genuinely follow: the follow-ups (competitors, margins, why now) expose borrowed pitches instantly." },
+    { c: "mkt", d: 1, q: "Rates rise 100bps. What happens to bond prices, and which bonds move most?", a: "Prices fall: fixed coupons are worth less against higher available yields. Sensitivity is duration: roughly, price change equals negative duration times the yield change, so a 7-year-duration bond drops ~7%. Long maturities and low coupons mean high duration (zeros are the extreme); floating-rate debt barely moves. Credit adds a second axis: if rates rise on growth, spreads may tighten and cushion; if on inflation fear, both can hurt." },
+    { c: "mkt", d: 2, q: "How do you attack an estimation question you have never seen?", a: "Announce the structure before the arithmetic: define the quantity, decompose into drivers you can anchor (population, frequency, price), estimate each with stated assumptions, multiply, then sanity-check against a known reference from another direction. Round aggressively: clean numbers, visible logic. The interviewer grades the decomposition and composure, not the third digit: a confident 2x error with clean logic beats a lucky bullseye you cannot defend." },
+    { c: "mkt", d: 2, q: "A company's stock drops 20% on earnings. Walk me through your diagnostic.", a: "Separate the P&L from the narrative: did numbers miss (revenue vs margin vs EPS quality), did guidance reset (the usual killer), or did the thesis break (a competitor, a lost customer, a regulatory turn)? Then judge duration: one-quarter noise, cycle turn, or secular break? Check what insiders and the credit market did. The skill on display is triage: most 20% moves are guidance resets, and the money question is whether the new baseline is now true." },
+    { c: "mkt", d: 1, q: "Quick math: a fund invests $100M and exits at $250M after 6 years. Rough IRR?", a: "2.5x over 6 years. Anchors: 2x in 6 years is ~12% (rule of 72), 3x in 6 years is ~20%. 2.5x sits between: ~16-17%. Exact answer is 16.5%, but the interviewer wants the anchoring method said aloud: doubling times via rule of 72, then interpolate. Practicing 5 of these makes every technical round calmer." }
+  ];
+
+  /* ---------- render ---------- */
+  var KNOWN_KEY = "atlas-iq-known";
+  var known = {};
+  try { known = JSON.parse(localStorage.getItem(KNOWN_KEY) || "{}"); } catch (e) {}
+
+  var current = "fit";
+  var tabs = document.getElementById("qp-tabs");
+  var list = document.getElementById("qp-list");
+
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+  function saveKnown() { try { localStorage.setItem(KNOWN_KEY, JSON.stringify(known)); } catch (e) {} }
+
+  function renderTabs() {
+    tabs.innerHTML = CATS.map(function (c) {
+      var qs = Q.filter(function (q) { return q.c === c.id; });
+      var got = qs.filter(function (q, i) { return known[c.id + ":" + i]; }).length;
+      return '<button class="qp-tab' + (current === c.id ? " on" : "") + '" data-cat="' + c.id + '">' +
+        esc(c.name) + '<span class="n">' + got + "/" + qs.length + "</span></button>";
+    }).join("");
+    tabs.querySelectorAll(".qp-tab").forEach(function (b) {
+      b.addEventListener("click", function () { current = b.getAttribute("data-cat"); renderTabs(); renderList(); });
+    });
+    var total = Q.length, gotAll = Object.keys(known).filter(function (k) { return known[k]; }).length;
+    document.getElementById("qp-bar").style.width = Math.round((gotAll / total) * 100) + "%";
+    document.getElementById("qp-count").textContent = gotAll + " of " + total + " marked cold · " +
+      (CATS.filter(function (c) { return c.id === current; })[0] || {}).mod + " teaches this category's theory";
+  }
+
+  function renderList() {
+    var cat = current;
+    var qs = Q.filter(function (q) { return q.c === cat; });
+    list.innerHTML = qs.map(function (q, i) {
+      var key = cat + ":" + i;
+      return '<div class="q-card' + (known[key] ? " known" : "") + '" data-key="' + key + '">' +
+        '<div class="q-top"><span class="q-num">' + (i + 1) + '</span><span class="q-text">' + esc(q.q) + "</span>" +
+        '<span class="q-diff d' + q.d + '">' + (q.d === 2 ? "advanced" : "base") + "</span></div>" +
+        '<div class="q-actions"><button class="q-reveal">Show the model answer</button>' +
+        '<label class="q-know"><input type="checkbox"' + (known[key] ? " checked" : "") + "> I can say this cold</label></div>" +
+        '<div class="q-ans">' + esc(q.a) + "</div></div>";
+    }).join("");
+    list.querySelectorAll(".q-card").forEach(function (card) {
+      card.querySelector(".q-reveal").addEventListener("click", function () {
+        card.classList.toggle("open");
+        this.textContent = card.classList.contains("open") ? "Hide the answer" : "Show the model answer";
+      });
+      card.querySelector('.q-know input').addEventListener("change", function () {
+        known[card.getAttribute("data-key")] = this.checked;
+        card.classList.toggle("known", this.checked);
+        saveKnown(); renderTabs();
+      });
+    });
+  }
+
+  renderTabs();
+  renderList();
+})();
+</script>
+</body>
+</html>

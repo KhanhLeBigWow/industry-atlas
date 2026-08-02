@@ -148,7 +148,7 @@
     var nav = el("nav", { class: "header-nav" });
     var links = [
       { t: "Curriculum", h: "index.html#curriculum" },
-      { t: "Learning paths", h: "index.html#paths" },
+      { t: "Interviews", h: "interview-prep.html", id: "interviews" },
       { t: "Toolkit", h: "toolkit.html", id: "toolkit" },
       { t: "Glossary", h: "glossary.html", id: "glossary" },
       { t: "Industry Atlas ↗", h: "../index.html" }

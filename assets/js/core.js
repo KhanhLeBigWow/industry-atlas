@@ -20,11 +20,21 @@
   var COUNTRIES = window.ATLAS_COUNTRIES || [];
   var COMPANIES = window.ATLAS_COMPANIES || {};
 
+  /* the manifest carries status/size/geo for every profiled industry so pages
+     can stay light and load only the module they actually need */
+  var MANIFEST = (window.ATLAS_MANIFEST || { industries: {} }).industries || {};
+
   var store = {
     sectors: TAX.sectors,
     industries: TAX.industries.map(function (t) {
       var mod = MODULES[t.id] || null;
-      return Object.assign({}, t, { module: mod, status: mod ? (mod.meta.status || "profile") : "stub" });
+      var man = MANIFEST[t.id] || null;
+      return Object.assign({}, t, {
+        module: mod,
+        manifest: man,
+        status: mod ? (mod.meta.status || "profile") : (man ? man.status : "stub"),
+        marketSize: mod ? mod.meta.marketSize : (man ? man.marketSize : null)
+      });
     }),
     modules: MODULES, graph: GRAPH, kpis: KPIS, countries: COUNTRIES,
     companies: COMPANIES
@@ -327,7 +337,9 @@
           return [(s.icon || "") + " " + s.name.split(",")[0], "index.html#" + s.id];
         })) + "</div>" +
         '<div class="sf-col"><div class="sf-h">Learn & build</div>' + links([
-          ["Finance School", "school/index.html"], ["The toolkit (calculators)", "school/toolkit.html"],
+          ["Finance School", "school/index.html"], ["Interview prep", "school/interview-prep.html"],
+          ["The lateral guide", "school/lateral.html"], ["Firms & groups", "school/groups.html"],
+          ["The toolkit (calculators)", "school/toolkit.html"],
           ["Live market heat setup", "markets.html#heat"], ["Architecture notes", "https://github.com/KhanhLeBigWow/industry-atlas/blob/main/docs/ARCHITECTURE.md"],
           ["Source on GitHub", "https://github.com/KhanhLeBigWow/industry-atlas"]
         ]) + "</div>" +

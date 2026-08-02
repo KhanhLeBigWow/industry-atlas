@@ -304,6 +304,20 @@ enforced by `scripts/validate-modules.mjs` (run it before every deploy):
 schema completeness, taxonomy link integrity, sector consistency, health
 weights, quiz shape, mcap sanity, and the em-dash ban.
 
+### The manifest + lazy loading (v13)
+At 79 modules, loading every 300-line module on every page would ship ~4MB of
+JS. Instead, `scripts/build-manifest.mjs` (run before every deploy, after
+`validate-modules.mjs`) generates `assets/data/manifest.js`: a ~30KB summary
+of every module (status, marketSize incl mapValue, geography roles).
+- Every page loads the manifest; `core.js` falls back to it for status and
+  market size when a module is not loaded (`store.industries[i].manifest`).
+- `industry.html` dynamically injects ONLY its own module via document.write
+  (id sanitized to `[a-z0-9-]{1,40}`); stubs 404 harmlessly into the stub path.
+- `library.html` deliberately stays heavy (loads all modules: it is the KPI
+  reference). All other pages load none.
+- The world map's country cross-references and the market map's sizes read
+  from the manifest, so they work module-free.
+
 ### Navigation & orientation chrome (v12)
 Every page carries: the header search reachable from anywhere via Ctrl/Cmd+K
 or "/", a site-map footer (explore links, sector links, learn/build links,
