@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04 13:24z",
+ "generated": "2026-08-05 13:19z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -176,88 +176,82 @@
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Current price of oil as of August 3 , 2026",
-    "url": "https://fortune.com/article/price-of-oil-08-03-2026/",
-    "domain": "fortune.com",
-    "when": "Aug 3 · 13:30z"
+    "title": "Oil Price Today ( August 5 ): Crude climbs back to $80 despite hopes of a short - term war deal . What next ? ",
+    "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-5-crude-climbs-back-to-80-despite-hopes-of-a-short-term-war-deal-whats-next/articleshow/132884676.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 5 · 02:45z"
    },
    {
-    "title": "Current price of oil as of August 4 , 2026",
-    "url": "https://fortune.com/article/price-of-oil-08-04-2026/",
-    "domain": "fortune.com",
-    "when": "Aug 4 · 09:45z"
+    "title": "Strategic reserves , supply chains vital",
+    "url": "https://www.thenational.com.pg/strategic-reserves-supply-chains-vital/",
+    "domain": "thenational.com.pg",
+    "when": "Aug 5 · 05:30z"
    },
    {
-    "title": "Trump Iran Reversal Sends European Gas Prices Tumbling",
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Trumps-Iran-Reversal-Sends-European-Gas-Prices-Tumbling.html",
-    "domain": "oilprice.com",
-    "when": "Aug 3 · 16:30z"
-   },
-   {
-    "title": "Dow Jones Top Energy Headlines at 12 AM ET : Zach Dell Is Raising Money to Put a Battery in Your Backyard | Global ... ",
-    "url": "https://www.morningstar.com/news/dow-jones/2026080454/dow-jones-top-energy-headlines-at-12-am-et-zach-dell-is-raising-money-to-put-a-battery-in-your-backyard-global",
+    "title": "Dow Jones Top Energy Headlines at 4 PM ET : Oil prices head toward lowest level in nearly 4 weeks | Saudi ... ",
+    "url": "https://www.morningstar.com/news/dow-jones/2026080412387/dow-jones-top-energy-headlines-at-4-pm-et-oil-prices-head-toward-lowest-level-in-nearly-4-weeks-saudi",
     "domain": "morningstar.com",
-    "when": "Aug 4 · 06:30z"
+    "when": "Aug 4 · 20:45z"
    },
    {
-    "title": "Trump demands oil companies lower gas prices for American consumers",
-    "url": "https://www.oann.com/newsroom/trump-demands-oil-companies-lower-gas-prices-for-american-consumers/",
-    "domain": "oann.com",
-    "when": "Aug 4 · 01:30z"
+    "title": "WEC Energy Group ( NYSE : WEC ) and Electricité de France ( OTCMKTS : ECIFY ) Critical Contrast",
+    "url": "https://www.themarketsdaily.com/2026/08/05/wec-energy-group-nysewec-and-electricite-de-france-otcmktsecify-critical-contrast.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 5 · 04:30z"
    },
    {
-    "title": "Germany energy use falls as oil demand drops , renewables grow",
-    "url": "https://www.yahoo.com/news/world/articles/germanys-energy-falls-oil-demand-024829522.html",
-    "domain": "yahoo.com",
-    "when": "Aug 4 · 03:30z"
+    "title": "Trump says oil companies Chevron , Exxon Mobil made  too much money  amid  last chance  for Iran war deal",
+    "url": "https://abc7chicago.com/story/trump-says-oil-companies-chevron-exxon-mobil-made-money-amid-last-chance-iran-war-deal/19623836/",
+    "domain": "abc7chicago.com",
+    "when": "Aug 4 · 13:45z"
    },
    {
-    "title": "Trump Says US - Iran Talks to Begin Monday After Delaying Military Strike",
-    "url": "https://www.moroccoworldnews.com/2026/08/332857/trump-says-us-iran-talks-to-begin-monday-after-delaying-military-strike/",
-    "domain": "moroccoworldnews.com",
-    "when": "Aug 3 · 15:15z"
+    "title": "Solar power set for strong growth | The Peninsula Qatar",
+    "url": "http://thepeninsulaqatar.com/article/05/08/2026/solar-power-set-for-strong-growth",
+    "domain": "thepeninsulaqatar.com",
+    "when": "Aug 5 · 09:15z"
    },
    {
-    "title": "Oil prices drop to three - week low after Trump cancels Iran attack  | Peak Oil News and Message Boards",
-    "url": "https://peakoil.com/publicpolicy/oil-prices-drop-to-three-week-low-after-trump-cancels-iran-attack",
-    "domain": "peakoil.com",
-    "when": "Aug 4 · 04:30z"
+    "title": "ONGC Q1 FY27 Net Profit Jumps 112 % to ₹17 , 034 Crore Driven by Crude Oil Prices",
+    "url": "https://www.rediff.com/business/report/ongc-q1-fy27-net-profit-jumps-112-to-17034-crore-driven-by-crude-oil-prices/20260805.htm",
+    "domain": "rediff.com",
+    "when": "Aug 5 · 12:45z"
    },
    {
-    "title": "Nigeria unaffected as seven OPEC+ producers raise output by 188 , 000 bpd",
-    "url": "https://theeagleonline.com.ng/nigeria-unaffected-as-seven-opec-producers-raise-output-by-188000-bpd/",
-    "domain": "theeagleonline.com.ng",
-    "when": "Aug 3 · 15:45z"
+    "title": "PJM  Hunger Games  Pits Solar And Storage Against Gas , Nuclear",
+    "url": "https://cleantechnica.com/2026/08/04/pjm-capacity-715-projects-solar-energy-storage-gas/",
+    "domain": "cleantechnica.com",
+    "when": "Aug 4 · 16:00z"
    },
    {
-    "title": "BP profits highest in four years as Iran war pushes up oil price",
-    "url": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o",
-    "domain": "bbc.co.uk",
-    "when": "Aug 4 · 09:45z"
+    "title": "Aramco Profit Jumps 33 Pct",
+    "url": "https://www.rigzone.com/news/wire/aramco_profit_jumps_33_pct-04-aug-2026-184292-article/",
+    "domain": "rigzone.com",
+    "when": "Aug 4 · 15:00z"
    },
    {
-    "title": "Accelerate domestic gas exploration",
-    "url": "https://www.thedailystar.net/business/economy/news/accelerate-domestic-gas-exploration-4239361",
-    "domain": "thedailystar.net",
-    "when": "Aug 3 · 19:00z"
+    "title": "AEP Plans $78 bn Grid and Renewable Energy Investment as 69 GW New Load Drives Clean Power Expansion",
+    "url": "https://greentechlead.com/renewable-energy/aep-plans-78-bn-grid-and-renewable-energy-investment-as-69-gw-new-load-drives-clean-power-expansion-54539",
+    "domain": "greentechlead.com",
+    "when": "Aug 4 · 15:00z"
    },
    {
-    "title": "Jeddah hosts global young minds at third International Nuclear Science Olympiad",
-    "url": "https://www.arabnews.com/node/2653250/saudi-arabia",
-    "domain": "arabnews.com",
-    "when": "Aug 3 · 15:45z"
-   },
-   {
-    "title": "BP $5 . 7bn profit highest since 2022 as Iran war pushes up oil price",
-    "url": "https://finance.yahoo.com/energy/articles/bp-profits-highest-four-years-090451464.html",
+    "title": "July Top Commodity Performers and Underperformers",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/july-top-commodity-performers-underperformers-154213235.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 4 · 10:45z"
+    "when": "Aug 5 · 03:00z"
    },
    {
-    "title": "Trump says talks with Iran being held ; Tehran denies any planned",
-    "url": "https://www.staradvertiser.com/2026/08/03/breaking-news/trump-says-talks-with-iran-being-held-tehran-denies-any-planned/",
-    "domain": "staradvertiser.com",
-    "when": "Aug 3 · 21:45z"
+    "title": "Oil prices rebound after Houthis say they attacked Saudi tanker",
+    "url": "https://tribune.com.pk/story/2622205/oil-prices-rebound-after-houthis-say-they-attacked-saudi-tanker",
+    "domain": "tribune.com.pk",
+    "when": "Aug 5 · 12:30z"
+   },
+   {
+    "title": "LA City Council Votes to Allow Billion Dollar Scattergood Gas Plant Retrofit to Move Forward",
+    "url": "https://cleantechnica.com/2026/08/04/la-city-council-votes-to-allow-billion-dollar-scattergood-gas-plant-retrofit-to-move-forward/",
+    "domain": "cleantechnica.com",
+    "when": "Aug 5 · 03:30z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
@@ -422,64 +416,88 @@
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "Chromalloy appoints Keats Sexton as Vice President , Corporate FP & A ... ",
-    "url": "https://www.pr-inside.com/chromalloy-appoints-keats-sexton-as-vice-president-corporate-fp-a-r5207586.htm",
-    "domain": "pr-inside.com",
-    "when": "Aug 3 · 05:00z"
-   },
-   {
-    "title": "Iran Underground Bases Offer a Lesson for India Defence Industry But Not the One You Think",
-    "url": "https://idrw.org/irans-underground-bases-offer-a-lesson-for-indias-defence-industry-but-not-the-one-you-think/",
-    "domain": "idrw.org",
-    "when": "Aug 2 · 16:00z"
-   },
-   {
-    "title": "A - Sonic Aerospace unit to buy majority stake in JGL Worldwide parent to grow Asean footprint",
-    "url": "https://www.businesstimes.com.sg/companies-markets/sonic-aerospace-unit-buy-majority-stake-jgl-worldwides-parent-grow-asean-footprint",
-    "domain": "businesstimes.com.sg",
-    "when": "Aug 3 · 06:00z"
-   },
-   {
-    "title": "Why India Isnt Rushing Toward the F - 35 : The Bigger Strategy Behind New Delhi Fighter Aircraft Decisions – My Blog",
-    "url": "https://alnas-news.com/2026/08/03/why-india-isnt-rushing-toward-the-f-35-the-bigger-strategy-behind-new-delhis-fighter-aircraft-decisions/",
-    "domain": "alnas-news.com",
-    "when": "Aug 3 · 12:30z"
-   },
-   {
-    "title": "AMPulse Asia : India Orbital Launch Headlines a Busy Second Half of July - 3DPrint . com",
-    "url": "https://3dprint.com/329657/ampulse-asia-indias-orbital-launch-headlines-a-busy-second-half-of-july/",
+    "title": "3D Printing Financials : 6K Additive Reports Record Quarter as Demand Grows for U . S .- Made Metal Powders - 3DPrint . com",
+    "url": "https://3dprint.com/329821/3d-printing-financials-6k-additive-reports-record-quarter-as-demand-grows-for-u-s-made-metal-powders/",
     "domain": "3dprint.com",
-    "when": "Aug 3 · 10:30z"
+    "when": "Aug 5 · 10:00z"
    },
    {
-    "title": "Aviation , manufacturing career learning at Butler Tech gets $3 . 25M boost",
-    "url": "https://www.journal-news.com/local/aviation-manufacturing-career-learning-at-butler-tech-gets-3-25m-boost/article_36046e23-72cd-57d5-8e15-6492362680bd.html",
-    "domain": "journal-news.com",
-    "when": "Aug 2 · 18:15z"
+    "title": "India can no longer depend on ageing helicopters",
+    "url": "https://www.thehindu.com/opinion/op-ed/india-can-no-longer-depend-on-ageing-helicopters/article71305774.ece",
+    "domain": "thehindu.com",
+    "when": "Aug 4 · 19:30z"
    },
    {
-    "title": "RTX Corporation ( NYSE : RTX ) Outshines Redwire ( NYSE : RDW ) On Valuation , Execution And Earnings Strength",
-    "url": "https://www.foreignpolicyjournal.com/2026/08/02/rtx-corporation-nyse-rtx-outshines-redwire-nyse-rdw-on-valuation-execution-and-earnings-strength/",
-    "domain": "foreignpolicyjournal.com",
-    "when": "Aug 3 · 05:00z"
+    "title": "Constellis Appoints Ed Dolanski to Board of Directors",
+    "url": "https://www.prnewswire.com/news-releases/constellis-appoints-ed-dolanski-to-board-of-directors-302842619.html",
+    "domain": "prnewswire.com",
+    "when": "Aug 4 · 15:45z"
    },
    {
-    "title": "Washington Sees India AMCA as a Key Step Toward Reducing Russian Defence Dependence",
-    "url": "https://idrw.org/washington-sees-indias-amca-as-a-key-step-toward-reducing-russian-defence-dependence/",
-    "domain": "idrw.org",
-    "when": "Aug 2 · 16:00z"
+    "title": "  Peanut butter  pay raises are out , as employers shift to merit - based hikes",
+    "url": "https://www.cbsnews.com/news/peanut-butter-pay-raises-merit-based-pay-2027/",
+    "domain": "cbsnews.com",
+    "when": "Aug 4 · 14:15z"
    },
    {
-    "title": "What Kenya can learn as China Xiamen cuts customs clearance time by 30 % ",
-    "url": "https://www.the-star.co.ke/news/africa/2026-08-02-what-kenya-can-learn-as-china-cuts-customs-clearance-time-by-30",
-    "domain": "the-star.co.ke",
-    "when": "Aug 2 · 16:15z"
+    "title": "3 Defense Stocks to Buy in August | The Motley Fool",
+    "url": "https://www.fool.com/investing/2026/08/04/3-defense-stocks-to-buy-in-august/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 5 · 00:45z"
    },
    {
-    "title": "Russian Missiles Hit Military Hubs and Plants in Kiev",
-    "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260801-sputnik03.htm",
-    "domain": "globalsecurity.org",
-    "when": "Aug 3 · 09:30z"
+    "title": "Syensqo signs multi - year supply agreement with Airbus",
+    "url": "https://evertiq.com/design/2026-08-05-syensqo-signs-multi-year-supply-agreement-with-airbus",
+    "domain": "evertiq.com",
+    "when": "Aug 5 · 11:15z"
+   },
+   {
+    "title": "PLTR Stock Pops as Palantir Partners With Mercury on Defense Automation",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/pltr-stock-pops-palantir-partners-183107691.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 5 · 05:15z"
+   },
+   {
+    "title": "Rangeview Secures Defense Contract to Supply U . S . Navy Maintenance , Repair , and Overhaul ( MRO ) Replacement Parts",
+    "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/rangeview-secures-defense-contract-to-supply-us-navy-maintenance-repair-and-overhaul-mro-replacement-parts/2398468",
+    "domain": "manilatimes.net",
+    "when": "Aug 4 · 21:15z"
+   },
+   {
+    "title": "UPDATE -- Rangeview Secures Defense Contract to Supply U . S . Navy Maintenance , Repair , and Overhaul ( MRO ) Replacement Parts",
+    "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/update-rangeview-secures-defense-contract-to-supply-us-navy-maintenance-repair-and-overhaul-mro-replacement-parts/2398535",
+    "domain": "manilatimes.net",
+    "when": "Aug 4 · 22:15z"
+   },
+   {
+    "title": "FinancialContent - AIN Q2 Deep Dive : Engineered Composites Momentum and Machine Clothing Transition",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-ain-q2-deep-dive-engineered-composites-momentum-and-machine-clothing-transition",
+    "domain": "markets.financialcontent.com",
+    "when": "Aug 5 · 07:00z"
+   },
+   {
+    "title": "U . S . Air Force Solicitation Aims To Put Pressure On Engine Makers",
+    "url": "https://aviationweek.com/defense/budget-policy-operations/us-air-force-solicitation-aims-put-pressure-engine-makers",
+    "domain": "aviationweek.com",
+    "when": "Aug 5 · 10:45z"
+   },
+   {
+    "title": "Delivering Vision 2030 : How FedEx is supporting Saudi Arabia trade expansion",
+    "url": "https://www.arabnews.com/node/2653483/corporate-and-sponsored-content",
+    "domain": "arabnews.com",
+    "when": "Aug 5 · 12:45z"
+   },
+   {
+    "title": "Porbandar Shipbuilding Project : Gujarat Minister Thanks PM Modi",
+    "url": "https://www.newkerala.com/news/a/gujarat-minister-thanks-pm-modi-porbandar-shipbuilding-project-746.htm",
+    "domain": "newkerala.com",
+    "when": "Aug 4 · 18:30z"
+   },
+   {
+    "title": "Solid Power Q2 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/solid-power-q2-earnings-call-020351033.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 5 · 02:45z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
