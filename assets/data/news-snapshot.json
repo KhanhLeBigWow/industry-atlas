@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05 13:19z",
+ "generated": "2026-08-06 13:17z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -95,82 +95,94 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "US - based firm Marvell Technology to invest $250 million in India",
-    "url": "https://www.prokerala.com/news/articles/a1793978.html",
-    "domain": "prokerala.com",
-    "when": "Jul 29 · 13:30z"
+    "title": "Why is the US considering a ban on Chinese AI data center devices ? ",
+    "url": "https://news.az/news/why-is-the-us-considering-a-ban-on-chinese-ai-data-center-devices",
+    "domain": "news.az",
+    "when": "Aug 5 · 23:15z"
    },
    {
-    "title": "India eyes 1 billion 5G users by 2030 as Scindia unveils IMC 2026 theme",
-    "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/india-eyes-1-billion-5g-users-by-2030-as-scindia-unveils-imc-2026-theme/articleshow/132719614.cms",
+    "title": "Penn State Awarded $20M National Science Foundation Grant to Lead AI - Driven Semiconductor Research Initiative",
+    "url": "https://www.statecollege.com/articles/psu-news/penn-state-awarded-20m-national-science-foundation-grant-to-lead-ai-driven-semiconductor-research-initiative/",
+    "domain": "statecollege.com",
+    "when": "Aug 5 · 22:00z"
+   },
+   {
+    "title": "Industry players must build trusted digital capabilities , says Fahmi",
+    "url": "https://www.thestar.com.my/news/nation/2026/08/06/industry-players-must-build-trusted-digital-capabilities-says-fahmi",
+    "domain": "thestar.com.my",
+    "when": "Aug 6 · 08:15z"
+   },
+   {
+    "title": "Alphabet , Microsoft , Amazon , and Oracle Just Gained $1 . 9 Trillion in 3 Days . Here Why Microsoft Run Isnt Over . ",
+    "url": "https://www.fool.com/investing/2026/08/05/alphabet-microsoft-amazon-oracle-trillion-gain/",
+    "domain": "fool.com",
+    "when": "Aug 5 · 18:00z"
+   },
+   {
+    "title": "COLUMN : That a crazy thought ( so do it anyway ) | The Arkansas Democrat - Gazette",
+    "url": "https://www.arkansasonline.com/news/2026/aug/06/column-thats-a-crazy-thought-so-do-it-anyway/",
+    "domain": "arkansasonline.com",
+    "when": "Aug 6 · 07:45z"
+   },
+   {
+    "title": "2 Brilliant Growth Stocks That Just Hit All - Time Highs With Plenty of Room to Run",
+    "url": "https://www.fool.com/investing/2026/08/05/2-brilliant-growth-stocks-that-just-hit-all-time-h/",
+    "domain": "fool.com",
+    "when": "Aug 6 · 06:45z"
+   },
+   {
+    "title": "Confirming rumors , Anthropic reveals plan to develop custom chip",
+    "url": "https://siliconangle.com/2026/08/05/confirming-rumors-anthropic-reveals-plan-develop-custom-chip/",
+    "domain": "siliconangle.com",
+    "when": "Aug 6 · 07:00z"
+   },
+   {
+    "title": "Sanjay Ghemawat , the Kota kid who spent decades at Google building large - scale computing , is now leaving to make an AI that can run thousands of experiments",
+    "url": "https://economictimes.indiatimes.com/news/new-updates/sanjay-ghemawat-the-kota-kid-who-spent-decades-at-google-building-large-scale-computing-is-now-leaving-to-make-an-ai-that-can-run-thousands-of-experiments/articleshow/132998913.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Jul 29 · 18:30z"
+    "when": "Aug 6 · 11:45z"
    },
    {
-    "title": "Arm Holdings Q1 Earnings Beat Estimates , Strong Q2 Outlook Fails to Lift ARM Stock",
-    "url": "http://www.econotimes.com/Arm-Holdings-Q1-Earnings-Beat-Estimates-Strong-Q2-Outlook-Fails-to-Lift-ARM-Stock-1748113",
-    "domain": "econotimes.com",
-    "when": "Jul 30 · 00:45z"
+    "title": "Should You Really Invest in a Semiconductor ETF Right Now ? Here My Honest Take . ",
+    "url": "https://www.fool.com/investing/2026/08/06/should-you-invest-in-semiconductor-etf-soxx/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 6 · 12:45z"
    },
    {
-    "title": "AI bigger than internet , US must maintain lead over China , says Trump",
-    "url": "https://www.prokerala.com/news/articles/a1794156.html",
+    "title": "Meta AI model breaches outside systems during cybersecurity testing ( META : NASDAQ ) ",
+    "url": "https://seekingalpha.com/news/4627262-meta-ai-model-breaches-outside-systems-during-cybersecurity-testing",
+    "domain": "seekingalpha.com",
+    "when": "Aug 6 · 06:45z"
+   },
+   {
+    "title": "Global Market : Japan Nikkei slips 2 % as tech selloff offsets gains in broader market",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-slips-2-as-tech-selloff-offsets-gains-in-broader-market/articleshow/132981551.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 6 · 05:15z"
+   },
+   {
+    "title": "Meta says AI model hacked third - party service during evaluation",
+    "url": "https://www.samaa.tv/2087354773-meta-says-ai-model-hacked-third-party-service-during-evaluation",
+    "domain": "samaa.tv",
+    "when": "Aug 6 · 10:30z"
+   },
+   {
+    "title": "Smart and Connected Health : Applications and Real - World Use Cases",
+    "url": "https://link.springer.com/book/10.1007/978-3-032-09253-3",
+    "domain": "link.springer.com",
+    "when": "Aug 6 · 02:30z"
+   },
+   {
+    "title": "Meta AI model hacked external system during cybersecurity test",
+    "url": "https://www.prokerala.com/news/articles/a1796980.html",
     "domain": "prokerala.com",
-    "when": "Jul 30 · 03:00z"
+    "when": "Aug 6 · 06:30z"
    },
    {
-    "title": "Moringa School Graduates 1 , 761 AI - Ready Workforce : TechMoran",
-    "url": "https://techmoran.com/2026/07/30/moringa-graduates-1761-learners-as-kenya-pushes-ai-ready-workforce/",
-    "domain": "techmoran.com",
-    "when": "Jul 30 · 00:30z"
-   },
-   {
-    "title": "Morgan Stanley resets Akamai stock price target amid sell - off",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-resets-akamai-stock-170700868.html",
-    "domain": "finance.yahoo.com",
-    "when": "Jul 29 · 17:30z"
-   },
-   {
-    "title": "Trump : AI Bigger Than Internet , US Must Lead China",
-    "url": "https://www.newkerala.com/news/a/ai-bigger-than-internet-us-must-maintain-lead-660.htm",
-    "domain": "newkerala.com",
-    "when": "Jul 30 · 04:15z"
-   },
-   {
-    "title": "Marvell Technology to Invest $250 Million in India , Double Workforce",
-    "url": "https://indianewengland.com/marvell-technology-to-invest-250-million-in-india-double-workforce/",
-    "domain": "indianewengland.com",
-    "when": "Jul 29 · 18:00z"
-   },
-   {
-    "title": "Microsoft Azure Cloud Business Crosses $100 Billion In Annual Revenue , Up 41 % As AI Demand Accelerates",
-    "url": "https://www.freepressjournal.in/tech/microsofts-azure-cloud-business-crosses-100-billion-in-annual-revenue-up-41-as-ai-demand-accelerates",
-    "domain": "freepressjournal.in",
-    "when": "Jul 30 · 04:00z"
-   },
-   {
-    "title": " # tech : AI Boom Sparks Warning Over New Zealand Digital Sovereignty - Waatea News : Māori Radio Station",
-    "url": "https://waateanews.com/2026/07/30/tech-ai-boom-sparks-warning-over-new-zealands-digital-sovereignty/",
-    "domain": "waateanews.com",
-    "when": "Jul 30 · 04:00z"
-   },
-   {
-    "title": "Could Alphabet Overtake Nvidia to Become the World Most Valuable Stock ? ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/could-alphabet-overtake-nvidia-become-093500735.html",
-    "domain": "finance.yahoo.com",
-    "when": "Jul 29 · 18:45z"
-   },
-   {
-    "title": "China AI supplier Zhongji Innolight Hong Kong debut",
-    "url": "https://www.cnbc.com/2026/07/30/china-ai-supplier-zhongji-innolight-hong-kong-debut.html",
-    "domain": "cnbc.com",
-    "when": "Jul 30 · 02:15z"
-   },
-   {
-    "title": "Microsoft Azure tops $100 billion as cloud growth hits four - year high",
-    "url": "https://www.thehindubusinessline.com/info-tech/microsoft-azure-revenue-tops-100-billion-as-cloud-growth-hits-four-year-high/article71283394.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Jul 30 · 02:45z"
+    "title": "Tech trade may see bigger retail influence after July rout , JPMorgan says",
+    "url": "https://www.businesstimes.com.sg/startups-tech/technology/tech-trade-may-see-bigger-retail-influence-after-july-rout-jpmorgan-says",
+    "domain": "businesstimes.com.sg",
+    "when": "Aug 6 · 00:45z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [],
@@ -256,82 +268,82 @@
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "The AI boom runs on metal . A two - year - old startup just raised $310m to mine it , autonomously , on US soil . ",
-    "url": "https://thenextweb.com/news/mariana-minerals-310m-series-b-autonomous-critical-minerals",
-    "domain": "thenextweb.com",
-    "when": "Aug 4 · 00:00z"
+    "title": "Base metals gain amid AI demand , supply concerns in July",
+    "url": "https://aa.com.tr/en/science-technology/base-metals-gain-amid-ai-demand-supply-concerns-in-july/4018903",
+    "domain": "aa.com.tr",
+    "when": "Aug 5 · 14:45z"
    },
    {
-    "title": "Odisha govt warns iron ore miners , steelmakers over grade manipulation",
-    "url": "https://www.thehindubusinessline.com/companies/odisha-govt-warns-iron-ore-miners-steelmakers-over-grade-manipulation/article71304305.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 4 · 08:45z"
-   },
-   {
-    "title": "Indonesia maps rare earths in mineral exports amid regulatory review",
-    "url": "https://en.antaranews.com/news/425308/indonesia-maps-rare-earths-in-mineral-exports-amid-regulatory-review",
-    "domain": "en.antaranews.com",
-    "when": "Aug 3 · 15:00z"
-   },
-   {
-    "title": "BHP Shares Remain Top Mining Pick Despite China Growth Downgrade",
-    "url": "https://thebull.com.au/news/bhp-shares-remain-top-mining-pick-despite-a-china-growth-downgrade/",
+    "title": "BHP Shares Break Free From Range , Copper Price Supportive",
+    "url": "https://thebull.com.au/news/bhp-shares-break-free-from-range-a-copper-price-supportive/",
     "domain": "thebull.com.au",
-    "when": "Aug 4 · 00:30z"
+    "when": "Aug 5 · 23:15z"
    },
    {
-    "title": "Crisil assigns  AA / stable  rating to Vedanta Iron & Steel on strong fundamentals , financial profile",
-    "url": "https://www.thehindubusinessline.com/companies/crisil-assigns-aastable-rating-to-vedanta-iron-steel-on-strong-fundamentals-financial-profile/article71304524.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 4 · 13:00z"
+    "title": "WCE Appointments and Alien Directorate Change | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/alien-metals-limited-npv-di---ufo/wce-appointments-and-alien-directorate-change/9707315",
+    "domain": "investegate.co.uk",
+    "when": "Aug 6 · 06:30z"
    },
    {
-    "title": "Rio Tinto Results Make the Case for Looking Beyond Tech in the AI Trade",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/rio-tinto-results-case-looking-141000115.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 3 · 23:15z"
-   },
-   {
-    "title": "Grange Resources : $300 - 600 million hit looms for Savage River | The Advocate",
-    "url": "https://www.theadvocate.com.au/story/9322462/grange-resources-300-600-million-hit-looms-for-savage-river/",
-    "domain": "theadvocate.com.au",
-    "when": "Aug 3 · 18:15z"
-   },
-   {
-    "title": "Sundance wins $616m arbitration award against Cameroon",
-    "url": "https://www.miningmx.com/news/markets/66023-sundance-wins-616m-arbitration-award-against-cameroon/",
-    "domain": "miningmx.com",
-    "when": "Aug 4 · 10:45z"
-   },
-   {
-    "title": "In 1948 US industrialist Henry J Kaise founded a town for about 4 , 000 people in California . Then it emptied almost overnight but still stands frozen in time",
-    "url": "https://economictimes.indiatimes.com/news/international/global-trends/in-1948-us-industrialist-henry-j-kaise-founded-a-town-for-about-4000-people-in-california-then-it-emptied-almost-overnight-but-still-stands-frozen-in-time/articleshow/132855327.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 4 · 10:45z"
-   },
-   {
-    "title": "South Australian mining technology heads to the US after commercial milestone",
-    "url": "http://www.vietnamtribune.com/news/279221318/south-australian-mining-technology-heads-to-the-us-after-commercial-milestone",
-    "domain": "vietnamtribune.com",
-    "when": "Aug 4 · 01:30z"
-   },
-   {
-    "title": "How an iron ore empire  built on trust  began to sow doubts",
-    "url": "https://www.mining.com/web/how-an-iron-ore-empire-built-on-trust-began-to-sow-doubts/",
+    "title": "Glencore taps Australia for A$4 . 4T copper push",
+    "url": "https://www.mining.com/glencore-taps-australia-for-a4-4t-copper-push/",
     "domain": "mining.com",
-    "when": "Aug 3 · 15:45z"
+    "when": "Aug 5 · 20:45z"
    },
    {
-    "title": "Accidental export : Aussie green iron tech goes global",
-    "url": "https://www.examiner.com.au/story/9323777/accidental-export-aussie-green-iron-tech-goes-global/",
-    "domain": "examiner.com.au",
-    "when": "Aug 4 · 05:30z"
+    "title": "Australian shares hit record high as miners rally on US - Iran optimism",
+    "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/australian-shares-hit-record-high-miners-rally-us-iran-optimism",
+    "domain": "businesstimes.com.sg",
+    "when": "Aug 6 · 02:30z"
    },
    {
-    "title": "CoTec Holdings Corp . Investment MagIron Announces Positive Pig Iron Optionality",
-    "url": "http://www.californiatelegraph.com/news/279221941/cotec-holdings-corp-investment-magiron-announces-positive-pig-iron-optionality",
-    "domain": "californiatelegraph.com",
-    "when": "Aug 4 · 11:30z"
+    "title": "Critical minerals need priorities , not longer lists",
+    "url": "https://www.moneycontrol.com/news/opinion/critical-minerals-need-priorities-not-longer-lists-13996161.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 6 · 06:45z"
+   },
+   {
+    "title": "Press Release",
+    "url": "https://www.mining.com/press-release?id=6a74287ac600f2e0edcfd573",
+    "domain": "mining.com",
+    "when": "Aug 6 · 07:00z"
+   },
+   {
+    "title": "Notice of Q2 Results and Investor Presentation",
+    "url": "https://montrealgazette.com/press-releases/globe-newswire/notice-of-q2-results-and-investor-presentation/",
+    "domain": "montrealgazette.com",
+    "when": "Aug 6 · 09:00z"
+   },
+   {
+    "title": "Update regarding Ukrainian subsidiary | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/ferrexpo--fxpo/update-regarding-ukrainian-subsidiary/9707307",
+    "domain": "investegate.co.uk",
+    "when": "Aug 6 · 06:30z"
+   },
+   {
+    "title": "BREAKING NEWS : A New Paradigm Emerges - ELEKTROS Strengthens Its Lithium ... ",
+    "url": "https://www.pr-inside.com/breaking-news-a-new-paradigm-emerges-elektros-strengthens-its-lithium-r5208750.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 5 · 15:45z"
+   },
+   {
+    "title": "Elektros , Inc .: BREAKING NEWS : A New Paradigm Emerges - ELEKTROS Strengthens Its Lithium Vision and Proprietary EV Charging Platform as Global Momentum Builds Across Critical Minerals",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69226116-elektros-inc-breaking-news-a-new-paradigm-emerges-elektros-strengthens-its-lithium-vision-and-proprietary-ev-charging-platform-as-global-momentu-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 5 · 15:00z"
+   },
+   {
+    "title": "BREAKING NEWS : ELEKTROS Showcases Expanding Lithium Strategy and EV ... ",
+    "url": "https://www.pr-inside.com/breaking-news-elektros-showcases-expanding-lithium-strategy-and-ev-r5208726.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 5 · 14:45z"
+   },
+   {
+    "title": "BREAKING NEWS : Paradigm Shift Underway - ELEKTROS Advances Expanding ... ",
+    "url": "https://www.pr-inside.com/breaking-news-paradigm-shift-underway-elektros-advances-expanding-r5208730.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 5 · 14:45z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -416,88 +428,76 @@
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "3D Printing Financials : 6K Additive Reports Record Quarter as Demand Grows for U . S .- Made Metal Powders - 3DPrint . com",
-    "url": "https://3dprint.com/329821/3d-printing-financials-6k-additive-reports-record-quarter-as-demand-grows-for-u-s-made-metal-powders/",
-    "domain": "3dprint.com",
-    "when": "Aug 5 · 10:00z"
+    "title": "BETA and EXIM Bank announce intent to expand financing for up to $1 billion",
+    "url": "https://vermontbiz.com/news/2026/august/05/beta-and-exim-bank-announce-intent-expand-financing-1-billion",
+    "domain": "vermontbiz.com",
+    "when": "Aug 5 · 19:15z"
    },
    {
-    "title": "India can no longer depend on ageing helicopters",
-    "url": "https://www.thehindu.com/opinion/op-ed/india-can-no-longer-depend-on-ageing-helicopters/article71305774.ece",
-    "domain": "thehindu.com",
-    "when": "Aug 4 · 19:30z"
+    "title": "11 Industrials Stocks Set to Rise Amid Strong Manufacturing Activity",
+    "url": "https://www.businessinsider.com/top-stock-picks-to-buy-now-industrial-stocks-manufacturing-pmi-2026-8",
+    "domain": "businessinsider.com",
+    "when": "Aug 6 · 10:15z"
    },
    {
-    "title": "Constellis Appoints Ed Dolanski to Board of Directors",
-    "url": "https://www.prnewswire.com/news-releases/constellis-appoints-ed-dolanski-to-board-of-directors-302842619.html",
+    "title": "Beyond Simulators : How Zen Technologies is Powering India Drone Ecosystem with Indigenous Propulsion Systems",
+    "url": "https://idrw.org/beyond-simulators-how-zen-technologies-is-powering-indias-drone-ecosystem-with-indigenous-propulsion-systems/",
+    "domain": "idrw.org",
+    "when": "Aug 6 · 05:45z"
+   },
+   {
+    "title": "IPG Photonics Q2 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ipg-photonics-q2-earnings-call-160428354.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 6 · 00:15z"
+   },
+   {
+    "title": "Unidirectional ( UD ) Tapes Market worth $0 . 53 billion by 2031 - Exclusive Report by MarketsandMarkets™",
+    "url": "https://www.prnewswire.com/news-releases/unidirectional-ud-tapes-market-worth-0-53-billion-by-2031---exclusive-report-by-marketsandmarkets-302844653.html",
     "domain": "prnewswire.com",
-    "when": "Aug 4 · 15:45z"
+    "when": "Aug 6 · 11:15z"
    },
    {
-    "title": "  Peanut butter  pay raises are out , as employers shift to merit - based hikes",
-    "url": "https://www.cbsnews.com/news/peanut-butter-pay-raises-merit-based-pay-2027/",
-    "domain": "cbsnews.com",
-    "when": "Aug 4 · 14:15z"
+    "title": "Massive Russian Strikes Hit Ukraine Logistics Overnight",
+    "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260805-sputnik05.htm",
+    "domain": "globalsecurity.org",
+    "when": "Aug 6 · 10:45z"
    },
    {
-    "title": "3 Defense Stocks to Buy in August | The Motley Fool",
-    "url": "https://www.fool.com/investing/2026/08/04/3-defense-stocks-to-buy-in-august/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 5 · 00:45z"
+    "title": "Israel successfully tests upgraded Arrow Missile Defense System",
+    "url": "https://www.israelnationalnews.com/news/431299",
+    "domain": "israelnationalnews.com",
+    "when": "Aug 5 · 22:00z"
    },
    {
-    "title": "Syensqo signs multi - year supply agreement with Airbus",
-    "url": "https://evertiq.com/design/2026-08-05-syensqo-signs-multi-year-supply-agreement-with-airbus",
-    "domain": "evertiq.com",
-    "when": "Aug 5 · 11:15z"
+    "title": "Best Defense Stocks To Consider – August 5th",
+    "url": "https://www.themarketsdaily.com/2026/08/05/best-defense-stocks-to-consider-august-5th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 5 · 16:30z"
    },
    {
-    "title": "PLTR Stock Pops as Palantir Partners With Mercury on Defense Automation",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/pltr-stock-pops-palantir-partners-183107691.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 5 · 05:15z"
+    "title": "Is Elon Musk master plan with SpaceX to have rockets replace planes for global cargo delivery ? ",
+    "url": "https://fortune.com/2026/08/05/spacex-rockets-global-cargo-delivery/",
+    "domain": "fortune.com",
+    "when": "Aug 5 · 23:15z"
    },
    {
-    "title": "Rangeview Secures Defense Contract to Supply U . S . Navy Maintenance , Repair , and Overhaul ( MRO ) Replacement Parts",
-    "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/rangeview-secures-defense-contract-to-supply-us-navy-maintenance-repair-and-overhaul-mro-replacement-parts/2398468",
-    "domain": "manilatimes.net",
-    "when": "Aug 4 · 21:15z"
+    "title": "Investors on a New Mission : Funding Spacetech Startups",
+    "url": "https://economictimes.indiatimes.com/et-front/investors-on-a-new-mission-funding-spacetech-startups/articleshow/132973605.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 6 · 01:15z"
    },
    {
-    "title": "UPDATE -- Rangeview Secures Defense Contract to Supply U . S . Navy Maintenance , Repair , and Overhaul ( MRO ) Replacement Parts",
-    "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/update-rangeview-secures-defense-contract-to-supply-us-navy-maintenance-repair-and-overhaul-mro-replacement-parts/2398535",
-    "domain": "manilatimes.net",
-    "when": "Aug 4 · 22:15z"
+    "title": "North Vector Dynamics Receives Strategic Investment from Leading European Industrial Defence Group CSG",
+    "url": "https://montrealgazette.com/press-releases/globe-newswire/north-vector-dynamics-receives-strategic-investment-from-leading-european-industrial-defence-group-csg/",
+    "domain": "montrealgazette.com",
+    "when": "Aug 5 · 16:00z"
    },
    {
-    "title": "FinancialContent - AIN Q2 Deep Dive : Engineered Composites Momentum and Machine Clothing Transition",
-    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-ain-q2-deep-dive-engineered-composites-momentum-and-machine-clothing-transition",
-    "domain": "markets.financialcontent.com",
-    "when": "Aug 5 · 07:00z"
-   },
-   {
-    "title": "U . S . Air Force Solicitation Aims To Put Pressure On Engine Makers",
-    "url": "https://aviationweek.com/defense/budget-policy-operations/us-air-force-solicitation-aims-put-pressure-engine-makers",
-    "domain": "aviationweek.com",
-    "when": "Aug 5 · 10:45z"
-   },
-   {
-    "title": "Delivering Vision 2030 : How FedEx is supporting Saudi Arabia trade expansion",
-    "url": "https://www.arabnews.com/node/2653483/corporate-and-sponsored-content",
-    "domain": "arabnews.com",
-    "when": "Aug 5 · 12:45z"
-   },
-   {
-    "title": "Porbandar Shipbuilding Project : Gujarat Minister Thanks PM Modi",
-    "url": "https://www.newkerala.com/news/a/gujarat-minister-thanks-pm-modi-porbandar-shipbuilding-project-746.htm",
-    "domain": "newkerala.com",
-    "when": "Aug 4 · 18:30z"
-   },
-   {
-    "title": "Solid Power Q2 Earnings Call Highlights",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/solid-power-q2-earnings-call-020351033.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 5 · 02:45z"
+    "title": "Hadrian Raises $1 . 37B Series D to Build Highly Automated Factories to Accelerate America Industrial Renewal",
+    "url": "http://www.prnewswire.com/news-releases/hadrian-raises-1-37b-series-d-to-build-highly-automated-factories-to-accelerate-americas-industrial-renewal-302844408.html",
+    "domain": "prnewswire.com",
+    "when": "Aug 6 · 11:30z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
