@@ -1,96 +1,78 @@
 {
- "generated": "2026-08-06 13:17z",
+ "generated": "2026-08-07 12:17z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "High oil prices , big oil profits",
-    "url": "https://www.marketplace.org/episode/2026/08/03/high-oil-prices-big-oil-profits",
-    "domain": "marketplace.org",
-    "when": "Aug 4 · 01:30z"
+    "title": "Fed Lisa Cook ready to hike rates if  too high  inflation stays elevated",
+    "url": "https://nypost.com/2026/08/06/business/feds-lisa-cook-ready-to-hike-rates-if-too-high-inflation-stays-elevated/",
+    "domain": "nypost.com",
+    "when": "Aug 6 · 19:15z"
    },
    {
-    "title": "One Word Repeated 10 Times by Fed Chair Kevin Warsh Has Effectively Reshaped the Central Bank Monetary Policy Approach",
-    "url": "https://www.fool.com/investing/2026/08/04/one-word-fed-kevin-warsh-reshape-monetary-policy/",
-    "domain": "fool.com",
-    "when": "Aug 4 · 09:15z"
+    "title": "Asian Stocks Cautious Ahead of US Jobs Data as Oil Rises",
+    "url": "http://www.econotimes.com/Asian-Stocks-Cautious-Ahead-of-US-Jobs-Data-as-Oil-Rises-1748877",
+    "domain": "econotimes.com",
+    "when": "Aug 7 · 03:45z"
    },
    {
-    "title": "Dubai gold prices rise as 24K rate jumps Dh3 . 75 per gram after Monday decline",
-    "url": "https://gulfnews.com/business/retail/dubai-gold-prices-surge-amid-us-iran-tensions-and-fed-uncertainty-1.500629917",
-    "domain": "gulfnews.com",
-    "when": "Aug 4 · 09:00z"
-   },
-   {
-    "title": "Gold $4 , 000 floor offers compelling value as investors look beyond Fed rhetoric – abrdn Robert Minter",
-    "url": "http://www.kitco.com/news/article/2026-08-03/golds-4000-floor-offers-compelling-value-investors-look-beyond-fed-rhetoric",
-    "domain": "kitco.com",
-    "when": "Aug 4 · 01:30z"
-   },
-   {
-    "title": "NY Fed President : Optimistic about inflation decline – Shafaqna English | International Shia News & Fatwas",
-    "url": "https://en.shafaqna.com/468465/ny-fed-president-optimistic-about-inflation-decline/",
-    "domain": "en.shafaqna.com",
-    "when": "Aug 3 · 16:15z"
-   },
-   {
-    "title": "Best high - yield savings interest rates today , Tuesday , August 4 , 2026 : You can earn up to 4 . 15 % APY",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-tuesday-august-4-2026-you-can-earn-up-to-415-apy-100000400.html",
+    "title": "Gold climbs above $4 , 200 as easing inflation concerns lift precious metals",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/gold-climbs-above-4-200-094042734.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 4 · 10:30z"
+    "when": "Aug 6 · 20:00z"
    },
    {
-    "title": "Global Market : South Korean shares slip nearly 2 % as AI spending worries overshadow softer inflation",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-slip-nearly-2-as-ai-spending-worries-overshadow-softer-inflation/articleshow/132847751.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 4 · 06:30z"
-   },
-   {
-    "title": "August Mortgage Outlook : Rates Heading Higher",
-    "url": "https://www.gjsentinel.com/news/national/august-mortgage-outlook-rates-heading-higher/article_9c5aab23-a2b4-5c7b-90b2-6b72b10ed22d.html",
-    "domain": "gjsentinel.com",
-    "when": "Aug 3 · 19:30z"
-   },
-   {
-    "title": "Gold awaits Fed rate clues – Shafaqna English | International Shia News & Fatwas",
-    "url": "https://en.shafaqna.com/468493/gold-awaits-fed-rate-clues/",
-    "domain": "en.shafaqna.com",
-    "when": "Aug 4 · 05:15z"
-   },
-   {
-    "title": "Gold steady as Middle East talks weigh on interest rate outlook",
-    "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/gold-steady-middle-east-talks-weigh-interest-rate-outlook",
-    "domain": "businesstimes.com.sg",
-    "when": "Aug 4 · 01:30z"
-   },
-   {
-    "title": "FinancialContent - Why W . W . Grainger ( GWW ) Stock Is Trading Lower Today",
-    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-3-why-ww-grainger-gww-stock-is-trading-lower-today",
-    "domain": "markets.financialcontent.com",
-    "when": "Aug 3 · 17:30z"
-   },
-   {
-    "title": "Gold and silver prices today : Rates jump up to 1 % on MCX on US - Iran peace deal hopes",
-    "url": "https://www.livemint.com/market/commodities/gold-and-silver-prices-today-rates-jump-up-to-1-on-mcx-on-us-iran-peace-deal-hopes-11785813789728.html",
-    "domain": "livemint.com",
-    "when": "Aug 4 · 04:45z"
-   },
-   {
-    "title": "Gold Price Near ₹1 . 43 Lakh , Small Paytm Gold Investments Gain Ground Amid Market Volatility",
-    "url": "https://www.freepressjournal.in/business/gold-price-near-143-lakh-small-paytm-gold-investments-gain-ground-amid-market-volatility",
-    "domain": "freepressjournal.in",
-    "when": "Aug 4 · 07:00z"
-   },
-   {
-    "title": "Investors Just Got a Blunt Reality Check From Fed Chair Kevin Warsh . Here What History Says Is Coming Next . ",
-    "url": "https://finance.yahoo.com/economy/policy/articles/investors-just-got-blunt-reality-023500114.html",
+    "title": "Fed Kashkari says central bank should raise interest rates now to avoid  entrenched inflation problem  ",
+    "url": "https://finance.yahoo.com/economy/policy/articles/feds-kashkari-says-central-bank-190311897.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 4 · 03:15z"
+    "when": "Aug 7 · 07:15z"
    },
    {
-    "title": "Gold holds ground with MidEast turmoil , US jobs data in focus",
-    "url": "https://dunyanews.tv/en/Business/966191-gold-holds-ground-with-mideast-turmoil-us-jobs-data-in-focus",
-    "domain": "dunyanews.tv",
-    "when": "Aug 4 · 06:45z"
+    "title": "Best high - yield savings interest rates today , Thursday , August 6 , 2026 : Earn up to 4 . 15 % APY",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-thursday-august-6-2026-earn-up-to-415-apy-100000400.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 6 · 17:00z"
+   },
+   {
+    "title": "Mortgage rates rise for 5th straight week",
+    "url": "https://www.chicagotribune.com/2026/08/06/mortgage-rates-rise/",
+    "domain": "chicagotribune.com",
+    "when": "Aug 6 · 20:45z"
+   },
+   {
+    "title": "Warsh faith in markets sidelines more nuanced Fed policy tools",
+    "url": "https://www.nationalmortgagenews.com/articles/warshs-faith-in-markets-sidelines-more-nuanced-fed-policy-tools",
+    "domain": "nationalmortgagenews.com",
+    "when": "Aug 7 · 00:00z"
+   },
+   {
+    "title": "Mortgage rates rise for 5th straight week , hitting levels not seen since 2025",
+    "url": "https://abcnews.com/Business/wireStory/mortgage-rates-rise-5th-straight-week-hitting-levels-135429106",
+    "domain": "abcnews.com",
+    "when": "Aug 6 · 17:15z"
+   },
+   {
+    "title": "How have CD rates changed compared to last August ? Here what savers may not know . ",
+    "url": "https://www.cbsnews.com/news/how-cd-interest-rates-changed-august-2025-2026/",
+    "domain": "cbsnews.com",
+    "when": "Aug 6 · 18:15z"
+   },
+   {
+    "title": "Gold posts weekly jump – Shafaqna English | International Shia News & Fatwas",
+    "url": "https://en.shafaqna.com/469179/gold-posts-weekly-jump/",
+    "domain": "en.shafaqna.com",
+    "when": "Aug 7 · 10:15z"
+   },
+   {
+    "title": "Best CD rates today , Thursday , August 6 , 2026 : Lock in up to 4 . 15 % APY with a 14 - month CD",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-thursday-august-6-2026-lock-in-up-to-415-apy-with-a-14-month-cd-100000326.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 6 · 18:30z"
+   },
+   {
+    "title": "US stocks sway in mixed trading as more earnings reports roll in",
+    "url": "https://www.local10.com/news/2026/08/06/us-stocks-sway-in-mixed-trading-as-more-earnings-reports-roll-in/",
+    "domain": "local10.com",
+    "when": "Aug 6 · 16:15z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
@@ -188,82 +170,94 @@
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Oil Price Today ( August 5 ): Crude climbs back to $80 despite hopes of a short - term war deal . What next ? ",
-    "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-5-crude-climbs-back-to-80-despite-hopes-of-a-short-term-war-deal-whats-next/articleshow/132884676.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 5 · 02:45z"
-   },
-   {
-    "title": "Strategic reserves , supply chains vital",
-    "url": "https://www.thenational.com.pg/strategic-reserves-supply-chains-vital/",
-    "domain": "thenational.com.pg",
-    "when": "Aug 5 · 05:30z"
-   },
-   {
-    "title": "Dow Jones Top Energy Headlines at 4 PM ET : Oil prices head toward lowest level in nearly 4 weeks | Saudi ... ",
-    "url": "https://www.morningstar.com/news/dow-jones/2026080412387/dow-jones-top-energy-headlines-at-4-pm-et-oil-prices-head-toward-lowest-level-in-nearly-4-weeks-saudi",
-    "domain": "morningstar.com",
-    "when": "Aug 4 · 20:45z"
-   },
-   {
-    "title": "WEC Energy Group ( NYSE : WEC ) and Electricité de France ( OTCMKTS : ECIFY ) Critical Contrast",
-    "url": "https://www.themarketsdaily.com/2026/08/05/wec-energy-group-nysewec-and-electricite-de-france-otcmktsecify-critical-contrast.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 5 · 04:30z"
-   },
-   {
-    "title": "Trump says oil companies Chevron , Exxon Mobil made  too much money  amid  last chance  for Iran war deal",
-    "url": "https://abc7chicago.com/story/trump-says-oil-companies-chevron-exxon-mobil-made-money-amid-last-chance-iran-war-deal/19623836/",
-    "domain": "abc7chicago.com",
-    "when": "Aug 4 · 13:45z"
-   },
-   {
-    "title": "Solar power set for strong growth | The Peninsula Qatar",
-    "url": "http://thepeninsulaqatar.com/article/05/08/2026/solar-power-set-for-strong-growth",
-    "domain": "thepeninsulaqatar.com",
-    "when": "Aug 5 · 09:15z"
-   },
-   {
-    "title": "ONGC Q1 FY27 Net Profit Jumps 112 % to ₹17 , 034 Crore Driven by Crude Oil Prices",
-    "url": "https://www.rediff.com/business/report/ongc-q1-fy27-net-profit-jumps-112-to-17034-crore-driven-by-crude-oil-prices/20260805.htm",
-    "domain": "rediff.com",
-    "when": "Aug 5 · 12:45z"
-   },
-   {
-    "title": "PJM  Hunger Games  Pits Solar And Storage Against Gas , Nuclear",
-    "url": "https://cleantechnica.com/2026/08/04/pjm-capacity-715-projects-solar-energy-storage-gas/",
-    "domain": "cleantechnica.com",
-    "when": "Aug 4 · 16:00z"
-   },
-   {
-    "title": "Aramco Profit Jumps 33 Pct",
-    "url": "https://www.rigzone.com/news/wire/aramco_profit_jumps_33_pct-04-aug-2026-184292-article/",
-    "domain": "rigzone.com",
-    "when": "Aug 4 · 15:00z"
-   },
-   {
-    "title": "AEP Plans $78 bn Grid and Renewable Energy Investment as 69 GW New Load Drives Clean Power Expansion",
-    "url": "https://greentechlead.com/renewable-energy/aep-plans-78-bn-grid-and-renewable-energy-investment-as-69-gw-new-load-drives-clean-power-expansion-54539",
-    "domain": "greentechlead.com",
-    "when": "Aug 4 · 15:00z"
-   },
-   {
-    "title": "July Top Commodity Performers and Underperformers",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/july-top-commodity-performers-underperformers-154213235.html",
+    "title": "Current price of oil as of August 5 , 2026",
+    "url": "https://finance.yahoo.com/energy/articles/current-price-oil-august-5-093024198.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 5 · 03:00z"
+    "when": "Aug 6 · 20:00z"
    },
    {
-    "title": "Oil prices rebound after Houthis say they attacked Saudi tanker",
-    "url": "https://tribune.com.pk/story/2622205/oil-prices-rebound-after-houthis-say-they-attacked-saudi-tanker",
-    "domain": "tribune.com.pk",
-    "when": "Aug 5 · 12:30z"
+    "title": " [ OPINION ] Beyond Bataan : Building the Philippine energy future",
+    "url": "https://www.rappler.com/voices/thought-leaders/opinion-beyond-bataan-building-energy-future/",
+    "domain": "rappler.com",
+    "when": "Aug 7 · 05:15z"
    },
    {
-    "title": "LA City Council Votes to Allow Billion Dollar Scattergood Gas Plant Retrofit to Move Forward",
-    "url": "https://cleantechnica.com/2026/08/04/la-city-council-votes-to-allow-billion-dollar-scattergood-gas-plant-retrofit-to-move-forward/",
-    "domain": "cleantechnica.com",
-    "when": "Aug 5 · 03:30z"
+    "title": "India Energy Security Shift : Report Urges Focus on Critical Minerals , Manufacturing and Grid Infrastructure",
+    "url": "https://www.downtoearth.org.in/energy/india-must-secure-minerals-and-manufacturing-not-just-fuel-to-safeguard-energy-future-report",
+    "domain": "downtoearth.org.in",
+    "when": "Aug 6 · 15:15z"
+   },
+   {
+    "title": "Energy Stocks To Watch Now – August 6th",
+    "url": "https://www.themarketsdaily.com/2026/08/06/energy-stocks-to-watch-now-august-6th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 6 · 17:30z"
+   },
+   {
+    "title": "Committee on Public Undertakings tables 6 reports in Parliament",
+    "url": "https://www.prokerala.com/news/articles/a1797207.html",
+    "domain": "prokerala.com",
+    "when": "Aug 6 · 13:45z"
+   },
+   {
+    "title": "Weber County leaders interested in nuclear power potential , host symposium on topic",
+    "url": "https://www.ksl.com:443/article/51606555/weber-county-leaders-interested-in-nuclear-power-potential-host-symposium-on-topic",
+    "domain": "ksl.com",
+    "when": "Aug 6 · 18:30z"
+   },
+   {
+    "title": "Nodal Exchange Achieves New Records in Power and Environmental Markets in July",
+    "url": "https://montrealgazette.com/press-releases/business-wire/nodal-exchange-achieves-new-records-in-power-and-environmental-markets-in-july/",
+    "domain": "montrealgazette.com",
+    "when": "Aug 6 · 14:00z"
+   },
+   {
+    "title": "India cuts overall energy import dependence to 42 %, but crude oil imports still meet 90 % of demand : CII - EY report",
+    "url": "https://aninews.in/news/business/india-cuts-overall-energy-import-dependence-to-42-but-crude-oil-imports-still-meet-90-of-demand-cii-ey-report20260806193740/",
+    "domain": "aninews.in",
+    "when": "Aug 6 · 16:30z"
+   },
+   {
+    "title": "Cyprus needs balanced long - term strategy for energy security , expert warns",
+    "url": "https://cyprus-mail.com/2026/08/07/cyprus-needs-balanced-long-term-strategy-for-energy-security-expert-warns",
+    "domain": "cyprus-mail.com",
+    "when": "Aug 7 · 06:00z"
+   },
+   {
+    "title": "India Energy Import Dependence Drops to 42 %, Crude at 90 % ",
+    "url": "https://www.newkerala.com/news/a/india-cuts-overall-energy-import-dependence-42-crude-292.htm",
+    "domain": "newkerala.com",
+    "when": "Aug 6 · 15:00z"
+   },
+   {
+    "title": "Storage , transmission key for next phase of India energy transition : Experts",
+    "url": "https://www.livemint.com/industry/energy/india-clean-energy-transition-grid-expansion-battery-storage-renewables-11786012731692.html",
+    "domain": "livemint.com",
+    "when": "Aug 7 · 01:00z"
+   },
+   {
+    "title": "Latest buyback of offshore wind leases brings total to nearly $4 billion",
+    "url": "https://www.ksby.com/news/national-news/trump-administrations-latest-buyback-of-offshore-wind-leases-brings-total-to-nearly-4-billion",
+    "domain": "ksby.com",
+    "when": "Aug 7 · 00:45z"
+   },
+   {
+    "title": "The Strait of Hormuz must stay open",
+    "url": "https://www.vanguardngr.com/2026/08/the-strait-of-hormuz-must-stay-open-2/",
+    "domain": "vanguardngr.com",
+    "when": "Aug 7 · 05:45z"
+   },
+   {
+    "title": "Trump administration latest buyback of offshore wind leases brings total to nearly $4 billion",
+    "url": "https://www.hindustantimes.com/world-news/us-news/trump-administration-s-latest-buyback-of-offshore-wind-leases-brings-total-to-nearly-4-billion-101786045418754.html",
+    "domain": "hindustantimes.com",
+    "when": "Aug 6 · 20:45z"
+   },
+   {
+    "title": "Lower Oil Prices Lend Support For The Gold Rally",
+    "url": "https://oilprice.com/Metals/Gold/Lower-Oil-Prices-Lend-Support-For-The-Gold-Rally.html",
+    "domain": "oilprice.com",
+    "when": "Aug 7 · 02:30z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
@@ -348,322 +342,316 @@
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "Amplia teams up with big pharma for lung cancer trial",
-    "url": "https://www.smh.com.au/business/companies/amplia-teams-up-with-big-pharma-for-lung-cancer-trial-20260804-p60lap.html",
-    "domain": "smh.com.au",
-    "when": "Aug 4 · 03:45z"
+    "title": "Patient dies in China biotech company gene editing trial",
+    "url": "https://timesofindia.indiatimes.com/world/china/patient-dies-in-china-biotech-companys-gene-editing-trial/articleshow/133018924.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Aug 7 · 04:45z"
    },
    {
-    "title": "FDA clears Healis Therapeutic IND for Tyemvers® , Enabling U . S . Neuropsychiatric Trials",
-    "url": "https://www.manilatimes.net/2026/08/04/tmt-newswire/globenewswire/fda-clears-healis-therapeutics-ind-for-tyemvers-enabling-us-neuropsychiatric-trials/2397947",
+    "title": "The mRNA technology behind Moderna Covid vaccine reaches the flu | US news",
+    "url": "https://www.theguardian.com/us-news/2026/aug/06/flu-shot-covid-moderna-mrna-mflusiva",
+    "domain": "theguardian.com",
+    "when": "Aug 6 · 15:00z"
+   },
+   {
+    "title": "New Kind Of Flu Shot Is On The Way As The FDA Approves Moderna mRNA - Based Vaccine – The Yeshiva World",
+    "url": "https://www.theyeshivaworld.com/news/general/2583044/new-kind-of-flu-shot-is-on-the-way-as-the-fda-approves-modernas-mrna-based-vaccine.html",
+    "domain": "theyeshivaworld.com",
+    "when": "Aug 6 · 18:15z"
+   },
+   {
+    "title": "New flu shot is on way as FDA approves Moderna mRNA - based vaccine",
+    "url": "https://www.thetimes-tribune.com/2026/08/06/new-flu-shot-mrna-moderna-fda/",
+    "domain": "thetimes-tribune.com",
+    "when": "Aug 6 · 14:00z"
+   },
+   {
+    "title": "New Moderna mRNA flu vaccine wins FDA approval",
+    "url": "https://www.manilatimes.net/2026/08/06/world/new-moderna-mrna-flu-vaccine-wins-fda-approval/2400182",
     "domain": "manilatimes.net",
-    "when": "Aug 4 · 13:00z"
+    "when": "Aug 6 · 13:45z"
    },
    {
-    "title": "Rocket points to Danon gene therapy safety after Phase II protocol change",
-    "url": "https://www.yahoo.com/news/science/articles/rocket-points-danon-gene-therapy-110342190.html",
-    "domain": "yahoo.com",
-    "when": "Aug 4 · 11:30z"
+    "title": "India , which once couldnt make smallpox vaccine , has now crossed a pharma milestone the world cant ignore",
+    "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/independence-day-2026-india-pharma-journey-covaxin-made-in-india-drug-discovery-zaynich-wockhardt-ipa-indian-medicine-vaccine/articleshow/133003617.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 7 · 06:30z"
    },
    {
-    "title": "Fujifilm , Taiho partner on AraLinQ ADC manufacturing technology",
-    "url": "https://jp.ibtimes.com/fujifilm-taiho-partner-aralinq-adc-manufacturing-technology-103344",
-    "domain": "jp.ibtimes.com",
-    "when": "Aug 3 · 16:00z"
+    "title": "FDA approves 1st mRNA flu shot , from Moderna",
+    "url": "https://www.nbcconnecticut.com/news/national-international/fda-approves-1st-mrna-flu-shot-from-moderna/3762204/",
+    "domain": "nbcconnecticut.com",
+    "when": "Aug 6 · 19:45z"
    },
    {
-    "title": "Prosecutors raid 17 locations in camellia oil fraud probe",
-    "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/04/2003861936",
-    "domain": "taipeitimes.com",
-    "when": "Aug 4 · 10:30z"
+    "title": "Energenesis Biomedical and Taiwan Tanabe Seiyaku Enter Joint Development Agreement for ENERGI - F703DFU",
+    "url": "http://www.prnewswire.com/news-releases/energenesis-biomedical-and-taiwan-tanabe-seiyaku-enter-joint-development-agreement-for-energi-f703dfu-302845312.html",
+    "domain": "prnewswire.com",
+    "when": "Aug 6 · 23:30z"
    },
    {
-    "title": "New blood test to detect colon cancer clears FDA approval",
-    "url": "https://www.independent.co.uk/news/health/colorectal-cancer-us-blood-test-fda-b3026680.html",
-    "domain": "independent.co.uk",
-    "when": "Aug 3 · 23:45z"
+    "title": "FDA approves Moderna first mRNA flu vaccine for adults 50 and up",
+    "url": "https://www.foxnews.com/health/fda-approves-first-ever-mrna-flu-vaccine-millions-older-americans",
+    "domain": "foxnews.com",
+    "when": "Aug 6 · 19:45z"
    },
    {
-    "title": "Biotech and Pharma Industry News | BioPharma Dive",
-    "url": "https://www.biopharmadive.com/?page=2&_sp=d4bcce85-137e-4b14-95d4-8d106b5cc222",
-    "domain": "biopharmadive.com",
-    "when": "Aug 4 · 07:00z"
+    "title": "FDA approves Moderna mRNA flu vaccine – Sun Sentinel",
+    "url": "https://www.sun-sentinel.com/2026/08/05/f-d-a-approves-modernas-mrna-flu-vaccine/",
+    "domain": "sun-sentinel.com",
+    "when": "Aug 6 · 13:00z"
    },
    {
-    "title": "Eli Lilly to offer early access to next - gen obesity drug to some patients",
-    "url": "https://www.933thedrive.com/2026/08/03/eli-lilly-to-offer-early-access-to-next-gen-obesity-drug-to-some-patients/",
-    "domain": "933thedrive.com",
-    "when": "Aug 3 · 23:30z"
-   },
-   {
-    "title": "FDA Advisory Committee Recommends Several Peptides For Compounding For Various Uses Despite Staff Opposition : What Stakeholders Need To Know",
-    "url": "https://www.mondaq.com:443/unitedstates/healthcare/1825360/fda-advisory-committee-recommends-several-peptides-for-compounding-for-various-uses-despite-staff-opposition-what-stakeholders-need-to-know",
-    "domain": "mondaq.com",
-    "when": "Aug 3 · 19:00z"
-   },
-   {
-    "title": "FDA grants breakthrough therapy designation to Lilly olomorasib",
-    "url": "https://www.yahoo.com/news/science/articles/fda-grants-breakthrough-therapy-designation-101914107.html",
-    "domain": "yahoo.com",
-    "when": "Aug 4 · 10:45z"
-   },
-   {
-    "title": "Top Biotech Gainers : UPC Cuts Loss , CPIX Gains Ahead Of Q2 Results , AUTL Builds Commercial Momentum",
-    "url": "https://www.rttnews.com/3674687/top-biotech-gainers-upc-cuts-loss-cpix-gains-ahead-of-q2-results-autl-builds-commercial-momentum.aspx",
-    "domain": "rttnews.com",
-    "when": "Aug 4 · 03:45z"
-   },
-   {
-    "title": "LabPMM® Launches Global KMT2A MRD Testing Service to Support Menin Inhibitor Development and Acute Leukemia Care",
-    "url": "https://montrealgazette.com/press-releases/business-wire/labpmm-launches-global-kmt2a-mrd-testing-service-to-support-menin-inhibitor-development-and-acute-leukemia-care/",
-    "domain": "montrealgazette.com",
-    "when": "Aug 4 · 09:45z"
-   },
-   {
-    "title": "SHY Therapeutics Announces the First Patient Has Been Dosed in Phase 1 Clinical Trial Evaluating SHY - ONC6 , a Novel , Oral Proteasome Inhibitor for the Treatment of Solid Tumors",
-    "url": "https://www.manilatimes.net/2026/08/04/tmt-newswire/globenewswire/shy-therapeutics-announces-the-first-patient-has-been-dosed-in-phase-1-clinical-trial-evaluating-shy-onc6-a-novel-oral-proteasome-inhibitor-for-the-treatment-of-solid-tumors/2397966",
-    "domain": "manilatimes.net",
-    "when": "Aug 4 · 13:00z"
+    "title": "FDA approves Moderna mRNA flu vaccine | Honolulu Star - Advertiser",
+    "url": "https://www.staradvertiser.com/2026/08/06/breaking-news/fda-approves-modernas-mrna-flu-vaccine/",
+    "domain": "staradvertiser.com",
+    "when": "Aug 6 · 17:15z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "BETA and EXIM Bank announce intent to expand financing for up to $1 billion",
-    "url": "https://vermontbiz.com/news/2026/august/05/beta-and-exim-bank-announce-intent-expand-financing-1-billion",
-    "domain": "vermontbiz.com",
-    "when": "Aug 5 · 19:15z"
+    "title": "Windings acquires MTE to expand precision machining",
+    "url": "https://www.engineering.com/windings-acquires-mte-to-expand-precision-machining/",
+    "domain": "engineering.com",
+    "when": "Aug 6 · 13:15z"
    },
    {
-    "title": "11 Industrials Stocks Set to Rise Amid Strong Manufacturing Activity",
-    "url": "https://www.businessinsider.com/top-stock-picks-to-buy-now-industrial-stocks-manufacturing-pmi-2026-8",
-    "domain": "businessinsider.com",
-    "when": "Aug 6 · 10:15z"
-   },
-   {
-    "title": "Beyond Simulators : How Zen Technologies is Powering India Drone Ecosystem with Indigenous Propulsion Systems",
-    "url": "https://idrw.org/beyond-simulators-how-zen-technologies-is-powering-indias-drone-ecosystem-with-indigenous-propulsion-systems/",
-    "domain": "idrw.org",
-    "when": "Aug 6 · 05:45z"
-   },
-   {
-    "title": "IPG Photonics Q2 Earnings Call Highlights",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/ipg-photonics-q2-earnings-call-160428354.html",
+    "title": "Microchip Technology Q1 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/microchip-technology-q1-earnings-call-040352574.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 6 · 00:15z"
+    "when": "Aug 7 · 04:45z"
    },
    {
-    "title": "Unidirectional ( UD ) Tapes Market worth $0 . 53 billion by 2031 - Exclusive Report by MarketsandMarkets™",
-    "url": "https://www.prnewswire.com/news-releases/unidirectional-ud-tapes-market-worth-0-53-billion-by-2031---exclusive-report-by-marketsandmarkets-302844653.html",
+    "title": "Industry 5 . 0 for SMEs",
+    "url": "https://link.springer.com/book/10.1007/978-3-032-26279-0",
+    "domain": "link.springer.com",
+    "when": "Aug 6 · 23:30z"
+   },
+   {
+    "title": "EU Motors Targets 350 , 000+ Drone Motors in 2026 , Expanding U . S . Footprint with Proprietary IP , Custom Robotics , and Stator Manufacturing",
+    "url": "http://www.prnewswire.com/news-releases/eu-motors-targets-350-000-drone-motors-in-2026--expanding-us-footprint-with-proprietary-ip-custom-robotics-and-stator-manufacturing-302844436.html",
     "domain": "prnewswire.com",
-    "when": "Aug 6 · 11:15z"
+    "when": "Aug 6 · 13:00z"
    },
    {
-    "title": "Massive Russian Strikes Hit Ukraine Logistics Overnight",
-    "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260805-sputnik05.htm",
-    "domain": "globalsecurity.org",
-    "when": "Aug 6 · 10:45z"
+    "title": "FinancialContent - Proto Labs Q2 Earnings Call : Our Top 5 Analyst Questions",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-7-proto-labss-q2-earnings-call-our-top-5-analyst-questions",
+    "domain": "markets.financialcontent.com",
+    "when": "Aug 7 · 08:30z"
    },
    {
-    "title": "Israel successfully tests upgraded Arrow Missile Defense System",
-    "url": "https://www.israelnationalnews.com/news/431299",
-    "domain": "israelnationalnews.com",
-    "when": "Aug 5 · 22:00z"
+    "title": "FinancialContent - TTMI Q2 CY2026 Deep Dive : AI and Defense Trends Drive Growth , European Expansion Announced",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-6-ttmi-q2-cy2026-deep-dive-ai-and-defense-trends-drive-growth-european-expansion-announced",
+    "domain": "markets.financialcontent.com",
+    "when": "Aug 6 · 20:15z"
    },
    {
-    "title": "Best Defense Stocks To Consider – August 5th",
-    "url": "https://www.themarketsdaily.com/2026/08/05/best-defense-stocks-to-consider-august-5th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 5 · 16:30z"
+    "title": "Indian Ambassador Sumit Seth bids farewell to Panama President Jose Raul Mulino , discusses scholarships , development projects and bilateral ties",
+    "url": "https://news.webindia123.com/news/Articles/World/20260807/4484183.html",
+    "domain": "news.webindia123.com",
+    "when": "Aug 6 · 22:30z"
    },
    {
-    "title": "Is Elon Musk master plan with SpaceX to have rockets replace planes for global cargo delivery ? ",
-    "url": "https://fortune.com/2026/08/05/spacex-rockets-global-cargo-delivery/",
+    "title": "Michigan Companies Invited to Explore Business Opportunities in Mexico Through Automation Alley Trade Mission",
+    "url": "http://www.prnewswire.com/news-releases/michigan-companies-invited-to-explore-business-opportunities-in-mexico-through-automation-alley-trade-mission-302844566.html",
+    "domain": "prnewswire.com",
+    "when": "Aug 6 · 13:45z"
+   },
+   {
+    "title": "TechPrecision Corporation Schedules Conference Call to Report Fiscal ... ",
+    "url": "https://www.pr-inside.com/techprecision-corporation-schedules-conference-call-to-report-fiscal-r5209422.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 6 · 21:00z"
+   },
+   {
+    "title": "Pentagon war game exposed a critical U . S . aluminum risk months before Iran attacks",
+    "url": "https://fortune.com/2026/08/06/pentagon-war-game-exposed-a-critical-u-s-aluminum-risk-months-before-iran-attacks/",
     "domain": "fortune.com",
-    "when": "Aug 5 · 23:15z"
+    "when": "Aug 6 · 13:30z"
    },
    {
-    "title": "Investors on a New Mission : Funding Spacetech Startups",
-    "url": "https://economictimes.indiatimes.com/et-front/investors-on-a-new-mission-funding-spacetech-startups/articleshow/132973605.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 6 · 01:15z"
+    "title": "India - Panama Ties Strengthen as Envoy Seth Bids Farewell",
+    "url": "https://www.newkerala.com/news/a/indian-ambassador-sumit-seth-bids-farewell-panama-president-444.htm",
+    "domain": "newkerala.com",
+    "when": "Aug 6 · 20:15z"
    },
    {
-    "title": "North Vector Dynamics Receives Strategic Investment from Leading European Industrial Defence Group CSG",
-    "url": "https://montrealgazette.com/press-releases/globe-newswire/north-vector-dynamics-receives-strategic-investment-from-leading-european-industrial-defence-group-csg/",
-    "domain": "montrealgazette.com",
-    "when": "Aug 5 · 16:00z"
+    "title": "Togo Becomes Transit Point for Russian Arms",
+    "url": "https://www.africa.com/top-10-news/togo-becomes-transit-point-for-russian-arms",
+    "domain": "africa.com",
+    "when": "Aug 7 · 00:00z"
    },
    {
-    "title": "Hadrian Raises $1 . 37B Series D to Build Highly Automated Factories to Accelerate America Industrial Renewal",
-    "url": "http://www.prnewswire.com/news-releases/hadrian-raises-1-37b-series-d-to-build-highly-automated-factories-to-accelerate-americas-industrial-renewal-302844408.html",
+    "title": "NoMIS Power Demonstrates 6 . 5 kV SiC MOSFET , Advancing a High - Voltage Roadmap to 10 kV and 20 kV SiC IGBTs",
+    "url": "https://www.prnewswire.com/news-releases/nomis-power-demonstrates-6-5-kv-sic-mosfet-advancing-a-high-voltage-roadmap-to-10-kv-and-20-kv-sic-igbts-302844470.html",
     "domain": "prnewswire.com",
-    "when": "Aug 6 · 11:30z"
+    "when": "Aug 6 · 13:15z"
+   },
+   {
+    "title": "Howmet Aerospace , ATI Score Earnings Breakouts . Two Defense Plays Make Bullish Moves . ",
+    "url": "https://www.investors.com/news/howmet-aerospace-hwm-stock-breakout-ati-stock-redwire-rdw-caci-international-earnings-rally-defense-stocks/",
+    "domain": "investors.com",
+    "when": "Aug 7 · 03:45z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Retail Stocks To Follow Today – August 2nd",
-    "url": "https://www.dailypolitical.com/2026/08/03/retail-stocks-to-follow-today-august-2nd.html",
-    "domain": "dailypolitical.com",
-    "when": "Aug 3 · 15:45z"
+    "title": "Iconic luxury brand confirms more store closures through 2027",
+    "url": "https://finance.yahoo.com/economy/articles/iconic-luxury-brand-confirms-more-163300732.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 7 · 04:45z"
    },
    {
-    "title": "Fast Moving Consumer Goods , Inc .: Webinar for Emerging Spirit Brands and Investors Seeking Nationwide Distribution and Direct - to - Consumer Growth",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69203407-fast-moving-consumer-goods-inc-webinar-for-emerging-spirit-brands-and-investors-seeking-nationwide-distribution-and-direct-to-consumer-growth-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Aug 3 · 19:45z"
+    "title": "Saudi retail , F & B market resilient as consumer spending hits $113bn",
+    "url": "https://tradearabia.com:443/News/466303/Saudi-retail-FandB-market-resilient-as-consumer-spending-hits-$113bn/RET",
+    "domain": "tradearabia.com",
+    "when": "Aug 7 · 03:15z"
    },
    {
-    "title": "Webinar for Emerging Spirit Brands and Investors Seeking Nationwide ... ",
-    "url": "https://www.pr-inside.com/webinar-for-emerging-spirit-brands-and-investors-seeking-nationwide-r5207889.htm",
-    "domain": "pr-inside.com",
-    "when": "Aug 3 · 19:30z"
+    "title": "Google AI shopping results will reshape retail search budgets",
+    "url": "https://www.adnews.com.au/opinion/google-s-ai-shopping-results-will-reshape-retail-search-budgets",
+    "domain": "adnews.com.au",
+    "when": "Aug 6 · 23:45z"
    },
    {
-    "title": "Bridgeline Digital : Leading Home and Garden Brand Chooses Bridgeline HawkSearch AI Platform",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69211853-bridgeline-digital-leading-home-and-garden-brand-chooses-bridgeline-s-hawksearch-ai-platform-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Aug 4 · 13:00z"
-   },
-   {
-    "title": "Louis Vuitton unveils new flagship boutique at V & A Waterfront",
-    "url": "https://www.bizcommunity.com/article/louis-vuitton-unveils-new-flagship-boutique-at-va-waterfront-967844a",
-    "domain": "bizcommunity.com",
-    "when": "Aug 4 · 13:00z"
-   },
-   {
-    "title": "ADA acquires Algonomy , strengthening its intelligent growth platform for a fully agentic experience",
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/ada-acquires-algonomy-strengthening-its-intelligent-growth-platform-for-a-fully-agentic-experience/article71285986.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 3 · 16:15z"
-   },
-   {
-    "title": "PVR INOX launches SMART Cinemas for tier III cities , begins rollout from Muzaffarpur",
-    "url": "https://www.thehindubusinessline.com/companies/pvr-inox-launches-smart-cinemas-for-tier-iii-cities-begins-rollout-from-muzaffarpur/article71304896.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 4 · 13:00z"
-   },
-   {
-    "title": "Interflora India spends up to 18 % of revenue on marketing , weighs IPO in 2 - 3 years",
-    "url": "https://bestmediainfo.com/mediainfo/mediainfo-marketing/interflora-india-spends-up-to-18-of-revenue-on-marketing-weighs-ipo-in-2-3-years-12225822",
-    "domain": "bestmediainfo.com",
-    "when": "Aug 4 · 05:15z"
-   },
-   {
-    "title": "DataXGrowth Launches The Growth Trail , a Free Marketing Strategy Game Built to Expose Fragile Growth",
-    "url": "https://www.pr.com:443/press-release/975547",
-    "domain": "pr.com",
-    "when": "Aug 3 · 15:15z"
-   },
-   {
-    "title": "DesignRush : Codal Wins 2026 Connected Commerce Award for Bisco Systems Integration",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69211503-designrush-codal-wins-2026-connected-commerce-award-for-bisco-systems-integration-296.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Aug 4 · 12:45z"
-   },
-   {
-    "title": "Marriott Q3 profit forecast falls short of estimates",
-    "url": "https://www.businesstimes.com.sg/companies-markets/marriotts-q3-profit-forecast-falls-short-estimates-middle-east-revenue-drops",
-    "domain": "businesstimes.com.sg",
-    "when": "Aug 3 · 15:00z"
-   },
-   {
-    "title": "GrubHub and 40 Other Brands Test In - App Measurement in ChatGPT Ads",
-    "url": "https://www.adweek.com/media/grubhub-and-40-other-brands-test-in-app-measurement-in-chatgpt-ads/",
-    "domain": "adweek.com",
-    "when": "Aug 4 · 11:45z"
-   },
-   {
-    "title": "Quick commerce braces for Rakshabandhan rush as capacity strains emerge",
-    "url": "https://economictimes.indiatimes.com/tech/technology/quick-commerce-braces-for-rakshabandhan-rush-as-capacity-strains-emerge/articleshow/132838200.cms",
+    "title": "July auto retail sales hit record high on rising rural demand",
+    "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/july-auto-retail-sales-hit-record-high-on-rising-rural-demand/articleshow/133014973.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Aug 4 · 02:45z"
+    "when": "Aug 6 · 19:30z"
    },
    {
-    "title": "SCOOP ! BYD to bring its Denza luxury brand to India with launch of D9 MPV - Introduction",
-    "url": "https://www.autocarindia.com/car-news/scoop-byd-to-bring-its-denza-luxury-brand-to-india-with-launch-of-d9-mpv-440385",
-    "domain": "autocarindia.com",
-    "when": "Aug 4 · 07:45z"
+    "title": "5 Current Trends Shaping Consumer Behavior Today",
+    "url": "https://smallbiztrends.com/current-trends-in-consumer-behavior/",
+    "domain": "smallbiztrends.com",
+    "when": "Aug 7 · 00:00z"
    },
    {
-    "title": "Morgan Stanley Shares 24 AI Adopter Stocks to Buy Now",
-    "url": "https://www.businessinsider.com/ai-stocks-to-buy-now-companies-adopting-profit-margins-productivity-2026-8",
-    "domain": "businessinsider.com",
-    "when": "Aug 4 · 13:00z"
+    "title": "Signifyd 2026 State of Fraud Report Reveals a Fundamental Shift in Ecommerce Fraud",
+    "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/signifyds-2026-state-of-fraud-report-reveals-a-fundamental-shift-in-ecommerce-fraud/2400109",
+    "domain": "manilatimes.net",
+    "when": "Aug 6 · 13:15z"
+   },
+   {
+    "title": "Audi India confirms new Q3 , A5 and Q9 launches : Targets doubling market share",
+    "url": "https://timesofindia.indiatimes.com/auto/cars/audi-india-confirms-new-q3-a5-and-q9-launches-targets-doubling-market-share/articleshow/133030458.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Aug 7 · 10:45z"
+   },
+   {
+    "title": "64 - year - old luxury giant closes at least 217 stores , plans more",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/64-old-luxury-giant-closes-023300411.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 7 · 03:15z"
+   },
+   {
+    "title": "Beijing Tries Yet Again to Beef Up Household Spending",
+    "url": "https://www.theepochtimes.com/opinion/beijing-tries-yet-again-to-beef-up-household-spending-6071450",
+    "domain": "theepochtimes.com",
+    "when": "Aug 6 · 22:15z"
+   },
+   {
+    "title": "Car Retail Sales July 2026 - Maruti , Tata , Mahindra , Hyundai , Toyota , Kia , Skoda VW , BMW , Mercedes",
+    "url": "https://www.rushlane.com/car-retail-sales-july-2026-maruti-tata-mahindra-hyundai-toyota-kia-12552612.html",
+    "domain": "rushlane.com",
+    "when": "Aug 6 · 16:15z"
+   },
+   {
+    "title": "Galaxy Macau and Ant Bank ( Macao ) Financial Services Station Launches , Driving New Growth in Tourism Consumption Through Fintech",
+    "url": "https://thestarphoenix.com/press-releases/pr-newswire/galaxy-macau-and-ant-bank-macao-financial-services-station-launches-driving-new-growth-in-tourism-consumption-through-fintech/",
+    "domain": "thestarphoenix.com",
+    "when": "Aug 7 · 08:45z"
+   },
+   {
+    "title": "FPIs pivot to India consumer economy , pour over Rs 25 , 000 crore into consumption , healthcare plays in July : Vallum Capital",
+    "url": "https://www.moneycontrol.com/news/business/markets/fpis-pivot-to-india-s-consumer-economy-pour-over-rs-25-000-crore-into-consumption-healthcare-plays-in-july-vallum-capital-13997361.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 7 · 06:00z"
+   },
+   {
+    "title": "In Focus | Chinese luxury brands rise from challengers to market shapers as global houses lose lustre",
+    "url": "https://www.scmp.com/economy/china-economy/article/3362270/chinese-luxury-brands-rise-challengers-market-shapers-global-houses-lose-lustre",
+    "domain": "scmp.com",
+    "when": "Aug 6 · 22:30z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Trump tariffs are sending some companies back to China",
-    "url": "https://www.straitstimes.com/asia/se-asia/trumps-tariffs-are-sending-some-companies-back-to-china",
-    "domain": "straitstimes.com",
-    "when": "Aug 1 · 18:15z"
-   },
-   {
-    "title": "Amazon gets ₹5 , 250 crore tariff refund , says eligible customers will receive automatic refunds",
-    "url": "https://www.livemint.com/companies/news/amazon-gets-5-250-crore-tariff-refund-says-eligible-customers-will-receive-automatic-refunds-11785593358210.html",
-    "domain": "livemint.com",
-    "when": "Aug 1 · 16:00z"
-   },
-   {
-    "title": "Trump Michigan Tariff Victory Lap Starred a Factory Built to Bury GM EV Trucks",
-    "url": "https://finance.yahoo.com/economy/policy/articles/trumps-michigan-tariff-victory-lap-110000737.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 2 · 11:45z"
-   },
-   {
-    "title": "Trump Trade War , Gas Prices , Japan Debt Crisis and More : This Week in Economy Weekend Roundup : Trump  ",
-    "url": "https://www.benzinga.com/markets/macro-economic-events/26/08/60861751/weekend-roundup-trump-canada-gas-japan-nyc",
-    "domain": "benzinga.com",
-    "when": "Aug 2 · 11:15z"
-   },
-   {
-    "title": "Barabak : O , Canada ! Caught in crossfire , California wineries despair over Trump tariffs",
-    "url": "https://www.pressdemocrat.com/2026/07/31/mark-z-barabak-o-canada-caught-in-crossfire-california-wineries-despair-over-trump-tariffs-2/",
-    "domain": "pressdemocrat.com",
-    "when": "Aug 1 · 18:00z"
-   },
-   {
-    "title": "After a blockbuster IPO , can China memory chipmaker CXMT compete globally in the AI era ? ",
-    "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/after-blockbuster-ipo-can-chinas-memory-chipmaker-cxmt-compete-globally-ai-era",
-    "domain": "businesstimes.com.sg",
-    "when": "Aug 2 · 10:45z"
-   },
-   {
-    "title": "Trump Gordie Howe extortion : why we must diversify trade",
-    "url": "https://www.stcatharinesstandard.ca/opinion/columnists/donald-trump-is-ignoring-trade-deals-here-are-7-ways-mark-carney-can-fight-back/article_3b94e702-1b78-57e5-b5a1-bcf79758b03a.html",
-    "domain": "stcatharinesstandard.ca",
-    "when": "Aug 1 · 14:45z"
-   },
-   {
-    "title": "AI earnings season splits stock markets as investors reward returns , punish heavy spending",
-    "url": "https://www.moneycontrol.com/news/business/markets/ai-earnings-season-splits-stock-markets-as-investors-reward-returns-punish-heavy-spending-13990935.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 1 · 13:00z"
-   },
-   {
-    "title": "Ted Benna built the 401 ( k ) 40 years ago now he says it fails lower - income workers and is pushing a simpler alternative",
-    "url": "https://finance.yahoo.com/markets/options/articles/ted-benna-built-401-k-113000384.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 2 · 12:00z"
-   },
-   {
-    "title": "India BRICS Presidency gathers momentum with key Ministerial meets early August",
-    "url": "https://economictimes.indiatimes.com/news/india/indias-brics-presidency-gathers-momentum-with-key-ministerial-meets-early-august/articleshow/132799945.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 2 · 04:00z"
-   },
-   {
-    "title": "Cognizant partners with OpenAI , brings global Codex hackathon to 10 , 000 employees in India",
-    "url": "https://www.livemint.com/ai/artificial-intelligence/cognizant-partners-with-openai-brings-global-codex-hackathon-to-10-000-employees-in-india-11785664922074.html",
-    "domain": "livemint.com",
-    "when": "Aug 2 · 11:30z"
-   },
-   {
-    "title": "Brazil Lula launches fourth term bid as Trump looms over campaign",
-    "url": "https://www.freemalaysiatoday.com/category/world/2026/08/02/brazil-s-lula-launches-fourth-term-bid-as-trump-looms-over-campaign",
+    "title": "US unveils 15 % tariff on polysilicon products",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/08/07/us-unveils-15-tariff-on-polysilicon-products",
     "domain": "freemalaysiatoday.com",
-    "when": "Aug 2 · 07:15z"
+    "when": "Aug 7 · 00:00z"
+   },
+   {
+    "title": "China Imposes Drone Export Controls , Sanctions U . S . Entities in Trade Countermeasures – NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-06-china-imposes-drone-export-controls-sanctions-us-entities.html",
+    "domain": "naturalnews.com",
+    "when": "Aug 6 · 17:15z"
+   },
+   {
+    "title": "Exports to remain resilient",
+    "url": "https://www.thestar.com.my/business/business-news/2026/08/07/exports-to-remain-resilient",
+    "domain": "thestar.com.my",
+    "when": "Aug 7 · 00:45z"
+   },
+   {
+    "title": "US Tech Giants Trapped As China Sweeps American Software And Hardware Out",
+    "url": "https://english.pravda.ru/news/business/167661-china-uav-export-controls-us-tech-investigations/",
+    "domain": "english.pravda.ru",
+    "when": "Aug 6 · 13:00z"
+   },
+   {
+    "title": "US sets 15 % polysilicon tariff , price floors to challenge China dominance",
+    "url": "https://www.scmp.com/news/us/article/3363224/us-sets-15-polysilicon-tariff-price-floors-challenge-chinas-dominance",
+    "domain": "scmp.com",
+    "when": "Aug 6 · 23:45z"
+   },
+   {
+    "title": "Nine in ten united kingdom food leaders say system risk has increased - survey",
+    "url": "https://www.thecattlesite.com/news/nine-in-ten-uk-food-leaders-say-system-risk-has-increased-survey",
+    "domain": "thecattlesite.com",
+    "when": "Aug 7 · 03:45z"
+   },
+   {
+    "title": "Trump Signs Order Imposing Price Floor , Tariffs on Polysilicon to Counter China",
+    "url": "https://www.theepochtimes.com/us/trump-signs-order-imposing-price-floor-tariffs-on-polysilicon-to-counter-china-6072291",
+    "domain": "theepochtimes.com",
+    "when": "Aug 6 · 22:15z"
+   },
+   {
+    "title": "Senate standoff : Warnock hold on Russia sanctions bill stirs debate over tariff powers – NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-06-warnocks-hold-on-russia-sanctions-bill-stirs-debate.html",
+    "domain": "naturalnews.com",
+    "when": "Aug 7 · 02:00z"
+   },
+   {
+    "title": "Trump signs proclamation imposing 15 % tariff on polysilicon derivative products",
+    "url": "https://www.koreaherald.com/article/10833683",
+    "domain": "koreaherald.com",
+    "when": "Aug 7 · 00:30z"
+   },
+   {
+    "title": "Bill Would Give Trump More Tariff Authority",
+    "url": "https://politicalwire.com/2026/08/06/bill-would-give-trump-more-tariff-authority/",
+    "domain": "politicalwire.com",
+    "when": "Aug 6 · 20:00z"
+   },
+   {
+    "title": "Trump tariffs : Canada  nasty , U . S . president says",
+    "url": "https://www.bnnbloomberg.ca/tariffs/2026/08/06/carney-responds-after-trump-says-nasty-canada-screwed-us-with-tariffs/",
+    "domain": "bnnbloomberg.ca",
+    "when": "Aug 6 · 22:00z"
+   },
+   {
+    "title": "Marco Rubio says millions of American jobs were destroyed for cheap goods but Trump fix could crash your retirement",
+    "url": "https://finance.yahoo.com/economy/policy/articles/marco-rubio-says-millions-american-135500017.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 6 · 14:30z"
+   },
+   {
+    "title": "Carney  not interested  in narrow U . S . trade deal",
+    "url": "https://www.theglobeandmail.com/canada/article-carney-us-trade-negotiations-august-6-comments/",
+    "domain": "theglobeandmail.com",
+    "when": "Aug 6 · 19:45z"
    }
   ]
  }
