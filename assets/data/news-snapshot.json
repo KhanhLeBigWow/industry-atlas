@@ -1,48 +1,84 @@
 {
- "generated": "2026-08-08 12:02z",
+ "generated": "2026-08-09 12:03z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "US stock market today : Wall Street rallies as 23 , 000 job cuts boost hopes of softer Fed policy",
-    "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-url-us-stock-market-today-august-07-2026-wall-street-down-jones-industrial-average-sp-500-nasdaq-composite-us-iran-war-crude-oil-prices/articleshow/133036719.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Aug 7 · 15:00z"
+    "title": "Stock Market Investors Just Got Bad News From the Federal Reserve",
+    "url": "https://www.fool.com/investing/2026/08/09/stock-market-investors-bad-news-federal-reserve/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 9 · 09:45z"
    },
    {
-    "title": "An Inflation Quadruple Whammy , Headlined by Trumpflation , Threatens to Crush the Stock Market",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/inflation-quadruple-whammy-headlined-trumpflation-082600599.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 8 · 09:15z"
+    "title": "Smart Investor : Stocks With Dividend Increases , Warsh New Approach , and Earnings Where Great Wasnt Good Enough",
+    "url": "https://www.morningstar.com/markets/smart-investor-stocks-with-dividend-increases-warshs-new-approach-earnings-where-great-wasnt-good-enough",
+    "domain": "morningstar.com",
+    "when": "Aug 8 · 14:00z"
    },
    {
-    "title": "Fed Chair Kevin Warsh Said the Central Bank Has  No Tolerance  for Inflation , and the Dow Dropped 840 Points . What It Means for Your Portfolio . ",
-    "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-kevin-warsh-said-153500482.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 7 · 23:15z"
+    "title": "What Happens to a Bond ETF Price When the Fed Cuts Rates -- Using the Actual Historical Data",
+    "url": "https://www.fool.com/investing/2026/08/09/what-happens-bond-price-fed-cuts-rates-history/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 9 · 10:45z"
    },
    {
-    "title": "23 , 000 Jobs Lost In July , Defying Expectations | PowerTalk 1460 AM & 101 . 1 FM",
-    "url": "https://powertalk1460.iheart.com/content/2026-08-07-23000-jobs-lost-in-july-defying-expectations/",
-    "domain": "powertalk1460.iheart.com",
-    "when": "Aug 7 · 14:15z"
+    "title": "President Donald Trump Expected the Iran War to Drive the Stock Market  Down 20 % to 25 % -- His Prophecy May Still Come True",
+    "url": "https://www.fool.com/investing/2026/08/08/trump-iran-war-drive-stock-market-down-20-to-25/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 8 · 14:00z"
    },
    {
-    "title": "23 , 000 Jobs Lost In July , Defying Expectations",
-    "url": "https://newsradio967.iheart.com/content/2026-08-07-23000-jobs-lost-in-july-defying-expectations/",
-    "domain": "newsradio967.iheart.com",
-    "when": "Aug 7 · 14:15z"
+    "title": "US stocks jump as employers unexpectedly cut 23 , 000 jobs , raising hopes that rate hikes can wait ( copy ) ",
+    "url": "https://www.messenger-inquirer.com/news/us-stocks-jump-as-employers-unexpectedly-cut-23-000-jobs-raising-hopes-that-rate-hikes/article_884fc466-2e03-5772-8f40-7edbb3942a8d.html",
+    "domain": "messenger-inquirer.com",
+    "when": "Aug 8 · 15:30z"
    },
    {
-    "title": "23 , 000 Jobs Lost In July , Defying Expectations | NewsRadio 104 . 9 WBUV",
-    "url": "https://newsradio1049.iheart.com/content/2026-08-07-23000-jobs-lost-in-july-defying-expectations/",
-    "domain": "newsradio1049.iheart.com",
-    "when": "Aug 7 · 14:15z"
+    "title": "Is  Trumpflation  real ? Why Wall Street fears this could be a reason for stock market crash",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/is-trumpflation-real-why-wall-street-fears-this-could-be-a-reason-for-stock-market-crash/articleshow/133066108.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 9 · 11:15z"
    },
    {
-    "title": "23 , 000 Jobs Lost In July , Defying Expectations | News Radio 103 . 1 and 810 WGY",
-    "url": "https://wgy.iheart.com/content/2026-08-07-23000-jobs-lost-in-july-defying-expectations/",
-    "domain": "wgy.iheart.com",
-    "when": "Aug 7 · 15:00z"
+    "title": "Trump renews push to fire Fed Governor Lisa Cook",
+    "url": "https://www.ideastream.org/2026-08-07/trump-renews-push-to-fire-fed-governor-lisa-cook",
+    "domain": "ideastream.org",
+    "when": "Aug 8 · 14:00z"
+   },
+   {
+    "title": "Federal Reserve Maintains Focus on Inflation Despite Soft Jobs Data",
+    "url": "http://www.newseveryday.com/articles/64913/20260808/federal-reserve-maintains-focus-on-inflation-despite-soft-jobs-data.htm",
+    "domain": "newseveryday.com",
+    "when": "Aug 8 · 19:30z"
+   },
+   {
+    "title": "Older Homeowners Paying  Seniority Tax  When Refinancing Mortgages : Bankrate",
+    "url": "https://www.theepochtimes.com/business/older-homeowners-paying-seniority-tax-when-refinancing-mortgages-bankrate-6072194",
+    "domain": "theepochtimes.com",
+    "when": "Aug 8 · 13:45z"
+   },
+   {
+    "title": "Business : US unexpectedly loses jobs in blow to Trump ahead",
+    "url": "https://www.newvision.co.ug/category/business/us-unexpectedly-loses-jobs-in-blow-to-trump-a-NV_238474_082026",
+    "domain": "newvision.co.ug",
+    "when": "Aug 8 · 19:00z"
+   },
+   {
+    "title": "How the weak jobs report could make inflation harder to manage",
+    "url": "https://edition.cnn.com/2026/08/08/business/jobs-report-fed-warsh-inflation",
+    "domain": "edition.cnn.com",
+    "when": "Aug 9 · 04:00z"
+   },
+   {
+    "title": "Wall Street week ahead : inflation , retail sales updates",
+    "url": "https://www.wral.com/news/ap/1cf60-wall-street-week-ahead-inflation-retail-sales-updates/",
+    "domain": "wral.com",
+    "when": "Aug 8 · 12:00z"
+   },
+   {
+    "title": "Bitcoin breaks $65 , 000 : 4 factors fueling today BTC price surge",
+    "url": "https://arynews.tv/bitcoin-breaks-65000-4-factors-fueling-todays-btc-price-surge",
+    "domain": "arynews.tv",
+    "when": "Aug 8 · 12:15z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
@@ -137,141 +173,226 @@
     "when": "Aug 6 · 00:45z"
    }
   ],
-  "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [],
+  "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
+   {
+    "title": "Stanley College is acquired by Quadrant Private Equity with plans for a Sydney campus by 2028",
+    "url": "https://www.afr.com/street-talk/quadrant-eyes-national-expansion-for-newly-acquired-stanley-college-20260809-p60mq8",
+    "domain": "afr.com",
+    "when": "Aug 9 · 09:00z"
+   },
+   {
+    "title": "Billionaire Li Ka - shing CK to sell EDL Energy",
+    "url": "https://www.afr.com/street-talk/flyers-out-for-hk-billionaire-li-ka-shing-s-2b-plus-edl-energy-sale-20260809-p60mq4",
+    "domain": "afr.com",
+    "when": "Aug 9 · 09:00z"
+   },
+   {
+    "title": "Tech darling Canva monthly active users decline further",
+    "url": "https://www.afr.com/street-talk/tech-darling-canva-s-summer-slump-deepens-20260809-p60mpm",
+    "domain": "afr.com",
+    "when": "Aug 9 · 09:00z"
+   },
+   {
+    "title": "Head - To - Head Comparison : Huntington Bancshares ( NASDAQ : HBANM ) and Bank of China ( OTCMKTS : BACHY ) ",
+    "url": "https://www.themarketsdaily.com/2026/08/09/head-to-head-comparison-huntington-bancshares-nasdaqhbanm-and-bank-of-china-otcmktsbachy.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 9 · 09:30z"
+   },
+   {
+    "title": "  Prices go up : Man shares how he built Rs 1 . 5 crore portfolio in 6 years starting with Rs 10 , 000",
+    "url": "https://www.moneycontrol.com/news/trends/prices-go-up-man-shares-how-he-built-rs-1-5-crore-portfolio-in-6-years-starting-with-rs-10-000-13998897.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 9 · 05:00z"
+   },
+   {
+    "title": "There a 58 % Chance of a Fed Rate Hike in October . These Are Stocks to Buy Anyway . ",
+    "url": "https://www.fool.com/investing/2026/08/09/theres-a-58-chance-of-a-fed-rate-hike-in-october-t/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 9 · 10:45z"
+   },
+   {
+    "title": "Jim Cramer Weighs In on Space Equities : Rocket Lab ( RKLB ) vs . Voyager Technologies ( VOYG ) ",
+    "url": "https://www.insidermonkey.com/blog/jim-cramer-weighs-in-on-space-equities-rocket-lab-rklb-vs-voyager-technologies-voyg-1808287/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 8 · 22:00z"
+   },
+   {
+    "title": "Top Real Estate Stocks To Watch Now – August 8th",
+    "url": "https://www.tickerreport.com/banking-finance/13535952/top-real-estate-stocks-to-watch-now-august-8th.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 8 · 19:00z"
+   },
+   {
+    "title": "AMD ( AMD ) Buys Taalas : Is AI Inference the Next Battleground With Nvidia ? ",
+    "url": "https://www.insidermonkey.com/blog/amd-amd-buys-taalas-is-ai-inference-the-next-battleground-with-nvidia-1808374/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 8 · 22:00z"
+   },
+   {
+    "title": "Israel Englander Millennium Manages $240 Billion Across Thousands of Positions . Here the Strategy Behind His Success . ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/israel-englanders-millennium-manages-240-130500814.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 8 · 13:45z"
+   },
+   {
+    "title": "Orix Corp Ads Q1 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/orix-corp-ads-q1-earnings-140402470.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 8 · 14:45z"
+   },
+   {
+    "title": "Contrasting RHB Capital Bhd . ( RHBAF ) and Its Rivals",
+    "url": "https://www.tickerreport.com/banking-finance/13535560/contrasting-rhb-capital-bhd-rhbaf-and-its-rivals.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 8 · 12:15z"
+   },
+   {
+    "title": "The Numbers Behind ON Semiconductor ( ON ) Higher Target and Unchanged Hold Rating",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/numbers-behind-semiconductor-higher-target-115228254.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 8 · 12:30z"
+   }
+  ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Current price of oil as of August 5 , 2026",
-    "url": "https://finance.yahoo.com/energy/articles/current-price-oil-august-5-093024198.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 6 · 20:00z"
-   },
-   {
-    "title": " [ OPINION ] Beyond Bataan : Building the Philippine energy future",
-    "url": "https://www.rappler.com/voices/thought-leaders/opinion-beyond-bataan-building-energy-future/",
-    "domain": "rappler.com",
-    "when": "Aug 7 · 05:15z"
-   },
-   {
-    "title": "India Energy Security Shift : Report Urges Focus on Critical Minerals , Manufacturing and Grid Infrastructure",
-    "url": "https://www.downtoearth.org.in/energy/india-must-secure-minerals-and-manufacturing-not-just-fuel-to-safeguard-energy-future-report",
-    "domain": "downtoearth.org.in",
-    "when": "Aug 6 · 15:15z"
-   },
-   {
-    "title": "Energy Stocks To Watch Now – August 6th",
-    "url": "https://www.themarketsdaily.com/2026/08/06/energy-stocks-to-watch-now-august-6th.html",
+    "title": "Best Renewable Energy Stocks To Follow Now – August 8th",
+    "url": "https://www.themarketsdaily.com/2026/08/08/best-renewable-energy-stocks-to-follow-now-august-8th.html",
     "domain": "themarketsdaily.com",
-    "when": "Aug 6 · 17:30z"
+    "when": "Aug 8 · 18:30z"
    },
    {
-    "title": "Committee on Public Undertakings tables 6 reports in Parliament",
-    "url": "https://www.prokerala.com/news/articles/a1797207.html",
-    "domain": "prokerala.com",
-    "when": "Aug 6 · 13:45z"
+    "title": "Top Renewable Energy Stocks To Watch Now – August 5th",
+    "url": "https://www.themarketsdaily.com/2026/08/08/top-renewable-energy-stocks-to-watch-now-august-5th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 8 · 17:45z"
    },
    {
-    "title": "Weber County leaders interested in nuclear power potential , host symposium on topic",
-    "url": "https://www.ksl.com:443/article/51606555/weber-county-leaders-interested-in-nuclear-power-potential-host-symposium-on-topic",
-    "domain": "ksl.com",
-    "when": "Aug 6 · 18:30z"
+    "title": "Natural Resource Partners Q2 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/natural-partners-q2-earnings-call-210354695.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 8 · 22:00z"
    },
    {
-    "title": "Nodal Exchange Achieves New Records in Power and Environmental Markets in July",
-    "url": "https://montrealgazette.com/press-releases/business-wire/nodal-exchange-achieves-new-records-in-power-and-environmental-markets-in-july/",
-    "domain": "montrealgazette.com",
-    "when": "Aug 6 · 14:00z"
+    "title": "360 Energy Pulse : What mattered this week in energy",
+    "url": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213043744.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 9 · 04:45z"
    },
    {
-    "title": "India cuts overall energy import dependence to 42 %, but crude oil imports still meet 90 % of demand : CII - EY report",
-    "url": "https://aninews.in/news/business/india-cuts-overall-energy-import-dependence-to-42-but-crude-oil-imports-still-meet-90-of-demand-cii-ey-report20260806193740/",
-    "domain": "aninews.in",
-    "when": "Aug 6 · 16:30z"
+    "title": "Bala Wunti appointed pioneer CEO of World Energy Council Nigeria",
+    "url": "https://dailypost.ng/2026/08/08/bala-wunti-appointed-pioneer-ceo-of-world-energy-council-nigeria/",
+    "domain": "dailypost.ng",
+    "when": "Aug 8 · 19:45z"
    },
    {
-    "title": "Cyprus needs balanced long - term strategy for energy security , expert warns",
-    "url": "https://cyprus-mail.com/2026/08/07/cyprus-needs-balanced-long-term-strategy-for-energy-security-expert-warns",
-    "domain": "cyprus-mail.com",
-    "when": "Aug 7 · 06:00z"
+    "title": "5 . 3 % Yield and Still Worth Buying : The Dividend Stock I Keep Adding To",
+    "url": "https://www.fool.com/investing/2026/08/08/53-yield-and-still-worth-buying-the-dividend-stock/",
+    "domain": "fool.com",
+    "when": "Aug 9 · 01:00z"
    },
    {
-    "title": "India Energy Import Dependence Drops to 42 %, Crude at 90 % ",
-    "url": "https://www.newkerala.com/news/a/india-cuts-overall-energy-import-dependence-42-crude-292.htm",
-    "domain": "newkerala.com",
-    "when": "Aug 6 · 15:00z"
+    "title": "California green energy fantasy is leaving residents in the dark – Daily News",
+    "url": "https://www.dailynews.com/2026/08/08/californias-green-energy-fantasy-is-leaving-residents-in-the-dark/",
+    "domain": "dailynews.com",
+    "when": "Aug 8 · 14:00z"
    },
    {
-    "title": "Storage , transmission key for next phase of India energy transition : Experts",
-    "url": "https://www.livemint.com/industry/energy/india-clean-energy-transition-grid-expansion-battery-storage-renewables-11786012731692.html",
-    "domain": "livemint.com",
-    "when": "Aug 7 · 01:00z"
+    "title": "Oman Sohar Industrial City secures $557m in H1 investments",
+    "url": "https://www.arabnews.com/node/2653980/business-economy",
+    "domain": "arabnews.com",
+    "when": "Aug 9 · 11:00z"
    },
    {
-    "title": "Latest buyback of offshore wind leases brings total to nearly $4 billion",
-    "url": "https://www.ksby.com/news/national-news/trump-administrations-latest-buyback-of-offshore-wind-leases-brings-total-to-nearly-4-billion",
-    "domain": "ksby.com",
-    "when": "Aug 7 · 00:45z"
+    "title": "Best Oil Stocks To Add to Your Watchlist – August 8th",
+    "url": "https://www.themarketsdaily.com/2026/08/08/best-oil-stocks-to-add-to-your-watchlist-august-8th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 8 · 17:45z"
    },
    {
-    "title": "The Strait of Hormuz must stay open",
-    "url": "https://www.vanguardngr.com/2026/08/the-strait-of-hormuz-must-stay-open-2/",
-    "domain": "vanguardngr.com",
-    "when": "Aug 7 · 05:45z"
+    "title": "سعودية تفوز بجائزة « أفضل طالبة » في أولمبياد العلوم النووية الدولي 2026",
+    "url": "https://www.okaz.com.sa/local/saudi-arabia/2260479",
+    "domain": "okaz.com.sa",
+    "when": "Aug 9 · 00:45z"
    },
    {
-    "title": "Trump administration latest buyback of offshore wind leases brings total to nearly $4 billion",
-    "url": "https://www.hindustantimes.com/world-news/us-news/trump-administration-s-latest-buyback-of-offshore-wind-leases-brings-total-to-nearly-4-billion-101786045418754.html",
-    "domain": "hindustantimes.com",
-    "when": "Aug 6 · 20:45z"
+    "title": "Oil giants face backlash as Iran conflict fuels multi - billion - pound profits",
+    "url": "https://leftfootforward.org/2026/08/oil-giants-face-backlash-as-conflict-fuels-multi-billion-pound-profits/",
+    "domain": "leftfootforward.org",
+    "when": "Aug 9 · 11:15z"
    },
    {
-    "title": "Lower Oil Prices Lend Support For The Gold Rally",
-    "url": "https://oilprice.com/Metals/Gold/Lower-Oil-Prices-Lend-Support-For-The-Gold-Rally.html",
-    "domain": "oilprice.com",
-    "when": "Aug 7 · 02:30z"
+    "title": "Andy Burnham vision for the north starts with Scottish onshore wind",
+    "url": "https://www.heraldscotland.com/politics/holyrood/26443881.andy-burnhams-vision-north-starts-scottish-onshore-wind/",
+    "domain": "heraldscotland.com",
+    "when": "Aug 8 · 13:45z"
+   },
+   {
+    "title": "Saudi Arabia Leads Nuclear Science Olympiad , Wins  Nuclear Science Ambassador  Title",
+    "url": "https://english.aawsat.com/varieties/5304907-saudi-arabia-leads-nuclear-science-olympiad-wins-nuclear-science-ambassador-title",
+    "domain": "english.aawsat.com",
+    "when": "Aug 9 · 06:15z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "World biggest mining companies now worth $2 . 17 trillion",
-    "url": "https://www.mining.com/worlds-biggest-mining-companies-now-worth-2-17-trillion/",
-    "domain": "mining.com",
-    "when": "Aug 8 · 01:45z"
+    "title": "Critical Minerals & Water : Diverging Paths in Latin America",
+    "url": "https://havanatimes.org/features/critical-minerals-water-diverging-paths-in-latin-america/",
+    "domain": "havanatimes.org",
+    "when": "Aug 9 · 01:00z"
    },
    {
-    "title": "China plans to increase mine output in world largest rare earth deposit by 50 % ",
-    "url": "https://www.scmp.com/news/china/science/article/3363230/china-plans-increase-mine-output-worlds-largest-rare-earth-deposit-50",
-    "domain": "scmp.com",
-    "when": "Aug 7 · 13:45z"
+    "title": "India energy transition may create new import dependence on critical minerals : CII - EY",
+    "url": "http://www.chinanationalnews.com/news/279227399/india-energy-transition-may-create-new-import-dependence-on-critical-minerals-cii-ey",
+    "domain": "chinanationalnews.com",
+    "when": "Aug 8 · 17:15z"
    },
    {
-    "title": "Trump Announces More Than $2 Billion Mining Investment to Counter China",
-    "url": "https://www.theepochtimes.com/us/trump-announces-more-than-2-billion-mining-investment-to-counter-china-6072608",
-    "domain": "theepochtimes.com",
-    "when": "Aug 8 · 08:30z"
+    "title": "BREAKING NEWS : ELEKTROS Broadens Its Investor Profile as Lithium , Critical ... ",
+    "url": "https://www.pr-inside.com/breaking-news-elektros-broadens-its-investor-profile-as-lithium-critical-r5210177.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 9 · 03:00z"
    },
    {
-    "title": "CIL diversifies beyond coal , emerges preferred bidder for iron ore block in Odisha",
-    "url": "https://aninews.in/news/business/cil-diversifies-beyond-coal-emerges-preferred-bidder-for-iron-ore-block-in-odisha20260807182740/",
-    "domain": "aninews.in",
-    "when": "Aug 7 · 14:15z"
+    "title": "BREAKING NEWS : ELEKTROS Builds Market Momentum Around Its Hard - Rock ... ",
+    "url": "https://www.pr-inside.com/breaking-news-elektros-builds-market-momentum-around-its-hard-rock-r5210178.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 9 · 03:00z"
    },
    {
-    "title": "Trump Unveils Billions of Dollars in Mining - Tied Deals , Investments",
-    "url": "https://www.breitbart.com/politics/2026/08/07/trump-unveils-billions-of-dollars-in-mining-tied-deals-investments/",
-    "domain": "breitbart.com",
-    "when": "Aug 8 · 04:15z"
+    "title": "BREAKING NEWS : ELEKTROS Enters the Investor Spotlight as Growing Market ... ",
+    "url": "https://www.pr-inside.com/breaking-news-elektros-enters-the-investor-spotlight-as-growing-market-r5210179.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 9 · 03:00z"
    },
    {
-    "title": "  Raw Materials of American Strength : Trump Announces Flurry of Mining Deals at State Department To  Dominate the Future  ",
-    "url": "https://freebeacon.com/trump-administration/raw-materials-of-american-strength-trump-announces-flurry-of-mining-deals-at-state-department-to-dominate-the-future/",
-    "domain": "freebeacon.com",
-    "when": "Aug 8 · 03:15z"
+    "title": "Elektros , Inc .: BREAKING NEWS : ELEKTROS Builds Market Momentum Around Its Hard - Rock Lithium , Critical Minerals and Advanced EV Charging Technology Strategy",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69257129-elektros-inc-breaking-news-elektros-builds-market-momentum-around-its-hard-rock-lithium-critical-minerals-and-advanced-ev-charging-technology-str-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 9 · 03:00z"
    },
    {
-    "title": "Trump announcing $180M in grants to boost American mining amid push for critical minerals",
-    "url": "https://komonews.com/news/nation-world/trump-announcing-180m-in-grants-to-boost-american-mining-amid-push-for-critical-minerals",
-    "domain": "komonews.com",
-    "when": "Aug 7 · 18:45z"
+    "title": "Elektros , Inc .: BREAKING NEWS : ELEKTROS Broadens Its Investor Profile as Lithium , Critical Minerals and Proprietary EV Charging Technology Drive Its Long - Term Growth Story",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69257122-elektros-inc-breaking-news-elektros-broadens-its-investor-profile-as-lithium-critical-minerals-and-proprietary-ev-charging-technology-drive-its-l-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 9 · 03:00z"
+   },
+   {
+    "title": "Elektros , Inc .: BREAKING NEWS : ELEKTROS Enters the Investor Spotlight as Growing Market Awareness Highlights Its Sierra Leone Hard - Rock Lithium Vision and Proprietary EV Charging Technology",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69257128-elektros-inc-breaking-news-elektros-enters-the-investor-spotlight-as-growing-market-awareness-highlights-its-sierra-leone-hard-rock-lithium-vision-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 9 · 03:00z"
+   },
+   {
+    "title": "Airborne survey uncovers copper , tungsten , and rare earth mineral deposits",
+    "url": "https://kuenselonline.com/news/airborne-survey-uncovers-copper-tungsten-and-rare-earth-mineral-deposits",
+    "domain": "kuenselonline.com",
+    "when": "Aug 8 · 12:30z"
+   },
+   {
+    "title": "BHP Port Hedland workers walk off the job for two days after a pay dispute escalates , costing the mining company up to $240 million",
+    "url": "https://www.afr.com/work-and-careers/workplace/industry-issues-stark-warning-as-bhp-workers-stage-weekend-long-walkout-20260809-p60mon",
+    "domain": "afr.com",
+    "when": "Aug 9 · 09:00z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -522,82 +643,94 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "US unveils 15 % tariff on polysilicon products",
-    "url": "https://www.freemalaysiatoday.com/category/business/2026/08/07/us-unveils-15-tariff-on-polysilicon-products",
-    "domain": "freemalaysiatoday.com",
-    "when": "Aug 7 · 00:00z"
+    "title": "Trump , American Federalism , and the Geopolitics of Tariffs",
+    "url": "https://www.pressenza.com/2026/08/trump-american-federalism-and-the-geopolitics-of-tariffs/",
+    "domain": "pressenza.com",
+    "when": "Aug 9 · 03:00z"
    },
    {
-    "title": "China Imposes Drone Export Controls , Sanctions U . S . Entities in Trade Countermeasures – NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-08-06-china-imposes-drone-export-controls-sanctions-us-entities.html",
-    "domain": "naturalnews.com",
-    "when": "Aug 6 · 17:15z"
+    "title": "Trade war puts Indonesia Batam on global factory map | The Arkansas Democrat - Gazette",
+    "url": "https://www.arkansasonline.com/news/2026/aug/09/trade-war-puts-indonesias-batam-on-global-factory/",
+    "domain": "arkansasonline.com",
+    "when": "Aug 9 · 08:45z"
    },
    {
-    "title": "Exports to remain resilient",
-    "url": "https://www.thestar.com.my/business/business-news/2026/08/07/exports-to-remain-resilient",
-    "domain": "thestar.com.my",
-    "when": "Aug 7 · 00:45z"
+    "title": "Donald Trump shoots from Senate shoulders to punish Russia , by making India and China pay",
+    "url": "https://timesofindia.indiatimes.com/world/us/donald-trump-shoots-from-senate-shoulders-to-punish-russia-by-making-india-and-china-pay/articleshow/133055904.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Aug 8 · 17:15z"
    },
    {
-    "title": "US Tech Giants Trapped As China Sweeps American Software And Hardware Out",
-    "url": "https://english.pravda.ru/news/business/167661-china-uav-export-controls-us-tech-investigations/",
-    "domain": "english.pravda.ru",
-    "when": "Aug 6 · 13:00z"
+    "title": "Peak Shipping Season Winds Down as Import Volumes Remain High",
+    "url": "https://wwd.com/sourcing-journal/logistics/as-peak-shipping-season-ends-volume-remains-high-1239097846/",
+    "domain": "wwd.com",
+    "when": "Aug 9 · 04:30z"
    },
    {
-    "title": "US sets 15 % polysilicon tariff , price floors to challenge China dominance",
-    "url": "https://www.scmp.com/news/us/article/3363224/us-sets-15-polysilicon-tariff-price-floors-challenge-chinas-dominance",
-    "domain": "scmp.com",
-    "when": "Aug 6 · 23:45z"
+    "title": "India economy well - insulated against US tariffs on Russian oil , says economist",
+    "url": "https://www.moneycontrol.com/news/trade/india-us/india-s-economy-well-insulated-against-us-tariffs-on-russian-oil-says-economist-13998867.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 9 · 05:00z"
    },
    {
-    "title": "Nine in ten united kingdom food leaders say system risk has increased - survey",
-    "url": "https://www.thecattlesite.com/news/nine-in-ten-uk-food-leaders-say-system-risk-has-increased-survey",
-    "domain": "thecattlesite.com",
-    "when": "Aug 7 · 03:45z"
-   },
-   {
-    "title": "Trump Signs Order Imposing Price Floor , Tariffs on Polysilicon to Counter China",
-    "url": "https://www.theepochtimes.com/us/trump-signs-order-imposing-price-floor-tariffs-on-polysilicon-to-counter-china-6072291",
-    "domain": "theepochtimes.com",
-    "when": "Aug 6 · 22:15z"
-   },
-   {
-    "title": "Senate standoff : Warnock hold on Russia sanctions bill stirs debate over tariff powers – NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-08-06-warnocks-hold-on-russia-sanctions-bill-stirs-debate.html",
-    "domain": "naturalnews.com",
-    "when": "Aug 7 · 02:00z"
-   },
-   {
-    "title": "Trump signs proclamation imposing 15 % tariff on polysilicon derivative products",
-    "url": "https://www.koreaherald.com/article/10833683",
-    "domain": "koreaherald.com",
-    "when": "Aug 7 · 00:30z"
-   },
-   {
-    "title": "Bill Would Give Trump More Tariff Authority",
-    "url": "https://politicalwire.com/2026/08/06/bill-would-give-trump-more-tariff-authority/",
-    "domain": "politicalwire.com",
-    "when": "Aug 6 · 20:00z"
-   },
-   {
-    "title": "Trump tariffs : Canada  nasty , U . S . president says",
-    "url": "https://www.bnnbloomberg.ca/tariffs/2026/08/06/carney-responds-after-trump-says-nasty-canada-screwed-us-with-tariffs/",
-    "domain": "bnnbloomberg.ca",
-    "when": "Aug 6 · 22:00z"
-   },
-   {
-    "title": "Marco Rubio says millions of American jobs were destroyed for cheap goods but Trump fix could crash your retirement",
-    "url": "https://finance.yahoo.com/economy/policy/articles/marco-rubio-says-millions-american-135500017.html",
+    "title": "360 Energy Pulse : What mattered this week in energy",
+    "url": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213043744.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 6 · 14:30z"
+    "when": "Aug 9 · 04:45z"
    },
    {
-    "title": "Carney  not interested  in narrow U . S . trade deal",
-    "url": "https://www.theglobeandmail.com/canada/article-carney-us-trade-negotiations-august-6-comments/",
-    "domain": "theglobeandmail.com",
-    "when": "Aug 6 · 19:45z"
+    "title": "America hurting its own interest ; India well - insulated against US tariffs on Russian oil , expert says",
+    "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/america-hurting-its-own-interest-india-well-insulated-against-us-tariffs-on-russian-oil-expert-says/articleshow/133051948.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 8 · 12:30z"
+   },
+   {
+    "title": "Trump is about to get  unchecked authority  to impose tariffs of up to 100 % on top trading partners",
+    "url": "https://fortune.com/2026/08/08/trump-tariffs-100-percent-russia-sanctions-bill-congress-import-taxes/",
+    "domain": "fortune.com",
+    "when": "Aug 8 · 18:45z"
+   },
+   {
+    "title": "US Senate passes sweeping sanctions targeting Russian energy revenues",
+    "url": "https://www.africanews.com/2026/08/08/us-senate-passes-sweeping-sanctions-targeting-russian-energy-revenues/",
+    "domain": "africanews.com",
+    "when": "Aug 8 · 13:30z"
+   },
+   {
+    "title": "Meeks , Beyer Reiterate Concerns on Senate Passage of Russia Sanctions Bill",
+    "url": "https://www.globalsecurity.org/wmd/library/news/russia/2026/08/russia-260807-housecfa-democrats01.htm",
+    "domain": "globalsecurity.org",
+    "when": "Aug 8 · 13:30z"
+   },
+   {
+    "title": "US Russia sanctions bill could tighten oil markets , put India energy security at risk , says Kpler : Report",
+    "url": "https://www.hindustantimes.com/india-news/us-russia-sanctions-bill-could-tighten-oil-markets-put-indias-energy-security-at-risk-says-kpler-report-101786261168022.html",
+    "domain": "hindustantimes.com",
+    "when": "Aug 9 · 09:00z"
+   },
+   {
+    "title": "US Bill for 100 % India Tariff gets Senate Nod",
+    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/09/sunet-front/us-bill-for-100-india-tariff-gets-senate-nod/articleshow/133059238.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 9 · 05:45z"
+   },
+   {
+    "title": "India Insulated From US Tariffs on Russian Oil : Expert",
+    "url": "https://www.newkerala.com/news/a/america-actually-hurting-its-own-interest-indias-economy-750.htm",
+    "domain": "newkerala.com",
+    "when": "Aug 8 · 12:45z"
+   },
+   {
+    "title": "Russia sanctions bill may expose Indian exports to 100 % US tariff : GTRI",
+    "url": "https://idrw.org/russia-sanctions-bill-may-expose-indian-exports-to-100-us-tariff-gtri/",
+    "domain": "idrw.org",
+    "when": "Aug 9 · 05:45z"
+   },
+   {
+    "title": "Brazil bought $5 . 2 billion in Chinese cars , then pushed carmakers to open local factories",
+    "url": "https://finance.yahoo.com/economy/policy/articles/brazil-bought-5-2-billion-040800200.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 9 · 04:45z"
    }
   ]
  }
