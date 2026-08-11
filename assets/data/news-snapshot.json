@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10 12:17z",
+ "generated": "2026-08-11 12:19z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -175,82 +175,94 @@
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Stanley College is acquired by Quadrant Private Equity with plans for a Sydney campus by 2028",
-    "url": "https://www.afr.com/street-talk/quadrant-eyes-national-expansion-for-newly-acquired-stanley-college-20260809-p60mq8",
+    "title": "Pacific Equity Partners bumps FleetPartners bid to $4 per share",
+    "url": "https://www.afr.com/street-talk/pacific-equity-partners-bumps-fleetpartners-bid-to-4-per-share-20260811-p60n97",
     "domain": "afr.com",
-    "when": "Aug 9 · 09:00z"
+    "when": "Aug 11 · 08:45z"
    },
    {
-    "title": "Billionaire Li Ka - shing CK to sell EDL Energy",
-    "url": "https://www.afr.com/street-talk/flyers-out-for-hk-billionaire-li-ka-shing-s-2b-plus-edl-energy-sale-20260809-p60mq4",
+    "title": "Westcoast seeks $30m for to get blades turning at Tassie wind farm",
+    "url": "https://www.afr.com/street-talk/westcoast-energy-seeks-30m-to-get-blades-spinning-at-tassie-wind-farm-20260810-p60n0s",
     "domain": "afr.com",
-    "when": "Aug 9 · 09:00z"
+    "when": "Aug 11 · 08:45z"
    },
    {
-    "title": "Tech darling Canva monthly active users decline further",
-    "url": "https://www.afr.com/street-talk/tech-darling-canva-s-summer-slump-deepens-20260809-p60mpm",
+    "title": "PEP FleetPartners buyout fight heats up after being outbid by Element Fleet Management",
+    "url": "https://www.afr.com/street-talk/pep-lines-up-600m-plus-in-debt-as-fleetpartners-m-and-a-battle-heats-up-20260810-p60n05",
     "domain": "afr.com",
-    "when": "Aug 9 · 09:00z"
+    "when": "Aug 11 · 02:15z"
    },
    {
-    "title": "Head - To - Head Comparison : Huntington Bancshares ( NASDAQ : HBANM ) and Bank of China ( OTCMKTS : BACHY ) ",
-    "url": "https://www.themarketsdaily.com/2026/08/09/head-to-head-comparison-huntington-bancshares-nasdaqhbanm-and-bank-of-china-otcmktsbachy.html",
+    "title": "Bank Stocks To Keep An Eye On – August 10th",
+    "url": "https://www.themarketsdaily.com/2026/08/10/bank-stocks-to-keep-an-eye-on-august-10th.html",
     "domain": "themarketsdaily.com",
-    "when": "Aug 9 · 09:30z"
+    "when": "Aug 10 · 16:30z"
    },
    {
-    "title": "  Prices go up : Man shares how he built Rs 1 . 5 crore portfolio in 6 years starting with Rs 10 , 000",
-    "url": "https://www.moneycontrol.com/news/trends/prices-go-up-man-shares-how-he-built-rs-1-5-crore-portfolio-in-6-years-starting-with-rs-10-000-13998897.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 9 · 05:00z"
+    "title": "The skills you need for a career in private equity",
+    "url": "https://www.efinancialcareers.com/news/what-skills-private-equity",
+    "domain": "efinancialcareers.com",
+    "when": "Aug 10 · 20:45z"
    },
    {
-    "title": "There a 58 % Chance of a Fed Rate Hike in October . These Are Stocks to Buy Anyway . ",
-    "url": "https://www.fool.com/investing/2026/08/09/theres-a-58-chance-of-a-fed-rate-hike-in-october-t/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 9 · 10:45z"
-   },
-   {
-    "title": "Jim Cramer Weighs In on Space Equities : Rocket Lab ( RKLB ) vs . Voyager Technologies ( VOYG ) ",
-    "url": "https://www.insidermonkey.com/blog/jim-cramer-weighs-in-on-space-equities-rocket-lab-rklb-vs-voyager-technologies-voyg-1808287/",
+    "title": "QuidelOrtho Corporation ( QDEL ) Stock Positioned for Reweighting Towards Peers Amid Deleveraging",
+    "url": "https://www.insidermonkey.com/blog/quidelortho-corporation-qdel-stock-positioned-for-reweighting-towards-peers-amid-deleveraging-1808634/",
     "domain": "insidermonkey.com",
-    "when": "Aug 8 · 22:00z"
+    "when": "Aug 10 · 18:00z"
    },
    {
-    "title": "Top Real Estate Stocks To Watch Now – August 8th",
-    "url": "https://www.tickerreport.com/banking-finance/13535952/top-real-estate-stocks-to-watch-now-august-8th.html",
-    "domain": "tickerreport.com",
-    "when": "Aug 8 · 19:00z"
+    "title": "Cavendish taps top adviser to fend off foreign takeover raid",
+    "url": "https://www.cityam.com/cavendish-taps-top-adviser-to-fend-off-foreign-takeover-interest/",
+    "domain": "cityam.com",
+    "when": "Aug 10 · 13:00z"
    },
    {
-    "title": "AMD ( AMD ) Buys Taalas : Is AI Inference the Next Battleground With Nvidia ? ",
-    "url": "https://www.insidermonkey.com/blog/amd-amd-buys-taalas-is-ai-inference-the-next-battleground-with-nvidia-1808374/",
+    "title": "New York Law Journal Features Sterlington Matrimonial And Family Law Practice Launch - Divorce",
+    "url": "https://www.mondaq.com:443/unitedstates/divorce/1828554/new-york-law-journal-features-sterlingtons-matrimonial-and-family-law-practice-launch",
+    "domain": "mondaq.com",
+    "when": "Aug 10 · 15:00z"
+   },
+   {
+    "title": "Latigo Biotherapeutics Inc . - Insider Monkey",
+    "url": "https://www.insidermonkey.com/insider-trading/company/latigo+biotherapeutics+inc/2056611/",
     "domain": "insidermonkey.com",
-    "when": "Aug 8 · 22:00z"
+    "when": "Aug 11 · 01:00z"
    },
    {
-    "title": "Israel Englander Millennium Manages $240 Billion Across Thousands of Positions . Here the Strategy Behind His Success . ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/israel-englanders-millennium-manages-240-130500814.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 8 · 13:45z"
+    "title": "Rs . 220 Billion PM Housing Loans Approved , 15 % Disbursed",
+    "url": "https://propakistani.pk/2026/08/10/rs-220-billion-pm-housing-loans-approved15-disbursed/",
+    "domain": "propakistani.pk",
+    "when": "Aug 10 · 16:30z"
    },
    {
-    "title": "Orix Corp Ads Q1 Earnings Call Highlights",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/orix-corp-ads-q1-earnings-140402470.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 8 · 14:45z"
+    "title": "FDIC introduces contingent approval for de novo applicants",
+    "url": "https://www.americanbanker.com/news/fdic-introduces-contingent-approval-for-de-novo-applicants",
+    "domain": "americanbanker.com",
+    "when": "Aug 10 · 22:15z"
    },
    {
-    "title": "Contrasting RHB Capital Bhd . ( RHBAF ) and Its Rivals",
-    "url": "https://www.tickerreport.com/banking-finance/13535560/contrasting-rhb-capital-bhd-rhbaf-and-its-rivals.html",
-    "domain": "tickerreport.com",
-    "when": "Aug 8 · 12:15z"
+    "title": "4 AI Stocks Built to Outlast the Hype",
+    "url": "https://investorplace.com/smartmoney/2026/08/4-ai-stocks-built-to-outlast-the-hype/",
+    "domain": "investorplace.com",
+    "when": "Aug 10 · 15:30z"
    },
    {
-    "title": "The Numbers Behind ON Semiconductor ( ON ) Higher Target and Unchanged Hold Rating",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/numbers-behind-semiconductor-higher-target-115228254.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 8 · 12:30z"
+    "title": "It hot . So are people who can help hedge funds predict the weather",
+    "url": "https://www.efinancialcareers.com/news/it-s-hot-so-are-people-who-can-help-hedge-funds-predict-the-weather",
+    "domain": "efinancialcareers.com",
+    "when": "Aug 10 · 20:45z"
+   },
+   {
+    "title": "Rio Tinto ( RIO ) 43 % Earnings Surge : Sustainable Growth or Commodity Mirage ? ",
+    "url": "https://www.insidermonkey.com/blog/rio-tinto-rios-43-earnings-surge-sustainable-growth-or-commodity-mirage-1806212/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 10 · 13:45z"
+   },
+   {
+    "title": "Why the Amlitelimab Setback Isnt Enough to Sink Sanofi Multi - Billion Dollar Engine",
+    "url": "https://www.insidermonkey.com/blog/why-the-amlitelimab-setback-isnt-enough-to-sink-sanofis-multi-billion-dollar-engine-1804700/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 11 · 01:00z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
@@ -569,82 +581,94 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Iconic luxury brand confirms more store closures through 2027",
-    "url": "https://finance.yahoo.com/economy/articles/iconic-luxury-brand-confirms-more-163300732.html",
+    "title": "Inflation Date , Earnings Momentum and Other Key Things to Watch this Week",
+    "url": "https://finance.yahoo.com/economy/articles/inflation-date-earnings-momentum-other-170002840.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 7 · 04:45z"
+    "when": "Aug 10 · 23:45z"
    },
    {
-    "title": "Saudi retail , F & B market resilient as consumer spending hits $113bn",
-    "url": "https://tradearabia.com:443/News/466303/Saudi-retail-FandB-market-resilient-as-consumer-spending-hits-$113bn/RET",
-    "domain": "tradearabia.com",
-    "when": "Aug 7 · 03:15z"
+    "title": "Premiumisation to bolster retail portfolio : Senior DLF executive",
+    "url": "https://www.business-standard.com/companies/news/dlf-expects-retail-performance-to-hold-up-amid-premiumisation-momentum-126080900430_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 10 · 13:00z"
    },
    {
-    "title": "Google AI shopping results will reshape retail search budgets",
-    "url": "https://www.adnews.com.au/opinion/google-s-ai-shopping-results-will-reshape-retail-search-budgets",
-    "domain": "adnews.com.au",
-    "when": "Aug 6 · 23:45z"
+    "title": "What to Expect in Markets This Week : July Inflation Data , Plus Updates on US Consumer Spending and Sentiment",
+    "url": "https://finance.yahoo.com/economy/articles/expect-markets-week-july-inflation-100000261.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 10 · 19:00z"
    },
    {
-    "title": "July auto retail sales hit record high on rising rural demand",
-    "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/july-auto-retail-sales-hit-record-high-on-rising-rural-demand/articleshow/133014973.cms",
+    "title": "Adobe rolls out AI - powered product discovery for LLM shopping",
+    "url": "https://www.fonearena.com/blog/489248/adobe-ai-powered-product-discovery-llm-shopping.html",
+    "domain": "fonearena.com",
+    "when": "Aug 10 · 13:00z"
+   },
+   {
+    "title": "Summer at Retail , More Good Than Bad",
+    "url": "https://wwd.com/business-news/retail/retailing-q2-financial-expectations-july-figures-1239099489/",
+    "domain": "wwd.com",
+    "when": "Aug 10 · 22:00z"
+   },
+   {
+    "title": "AI Shopping Discovery : Why Product Data Matters",
+    "url": "https://www.business2community.com/artificial-intelligence/ai-shopping-discovery-product-data/",
+    "domain": "business2community.com",
+    "when": "Aug 10 · 23:30z"
+   },
+   {
+    "title": "PYMNTS | Yelp Lets Users Book Tables From Within ChatGPT",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/yelp-lets-users-book-tables-from-within-chatgpt/",
+    "domain": "pymnts.com",
+    "when": "Aug 10 · 23:30z"
+   },
+   {
+    "title": "RBA keeps interest rates on hold , warns house prices have further to fall",
+    "url": "https://www.afr.com/policy/economy/rba-warns-house-prices-have-further-to-fall-20260811-p60n8y",
+    "domain": "afr.com",
+    "when": "Aug 11 · 05:45z"
+   },
+   {
+    "title": "Most shoppers think CPG companies use inflation as an excuse",
+    "url": "https://www.supermarketnews.com/grocery-trends-data/most-shoppers-think-cpg-companies-use-inflation-as-an-excuse-report",
+    "domain": "supermarketnews.com",
+    "when": "Aug 10 · 21:15z"
+   },
+   {
+    "title": "Teamlease Services : Quick Commerce Set to Hire 35 - 40 % More Temporary Workers this Festive Season Amid Surge in Demand , ETRetail",
+    "url": "https://retail.economictimes.indiatimes.com/news/e-commerce/e-tailing/festive-rush-quick-commerce-firms-to-hire-35-40-more-temp-workers-demand-surges-for-tech-savvy-talent/133140738",
+    "domain": "retail.economictimes.indiatimes.com",
+    "when": "Aug 11 · 04:45z"
+   },
+   {
+    "title": "Qcomm Cos Plan Big Festive Offer : More Temp Jobs",
+    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/11/et-front/qcomm-cos-plan-big-festive-offer-more-temp-jobs/articleshow/133137574.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Aug 6 · 19:30z"
+    "when": "Aug 11 · 06:45z"
    },
    {
-    "title": "5 Current Trends Shaping Consumer Behavior Today",
-    "url": "https://smallbiztrends.com/current-trends-in-consumer-behavior/",
-    "domain": "smallbiztrends.com",
-    "when": "Aug 7 · 00:00z"
+    "title": "0260 presents : Time to Drive Car & Watch Festival",
+    "url": "https://en.worldtempus.com/article/business-news/0260-presents-time-drive-car-and-watch-festival-0260-83054.html",
+    "domain": "en.worldtempus.com",
+    "when": "Aug 10 · 13:00z"
    },
    {
-    "title": "Signifyd 2026 State of Fraud Report Reveals a Fundamental Shift in Ecommerce Fraud",
-    "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/signifyds-2026-state-of-fraud-report-reveals-a-fundamental-shift-in-ecommerce-fraud/2400109",
-    "domain": "manilatimes.net",
-    "when": "Aug 6 · 13:15z"
+    "title": "15 gifts for dogs under £50 - to spoil your furry friends",
+    "url": "https://www.womanandhome.com/life/national-spoil-your-dog-day-gift-ideas/",
+    "domain": "womanandhome.com",
+    "when": "Aug 10 · 13:00z"
    },
    {
-    "title": "Audi India confirms new Q3 , A5 and Q9 launches : Targets doubling market share",
-    "url": "https://timesofindia.indiatimes.com/auto/cars/audi-india-confirms-new-q3-a5-and-q9-launches-targets-doubling-market-share/articleshow/133030458.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Aug 7 · 10:45z"
+    "title": "Festive rush : Quick commerce firms to hire 35 - 40 % more temp workers , demand surges for tech - savvy talent",
+    "url": "https://economictimes.indiatimes.com/industry/services/retail/festive-rush-quick-commerce-firms-to-hire-35-40-more-temp-workers-demand-surges-for-tech-savvy-talent/articleshow/133131179.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 11 · 00:30z"
    },
    {
-    "title": "64 - year - old luxury giant closes at least 217 stores , plans more",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/64-old-luxury-giant-closes-023300411.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 7 · 03:15z"
-   },
-   {
-    "title": "Beijing Tries Yet Again to Beef Up Household Spending",
-    "url": "https://www.theepochtimes.com/opinion/beijing-tries-yet-again-to-beef-up-household-spending-6071450",
-    "domain": "theepochtimes.com",
-    "when": "Aug 6 · 22:15z"
-   },
-   {
-    "title": "Car Retail Sales July 2026 - Maruti , Tata , Mahindra , Hyundai , Toyota , Kia , Skoda VW , BMW , Mercedes",
-    "url": "https://www.rushlane.com/car-retail-sales-july-2026-maruti-tata-mahindra-hyundai-toyota-kia-12552612.html",
-    "domain": "rushlane.com",
-    "when": "Aug 6 · 16:15z"
-   },
-   {
-    "title": "Galaxy Macau and Ant Bank ( Macao ) Financial Services Station Launches , Driving New Growth in Tourism Consumption Through Fintech",
-    "url": "https://thestarphoenix.com/press-releases/pr-newswire/galaxy-macau-and-ant-bank-macao-financial-services-station-launches-driving-new-growth-in-tourism-consumption-through-fintech/",
-    "domain": "thestarphoenix.com",
-    "when": "Aug 7 · 08:45z"
-   },
-   {
-    "title": "FPIs pivot to India consumer economy , pour over Rs 25 , 000 crore into consumption , healthcare plays in July : Vallum Capital",
-    "url": "https://www.moneycontrol.com/news/business/markets/fpis-pivot-to-india-s-consumer-economy-pour-over-rs-25-000-crore-into-consumption-healthcare-plays-in-july-vallum-capital-13997361.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 7 · 06:00z"
-   },
-   {
-    "title": "In Focus | Chinese luxury brands rise from challengers to market shapers as global houses lose lustre",
-    "url": "https://www.scmp.com/economy/china-economy/article/3362270/chinese-luxury-brands-rise-challengers-market-shapers-global-houses-lose-lustre",
-    "domain": "scmp.com",
-    "when": "Aug 6 · 22:30z"
+    "title": "HelloNation Article Explains Why Arizona Brands Need Hands - On Fulfillment Partners , Featuring eCommerce Expert Jean Reehl",
+    "url": "https://www.itnewsonline.com/PRNewswire/HelloNation-Article-Explains-Why-Arizona-Brands-Need-Hands-On-Fulfillment-Partners-Featuring-eCommerce-Expert-Jean-Reehl/1141152",
+    "domain": "itnewsonline.com",
+    "when": "Aug 10 · 16:30z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
