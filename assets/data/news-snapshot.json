@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11 12:19z",
+ "generated": "2026-08-12 12:17z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -175,322 +175,358 @@
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Pacific Equity Partners bumps FleetPartners bid to $4 per share",
-    "url": "https://www.afr.com/street-talk/pacific-equity-partners-bumps-fleetpartners-bid-to-4-per-share-20260811-p60n97",
+    "title": "Equirus elevates Munish Aggarwal , Sandeep Gogia as co - heads of investment banking",
+    "url": "https://www.moneycontrol.com/news/business/equirus-elevates-munish-aggarwal-sandeep-gogia-as-co-heads-of-investment-banking-14002089.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 11 · 13:45z"
+   },
+   {
+    "title": "PYMNTS | Private Credit Firms Pull Back From Payment - In - Kind Perks",
+    "url": "https://www.pymnts.com/news/banking/2026/private-credit-firms-pull-back-from-payment-in-kind-perks/",
+    "domain": "pymnts.com",
+    "when": "Aug 12 · 04:45z"
+   },
+   {
+    "title": "Japan Orix bankers up to join FleetPartners M & A battle",
+    "url": "https://www.afr.com/street-talk/japan-s-orix-bankers-up-to-join-fleetpartners-m-and-a-battle-20260812-p60njy",
     "domain": "afr.com",
-    "when": "Aug 11 · 08:45z"
+    "when": "Aug 12 · 02:00z"
    },
    {
-    "title": "Westcoast seeks $30m for to get blades turning at Tassie wind farm",
-    "url": "https://www.afr.com/street-talk/westcoast-energy-seeks-30m-to-get-blades-spinning-at-tassie-wind-farm-20260810-p60n0s",
-    "domain": "afr.com",
-    "when": "Aug 11 · 08:45z"
+    "title": "NVIDIA Corporation ( NVDA ) and Naver : A $1 Billion AI Bet in South Korea",
+    "url": "https://www.insidermonkey.com/blog/nvidia-corporation-nvda-and-naver-a-1-billion-ai-bet-in-south-korea-1806605/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 11 · 19:00z"
    },
    {
-    "title": "PEP FleetPartners buyout fight heats up after being outbid by Element Fleet Management",
-    "url": "https://www.afr.com/street-talk/pep-lines-up-600m-plus-in-debt-as-fleetpartners-m-and-a-battle-heats-up-20260810-p60n05",
-    "domain": "afr.com",
-    "when": "Aug 11 · 02:15z"
+    "title": "Is Commvault Systems , Inc . ( CVLT ) A Good Investment Right Now ? ",
+    "url": "https://www.insidermonkey.com/blog/is-commvault-systems-inc-cvlt-a-good-investment-right-now-1807899/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 11 · 21:00z"
    },
    {
-    "title": "Bank Stocks To Keep An Eye On – August 10th",
-    "url": "https://www.themarketsdaily.com/2026/08/10/bank-stocks-to-keep-an-eye-on-august-10th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 10 · 16:30z"
+    "title": "IT services M & A records 449 deals worth $14 . 8 billion in H1 2026",
+    "url": "https://www.prokerala.com/news/articles/a1799451.html",
+    "domain": "prokerala.com",
+    "when": "Aug 12 · 09:45z"
    },
    {
-    "title": "The skills you need for a career in private equity",
-    "url": "https://www.efinancialcareers.com/news/what-skills-private-equity",
+    "title": "GCM Grosvenor Q2 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/gcm-grosvenor-q2-earnings-call-150426257.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 12 · 03:15z"
+   },
+   {
+    "title": "Top Real Estate Stocks To Follow Today – August 10th",
+    "url": "https://www.tickerreport.com/banking-finance/13539146/top-real-estate-stocks-to-follow-today-august-10th.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 12 · 01:30z"
+   },
+   {
+    "title": "How to negotiate a contract when youre hired by a hedge fund now",
+    "url": "https://www.efinancialcareers.com/news/hedge-fund-contract",
     "domain": "efinancialcareers.com",
-    "when": "Aug 10 · 20:45z"
+    "when": "Aug 11 · 20:15z"
    },
    {
-    "title": "QuidelOrtho Corporation ( QDEL ) Stock Positioned for Reweighting Towards Peers Amid Deleveraging",
-    "url": "https://www.insidermonkey.com/blog/quidelortho-corporation-qdel-stock-positioned-for-reweighting-towards-peers-amid-deleveraging-1808634/",
+    "title": "ExxonMobil Holdings Corporation ( XOM ) vs . Chevron Corporation ( CVX ): Trump Attacks the Oil Giants for Making  Too Much Money  ",
+    "url": "https://www.insidermonkey.com/blog/exxonmobil-holdings-corporation-xom-vs-chevron-corporation-cvx-trump-attacks-the-oil-giants-for-making-too-much-money-1806931/",
     "domain": "insidermonkey.com",
-    "when": "Aug 10 · 18:00z"
+    "when": "Aug 11 · 21:00z"
    },
    {
-    "title": "Cavendish taps top adviser to fend off foreign takeover raid",
-    "url": "https://www.cityam.com/cavendish-taps-top-adviser-to-fend-off-foreign-takeover-interest/",
-    "domain": "cityam.com",
-    "when": "Aug 10 · 13:00z"
+    "title": "Major alternative asset managers trade higher after Nvidia $500B AI financing deal ( BX : NYSE ) ",
+    "url": "https://seekingalpha.com/news/4630874-major-alternative-asset-managers-trade-higher-after-nvidias-500b-ai-financing-deal",
+    "domain": "seekingalpha.com",
+    "when": "Aug 11 · 17:00z"
    },
    {
-    "title": "New York Law Journal Features Sterlington Matrimonial And Family Law Practice Launch - Divorce",
-    "url": "https://www.mondaq.com:443/unitedstates/divorce/1828554/new-york-law-journal-features-sterlingtons-matrimonial-and-family-law-practice-launch",
-    "domain": "mondaq.com",
-    "when": "Aug 10 · 15:00z"
+    "title": "Could Arbutus Biopharma Corporation ( ABUS ) Turn its Moderna , Inc . ( MRNA ) Settlement Into a Lasting Biotech Advantage ? ",
+    "url": "https://finance.yahoo.com/healthcare/articles/could-arbutus-biopharma-corporation-abus-001821145.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 12 · 10:15z"
    },
    {
-    "title": "Latigo Biotherapeutics Inc . - Insider Monkey",
-    "url": "https://www.insidermonkey.com/insider-trading/company/latigo+biotherapeutics+inc/2056611/",
+    "title": "Curreen Capital : TriNet ( TNET ) is a  Crazy - Cheap  Turnaround",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/curreen-capital-trinet-tnet-crazy-124814202.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 11 · 13:15z"
+   },
+   {
+    "title": "The Boeing Company ( BA ) vs . Southwest Airlines Co . ( LUV ): A Long - Delayed Plane Finally Clears the Runway",
+    "url": "https://www.insidermonkey.com/blog/the-boeing-company-ba-vs-southwest-airlines-co-luv-a-long-delayed-plane-finally-clears-the-runway-1806922/",
     "domain": "insidermonkey.com",
-    "when": "Aug 11 · 01:00z"
+    "when": "Aug 11 · 21:00z"
    },
    {
-    "title": "Rs . 220 Billion PM Housing Loans Approved , 15 % Disbursed",
-    "url": "https://propakistani.pk/2026/08/10/rs-220-billion-pm-housing-loans-approved15-disbursed/",
-    "domain": "propakistani.pk",
-    "when": "Aug 10 · 16:30z"
-   },
-   {
-    "title": "FDIC introduces contingent approval for de novo applicants",
-    "url": "https://www.americanbanker.com/news/fdic-introduces-contingent-approval-for-de-novo-applicants",
-    "domain": "americanbanker.com",
-    "when": "Aug 10 · 22:15z"
-   },
-   {
-    "title": "4 AI Stocks Built to Outlast the Hype",
-    "url": "https://investorplace.com/smartmoney/2026/08/4-ai-stocks-built-to-outlast-the-hype/",
-    "domain": "investorplace.com",
-    "when": "Aug 10 · 15:30z"
-   },
-   {
-    "title": "It hot . So are people who can help hedge funds predict the weather",
-    "url": "https://www.efinancialcareers.com/news/it-s-hot-so-are-people-who-can-help-hedge-funds-predict-the-weather",
-    "domain": "efinancialcareers.com",
-    "when": "Aug 10 · 20:45z"
-   },
-   {
-    "title": "Rio Tinto ( RIO ) 43 % Earnings Surge : Sustainable Growth or Commodity Mirage ? ",
-    "url": "https://www.insidermonkey.com/blog/rio-tinto-rios-43-earnings-surge-sustainable-growth-or-commodity-mirage-1806212/",
+    "title": "Amazon . com , Inc . ( AMZN ) vs . Apple Inc . ( AAPL ): Hedge Funds Favor One over the Other",
+    "url": "https://www.insidermonkey.com/blog/amazon-com-inc-amzn-vs-apple-inc-aapl-hedge-funds-favor-one-over-the-other-1806617/",
     "domain": "insidermonkey.com",
-    "when": "Aug 10 · 13:45z"
-   },
-   {
-    "title": "Why the Amlitelimab Setback Isnt Enough to Sink Sanofi Multi - Billion Dollar Engine",
-    "url": "https://www.insidermonkey.com/blog/why-the-amlitelimab-setback-isnt-enough-to-sink-sanofis-multi-billion-dollar-engine-1804700/",
-    "domain": "insidermonkey.com",
-    "when": "Aug 11 · 01:00z"
+    "when": "Aug 11 · 21:00z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Best Renewable Energy Stocks To Follow Now – August 8th",
-    "url": "https://www.themarketsdaily.com/2026/08/08/best-renewable-energy-stocks-to-follow-now-august-8th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 8 · 18:30z"
+    "title": "Guyana Accelerates Gas - to - Energy Strategy with Latest Power Project Milestone",
+    "url": "http://www.businessghana.com/site/news/business/353911/Guyana-Accelerates-Gas-to-Energy-Strategy-with-Latest-Power-Project-Milestone",
+    "domain": "businessghana.com",
+    "when": "Aug 12 · 03:45z"
    },
    {
-    "title": "Top Renewable Energy Stocks To Watch Now – August 5th",
-    "url": "https://www.themarketsdaily.com/2026/08/08/top-renewable-energy-stocks-to-watch-now-august-5th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 8 · 17:45z"
+    "title": "Amazon giant Texas AI data center could unleash more CO₂ pollution than any power plant in America",
+    "url": "https://www.techradar.com/pro/amazons-new-texas-ai-data-center-could-become-the-biggest-co2-polluter-in-the-us-7-65gw-facility-gets-permit-to-spread-33-million-tons-of-annual-greenhouse-gases-despite-amazons-clean-energy-pledge",
+    "domain": "techradar.com",
+    "when": "Aug 11 · 23:15z"
    },
    {
-    "title": "Natural Resource Partners Q2 Earnings Call Highlights",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/natural-partners-q2-earnings-call-210354695.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 8 · 22:00z"
+    "title": "Only some Nebraska communities are earning big from solar and wind power",
+    "url": "https://grist.org/cities/some-nebraska-communities-are-cashing-in-on-renewables-others-are-being-left-behind/",
+    "domain": "grist.org",
+    "when": "Aug 12 · 09:15z"
    },
    {
-    "title": "360 Energy Pulse : What mattered this week in energy",
-    "url": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213043744.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 9 · 04:45z"
+    "title": "US Natural Gas Inventories to Hit 3 , 985 Bcf as EIA Cuts Henry Hub Price Forecast",
+    "url": "https://greentechlead.com/energy-news/us-natural-gas-inventories-to-hit-3985-bcf-as-eia-cuts-henry-hub-price-forecast-54687",
+    "domain": "greentechlead.com",
+    "when": "Aug 11 · 19:30z"
    },
    {
-    "title": "Bala Wunti appointed pioneer CEO of World Energy Council Nigeria",
-    "url": "https://dailypost.ng/2026/08/08/bala-wunti-appointed-pioneer-ceo-of-world-energy-council-nigeria/",
-    "domain": "dailypost.ng",
-    "when": "Aug 8 · 19:45z"
+    "title": "PUC allows Hawaiian Electric to seek renewable energy project proposals",
+    "url": "https://www.hawaiitribune-herald.com/2026/08/12/hawaii-news/puc-allows-hawaiian-electric-to-seek-renewable-energy-project-proposals/?HTH=283403d613b50a01b1ccb9008ed10dffd6d7b8c7",
+    "domain": "hawaiitribune-herald.com",
+    "when": "Aug 12 · 11:30z"
    },
    {
-    "title": "5 . 3 % Yield and Still Worth Buying : The Dividend Stock I Keep Adding To",
-    "url": "https://www.fool.com/investing/2026/08/08/53-yield-and-still-worth-buying-the-dividend-stock/",
-    "domain": "fool.com",
-    "when": "Aug 9 · 01:00z"
+    "title": "President Ilham Aliyev inspects construction progress of  Shams 1  and  Garbi Ufug  solar power plants in Nakhchivan [ PHOTOS / VIDEO ] ",
+    "url": "https://www.azernews.az/nation/262268.html",
+    "domain": "azernews.az",
+    "when": "Aug 11 · 20:15z"
    },
    {
-    "title": "California green energy fantasy is leaving residents in the dark – Daily News",
-    "url": "https://www.dailynews.com/2026/08/08/californias-green-energy-fantasy-is-leaving-residents-in-the-dark/",
-    "domain": "dailynews.com",
-    "when": "Aug 8 · 14:00z"
+    "title": "Between Suez and Hormuz , North Africa faces a silent economic squeeze",
+    "url": "https://weeklyblitz.net/2026/08/12/between-suez-and-hormuz-north-africa-faces-a-silent-economic-squeeze/",
+    "domain": "weeklyblitz.net",
+    "when": "Aug 12 · 04:45z"
    },
    {
-    "title": "Oman Sohar Industrial City secures $557m in H1 investments",
-    "url": "https://www.arabnews.com/node/2653980/business-economy",
-    "domain": "arabnews.com",
-    "when": "Aug 9 · 11:00z"
+    "title": "US - Iran crisis pushes oil to $87 , Nigeria gains $22 / barrel",
+    "url": "https://www.vanguardngr.com/2026/08/us-iran-crisis-pushes-oil-to-87-nigeria-gains-22-barrel-2/",
+    "domain": "vanguardngr.com",
+    "when": "Aug 12 · 06:45z"
    },
    {
-    "title": "Best Oil Stocks To Add to Your Watchlist – August 8th",
-    "url": "https://www.themarketsdaily.com/2026/08/08/best-oil-stocks-to-add-to-your-watchlist-august-8th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 8 · 17:45z"
+    "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
+    "url": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening",
+    "domain": "aljazeera.com",
+    "when": "Aug 12 · 04:15z"
    },
    {
-    "title": "سعودية تفوز بجائزة « أفضل طالبة » في أولمبياد العلوم النووية الدولي 2026",
-    "url": "https://www.okaz.com.sa/local/saudi-arabia/2260479",
-    "domain": "okaz.com.sa",
-    "when": "Aug 9 · 00:45z"
+    "title": "Korea unveils 7 tech projects for securing future growth engines",
+    "url": "https://www.koreatimes.co.kr/business/tech-science/20260812/korea-unveils-7-tech-projects-for-securing-future-growth-engines",
+    "domain": "koreatimes.co.kr",
+    "when": "Aug 12 · 09:00z"
    },
    {
-    "title": "Oil giants face backlash as Iran conflict fuels multi - billion - pound profits",
-    "url": "https://leftfootforward.org/2026/08/oil-giants-face-backlash-as-conflict-fuels-multi-billion-pound-profits/",
-    "domain": "leftfootforward.org",
-    "when": "Aug 9 · 11:15z"
+    "title": "President Donald Trump pivots back to sanctions for Iran as other strategies to end his war fizzle",
+    "url": "https://www.chicagotribune.com/2026/08/11/trump-sanctions-iran/",
+    "domain": "chicagotribune.com",
+    "when": "Aug 11 · 14:30z"
    },
    {
-    "title": "Andy Burnham vision for the north starts with Scottish onshore wind",
-    "url": "https://www.heraldscotland.com/politics/holyrood/26443881.andy-burnhams-vision-north-starts-scottish-onshore-wind/",
-    "domain": "heraldscotland.com",
-    "when": "Aug 8 · 13:45z"
+    "title": "Trump pivots back to sanctions for Iran as other strategies to end his war fizzle - Boston News , Weather , Sports",
+    "url": "https://whdh.com/news/trump-pivots-back-to-sanctions-for-iran-as-other-strategies-to-end-his-war-fizzle/",
+    "domain": "whdh.com",
+    "when": "Aug 11 · 15:30z"
    },
    {
-    "title": "Saudi Arabia Leads Nuclear Science Olympiad , Wins  Nuclear Science Ambassador  Title",
-    "url": "https://english.aawsat.com/varieties/5304907-saudi-arabia-leads-nuclear-science-olympiad-wins-nuclear-science-ambassador-title",
-    "domain": "english.aawsat.com",
-    "when": "Aug 9 · 06:15z"
+    "title": "Trump pivots to sanctions for Iran as other strategies fizzle – NBC New York",
+    "url": "https://www.nbcnewyork.com/news/national-international/trump-pivots-back-sanctions-iran-other-strategies-end-war-fizzle/6535519/",
+    "domain": "nbcnewyork.com",
+    "when": "Aug 11 · 13:45z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "How responsible mining will support SADC industrialisation | United Nations Economic Commission for Africa",
-    "url": "https://www.uneca.org/stories/how-responsible-mining-will-support-sadc-industrialisation",
-    "domain": "uneca.org",
-    "when": "Aug 10 · 10:15z"
+    "title": "GreenTech Begins Munni Munni Heritage Survey | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/alien-metals-limited-npv-di---ufo/greentech-begins-munni-munni-heritage-survey/9716735",
+    "domain": "investegate.co.uk",
+    "when": "Aug 12 · 06:30z"
    },
    {
-    "title": "Taliban Opaque Mining Deals in Afghanistan Raise $1T Worri",
-    "url": "https://www.pakistantoday.com.pk/2026/08/09/afghanistans-dollar1-trillion-mining-sector-plagued-by-opacity-talibans-insurgent-style-governance-us-think-tank",
-    "domain": "pakistantoday.com.pk",
-    "when": "Aug 9 · 19:30z"
+    "title": "Profits , production plummet at IOC as it aims for  strategic operational reset  ",
+    "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/ioc-finances-9.7303050",
+    "domain": "cbc.ca",
+    "when": "Aug 11 · 20:30z"
    },
    {
-    "title": "Elektros , Inc .: BREAKING NEWS : ELEKTROS Energizes Its Growth Story as Lithium , Critical Minerals and Advanced EV Charging Technology Reach a Broader Investment Audience",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69258606-elektros-inc-breaking-news-elektros-energizes-its-growth-story-as-lithium-critical-minerals-and-advanced-ev-charging-technology-reach-a-broader-i-200.htm",
+    "title": "Türkiye plans interagency push on critical minerals",
+    "url": "https://www.hurriyetdailynews.com/turkiye-plans-interagency-push-on-critical-minerals-225515",
+    "domain": "hurriyetdailynews.com",
+    "when": "Aug 12 · 09:00z"
+   },
+   {
+    "title": "Critical minerals being prioritised in trade , investment engagements : Govt tells Parliament",
+    "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/critical-minerals-being-prioritised-in-trade-investment-engagements-govt-tells-parliament/articleshow/133155781.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 11 · 13:45z"
+   },
+   {
+    "title": "Iron ore output nearly doubles to 312 MT in a decade ; limestone up 57 % under auction regime",
+    "url": "https://www.moneycontrol.com/news/business/economy/iron-ore-output-nearly-doubles-to-312-mt-in-a-decade-limestone-up-57-under-auction-regime-14003143.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 12 · 09:45z"
+   },
+   {
+    "title": "Mining nameplate capacity hides a critical mineral threat : study",
+    "url": "https://www.mining.com/minings-nameplate-capacity-hides-a-critical-mineral-threat-study/",
+    "domain": "mining.com",
+    "when": "Aug 11 · 16:30z"
+   },
+   {
+    "title": "Critical minerals production expands as global demand rises",
+    "url": "https://www.euronews.com/business/2026/08/11/critical-minerals-production-expands-as-global-demand-rises",
+    "domain": "euronews.com",
+    "when": "Aug 11 · 13:45z"
+   },
+   {
+    "title": "ELEKTROS Advances Lithium and EV Technology Vision as Demand for Critical ... ",
+    "url": "https://www.pr-inside.com/elektros-advances-lithium-and-ev-technology-vision-as-demand-for-critical-r5211183.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 11 · 14:45z"
+   },
+   {
+    "title": "TNR Gold Corp .: TNR Gold Schedules Annual General and Special Meeting",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69280338-tnr-gold-corp-tnr-gold-schedules-annual-general-and-special-meeting-296.htm",
     "domain": "finanznachrichten.de",
-    "when": "Aug 9 · 19:30z"
+    "when": "Aug 11 · 19:30z"
    },
    {
-    "title": "Elektros , Inc .: BREAKING NEWS : ELEKTROS Builds Positive Momentum as Lithium , Critical Minerals and Proprietary EV Charging Innovation Capture Growing Investor Attention",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69258663-elektros-inc-breaking-news-elektros-builds-positive-momentum-as-lithium-critical-minerals-and-proprietary-ev-charging-innovation-capture-growing-200.htm",
+    "title": "Lloyds Metals : Nomura downgrades to  Neutral , cuts target price to Rs 1 , 950 as valuation catches up",
+    "url": "https://www.moneycontrol.com/news/business/stocks/lloyds-metals-nomura-downgrades-to-neutral-cuts-target-price-to-rs-1-950-as-valuation-catches-up-14003244.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 12 · 09:45z"
+   },
+   {
+    "title": "Elektros , Inc .: ELEKTROS Expands Investor Focus on Sierra Leone Lithium , Critical Minerals and Advanced EV Charging Technology",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69279792-elektros-inc-elektros-expands-investor-focus-on-sierra-leone-lithium-critical-minerals-and-advanced-ev-charging-technology-200.htm",
     "domain": "finanznachrichten.de",
-    "when": "Aug 9 · 19:30z"
+    "when": "Aug 11 · 17:30z"
    },
    {
-    "title": "XCMG Electric Mining Push Featured in The Australian Financial Review",
-    "url": "https://www.thehindu.com/brandhub/pr-release/xcmgs-electric-mining-push-featured-in-the-australian-financial-review/article71327623.ece",
-    "domain": "thehindu.com",
-    "when": "Aug 10 · 10:30z"
+    "title": "Elektros , Inc .: ELEKTROS Advances Lithium and EV Technology Vision as Demand for Critical Minerals and Electrification Accelerates",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69278335-elektros-inc-elektros-advances-lithium-and-ev-technology-vision-as-demand-for-critical-minerals-and-electrification-accelerates-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 11 · 14:45z"
    },
    {
-    "title": "U $3b mineral drive spotlights Korea China - free supply chains",
-    "url": "https://www.koreaherald.com/article/10836241",
-    "domain": "koreaherald.com",
-    "when": "Aug 10 · 07:30z"
+    "title": "Rio Tinto Group ( OTCMKTS : RTNTF ) Shares Up 2 . 7 % – Here What Happened",
+    "url": "https://www.tickerreport.com/banking-finance/13539226/rio-tinto-group-otcmktsrtntf-shares-up-2-7-heres-what-happened.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 12 · 05:15z"
    },
    {
-    "title": "BREAKING NEWS : ELEKTROS Builds Positive Momentum as Lithium , Critical Minerals and Proprietary EV Charging Innovation Capture Growing Investor Attention",
-    "url": "http://www.clevelandstar.com/news/279228404/breaking-news-elektros-builds-positive-momentum-as-lithium-critical-minerals-and-proprietary-ev-charging-innovation-capture-growing-investor-attention",
-    "domain": "clevelandstar.com",
-    "when": "Aug 9 · 23:45z"
+    "title": "Metals of war : why US Govt has weaponised mining",
+    "url": "https://www.miningmx.com/top-story/66253-metals-of-war-why-us-govt-has-weaponised-mining/",
+    "domain": "miningmx.com",
+    "when": "Aug 11 · 18:00z"
    },
    {
-    "title": "BREAKING NEWS : ELEKTROS Enters the Investor Spotlight as Growing Market Awareness Highlights Its Sierra Leone Hard - Rock Lithium Vision and Proprietary EV Charging Technology",
-    "url": "http://www.saltlakecitysun.com/news/279227858/breaking-news-elektros-enters-the-investor-spotlight-as-growing-market-awareness-highlights-its-sierra-leone-hard-rock-lithium-vision-and-proprietary-ev-charging-technology",
-    "domain": "saltlakecitysun.com",
-    "when": "Aug 10 · 01:45z"
-   },
-   {
-    "title": "BREAKING NEWS : ELEKTROS Welcomes Expanding Market Awareness as Lithium , Critical Minerals and Patented EV Charging Technology Power Its Long - Term Opportunity",
-    "url": "http://www.saltlakecitysun.com/news/279228389/breaking-news-elektros-welcomes-expanding-market-awareness-as-lithium-critical-minerals-and-patented-ev-charging-technology-power-its-long-term-opportunity",
-    "domain": "saltlakecitysun.com",
-    "when": "Aug 10 · 01:45z"
-   },
-   {
-    "title": "BREAKING NEWS : ELEKTROS Energizes Its Growth Story as Lithium , Critical Minerals and Advanced EV Charging Technology Reach a Broader Investment Audience",
-    "url": "http://www.saltlakecitysun.com/news/279228399/breaking-news-elektros-energizes-its-growth-story-as-lithium-critical-minerals-and-advanced-ev-charging-technology-reach-a-broader-investment-audience",
-    "domain": "saltlakecitysun.com",
-    "when": "Aug 10 · 01:45z"
-   },
-   {
-    "title": "BREAKING NEWS : ELEKTROS Builds Market Momentum Around Its Hard - Rock Lithium , Critical Minerals and Advanced EV Charging Technology Strategy",
-    "url": "http://www.saltlakecitysun.com/news/279227852/breaking-news-elektros-builds-market-momentum-around-its-hard-rock-lithium-critical-minerals-and-advanced-ev-charging-technology-strategy",
-    "domain": "saltlakecitysun.com",
-    "when": "Aug 10 · 01:45z"
+    "title": "US and China are fighting over Congo critical minerals : How the battle could decide the future of EVs , AI and defence",
+    "url": "https://www.moneycontrol.com/world/us-and-china-are-fighting-over-congo-s-critical-minerals-how-the-battle-could-decide-the-future-of-evs-ai-and-defence-article-14002096.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 11 · 13:45z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "As US - China pharma rivalry heats up , can Hong Kong US$8b fund be the global bridge ? ",
-    "url": "https://www.scmp.com/business/china-business/article/3363320/us-china-pharma-rivalry-heats-can-hong-kongs-us8b-fund-be-global-bridge",
-    "domain": "scmp.com",
-    "when": "Aug 7 · 12:45z"
+    "title": "Drug services companies ride the ADC wave",
+    "url": "https://cen.acs.org/pharmaceuticals/adc-cdmo-pharmaceutical-services/104/web/2026/08",
+    "domain": "cen.acs.org",
+    "when": "Aug 11 · 20:15z"
    },
    {
-    "title": "China growth continues as country becomes clinical trial powerhouse",
-    "url": "https://finance.yahoo.com/healthcare/articles/china-growth-continues-country-becomes-140119026.html",
+    "title": "Phase 3 Data Support a Novel Mechanism for Male Hair Loss : Spokane Dermatologist Dr . Wm . Philip Werschler on the Significance of the Clascoterone Results",
+    "url": "https://www.manilatimes.net/2026/08/12/tmt-newswire/globenewswire/phase-3-data-support-a-novel-mechanism-for-male-hair-loss-spokane-dermatologist-dr-wm-philip-werschler-on-the-significance-of-the-clascoterone-results/2403407",
+    "domain": "manilatimes.net",
+    "when": "Aug 11 · 20:30z"
+   },
+   {
+    "title": "Why the Amlitelimab Setback Isnt Enough to Sink Sanofi Multi - Billion Dollar Engine",
+    "url": "https://finance.yahoo.com/healthcare/articles/why-amlitelimab-setback-isn-t-232940996.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 7 · 14:30z"
+    "when": "Aug 12 · 09:45z"
    },
    {
-    "title": "Eli Lilly offers new weight loss drug to some patients before FDA approval",
-    "url": "https://www.fox10phoenix.com/news/eli-lilly-retatrutide-early-access",
-    "domain": "fox10phoenix.com",
-    "when": "Aug 7 · 18:15z"
-   },
-   {
-    "title": "Andhra accounts for major share in US medicine exports",
-    "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Aug/08/andhra-accounts-for-major-share-in-us-medicine-exports",
-    "domain": "newindianexpress.com",
-    "when": "Aug 8 · 06:15z"
-   },
-   {
-    "title": "MRNA Stock Gets a Shot in the Arm as FDA Approves Moderna Flu Vaccine",
-    "url": "https://finance.yahoo.com/healthcare/articles/mrna-stock-gets-shot-arm-180120012.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 8 · 01:00z"
-   },
-   {
-    "title": "Global pharma giants turn to Chinese biotech to tap innovation , valuation growth",
-    "url": "https://www.scmp.com/business/china-business/article/3363398/global-pharma-giants-turn-chinese-biotech-tap-innovation-valuation-growth",
-    "domain": "scmp.com",
-    "when": "Aug 8 · 11:30z"
-   },
-   {
-    "title": "RiboX Therapeutics Announces FDA IND Clearance for RXIM002 , the first Circular RNA - Based in vivo CAR Therapy for Autoimmune Cytopenias",
-    "url": "http://www.prnewswire.com/news-releases/ribox-therapeutics-announces-fda-ind-clearance-for-rxim002-the-first-circular-rna-based-in-vivo-car-therapy-for-autoimmune-cytopenias-302846525.html",
+    "title": "New Drug Application for LAE002 ( afuresertib ) Accepted by China National Medical Products Administration",
+    "url": "https://www.prnewswire.com/news-releases/new-drug-application-for-lae002-afuresertib-accepted-by-chinas-national-medical-products-administration-302849031.html",
     "domain": "prnewswire.com",
-    "when": "Aug 8 · 08:45z"
+    "when": "Aug 12 · 02:30z"
    },
    {
-    "title": "Rinn Pharma & Biopharma to join NordicPharmaTrain network",
-    "url": "https://www.siliconrepublic.com/innovation/rinn-pharma-biopharma-nordicpharmatrain-network-ai-medicine",
-    "domain": "siliconrepublic.com",
-    "when": "Aug 7 · 14:30z"
+    "title": "FromBio Hits Limit - Up as Trading Resumes ; Curacle Surges on Follow - On Licensing Hopes [ K - Bio Puls ... ",
+    "url": "https://www.edaily.co.kr/News/Read?newsId=03348886645546664&mediaCodeNo=257",
+    "domain": "edaily.co.kr",
+    "when": "Aug 11 · 23:30z"
    },
    {
-    "title": "Is GRAIL ( GRAL ) Fairly Valued Following Galleri Adoption Growth And The FDA Panel Date ? ",
-    "url": "https://finance.yahoo.com/healthcare/articles/grail-gral-fairly-valued-following-051229636.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 8 · 06:00z"
+    "title": "Why clinical trials matter : Revolutionary new kidney treatments show what UAB can deliver for Alabama patients",
+    "url": "https://www.uab.edu/news/health-medicine/why-clinical-trials-matter-revolutionary-new-kidney-treatments-show-what-uab-can-deliver-for-alabama-patients",
+    "domain": "uab.edu",
+    "when": "Aug 11 · 19:30z"
    },
    {
-    "title": "Kalshi , Polymarket offer bets on clinical trials and FDA approvals : NPR",
-    "url": "https://www.npr.org/transcripts/nx-s1-5922530",
-    "domain": "npr.org",
-    "when": "Aug 8 · 05:00z"
+    "title": "Campbell unites pharmaceutical science , clinical research in future - focused degree - News",
+    "url": "https://news.campbell.edu/articles/campbell-unites-pharmaceutical-science-clinical-research-in-future-focused-degree/",
+    "domain": "news.campbell.edu",
+    "when": "Aug 11 · 15:30z"
    },
    {
-    "title": "Replimune Tudriqev wins FDA accelerated approval for melanoma",
-    "url": "https://www.bioworld.com/articles/733338-replimunes-tudriqev-wins-fda-accelerated-approval-for-melanoma",
-    "domain": "bioworld.com",
-    "when": "Aug 8 · 00:15z"
+    "title": "MMJ International Holdings : Dr . Oz Push to Expand Medicare CBD Access After European Regulators Could Not Establish Safety of Charlotte Web Hemp Extract",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69282315-mmj-international-holdings-dr-oz-s-push-to-expand-medicare-cbd-access-after-european-regulators-could-not-establish-safety-of-charlotte-s-web-hemp-e-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 12 · 03:00z"
    },
    {
-    "title": "FDA Elevates Risk of Recalled Antihistamine to Its Highest Level",
-    "url": "https://www.theepochtimes.com/us/fda-elevates-risk-of-recalled-antihistamine-to-its-highest-level-6072672",
-    "domain": "theepochtimes.com",
-    "when": "Aug 7 · 22:15z"
+    "title": "Nitinotes Announces Weill Cornell Medicine and NewYork - Presbyterian / Weill Cornell Medical Center Clinical Site Activation in the EASE™ IDE Trial",
+    "url": "https://www.prnewswire.com:443/news-releases/nitinotes-announces-weill-cornell-medicine-and-newyork-presbyterianweill-cornell-medical-center-clinical-site-activation-in-the-ease-ide-trial-302848361.html",
+    "domain": "prnewswire.com",
+    "when": "Aug 11 · 13:45z"
    },
    {
-    "title": "Could 1 Tiny Biotech Topple Vertex Pharmaceutical Cystic Fibrosis Empire ? ",
-    "url": "https://www.fool.com/investing/2026/08/07/could-1-tiny-biotech-topple-vertex-pharmaceuticals/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 7 · 20:30z"
+    "title": "Han Meng Is Building a Framework for FDA - Regulated Pharmaceutical Design",
+    "url": "https://www.ibtimes.co.uk/han-meng-framework-fda-regulated-pharmaceutical-design-1813726",
+    "domain": "ibtimes.co.uk",
+    "when": "Aug 12 · 07:30z"
+   },
+   {
+    "title": "Levita Magnetics Brings MARS Magnetic Surgery Platform to Florida for the First Time",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69288767-levita-magnetics-brings-mars-magnetic-surgery-platform-to-florida-for-the-first-time-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 12 · 10:45z"
+   },
+   {
+    "title": "Cannara Biotech ( OTCMKTS : CNBTF ) Trading Up 0 . 6 % – What Next ? ",
+    "url": "https://www.tickerreport.com/banking-finance/13539231/cannara-biotech-otcmktscnbtf-trading-up-0-6-whats-next.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 12 · 05:15z"
+   },
+   {
+    "title": "Medincell Dr Grace Kim to Participate in Piper Sandler CNS Symposium",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69279640-medincell-s-dr-grace-kim-to-participate-in-piper-sandler-cns-symposium-004.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 11 · 17:00z"
+   },
+   {
+    "title": "Biotech and Pharma Industry News | BioPharma Dive",
+    "url": "https://www.biopharmadive.com/?page=2&_sp=e2f0c61e-a7ab-441e-a390-91deb9fa0e23",
+    "domain": "biopharmadive.com",
+    "when": "Aug 11 · 20:15z"
+   },
+   {
+    "title": "Stake sale brewing in Orbicular Pharmaceutical Technologies targeting $1bn plus valuation",
+    "url": "https://www.moneycontrol.com/news/business/stake-sale-brewing-in-orbicular-pharmaceutical-technologies-targeting-1bn-plus-valuation-14002159.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 11 · 15:00z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
@@ -673,94 +709,88 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Trump , American Federalism , and the Geopolitics of Tariffs",
-    "url": "https://www.pressenza.com/2026/08/trump-american-federalism-and-the-geopolitics-of-tariffs/",
-    "domain": "pressenza.com",
-    "when": "Aug 9 · 03:00z"
+    "title": "Trade tensions strain EU - US ties",
+    "url": "http://global.chinadaily.com.cn/a/202608/12/WS6a7bde6ba310986e2b46a52f.html",
+    "domain": "global.chinadaily.com.cn",
+    "when": "Aug 12 · 10:00z"
    },
    {
-    "title": "Trade war puts Indonesia Batam on global factory map | The Arkansas Democrat - Gazette",
-    "url": "https://www.arkansasonline.com/news/2026/aug/09/trade-war-puts-indonesias-batam-on-global-factory/",
-    "domain": "arkansasonline.com",
-    "when": "Aug 9 · 08:45z"
+    "title": "U . S . solar trade barriers could boost Hanwha Solutions",
+    "url": "https://www.upi.com/Top_News/World-News/2026/08/11/hanwha-qcells-solar/9371786492822/",
+    "domain": "upi.com",
+    "when": "Aug 12 · 02:45z"
    },
    {
-    "title": "Donald Trump shoots from Senate shoulders to punish Russia , by making India and China pay",
-    "url": "https://timesofindia.indiatimes.com/world/us/donald-trump-shoots-from-senate-shoulders-to-punish-russia-by-making-india-and-china-pay/articleshow/133055904.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Aug 8 · 17:15z"
+    "title": "Passenger jet billed as China answer to Boeing and Airbus prepares to make first international flight",
+    "url": "https://www.aol.co.uk/articles/passenger-jet-billed-china-answer-020204000.html",
+    "domain": "aol.co.uk",
+    "when": "Aug 12 · 02:30z"
    },
    {
-    "title": "Peak Shipping Season Winds Down as Import Volumes Remain High",
-    "url": "https://wwd.com/sourcing-journal/logistics/as-peak-shipping-season-ends-volume-remains-high-1239097846/",
-    "domain": "wwd.com",
-    "when": "Aug 9 · 04:30z"
+    "title": "GM makes $4 . 5 billion parts deal to bolster supply chain",
+    "url": "https://www.cnbc.com/2026/08/11/gm-makes-4point5-billion-parts-deal-to-bolster-supply-chain.html",
+    "domain": "cnbc.com",
+    "when": "Aug 11 · 21:00z"
    },
    {
-    "title": "India economy well - insulated against US tariffs on Russian oil , says economist",
-    "url": "https://www.moneycontrol.com/news/trade/india-us/india-s-economy-well-insulated-against-us-tariffs-on-russian-oil-says-economist-13998867.html",
+    "title": "95 % of Retail Supply Chain Leaders Say Disruption is Now a Critical Business Issue",
+    "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/95-of-retail-supply-chain-leaders-say-disruption-is-now-a-critical-business-issue/2403065",
+    "domain": "manilatimes.net",
+    "when": "Aug 11 · 13:45z"
+   },
+   {
+    "title": "Trump , PM Modi will  work it out , says Navarro amid 100 % tariff threat :  They have a very good relationship ... ",
+    "url": "https://www.moneycontrol.com/world/trump-pm-modi-will-work-it-out-says-navarro-amid-100-tariff-threat-they-have-a-very-good-relationship-article-14002287.html",
     "domain": "moneycontrol.com",
-    "when": "Aug 9 · 05:00z"
+    "when": "Aug 12 · 03:00z"
    },
    {
-    "title": "360 Energy Pulse : What mattered this week in energy",
-    "url": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213043744.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 9 · 04:45z"
+    "title": "Fort Worth Weekly",
+    "url": "https://www.fwweekly.com/?ardent_ad=419618",
+    "domain": "fwweekly.com",
+    "when": "Aug 12 · 03:15z"
    },
    {
-    "title": "America hurting its own interest ; India well - insulated against US tariffs on Russian oil , expert says",
-    "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/america-hurting-its-own-interest-india-well-insulated-against-us-tariffs-on-russian-oil-expert-says/articleshow/133051948.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 8 · 12:30z"
+    "title": "Trump vs Brazil : The new battle for Latin America - A revival of the Monroe Doctrine ? ",
+    "url": "https://www.sott.net/article/507865-Trump-vs-Brazil-The-new-battle-for-Latin-America-A-revival-of-the-Monroe-Doctrine",
+    "domain": "sott.net",
+    "when": "Aug 12 · 01:30z"
    },
    {
-    "title": "Trump is about to get  unchecked authority  to impose tariffs of up to 100 % on top trading partners",
-    "url": "https://fortune.com/2026/08/08/trump-tariffs-100-percent-russia-sanctions-bill-congress-import-taxes/",
-    "domain": "fortune.com",
-    "when": "Aug 8 · 18:45z"
-   },
-   {
-    "title": "US Senate passes sweeping sanctions targeting Russian energy revenues",
-    "url": "https://www.africanews.com/2026/08/08/us-senate-passes-sweeping-sanctions-targeting-russian-energy-revenues/",
-    "domain": "africanews.com",
-    "when": "Aug 8 · 13:30z"
-   },
-   {
-    "title": "Meeks , Beyer Reiterate Concerns on Senate Passage of Russia Sanctions Bill",
-    "url": "https://www.globalsecurity.org/wmd/library/news/russia/2026/08/russia-260807-housecfa-democrats01.htm",
+    "title": "US House Launches Push For Sweeping Russia , Iran Sanctions Bill After Senate Landslide",
+    "url": "https://www.globalsecurity.org/wmd/library/news/russia/2026/08/russia-260811-rferl01.htm",
     "domain": "globalsecurity.org",
-    "when": "Aug 8 · 13:30z"
+    "when": "Aug 11 · 12:45z"
    },
    {
-    "title": "US Russia sanctions bill could tighten oil markets , put India energy security at risk , says Kpler : Report",
-    "url": "https://www.hindustantimes.com/india-news/us-russia-sanctions-bill-could-tighten-oil-markets-put-indias-energy-security-at-risk-says-kpler-report-101786261168022.html",
-    "domain": "hindustantimes.com",
-    "when": "Aug 9 · 09:00z"
+    "title": "A third round of tariffs",
+    "url": "https://www.krwg.org/local-viewpoints/2026-08-11/a-third-round-of-tariffs",
+    "domain": "krwg.org",
+    "when": "Aug 11 · 19:15z"
    },
    {
-    "title": "US Bill for 100 % India Tariff gets Senate Nod",
-    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/09/sunet-front/us-bill-for-100-india-tariff-gets-senate-nod/articleshow/133059238.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 9 · 05:45z"
-   },
-   {
-    "title": "India Insulated From US Tariffs on Russian Oil : Expert",
-    "url": "https://www.newkerala.com/news/a/america-actually-hurting-its-own-interest-indias-economy-750.htm",
-    "domain": "newkerala.com",
-    "when": "Aug 8 · 12:45z"
-   },
-   {
-    "title": "Russia sanctions bill may expose Indian exports to 100 % US tariff : GTRI",
-    "url": "https://idrw.org/russia-sanctions-bill-may-expose-indian-exports-to-100-us-tariff-gtri/",
-    "domain": "idrw.org",
-    "when": "Aug 9 · 05:45z"
-   },
-   {
-    "title": "Brazil bought $5 . 2 billion in Chinese cars , then pushed carmakers to open local factories",
-    "url": "https://finance.yahoo.com/economy/policy/articles/brazil-bought-5-2-billion-040800200.html",
+    "title": "Embraer S . A . Q2 2026 Earnings Call Summary",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/embraer-q2-2026-earnings-call-213050981.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 9 · 04:45z"
+    "when": "Aug 12 · 08:30z"
+   },
+   {
+    "title": "CXMT Hits 90 % Yield on 17nm DDR5 Chips , Closing the Gap With Micron & Others",
+    "url": "https://wccftech.com/cxmt-hits-90-yield-on-17nm-ddr5-chips-closing-the-gap-with-micron-others-report/",
+    "domain": "wccftech.com",
+    "when": "Aug 11 · 21:15z"
+   },
+   {
+    "title": "Zelenskyy Says Putin Is Set To Escalate The War Further . He Is Calling For More Sanctions And Support . ",
+    "url": "https://www.ibtimes.com/zelenskyy-says-putin-set-escalate-war-further-he-calling-more-sanctions-support-3806279",
+    "domain": "ibtimes.com",
+    "when": "Aug 11 · 14:45z"
+   },
+   {
+    "title": "AI Is Not Just For The Big Boys",
+    "url": "https://www.forbes.com/sites/stevebanker/2026/08/11/ai-is-not-just-for-the-big-boys/",
+    "domain": "forbes.com",
+    "when": "Aug 11 · 21:00z"
    }
   ]
  }
