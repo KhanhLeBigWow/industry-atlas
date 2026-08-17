@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16 11:53z",
+ "generated": "2026-08-17 11:59z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -83,186 +83,180 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "GCCs building AI and cloud teams on back of seasoned IT talent",
-    "url": "https://economictimes.indiatimes.com/tech/information-tech/gccs-building-ai-and-cloud-teams-on-back-of-seasoned-it-talent/articleshow/133188712.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 13 · 03:00z"
-   },
-   {
-    "title": "Technology Stocks To Follow Now – August 11th",
-    "url": "https://www.themarketsdaily.com/2026/08/12/technology-stocks-to-follow-now-august-11th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 12 · 21:30z"
-   },
-   {
-    "title": "Global Market : Singtel Q1 profit beats estimates on strong Optus , regional contributions",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-singtel-q1-profit-beats-estimates-on-strong-optus-regional-contributions/articleshow/133201364.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 13 · 07:15z"
-   },
-   {
-    "title": "Why Nebius Stock Skyrocketed Today | The Motley Fool",
-    "url": "https://www.fool.com/investing/2026/08/12/why-nebius-stock-skyrocketed-today/?source=iedfolrf0000001",
+    "title": "Amazon , Alphabet , and Microsoft Are Dropping Nearly $600 Billion on Capital Expenditures : 1 Clear Winner Emerges",
+    "url": "https://www.fool.com/investing/2026/08/16/amazon-alphabet-and-microsoft-are-dropping-nearly/",
     "domain": "fool.com",
-    "when": "Aug 13 · 01:45z"
+    "when": "Aug 17 · 05:15z"
    },
    {
-    "title": "FinancialContent - Entegris , Penguin Solutions , Seagate , Applied Materials , and KLA Corporation Shares Are Soaring , What You Need To Know",
-    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-12-entegris-penguin-solutions-seagate-applied-materials-and-kla-corporation-shares-are-soaring-what-you-need-to-know",
-    "domain": "markets.financialcontent.com",
-    "when": "Aug 12 · 19:00z"
+    "title": "Alibaba Sells Lingxi Games for Over $1 . 5 Billion Amid AI Push",
+    "url": "http://www.econotimes.com/Alibaba-Sells-Lingxi-Games-for-Over-15-Billion-Amid-AI-Push-1749613",
+    "domain": "econotimes.com",
+    "when": "Aug 17 · 06:00z"
    },
    {
-    "title": "You Skipped the AI Rally Because Retirement Felt Too Close . These 3 ETFs Get You In Without Betting Your Nest Egg",
-    "url": "https://247wallst.com/investing/etf/2026/08/12/you-skipped-the-ai-rally-because-retirement-felt-too-close-these-3-etfs-get-you-in-without-betting-your-nest-egg/",
-    "domain": "247wallst.com",
-    "when": "Aug 12 · 23:15z"
+    "title": "Alibaba to sell gaming arm for over $1 . 5 billion as AI focus deepens",
+    "url": "https://bestmediainfo.com/mediainfo/mediainfo-marketing/alibaba-to-sell-gaming-arm-for-over-15-billion-as-ai-focus-deepens-12266614",
+    "domain": "bestmediainfo.com",
+    "when": "Aug 17 · 06:15z"
    },
    {
-    "title": "New  Tokenomic Field Emerges as Firms Struggle To Measure Return on AI Spending",
-    "url": "https://www.ibtimes.co.uk/navigating-ai-spending-tokenomics-industry-standards-1813912",
-    "domain": "ibtimes.co.uk",
-    "when": "Aug 12 · 21:45z"
+    "title": "Laos to hold digital week to promote digital transformation , innovation",
+    "url": "http://www.bignewsnetwork.com/news/279246725/laos-to-hold-digital-week-to-promote-digital-transformation-innovation",
+    "domain": "bignewsnetwork.com",
+    "when": "Aug 17 · 11:00z"
    },
    {
-    "title": "Micron : Capacity Expansion To Capture Booming Memory Demand ( NASDAQ : MU ) ",
-    "url": "https://seekingalpha.com/article/4935299-micron-capacity-expansion-to-capture-booming-memory-demand",
-    "domain": "seekingalpha.com",
-    "when": "Aug 12 · 14:15z"
+    "title": "Celestica to create more than 2 , 100 jobs in Malaysia amid AI , cloud demand",
+    "url": "https://www.thestar.com.my/business/business-news/2026/08/17/celestica-to-create-more-than-2100-jobs-in-malaysia-amid-ai-cloud-demand",
+    "domain": "thestar.com.my",
+    "when": "Aug 17 · 11:00z"
    },
    {
-    "title": "Nebius has tripled in 2026 , but it can rise more , Bank of America says",
-    "url": "https://www.cnbc.com/2026/08/13/nebius-has-tripled-in-2026-but-it-can-rise-more-bank-of-america-says.html",
-    "domain": "cnbc.com",
-    "when": "Aug 13 · 11:15z"
+    "title": "STT GDC secures $1 . 75b green financing for Johor data centre campus",
+    "url": "https://sbr.com.sg/news/stt-gdc-secures-175b-green-financing-johor-data-centre-campus",
+    "domain": "sbr.com.sg",
+    "when": "Aug 17 · 06:15z"
    },
    {
-    "title": "Global majors bet on Tamil Nadu as Daimler , Saint - Gobain line up projects",
-    "url": "https://www.business-standard.com/industry/news/tamil-nadu-investment-conclave-daimler-saint-gobain-ykk-projects-126081300907_1.html",
+    "title": "Alibaba to sell its gaming arm for $1 . 5 billion in boost to AI pivot",
+    "url": "https://www.business-standard.com/world-news/alibaba-to-sell-its-gaming-arm-for-1-5-billion-in-boost-to-ai-pivot-126081700062_1.html",
     "domain": "business-standard.com",
-    "when": "Aug 13 · 11:00z"
+    "when": "Aug 17 · 04:30z"
    },
    {
-    "title": "Yihong Zou CySecure Targets Cybersecurity Fragmentation with Integrated AI - Driven Platform",
-    "url": "https://www.manilatimes.net/2026/08/13/tmt-newswire/plentisoft/yihong-zous-cysecure-targets-cybersecurity-fragmentation-with-integrated-ai-driven-platform/2404255",
-    "domain": "manilatimes.net",
-    "when": "Aug 12 · 17:15z"
+    "title": "Alibaba to sell gaming arm for $1 . 5 billion in boost to AI pivot",
+    "url": "https://www.thehindubusinessline.com/info-tech/alibaba-to-sell-gaming-arm-for-15-billion-in-boost-to-ai-pivot/article71354705.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Aug 17 · 04:45z"
    },
    {
-    "title": "Bangladesh AI Strategy : Cloud Computing vs Data Centres",
-    "url": "https://www.thedailystar.net/slow-reads/big-picture/news/bangladesh-going-the-wrong-way-ai-4246791",
-    "domain": "thedailystar.net",
-    "when": "Aug 13 · 10:45z"
+    "title": "Alibaba to sell gaming arm for US$1 . 5bil in boost to AI pivot",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/08/17/alibaba-to-sell-gaming-arm-for-us-1-5bil-in-boost-to-ai-pivot",
+    "domain": "freemalaysiatoday.com",
+    "when": "Aug 17 · 03:15z"
    },
    {
-    "title": "800 - TECH puts cybersecurity at centre of growth strategy",
-    "url": "https://trinidadexpress.com/business/local/800-tech-puts-cybersecurity-at-centre-of-growth-strategy/article_73cbaa49-8bc5-4125-b7c5-452134f9bf6a.html",
-    "domain": "trinidadexpress.com",
-    "when": "Aug 12 · 12:30z"
+    "title": "Insider Sale : Monolithic Power Systems Interim CFO Sells 105 Shares for $141 , 148",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/insider-sale-monolithic-power-systems-211501756.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 16 · 22:00z"
    },
    {
-    "title": "Economic affairs minister calls for regional digital sovereignty pact",
-    "url": "https://www.thenassauguardian.com/business/economic-affairs-minister-calls-for-regional-digital-sovereignty-pact/article_f1969b3c-d59f-4105-9211-9bd60e3ce3bb.html",
-    "domain": "thenassauguardian.com",
-    "when": "Aug 12 · 16:00z"
+    "title": "Alibaba to sell gaming arm for US$1 . 5 billion in boost to AI pivot : Bloomberg",
+    "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/alibaba-sell-gaming-arm-us1-5-billion-boost-ai-pivot-bloomberg",
+    "domain": "businesstimes.com.sg",
+    "when": "Aug 17 · 03:15z"
    },
    {
-    "title": "XtalPi Holdings Limited to Announce 2026 Interim Results on August 19 , 2026",
-    "url": "http://www.prnewswire.com/news-releases/xtalpi-holdings-limited-to-announce-2026-interim-results-on-august-19-2026-302850261.html",
-    "domain": "prnewswire.com",
-    "when": "Aug 13 · 02:00z"
+    "title": "Artificial Intelligence Stocks To Research – August 16th",
+    "url": "https://www.themarketsdaily.com/2026/08/16/artificial-intelligence-stocks-to-research-august-16th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 16 · 16:45z"
+   },
+   {
+    "title": "SEBI Launches Incident Reporting , Cyber Suraksha Portals To Strengthen Securities Market Cybersecurity",
+    "url": "https://www.freepressjournal.in/business/sebi-launches-incident-reporting-cyber-suraksha-portals-to-strengthen-securities-market-cybersecurity",
+    "domain": "freepressjournal.in",
+    "when": "Aug 17 · 09:45z"
+   },
+   {
+    "title": "Trump makes America Inc grip on the world even tighter",
+    "url": "https://www.smh.com.au/business/the-economy/trump-makes-america-inc-s-grip-on-the-world-even-tighter-20260817-p60ouz.html",
+    "domain": "smh.com.au",
+    "when": "Aug 17 · 02:30z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Equirus appoints two execs as investment banking co - heads",
-    "url": "https://www.vccircle.com/equirusappoints-two-execs-as-investment-banking-co-heads",
-    "domain": "vccircle.com",
-    "when": "Aug 12 · 16:15z"
+    "title": "Significant loss by major Wall Street trading firm",
+    "url": "https://www.wsws.org/en/articles/2026/08/17/gnmb-a17.html",
+    "domain": "wsws.org",
+    "when": "Aug 17 · 09:45z"
    },
    {
-    "title": "Lenders scrutinize US data center financing as community opposition builds",
-    "url": "https://bworldonline.com/technology/2026/08/13/769786/lenders-scrutinize-us-data-center-financing-as-community-opposition-builds/",
-    "domain": "bworldonline.com",
-    "when": "Aug 12 · 17:00z"
-   },
-   {
-    "title": "People Moves : IMA Expands Private Equity and M & A Practice",
-    "url": "https://www.insurancejournal.com/news/southcentral/2026/08/12/881271.htm",
-    "domain": "insurancejournal.com",
-    "when": "Aug 12 · 19:00z"
-   },
-   {
-    "title": "True North Copper readies equity raising , hires Morgans",
-    "url": "https://www.afr.com/street-talk/true-north-copper-readies-equity-raising-hires-morgans-20260812-p60nti",
+    "title": "Quadrant seeks buyer for Fitzpatricks Advice Partners",
+    "url": "https://www.afr.com/street-talk/quadrant-seeks-buyer-for-fitzpatricks-advice-partners-20260817-p60p38",
     "domain": "afr.com",
-    "when": "Aug 12 · 20:45z"
+    "when": "Aug 17 · 07:45z"
    },
    {
-    "title": "Ex NRL star rains redundancies at Man Shake ; eyes on interim CEO",
-    "url": "https://www.afr.com/street-talk/ex-nrl-star-rains-redundancies-at-man-shake-eyes-on-interim-ceo-20260810-p60mwo",
-    "domain": "afr.com",
-    "when": "Aug 13 · 03:30z"
+    "title": "Workday Has Its Best Day in a Decade on Report of a Potential $43 Billion Buyout",
+    "url": "https://www.insidermonkey.com/blog/workday-has-its-best-day-in-a-decade-on-report-of-a-potential-43-billion-buyout-1810889/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 16 · 20:30z"
    },
    {
-    "title": "Inghams takeover bid : Canadian investor PSP Investments eyes poultry giant after share price slump",
-    "url": "https://www.afr.com/street-talk/canadian-pensions-giant-psp-cooks-up-bid-for-inghams-20260813-p60o5j",
+    "title": "Tokyo to Bangkok : Ingenia pins hope on Supalai to tackle Peet bid",
+    "url": "https://www.afr.com/street-talk/tokyo-to-bangkok-ingenia-pins-hope-on-supalai-to-tackle-peet-bid-20260816-p60orn",
     "domain": "afr.com",
-    "when": "Aug 13 · 10:30z"
+    "when": "Aug 17 · 07:45z"
    },
    {
-    "title": "A & O Shearman swoops on Ashurst M & A partner amid revamped strategy",
-    "url": "https://www.afr.com/street-talk/a-and-o-shearman-swoops-on-ashurst-m-and-a-partner-amid-revamped-strategy-20260813-p60o17",
-    "domain": "afr.com",
-    "when": "Aug 13 · 07:15z"
+    "title": "UK hedge fund reported to Icelandic and united kingdom authorities | IceNews",
+    "url": "https://icenews.is/2008/04/12/uk-hedge-fund-reported-to-icelandic-and-uk-authorities/",
+    "domain": "icenews.is",
+    "when": "Aug 17 · 09:15z"
    },
    {
-    "title": "Macquarie mulls bid for $25b - plus Stack APAC data centres",
-    "url": "https://www.afr.com/street-talk/after-airtrunk-macquarie-mulls-bid-for-25b-plus-stack-apac-data-centres-20260813-p60o24",
+    "title": "Buyout giant Riverside puts $500m - plus allied healthcare business on the block",
+    "url": "https://www.afr.com/street-talk/buyout-giant-riverside-puts-500m-plus-allied-health-biz-on-the-block-20260817-p60owf",
     "domain": "afr.com",
-    "when": "Aug 13 · 10:30z"
+    "when": "Aug 17 · 07:45z"
    },
    {
     "title": "NBPE Announces Transaction in Own Shares | The Manila Times",
-    "url": "https://www.manilatimes.net/2026/08/13/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2404558",
+    "url": "https://www.manilatimes.net/2026/08/17/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2406527",
     "domain": "manilatimes.net",
-    "when": "Aug 13 · 06:30z"
+    "when": "Aug 17 · 07:30z"
    },
    {
-    "title": "Lenskart gets leg - up from international biz even as India expansion continues",
-    "url": "https://www.livemint.com/market/mark-to-market/lenskart-solutions-q1fy27-international-business-india-expansion-ebitda-margin-eyewear-retail-11786604384409.html",
-    "domain": "livemint.com",
-    "when": "Aug 13 · 09:15z"
+    "title": "JP Morgan targets bigger M & A role",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/jp-morgan-targets-bigger-ma-role/articleshow/133284734.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Aug 17 · 02:30z"
    },
    {
-    "title": "India financial sector saw some large foreign investments in recent months . Here a list",
-    "url": "https://www.thehindubusinessline.com/money-and-banking/indias-financial-sector-saw-some-large-foreign-investments-in-recent-months-heres-a-list/article71339454.ece",
+    "title": "UCBs : Past imperfect , present evolving as RBI revives on - tap licensing",
+    "url": "https://www.business-standard.com/opinion/columns/ucbs-past-imperfect-present-evolving-as-rbi-revives-on-tap-licensing-126081600276_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 16 · 12:00z"
+   },
+   {
+    "title": "Best Real Estate Stocks To Consider – August 16th",
+    "url": "https://www.themarketsdaily.com/2026/08/16/best-real-estate-stocks-to-consider-august-16th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 16 · 19:30z"
+   },
+   {
+    "title": "INVL fund invests in the fish processing sector : signs agreements to acquire Nordian Group and Norvelita",
+    "url": "https://www.manilatimes.net/2026/08/17/tmt-newswire/globenewswire/invl-fund-invests-in-the-fish-processing-sector-signs-agreements-to-acquire-nordian-group-and-norvelita/2406537",
+    "domain": "manilatimes.net",
+    "when": "Aug 17 · 07:30z"
+   },
+   {
+    "title": "Ecobank , Cornerstone Insurance , Africa Prudential top stock pick this week",
+    "url": "https://www.premiumtimesng.com/business/business-news/903492-ecobank-cornerstone-insurance-africa-prudential-top-stock-pick-this-week.html",
+    "domain": "premiumtimesng.com",
+    "when": "Aug 17 · 09:45z"
+   },
+   {
+    "title": "Letters to the Editor dated August 16 , 2026 - The HinduBusinessLine",
+    "url": "https://www.thehindubusinessline.com/opinion/letters-to-editor/article71353509.ece",
     "domain": "thehindubusinessline.com",
-    "when": "Aug 13 · 10:00z"
+    "when": "Aug 16 · 16:45z"
    },
    {
-    "title": "Karman Holding ( KRMN ) CEO Transition Strengthens the Long - Term Bull Case",
-    "url": "https://www.insidermonkey.com/blog/karman-holdings-krmn-ceo-transition-strengthens-the-long-term-bull-case-1809474/",
-    "domain": "insidermonkey.com",
-    "when": "Aug 12 · 14:30z"
+    "title": "Banks , fintechs report 42 , 082 suspicious transactions to NFI",
+    "url": "https://punchng.com/banks-fintechs-report-42082-suspicious-transactions-to-nfiu/",
+    "domain": "punchng.com",
+    "when": "Aug 17 · 02:30z"
    },
    {
-    "title": "Jim Cramer Highlights Willis Towers Watson Following July Gains",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-highlights-willis-towers-165206894.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 13 · 04:30z"
-   },
-   {
-    "title": "Amynta Group Buys Virginia - Based Southern States Underwriters MGU",
-    "url": "https://www.insurancejournal.com/news/east/2026/08/13/881307.htm",
-    "domain": "insurancejournal.com",
-    "when": "Aug 13 · 08:45z"
-   },
-   {
-    "title": "SpaceX ( SPCX ) and Northrop Grumman ( NOC ) Clear Golden Dome Test : Who Has More to Gain ? ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-northrop-grumman-noc-115136453.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 12 · 12:45z"
+    "title": "Partners Group closes $1b Asia private credit mandate",
+    "url": "https://www.dealstreetasia.com/stories/partners-group-asia-private-credit-492335",
+    "domain": "dealstreetasia.com",
+    "when": "Aug 17 · 09:15z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
@@ -433,82 +427,76 @@
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "Biotech and Pharma Industry News | BioPharma Dive",
-    "url": "https://www.biopharmadive.com/?page=2&_sp=9bf1beb6-bbfc-4e07-93f2-49854eb7826c",
-    "domain": "biopharmadive.com",
-    "when": "Aug 16 · 09:00z"
-   },
-   {
-    "title": " 《 TAIPEI TIMES 》 Taiwan could host more clinical trials - 焦點",
-    "url": "https://news.ltn.com.tw/news/focus/breakingnews/5541269",
-    "domain": "news.ltn.com.tw",
-    "when": "Aug 15 · 20:00z"
-   },
-   {
-    "title": "Why the Alnylam Sell - Off Looks Overdone -- and What Investors Are Missing",
-    "url": "https://www.fool.com/investing/2026/08/16/why-the-alnylam-sell-off-looks-overdone-and-what-i/?source=iedfolrf0000001",
+    "title": "2 GLP - 1 Stocks That Could Double Your Money by 2031",
+    "url": "https://www.fool.com/investing/2026/08/16/2-glp-1-stocks-that-could-double-your-money-by-203/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Aug 16 · 11:00z"
+    "when": "Aug 16 · 22:45z"
    },
    {
-    "title": "Gossamer Bio Nearing End of Drug Development Odyssey",
-    "url": "https://sdbj.com/life-sciences/pharmaceuticals/gossamer-bio-nearing-end-of-drug-development-odyssey/",
-    "domain": "sdbj.com",
-    "when": "Aug 16 · 01:30z"
+    "title": "Biotech and Pharma Industry News | BioPharma Dive",
+    "url": "https://www.biopharmadive.com/?page=2&_sp=0ac809aa-6822-4a89-8cd7-43c8e35eb822",
+    "domain": "biopharmadive.com",
+    "when": "Aug 17 · 00:00z"
    },
    {
-    "title": "Fortress Biotech ( NASDAQ : FBIO ) Announces Quarterly Earnings Results , Beats Estimates By $0 . 12 EPS",
-    "url": "https://www.themarketsdaily.com/2026/08/15/fortress-biotech-nasdaqfbio-announces-quarterly-earnings-results-beats-estimates-by-0-12-eps.html",
+    "title": "Drug Development Inputs & Services Stocks Q2 Recap : Benchmarking Medpace ( NASDAQ : MEDP ) ",
+    "url": "https://finance.yahoo.com/healthcare/articles/drug-development-inputs-services-stocks-003700580.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 17 · 01:15z"
+   },
+   {
+    "title": "Head - To - Head Survey : Clene ( NASDAQ : CLNN ) versus Isodiol International ( OTCMKTS : ISOLF ) ",
+    "url": "https://www.themarketsdaily.com/2026/08/16/head-to-head-survey-clene-nasdaqclnn-versus-isodiol-international-otcmktsisolf.html",
     "domain": "themarketsdaily.com",
-    "when": "Aug 15 · 15:00z"
+    "when": "Aug 16 · 15:30z"
    },
    {
-    "title": "You Want to Join a Clinical Trial : What to Know About the Hurdles",
-    "url": "https://www.moneytalksnews.com/you-want-to-join-a-clinical-trial-what-to-know-about-the-hurdles/",
-    "domain": "moneytalksnews.com",
-    "when": "Aug 15 · 14:00z"
+    "title": "AbelZeta Regains Global Rights of C - CAR039 ( Prizlon - cel ) and Receives FDA Clearance of IND Application in Large B - cell Lymphoma",
+    "url": "http://www.prnewswire.com/news-releases/abelzeta-regains-global-rights-of-c-car039-prizlon-cel-and-receives-fda-clearance-of-ind-application-in-large-b-cell-lymphoma-302852423.html",
+    "domain": "prnewswire.com",
+    "when": "Aug 17 · 05:15z"
    },
    {
-    "title": "Louisiana wants a bigger role in cancer drug trials . This patient is doing her part to help . ",
-    "url": "https://www.nola.com/entertainment_life/louisiana_health/louisiana-wants-a-bigger-role-in-cancer-drug-trials-this-patient-is-doing-her-part/article_cf59dc83-2dfc-4790-9180-3c3ec6212e63.html",
-    "domain": "nola.com",
-    "when": "Aug 16 · 10:00z"
-   },
-   {
-    "title": "Calgary company steps up to help combat screwworm in U . S . ",
-    "url": "https://www.cbc.ca/news/canada/calgary/screwworm-pharmaceutical-ivermectin-calgary-9.7307416",
-    "domain": "cbc.ca",
-    "when": "Aug 15 · 17:15z"
-   },
-   {
-    "title": "Promising Medical Stocks To Add to Your Watchlist – August 15th",
-    "url": "https://www.dailypolitical.com/2026/08/15/promising-medical-stocks-to-add-to-your-watchlist-august-15th.html",
-    "domain": "dailypolitical.com",
-    "when": "Aug 15 · 18:30z"
-   },
-   {
-    "title": "S Inc . Takes $14 . 92 Million Position in SPDR S & P Biotech ETF $XBI",
-    "url": "https://www.dailypolitical.com/2026/08/16/sco-inc-takes-14-92-million-position-in-spdr-sp-biotech-etf-xbi.html",
-    "domain": "dailypolitical.com",
-    "when": "Aug 16 · 11:15z"
-   },
-   {
-    "title": "Bangladesh seeks Omani partnership to develop AI , biotech sectors",
-    "url": "https://www.azernews.az/region/262425.html",
-    "domain": "azernews.az",
-    "when": "Aug 15 · 19:00z"
-   },
-   {
-    "title": "Shah Rukh , Ajay Devgn , Tiger Shroff now get notice from FDA Tukaram Mundhe over Vimal ad :  Explain in 15 days  ",
-    "url": "https://www.hindustantimes.com/india-news/shah-rukh-ajay-devgn-tiger-shroff-now-get-notice-from-fdas-tukaram-mundhe-over-vimal-ad-explain-in-15-days-101786858164467.html",
-    "domain": "hindustantimes.com",
-    "when": "Aug 16 · 07:15z"
-   },
-   {
-    "title": "Contrasting ODDITY Tech ( NASDAQ : ODD ) and Dermata Therapeutics ( NASDAQ : DRMA ) ",
-    "url": "https://www.themarketsdaily.com/2026/08/15/contrasting-oddity-tech-nasdaqodd-and-dermata-therapeutics-nasdaqdrma.html",
+    "title": "Top Biotech Stocks To Watch Now – August 16th",
+    "url": "https://www.themarketsdaily.com/2026/08/16/top-biotech-stocks-to-watch-now-august-16th.html",
     "domain": "themarketsdaily.com",
-    "when": "Aug 15 · 15:45z"
+    "when": "Aug 16 · 16:45z"
+   },
+   {
+    "title": "Pharmaceutical Stocks To Watch Today – August 16th",
+    "url": "https://www.themarketsdaily.com/2026/08/16/pharmaceutical-stocks-to-watch-today-august-16th.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 16 · 18:30z"
+   },
+   {
+    "title": "HCW Biologics Reports Wider Q2 Loss ; Flags Going - Concern Risk ; On Track For Phase 1 Data In Q4",
+    "url": "https://www.rttnews.com/3680888/hcw-biologics-reports-wider-q2-loss-flags-going-concern-risk-on-track-for-phase-1-data-in-q4.aspx",
+    "domain": "rttnews.com",
+    "when": "Aug 17 · 03:45z"
+   },
+   {
+    "title": "Henlius and Sandoz Enter Strategic Collaboration to Unlock Global Value of Biosimilars Platform",
+    "url": "http://www.prnewswire.com/news-releases/henlius-and-sandoz-enter-strategic-collaboration-to-unlock-global-value-of-biosimilars-platform-302852556.html",
+    "domain": "prnewswire.com",
+    "when": "Aug 17 · 05:15z"
+   },
+   {
+    "title": "  We Cannot Ignore Her : Fauci Resisted Studying Vaccine Side Effects Despite FDA Official Pressure",
+    "url": "https://redstate.com/kyle-becker/2026/08/16/we-cannot-ignore-her-fauci-resisted-studying-vaccine-side-effects-despite-fda-warning-n2205670",
+    "domain": "redstate.com",
+    "when": "Aug 16 · 18:45z"
+   },
+   {
+    "title": "Antimalarial compound hailed as  exciting step forward  in fight against disease",
+    "url": "https://www.aol.co.uk/articles/antimalarial-compound-hailed-exciting-step-230100000.html",
+    "domain": "aol.co.uk",
+    "when": "Aug 16 · 23:45z"
+   },
+   {
+    "title": "Bangladesh needs a medicine policy that serves both patients and producers",
+    "url": "https://www.thedailystar.net/opinion/views/news/bangladesh-needs-medicine-policy-serves-both-patients-and-producers-4249251",
+    "domain": "thedailystar.net",
+    "when": "Aug 17 · 06:00z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
@@ -599,76 +587,88 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "SM Investments posts 8 % H1 net income growth to P45 . 9B on sustained consumer demand",
-    "url": "https://www.manilatimes.net/2026/08/16/tmt-newswire/sm-investments-posts-8-h1-net-income-growth-to-p459b-on-sustained-consumer-demand/2406157",
-    "domain": "manilatimes.net",
-    "when": "Aug 15 · 17:45z"
+    "title": "US retail sales fall in July , raising concerns over consumer spending",
+    "url": "http://www.china.org.cn/2026-08/17/content_118650653.shtml",
+    "domain": "china.org.cn",
+    "when": "Aug 17 · 06:45z"
    },
    {
-    "title": "French vs English Luxury AI Citations : 34 % Brand Gap",
-    "url": "https://everything-pr.com/ai-language-citation-audit-2026-volume-three-french-english",
-    "domain": "everything-pr.com",
-    "when": "Aug 16 · 07:15z"
+    "title": "Best Ecommerce Stocks To Research – August 15th",
+    "url": "https://www.tickerreport.com/banking-finance/13546101/best-ecommerce-stocks-to-research-august-15th.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 16 · 17:00z"
    },
    {
-    "title": "From inspiration to influence : How India is leading the global luxury playbook this year",
-    "url": "https://www.hindustantimes.com/htcity/htcity-showstoppers/from-inspiration-to-influence-how-india-is-leading-the-global-luxury-playbook-this-year-101786794378270.html",
-    "domain": "hindustantimes.com",
-    "when": "Aug 15 · 12:30z"
+    "title": "Independence Day Sales Surge : Retailers Report Up to 25 % Growth , ETRetail",
+    "url": "https://retail.economictimes.indiatimes.com/news/industry/independence-day-sales-surge-up-to-25-lifting-festive-demand/133284440",
+    "domain": "retail.economictimes.indiatimes.com",
+    "when": "Aug 17 · 03:15z"
    },
    {
-    "title": "US Economy : Inflation eases but prices remain high , retail sales fall , jobless claims rise",
-    "url": "https://economictimes.indiatimes.com/news/international/world-news/us-economy-inflation-eases-but-prices-remain-high-retail-sales-fall-jobless-claims-rise/articleshow/133265747.cms",
+    "title": "Sales Rocket in a Burst of Tricolour",
+    "url": "https://economictimes.indiatimes.com/et-front/sales-rocket-in-a-burst-of-tricolour/articleshow/133282183.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Aug 15 · 17:15z"
+    "when": "Aug 17 · 01:00z"
    },
    {
-    "title": "Jim Cramer Continued To Keep The Faith In Ralph Lauren Corporation ( NYSE : RL ) CEO",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-continued-keep-faith-213135510.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 15 · 23:00z"
+    "title": "Independence Day sales surge up to 25 %, lifting festive demand",
+    "url": "https://economictimes.indiatimes.com/industry/services/retail/independence-day-sales-surge-up-to-25-lifting-festive-demand/articleshow/133280996.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 17 · 01:00z"
    },
    {
-    "title": "Japanese billionaire yacht spotted off Hawaii coast",
-    "url": "https://nypost.com/2026/08/15/us-news/japanese-billionaires-yacht-spotted-off-hawaii-coast/",
-    "domain": "nypost.com",
-    "when": "Aug 15 · 15:45z"
+    "title": "Kroger declining traffic not a surprise to some",
+    "url": "https://www.supermarketnews.com/grocery-trends-data/kroger-s-declining-traffic-not-a-surprise-to-some-social-media-reacts",
+    "domain": "supermarketnews.com",
+    "when": "Aug 17 · 05:00z"
    },
    {
-    "title": "5 things we learned about the economy this week : NPR",
-    "url": "https://www.npr.org/transcripts/nx-s1-5929422",
-    "domain": "npr.org",
-    "when": "Aug 15 · 20:00z"
+    "title": "Major united kingdom hotel owner with 410 employees collapses into administration",
+    "url": "https://www.express.co.uk/news/uk/2239681/major-uk-hotel-owner-410",
+    "domain": "express.co.uk",
+    "when": "Aug 16 · 22:45z"
    },
    {
-    "title": "American Auto Retreat From China Accelerates as GM and Ford Both Pull Back",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/american-auto-retreat-china-accelerates-104824554.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 15 · 14:30z"
+    "title": "US Stock Futures Steady as Cooling Inflation and Strong Earnings Support Markets",
+    "url": "http://www.econotimes.com/US-Stock-Futures-Steady-as-Cooling-Inflation-and-Strong-Earnings-Support-Markets-1749611",
+    "domain": "econotimes.com",
+    "when": "Aug 17 · 06:00z"
    },
    {
-    "title": "Consett parents  watering down baby milk formula  over high costs",
-    "url": "https://www.bbc.co.uk/news/articles/cpq8p82gq49o",
-    "domain": "bbc.co.uk",
-    "when": "Aug 16 · 09:45z"
+    "title": "US retail sales post sharpest decline in more than a year",
+    "url": "https://sana.sy/en/economic/2336786/",
+    "domain": "sana.sy",
+    "when": "Aug 17 · 00:45z"
    },
    {
-    "title": "What Really Behind Symbotic ( SYM ) Big Quarter ? ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/really-behind-symbotic-sym-big-093702283.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 16 · 10:15z"
+    "title": "Oil edges higher as Middle East tensions linger",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/08/17/oil-edges-higher-as-middle-east-tensions-linger",
+    "domain": "freemalaysiatoday.com",
+    "when": "Aug 17 · 03:00z"
    },
    {
-    "title": "  The most beautiful  perfume and candle bundle plummets from £530 to under £100",
-    "url": "https://www.somersetlive.co.uk/whats-on/shopping/sentier-advent-calendar-perfume-candle-11109974",
-    "domain": "somersetlive.co.uk",
-    "when": "Aug 15 · 14:30z"
+    "title": "Bata India Announces Q1 Results - Delivers Third Consecutive Quarter of Accelerating Growth",
+    "url": "https://www.business-standard.com/content/press-releases-ani/bata-india-announces-q1-results-delivers-third-consecutive-quarter-of-accelerating-growth-126081700545_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 17 · 08:45z"
    },
    {
-    "title": "Bangladeshi Expat Wins AED 100 , 000 in Big Ticket Series 289 Draw in Abu Dhabi",
-    "url": "https://gulfnews.com/uae/bangladeshi-expat-takes-home-dh100000-with-a-single-big-ticket-entry-1.500641391",
-    "domain": "gulfnews.com",
-    "when": "Aug 15 · 17:45z"
+    "title": "Markets live updates : NAB profit up but home lending declines , ASX tipped to slide",
+    "url": "https://www.abc.net.au/news/2026-08-17/asx-markets-business-live-news/107043886",
+    "domain": "abc.net.au",
+    "when": "Aug 17 · 00:00z"
+   },
+   {
+    "title": "D - St set for a negative opening as GIFT Nifty signals weak start",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133280296.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 17 · 03:00z"
+   },
+   {
+    "title": "Electronic Card Transactions : July 2026",
+    "url": "https://www.scoop.co.nz/stories/BU2608/S00152/electronic-card-transactions-july-2026.htm",
+    "domain": "scoop.co.nz",
+    "when": "Aug 17 · 03:45z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
