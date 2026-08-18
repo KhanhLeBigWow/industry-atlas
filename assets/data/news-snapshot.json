@@ -1,84 +1,66 @@
 {
- "generated": "2026-08-17 11:59z",
+ "generated": "2026-08-18 12:00z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "Stock Market Investors Just Got Bad News From the Federal Reserve",
-    "url": "https://www.fool.com/investing/2026/08/09/stock-market-investors-bad-news-federal-reserve/?source=iedfolrf0000001",
+    "title": "Citadel Warns High Treasury Yields Pose Broader Market Risks",
+    "url": "http://www.econotimes.com/Citadel-Warns-High-Treasury-Yields-Pose-Broader-Market-Risks-1749705",
+    "domain": "econotimes.com",
+    "when": "Aug 18 · 01:15z"
+   },
+   {
+    "title": "Asia shares decline as worries about rising oil prices outweigh boost from strong earnings",
+    "url": "https://www.newindianexpress.com/business/2026/Aug/18/asia-shares-decline-as-worries-about-rising-oil-prices-outweigh-boost-from-strong-earnings",
+    "domain": "newindianexpress.com",
+    "when": "Aug 18 · 05:45z"
+   },
+   {
+    "title": "Ive More Than Tripled My Stake in This Historically Cheap , High - Octane Dividend Stock That Yielding 13 . 2 % ",
+    "url": "https://www.fool.com/investing/2026/08/17/tripled-my-stake-in-cheap-dividend-stock-132-yield/",
     "domain": "fool.com",
-    "when": "Aug 9 · 09:45z"
+    "when": "Aug 17 · 13:30z"
    },
    {
-    "title": "Smart Investor : Stocks With Dividend Increases , Warsh New Approach , and Earnings Where Great Wasnt Good Enough",
-    "url": "https://www.morningstar.com/markets/smart-investor-stocks-with-dividend-increases-warshs-new-approach-earnings-where-great-wasnt-good-enough",
-    "domain": "morningstar.com",
-    "when": "Aug 8 · 14:00z"
+    "title": "Stocks Slip as Oil Prices Rise",
+    "url": "https://www.newser.com/story/394794/stocks-decline-as-oil-prices-rise.html",
+    "domain": "newser.com",
+    "when": "Aug 17 · 22:15z"
    },
    {
-    "title": "What Happens to a Bond ETF Price When the Fed Cuts Rates -- Using the Actual Historical Data",
-    "url": "https://www.fool.com/investing/2026/08/09/what-happens-bond-price-fed-cuts-rates-history/?source=iedfolrf0000001",
+    "title": "Fed Chair Kevin Warsh Has Inherited His Predecessor Trump Problem , and There No Easy Fix",
+    "url": "https://www.fool.com/investing/2026/08/18/fed-chair-kevin-warsh-has-inherited-trump-problem/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Aug 9 · 10:45z"
+    "when": "Aug 18 · 10:15z"
    },
    {
-    "title": "President Donald Trump Expected the Iran War to Drive the Stock Market  Down 20 % to 25 % -- His Prophecy May Still Come True",
-    "url": "https://www.fool.com/investing/2026/08/08/trump-iran-war-drive-stock-market-down-20-to-25/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 8 · 14:00z"
+    "title": "Nikkei slides as Middle East stalemate fuels oil , inflation concerns",
+    "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/nikkei-slides-middle-east-stalemate-fuels-oil-inflation-concerns",
+    "domain": "businesstimes.com.sg",
+    "when": "Aug 18 · 06:00z"
    },
    {
-    "title": "US stocks jump as employers unexpectedly cut 23 , 000 jobs , raising hopes that rate hikes can wait ( copy ) ",
-    "url": "https://www.messenger-inquirer.com/news/us-stocks-jump-as-employers-unexpectedly-cut-23-000-jobs-raising-hopes-that-rate-hikes/article_884fc466-2e03-5772-8f40-7edbb3942a8d.html",
-    "domain": "messenger-inquirer.com",
-    "when": "Aug 8 · 15:30z"
+    "title": "US stocks edge further from their record after oil prices rise | Chattanooga Times Free Press",
+    "url": "https://www.timesfreepress.com/news/2026/aug/17/us-stocks-edge-further-from-their-record-after/",
+    "domain": "timesfreepress.com",
+    "when": "Aug 18 · 04:45z"
    },
    {
-    "title": "Is  Trumpflation  real ? Why Wall Street fears this could be a reason for stock market crash",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/is-trumpflation-real-why-wall-street-fears-this-could-be-a-reason-for-stock-market-crash/articleshow/133066108.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 9 · 11:15z"
+    "title": "US stocks edge back from their record as oil prices rise",
+    "url": "http://www.thegazette.com/news/world/us-stocks-edge-back-from-their-record-as-oil-prices-rise/article_4539f5f4-eca6-5475-a6e9-3dad5e059877.html",
+    "domain": "thegazette.com",
+    "when": "Aug 17 · 19:00z"
    },
    {
-    "title": "Trump renews push to fire Fed Governor Lisa Cook",
-    "url": "https://www.ideastream.org/2026-08-07/trump-renews-push-to-fire-fed-governor-lisa-cook",
-    "domain": "ideastream.org",
-    "when": "Aug 8 · 14:00z"
+    "title": "US stocks hang near their record heights",
+    "url": "https://www.mcall.com/2026/08/17/financial-markets-retailers/",
+    "domain": "mcall.com",
+    "when": "Aug 17 · 17:00z"
    },
    {
-    "title": "Federal Reserve Maintains Focus on Inflation Despite Soft Jobs Data",
-    "url": "http://www.newseveryday.com/articles/64913/20260808/federal-reserve-maintains-focus-on-inflation-despite-soft-jobs-data.htm",
-    "domain": "newseveryday.com",
-    "when": "Aug 8 · 19:30z"
-   },
-   {
-    "title": "Older Homeowners Paying  Seniority Tax  When Refinancing Mortgages : Bankrate",
-    "url": "https://www.theepochtimes.com/business/older-homeowners-paying-seniority-tax-when-refinancing-mortgages-bankrate-6072194",
-    "domain": "theepochtimes.com",
-    "when": "Aug 8 · 13:45z"
-   },
-   {
-    "title": "Business : US unexpectedly loses jobs in blow to Trump ahead",
-    "url": "https://www.newvision.co.ug/category/business/us-unexpectedly-loses-jobs-in-blow-to-trump-a-NV_238474_082026",
-    "domain": "newvision.co.ug",
-    "when": "Aug 8 · 19:00z"
-   },
-   {
-    "title": "How the weak jobs report could make inflation harder to manage",
-    "url": "https://edition.cnn.com/2026/08/08/business/jobs-report-fed-warsh-inflation",
-    "domain": "edition.cnn.com",
-    "when": "Aug 9 · 04:00z"
-   },
-   {
-    "title": "Wall Street week ahead : inflation , retail sales updates",
-    "url": "https://www.wral.com/news/ap/1cf60-wall-street-week-ahead-inflation-retail-sales-updates/",
-    "domain": "wral.com",
-    "when": "Aug 8 · 12:00z"
-   },
-   {
-    "title": "Bitcoin breaks $65 , 000 : 4 factors fueling today BTC price surge",
-    "url": "https://arynews.tv/bitcoin-breaks-65000-4-factors-fueling-todays-btc-price-surge",
-    "domain": "arynews.tv",
-    "when": "Aug 8 · 12:15z"
+    "title": "US stocks hang near their record heights - Las Vegas Sun News",
+    "url": "https://lasvegassun.com/news/2026/aug/17/us-stocks-hang-near-their-record-heights/",
+    "domain": "lasvegassun.com",
+    "when": "Aug 17 · 18:30z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
@@ -169,94 +151,82 @@
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Significant loss by major Wall Street trading firm",
-    "url": "https://www.wsws.org/en/articles/2026/08/17/gnmb-a17.html",
-    "domain": "wsws.org",
-    "when": "Aug 17 · 09:45z"
+    "title": "Hedge fund tax break grips Hong Kong as banks fear exodus",
+    "url": "https://www.moneycontrol.com/news/business/hedge-fund-tax-break-grips-hong-kong-as-banks-fear-exodus-14008225.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 18 · 02:45z"
    },
    {
-    "title": "Quadrant seeks buyer for Fitzpatricks Advice Partners",
-    "url": "https://www.afr.com/street-talk/quadrant-seeks-buyer-for-fitzpatricks-advice-partners-20260817-p60p38",
+    "title": "Bank of America unassuming CEO has some jokes",
+    "url": "https://www.efinancialcareers.com/news/brian-moynihan-bank-of-america",
+    "domain": "efinancialcareers.com",
+    "when": "Aug 18 · 09:15z"
+   },
+   {
+    "title": "Mega funding round puts Constantinople on fast track to unicorn status",
+    "url": "https://www.afr.com/street-talk/constantinople-in-stealth-cash-call-on-fast-track-to-unicorn-status-20260818-p60pbn",
     "domain": "afr.com",
-    "when": "Aug 17 · 07:45z"
-   },
-   {
-    "title": "Workday Has Its Best Day in a Decade on Report of a Potential $43 Billion Buyout",
-    "url": "https://www.insidermonkey.com/blog/workday-has-its-best-day-in-a-decade-on-report-of-a-potential-43-billion-buyout-1810889/",
-    "domain": "insidermonkey.com",
-    "when": "Aug 16 · 20:30z"
-   },
-   {
-    "title": "Tokyo to Bangkok : Ingenia pins hope on Supalai to tackle Peet bid",
-    "url": "https://www.afr.com/street-talk/tokyo-to-bangkok-ingenia-pins-hope-on-supalai-to-tackle-peet-bid-20260816-p60orn",
-    "domain": "afr.com",
-    "when": "Aug 17 · 07:45z"
-   },
-   {
-    "title": "UK hedge fund reported to Icelandic and united kingdom authorities | IceNews",
-    "url": "https://icenews.is/2008/04/12/uk-hedge-fund-reported-to-icelandic-and-uk-authorities/",
-    "domain": "icenews.is",
-    "when": "Aug 17 · 09:15z"
-   },
-   {
-    "title": "Buyout giant Riverside puts $500m - plus allied healthcare business on the block",
-    "url": "https://www.afr.com/street-talk/buyout-giant-riverside-puts-500m-plus-allied-health-biz-on-the-block-20260817-p60owf",
-    "domain": "afr.com",
-    "when": "Aug 17 · 07:45z"
+    "when": "Aug 18 · 09:30z"
    },
    {
     "title": "NBPE Announces Transaction in Own Shares | The Manila Times",
-    "url": "https://www.manilatimes.net/2026/08/17/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2406527",
+    "url": "https://www.manilatimes.net/2026/08/18/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2407270",
     "domain": "manilatimes.net",
-    "when": "Aug 17 · 07:30z"
+    "when": "Aug 18 · 07:30z"
    },
    {
-    "title": "JP Morgan targets bigger M & A role",
-    "url": "https://timesofindia.indiatimes.com/business/india-business/jp-morgan-targets-bigger-ma-role/articleshow/133284734.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Aug 17 · 02:30z"
+    "title": "10 New Firms Join Insurance Journal Top 100 Independent Agencies",
+    "url": "https://www.insurancejournal.com/news/national/2026/08/18/881935.htm",
+    "domain": "insurancejournal.com",
+    "when": "Aug 18 · 06:15z"
    },
    {
-    "title": "UCBs : Past imperfect , present evolving as RBI revives on - tap licensing",
-    "url": "https://www.business-standard.com/opinion/columns/ucbs-past-imperfect-present-evolving-as-rbi-revives-on-tap-licensing-126081600276_1.html",
-    "domain": "business-standard.com",
-    "when": "Aug 16 · 12:00z"
+    "title": "Bernhard buying , selling companies , targeting $1 . 5B fund | Business News",
+    "url": "https://www.nola.com/news/business/bernhard-capital-deals-exits-launching-fund/article_ac7c55b0-c725-4209-8bc9-8fe26fb23f5c.html",
+    "domain": "nola.com",
+    "when": "Aug 17 · 19:00z"
    },
    {
-    "title": "Best Real Estate Stocks To Consider – August 16th",
-    "url": "https://www.themarketsdaily.com/2026/08/16/best-real-estate-stocks-to-consider-august-16th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 16 · 19:30z"
+    "title": "Billionaire Bill Ackman Just Invested in Netflix Stock . Here Why Investors Should Care . ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-ackman-just-invested-182500429.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 17 · 19:00z"
    },
    {
-    "title": "INVL fund invests in the fish processing sector : signs agreements to acquire Nordian Group and Norvelita",
-    "url": "https://www.manilatimes.net/2026/08/17/tmt-newswire/globenewswire/invl-fund-invests-in-the-fish-processing-sector-signs-agreements-to-acquire-nordian-group-and-norvelita/2406537",
-    "domain": "manilatimes.net",
-    "when": "Aug 17 · 07:30z"
+    "title": "Credo ( CRDO ) Soars Ahead of Earnings , Revenues Seen to More - Than - Double",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/credo-crdo-soars-ahead-earnings-014918463.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 18 · 02:30z"
    },
    {
-    "title": "Ecobank , Cornerstone Insurance , Africa Prudential top stock pick this week",
-    "url": "https://www.premiumtimesng.com/business/business-news/903492-ecobank-cornerstone-insurance-africa-prudential-top-stock-pick-this-week.html",
-    "domain": "premiumtimesng.com",
-    "when": "Aug 17 · 09:45z"
+    "title": "Quant ratings on Appaloosa Management top holdings : AMZN , MU , TSM ( AMZN : NASDAQ ) ",
+    "url": "https://seekingalpha.com/news/4633889-quant-ratings-on-appaloosa-managements-top-holdings-amzn-mu-tsm",
+    "domain": "seekingalpha.com",
+    "when": "Aug 17 · 19:00z"
    },
    {
-    "title": "Letters to the Editor dated August 16 , 2026 - The HinduBusinessLine",
-    "url": "https://www.thehindubusinessline.com/opinion/letters-to-editor/article71353509.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 16 · 16:45z"
+    "title": "Closing the Gap with PPLI and PPVA in Estate Planning",
+    "url": "https://natlawreview.com/article/sunset-gone-income-tax-remains-ppli-ppva-solution",
+    "domain": "natlawreview.com",
+    "when": "Aug 17 · 21:15z"
    },
    {
-    "title": "Banks , fintechs report 42 , 082 suspicious transactions to NFI",
-    "url": "https://punchng.com/banks-fintechs-report-42082-suspicious-transactions-to-nfiu/",
-    "domain": "punchng.com",
-    "when": "Aug 17 · 02:30z"
+    "title": "Retail Investors Just Sold Space Exploration Technologies Corp . ( SPCX ) for the First Time . The Stock Also Just Reclaimed Its IPO Price",
+    "url": "https://www.insidermonkey.com/blog/retail-investors-just-sold-space-exploration-technologies-corp-spcx-for-the-first-time-the-stock-also-just-reclaimed-its-ipo-price-1809868/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 17 · 19:15z"
    },
    {
-    "title": "Partners Group closes $1b Asia private credit mandate",
-    "url": "https://www.dealstreetasia.com/stories/partners-group-asia-private-credit-492335",
-    "domain": "dealstreetasia.com",
-    "when": "Aug 17 · 09:15z"
+    "title": "Search Fund Accelerator pays entrepreneurs to buy companies | Innovation",
+    "url": "https://www.nola.com/news/business/innovation/new-orleans-firm-search-fund-accelerator-pays-entrepreneurs-to-find-companies-worth-buying/article_e42b2990-7f93-4bbb-a8d3-d8385a799ea0.html",
+    "domain": "nola.com",
+    "when": "Aug 17 · 19:00z"
+   },
+   {
+    "title": "General Atlantic is working with JPMorgan to lead fresh IPO push",
+    "url": "https://www.moneycontrol.com/news/business/general-atlantic-is-working-with-jpmorgan-to-lead-fresh-ipo-push-14008515.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 18 · 05:45z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
@@ -501,88 +471,82 @@
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "Avtar Steel files IPO papers with SEBI ; aims to raise ₹585 crore",
-    "url": "https://www.thehindubusinessline.com/markets/avtar-steel-files-ipo-papers-with-sebi-aims-to-raise-585-crore/article71348739.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 15 · 08:30z"
+    "title": "TCR Nadcap Approval Gives Indian MSMEs Aerospace Supply Chain Access",
+    "url": "https://www.siliconindia.com/news/general/tcrs-nadcap-approval-gives-indian-msmes-aerospace-supply-chain-access-nid-241953-cid-1.html",
+    "domain": "siliconindia.com",
+    "when": "Aug 18 · 04:15z"
    },
    {
-    "title": "MIDHANI Becomes First Indian Company to Secure GE Aerospace S400 Certification for Advanced Material Testing",
-    "url": "https://idrw.org/midhani-becomes-first-indian-company-to-secure-ge-aerospace-s400-certification-for-advanced-material-testing/",
+    "title": "Diplomatic Momentum : Ambassador Gor discusses US - India cooperation in aerospace and defence with drone manufacturer",
+    "url": "https://idrw.org/diplomatic-momentum-ambassador-gor-discusses-us-india-cooperation-in-aerospace-and-defence-with-drone-manufacturer/",
     "domain": "idrw.org",
-    "when": "Aug 15 · 03:30z"
+    "when": "Aug 18 · 03:00z"
    },
    {
-    "title": "Defense Maritime Solutions Expanda Chesapeake , Virginia , Production Operations",
-    "url": "https://www.areadevelopment.com/newsItems/8-14-2026/defense-maritime-solutions-chesapeake-virginia.shtml",
-    "domain": "areadevelopment.com",
-    "when": "Aug 15 · 01:30z"
+    "title": "RTX Stock Rises on Massive $22 . 9 Billion Tomahawk Contract",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/rtx-stock-rises-massive-22-171805645.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 17 · 17:45z"
    },
    {
-    "title": "Albers Aerospace expands its defense manufacturing in Tucson",
-    "url": "https://www.kvoa.com/news/local/albers-aerospace-expands-its-defense-manufacturing-in-tucson/article_44db81b2-dddd-4a86-9c93-5eee78c72872.html",
-    "domain": "kvoa.com",
-    "when": "Aug 14 · 21:00z"
+    "title": "Space Tech : The Web Around SpaceX - Los Angeles Business Journal",
+    "url": "https://labusinessjournal.com/special-reports/space-tech-the-web-around-spacex/",
+    "domain": "labusinessjournal.com",
+    "when": "Aug 17 · 18:45z"
    },
    {
-    "title": "Reliance - Rolls - Royce Partnership : New Combat Engine Plan For India AMCA Fighter Jet Explained",
-    "url": "https://www.oneindia.com/business/reliance-rolls-royce-partnership-new-combat-engine-plan-for-indias-amca-fighter-jet-explained-8176529.html",
-    "domain": "oneindia.com",
-    "when": "Aug 14 · 15:00z"
-   },
-   {
-    "title": "Strategic Shift : Analyzing India Evolving Long - Range Defense and Missile Architecture",
-    "url": "https://idrw.org/strategic-shift-analyzing-indias-evolving-long-range-defense-and-missile-architecture/",
-    "domain": "idrw.org",
-    "when": "Aug 15 · 03:30z"
-   },
-   {
-    "title": "HAL Partners with Adani Defence and BEML to Boost Prachand LCH Fuselage Production",
-    "url": "https://idrw.org/hal-partners-with-adani-defence-and-beml-to-boost-prachand-lch-fuselage-production/",
-    "domain": "idrw.org",
-    "when": "Aug 14 · 13:15z"
-   },
-   {
-    "title": "Logistics Data Bank crosses 10 crore EXIM container tracking milestone",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260814/4487061.html",
-    "domain": "news.webindia123.com",
-    "when": "Aug 14 · 12:00z"
-   },
-   {
-    "title": "HAL partners with Adani Defence , BEML to produce LCH Prachand",
-    "url": "https://www.business-standard.com/companies/news/hal-partners-with-adani-defence-beml-to-produce-lch-prachand-126081401786_1.html",
-    "domain": "business-standard.com",
-    "when": "Aug 14 · 16:00z"
-   },
-   {
-    "title": "Cemtrex Reports Third Quarter Fiscal 2026 Financial Results",
-    "url": "https://www.manilatimes.net/2026/08/15/tmt-newswire/globenewswire/cemtrex-reports-third-quarter-fiscal-2026-financial-results/2406016",
-    "domain": "manilatimes.net",
-    "when": "Aug 14 · 21:15z"
-   },
-   {
-    "title": "HAL partners with Adani defence systems and BEML for production of Light Combat Helicopter",
-    "url": "https://www.thehindu.com/news/national/karnataka/hal-partners-with-adani-defence-systems-and-beml-for-production-of-light-combat-helicopter/article71345037.ece",
-    "domain": "thehindu.com",
-    "when": "Aug 14 · 14:00z"
-   },
-   {
-    "title": "PMGC Holdings Inc . [ NASDAQ : ELAB ] Reports Q2 2026 Results and Files Form 10 - Q ; Total Assets Reach $36 . 6 Million , Up 184 % from Year - End 2025 and 290 % Year - over - Year , as Quarterly Revenue Nearly Doubles Sequentially",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69317085-pmgc-holdings-inc-nasdaq-elab-reports-q2-2026-results-and-files-form-10-q-total-assets-reach-dollar-36-6-million-up-184-from-year-end-2025-and-290-y-399.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Aug 14 · 14:00z"
-   },
-   {
-    "title": "Reliance Industries , Rolls - Royce announce strategic intent to partner on indigenous AMCA combat engine",
-    "url": "https://economictimes.indiatimes.com/news/defence/reliance-industries-rolls-royce-announce-strategic-intent-to-partner-on-indigenous-amca-combat-engine/articleshow/133241434.cms",
+    "title": "Mukul Agrawal - backed PTC Industries shares slip 4 % despite 466 % surge in Q1 profit and 180 % EBITDA growth",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/mukul-agrawal-backed-ptc-industries-shares-slip-4-despite-466-surge-in-q1-profit-and-180-ebitda-growth/articleshow/133312725.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Aug 14 · 13:30z"
+    "when": "Aug 18 · 06:45z"
    },
    {
-    "title": "Innovation is key to America staying a superpower . But it is missing an essential piece",
-    "url": "https://foxwilmington.com/innovation-is-key-to-america-staying-a-superpower-but-it-is-missing-an-essential-piece/",
-    "domain": "foxwilmington.com",
-    "when": "Aug 14 · 15:30z"
+    "title": "Seoul shares open higher on tech gains amid Middle East concerns",
+    "url": "https://www.koreatimes.co.kr/economy/20260818/seoul-shares-open-higher-on-tech-gains-amid-middle-east-concerns",
+    "domain": "koreatimes.co.kr",
+    "when": "Aug 18 · 02:00z"
+   },
+   {
+    "title": "Seoul shares trim earlier gains late Tuesday morning as investors lock in gains",
+    "url": "https://www.koreatimes.co.kr/economy/20260818/seoul-shares-trim-earlier-gains-late-tuesday-morning-as-investors-lock-in-gains",
+    "domain": "koreatimes.co.kr",
+    "when": "Aug 18 · 06:30z"
+   },
+   {
+    "title": "Russian Strikes Driving Ukraine Military Industry Into Systemic Crisis",
+    "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260817-sputnik01.htm",
+    "domain": "globalsecurity.org",
+    "when": "Aug 18 · 10:15z"
+   },
+   {
+    "title": "Germany updates : new drone resarch center to be opened",
+    "url": "https://www.dw.com/en/germany-updates-new-drone-resarch-center-to-be-opened/live-78407037",
+    "domain": "dw.com",
+    "when": "Aug 18 · 08:00z"
+   },
+   {
+    "title": "US Envoy Gor holds talks with General Atomics , Armenia Envoy , Cummins CEO to boost cooperation",
+    "url": "https://news.webindia123.com/news/Articles/World/20260817/4488135.html",
+    "domain": "news.webindia123.com",
+    "when": "Aug 17 · 20:00z"
+   },
+   {
+    "title": "Connectivity keeps global trade on even keel",
+    "url": "http://usa.chinadaily.com.cn/a/202608/18/WS6a83ba05a3106bc57421c0b1.html",
+    "domain": "usa.chinadaily.com.cn",
+    "when": "Aug 18 · 08:15z"
+   },
+   {
+    "title": "USA Rare Earth Just Shifted From Building to Delivering . Here What That Means for the Stock . ",
+    "url": "https://www.fool.com/investing/2026/08/17/usa-rare-earth-just-shifted-from-building-to/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 17 · 19:45z"
+   },
+   {
+    "title": "Incremental investment",
+    "url": "https://www.business-standard.com/opinion/columns/incremental-investment-126081701489_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 17 · 17:45z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
@@ -673,88 +637,82 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "TACO No More : How Trump Won on Tariffs",
-    "url": "https://finance.yahoo.com/economy/policy/articles/trump-won-quiet-victory-over-090000782.html",
+    "title": "LeBlanc meets top Trump officials with new tariffs 2 days away - National",
+    "url": "https://globalnews.ca/news/12024045/leblanc-trump-officials-tariffs/",
+    "domain": "globalnews.ca",
+    "when": "Aug 17 · 19:00z"
+   },
+   {
+    "title": "US transshipment  scam  claims put Asean exporters in a bind",
+    "url": "https://www.scmp.com/week-asia/politics/article/3364381/us-transshipment-scam-claims-put-asean-exporters-bind",
+    "domain": "scmp.com",
+    "when": "Aug 18 · 06:45z"
+   },
+   {
+    "title": "US , Canada hold last - minute talks to stop 50 % U . S . tariffs on $20 billion worth of Canadian goods",
+    "url": "https://economictimes.indiatimes.com/news/international/world-news/us-canada-hold-last-minute-talks-to-stop-50-u-s-tariffs-on-20-billion-worth-of-canadian-goods/articleshow/133311329.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 18 · 05:00z"
+   },
+   {
+    "title": "US , Canada hold last - minute talks to stop 50 % tariffs on Canadian goods",
+    "url": "https://www.business-standard.com/world-news/us-canada-hold-last-minute-talks-to-stop-50-tariffs-on-canadian-goods-126081800167_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 18 · 05:15z"
+   },
+   {
+    "title": "U . S . to impose 50 % tariff on Canadian goods Wednesday unless deal can be reached",
+    "url": "https://www.fox17online.com/news/local-news/michigan/u-s-to-impose-50-tariff-on-canadian-goods-wednesday-unless-new-deal-can-be-reached",
+    "domain": "fox17online.com",
+    "when": "Aug 17 · 16:45z"
+   },
+   {
+    "title": "Trump vows tougher economic pressure on Iran : What could he do next ? ",
+    "url": "https://www.dailysabah.com/business/economy/trump-vows-tougher-economic-pressure-on-iran-what-could-he-do-next",
+    "domain": "dailysabah.com",
+    "when": "Aug 17 · 13:30z"
+   },
+   {
+    "title": "How this Georgia factory is surviving America solar policy whiplash",
+    "url": "https://grist.org/energy/how-this-georgia-factory-is-surviving-americas-solar-policy-whiplash/",
+    "domain": "grist.org",
+    "when": "Aug 18 · 10:45z"
+   },
+   {
+    "title": "Trump Prepares New Economic Blows Against Iran . China Could Be Caught in the Crossfire . ",
+    "url": "https://www.ibtimes.com/trump-prepares-new-economic-blows-against-iran-china-could-caught-crossfire-3806492",
+    "domain": "ibtimes.com",
+    "when": "Aug 17 · 20:15z"
+   },
+   {
+    "title": "Trump , Carney talk trade as negotiators battle over autos",
+    "url": "https://www.businesstimes.com.sg/international/trump-carney-talk-trade-negotiators-battle-over-autos",
+    "domain": "businesstimes.com.sg",
+    "when": "Aug 18 · 06:00z"
+   },
+   {
+    "title": "Bonds Face a Bigger Threat Than the Fed as Global Rates Climb",
+    "url": "https://finance.yahoo.com/economy/policy/articles/bonds-face-bigger-threat-fed-120000846.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 16 · 08:00z"
+    "when": "Aug 17 · 21:15z"
    },
    {
-    "title": "Trump  forever  tariffs are kicking in for the long haul – and US consumers are footing the bill",
-    "url": "https://www.salon.com/2026/08/16/trumps-forever-tariffs-are-kicking-in-for-the-long-haul-and-us-consumers-are-footing-the-bill-partner/",
-    "domain": "salon.com",
-    "when": "Aug 16 · 11:30z"
+    "title": "Iran wary of more economic pain : What else could the Trump administration do ? ",
+    "url": "https://www.businesstoday.in/world/story/iran-wary-of-more-economic-pain-what-else-could-the-trump-administration-do-549684-2026-08-18",
+    "domain": "businesstoday.in",
+    "when": "Aug 18 · 04:30z"
    },
    {
-    "title": "No meat in Meat Institute claims",
-    "url": "http://www.bozemandailychronicle.com/opinion/guest-columns/no-meat-in-meat-institute-s-claims/article_2f7f0c29-54ff-4296-b398-4bfb89232e99.html",
-    "domain": "bozemandailychronicle.com",
-    "when": "Aug 15 · 14:30z"
+    "title": "The end of USMCA would have a surprisingly small impact on the Canadian economy",
+    "url": "https://www.theglobeandmail.com/business/commentary/article-the-end-of-usmca-would-have-a-surprisingly-small-impact-on-the/",
+    "domain": "theglobeandmail.com",
+    "when": "Aug 18 · 01:00z"
    },
    {
-    "title": "How they voted , Aug 16 , 2026",
-    "url": "https://www.santafenewmexican.com/news/briefs/how-they-voted-aug-16-2026/article_c59c07bd-5064-4fa2-bc05-535bdb170c86.html",
-    "domain": "santafenewmexican.com",
-    "when": "Aug 16 · 01:45z"
-   },
-   {
-    "title": "GM , Ford secure Army truck contracts under new national security rules",
-    "url": "https://www.bostonherald.com/2026/08/15/gm-ford-secure-army-truck-contracts-under-new-national-security-rules/",
-    "domain": "bostonherald.com",
-    "when": "Aug 16 · 01:00z"
-   },
-   {
-    "title": "How Iowans feel about Trump tariffs , Canada treatment as Republicans vie for support",
-    "url": "https://www.cbc.ca/news/politics/trump-tariffs-canada-united-states-iowa-state-fair-trade-deal-9.7308691",
-    "domain": "cbc.ca",
-    "when": "Aug 16 · 09:00z"
-   },
-   {
-    "title": "How They Voted : Colorado congressional votes for Aug . 7 - 13 , 2026",
-    "url": "https://www.dailycamera.com/2026/08/15/how-they-voted-colorado-congressional-votes-for-aug-7-13-2026/",
-    "domain": "dailycamera.com",
-    "when": "Aug 15 · 13:30z"
-   },
-   {
-    "title": "Drone Tariff Rally Hits Engineering Wall : Magnets and Batteries Stay China - Made",
-    "url": "https://www.techtimes.com/articles/324566/20260815/drone-tariff-rally-hits-engineering-wall-magnets-batteries-stay-china-made.htm",
-    "domain": "techtimes.com",
-    "when": "Aug 15 · 13:15z"
-   },
-   {
-    "title": "  Heart of this battle : U . S . Sen . Ed Markey discusses affordability at Holyoke Community College forum",
-    "url": "https://www.yahoo.com/news/politics/articles/heart-battle-u-sen-ed-200408047.html",
-    "domain": "yahoo.com",
-    "when": "Aug 15 · 23:30z"
-   },
-   {
-    "title": "Amazon brings back  no class - action  clause : Why customers may have to fight disputes outside court",
-    "url": "https://www.livemint.com/companies/news/amazon-brings-back-no-class-action-clause-why-customers-may-have-to-fight-disputes-outside-court-11786795867903.html",
-    "domain": "livemint.com",
-    "when": "Aug 15 · 14:30z"
-   },
-   {
-    "title": "What Bessent economic isolation of Iran could look like",
-    "url": "https://www.moneycontrol.com/world/what-bessent-s-economic-isolation-of-iran-could-look-like-article-14006503.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 15 · 16:30z"
-   },
-   {
-    "title": "Anish Shah - led Mahindra renews global push after cutting losses",
-    "url": "https://www.livemint.com/companies/mahindra-and-mahindra-anish-shah-scorpio-lifestyler-bolero-pikup-hyundai-11786798770480.html",
-    "domain": "livemint.com",
-    "when": "Aug 15 · 14:30z"
-   },
-   {
-    "title": "World News Today Live Updates on August 16 , 2026 : Russia might not win the prolonged  war of attrition  against Ukraine , Moscow chief economist warns : Here why",
-    "url": "https://www.livemint.com/news/world/total-world-latest-news-on-august-16-2026-live-updates-11786862844862.html",
-    "domain": "livemint.com",
-    "when": "Aug 16 · 07:15z"
-   },
-   {
-    "title": "Target strengthens inventory management with digital twins",
-    "url": "https://finance.yahoo.com/technology/ai/articles/target-strengthens-inventory-management-digital-103436646.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 15 · 12:30z"
+    "title": "We call it a trade war , Washington calls it self - inflicted",
+    "url": "https://torontosun.com/opinion/columnists/canadas-trade-folly-courting-china-while-clashing-with-america",
+    "domain": "torontosun.com",
+    "when": "Aug 18 · 00:00z"
    }
   ]
  }
