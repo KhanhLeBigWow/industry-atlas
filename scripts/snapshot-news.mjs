@@ -22,7 +22,14 @@ const DESKS = [
   { id: "health", q: '(pharmaceutical OR biotech OR FDA OR "drug prices" OR "clinical trial")' },
   { id: "industrial", q: '(aerospace OR defense OR shipping OR manufacturing OR logistics)' },
   { id: "consumer", q: '(retail OR "consumer spending" OR ecommerce OR luxury)' },
-  { id: "geo", q: '(tariffs OR sanctions OR "trade war" OR "supply chain" OR geopolitics)' }
+  { id: "geo", q: '(tariffs OR sanctions OR "trade war" OR "supply chain" OR geopolitics)' },
+  /* the school's desk-track wires (keys must match the desk pages verbatim) */
+  { id: "desk-pca", q: '("continuation vehicle" OR "secondaries market" OR "GP stakes" OR "private equity secondaries" OR "secondaries fund")' },
+  { id: "desk-ma", q: '("mergers and acquisitions" OR takeover OR "definitive agreement" OR "all-cash deal" OR "to acquire")' },
+  { id: "desk-ecm", q: '(IPO OR "initial public offering" OR "follow-on offering" OR "block trade" OR "convertible notes")' },
+  { id: "desk-dcm", q: '("high yield" OR "leveraged loan" OR "bond issuance" OR "private credit" OR "debt financing")' },
+  { id: "desk-rx", q: '(bankruptcy OR "chapter 11" OR restructuring OR "distressed debt" OR "debt exchange")' },
+  { id: "desk-cov", q: '("acquisition of" OR "agreed to acquire" OR "strategic review" OR divestiture OR "take-private")' }
 ];
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];

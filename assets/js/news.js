@@ -29,10 +29,16 @@
   /* Daily snapshot fallback: a GitHub Action saves the desk headlines to
      assets/data/news-snapshot.json once a day, so the Terminal still shows
      the last daily sweep when GDELT is slow, rate-limited, or blocked. */
+  /* resolve paths relative to where news.js itself was loaded from, so the
+     snapshot fallback works from any depth (root pages, school/, school/desks/) */
+  var SRC_ROOT = (function () {
+    var s = document.querySelector('script[src*="news.js"]');
+    return s ? s.getAttribute("src").replace(/assets\/js\/news\.js.*$/, "") : "";
+  })();
   var snapPromise = null;
   function loadSnapshot() {
     if (!snapPromise) {
-      snapPromise = fetch("assets/data/news-snapshot.json").then(function (r) {
+      snapPromise = fetch(SRC_ROOT + "assets/data/news-snapshot.json").then(function (r) {
         if (!r.ok) throw new Error("no snapshot");
         return r.json();
       }).catch(function () { return null; });

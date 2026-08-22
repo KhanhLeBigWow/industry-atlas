@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-module="desks" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Desks · Capital Atlas</title>
+<meta name="description" content="Specialized study tracks for each capital-markets vertical: PCA and secondaries, ECM, DCM and leveraged finance, M&A, restructuring, and industry coverage groups. Primer, technicals, live news, and who runs each desk.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css">
+<style>
+  .career-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .career-nav a { font-size: .82rem; font-weight: 600; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
+  .career-nav a.on, .career-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
+  .desk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .desk-grid { grid-template-columns: 1fr; } }
+  .desk-card { display: block; background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 20px 22px; color: var(--ink); }
+  .desk-card:hover { border-color: var(--brand); text-decoration: none; box-shadow: var(--shadow-1); transform: translateY(-2px); }
+  .desk-card h3 { margin: 2px 0 6px; }
+  .desk-card .tag { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--brand-strong, var(--brand)); }
+  .desk-card p { font-size: .87rem; color: var(--ink-2); margin: 0 0 10px; }
+  .desk-card .inside { font-size: .74rem; color: var(--ink-3); }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">The career wing · Desks</span>
+    <h1>The Desks.</h1>
+    <p class="hero-tagline">Specialized study tracks, one per capital-markets vertical. Each desk gets the same
+      treatment: a primer on what the desk actually does, the technicals that are native to it, a live news wire tuned
+      to its market, the firms that run it on the sell side, and the buy side sitting across the table. Start with the
+      desk you are targeting; the structure is identical everywhere.</p>
+    <nav class="career-nav">
+      <a href="interview-prep.html">📋 Interview bank</a>
+      <a href="drills.html">🥊 Drill room</a>
+      <a href="model-lab.html">🧪 Model Lab</a>
+      <a href="models-map.html">🗺 Models map</a>
+      <a href="desks.html" class="on">🏦 Desks</a>
+      <a href="lateral.html">🔁 Lateral guide</a>
+      <a href="groups.html">🏛 Firms &amp; groups</a>
+      <a href="toolkit.html">🧮 Toolkit</a>
+    </nav>
+    <div class="hero-meta"></div>
+  </header>
+
+  <section class="lesson">
+    <div class="desk-grid">
+      <a class="desk-card" href="desks/pca.html"><span class="tag">Flagship track · private capital</span>
+        <h3>🔄 PCA &amp; the secondaries complex</h3>
+        <p>Private Capital Advisory end to end: LP-led portfolio sales, GP-led continuation vehicles, fund placement,
+          plus the buy side of it all: secondaries funds, co-investment programs, and GP stakes.</p>
+        <span class="inside">Primer · NAV pricing math · CV mechanics · co-invest &amp; GP-stakes economics · live secondaries wire · who runs the desks</span></a>
+
+      <a class="desk-card" href="desks/ma.html"><span class="tag">Advisory</span>
+        <h3>🤝 M&amp;A</h3>
+        <p>The transaction craft: processes, merger math, structures, and defense: the desk every other desk feeds.</p>
+        <span class="inside">Primer · merger model technicals · deal wire · league-table landscape · sponsors vs strategics</span></a>
+
+      <a class="desk-card" href="desks/ecm.html"><span class="tag">Financing · equity</span>
+        <h3>📈 ECM</h3>
+        <p>IPOs, follow-ons, blocks, and converts: pricing equity in public, where the market grades you overnight.</p>
+        <span class="inside">Primer · IPO &amp; converts math · new-issue wire · bookrunner landscape · the investor side</span></a>
+
+      <a class="desk-card" href="desks/dcm.html"><span class="tag">Financing · debt</span>
+        <h3>🏗 DCM &amp; leveraged finance</h3>
+        <p>Investment-grade flow to LBO financing: the credit machine, its metrics, its docs, and its market windows.</p>
+        <span class="inside">Primer · credit metrics &amp; docs · credit wire · league tables vs private credit · the lender side</span></a>
+
+      <a class="desk-card" href="desks/rx.html"><span class="tag">Special situations</span>
+        <h3>🚨 Restructuring</h3>
+        <p>Distress advisory: waterfalls, Chapter 11 mechanics, liability management, and the credit cycle's harvest.</p>
+        <span class="inside">Primer · waterfall &amp; 13-week technicals · distress wire · the RX league · distressed funds across the table</span></a>
+
+      <a class="desk-card" href="desks/coverage.html"><span class="tag">Coverage</span>
+        <h3>🏭 Industry groups</h3>
+        <p>What sector bankers actually do, the knowledge stack each group runs on, and the atlas's 79 industry
+          dossiers mapped to the groups that use them.</p>
+        <span class="inside">What coverage means · the knowledge stack · group-by-group dossier map · sector multiples</span></a>
+    </div>
+
+    <div class="callout" style="margin-top:22px">
+      <p><strong>How the desks connect to everything else.</strong> Each track links into the
+        <a href="interview-prep.html">interview bank</a> (say it), the <a href="model-lab.html">Model Lab</a> and
+        <a href="drills.html">Drill Room</a> (build it), the <a href="models-map.html">Models Map</a> (which model,
+        which seat), <a href="groups.html">Firms &amp; Groups</a> (where the seats are), and the
+        <a href="../index.html">Industry Atlas</a> (the sector knowledge itself). One system, entered from whichever
+        door matches your next interview.</p>
+    </div>
+  </section>
+
+</main>
+<script src="assets/data/curriculum.js"></script>
+<script src="assets/js/atlas.js?v=2"></script>
+</body>
+</html>

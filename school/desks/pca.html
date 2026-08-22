@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-module="desk-pca" data-root="..">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PCA & Secondaries · The Desks · Capital Atlas</title>
+<meta name="description" content="The Private Capital Advisory track: LP-led and GP-led secondaries, fund placement, co-investment, and GP stakes: primer, pricing technicals, live market wire, and who runs every desk.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/atlas.css">
+<style>
+  .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .desk-nav a { font-size: .78rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
+  .desk-nav a.on, .desk-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
+  .tech-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+  .tech-table th { text-align: left; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
+  .tech-table td { padding: 9px 10px; border-bottom: 1px dashed var(--hairline); vertical-align: top; }
+  .tech-table td:first-child { font-weight: 650; }
+  .firm-row { display: grid; grid-template-columns: 180px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px dashed var(--hairline); font-size: .86rem; }
+  .firm-row b { font-weight: 650; }
+  .firm-row span { color: var(--ink-2); }
+  .kit { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .kit a { font-size: .76rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
+  .kit a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">The Desks · flagship track</span>
+    <h1>PCA &amp; the secondaries complex.</h1>
+    <p class="hero-tagline">Private Capital Advisory is the desk that made private markets liquid: pricing and placing
+      LP fund stakes, engineering GP-led continuation vehicles, raising funds, and syndicating co-investments. Around it
+      sits a whole buy side: secondaries funds, co-invest programs, and the firms that buy stakes in the GPs themselves.
+      This track covers the full complex.</p>
+    <nav class="desk-nav">
+      <a href="../desks.html">🏦 All desks</a>
+      <a href="pca.html" class="on">PCA &amp; Secondaries</a>
+      <a href="ma.html">M&amp;A</a>
+      <a href="ecm.html">ECM</a>
+      <a href="dcm.html">DCM &amp; LevFin</a>
+      <a href="rx.html">Restructuring</a>
+      <a href="coverage.html">Industry groups</a>
+    </nav>
+    <div class="hero-meta"></div>
+  </header>
+
+  <section class="lesson" id="primer">
+    <h2><span class="sec-num">P.1</span> The primer: why this market exists</h2>
+    <p class="lede">Private equity funds lock capital for 10+ years, but nobody's life waits 10 years. Secondaries are
+      the release valve: a market where fund stakes and even whole portfolio companies change hands mid-life, at a price
+      negotiated against NAV.</p>
+    <p><strong>The market in numbers:</strong> secondaries volume set a record around <b>$160B in 2024</b> and kept
+      climbing in 2025 (Jefferies/Evercore market reviews track it half-yearly, free), split roughly half
+      <b>LP-led</b> (institutions selling portfolios of fund stakes) and half <b>GP-led</b> (sponsors moving prize
+      assets into continuation vehicles). The engine behind the growth: distributions from regular exits have run
+      below 15% of NAV for years, so sellers manufacture liquidity instead of waiting for it. LP portfolios of buyout
+      funds have cleared in the <b>high-80s to mid-90s % of NAV</b> in recent years; venture books materially lower:
+      the discount IS the market's honest opinion of the marks.</p>
+    <p><strong>The 3 businesses inside a PCA desk:</strong> (1) <b>LP advisory</b>: run a competitive process to sell an
+      institution's fund portfolio: price discovery against stale NAVs, transfer mechanics, GP consents. (2) <b>GP-led
+      advisory</b>: design and place continuation vehicles: pick the asset, set the price with a fairness process, find a
+      lead buyer, run the LP election. (3) <b>Primary placement</b>: raise new funds for GPs (the classic Park Hill /
+      placement-agent business), plus co-investment syndication alongside. One desk, three fee streams, all feeding on
+      the same relationships.</p>
+  </section>
+
+  <section class="lesson" id="technicals">
+    <h2><span class="sec-num">P.2</span> The technicals: the math the desk runs on</h2>
+    <div class="table-wrap"><table class="tech-table">
+      <tr><th>Build</th><th>The mechanics</th><th>What decides the answer</th></tr>
+      <tr><td>LP portfolio pricing</td><td>Roll every fund's NAV forward from the last mark (calls, distributions, estimated appreciation), project each fund's remaining cash flows on a pacing curve, discount at the buyer's target return, sum to a price expressed as % of NAV.</td><td>Mark staleness (a June NAV priced in December), unfunded commitments (a liability the buyer assumes), and the pacing assumption: earlier distributions justify smaller discounts.</td></tr>
+      <tr><td>Continuation vehicle (CV)</td><td>A single-asset LBO underwrite wearing fund clothing: forward plan for the asset, entry price vs fund NAV (the fairness fight), new capital need, then the waterfall: rolling LPs, cash-electing LPs, the new lead, and the GP's crystallized-then-reset carry.</td><td>The lead buyer's underwrite (it IS a buyout), the price-vs-NAV optics, election rates, and whether the GP rolls its crystallized carry (the alignment tell).</td></tr>
+      <tr><td>Deferred structures</td><td>Buyers pay in tranches (e.g. 50% now, 50% in 18 months): effectively leverage that lifts the headline % of NAV without lifting the economics.</td><td>Always restate a deferred price to present value before comparing bids: a 97% of NAV bid half-deferred can be worth less than 93% cash.</td></tr>
+      <tr><td>Co-investment returns</td><td>Direct equity in a single deal alongside the sponsor, typically fee-free and carry-free: the same LBO model, minus the 2-and-20 drag.</td><td>Selection risk replaces fee drag: co-invest programs live or die on which deals sponsors actually show them, and how fast they can commit (2 to 4 weeks).</td></tr>
+      <tr><td>GP-stakes valuation</td><td>Value the management company itself: fee-related earnings on a durable multiple, carry by vintage probability-weighted and discounted, balance-sheet co-invests at book: a 3-stream SOTP.</td><td>Fundraising trajectory above all: the next flagship's size moves FRE more than anything; then FRE margin durability and key-person risk.</td></tr>
+    </table></div>
+    <p class="small muted" style="margin-top:10px">Quick math to carry into interviews: a buyer targeting a 1.6x on an
+      LP book that returns capital over ~5 years is pricing roughly a mid-teens IRR; every 5 points of NAV discount buys
+      roughly 1 to 1.5 points of IRR on typical pacing. Deferred payment of half the price for 18 months adds ~3 to 4
+      points of IRR at today's rates: which is exactly why deferrals became standard.</p>
+    <div class="kit">
+      <a href="../models-map.html#seats">Models Map: the PCA, CV, and GP-stakes seats</a>
+      <a href="../drills.html">Drill Room: the LBO skeleton under every CV</a>
+      <a href="../interview-prep.html">Interview bank: PE &amp; buy-side category</a>
+      <a href="../../industry.html?id=private-equity">Industry dossier: Private Equity</a>
+      <a href="../../industry.html?id=asset-management">Industry dossier: Asset Management (GP economics)</a>
+    </div>
+  </section>
+
+  <section class="lesson" id="wire">
+    <h2><span class="sec-num">P.3</span> The wire: this market, this week</h2>
+    <p class="lede">Live headlines tuned to the secondaries complex, straight from the free global news index.</p>
+    <div id="wire-feed"></div>
+  </section>
+
+  <section class="lesson" id="sellside">
+    <h2><span class="sec-num">P.4</span> Who runs the desks: the sell side</h2>
+    <div class="firm-row"><b>PJT Park Hill</b><span>The archetype: placement + secondaries advisory under one roof; a leader in GP-led mandates.</span></div>
+    <div class="firm-row"><b>Evercore PCA</b><span>The volume leader in secondaries advisory league tables cycle after cycle; deep LP-led and GP-led franchises.</span></div>
+    <div class="firm-row"><b>Jefferies</b><span>Publishes the half-yearly market review everyone quotes; top-tier LP-led practice.</span></div>
+    <div class="firm-row"><b>Lazard</b><span>Private capital advisory spanning placement and secondaries, with the sovereign-grade relationships.</span></div>
+    <div class="firm-row"><b>Campbell Lutyens</b><span>The largest independent: placement plus secondaries advisory, notably strong in Europe and infrastructure.</span></div>
+    <div class="firm-row"><b>Houlihan Lokey / William Blair / Guggenheim</b><span>Growing challengers as the fee pool pulls in every advisory platform.</span></div>
+    <p class="small muted" style="margin-top:10px">Interview note: these desks hire from banking analysts AND from fund
+      accounting/consulting backgrounds: fluency in fund mechanics (waterfalls, capital accounts, NAV statements) is the
+      differentiator over generic M&amp;A polish.</p>
+  </section>
+
+  <section class="lesson" id="buyside">
+    <h2><span class="sec-num">P.5</span> Across the table: the buy side of the complex</h2>
+    <div class="table-wrap"><table class="tech-table">
+      <tr><th>Seat</th><th>Who</th><th>What the job actually is</th></tr>
+      <tr><td>Secondaries funds</td><td>Ardian, Lexington (Franklin), HarbourVest, Blackstone Strategic Partners, Goldman Vintage, StepStone, AlpInvest, Coller</td><td>Underwrite hundreds of fund positions a year: portfolio pricing at industrial scale, pacing models, and relationship coverage of every GP whose funds you might someday buy.</td></tr>
+      <tr><td>GP-led / single-asset specialists</td><td>The same houses' dedicated sleeves plus newer entrants (Whitehorse, Banner Ridge class)</td><td>Buyout-grade diligence on single assets inside CVs: the closest thing to direct PE inside secondaries.</td></tr>
+      <tr><td>Co-investment programs</td><td>HarbourVest, Hamilton Lane, StepStone, AlpInvest, the big pensions and sovereigns directly</td><td>Fast-turn LBO underwriting (2 to 4 weeks), portfolio construction across sponsors, and managing the adverse-selection question honestly.</td></tr>
+      <tr><td>GP stakes</td><td>Blue Owl GP Strategic Capital (the giant), Petershill (Goldman), Bonaccord, Hunter Point, Blackstone GP Stakes</td><td>Permanent minority stakes in managers: FRE-and-carry SOTP valuation, then years of partnership monitoring; exits are the open question of the whole strategy.</td></tr>
+      <tr><td>Semi-liquid / evergreen vehicles</td><td>Every major platform's '40-Act and ELTIF wrappers</td><td>The retail wrapper on all of the above: NAV-based subscriptions and redemption gates: where secondaries pricing meets liquidity management.</td></tr>
+    </table></div>
+  </section>
+
+  <section class="lesson" id="study">
+    <h2><span class="sec-num">P.6</span> The study kit: 2 weeks to conversational, 6 to dangerous</h2>
+    <p><strong>Weeks 1-2:</strong> fund mechanics cold (waterfalls, GP/LP economics: Module 06), the pricing logic in
+      P.2 said aloud, and the latest Jefferies/Evercore half-year secondaries review read twice (both free).
+      <strong>Weeks 3-4:</strong> build a toy LP-pricing model (5 funds, pacing curve, solve price for a 1.6x) and a
+      toy CV waterfall (roll vs cash vs new money at 2.0x and 3.0x outcomes). <strong>Weeks 5-6:</strong> the live
+      market: know 2 recent large CVs and 1 large LP portfolio sale from the trade press, the current % of NAV clearing
+      levels by strategy, and have a view on the semi-liquid boom. Then take the
+      <a href="../interview-prep.html">PE category</a> questions and answer them from the SECONDARIES chair: the
+      cross-angle is exactly what these desks test.</p>
+  </section>
+
+</main>
+<script src="../assets/data/curriculum.js"></script>
+<script src="../assets/js/atlas.js?v=2"></script>
+<script src="../../assets/js/news.js?v=16"></script>
+<script>
+(function () {
+  if (window.AtlasNews) {
+    AtlasNews.render(document.getElementById("wire-feed"),
+      '("continuation vehicle" OR "secondaries market" OR "GP stakes" OR "private equity secondaries" OR "secondaries fund")',
+      { timespan: "7d", max: 8 });
+  }
+})();
+</script>
+</body>
+</html>

@@ -337,7 +337,7 @@
           return [(s.icon || "") + " " + s.name.split(",")[0], "index.html#" + s.id];
         })) + "</div>" +
         '<div class="sf-col"><div class="sf-h">Learn & build</div>' + links([
-          ["Finance School", "school/index.html"], ["Interview prep", "school/interview-prep.html"],
+          ["Finance School", "school/index.html"], ["The desks (PCA, M&A, RX...)", "school/desks.html"], ["Interview prep", "school/interview-prep.html"],
           ["The Model Lab", "school/model-lab.html"], ["The Models Map", "school/models-map.html"], ["The Drill Room", "school/drills.html"],
           ["The lateral guide", "school/lateral.html"], ["Firms & groups", "school/groups.html"],
           ["The toolkit (calculators)", "school/toolkit.html"],
