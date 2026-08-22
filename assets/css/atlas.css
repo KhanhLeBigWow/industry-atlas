@@ -960,3 +960,16 @@ body.mm-open .mobile-menu { display: block; }
 .cp-item:hover { background: var(--surface-2); text-decoration: none; }
 .cp-item b { font-size: .84rem; font-weight: 600; }
 .cp-item span { font-size: .72rem; color: var(--ink-3); font-family: var(--font-mono); text-align: right; }
+
+/* ================= v17: the deal tape ================= */
+.deal-list { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 12px; }
+@media (max-width: 900px) { .deal-list { grid-template-columns: 1fr; } }
+.deal-card { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px;
+  border-top: 2.5px solid color-mix(in srgb, var(--sec, var(--brand)) 55%, transparent); }
+.deal-card h4 { margin: 8px 0 6px; font-size: .95rem; }
+.dc-top { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.dc-when, .dc-size, .dc-type { font-family: var(--font-mono); font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; }
+.dc-when { background: var(--surface-2); color: var(--ink-3); }
+.dc-size { background: color-mix(in srgb, var(--sec, var(--brand)) 14%, var(--surface-2)); color: color-mix(in srgb, var(--sec, var(--brand)) 80%, var(--ink)); }
+.dc-type { background: var(--surface-2); color: var(--ink-2); letter-spacing: .06em; }
+.dc-analysis { border-left: 2.5px solid var(--sec, var(--brand)); padding-left: 10px; color: var(--ink-2); }

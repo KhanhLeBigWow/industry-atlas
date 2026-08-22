@@ -53,6 +53,18 @@
   .kit { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
   .kit a { font-size: .74rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
   .kit a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
+
+  .p-card[data-co] { cursor: pointer; }
+  .p-card[data-co]:hover { border-color: var(--brand); box-shadow: var(--shadow-1); }
+  #deal-tape { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 900px) { #deal-tape { grid-template-columns: 1fr; } }
+  .deal-card { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px;
+    border-top: 2.5px solid color-mix(in srgb, var(--brand) 55%, transparent); }
+  .deal-card h4 { margin: 8px 0 6px; font-size: .95rem; }
+  .dc-top { display: flex; gap: 8px; flex-wrap: wrap; }
+  .dc-when, .dc-size { font-family: var(--font-mono); font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: var(--surface-2); color: var(--ink-3); }
+  .dc-size { background: color-mix(in srgb, var(--brand) 14%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
+  .dc-analysis { border-left: 2.5px solid var(--brand); padding-left: 10px; color: var(--ink-2); font-size: .82rem; }
 </style>
 </head>
 <body>
@@ -103,7 +115,7 @@
     <div class="side-grids">
       <div class="side-col sell">
         <h3>Debtor side · the company's corner</h3>
-        <div class="p-card"><span class="p-mg">PJ</span><div><b>PJT RSSG · Houlihan · Evercore · Lazard · Moelis</b><span>the RX advisory league</span></div></div>
+        <div class="p-card" data-co="pjt-partners"><span class="p-mg">PJ</span><div><b>PJT RSSG · Houlihan · Evercore · Lazard · Moelis</b><span>the RX advisory league</span></div></div>
         <div class="p-card"><span class="p-mg">AM</span><div><b>Alvarez &amp; Marsal · FTI · AlixPartners</b><span>turnaround consultants: the 13-week lives here</span></div></div>
         <div class="p-card"><span class="p-mg">KE</span><div><b>Kirkland · Weil · Davis Polk class</b><span>debtor counsel: the case's field generals</span></div></div>
         <div class="p-card"><span class="p-mg">CR</span><div><b>The CRO</b><span>chief restructuring officer: parachuted-in operator</span></div></div>
@@ -111,8 +123,8 @@
       </div>
       <div class="side-col buy">
         <h3>Creditor side · the capital</h3>
-        <div class="p-card"><span class="p-mg">OK</span><div><b>Oaktree · Elliott · Silver Point · Davidson Kempner</b><span>distressed funds buying the fulcrum</span></div></div>
-        <div class="p-card"><span class="p-mg">AP</span><div><b>Apollo hybrid value class</b><span>rescue capital: expensive money, fast</span></div></div>
+        <div class="p-card" data-co="oaktree"><span class="p-mg">OK</span><div><b>Oaktree · Elliott · Silver Point · Davidson Kempner</b><span>distressed funds buying the fulcrum</span></div></div>
+        <div class="p-card" data-co="apollo-global"><span class="p-mg">AP</span><div><b>Apollo hybrid value class</b><span>rescue capital: expensive money, fast</span></div></div>
         <div class="p-card"><span class="p-mg">CL</span><div><b>CLOs &amp; loan funds</b><span>the original lenders, defending tranches</span></div></div>
         <div class="p-card"><span class="p-mg">DP</span><div><b>DIP lenders</b><span>super-priority money that controls the tempo</span></div></div>
         <div class="p-card"><span class="p-mg">CC</span><div><b>Committees + their advisors</b><span>UCC and ad hoc groups, each with banker + counsel</span></div></div>
@@ -154,13 +166,18 @@
     </table></div>
   </section>
 
+  <section class="lesson" id="tape">
+    <h2><span class="sec-num">6</span> The deal tape: landmark transactions on this desk</h2>
+    <div id="deal-tape"></div>
+  </section>
+
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">6</span> The wire</h2>
+    <h2><span class="sec-num">7</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
   <section class="lesson" id="shelf">
-    <h2><span class="sec-num">7</span> The shelf</h2>
+    <h2><span class="sec-num">8</span> The shelf</h2>
     <div class="kit">
       <a href="../../industry.html?id=private-credit">Dossier: Private Credit</a>
       <a href="../../industry.html?id=banking">Dossier: Banking</a>
@@ -217,6 +234,24 @@
       '(bankruptcy OR "chapter 11" OR restructuring OR "distressed debt" OR "debt exchange")',
       { timespan: "3d", max: 8 });
   }
+})();
+</script>
+<script src="../../assets/data/deals.js?v=17"></script>
+<script>
+(function () {
+  document.querySelectorAll(".p-card[data-co]").forEach(function (c) {
+    c.addEventListener("click", function () { location.href = "../../company.html?id=" + c.getAttribute("data-co"); });
+    c.setAttribute("title", "Open the full profile: deals, model, flows");
+  });
+  var deals = (window.ATLAS_DEALS || []).filter(function (d) { return d.type === "rx"; });
+  var el = document.getElementById("deal-tape");
+  if (el) el.innerHTML = deals.map(function (d) {
+    return '<div class="deal-card"><div class="dc-top"><span class="dc-when">' + d.when + '</span><span class="dc-size">' + d.size + '</span></div>' +
+      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' +
+      '<p class="small dc-analysis"><b>Why it matters:</b> ' + d.analysis + '</p>' +
+      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" · ") + "</p>" : "") +
+      "</div>";
+  }).join("");
 })();
 </script>
 </body>

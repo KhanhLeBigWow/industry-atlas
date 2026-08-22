@@ -46,6 +46,18 @@
   .kit { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
   .kit a { font-size: .74rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
   .kit a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
+
+  .p-card[data-co] { cursor: pointer; }
+  .p-card[data-co]:hover { border-color: var(--brand); box-shadow: var(--shadow-1); }
+  #deal-tape { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 900px) { #deal-tape { grid-template-columns: 1fr; } }
+  .deal-card { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px;
+    border-top: 2.5px solid color-mix(in srgb, var(--brand) 55%, transparent); }
+  .deal-card h4 { margin: 8px 0 6px; font-size: .95rem; }
+  .dc-top { display: flex; gap: 8px; flex-wrap: wrap; }
+  .dc-when, .dc-size { font-family: var(--font-mono); font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: var(--surface-2); color: var(--ink-3); }
+  .dc-size { background: color-mix(in srgb, var(--brand) 14%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
+  .dc-analysis { border-left: 2.5px solid var(--brand); padding-left: 10px; color: var(--ink-2); font-size: .82rem; }
 </style>
 </head>
 <body>
@@ -81,21 +93,21 @@
     <div class="side-grids">
       <div class="side-col sell">
         <h3>Sell side · the advisory desks</h3>
-        <div class="p-card"><span class="p-mg">PJ</span><div><b>PJT Park Hill</b><span>placement + secondaries; GP-led leader</span></div></div>
-        <div class="p-card"><span class="p-mg">EV</span><div><b>Evercore PCA</b><span>league-table leader across LP-led and GP-led</span></div></div>
-        <div class="p-card"><span class="p-mg">JF</span><div><b>Jefferies</b><span>top LP-led franchise; the half-year review everyone quotes</span></div></div>
-        <div class="p-card"><span class="p-mg">LZ</span><div><b>Lazard</b><span>placement + secondaries with sovereign reach</span></div></div>
+        <div class="p-card" data-co="pjt-partners"><span class="p-mg">PJ</span><div><b>PJT Park Hill</b><span>placement + secondaries; GP-led leader</span></div></div>
+        <div class="p-card" data-co="evercore"><span class="p-mg">EV</span><div><b>Evercore PCA</b><span>league-table leader across LP-led and GP-led</span></div></div>
+        <div class="p-card" data-co="jefferies"><span class="p-mg">JF</span><div><b>Jefferies</b><span>top LP-led franchise; the half-year review everyone quotes</span></div></div>
+        <div class="p-card" data-co="lazard"><span class="p-mg">LZ</span><div><b>Lazard</b><span>placement + secondaries with sovereign reach</span></div></div>
         <div class="p-card"><span class="p-mg">CL</span><div><b>Campbell Lutyens</b><span>largest independent; Europe + infrastructure depth</span></div></div>
-        <div class="p-card"><span class="p-mg">HL</span><div><b>Houlihan · Blair · Guggenheim</b><span>the challengers chasing the fee pool</span></div></div>
+        <div class="p-card" data-co="houlihan-lokey"><span class="p-mg">HL</span><div><b>Houlihan · Blair · Guggenheim</b><span>the challengers chasing the fee pool</span></div></div>
       </div>
       <div class="side-col buy">
         <h3>Buy side · the capital</h3>
-        <div class="p-card"><span class="p-mg">AR</span><div><b>Ardian</b><span>the largest secondaries platform; $30B+ flagships</span></div></div>
+        <div class="p-card" data-co="ardian"><span class="p-mg">AR</span><div><b>Ardian</b><span>the largest secondaries platform; $30B+ flagships</span></div></div>
         <div class="p-card"><span class="p-mg">LX</span><div><b>Lexington (Franklin)</b><span>mega LP-led books</span></div></div>
-        <div class="p-card"><span class="p-mg">BX</span><div><b>Blackstone Strategic Partners</b><span>scale across LP-led, GP-led, infra</span></div></div>
+        <div class="p-card" data-co="blackstone"><span class="p-mg">BX</span><div><b>Blackstone Strategic Partners</b><span>scale across LP-led, GP-led, infra</span></div></div>
         <div class="p-card"><span class="p-mg">HV</span><div><b>HarbourVest · Hamilton Lane · StepStone</b><span>secondaries + co-invest + primaries in one shop</span></div></div>
-        <div class="p-card"><span class="p-mg">GS</span><div><b>Goldman Vintage · AlpInvest · Coller</b><span>the veteran franchises</span></div></div>
-        <div class="p-card"><span class="p-mg">OW</span><div><b>Blue Owl GP Strategic · Petershill · Bonaccord</b><span>the GP-stakes buyers: they own the managers</span></div></div>
+        <div class="p-card" data-co="goldman-sachs"><span class="p-mg">GS</span><div><b>Goldman Vintage · AlpInvest · Coller</b><span>the veteran franchises</span></div></div>
+        <div class="p-card" data-co="blue-owl"><span class="p-mg">OW</span><div><b>Blue Owl GP Strategic · Petershill · Bonaccord</b><span>the GP-stakes buyers: they own the managers</span></div></div>
       </div>
     </div>
   </section>
@@ -136,13 +148,18 @@
       every 5 points of NAV discount ≈ 1 to 1.5 points of IRR; an 18-month deferral on half the price ≈ 3 to 4 points.</p>
   </section>
 
+  <section class="lesson" id="tape">
+    <h2><span class="sec-num">5</span> The deal tape: landmark transactions on this desk</h2>
+    <div id="deal-tape"></div>
+  </section>
+
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">5</span> The wire</h2>
+    <h2><span class="sec-num">6</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
   <section class="lesson" id="shelf">
-    <h2><span class="sec-num">6</span> The shelf: dossiers &amp; tools this desk runs on</h2>
+    <h2><span class="sec-num">7</span> The shelf: dossiers &amp; tools this desk runs on</h2>
     <div class="kit">
       <a href="../../industry.html?id=private-equity">Dossier: Private Equity</a>
       <a href="../../industry.html?id=asset-management">Dossier: Asset Management</a>
@@ -199,6 +216,24 @@
       '("continuation vehicle" OR "secondaries market" OR "GP stakes" OR "private equity secondaries" OR "secondaries fund")',
       { timespan: "7d", max: 8 });
   }
+})();
+</script>
+<script src="../../assets/data/deals.js?v=17"></script>
+<script>
+(function () {
+  document.querySelectorAll(".p-card[data-co]").forEach(function (c) {
+    c.addEventListener("click", function () { location.href = "../../company.html?id=" + c.getAttribute("data-co"); });
+    c.setAttribute("title", "Open the full profile: deals, model, flows");
+  });
+  var deals = (window.ATLAS_DEALS || []).filter(function (d) { return d.type === "pca"; });
+  var el = document.getElementById("deal-tape");
+  if (el) el.innerHTML = deals.map(function (d) {
+    return '<div class="deal-card"><div class="dc-top"><span class="dc-when">' + d.when + '</span><span class="dc-size">' + d.size + '</span></div>' +
+      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' +
+      '<p class="small dc-analysis"><b>Why it matters:</b> ' + d.analysis + '</p>' +
+      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" · ") + "</p>" : "") +
+      "</div>";
+  }).join("");
 })();
 </script>
 </body>
