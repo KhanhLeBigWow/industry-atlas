@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Model Lab · Capital Atlas</title>
-<meta name="description" content="A live 3-statement financial model you can drive with sliders: click any line to see how it flows across the income statement, cash flow statement, and balance sheet.">
+<meta name="description" content="Live 3-statement models in your browser: Level 1 teaches the statement linkages; Level 2 is a full driver build with volume-price bridges, contribution margins, working-capital days, and a debt schedule, at modeling-test grade.">
 <script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,35 +14,45 @@
   .career-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
   .career-nav a { font-size: .82rem; font-weight: 600; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
   .career-nav a.on, .career-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
-  .lab-grid { display: grid; grid-template-columns: 280px 1fr; gap: 20px; align-items: start; }
-  @media (max-width: 980px) { .lab-grid { grid-template-columns: 1fr; } }
-  .lab-panel { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 16px 18px; position: sticky; top: 70px; }
-  @media (max-width: 980px) { .lab-panel { position: static; } }
-  .lab-row { display: grid; grid-template-columns: 1fr 64px; gap: 8px; align-items: center; margin: 8px 0; }
-  .lab-row label { font-size: .78rem; font-weight: 600; color: var(--ink-2); }
+  .lvl-seg { display: inline-flex; gap: 6px; margin: 18px 0 8px; padding: 5px 6px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--hairline); flex-wrap: wrap; }
+  .lvl-seg button { appearance: none; cursor: pointer; border: 1px solid transparent; border-radius: 9px; background: transparent;
+    color: var(--ink-2); font: inherit; font-size: .84rem; font-weight: 600; padding: 8px 14px; }
+  .lvl-seg button.on { background: var(--surface-1); border-color: var(--brand); color: var(--ink); }
+  .lab-grid { display: grid; grid-template-columns: 300px 1fr; gap: 20px; align-items: start; }
+  @media (max-width: 1020px) { .lab-grid { grid-template-columns: 1fr; } }
+  .lab-panel { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px; position: sticky; top: 70px; max-height: calc(100vh - 90px); overflow-y: auto; }
+  @media (max-width: 1020px) { .lab-panel { position: static; max-height: none; } }
+  .lab-panel h4 { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); margin: 14px 0 4px; }
+  .lab-panel h4:first-child { margin-top: 0; }
+  .lab-row { display: grid; grid-template-columns: 1fr 70px; gap: 8px; align-items: center; margin: 7px 0; }
+  .lab-row label { font-size: .77rem; font-weight: 600; color: var(--ink-2); }
   .lab-row input[type=range] { width: 100%; grid-column: 1 / -1; margin-top: 2px; }
-  .lab-row .val { font-family: var(--font-mono); font-size: .78rem; font-weight: 650; text-align: right; }
+  .lab-row .val { font-family: var(--font-mono); font-size: .77rem; font-weight: 650; text-align: right; }
   .scenarios { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
   .scen { appearance: none; cursor: pointer; font: inherit; font-size: .74rem; font-weight: 650; padding: 5px 10px; border-radius: 999px;
     border: 1px solid var(--hairline); background: var(--surface-2); color: var(--ink-2); }
   .scen:hover { color: var(--ink); border-color: var(--brand); }
   .stmt { margin-bottom: 20px; }
   .stmt h3 { margin: 0 0 6px; font-size: .95rem; }
+  .stmt h3 .conv { font-size: .7rem; font-weight: 600; color: var(--ink-3); margin-left: 8px; }
   .stmt-table { width: 100%; border-collapse: collapse; font-size: .82rem; font-variant-numeric: tabular-nums; }
   .stmt-table th { text-align: right; font-family: var(--font-mono); font-size: .68rem; color: var(--ink-3); padding: 4px 8px; border-bottom: 1px solid var(--hairline); }
   .stmt-table th:first-child { text-align: left; }
-  .stmt-table td { padding: 5px 8px; text-align: right; font-family: var(--font-mono); font-size: .78rem; border-bottom: 1px dashed var(--hairline); }
-  .stmt-table td:first-child { text-align: left; font-family: var(--font-body, inherit); font-weight: 550; cursor: pointer; }
+  .stmt-table td { padding: 5px 8px; text-align: right; font-family: var(--font-mono); font-size: .77rem; border-bottom: 1px dashed var(--hairline); white-space: nowrap; }
+  .stmt-table td:first-child { text-align: left; font-family: var(--font-body, inherit); font-weight: 550; cursor: pointer; white-space: normal; }
   .stmt-table tr.sub td { color: var(--ink-3); }
+  .stmt-table tr.drv td:first-child { color: var(--brand-strong, var(--brand)); font-style: italic; }
   .stmt-table tr.total td { font-weight: 700; border-top: 1.5px solid var(--hairline); }
   .stmt-table tr.hl td { background: color-mix(in srgb, var(--brand) 14%, var(--surface-1)); }
-  .stmt-table tr.hl td:first-child { color: var(--brand-strong, var(--brand)); }
   .stmt-table tr:hover td { background: var(--surface-2); }
   .link-note { border-left: 3px solid var(--brand); background: var(--surface-2); border-radius: 0 10px 10px 0;
     padding: 12px 16px; font-size: .85rem; color: var(--ink-2); margin: 14px 0 20px; min-height: 3.2em; }
   .link-note b { color: var(--ink); }
   .check-ok { color: var(--pos, #0ca30c); font-weight: 700; }
   .neg { color: var(--neg, #d03b3b); }
+  .val-strip { display: flex; gap: 22px; flex-wrap: wrap; background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 18px; margin-bottom: 20px; }
+  .val-strip .k { font-size: .66rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+  .val-strip .v { font-family: var(--font-display); font-size: 1.3rem; font-weight: 650; }
 </style>
 </head>
 <body>
@@ -51,23 +61,29 @@
   <header class="module-hero">
     <span class="kicker">The career wing · Lab</span>
     <h1>The Model Lab.</h1>
-    <p class="hero-tagline">A working 3-statement model, live in your browser. Drive the assumptions with sliders and
-      watch 5 years recompute; click any line item to light up everywhere it flows across the 3 statements. This is
-      the connective tissue every modeling test assumes you can see.</p>
+    <p class="hero-tagline">Working 3-statement models, live in your browser. Level 1 teaches the linkages: click any
+      line and see everywhere it flows. Level 2 is the real thing: a driver build at modeling-test grade, with a
+      volume-price revenue bridge, incremental contribution margins, working-capital days, a debt schedule, and a
+      balance check that must read 0.0 in every year.</p>
     <nav class="career-nav">
       <a href="interview-prep.html">📋 Interview bank</a>
       <a href="drills.html">🥊 Drill room</a>
       <a href="model-lab.html" class="on">🧪 Model Lab</a>
+      <a href="models-map.html">🗺 Models map</a>
       <a href="lateral.html">🔁 Lateral guide</a>
       <a href="groups.html">🏛 Firms &amp; groups</a>
       <a href="toolkit.html">🧮 Toolkit</a>
     </nav>
+    <div class="lvl-seg" id="lvl-seg">
+      <button data-lvl="1" class="on">Level 1 · The linkages</button>
+      <button data-lvl="2">Level 2 · The driver build</button>
+    </div>
     <div class="hero-meta"></div>
   </header>
 
-  <section class="lesson">
+  <!-- ================= LEVEL 1 ================= -->
+  <section class="lesson" id="lab1">
     <div class="lab-grid">
-
       <div class="lab-panel">
         <div class="scenarios" id="scenarios">
           <button class="scen" data-scen="base">Base case</button>
@@ -85,27 +101,86 @@
         <p class="small muted" style="margin-top:12px">Year 0: $500M revenue, $50M cash, $300M net PP&amp;E, $200M debt
           (held constant: cash accumulates). All figures $M.</p>
       </div>
-
       <div>
         <div class="link-note" id="link-note"><b>Click any line item</b> in the tables to trace it across the
           3 statements: the model highlights every row it touches and explains the linkage here.</div>
-
         <div class="stmt"><h3>Income statement</h3>
           <div class="table-wrap"><table class="stmt-table" id="t-is"></table></div></div>
         <div class="stmt"><h3>Cash flow statement</h3>
           <div class="table-wrap"><table class="stmt-table" id="t-cf"></table></div></div>
         <div class="stmt"><h3>Balance sheet</h3>
           <div class="table-wrap"><table class="stmt-table" id="t-bs"></table></div></div>
-
         <div class="callout">
           <p><strong>Why the check row always ties.</strong> Assets change by exactly what the cash flow statement
             says they change by: cash moves by free cash flow, working capital by its delta, PP&amp;E by capex minus
             depreciation, and the sum of those movements is, line for line, net income landing in retained earnings.
-            When your model breaks, one of those 4 joints is where. Theory: <a href="modules/accounting.html">Module 03,
-            Accounting</a>. Drills: <a href="drills.html">the Drill Room</a>.</p>
+            When your model breaks, one of those 4 joints is where. Ready for real drivers? Switch to
+            <a href="#" id="go-l2">Level 2</a>.</p>
         </div>
       </div>
+    </div>
+  </section>
 
+  <!-- ================= LEVEL 2 ================= -->
+  <section class="lesson" id="lab2" style="display:none">
+    <div class="callout" style="margin-bottom:18px">
+      <p><strong>Meridian Auto Components: the test-grade build.</strong> This is the architecture real modeling tests
+        (hedge fund and PE alike) actually use: revenue built from <b>units × price</b> with the growth bridged into
+        volume and price dollars, gross profit built <b>incrementally from contribution margins</b> (volume dollars
+        convert at one rate, price dollars at a much richer one), working capital driven by <b>DSO / DIO / DPO days</b>,
+        a debt schedule with interest on <b>ending balances</b>, cash with <b>exactly one source</b> (the cash flow
+        statement), and returns on <b>average balances</b>. Click rows for the conventions: they are where tests are
+        won and lost.</p>
+    </div>
+    <div class="lab-grid">
+      <div class="lab-panel">
+        <div class="scenarios" id="scenarios2">
+          <button class="scen" data-scen2="base">Base case</button>
+          <button class="scen2 scen" data-scen2="upcycle">Auto upcycle</button>
+          <button class="scen" data-scen2="downturn">Downturn</button>
+          <button class="scen" data-scen2="pricing">Pricing power</button>
+        </div>
+        <h4>Revenue &amp; flow-through</h4>
+        <div class="lab-row"><label>Unit volume growth / yr</label><span class="val" data-v2="vg"></span><input type="range" min="-8" max="10" step="0.5" value="2" data-k2="vg"></div>
+        <div class="lab-row"><label>Price (ASP) growth / yr</label><span class="val" data-v2="pg"></span><input type="range" min="-4" max="9" step="0.5" value="3" data-k2="pg"></div>
+        <div class="lab-row"><label>Contribution margin on volume $</label><span class="val" data-v2="cmv"></span><input type="range" min="10" max="40" step="5" value="20" data-k2="cmv"></div>
+        <div class="lab-row"><label>Contribution margin on price $</label><span class="val" data-v2="cmp"></span><input type="range" min="50" max="90" step="5" value="70" data-k2="cmp"></div>
+        <h4>Cost drivers</h4>
+        <div class="lab-row"><label>SG&amp;A (% of sales)</label><span class="val" data-v2="sga"></span><input type="range" min="5" max="12" step="0.5" value="8" data-k2="sga"></div>
+        <div class="lab-row"><label>D&amp;A (% of sales)</label><span class="val" data-v2="da"></span><input type="range" min="3" max="8" step="0.5" value="5" data-k2="da"></div>
+        <div class="lab-row"><label>Capex (% of sales)</label><span class="val" data-v2="cx"></span><input type="range" min="3" max="9" step="0.5" value="5.5" data-k2="cx"></div>
+        <div class="lab-row"><label>Stock comp (% of sales)</label><span class="val" data-v2="sbc"></span><input type="range" min="0" max="1" step="0.1" value="0.2" data-k2="sbc"></div>
+        <div class="lab-row"><label>Tax rate</label><span class="val" data-v2="tax"></span><input type="range" min="20" max="35" step="1" value="30" data-k2="tax"></div>
+        <h4>Working capital (days)</h4>
+        <div class="lab-row"><label>DSO · receivable days (on sales)</label><span class="val" data-v2="dso"></span><input type="range" min="30" max="75" step="1" value="50" data-k2="dso"></div>
+        <div class="lab-row"><label>DIO · inventory days (on COGS)</label><span class="val" data-v2="dio"></span><input type="range" min="20" max="60" step="1" value="35" data-k2="dio"></div>
+        <div class="lab-row"><label>DPO · payable days (on COGS)</label><span class="val" data-v2="dpo"></span><input type="range" min="30" max="90" step="1" value="60" data-k2="dpo"></div>
+        <h4>Capital &amp; payout</h4>
+        <div class="lab-row"><label>Effective interest rate (ending debt)</label><span class="val" data-v2="ir"></span><input type="range" min="4" max="10" step="0.25" value="7" data-k2="ir"></div>
+        <div class="lab-row"><label>Debt repayment / yr ($M)</label><span class="val" data-v2="repay"></span><input type="range" min="0" max="150" step="5" value="40" data-k2="repay"></div>
+        <div class="lab-row"><label>Dividend per share</label><span class="val" data-v2="dps"></span><input type="range" min="0" max="0.5" step="0.05" value="0.1" data-k2="dps"></div>
+        <div class="lab-row"><label>Share price (for valuation)</label><span class="val" data-v2="px"></span><input type="range" min="10" max="40" step="1" value="20" data-k2="px"></div>
+        <p class="small muted" style="margin-top:12px">Year 0: 30.0M units at $80.00 ASP = $2,400M revenue; 20% gross
+          margin; $1,200M debt, $100M cash, $900M net PP&amp;E; 100M diluted / 98M basic shares. Fictional company,
+          real conventions.</p>
+      </div>
+      <div>
+        <div class="link-note" id="link-note2"><b>Click any line item</b> to see its convention: which driver feeds it,
+          which statement it flows to, and where modeling tests dock points.</div>
+
+        <div class="val-strip" id="val-strip"></div>
+
+        <div class="stmt"><h3>Revenue drivers <span class="conv">units × price, growth bridged</span></h3>
+          <div class="table-wrap"><table class="stmt-table" id="t2-rd"></table></div></div>
+        <div class="stmt"><h3>Income statement <span class="conv">gross profit built from contribution margins</span></h3>
+          <div class="table-wrap"><table class="stmt-table" id="t2-is"></table></div></div>
+        <div class="stmt"><h3>Cash flow statement <span class="conv">working capital by component</span></h3>
+          <div class="table-wrap"><table class="stmt-table" id="t2-cf"></table></div></div>
+        <div class="stmt"><h3>Balance sheet <span class="conv">cash has exactly one source: the CFS</span></h3>
+          <div class="table-wrap"><table class="stmt-table" id="t2-bs"></table></div></div>
+        <div class="stmt"><h3>Ratios &amp; returns <span class="conv">days on ending balances · returns on average balances</span></h3>
+          <div class="table-wrap"><table class="stmt-table" id="t2-rt"></table></div></div>
+      </div>
     </div>
   </section>
 
@@ -115,9 +190,53 @@
 <script>
 (function () {
   "use strict";
-  var YEARS = 5;
-  var Y0 = { rev: 500, cash: 50, ppe: 300, debt: 200 };
 
+  /* ================= level toggle ================= */
+  function showLvl(n) {
+    document.getElementById("lab1").style.display = n === 1 ? "" : "none";
+    document.getElementById("lab2").style.display = n === 2 ? "" : "none";
+    document.querySelectorAll("#lvl-seg button").forEach(function (b) {
+      b.classList.toggle("on", b.getAttribute("data-lvl") === String(n));
+    });
+    try { localStorage.setItem("atlas-lab-level", String(n)); } catch (e) {}
+  }
+  document.querySelectorAll("#lvl-seg button").forEach(function (b) {
+    b.addEventListener("click", function () { showLvl(parseInt(b.getAttribute("data-lvl"), 10)); });
+  });
+  var lvl0 = 1; try { lvl0 = parseInt(localStorage.getItem("atlas-lab-level") || "1", 10) || 1; } catch (e) {}
+
+  function fm(n, dp) {
+    var v = dp ? n.toFixed(dp) : Math.round(n).toLocaleString("en-US");
+    return n < -0.0001 ? '<span class="neg">(' + (dp ? Math.abs(n).toFixed(dp) : Math.abs(Math.round(n)).toLocaleString("en-US")) + ")</span>" : v;
+  }
+  function pc(n, dp) { return n < 0 ? '<span class="neg">(' + Math.abs(n).toFixed(dp == null ? 1 : dp) + "%)</span>" : n.toFixed(dp == null ? 1 : dp) + "%"; }
+
+  function header(years) {
+    var h = "<tr><th>$M unless noted</th>";
+    years.forEach(function (y) { h += "<th>" + y + "</th>"; });
+    return h + "</tr>";
+  }
+  function rowHtml(id, label, cells, cls, linkKey) {
+    return '<tr id="' + id + '"' + (cls ? ' class="' + cls + '"' : "") + ' data-link="' + (linkKey || "") + '"><td>' + label + "</td>" +
+      cells.map(function (c) { return "<td>" + c + "</td>"; }).join("") + "</tr>";
+  }
+  function wireClicks(scope, LINKS, noteEl, defaultNote) {
+    var active = null;
+    scope.querySelectorAll(".stmt-table tr[data-link]").forEach(function (tr) {
+      tr.querySelector("td").addEventListener("click", function () {
+        var key = tr.getAttribute("data-link");
+        if (!key || !LINKS[key]) return;
+        scope.querySelectorAll(".stmt-table tr").forEach(function (x) { x.classList.remove("hl"); });
+        if (active === key) { active = null; noteEl.innerHTML = defaultNote; return; }
+        active = key;
+        LINKS[key].rows.forEach(function (rid) { var el = document.getElementById(rid); if (el) el.classList.add("hl"); });
+        noteEl.innerHTML = LINKS[key].note + ' <span class="small faint">(click again to clear)</span>';
+      });
+    });
+  }
+
+  /* ================= LEVEL 1 (the linkages) ================= */
+  var YEARS = 5, Y0 = { rev: 500, cash: 50, ppe: 300, debt: 200 };
   var S = { g: 8, m: 22, da: 5, cx: 6, wc: 10, tax: 25, ir: 6 };
   var SCEN = {
     base: { g: 8, m: 22, da: 5, cx: 6, wc: 10, tax: 25, ir: 6 },
@@ -125,157 +244,265 @@
     recession: { g: -6, m: 15, da: 6, cx: 3, wc: 8, tax: 25, ir: 8 },
     capex: { g: 10, m: 22, da: 8, cx: 14, wc: 10, tax: 25, ir: 7 }
   };
-
-  /* linkage map: line id -> rows to highlight + the lesson */
-  var LINKS = {
-    rev:   { rows: ["is-rev", "cf-nwc", "bs-nwc"], note: "<b>Revenue</b> drives almost everything downstream: margins scale from it on the income statement, and because working capital is held as a % of revenue, growth CONSUMES cash through the working-capital line: the faster you grow, the more cash gets trapped in receivables and inventory." },
-    da:    { rows: ["is-da", "cf-da", "bs-ppe"], note: "<b>One number, three homes.</b> Depreciation reduces operating profit on the income statement, gets added back on the cash flow statement because no cash left, and grinds down net PP&amp;E on the balance sheet. Its only real cash effect is the tax shield." },
-    ni:    { rows: ["is-ni", "cf-ni", "bs-eq"], note: "<b>Net income is the hinge.</b> It ends the income statement, starts the cash flow statement, and lands in retained earnings on the balance sheet. Every interview linkage question routes through this joint." },
-    nwc:   { rows: ["cf-nwc", "bs-nwc", "is-rev"], note: "<b>Working capital is growth's tax.</b> The balance sheet holds NWC as a % of revenue; the cash flow statement pays for every increase. Grow revenue 20% and watch this line eat the P&amp;L's good news." },
-    capex: { rows: ["cf-capex", "bs-ppe"], note: "<b>Capex never touches the income statement directly.</b> It leaves through investing cash flow and builds PP&amp;E, which then feeds back into the P&amp;L over years as depreciation. That timing gap is why EBITDA flatters asset-heavy businesses." },
-    int:   { rows: ["is-int", "bs-debt"], note: "<b>Interest is the income statement's rent on the balance sheet's debt.</b> Debt sits still here (no amortization), so interest is simply rate times balance: in an LBO model, this line and the debt schedule become the whole game." },
-    cash:  { rows: ["cf-fcf", "cf-dcash", "bs-cash"], note: "<b>Free cash flow becomes cash.</b> Whatever survives operations, working capital, and capex lands on the balance sheet as cash. In a levered model it would sweep debt instead: same joint, different destination." },
-    ppe:   { rows: ["bs-ppe", "cf-capex", "cf-da", "is-da"], note: "<b>The PP&amp;E roll-forward:</b> last year's PP&amp;E, plus capex in, minus depreciation out. When capex runs below depreciation for years, the asset base shrinks: the balance sheet's way of saying the business is eating itself." },
-    eq:    { rows: ["bs-eq", "is-ni", "cf-ni"], note: "<b>Equity grows by exactly net income here</b> (no dividends or buybacks in this lab). Retained earnings is just the income statement, accumulated: the balance sheet remembers every P&amp;L that ever happened." },
-    check: { rows: ["bs-check", "cf-fcf", "cf-nwc", "cf-capex", "is-ni"], note: "<b>The tie-out.</b> Assets move by FCF (cash) + &Delta;NWC + capex &minus; depreciation, which algebraically equals net income: the exact amount equity grew. If a model's check row breaks, one of those joints is miswired." }
+  var LINKS1 = {
+    rev: { rows: ["is-rev", "cf-nwc", "bs-nwc"], note: "<b>Revenue</b> drives everything downstream, and because working capital is held as a % of revenue, growth CONSUMES cash: the faster you grow, the more cash gets trapped in receivables and inventory." },
+    da: { rows: ["is-da", "cf-da", "bs-ppe"], note: "<b>One number, three homes.</b> Depreciation reduces operating profit, gets added back on the cash flow statement, and grinds down net PP&amp;E. Its only real cash effect is the tax shield." },
+    ni: { rows: ["is-ni", "cf-ni", "bs-eq"], note: "<b>Net income is the hinge:</b> it ends the income statement, starts the cash flow statement, and lands in retained earnings." },
+    nwc: { rows: ["cf-nwc", "bs-nwc", "is-rev"], note: "<b>Working capital is growth's tax:</b> the balance sheet holds it as a % of revenue; the cash flow statement pays for every increase." },
+    capex: { rows: ["cf-capex", "bs-ppe"], note: "<b>Capex never touches the income statement directly:</b> it leaves through investing cash flow, builds PP&amp;E, and feeds back as future depreciation." },
+    int: { rows: ["is-int", "bs-debt"], note: "<b>Interest is the income statement's rent on the balance sheet's debt.</b> In an LBO model, this line plus the debt schedule become the whole game." },
+    cash: { rows: ["cf-fcf", "cf-dcash", "bs-cash"], note: "<b>Free cash flow becomes cash:</b> whatever survives operations, working capital, and capex lands on the balance sheet." },
+    ppe: { rows: ["bs-ppe", "cf-capex", "cf-da", "is-da"], note: "<b>The PP&amp;E roll-forward:</b> prior PP&amp;E + capex − depreciation. Capex below depreciation for years = the business eating itself." },
+    eq: { rows: ["bs-eq", "is-ni", "cf-ni"], note: "<b>Equity grows by exactly net income here:</b> retained earnings is the income statement, accumulated." },
+    check: { rows: ["bs-check", "cf-fcf", "cf-nwc", "cf-capex", "is-ni"], note: "<b>The tie-out:</b> assets move by FCF + &Delta;NWC + capex − depreciation, which equals net income: exactly what equity grew by." }
   };
-
-  function fm(n) { var r = Math.round(n); return r < 0 ? '<span class="neg">(' + Math.abs(r) + ")</span>" : String(r); }
-
-  function compute() {
+  function compute1() {
     var rows = [], prev = { rev: Y0.rev, cash: Y0.cash, ppe: Y0.ppe, nwc: (S.wc / 100) * Y0.rev };
-    var equity0 = Y0.cash + prev.nwc + Y0.ppe - Y0.debt, eq = equity0;
+    var eq = Y0.cash + prev.nwc + Y0.ppe - Y0.debt;
     for (var t = 1; t <= YEARS; t++) {
-      var rev = prev.rev * (1 + S.g / 100);
-      var ebitda = rev * (S.m / 100);
-      var da = rev * (S.da / 100);
-      var ebit = ebitda - da;
-      var intr = Y0.debt * (S.ir / 100);
-      var pretax = ebit - intr;
-      var tax = Math.max(0, pretax * (S.tax / 100));
-      var ni = pretax - tax;
-      var nwc = rev * (S.wc / 100);
-      var dnwc = nwc - prev.nwc;
-      var cfo = ni + da - dnwc;
-      var capex = rev * (S.cx / 100);
-      var fcf = cfo - capex;
-      var cash = prev.cash + fcf;
-      var ppe = prev.ppe + capex - da;
+      var rev = prev.rev * (1 + S.g / 100), ebitda = rev * (S.m / 100), da = rev * (S.da / 100);
+      var ebit = ebitda - da, intr = Y0.debt * (S.ir / 100), pretax = ebit - intr;
+      var tax = Math.max(0, pretax * (S.tax / 100)), ni = pretax - tax;
+      var nwc = rev * (S.wc / 100), dnwc = nwc - prev.nwc;
+      var cfo = ni + da - dnwc, capex = rev * (S.cx / 100), fcf = cfo - capex;
+      var cash = prev.cash + fcf, ppe = prev.ppe + capex - da;
       eq += ni;
-      var check = (cash + nwc + ppe) - (Y0.debt + eq);
-      rows.push({ rev: rev, ebitda: ebitda, da: da, ebit: ebit, intr: intr, pretax: pretax, tax: tax, ni: ni,
-        dnwc: dnwc, cfo: cfo, capex: capex, fcf: fcf, cash: cash, nwc: nwc, ppe: ppe, eq: eq, check: check });
+      rows.push({ rev: rev, ebitda: ebitda, da: da, ebit: ebit, intr: intr, tax: tax, ni: ni, dnwc: dnwc, cfo: cfo, capex: capex, fcf: fcf, cash: cash, nwc: nwc, ppe: ppe, eq: eq, check: (cash + nwc + ppe) - (Y0.debt + eq) });
       prev = { rev: rev, cash: cash, ppe: ppe, nwc: nwc };
     }
     return rows;
   }
-
-  function header() {
-    var h = "<tr><th>$M</th>";
-    for (var t = 1; t <= YEARS; t++) h += "<th>Y" + t + "</th>";
-    return h + "</tr>";
+  function render1() {
+    var rs = compute1(), yrs = [];
+    for (var t = 1; t <= YEARS; t++) yrs.push("Y" + t);
+    function cells(key, dp) { return rs.map(function (r) { return fm(r[key], dp); }); }
+    document.getElementById("t-is").innerHTML = header(yrs) +
+      rowHtml("is-rev", "Revenue", cells("rev"), "", "rev") +
+      rowHtml("is-ebitda", "EBITDA", cells("ebitda"), "sub", "rev") +
+      rowHtml("is-da", "(-) D&A", cells("da"), "sub", "da") +
+      rowHtml("is-ebit", "EBIT", cells("ebit"), "", "da") +
+      rowHtml("is-int", "(-) Interest", cells("intr"), "sub", "int") +
+      rowHtml("is-taxes", "(-) Taxes", cells("tax"), "sub", "ni") +
+      rowHtml("is-ni", "Net income", cells("ni"), "total", "ni");
+    document.getElementById("t-cf").innerHTML = header(yrs) +
+      rowHtml("cf-ni", "Net income", cells("ni"), "", "ni") +
+      rowHtml("cf-da", "(+) D&A add-back", cells("da"), "sub", "da") +
+      rowHtml("cf-nwc", "(-) Increase in NWC", rs.map(function (r) { return fm(-r.dnwc); }), "sub", "nwc") +
+      rowHtml("cf-cfo", "Cash from operations", cells("cfo"), "total", "ni") +
+      rowHtml("cf-capex", "(-) Capex", rs.map(function (r) { return fm(-r.capex); }), "sub", "capex") +
+      rowHtml("cf-fcf", "Free cash flow", cells("fcf"), "total", "cash") +
+      rowHtml("cf-dcash", "= Change in cash", cells("fcf"), "sub", "cash");
+    document.getElementById("t-bs").innerHTML = header(yrs) +
+      rowHtml("bs-cash", "Cash", cells("cash"), "", "cash") +
+      rowHtml("bs-nwc", "Net working capital", cells("nwc"), "", "nwc") +
+      rowHtml("bs-ppe", "Net PP&E", cells("ppe"), "", "ppe") +
+      rowHtml("bs-debt", "Debt", rs.map(function () { return fm(Y0.debt); }), "", "int") +
+      rowHtml("bs-eq", "Equity (retained)", cells("eq"), "", "eq") +
+      rowHtml("bs-check", "Check: A = L + E", rs.map(function (r) { return Math.abs(r.check) < 0.01 ? '<span class="check-ok">0 ✓</span>' : fm(r.check); }), "total", "check");
+    wireClicks(document.getElementById("lab1"), LINKS1, document.getElementById("link-note"),
+      "<b>Click any line item</b> in the tables to trace it across the 3 statements.");
   }
-  function line(id, label, key, cls, linkKey) {
-    return function (rows) {
-      var tds = rows.map(function (r) { return "<td>" + fm(r[key]) + "</td>"; }).join("");
-      return '<tr id="' + id + '"' + (cls ? ' class="' + cls + '"' : "") + ' data-link="' + (linkKey || "") + '"><td>' + label + "</td>" + tds + "</tr>";
-    };
-  }
-
-  var IS_LINES = [
-    line("is-rev", "Revenue", "rev", "", "rev"),
-    line("is-ebitda", "EBITDA", "ebitda", "sub", "rev"),
-    line("is-da", "(-) Depreciation & amortization", "da", "sub", "da"),
-    line("is-ebit", "EBIT", "ebit", "", "da"),
-    line("is-int", "(-) Interest expense", "intr", "sub", "int"),
-    line("is-taxes", "(-) Taxes", "tax", "sub", "ni"),
-    line("is-ni", "Net income", "ni", "total", "ni")
-  ];
-  var CF_LINES = [
-    line("cf-ni", "Net income", "ni", "", "ni"),
-    line("cf-da", "(+) D&A add-back", "da", "sub", "da"),
-    line("cf-nwc", "(-) Increase in net working capital", "dnwc", "sub", "nwc"),
-    line("cf-cfo", "Cash from operations", "cfo", "total", "ni"),
-    line("cf-capex", "(-) Capex", "capex", "sub", "capex"),
-    line("cf-fcf", "Free cash flow", "fcf", "total", "cash"),
-    line("cf-dcash", "= Change in cash", "fcf", "sub", "cash")
-  ];
-  var BS_LINES = [
-    line("bs-cash", "Cash", "cash", "", "cash"),
-    line("bs-nwc", "Net working capital", "nwc", "", "nwc"),
-    line("bs-ppe", "Net PP&E", "ppe", "", "ppe"),
-    line("bs-debt", "Debt", "check_debt", "", "int"),
-    line("bs-eq", "Equity (retained)", "eq", "", "eq"),
-    line("bs-check", "Check: A = L + E", "check", "total", "check")
-  ];
-
-  function render() {
-    var rows = compute();
-    rows.forEach(function (r) { r.check_debt = Y0.debt; });
-    document.getElementById("t-is").innerHTML = header() + IS_LINES.map(function (f) { return f(rows); }).join("");
-    document.getElementById("t-cf").innerHTML = header() + CF_LINES.map(function (f) { return f(rows); }).join("");
-    document.getElementById("t-bs").innerHTML = header() + BS_LINES.map(function (f) { return f(rows); }).join("");
-    /* the check row renders ✓ when it ties */
-    var checkRow = document.getElementById("bs-check");
-    Array.prototype.slice.call(checkRow.querySelectorAll("td")).slice(1).forEach(function (td, i) {
-      td.innerHTML = Math.abs(rows[i].check) < 0.01 ? '<span class="check-ok">0 ✓</span>' : fm(rows[i].check) + " ✗";
-    });
-    wireClicks();
-    if (activeLink) applyLink(activeLink, true);
-  }
-
-  var activeLink = null;
-  function applyLink(key, keep) {
-    document.querySelectorAll(".stmt-table tr").forEach(function (tr) { tr.classList.remove("hl"); });
-    var L = LINKS[key];
-    if (!L) return;
-    L.rows.forEach(function (rid) { var el = document.getElementById(rid); if (el) el.classList.add("hl"); });
-    document.getElementById("link-note").innerHTML = L.note +
-      ' <span class="small faint">(click the line again or another line to move on)</span>';
-    if (!keep) activeLink = key;
-  }
-  function wireClicks() {
-    document.querySelectorAll(".stmt-table tr[data-link]").forEach(function (tr) {
-      tr.querySelector("td").addEventListener("click", function () {
-        var key = tr.getAttribute("data-link");
-        if (!key) return;
-        if (activeLink === key) {
-          activeLink = null;
-          document.querySelectorAll(".stmt-table tr").forEach(function (x) { x.classList.remove("hl"); });
-          document.getElementById("link-note").innerHTML = "<b>Click any line item</b> to trace it across the 3 statements.";
-          return;
-        }
-        activeLink = key;
-        applyLink(key, true);
-      });
-    });
-  }
-
-  /* sliders */
-  var FMTS = { g: "%", m: "%", da: "%", cx: "%", wc: "%", tax: "%", ir: "%" };
-  function syncPanel() {
-    document.querySelectorAll(".lab-row input").forEach(function (i) {
-      var k = i.getAttribute("data-k");
-      i.value = S[k];
-      document.querySelector('[data-v="' + k + '"]').textContent = S[k] + FMTS[k];
-    });
-  }
-  document.querySelectorAll(".lab-row input").forEach(function (i) {
+  document.querySelectorAll('#lab1 .lab-row input').forEach(function (i) {
     i.addEventListener("input", function () {
-      S[i.getAttribute("data-k")] = parseFloat(i.value);
-      syncPanel(); render();
+      S[i.getAttribute("data-k")] = parseFloat(i.value); syncPanel1(); render1();
     });
   });
-  document.querySelectorAll(".scen").forEach(function (b) {
+  function syncPanel1() {
+    document.querySelectorAll("#lab1 .lab-row input").forEach(function (i) {
+      var k = i.getAttribute("data-k"); i.value = S[k];
+      document.querySelector('#lab1 [data-v="' + k + '"]').textContent = S[k] + "%";
+    });
+  }
+  document.querySelectorAll("#scenarios .scen").forEach(function (b) {
     b.addEventListener("click", function () {
       var sc = SCEN[b.getAttribute("data-scen")];
       Object.keys(sc).forEach(function (k) { S[k] = sc[k]; });
-      syncPanel(); render();
+      syncPanel1(); render1();
+    });
+  });
+  document.getElementById("go-l2").addEventListener("click", function (e) { e.preventDefault(); showLvl(2); window.scrollTo({ top: 0, behavior: "smooth" }); });
+
+  /* ================= LEVEL 2 (the driver build) ================= */
+  var N2 = 4;
+  var B = { units: 30.0, asp: 80.0, gm: 0.20, debt: 1200, cash: 100, ppe: 900, dilShares: 100, basShares: 98, extra: 3 };
+  var D = { vg: 2, pg: 3, cmv: 20, cmp: 70, sga: 8, da: 5, cx: 5.5, sbc: 0.2, tax: 30, dso: 50, dio: 35, dpo: 60, ir: 7, repay: 40, dps: 0.1, px: 20 };
+  var SCEN2 = {
+    base: { vg: 2, pg: 3, cmv: 20, cmp: 70, sga: 8, da: 5, cx: 5.5, sbc: 0.2, tax: 30, dso: 50, dio: 35, dpo: 60, ir: 7, repay: 40, dps: 0.1, px: 20 },
+    upcycle: { vg: 6, pg: 4, cmv: 25, cmp: 75, sga: 7.5, da: 5, cx: 6.5, sbc: 0.2, tax: 30, dso: 48, dio: 33, dpo: 60, ir: 6.5, repay: 80, dps: 0.15, px: 26 },
+    downturn: { vg: -6, pg: -1, cmv: 30, cmp: 70, sga: 9, da: 5.5, cx: 4, sbc: 0.2, tax: 30, dso: 58, dio: 45, dpo: 70, ir: 8.5, repay: 10, dps: 0, px: 13 },
+    pricing: { vg: 1, pg: 7, cmv: 20, cmp: 85, sga: 8, da: 5, cx: 5, sbc: 0.2, tax: 30, dso: 50, dio: 35, dpo: 60, ir: 7, repay: 60, dps: 0.2, px: 27 }
+  };
+  var LINKS2 = {
+    bridge: { rows: ["rd-gv", "rd-gp", "is-gp"], note: "<b>The growth bridge:</b> total $growth splits exactly into volume dollars ((&Delta;units) × prior price) and price dollars ((&Delta;price) × current units). Tests check that the two lines sum to the total: build them, do not plug them." },
+    cm: { rows: ["is-cmv", "is-cmp", "is-gp", "rd-gv", "rd-gp"], note: "<b>Incremental contribution margins are the hedge-fund way of thinking:</b> gross profit is built FORWARD from last year: volume dollars convert at ~20% (they carry material costs with them) while price dollars convert at ~70% (price is nearly pure margin). This is why a pricing story and a volume story with the same revenue growth have completely different earnings." },
+    days: { rows: ["bs-ar", "bs-inv", "bs-ap", "cf-ar", "cf-inv", "cf-ap", "rt-ccc"], note: "<b>Days drive the balance sheet:</b> receivables = DSO/365 × sales; inventory and payables run on COGS. The cash flow statement then pays for every balance change, component by component. DSO + DIO − DPO = the cash conversion cycle: how long a dollar is trapped in the operation." },
+    intconv: { rows: ["i2-int", "b2-debt"], note: "<b>Convention alert: interest here is rate × ENDING debt</b> (some templates use average). Tests dock points for guessing: state your convention and reconcile it to a printed historical year to prove which one the template intends." },
+    cash1: { rows: ["b2-cash", "cf-end"], note: "<b>Cash has exactly one source: the cash flow statement's ending balance.</b> Two independent cash calculations are the most common cause of a balance sheet that will not tie." },
+    check: { rows: ["b2-check"], note: "<b>The 0.0 row is the grade.</b> A test model that ties in every year, with clean conventions, beats a fancier one that is off by 0.3 somewhere. Build the check row FIRST and keep it green as you go." },
+    ret: { rows: ["rt-roe", "rt-roic"], note: "<b>Returns use AVERAGE balances</b> (the income was earned across the year, against a balance that changed), while days ratios here use ending balances. Mixed conventions in one model are fine IF each block is labeled: unlabeled mixing is where reviewers lose trust." },
+    val: { rows: ["rt-eps"], note: "<b>The valuation strip prices year 1:</b> market cap = price × diluted shares; EV adds net debt; P/E uses adjusted EPS (extraordinary costs added back after tax). Every multiple must name its numerator's year and adjustment: 'EV/EBITDA' without a year is not a number." }
+  };
+  function compute2() {
+    var rows = [];
+    var gp0 = B.units * B.asp * B.gm;
+    var cogs0 = B.units * B.asp - gp0;
+    var prev = {
+      units: B.units, asp: B.asp, rev: B.units * B.asp, gp: gp0,
+      ar: D.dso / 365 * B.units * B.asp, inv: D.dio / 365 * cogs0, ap: D.dpo / 365 * cogs0,
+      cash: B.cash, ppe: B.ppe, debt: B.debt
+    };
+    var eq = prev.cash + prev.ar + prev.inv + prev.ppe - prev.ap - prev.debt;
+    var eqPrev = eq, debtPrev = prev.debt;
+    for (var t = 1; t <= N2; t++) {
+      var units = prev.units * (1 + D.vg / 100);
+      var asp = prev.asp * (1 + D.pg / 100);
+      var rev = units * asp;
+      var gVol = (units - prev.units) * prev.asp;
+      var gPrc = (asp - prev.asp) * units;
+      var gp = prev.gp + gVol * (D.cmv / 100) + gPrc * (D.cmp / 100);
+      var cogs = rev - gp;
+      var sga = rev * (D.sga / 100), da = rev * (D.da / 100);
+      var op = gp - sga - da;
+      var debt = Math.max(0, prev.debt - D.repay);
+      var repayAct = prev.debt - debt;
+      var intr = debt * (D.ir / 100);
+      var pretax = op - intr, tax = Math.max(0, pretax * (D.tax / 100)), ni = pretax - tax;
+      var ar = D.dso / 365 * rev, inv = D.dio / 365 * cogs, ap = D.dpo / 365 * cogs;
+      var cfAr = prev.ar - ar, cfInv = prev.inv - inv, cfAp = ap - prev.ap;
+      var sbc = rev * (D.sbc / 100);
+      var cfo = ni + da + sbc + cfAr + cfInv + cfAp;
+      var capex = rev * (D.cx / 100);
+      var div = D.dps * B.basShares;
+      var cff = -repayAct - div;
+      var dCash = cfo - capex + cff;
+      var cash = prev.cash + dCash;
+      var ppe = prev.ppe + capex - da;
+      eqPrev = eq; eq = eq + ni + sbc - div;
+      debtPrev = prev.debt;
+      var assets = cash + ar + inv + ppe, le = ap + debt + eq;
+      var ebitda = op + da, adjE = ebitda + B.extra;
+      var adjNi = ni + B.extra * (1 - D.tax / 100);
+      rows.push({
+        units: units, ug: (units / prev.units - 1) * 100, asp: asp, pgp: (asp / prev.asp - 1) * 100,
+        rev: rev, revg: (rev / prev.rev - 1) * 100, gTot: rev - prev.rev, gVol: gVol, gPrc: gPrc,
+        cogs: cogs, gp: gp, gm: gp / rev * 100, cmv$: gVol * (D.cmv / 100), cmp$: gPrc * (D.cmp / 100),
+        sga: sga, da: da, op: op, opm: op / rev * 100, intr: intr, pretax: pretax, tax: tax, ni: ni,
+        eps: ni / B.dilShares, adjEps: adjNi / B.dilShares, ebitda: ebitda, adjE: adjE,
+        sbc: sbc, cfAr: cfAr, cfInv: cfInv, cfAp: cfAp, cfo: cfo, capex: capex, fcf: cfo - capex,
+        repay: repayAct, div: div, dCash: dCash, cash: cash,
+        ar: ar, inv: inv, ap: ap, ppe: ppe, debt: debt, eq: eq, assets: assets, check: assets - le,
+        dso: D.dso, dio: D.dio, dpo: D.dpo, ccc: D.dso + D.dio - D.dpo,
+        ndE: (debt - cash) / adjE, cov: adjE / (intr || 1e-9),
+        roe: ni / ((eqPrev + eq) / 2) * 100, roic: op * (1 - D.tax / 100) / ((debtPrev + eqPrev + debt + eq) / 2) * 100
+      });
+      prev = { units: units, asp: asp, rev: rev, gp: gp, ar: ar, inv: inv, ap: ap, cash: cash, ppe: ppe, debt: debt };
+    }
+    return rows;
+  }
+  function render2() {
+    var rs = compute2(), yrs = [];
+    for (var t = 1; t <= N2; t++) yrs.push("Y" + t + "E");
+    function cells(key, dp) { return rs.map(function (r) { return fm(r[key], dp); }); }
+    function pcs(key, dp) { return rs.map(function (r) { return pc(r[key], dp); }); }
+
+    document.getElementById("t2-rd").innerHTML = header(yrs) +
+      rowHtml("rd-units", "Unit volume (M)", cells("units", 1), "", "bridge") +
+      rowHtml("rd-ug", "% growth", pcs("ug"), "sub drv", "bridge") +
+      rowHtml("rd-asp", "$ / average unit", rs.map(function (r) { return "$" + r.asp.toFixed(2); }), "", "bridge") +
+      rowHtml("rd-pg", "% growth", pcs("pgp"), "sub drv", "bridge") +
+      rowHtml("rd-rev", "Revenue", cells("rev"), "total", "bridge") +
+      rowHtml("rd-gt", "$ growth, total", cells("gTot"), "sub", "bridge") +
+      rowHtml("rd-gv", "$ growth from volume", cells("gVol"), "sub", "bridge") +
+      rowHtml("rd-gp", "$ growth from price", cells("gPrc"), "sub", "bridge");
+
+    document.getElementById("t2-is").innerHTML = header(yrs) +
+      rowHtml("is-rev2", "Total revenues", cells("rev"), "", "bridge") +
+      rowHtml("is-cogs", "(-) COGS excl. D&A (the residual)", cells("cogs"), "sub", "cm") +
+      rowHtml("is-gp", "Gross profit (built incrementally)", cells("gp"), "total", "cm") +
+      rowHtml("is-gm", "% margin", pcs("gm"), "sub", "cm") +
+      rowHtml("is-cmv", "of which: volume $ × " + D.cmv + "%", cells("cmv$", 1), "sub drv", "cm") +
+      rowHtml("is-cmp", "of which: price $ × " + D.cmp + "%", cells("cmp$", 1), "sub drv", "cm") +
+      rowHtml("is-sga", "(-) SG&A at " + D.sga + "% of sales", cells("sga"), "sub", "cm") +
+      rowHtml("is-da2", "(-) D&A at " + D.da + "% of sales", cells("da"), "sub", "cm") +
+      rowHtml("is-op", "Operating income", cells("op"), "total", "cm") +
+      rowHtml("is-opm", "% margin", pcs("opm"), "sub", "cm") +
+      rowHtml("i2-int", "(-) Interest at " + D.ir + "% of ENDING debt", cells("intr"), "sub", "intconv") +
+      rowHtml("is-tax2", "(-) Taxes at " + D.tax + "%", cells("tax"), "sub", "cm") +
+      rowHtml("is-ni2", "Net income", cells("ni"), "total", "cm") +
+      rowHtml("rt-eps", "Diluted EPS / Adj. EPS", rs.map(function (r) { return "$" + r.eps.toFixed(2) + " / $" + r.adjEps.toFixed(2); }), "sub", "val") +
+      rowHtml("is-adjE", "Adj. EBITDA (+$" + B.extra + "M extraordinary)", cells("adjE"), "sub", "val");
+
+    document.getElementById("t2-cf").innerHTML = header(yrs) +
+      rowHtml("cf-ni2", "Net income", cells("ni"), "", "cm") +
+      rowHtml("cf-da2", "(+) D&A", cells("da"), "sub", "cm") +
+      rowHtml("cf-sbc", "(+) Stock comp at " + D.sbc + "% of sales", cells("sbc", 1), "sub", "cm") +
+      rowHtml("cf-ar", "&Delta; Receivables", cells("cfAr", 1), "sub", "days") +
+      rowHtml("cf-inv", "&Delta; Inventories", cells("cfInv", 1), "sub", "days") +
+      rowHtml("cf-ap", "&Delta; Payables", cells("cfAp", 1), "sub", "days") +
+      rowHtml("cf-cfo2", "Cash from operations", cells("cfo"), "total", "days") +
+      rowHtml("cf-capex2", "(-) Capex at " + D.cx + "% of sales", rs.map(function (r) { return fm(-r.capex); }), "sub", "cm") +
+      rowHtml("cf-fcf2", "Free cash flow", cells("fcf"), "total", "val") +
+      rowHtml("cf-repay", "(-) Debt repayment", rs.map(function (r) { return fm(-r.repay); }), "sub", "intconv") +
+      rowHtml("cf-div", "(-) Dividends ($" + D.dps.toFixed(2) + " × basic)", rs.map(function (r) { return fm(-r.div, 1); }), "sub", "val") +
+      rowHtml("cf-dcash2", "Net change in cash", cells("dCash"), "total", "cash1") +
+      rowHtml("cf-end", "Cash at end of period", cells("cash"), "total", "cash1");
+
+    document.getElementById("t2-bs").innerHTML = header(yrs) +
+      rowHtml("b2-cash", "Cash (reads from the CFS)", cells("cash"), "", "cash1") +
+      rowHtml("bs-ar", "Receivables (DSO " + D.dso + ")", cells("ar"), "", "days") +
+      rowHtml("bs-inv", "Inventories (DIO " + D.dio + ")", cells("inv"), "", "days") +
+      rowHtml("bs-ppe2", "Net PP&E (roll-forward)", cells("ppe"), "", "cm") +
+      rowHtml("bs-assets", "Total assets", cells("assets"), "total", "check") +
+      rowHtml("bs-ap", "Payables (DPO " + D.dpo + ")", cells("ap"), "", "days") +
+      rowHtml("b2-debt", "Total debt (schedule)", cells("debt"), "", "intconv") +
+      rowHtml("bs-eq2", "Shareholders' equity (roll)", cells("eq"), "", "cm") +
+      rowHtml("b2-check", "Check: A − (L + E)", rs.map(function (r) { return Math.abs(r.check) < 0.05 ? '<span class="check-ok">0.0 ✓</span>' : fm(r.check, 1); }), "total", "check");
+
+    document.getElementById("t2-rt").innerHTML = header(yrs) +
+      rowHtml("rt-ccc", "Cash conversion cycle (days)", rs.map(function (r) { return r.ccc.toFixed(0); }), "", "days") +
+      rowHtml("rt-nd", "Net debt / Adj. EBITDA", rs.map(function (r) { return r.ndE.toFixed(1) + "x"; }), "", "intconv") +
+      rowHtml("rt-cov", "Interest coverage (Adj. EBITDA / int.)", rs.map(function (r) { return r.cov.toFixed(1) + "x"; }), "", "intconv") +
+      rowHtml("rt-roe", "Return on equity (avg balances)", pcs("roe"), "", "ret") +
+      rowHtml("rt-roic", "ROIC (avg debt + equity, no cash net)", pcs("roic"), "", "ret");
+
+    /* valuation strip prices year 1 */
+    var r1 = rs[0];
+    var mcap = D.px * B.dilShares, ev = mcap + r1.debt - r1.cash;
+    document.getElementById("val-strip").innerHTML =
+      '<div><div class="k">Share price</div><div class="v">$' + D.px.toFixed(0) + "</div></div>" +
+      '<div><div class="k">Market cap</div><div class="v">$' + Math.round(mcap).toLocaleString("en-US") + "M</div></div>" +
+      '<div><div class="k">Enterprise value</div><div class="v">$' + Math.round(ev).toLocaleString("en-US") + "M</div></div>" +
+      '<div><div class="k">P / Adj. EPS (Y1)</div><div class="v">' + (D.px / r1.adjEps).toFixed(1) + "x</div></div>" +
+      '<div><div class="k">EV / Adj. EBITDA (Y1)</div><div class="v">' + (ev / r1.adjE).toFixed(1) + "x</div></div>" +
+      '<div><div class="k">FCF yield (Y1)</div><div class="v">' + (r1.fcf / mcap * 100).toFixed(1) + "%</div></div>";
+
+    wireClicks(document.getElementById("lab2"), LINKS2, document.getElementById("link-note2"),
+      "<b>Click any line item</b> to see its convention: which driver feeds it, and where modeling tests dock points.");
+  }
+  var FMT2 = { vg: "%", pg: "%", cmv: "%", cmp: "%", sga: "%", da: "%", cx: "%", sbc: "%", tax: "%", dso: "d", dio: "d", dpo: "d", ir: "%", repay: "$M", dps: "$", px: "$" };
+  function syncPanel2() {
+    document.querySelectorAll("#lab2 .lab-row input").forEach(function (i) {
+      var k = i.getAttribute("data-k2"); i.value = D[k];
+      var u = FMT2[k], txt = u === "$" ? "$" + Number(D[k]).toFixed(2) : u === "$M" ? "$" + D[k] + "M" : D[k] + u;
+      document.querySelector('#lab2 [data-v2="' + k + '"]').textContent = txt;
+    });
+  }
+  document.querySelectorAll("#lab2 .lab-row input").forEach(function (i) {
+    i.addEventListener("input", function () {
+      D[i.getAttribute("data-k2")] = parseFloat(i.value); syncPanel2(); render2();
+    });
+  });
+  document.querySelectorAll("#scenarios2 .scen").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var sc = SCEN2[b.getAttribute("data-scen2")];
+      Object.keys(sc).forEach(function (k) { D[k] = sc[k]; });
+      syncPanel2(); render2();
     });
   });
 
-  syncPanel();
-  render();
+  syncPanel1(); render1();
+  syncPanel2(); render2();
+  showLvl(lvl0 === 2 ? 2 : 1);
 })();
 </script>
 </body>

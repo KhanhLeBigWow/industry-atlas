@@ -448,10 +448,11 @@
     for (var i = 0; i < n; i++) {
       var p = pt(i, R);
       s += '<line x1="' + cx + '" y1="' + cy + '" x2="' + p[0] + '" y2="' + p[1] + '" class="gridline"></line>';
-      var lp = pt(i, R + 26);
-      s += '<text x="' + lp[0] + '" y="' + lp[1] + '" text-anchor="middle" font-size="11" fill="var(--ink-2)">' + esc(axes[i].label) + "</text>";
-      var vp = pt(i, R + 12);
-      s += '<text x="' + vp[0] + '" y="' + (vp[1] + 1) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-3)">' + axes[i].value + "</text>";
+      /* one stacked text per axis (label + value on its own line): stacking
+         beats radial offsets, which collided on the horizontal axes */
+      var lp = pt(i, R + 24);
+      s += '<text x="' + lp[0] + '" y="' + (lp[1] - 3) + '" text-anchor="middle" font-size="11" fill="var(--ink-2)">' + esc(axes[i].label) +
+        '<tspan x="' + lp[0] + '" dy="12.5" font-size="9.5" fill="var(--ink-3)">' + axes[i].value + "</tspan></text>";
     }
     var d2 = "";
     axes.forEach(function (a, i) {
@@ -842,13 +843,15 @@
         var fill = it.fill || "color-mix(in srgb, " + grp.g.color + " " + mix + "%, var(--surface-2))";
         s += '<g class="mm-tile" data-mm="' + esc(it.id) + '"><rect x="' + tx + '" y="' + ty + '" width="' + tw + '" height="' + th + '" rx="4" fill="' + fill + '"></rect>';
         s += "<title>" + esc(it.name) + " · " + esc(it.display || "") + (it.status !== "stub" ? " · " + it.status + " profile" : "") + "</title>";
+        var chipsShown = it.chips && it.chips.length && tw > 64 && th > 58;
         if (tw > 58 && th > 26) {
           var fs = Math.min(13, Math.max(9, tw / 9));
           s += '<text x="' + (tx + tw / 2) + '" y="' + (ty + th / 2 + (th > 42 ? -3 : 3)) + '" text-anchor="middle" font-size="' + fs + '" font-weight="650" fill="var(--ink)">' + esc(it.short || it.name).slice(0, Math.floor(tw / (fs * 0.52))) + "</text>";
-          if (th > 42 && it.display) s += '<text x="' + (tx + tw / 2) + '" y="' + (ty + th / 2 + 13) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-2)">' + esc(it.display) + "</text>";
+          /* the $-size sublabel yields when chips need the bottom edge of a short tile */
+          if (th > 42 && it.display && (!chipsShown || th > 88)) s += '<text x="' + (tx + tw / 2) + '" y="' + (ty + th / 2 + 13) + '" text-anchor="middle" font-size="9.5" fill="var(--ink-2)">' + esc(it.display) + "</text>";
         }
         /* top-company chips: small clickable boxes along the tile's bottom edge */
-        if (it.chips && it.chips.length && tw > 64 && th > 44) {
+        if (chipsShown) {
           var cx = tx + 4, cy = ty + th - 18;
           it.chips.forEach(function (ch) {
             var cw = 10 + ch.label.length * 5.6;

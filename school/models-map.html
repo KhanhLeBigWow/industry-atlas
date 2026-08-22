@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" data-module="models-map" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Models Map · Capital Atlas</title>
+<meta name="description" content="Which financial models each seat actually builds: M&A, restructuring, private equity, secondaries, GP-led continuation vehicles, GP stakes, private credit, and more, with the drivers behind each.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css">
+<style>
+  .career-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .career-nav a { font-size: .82rem; font-weight: 600; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
+  .career-nav a.on, .career-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
+  .mm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 940px) { .mm-grid { grid-template-columns: 1fr; } }
+  .seat { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 16px 18px; }
+  .seat h3 { margin: 0 0 2px; font-size: 1.02rem; }
+  .seat .who { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--brand-strong, var(--brand)); }
+  .seat dl { margin: 10px 0 0; font-size: .84rem; }
+  .seat dt { font-weight: 700; font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); margin-top: 9px; }
+  .seat dd { margin: 3px 0 0; color: var(--ink-2); line-height: 1.55; }
+  .seat dd b { color: var(--ink); }
+  .conv-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+  .conv-table th { text-align: left; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
+  .conv-table td { padding: 9px 10px; border-bottom: 1px dashed var(--hairline); vertical-align: top; }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">The career wing · Map</span>
+    <h1>The Models Map.</h1>
+    <p class="hero-tagline">Every technical question converts to a model someone actually builds at a desk. This page
+      maps the conversion: which models live in which seat: M&amp;A, restructuring, buyout PE, secondaries (LP-led and
+      GP-led), GP stakes, private credit and the rest: what drives each one, and what the person grading you looks at
+      first.</p>
+    <nav class="career-nav">
+      <a href="interview-prep.html">📋 Interview bank</a>
+      <a href="drills.html">🥊 Drill room</a>
+      <a href="model-lab.html">🧪 Model Lab</a>
+      <a href="models-map.html" class="on">🗺 Models map</a>
+      <a href="lateral.html">🔁 Lateral guide</a>
+      <a href="groups.html">🏛 Firms &amp; groups</a>
+      <a href="toolkit.html">🧮 Toolkit</a>
+    </nav>
+    <div class="hero-meta"></div>
+  </header>
+
+  <section class="lesson" id="conversion">
+    <h2><span class="sec-num">M.1</span> Questions convert to models</h2>
+    <p class="lede">The interview bank's categories are not trivia: each one is the verbal form of a build. Practice
+      the pair together: say the answer, then build the thing.</p>
+    <div class="table-wrap"><table class="conv-table">
+      <tr><th>Question family</th><th>The model it lives in</th><th>Practice it</th></tr>
+      <tr><td>Accounting &amp; statement linkages</td><td>The 3-statement model: every "walk me through $10 of..." is a mini version of the full build</td><td><a href="model-lab.html">Model Lab</a> Level 1, then Level 2</td></tr>
+      <tr><td>EV / equity value, multiples</td><td>Trading comps and the valuation strip of every model</td><td><a href="toolkit.html">Toolkit</a>: EV bridge + comps pricing</td></tr>
+      <tr><td>DCF questions</td><td>The intrinsic-value model: UFCF build + WACC + terminal value</td><td><a href="toolkit.html">Toolkit</a>: quick DCF; Module 04's sandbox</td></tr>
+      <tr><td>Merger math, accretion / dilution</td><td>The merger model: sources &amp; uses, PPA, pro forma EPS</td><td><a href="drills.html">Drill Room</a>: snap calls; Module 05</td></tr>
+      <tr><td>LBO and returns questions</td><td>The LBO model: debt schedule, cash sweep, returns attribution</td><td><a href="drills.html">Drill Room</a>: paper LBO; Module 06's simulator</td></tr>
+      <tr><td>Restructuring questions</td><td>The waterfall + the 13-week cash flow: recovery by class, liquidity runway</td><td>Interview bank RX category; <a href="lateral.html#rx-case">the RSSG worked example</a></td></tr>
+      <tr><td>Earnings / stock-pitch questions</td><td>The quarterly earnings model: driver build to EPS vs consensus</td><td><a href="model-lab.html">Model Lab</a> Level 2: that IS the earnings model</td></tr>
+    </table></div>
+  </section>
+
+  <section class="lesson" id="seats">
+    <h2><span class="sec-num">M.2</span> The models, seat by seat</h2>
+    <div class="mm-grid">
+
+      <div class="seat"><span class="who">Sell-side · advisory</span><h3>M&amp;A group</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>Merger model</b> (accretion/dilution with PPA and synergies), <b>DCF</b>, <b>trading comps and precedents</b>, <b>ability-to-pay LBO</b> (what a sponsor could bid), sum-of-the-parts, and the football field that stitches them together.</dd>
+          <dt>Drivers that matter</dt><dd>Price and premium, financing mix, synergies net of costs-to-achieve, purchase accounting (intangible amortization), pro forma leverage.</dd>
+          <dt>The output that decides</dt><dd>The accretion/dilution table across financing scenarios, and where the offer lands on the football field.</dd>
+          <dt>How it is tested</dt><dd>Merger math aloud, then judgment: is accretive good? Where did the synergies go? Module 05 + the Drill Room's snap calls.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Sell-side · advisory</span><h3>Restructuring (RX)</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>Capital structure waterfall</b> (recovery by class at a range of EVs), <b>13-week cash flow</b>, <b>liquidity runway model</b>, DIP sizing, and the reorganized-company business plan model that valuation fights are fought over.</dd>
+          <dt>Drivers that matter</dt><dd>Enterprise value (the whole fight), class-by-class claims and liens, cash burn by week, DIP terms, plan treatment.</dd>
+          <dt>The output that decides</dt><dd>Where value breaks: the fulcrum security, and each class's recovery per point of EV.</dd>
+          <dt>How it is tested</dt><dd>Build a waterfall from a cap table, find the fulcrum, defend the EV. The interview bank's RX category is the verbal version.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Buy-side · control</span><h3>Private equity (buyout)</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>The LBO model</b> in every grade: paper, 3-hour test, full operating model with debt schedule and cash sweep; plus <b>add-on models</b>, covenant models, and the monthly portfolio-company reporting build.</dd>
+          <dt>Drivers that matter</dt><dd>Entry/exit multiple, leverage and its cost, EBITDA growth by lever (price, volume, cost, add-ons), FCF conversion, fees.</dd>
+          <dt>The output that decides</dt><dd>MOIC and IRR with attribution: how much came from operations vs leverage vs multiple.</dd>
+          <dt>How it is tested</dt><dd>Paper LBO aloud, timed model test, then the case-study memo. The Drill Room generates infinite paper LBOs.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Buy-side · public markets</span><h3>Hedge fund (long/short equity)</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>The quarterly earnings model</b>: a driver-built 3-statement exactly like <a href="model-lab.html">Model Lab Level 2</a> (units × price, contribution margins, days), tuned to predict the next print vs consensus; plus scenario/SOTP models for the thesis.</dd>
+          <dt>Drivers that matter</dt><dd>The 2 or 3 revenue drivers that actually move the stock, incremental margins, guidance mechanics, consensus numbers.</dd>
+          <dt>The output that decides</dt><dd>Your EPS/EBITDA vs the street, quarter by quarter, and what multiple re-rating your variant view implies.</dd>
+          <dt>How it is tested</dt><dd>The timed model test (the Level 2 architecture) plus a stock pitch with a variant view.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Advisory · private capital</span><h3>Private Capital Advisory (PCA) · LP-led secondaries</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>The portfolio pricing model</b>: bottoms-up NAV of every fund interest in a portfolio (each company rolled forward from the last mark), discount/premium to NAV, and the buyer's return model at each price.</dd>
+          <dt>Drivers that matter</dt><dd>NAV vintage and staleness, unfunded commitments, distribution pacing assumptions, discount rate to the mark, leverage on the deal (deferred payments).</dd>
+          <dt>The output that decides</dt><dd>Price as a % of NAV that clears both sides: the seller's need for liquidity vs the buyer's target IRR (typically mid-teens on diversified LP books).</dd>
+          <dt>How it is tested</dt><dd>Price this LP position: roll the NAV, assume a cash-flow pacing curve, solve for the discount that hits the return.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Advisory · private capital</span><h3>GP-led secondaries · continuation vehicles</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>The continuation vehicle (CV) model</b>: a single-asset (or strip) LBO-style model where existing LPs choose cash or roll, a new lead investor prices the asset, and the GP resets carry: economics for 3 parties in one build.</dd>
+          <dt>Drivers that matter</dt><dd>The asset's forward plan (it is an LBO underwrite), price vs fund NAV (the fairness fight), roll vs sell election rates, new-money need, GP carry crystallization and reset terms.</dd>
+          <dt>The output that decides</dt><dd>Returns to the new investor AND fairness to selling LPs: the model must show both, because a conflicted GP sits in the middle.</dd>
+          <dt>How it is tested</dt><dd>Underwrite the asset like a buyout, then layer the CV mechanics: who gets what at 2x? Status-quo fund vs CV outcomes.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Buy-side · fund economics</span><h3>GP stakes</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>The management-company model</b>: you are valuing the GP itself: fee-related earnings (fees on committed/invested capital minus comp and opex), carry by fund vintage (probability-weighted, back-loaded), and balance-sheet co-invests: a SOTP where each stream gets its own multiple or DCF.</dd>
+          <dt>Drivers that matter</dt><dd>Fundraising trajectory (the real growth driver), fee rates and step-downs, FRE margin, carry realization timing, key-person risk.</dd>
+          <dt>The output that decides</dt><dd>Value per stream: high multiple on durable FRE, discounted carry, book value on the balance sheet: and the check that distributions can fund the GP's own commitments.</dd>
+          <dt>How it is tested</dt><dd>Value this $10B-AUM manager: separate FRE from carry, defend both multiples. The asset-management industry profile carries the public-market version.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Buy-side · credit</span><h3>Private credit / direct lending</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>The lender's LBO</b>: the same buyout model, graded on downside: base/downside/severe cases, covenant headroom model, recovery analysis, and unitranche return builds (coupon + OID + fees, levered at the fund).</dd>
+          <dt>Drivers that matter</dt><dd>Fixed-charge coverage through the downside case, enterprise value cushion beneath the debt, docs (leakage, EBITDA add-backs), pricing (SOFR + spread + OID).</dd>
+          <dt>The output that decides</dt><dd>Yield-to-worst vs loss-given-default: does the spread pay for the downside the model shows?</dd>
+          <dt>How it is tested</dt><dd>Same LBO, opposite chair: they hand you a sponsor's model and ask what breaks first and at what EBITDA decline you are impaired.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Sell-side · financing</span><h3>Leveraged finance / DCM</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>Debt capacity and pro forma models</b>: leverage through each tranche, pricing grids, covenant models, refinancing economics (call premiums, make-wholes), and rating-agency style metrics builds.</dd>
+          <dt>Drivers that matter</dt><dd>Leverage vs the comp set, coverage, market clearing spreads, call schedules, docs flexibility the sponsor wants.</dd>
+          <dt>The output that decides</dt><dd>The financing structure that clears the market at the lowest all-in cost while surviving the rating and the downside case.</dd>
+          <dt>How it is tested</dt><dd>Credit metrics fluency and live market levels: closest sell-side cousin to RX and private-credit prep.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Sell-side · equity</span><h3>ECM</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>IPO valuation and dilution models</b> (pre/post-money, greenshoe mechanics), follow-on and block pricing models, and <b>converts math</b> (conversion premium, bond floor, hedging).</dd>
+          <dt>Drivers that matter</dt><dd>Comparable trading multiples at pricing, the discount to clear size, float and lockups, market windows.</dd>
+          <dt>The output that decides</dt><dd>Price and size that clears the book with a healthy aftermarket: judged in public, the day after.</dd>
+          <dt>How it is tested</dt><dd>Process fluency plus market feel: recent pricings vs ranges, what the calendar looks like.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Buy-side · early stage</span><h3>Venture &amp; growth equity</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>Cap tables</b> (dilution across rounds, liquidation preferences, option pools), <b>unit-economics models</b> (CAC payback, cohort retention, burn multiple), and for growth: a revenue-build to profitability with the retention stack at its heart.</dd>
+          <dt>Drivers that matter</dt><dd>Gross and net revenue retention, growth efficiency, gross margin, dilution path to exit.</dd>
+          <dt>The output that decides</dt><dd>Ownership at exit × exit value vs the fund's power-law math: does this deal return the fund?</dd>
+          <dt>How it is tested</dt><dd>Cohort table reads, cap-table math (who gets what at a $400M sale with a 1x pref), market-sizing sanity.</dd>
+        </dl></div>
+
+      <div class="seat"><span class="who">Buy-side · real assets</span><h3>Real estate &amp; infrastructure / project finance</h3>
+        <dl>
+          <dt>Models on your screen</dt><dd><b>Property-level models</b> (rent roll to NOI to levered cash flows, cap rates in and out) and <b>project finance models</b>: contracted cash flows, DSCR-sized debt sculpting, 25-year horizons where the debt schedule IS the model.</dd>
+          <dt>Drivers that matter</dt><dd>Occupancy/utilization, rent or tariff escalators, cap rate / discount rate, DSCR covenants, refinancing points.</dd>
+          <dt>The output that decides</dt><dd>Levered IRR to equity with the debt sized by the coverage ratios, not by wish.</dd>
+          <dt>How it is tested</dt><dd>NOI math, cap-rate intuition (what a 5% to 6% move does to value), DSCR mechanics.</dd>
+        </dl></div>
+
+    </div>
+    <div class="callout" style="margin-top:20px">
+      <p><strong>The pattern worth noticing.</strong> Almost everything above is one of 3 machines wearing different
+        clothes: the <b>3-statement driver model</b> (earnings, credit, and every operating build:
+        <a href="model-lab.html">Model Lab Level 2</a>), the <b>leveraged returns model</b> (LBO, CV, lender's LBO,
+        project finance: the <a href="drills.html">Drill Room's</a> paper LBO is its skeleton), and the
+        <b>claims-splitting model</b> (waterfalls, cap tables, merger consideration: who gets what, in what order).
+        Master the 3 machines and every seat's model is a dialect, not a new language.</p>
+    </div>
+  </section>
+
+</main>
+<script src="assets/data/curriculum.js"></script>
+<script src="assets/js/atlas.js"></script>
+</body>
+</html>
