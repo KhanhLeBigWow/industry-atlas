@@ -4,22 +4,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>M&A · The Desks · Capital Atlas</title>
-<meta name="description" content="The M&A track: what the desk does, the merger-math technicals, a live deal wire, the league-table landscape, and the buy side across the table.">
+<meta name="description" content="The M&A ecosystem mapped: sell side, buy side, the deal at the center, the players, the roles, and the merger-math technicals.">
 <script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/atlas.css">
 <style>
+  :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
   .desk-nav a { font-size: .78rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
   .desk-nav a.on, .desk-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
-  .tech-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
-  .tech-table th { text-align: left; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
+  .map-fig { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px 8px; }
+  .map-fig svg { display: block; width: 100%; height: auto; }
+  .side-grids { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  @media (max-width: 900px) { .side-grids { grid-template-columns: 1fr; } }
+  .side-col h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 8px; }
+  .side-col.sell h3 { color: var(--viz-2); } .side-col.buy h3 { color: var(--viz-1); }
+  .p-card { display: flex; gap: 10px; align-items: center; padding: 9px 11px; margin-bottom: 7px;
+    background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 11px; }
+  .p-mg { flex: none; width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center;
+    font-family: var(--font-mono); font-size: .68rem; font-weight: 700; color: #fff; }
+  .sell .p-mg { background: var(--viz-2); } .buy .p-mg { background: var(--viz-1); }
+  .p-card b { font-size: .85rem; display: block; }
+  .p-card span { font-size: .72rem; color: var(--ink-3); }
+  .roles { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .roles { grid-template-columns: 1fr; } }
+  .lane { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px; }
+  .lane h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 10px; }
+  .lane.sell h3 { color: var(--viz-2); } .lane.buy h3 { color: var(--viz-1); }
+  .rflow { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .rchip { font-size: .74rem; font-weight: 650; padding: 5px 10px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--hairline); }
+  .rarr { color: var(--ink-3); font-size: .8rem; }
+  .rrow { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; }
+  .rrow:last-child { border-bottom: 0; }
+  .rrow b { font-size: .76rem; } .rrow span { color: var(--ink-2); }
+  .tech-table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+  .tech-table th { text-align: left; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
   .tech-table td { padding: 9px 10px; border-bottom: 1px dashed var(--hairline); vertical-align: top; }
   .tech-table td:first-child { font-weight: 650; }
   .kit { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
-  .kit a { font-size: .76rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
+  .kit a { font-size: .74rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
   .kit a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
 </style>
 </head>
@@ -29,8 +54,8 @@
   <header class="module-hero">
     <span class="kicker">The Desks · advisory</span>
     <h1>M&amp;A.</h1>
-    <p class="hero-tagline">The desk that sells judgment: who should own what, at what price, in what structure. Global
-      deal value runs $3T to $4T in a normal year, and every dollar of it passed through a process someone designed.</p>
+    <p class="hero-tagline">$3T to $4T of control changes hands in a normal year. This is the machine that clears it:
+      the process, the players on both sides, and the math in the middle.</p>
     <nav class="desk-nav">
       <a href="../desks.html">🏦 All desks</a>
       <a href="pca.html">PCA &amp; Secondaries</a>
@@ -43,65 +68,129 @@
     <div class="hero-meta"></div>
   </header>
 
-  <section class="lesson" id="primer">
-    <h2><span class="sec-num">D.1</span> The primer</h2>
-    <p class="lede">M&amp;A bankers run processes and price control. Sell-sides (auctions or negotiated sales),
-      buy-sides (advising an acquirer), defense (activists and hostiles), and fairness opinions: the fee is a % of deal
-      value, and the product is a market cleared in your client's favor.</p>
-    <p><strong>The rhythm of the desk:</strong> a sell-side runs ~4 to 6 months: materials (CIM, model), outreach, first
-      bids, management meetings, final bids against a draft contract, signing, closing. The analyst's life is the model,
-      the materials, and the data room; the associate runs the checklist; the MD runs the price talk. Deal flow follows
-      CEO confidence, financing cost, and sponsor dry powder: the cycle every coverage group rides. Sponsors have grown
-      to roughly a third of activity, which is why the <a href="dcm.html">financing desks</a> and M&amp;A live in each
-      other's models.</p>
+  <section class="lesson" id="map">
+    <h2><span class="sec-num">1</span> The map: a deal, end to end</h2>
+    <div class="map-fig"><div id="sysmap"></div></div>
+    <p class="small muted" style="margin-top:8px">The seller's advisor runs the process (green side); buyers bring
+      capital and conviction (blue side); the referees police it. Fees flow on success: typically ~1% of deal value at
+      scale, far more in % terms on smaller deals.</p>
   </section>
 
-  <section class="lesson" id="technicals">
-    <h2><span class="sec-num">D.2</span> The technicals</h2>
-    <div class="table-wrap"><table class="tech-table">
-      <tr><th>Build</th><th>The mechanics</th><th>What decides it</th></tr>
-      <tr><td>Merger model</td><td>Combine 2 companies at a price and financing mix: sources &amp; uses, purchase accounting (write-ups, intangibles, goodwill, DTLs), synergies net of costs, pro forma EPS vs standalone.</td><td>The accretion/dilution table across cash/stock/debt mixes, and whether the premium survives honest synergy math.</td></tr>
-      <tr><td>Valuation stack</td><td>Comps, precedents (control premiums), DCF, LBO ability-to-pay: laid out on the football field.</td><td>Where the offer lands across independent lenses, argued in the fairness deck.</td></tr>
-      <tr><td>Process design</td><td>Broad auction vs targeted outreach vs negotiated: speed, confidentiality, and competitive tension traded against each other.</td><td>Leak risk and the credible-buyer count: 2 real bidders beat 20 tourists.</td></tr>
-      <tr><td>Structures</td><td>Cash vs stock elections, collars, earnouts/CVRs, tender offers vs one-step mergers, spin/split alternatives.</td><td>Certainty vs value-sharing: every structure allocates risk between signing and closing.</td></tr>
-    </table></div>
-    <div class="kit">
-      <a href="../modules/ma-deals.html">Module 05: M&amp;A &amp; the deal process</a>
-      <a href="../drills.html">Drill Room: accretion/dilution snap calls</a>
-      <a href="../interview-prep.html">Interview bank: M&amp;A category</a>
-      <a href="../models-map.html#seats">Models Map: the M&amp;A seat</a>
-      <a href="../../industry.html?id=investment-banking">Industry dossier: Investment Banking</a>
+  <section class="lesson" id="players">
+    <h2><span class="sec-num">2</span> The players</h2>
+    <div class="side-grids">
+      <div class="side-col sell">
+        <h3>Sell side · advisors &amp; sellers</h3>
+        <div class="p-card"><span class="p-mg">GS</span><div><b>Goldman · Morgan Stanley · JPMorgan</b><span>the league-table top; balance sheet attached</span></div></div>
+        <div class="p-card"><span class="p-mg">EB</span><div><b>Evercore · Centerview · Lazard · PJT · Moelis</b><span>conflict-free advice at mega-cap boards</span></div></div>
+        <div class="p-card"><span class="p-mg">MM</span><div><b>Jefferies · Blair · Baird · Harris Williams</b><span>the mid-market volume machines</span></div></div>
+        <div class="p-card"><span class="p-mg">CO</span><div><b>Corporate sellers &amp; boards</b><span>divestitures, strategic reviews, activism responses</span></div></div>
+        <div class="p-card"><span class="p-mg">SP</span><div><b>Sponsor sellers</b><span>PE exits: ~a third of the tape</span></div></div>
+        <div class="p-card"><span class="p-mg">LW</span><div><b>Kirkland · Wachtell · Skadden class</b><span>the lawyers whose markups are half the negotiation</span></div></div>
+      </div>
+      <div class="side-col buy">
+        <h3>Buy side · the acquirers</h3>
+        <div class="p-card"><span class="p-mg">ST</span><div><b>Strategic acquirers</b><span>corporates with synergies; corp dev teams inside</span></div></div>
+        <div class="p-card"><span class="p-mg">PE</span><div><b>Financial sponsors</b><span>Blackstone/KKR class: the leverage bid</span></div></div>
+        <div class="p-card"><span class="p-mg">BA</span><div><b>Buy-side advisors</b><span>banks advising the acquirer: fairness + financing</span></div></div>
+        <div class="p-card"><span class="p-mg">LF</span><div><b>Financing desks</b><span><a href="dcm.html">DCM/LevFin</a> underwriting the cash portion</span></div></div>
+        <div class="p-card"><span class="p-mg">AC</span><div><b>Activists</b><span>Elliott class: sometimes the reason the deal exists</span></div></div>
+        <div class="p-card"><span class="p-mg">AR</span><div><b>Merger arbs</b><span>the funds pricing deal-break risk daily after announcement</span></div></div>
+      </div>
     </div>
   </section>
 
+  <section class="lesson" id="roles">
+    <h2><span class="sec-num">3</span> The roles: who does what</h2>
+    <div class="roles">
+      <div class="lane sell">
+        <h3>On the banking team</h3>
+        <div class="rflow"><span class="rchip">Analyst</span><span class="rarr">→</span><span class="rchip">Associate</span><span class="rarr">→</span><span class="rchip">VP</span><span class="rarr">→</span><span class="rchip">MD</span></div>
+        <div class="rrow"><b>Analyst</b><span>The model (merger, DCF, comps), the CIM pages, the data room, the buyer grids.</span></div>
+        <div class="rrow"><b>Associate</b><span>Checklists and quality control; first drafts of everything; diligence traffic.</span></div>
+        <div class="rrow"><b>VP</b><span>Runs the process day to day: bid instructions, management meetings, negotiation support.</span></div>
+        <div class="rrow"><b>MD</b><span>The relationship and the price talk; wins the mandate; manages the board.</span></div>
+      </div>
+      <div class="lane buy">
+        <h3>Across the table</h3>
+        <div class="rflow"><span class="rchip">Corp dev</span><span class="rarr">·</span><span class="rchip">Sponsor deal team</span><span class="rarr">·</span><span class="rchip">Counsel</span><span class="rarr">·</span><span class="rchip">Arb desk</span></div>
+        <div class="rrow"><b>Corp dev</b><span>The strategic buyer's inside team: sourcing, synergy cases, integration planning.</span></div>
+        <div class="rrow"><b>Sponsor team</b><span>The LBO underwrite, financing stack, 100-day plan: speed is their bid's currency.</span></div>
+        <div class="rrow"><b>Counsel</b><span>Reps, MACs, termination fees: risk allocation between signing and closing.</span></div>
+        <div class="rrow"><b>Merger arb</b><span>Post-announcement, the market's referee: spread = deal-break probability.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lesson" id="technicals">
+    <h2><span class="sec-num">4</span> The technicals</h2>
+    <div class="table-wrap"><table class="tech-table">
+      <tr><th>Build</th><th>Mechanics</th><th>What decides it</th></tr>
+      <tr><td>Merger model</td><td>Sources &amp; uses, purchase accounting (write-ups, intangibles, goodwill, DTLs), synergies net of costs, pro forma EPS.</td><td>Accretion/dilution across cash/stock/debt mixes; whether the premium survives honest synergy math.</td></tr>
+      <tr><td>Valuation stack</td><td>Comps + precedents (control premium) + DCF + LBO ability-to-pay, drawn on the football field.</td><td>Where the offer lands across independent lenses.</td></tr>
+      <tr><td>Process design</td><td>Broad auction vs targeted vs negotiated: tension traded against speed and leak risk.</td><td>Two real bidders beat 20 tourists.</td></tr>
+      <tr><td>Structures</td><td>Cash/stock elections, collars, earnouts/CVRs, tender vs one-step.</td><td>Every structure allocates signing-to-closing risk.</td></tr>
+    </table></div>
+  </section>
+
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">D.3</span> The wire: deals this week</h2>
+    <h2><span class="sec-num">5</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
-  <section class="lesson" id="landscape">
-    <h2><span class="sec-num">D.4</span> The landscape</h2>
-    <p>League tables are the desk's scoreboard: Goldman and Morgan Stanley trade the top; JPMorgan brings the balance
-      sheet; the elite boutiques (Evercore, Centerview, Lazard, PJT, Moelis) keep taking advisory share because
-      conflict-free advice sells at mega-cap boards. Across the table sits corporate development (the in-house buyers),
-      sponsors (a third of the market), and the lawyers whose markups set half the real negotiation. The
-      <a href="../groups.html">Firms &amp; Groups</a> page maps who is strong where; sector depth lives in the
-      <a href="coverage.html">industry groups</a> and their dossiers.</p>
-  </section>
-
-  <section class="lesson" id="study">
-    <h2><span class="sec-num">D.5</span> The study kit</h2>
-    <p>Merger math cold (the <a href="../drills.html">drill</a> until instant), Module 05 end to end, 3 live deals you
-      can discuss with a view (premium, logic, market reaction), and 1 broken deal and why. The M&amp;A interview is the
-      most standardized on the street: the differentiation is judgment on deals, not formula recall.</p>
+  <section class="lesson" id="shelf">
+    <h2><span class="sec-num">6</span> The shelf</h2>
+    <div class="kit">
+      <a href="../../industry.html?id=investment-banking">Dossier: Investment Banking</a>
+      <a href="../../industry.html?id=private-equity">Dossier: Private Equity</a>
+      <a href="coverage.html">The industry groups feeding this desk</a>
+      <a href="../modules/ma-deals.html">Module 05: the deal process</a>
+      <a href="../drills.html">Drill Room: accretion/dilution</a>
+      <a href="../interview-prep.html">Interview bank: M&amp;A</a>
+      <a href="../models-map.html#seats">Models Map: the M&amp;A seat</a>
+    </div>
   </section>
 
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
+<script src="../../assets/js/viz.js?v=16"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
+  Viz.systemDiagram(document.getElementById("sysmap"), {
+    accent: "var(--brand)",
+    label: "The M&A ecosystem",
+    center: { title: "The deal", note: "a 4-to-6-month process", subs: [
+      "Materials · CIM + model", "Outreach · the buyer list", "First bids · IOIs",
+      "Finals · bids vs draft contract", "Sign → regulatory → close"] },
+    left: { title: "SELL SIDE · running the process", items: [
+      { name: "The board & management", note: "the decision and the story" },
+      { name: "Sell-side advisor", note: "GS/MS/JPM or the boutiques: process + price talk" },
+      { name: "Sponsor sellers", note: "PE exits feed the tape" },
+      { name: "Company counsel", note: "contract, disclosure, fiduciary cover" },
+      { name: "Coverage bankers", note: "the industry group that sourced it" }
+    ] },
+    right: { title: "BUY SIDE · bidding", items: [
+      { name: "Strategic acquirers", note: "synergies; corp dev inside" },
+      { name: "Financial sponsors", note: "the leverage bid" },
+      { name: "Buy-side advisors", note: "valuation + tactics for the acquirer" },
+      { name: "Financing desks", note: "bridges, bonds, loans behind cash bids" },
+      { name: "Merger arbs (post-announce)", note: "pricing the spread" }
+    ] },
+    capIn: { title: "FEES IN", items: [
+      { name: "Sell-side success fee", note: "~1% at scale; more below" },
+      { name: "Buy-side + fairness fees", note: "smaller, steadier" },
+      { name: "Financing fees", note: "often larger than the advisory fee" }
+    ] },
+    capOut: { title: "WHAT FLOWS OUT", items: [
+      { name: "Premium to target holders", note: "typically 20-40%" },
+      { name: "Control to the buyer", note: "plus the synergies, if real" },
+      { name: "Break fees if it dies", note: "2-4% of deal value" }
+    ] },
+    top: { title: "THE REFEREES", items: ["Antitrust (FTC/DOJ/EC)", "CFIUS", "Delaware courts", "Shareholder votes"] },
+    leftArrow: "offers the asset", rightArrow: "bids & funds"
+  });
   if (window.AtlasNews) {
     AtlasNews.render(document.getElementById("wire-feed"),
       '("mergers and acquisitions" OR takeover OR "definitive agreement" OR "all-cash deal" OR "to acquire")',

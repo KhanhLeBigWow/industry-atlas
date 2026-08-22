@@ -4,22 +4,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DCM & LevFin · The Desks · Capital Atlas</title>
-<meta name="description" content="The debt capital markets and leveraged finance track: primer, credit technicals and docs, live credit wire, and the landscape including private credit.">
+<meta name="description" content="The credit ecosystem mapped: issuers and sponsors on one side, CLOs, funds, and private credit on the other; the players, the roles, and the credit technicals.">
 <script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/atlas.css">
 <style>
+  :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
   .desk-nav a { font-size: .78rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
   .desk-nav a.on, .desk-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
-  .tech-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
-  .tech-table th { text-align: left; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
+  .map-fig { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px 8px; }
+  .map-fig svg { display: block; width: 100%; height: auto; }
+  .side-grids { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  @media (max-width: 900px) { .side-grids { grid-template-columns: 1fr; } }
+  .side-col h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 8px; }
+  .side-col.sell h3 { color: var(--viz-2); } .side-col.buy h3 { color: var(--viz-1); }
+  .p-card { display: flex; gap: 10px; align-items: center; padding: 9px 11px; margin-bottom: 7px;
+    background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 11px; }
+  .p-mg { flex: none; width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center;
+    font-family: var(--font-mono); font-size: .68rem; font-weight: 700; color: #fff; }
+  .sell .p-mg { background: var(--viz-2); } .buy .p-mg { background: var(--viz-1); }
+  .p-card b { font-size: .85rem; display: block; }
+  .p-card span { font-size: .72rem; color: var(--ink-3); }
+  .roles { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .roles { grid-template-columns: 1fr; } }
+  .lane { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px; }
+  .lane h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 10px; }
+  .lane.sell h3 { color: var(--viz-2); } .lane.buy h3 { color: var(--viz-1); }
+  .rflow { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .rchip { font-size: .74rem; font-weight: 650; padding: 5px 10px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--hairline); }
+  .rarr { color: var(--ink-3); font-size: .8rem; }
+  .rrow { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; }
+  .rrow:last-child { border-bottom: 0; }
+  .rrow b { font-size: .76rem; } .rrow span { color: var(--ink-2); }
+  .tech-table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+  .tech-table th { text-align: left; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
   .tech-table td { padding: 9px 10px; border-bottom: 1px dashed var(--hairline); vertical-align: top; }
   .tech-table td:first-child { font-weight: 650; }
   .kit { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
-  .kit a { font-size: .76rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
+  .kit a { font-size: .74rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
   .kit a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
 </style>
 </head>
@@ -29,9 +54,8 @@
   <header class="module-hero">
     <span class="kicker">The Desks · financing</span>
     <h1>DCM &amp; leveraged finance.</h1>
-    <p class="hero-tagline">The debt machine: investment-grade flow measured in trillions a year at the top, and
-      leveraged finance underneath it funding every LBO. Credit is where the money actually is: the global bond market
-      dwarfs equities, and the desk that prices it never closes.</p>
+    <p class="hero-tagline">The credit machine: investment-grade flow in the trillions, and beneath it the $1.4T+ each
+      high-yield and leveraged-loan markets funding every buyout: now sharing the field with $2T of private credit.</p>
     <nav class="desk-nav">
       <a href="../desks.html">🏦 All desks</a>
       <a href="pca.html">PCA &amp; Secondaries</a>
@@ -44,67 +68,129 @@
     <div class="hero-meta"></div>
   </header>
 
-  <section class="lesson" id="primer">
-    <h2><span class="sec-num">D.1</span> The primer</h2>
-    <p class="lede">Two desks share the floor. <b>DCM</b> runs investment-grade issuance: high-volume, low-fee,
-      relationship flow: a treasurer calls, and $2B prices by lunch off a spread to Treasuries. <b>Leveraged finance</b>
-      is the credit engine of the sponsor economy: high-yield bonds and leveraged loans (each a $1.4T+ US market)
-      underwriting buyouts, dividends, and refinancings at real fees and real risk.</p>
-    <p><strong>The defining fight of this decade:</strong> private credit ($2T-class AUM) took the middle of the
-      leveraged market from the syndicated desks: speed and certainty against price and scale: and now the banks
-      partner with, compete against, and lend to the very funds displacing them. Anyone joining LevFin today is joining
-      that turf war. The <a href="../../industry.html?id=private-credit">Private Credit dossier</a> is the other half of
-      this track.</p>
+  <section class="lesson" id="map">
+    <h2><span class="sec-num">1</span> The map: credit, cleared</h2>
+    <div class="map-fig"><div id="sysmap"></div></div>
+    <p class="small muted" style="margin-top:8px">Borrowers and their sponsors bring paper (green); the credit buy side
+      brings the money (blue); the desks in the middle underwrite, syndicate, and price it off the curve. The decade's
+      turf war: private credit taking the middle of the market from syndication entirely.</p>
   </section>
 
-  <section class="lesson" id="technicals">
-    <h2><span class="sec-num">D.2</span> The technicals</h2>
-    <div class="table-wrap"><table class="tech-table">
-      <tr><th>Build</th><th>The mechanics</th><th>What decides it</th></tr>
-      <tr><td>Debt capacity</td><td>How much can this business borrow: leverage through each tranche vs the comp set, coverage through a downside case, rating-agency metrics.</td><td>Fixed-charge coverage in the BAD case, not the base case: lenders are short a put.</td></tr>
-      <tr><td>Pricing</td><td>IG: spread to Treasuries off the curve. Loans: SOFR + spread + OID, with floors. HY: yield to worst against the index and the comps. New-issue concessions in soft markets.</td><td>Ratings, leverage, sector, docs, and the week's fund flows: credit is priced relative, always.</td></tr>
-      <tr><td>Docs</td><td>Covenants (incurrence vs maintenance; cov-lite reality), baskets and builders, restricted payments, guarantees and security, call schedules and make-wholes.</td><td>Leakage: what the docs let value slip away through: every liability-management trick of the 2020s walked in through a basket.</td></tr>
-      <tr><td>Refinancing math</td><td>Call premium vs coupon savings, maturity-wall management, A&amp;E economics.</td><td>The wall: what MUST refinance in 24 months and at what new coupon: the single best distress predictor.</td></tr>
-    </table></div>
-    <div class="kit">
-      <a href="../model-lab.html">Model Lab L2: the interest and debt-schedule conventions</a>
-      <a href="../drills.html">Drill Room: the LBO skeleton lenders re-underwrite</a>
-      <a href="../interview-prep.html">Interview bank: LBO + RX categories</a>
-      <a href="../models-map.html#seats">Models Map: LevFin + private-credit seats</a>
-      <a href="../../industry.html?id=private-credit">Dossier: Private Credit</a>
-      <a href="../../industry.html?id=banking">Dossier: Banking</a>
+  <section class="lesson" id="players">
+    <h2><span class="sec-num">2</span> The players</h2>
+    <div class="side-grids">
+      <div class="side-col sell">
+        <h3>Sell side · issuing &amp; underwriting</h3>
+        <div class="p-card"><span class="p-mg">JP</span><div><b>JPMorgan · BofA · Citi</b><span>the IG flow leaders; balance sheet is the ticket</span></div></div>
+        <div class="p-card"><span class="p-mg">GS</span><div><b>Goldman · Barclays · Jefferies</b><span>leveraged-credit heavyweights</span></div></div>
+        <div class="p-card"><span class="p-mg">CO</span><div><b>Corporate treasurers</b><span>IG issuers: $2B by lunch off a spread to Treasuries</span></div></div>
+        <div class="p-card"><span class="p-mg">SP</span><div><b>Sponsors</b><span>the LBO financing demand machine</span></div></div>
+        <div class="p-card"><span class="p-mg">RA</span><div><b>Moody's · S&amp;P · Fitch</b><span>the rating gatekeepers pricing feeds through</span></div></div>
+        <div class="p-card"><span class="p-mg">LC</span><div><b>Leveraged-finance counsel</b><span>the docs: where every future fight is drafted</span></div></div>
+      </div>
+      <div class="side-col buy">
+        <h3>Buy side · the credit capital</h3>
+        <div class="p-card"><span class="p-mg">CL</span><div><b>CLOs</b><span>the largest leveraged-loan buyers: structured demand</span></div></div>
+        <div class="p-card"><span class="p-mg">HY</span><div><b>High-yield funds &amp; ETFs</b><span>the bond bid, flow-driven</span></div></div>
+        <div class="p-card"><span class="p-mg">PC</span><div><b>Ares · Apollo · Blackstone Credit · Golub</b><span>private credit: speed and certainty vs price</span></div></div>
+        <div class="p-card"><span class="p-mg">IG</span><div><b>Insurers &amp; pensions</b><span>the IG base: liability-matched, duration-hungry</span></div></div>
+        <div class="p-card"><span class="p-mg">BK</span><div><b>Bank balance sheets</b><span>revolvers and pro rata: the relationship anchor</span></div></div>
+        <div class="p-card"><span class="p-mg">DX</span><div><b>Distressed / stressed funds</b><span>waiting downstream (see <a href="rx.html">RX</a>)</span></div></div>
+      </div>
     </div>
   </section>
 
+  <section class="lesson" id="roles">
+    <h2><span class="sec-num">3</span> The roles</h2>
+    <div class="roles">
+      <div class="lane sell">
+        <h3>On the desk</h3>
+        <div class="rflow"><span class="rchip">Analyst</span><span class="rarr">→</span><span class="rchip">Associate</span><span class="rarr">→</span><span class="rchip">VP / Syndicate</span><span class="rarr">→</span><span class="rchip">MD</span></div>
+        <div class="rrow"><b>Analyst</b><span>Debt-capacity models, comps of recent prints, rating-agency decks, covenant grids.</span></div>
+        <div class="rrow"><b>Associate</b><span>Commitment papers, lender presentations, the data site.</span></div>
+        <div class="rrow"><b>Syndicate</b><span>Price talk, book allocation, flex negotiations when markets move mid-deal.</span></div>
+        <div class="rrow"><b>MD</b><span>The underwrite decision: whose risk the bridge is until it syndicates.</span></div>
+      </div>
+      <div class="lane buy">
+        <h3>Across the table</h3>
+        <div class="rflow"><span class="rchip">Credit analyst</span><span class="rarr">·</span><span class="rchip">PM</span><span class="rarr">·</span><span class="rchip">CLO manager</span><span class="rarr">·</span><span class="rchip">Workout team</span></div>
+        <div class="rrow"><b>Credit analyst</b><span>The lender's LBO: downside cases, coverage through the cycle, docs review for leakage.</span></div>
+        <div class="rrow"><b>PM</b><span>Relative value: this print vs the index vs the last comp; size and hold.</span></div>
+        <div class="rrow"><b>CLO manager</b><span>Ramping and managing 200-name loan portfolios inside rating tests.</span></div>
+        <div class="rrow"><b>Workout</b><span>When coverage breaks, this team takes the file: the bridge to <a href="rx.html">RX</a>.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lesson" id="technicals">
+    <h2><span class="sec-num">4</span> The technicals</h2>
+    <div class="table-wrap"><table class="tech-table">
+      <tr><th>Build</th><th>Mechanics</th><th>What decides it</th></tr>
+      <tr><td>Debt capacity</td><td>Leverage by tranche vs comps; coverage through a downside case; agency metrics.</td><td>Fixed-charge coverage in the BAD case: lenders are short a put.</td></tr>
+      <tr><td>Pricing</td><td>IG: spread to Treasuries. Loans: SOFR + spread + OID. HY: yield-to-worst vs index and comps.</td><td>Ratings, docs, sector, and the week's fund flows: credit prices relative.</td></tr>
+      <tr><td>Docs</td><td>Incurrence vs maintenance covenants, baskets/builders, RP capacity, guarantees, calls/make-wholes.</td><td>Leakage: every 2020s liability-management trick entered through a basket.</td></tr>
+      <tr><td>Refinancing math</td><td>Call premium vs coupon savings; the maturity wall; A&amp;E economics.</td><td>What MUST refinance in 24 months and at what new coupon: the best distress predictor.</td></tr>
+    </table></div>
+  </section>
+
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">D.3</span> The wire: credit this week</h2>
+    <h2><span class="sec-num">5</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
-  <section class="lesson" id="landscape">
-    <h2><span class="sec-num">D.4</span> The landscape</h2>
-    <p>IG DCM: JPMorgan, BofA, Citi lead by flow: balance sheet is the ticket. LevFin: the same names plus Goldman,
-      Barclays, and Jefferies (the leveraged-credit-heavy independent). Across the table: CLOs (the biggest loan
-      buyers), high-yield mutual funds, and increasingly the private-credit giants (Ares, Apollo, Blackstone Credit,
-      Golub) who ARE the market for mid-size deals. Career adjacency runs 2 ways: LevFin to private credit or
-      distressed funds is the classic lateral; the <a href="rx.html">RX desk</a> is where LevFin's mistakes go to be
-      renegotiated.</p>
-  </section>
-
-  <section class="lesson" id="study">
-    <h2><span class="sec-num">D.5</span> The study kit</h2>
-    <p>Credit metrics until they are reflexes (leverage, coverage, FCCR: and the thresholds in the
-      <a href="../interview-prep.html">RX category</a>), one credit agreement summary read end to end, this week's
-      spreads (IG, HY, loans: free from index publishers' commentary), and a view on private credit vs syndicated.
-      The interview is metrics fluency plus market levels: sounding current is half the grade.</p>
+  <section class="lesson" id="shelf">
+    <h2><span class="sec-num">6</span> The shelf</h2>
+    <div class="kit">
+      <a href="../../industry.html?id=private-credit">Dossier: Private Credit</a>
+      <a href="../../industry.html?id=banking">Dossier: Banking</a>
+      <a href="../../industry.html?id=capital-markets">Dossier: Capital Markets</a>
+      <a href="../model-lab.html">Model Lab L2: debt-schedule conventions</a>
+      <a href="../drills.html">Drill Room: the LBO lenders re-underwrite</a>
+      <a href="../interview-prep.html">Interview bank: LBO + RX</a>
+      <a href="../models-map.html#seats">Models Map: LevFin + private credit</a>
+    </div>
   </section>
 
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
+<script src="../../assets/js/viz.js?v=16"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
+  Viz.systemDiagram(document.getElementById("sysmap"), {
+    accent: "var(--brand)",
+    label: "The credit ecosystem",
+    center: { title: "The financing", note: "underwritten, syndicated, priced", subs: [
+      "IG bond · spread to Treasuries", "Leveraged loan · SOFR + spread + OID", "High-yield bond · YTW vs index",
+      "Unitranche · private credit's product", "Bridge → takeout · the underwrite risk"] },
+    left: { title: "SELL SIDE · bringing paper", items: [
+      { name: "Corporate treasurers", note: "IG flow: refinancing, capex, M&A funding" },
+      { name: "Sponsors", note: "LBO and dividend-recap demand" },
+      { name: "Underwriting desks", note: "JPM/BofA/Citi flow; GS/Barclays/Jefferies LevFin" },
+      { name: "Rating agencies", note: "the gate every price passes through" },
+      { name: "Counsel", note: "the docs that decide future fights" }
+    ] },
+    right: { title: "BUY SIDE · the money", items: [
+      { name: "CLOs", note: "the loan market's structural bid" },
+      { name: "HY funds & ETFs", note: "flow-sensitive bond demand" },
+      { name: "Private credit funds", note: "Ares/Apollo class: the middle-market takeover" },
+      { name: "Insurers & pensions", note: "the IG duration base" },
+      { name: "Bank books", note: "revolvers and relationships" }
+    ] },
+    capIn: { title: "FEES & SPREAD IN", items: [
+      { name: "Underwriting fees", note: "LevFin ~1.5-2.5%; IG in bps" },
+      { name: "OID & flex economics", note: "who eats a moving market" },
+      { name: "Coupon spread", note: "the buy side's compensation for the put they sold" }
+    ] },
+    capOut: { title: "WHAT FLOWS OUT", items: [
+      { name: "Proceeds to borrowers", note: "the LBO closes, the plant gets built" },
+      { name: "Interest & amortization", note: "the servicing burden the model must carry" },
+      { name: "Defaults to RX", note: "the tail that keeps the next desk busy" }
+    ] },
+    top: { title: "THE REFEREES", items: ["Fed & bank regulators (leveraged-lending guidance)", "SEC", "Rating criteria"] },
+    leftArrow: "issues debt", rightArrow: "lends & buys"
+  });
   if (window.AtlasNews) {
     AtlasNews.render(document.getElementById("wire-feed"),
       '("high yield" OR "leveraged loan" OR "bond issuance" OR "private credit" OR "debt financing")',

@@ -4,22 +4,54 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Restructuring · The Desks · Capital Atlas</title>
-<meta name="description" content="The restructuring track: primer, waterfall and 13-week technicals, live distress wire, the RX league, and the distressed buy side.">
+<meta name="description" content="The restructuring ecosystem mapped: the distressed company at the center, debtor and creditor sides, the court above, the players, the roles, and the waterfall technicals.">
 <script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/atlas.css">
 <style>
+  :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
   .desk-nav a { font-size: .78rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
   .desk-nav a.on, .desk-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
-  .tech-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
-  .tech-table th { text-align: left; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
+  .map-fig { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px 8px; }
+  .map-fig svg { display: block; width: 100%; height: auto; }
+  .wfall { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px; margin-top: 16px; }
+  .wfall h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 10px; }
+  .wf-row { display: grid; grid-template-columns: 150px 1fr 110px; gap: 10px; align-items: center; padding: 7px 0; border-bottom: 1px dashed var(--hairline); font-size: .82rem; }
+  .wf-row:last-child { border-bottom: 0; }
+  .wf-bar { height: 16px; border-radius: 5px; }
+  .wf-row b { font-size: .78rem; }
+  .wf-row .rec { font-family: var(--font-mono); font-size: .76rem; text-align: right; color: var(--ink-2); }
+  .side-grids { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  @media (max-width: 900px) { .side-grids { grid-template-columns: 1fr; } }
+  .side-col h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 8px; }
+  .side-col.sell h3 { color: var(--viz-2); } .side-col.buy h3 { color: var(--viz-1); }
+  .p-card { display: flex; gap: 10px; align-items: center; padding: 9px 11px; margin-bottom: 7px;
+    background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 11px; }
+  .p-mg { flex: none; width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center;
+    font-family: var(--font-mono); font-size: .68rem; font-weight: 700; color: #fff; }
+  .sell .p-mg { background: var(--viz-2); } .buy .p-mg { background: var(--viz-1); }
+  .p-card b { font-size: .85rem; display: block; }
+  .p-card span { font-size: .72rem; color: var(--ink-3); }
+  .roles { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .roles { grid-template-columns: 1fr; } }
+  .lane { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px; }
+  .lane h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 10px; }
+  .lane.sell h3 { color: var(--viz-2); } .lane.buy h3 { color: var(--viz-1); }
+  .rflow { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .rchip { font-size: .74rem; font-weight: 650; padding: 5px 10px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--hairline); }
+  .rarr { color: var(--ink-3); font-size: .8rem; }
+  .rrow { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; }
+  .rrow:last-child { border-bottom: 0; }
+  .rrow b { font-size: .76rem; } .rrow span { color: var(--ink-2); }
+  .tech-table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+  .tech-table th { text-align: left; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
   .tech-table td { padding: 9px 10px; border-bottom: 1px dashed var(--hairline); vertical-align: top; }
   .tech-table td:first-child { font-weight: 650; }
   .kit { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
-  .kit a { font-size: .76rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
+  .kit a { font-size: .74rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
   .kit a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
 </style>
 </head>
@@ -29,9 +61,8 @@
   <header class="module-hero">
     <span class="kicker">The Desks · special situations</span>
     <h1>Restructuring.</h1>
-    <p class="hero-tagline">The countercyclical desk: when credit breaks, RX advises the company (debtor side) or its
-      creditors on who owns what now. It is the most technical seat in advisory, the best credit education on the
-      street, and busiest exactly when everything else is quiet.</p>
+    <p class="hero-tagline">When a capital structure breaks, this ecosystem decides who owns what now: the company and
+      its advisors on one side, the creditor classes and distressed capital on the other, and the court above them all.</p>
     <nav class="desk-nav">
       <a href="../desks.html">🏦 All desks</a>
       <a href="pca.html">PCA &amp; Secondaries</a>
@@ -44,68 +75,143 @@
     <div class="hero-meta"></div>
   </header>
 
-  <section class="lesson" id="primer">
-    <h2><span class="sec-num">D.1</span> The primer</h2>
-    <p class="lede">Two chairs at every table: <b>debtor-side</b> (advise the company: liquidity, DIP, the plan) and
-      <b>creditor-side</b> (advise a class: maximize ITS recovery). The work spans out-of-court exchanges and
-      amend-and-extends, liability-management transactions, prepackaged filings, and full Chapter 11s: plus distressed
-      M&amp;A (363 sales) and new-business screening for whoever cracks next.</p>
-    <p><strong>Why now is a golden age for the desk:</strong> a decade of cov-lite documents made liability management
-      (drop-downs, uptiers, double-dips) a standing product; higher-for-longer rates keep a maturity wall rolling
-      toward over-levered 2021 vintages; and private credit's rise means workouts increasingly happen in conference
-      rooms instead of courtrooms. The deep technicals live in the
-      <a href="../lateral.html#rx-case">RSSG worked example</a> and the
-      <a href="../interview-prep.html">interview bank's RX category</a> (10 questions): this page is the desk around them.</p>
+  <section class="lesson" id="map">
+    <h2><span class="sec-num">1</span> The map: a case, end to end</h2>
+    <div class="map-fig"><div id="sysmap"></div></div>
+    <p class="small muted" style="margin-top:8px">The distressed company sits in the middle; its side (green) fights for
+      runway and the plan; the creditor side (blue) fights for recovery by class. Above them, the court and the code:
+      the only desk where the referee can overrule everyone.</p>
   </section>
 
-  <section class="lesson" id="technicals">
-    <h2><span class="sec-num">D.2</span> The technicals</h2>
-    <div class="table-wrap"><table class="tech-table">
-      <tr><th>Build</th><th>The mechanics</th><th>What decides it</th></tr>
-      <tr><td>Waterfall / recovery</td><td>Stack the claims (liens, guarantees, priority), pour a range of EVs through, read each class's recovery: find the fulcrum.</td><td>The EV assumption: valuation IS the negotiation. Juniors argue high, seniors argue low, experts bill by the hour.</td></tr>
-      <tr><td>13-week cash flow</td><td>Direct-method weekly liquidity: receipts, disbursements by criticality, revolver headroom, the week cash dies.</td><td>Runway: every strategic option is priced in weeks of liquidity remaining.</td></tr>
-      <tr><td>DIP &amp; exit financing</td><td>Size the DIP off the 13-week, price the priming fight, structure roll-ups; then the exit facility that funds emergence.</td><td>Who provides the DIP controls the case's tempo and often its outcome.</td></tr>
-      <tr><td>Liability management</td><td>Model the drop-down or uptier: what moves, who is primed, what the majority group gains, what the minority sues over.</td><td>Document capacity: baskets and covenants decide what is even possible: read docs first, model second.</td></tr>
-      <tr><td>Plan &amp; POR math</td><td>Reorganized business plan, new capital structure, distributions by class (cash, new debt, equity), best-interests test vs liquidation.</td><td>Feasibility and the cram-down math: two-thirds in amount, half in number, class by class.</td></tr>
-    </table></div>
-    <div class="kit">
-      <a href="../lateral.html#rx-case">The RSSG worked example (the study plan)</a>
-      <a href="../interview-prep.html">Interview bank: RX category</a>
-      <a href="../models-map.html#seats">Models Map: the RX seat</a>
-      <a href="../groups.html">Firms &amp; Groups: the RX league</a>
-      <a href="../../industry.html?id=private-credit">Dossier: Private Credit</a>
+  <section class="lesson" id="waterfall">
+    <h2><span class="sec-num">2</span> The waterfall, drawn</h2>
+    <div class="wfall">
+      <h3>Value pours from the top: an illustrative $1.0B EV against $1.4B of claims</h3>
+      <div class="wf-row"><b>DIP / super-priority ($100M)</b><div class="wf-bar" style="width:100%;background:var(--viz-2)"></div><span class="rec">100% · cash</span></div>
+      <div class="wf-row"><b>First-lien loan ($600M)</b><div class="wf-bar" style="width:100%;background:var(--viz-2)"></div><span class="rec">100% · new debt</span></div>
+      <div class="wf-row"><b>Second-lien notes ($400M)</b><div class="wf-bar" style="width:75%;background:var(--viz-3)"></div><span class="rec">~75% · the FULCRUM</span></div>
+      <div class="wf-row"><b>Unsecured notes ($250M)</b><div class="wf-bar" style="width:8%;background:var(--viz-6)"></div><span class="rec">~8% · warrants</span></div>
+      <div class="wf-row"><b>Equity ($? wiped)</b><div class="wf-bar" style="width:1%;background:var(--viz-6)"></div><span class="rec">0% · out of the money</span></div>
+    </div>
+    <p class="small muted" style="margin-top:8px">The fulcrum class recovers partially and converts into the reorganized
+      equity: it becomes the new owner. Move the EV assumption $150M and the fulcrum moves a class: which is why RX
+      valuation fights are existential, and why every party's "independent" expert lands exactly where their client needs.</p>
+  </section>
+
+  <section class="lesson" id="players">
+    <h2><span class="sec-num">3</span> The players</h2>
+    <div class="side-grids">
+      <div class="side-col sell">
+        <h3>Debtor side · the company's corner</h3>
+        <div class="p-card"><span class="p-mg">PJ</span><div><b>PJT RSSG · Houlihan · Evercore · Lazard · Moelis</b><span>the RX advisory league</span></div></div>
+        <div class="p-card"><span class="p-mg">AM</span><div><b>Alvarez &amp; Marsal · FTI · AlixPartners</b><span>turnaround consultants: the 13-week lives here</span></div></div>
+        <div class="p-card"><span class="p-mg">KE</span><div><b>Kirkland · Weil · Davis Polk class</b><span>debtor counsel: the case's field generals</span></div></div>
+        <div class="p-card"><span class="p-mg">CR</span><div><b>The CRO</b><span>chief restructuring officer: parachuted-in operator</span></div></div>
+        <div class="p-card"><span class="p-mg">BD</span><div><b>Board &amp; special committee</b><span>fiduciaries navigating the zone of insolvency</span></div></div>
+      </div>
+      <div class="side-col buy">
+        <h3>Creditor side · the capital</h3>
+        <div class="p-card"><span class="p-mg">OK</span><div><b>Oaktree · Elliott · Silver Point · Davidson Kempner</b><span>distressed funds buying the fulcrum</span></div></div>
+        <div class="p-card"><span class="p-mg">AP</span><div><b>Apollo hybrid value class</b><span>rescue capital: expensive money, fast</span></div></div>
+        <div class="p-card"><span class="p-mg">CL</span><div><b>CLOs &amp; loan funds</b><span>the original lenders, defending tranches</span></div></div>
+        <div class="p-card"><span class="p-mg">DP</span><div><b>DIP lenders</b><span>super-priority money that controls the tempo</span></div></div>
+        <div class="p-card"><span class="p-mg">CC</span><div><b>Committees + their advisors</b><span>UCC and ad hoc groups, each with banker + counsel</span></div></div>
+      </div>
     </div>
   </section>
 
+  <section class="lesson" id="roles">
+    <h2><span class="sec-num">4</span> The roles</h2>
+    <div class="roles">
+      <div class="lane sell">
+        <h3>On the RX advisory team</h3>
+        <div class="rflow"><span class="rchip">Analyst</span><span class="rarr">→</span><span class="rchip">Associate</span><span class="rarr">→</span><span class="rchip">VP</span><span class="rarr">→</span><span class="rchip">MD / Partner</span></div>
+        <div class="rrow"><b>Analyst</b><span>The waterfall model, the 13-week updates, claims tracking, new-business distress screens.</span></div>
+        <div class="rrow"><b>Associate</b><span>DIP sizing, plan scenarios, expert-report exhibits, dataroom for 5 creditor groups at once.</span></div>
+        <div class="rrow"><b>VP</b><span>Negotiation support across classes; runs the business-plan process with management.</span></div>
+        <div class="rrow"><b>MD</b><span>The strategy and the courtroom: testimony, board advice, the deal that ends the case.</span></div>
+      </div>
+      <div class="lane buy">
+        <h3>At the distressed fund</h3>
+        <div class="rflow"><span class="rchip">Analyst</span><span class="rarr">→</span><span class="rchip">Senior analyst</span><span class="rarr">→</span><span class="rchip">PM</span><span class="rarr">→</span><span class="rchip">Committee seat</span></div>
+        <div class="rrow"><b>Analyst</b><span>Cap-table forensics: docs, liens, guarantees; recovery math per class per EV.</span></div>
+        <div class="rrow"><b>Senior</b><span>The thesis: which class to own, at what price, with what path to control.</span></div>
+        <div class="rrow"><b>PM</b><span>Sizing and the trade: loans at 70, bonds at 30, and when to go on committee (and get restricted).</span></div>
+        <div class="rrow"><b>Committee</b><span>Negotiating the plan itself: the buy side becomes a principal in the outcome.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lesson" id="technicals">
+    <h2><span class="sec-num">5</span> The technicals</h2>
+    <div class="table-wrap"><table class="tech-table">
+      <tr><th>Build</th><th>Mechanics</th><th>What decides it</th></tr>
+      <tr><td>Waterfall / recovery</td><td>Stack claims by priority, pour a range of EVs through, read recovery per class: find the fulcrum.</td><td>The EV assumption: valuation IS the negotiation.</td></tr>
+      <tr><td>13-week cash flow</td><td>Direct weekly liquidity: receipts, disbursements by criticality, revolver headroom.</td><td>The week cash dies prices every option.</td></tr>
+      <tr><td>DIP financing</td><td>Sized off the 13-week; super-priority, priming liens, roll-ups, milestones.</td><td>Whoever provides it controls the case's tempo.</td></tr>
+      <tr><td>Liability management</td><td>Drop-downs (J.Crew), uptiers (Serta), double-dips: modeled off document capacity.</td><td>Read the docs first; the baskets decide what is possible.</td></tr>
+      <tr><td>Plan / 363 math</td><td>Reorganized capital structure and distributions by class; or the auction with credit bids.</td><td>Cram-down thresholds: two-thirds in amount, half in number, per class.</td></tr>
+    </table></div>
+  </section>
+
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">D.3</span> The wire: distress this week</h2>
+    <h2><span class="sec-num">6</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
-  <section class="lesson" id="landscape">
-    <h2><span class="sec-num">D.4</span> The landscape</h2>
-    <p><b>The league:</b> PJT RSSG and Houlihan Lokey trade the crown (Houlihan leads by count, PJT by mega-case
-      presence), with Evercore, Lazard, Moelis, and Perella Weinberg all running serious franchises: debtor mandates
-      pay best; creditor committees train best. <b>Across the table:</b> distressed funds (Oaktree, Apollo hybrid
-      value, Elliott, Silver Point, Davidson Kempner class), CLOs defending their tranches, and the law firms (Kirkland,
-      Weil, Davis Polk class) who co-run every case. The classic exits: distressed credit funds, special situations,
-      or staying to make the uniquely sticky RX partner economics.</p>
-  </section>
-
-  <section class="lesson" id="study">
-    <h2><span class="sec-num">D.5</span> The study kit</h2>
-    <p>Waterfall math until you can find a fulcrum on a napkin, the 13-week's logic, 2 live cases followed via their
-      free dockets (first-day declarations are the best crash courses in finance), and the liability-management
-      case names (J.Crew, Serta, Envision) with what each exploited. Then the
-      <a href="../lateral.html#rx-case">6-week RSSG plan</a> end to end: it was built for exactly this desk.</p>
+  <section class="lesson" id="shelf">
+    <h2><span class="sec-num">7</span> The shelf</h2>
+    <div class="kit">
+      <a href="../../industry.html?id=private-credit">Dossier: Private Credit</a>
+      <a href="../../industry.html?id=banking">Dossier: Banking</a>
+      <a href="coverage.html">Which industries crack: the coverage map</a>
+      <a href="../interview-prep.html">Interview bank: 10 RX questions</a>
+      <a href="../models-map.html#seats">Models Map: the RX seat</a>
+      <a href="../groups.html">Firms &amp; Groups: the RX league</a>
+      <a href="dcm.html">Upstream: the credit that breaks</a>
+    </div>
   </section>
 
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
+<script src="../../assets/js/viz.js?v=16"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
+  Viz.systemDiagram(document.getElementById("sysmap"), {
+    accent: "var(--brand)",
+    label: "The restructuring ecosystem",
+    center: { title: "The distressed company", note: "liquidity dying, value contested", subs: [
+      "Trigger · maturity wall or cash burn", "13-week runway · the clock", "Out-of-court vs Chapter 11",
+      "DIP funds the case", "Plan / 363 sale → emergence"] },
+    left: { title: "DEBTOR SIDE · the company's corner", items: [
+      { name: "RX advisor (debtor)", note: "PJT/Houlihan/Evercore class: strategy + valuation" },
+      { name: "Turnaround consultant", note: "A&M/FTI/Alix: operations + the 13-week" },
+      { name: "Debtor counsel", note: "Kirkland/Weil class: the case's architecture" },
+      { name: "CRO & management", note: "running the business through it" },
+      { name: "Board / special committee", note: "fiduciaries in the insolvency zone" }
+    ] },
+    right: { title: "CREDITOR SIDE · fighting for recovery", items: [
+      { name: "Distressed funds", note: "buying the fulcrum to own the equity" },
+      { name: "CLOs & original lenders", note: "defending tranche recoveries" },
+      { name: "DIP lenders", note: "super-priority: tempo control" },
+      { name: "Committees (UCC, ad hoc)", note: "each with its own banker + counsel" },
+      { name: "363 bidders", note: "strategics and credit bidders at the auction" }
+    ] },
+    capIn: { title: "MONEY INTO THE CASE", items: [
+      { name: "DIP financing", note: "priming, milestone-laden, expensive" },
+      { name: "Rescue / bridge capital", note: "out-of-court alternatives" },
+      { name: "Professional fees", note: "advisors, counsel, experts: court-approved" }
+    ] },
+    capOut: { title: "WHAT COMES OUT", items: [
+      { name: "Recoveries by class", note: "cash, new debt, reorganized equity" },
+      { name: "The fulcrum becomes the owner", note: "debt converts to control" },
+      { name: "A survivable balance sheet", note: "or a 363 sale and wind-down" }
+    ] },
+    top: { title: "THE REFEREES", items: ["Bankruptcy court", "US Trustee", "The Code (absolute priority)"] },
+    leftArrow: "seeks runway", rightArrow: "fights for recovery"
+  });
   if (window.AtlasNews) {
     AtlasNews.render(document.getElementById("wire-feed"),
       '(bankruptcy OR "chapter 11" OR restructuring OR "distressed debt" OR "debt exchange")',

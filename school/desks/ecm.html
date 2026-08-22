@@ -4,22 +4,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ECM · The Desks · Capital Atlas</title>
-<meta name="description" content="The equity capital markets track: IPOs, follow-ons, blocks, and converts: primer, pricing technicals, live new-issue wire, and the landscape.">
+<meta name="description" content="The equity capital markets ecosystem mapped: issuers, banks, and investors around the book; the players, the roles, and the pricing technicals.">
 <script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/atlas.css">
 <style>
+  :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
   .desk-nav a { font-size: .78rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
   .desk-nav a.on, .desk-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
-  .tech-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
-  .tech-table th { text-align: left; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
+  .map-fig { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px 8px; }
+  .map-fig svg { display: block; width: 100%; height: auto; }
+  .side-grids { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  @media (max-width: 900px) { .side-grids { grid-template-columns: 1fr; } }
+  .side-col h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 8px; }
+  .side-col.sell h3 { color: var(--viz-2); } .side-col.buy h3 { color: var(--viz-1); }
+  .p-card { display: flex; gap: 10px; align-items: center; padding: 9px 11px; margin-bottom: 7px;
+    background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 11px; }
+  .p-mg { flex: none; width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center;
+    font-family: var(--font-mono); font-size: .68rem; font-weight: 700; color: #fff; }
+  .sell .p-mg { background: var(--viz-2); } .buy .p-mg { background: var(--viz-1); }
+  .p-card b { font-size: .85rem; display: block; }
+  .p-card span { font-size: .72rem; color: var(--ink-3); }
+  .roles { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .roles { grid-template-columns: 1fr; } }
+  .lane { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 14px 16px; }
+  .lane h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 10px; }
+  .lane.sell h3 { color: var(--viz-2); } .lane.buy h3 { color: var(--viz-1); }
+  .rflow { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .rchip { font-size: .74rem; font-weight: 650; padding: 5px 10px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--hairline); }
+  .rarr { color: var(--ink-3); font-size: .8rem; }
+  .rrow { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; }
+  .rrow:last-child { border-bottom: 0; }
+  .rrow b { font-size: .76rem; } .rrow span { color: var(--ink-2); }
+  .tech-table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+  .tech-table th { text-align: left; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
   .tech-table td { padding: 9px 10px; border-bottom: 1px dashed var(--hairline); vertical-align: top; }
   .tech-table td:first-child { font-weight: 650; }
   .kit { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
-  .kit a { font-size: .76rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
+  .kit a { font-size: .74rem; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-2); }
   .kit a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
 </style>
 </head>
@@ -29,9 +54,8 @@
   <header class="module-hero">
     <span class="kicker">The Desks · financing</span>
     <h1>ECM.</h1>
-    <p class="hero-tagline">Equity capital markets prices companies in public: IPOs, follow-ons, block trades, and
-      convertibles. It is the desk where valuation stops being a deck and becomes an order book, and where the market
-      grades your work by 9:31 the next morning.</p>
+    <p class="hero-tagline">Where private companies become public and public ones raise more: IPOs, follow-ons, blocks,
+      converts. The desk between the issuer and the order book, graded in the aftermarket by 9:31 the next morning.</p>
     <nav class="desk-nav">
       <a href="../desks.html">🏦 All desks</a>
       <a href="pca.html">PCA &amp; Secondaries</a>
@@ -44,63 +68,127 @@
     <div class="hero-meta"></div>
   </header>
 
-  <section class="lesson" id="primer">
-    <h2><span class="sec-num">D.1</span> The primer</h2>
-    <p class="lede">ECM sits between issuers and public investors: it advises on when the window is open, builds the
-      story, runs the roadshow, and allocates the book. The product is a cleared price with a healthy aftermarket:
-      priced too high, the deal breaks and the client's stock is damaged; too low, the client left money on the table.</p>
-    <p><strong>The flow business:</strong> IPOs get the headlines, but follow-ons and blocks pay the bills: a block
-      trade is ECM at its purest: the desk bids risk on a chunk of stock at 6pm and resells it overnight. Converts boom
-      whenever rates are high (issuers rent cheaper coupons by selling upside). Sponsor exits (IPOs then drip
-      follow-ons) tie the desk to the PE cycle; the IPO window itself opens and closes with volatility: above ~25 on
-      the VIX, almost nothing prices.</p>
+  <section class="lesson" id="map">
+    <h2><span class="sec-num">1</span> The map: the book in the middle</h2>
+    <div class="map-fig"><div id="sysmap"></div></div>
+    <p class="small muted" style="margin-top:8px">Issuers and their owners bring shares (green); investors bring orders
+      (blue); the syndicate desk builds the book and allocates. Gross spreads run ~7% on small IPOs down to ~1-2% at
+      mega-cap, and near-zero on competitive blocks: scale is everything.</p>
   </section>
 
-  <section class="lesson" id="technicals">
-    <h2><span class="sec-num">D.2</span> The technicals</h2>
-    <div class="table-wrap"><table class="tech-table">
-      <tr><th>Build</th><th>The mechanics</th><th>What decides it</th></tr>
-      <tr><td>IPO pricing</td><td>Comps-based valuation minus the IPO discount (traditionally ~10-15%): filed range, bookbuild, price. Pre/post-money share math, primary vs secondary split, greenshoe (15% over-allotment) mechanics.</td><td>The book's quality (long-only anchors vs fast money), oversubscription at each price, and the aftermarket target.</td></tr>
-      <tr><td>Follow-ons &amp; blocks</td><td>File-to-offer discounts, wall-crossing, accelerated bookbuilds; for blocks: the desk's own risk bid vs an agency trade.</td><td>Liquidity (days of volume the deal represents) and how the stock digested the last one.</td></tr>
-      <tr><td>Converts</td><td>Coupon + conversion premium against the credit and the vol: a bond plus a call option. Call-spread overlays neutralize dilution optics.</td><td>Where the issuer's vol trades: converts are cheap financing exactly when your stock is jumpy.</td></tr>
-      <tr><td>Dilution math</td><td>New shares vs EPS and ownership: the corporate-finance conversation behind every raise.</td><td>Use of proceeds: dilution for growth reprices fine; dilution for a hole in the balance sheet does not.</td></tr>
-    </table></div>
-    <div class="kit">
-      <a href="../modules/capital-markets.html">Module: Capital Markets</a>
-      <a href="../interview-prep.html">Interview bank: markets category</a>
-      <a href="../models-map.html#seats">Models Map: the ECM seat</a>
-      <a href="../../industry.html?id=capital-markets">Industry dossier: Capital Markets</a>
-      <a href="../../industry.html?id=market-infrastructure">Industry dossier: Exchanges</a>
+  <section class="lesson" id="players">
+    <h2><span class="sec-num">2</span> The players</h2>
+    <div class="side-grids">
+      <div class="side-col sell">
+        <h3>Sell side · issuers &amp; syndicate</h3>
+        <div class="p-card"><span class="p-mg">GS</span><div><b>Goldman · Morgan Stanley · JPMorgan</b><span>the bookrunner oligopoly</span></div></div>
+        <div class="p-card"><span class="p-mg">BA</span><div><b>BofA · Citi · Barclays · UBS</b><span>the flow bulge</span></div></div>
+        <div class="p-card"><span class="p-mg">IS</span><div><b>Issuers &amp; founders</b><span>the companies and the insiders selling down</span></div></div>
+        <div class="p-card"><span class="p-mg">SP</span><div><b>Sponsor sellers</b><span>IPO the platform, drip the follow-ons</span></div></div>
+        <div class="p-card"><span class="p-mg">IA</span><div><b>Independent IPO advisors</b><span>advising issuers about the banks</span></div></div>
+        <div class="p-card"><span class="p-mg">EX</span><div><b>The exchanges</b><span>NYSE vs Nasdaq: the listing venue contest</span></div></div>
+      </div>
+      <div class="side-col buy">
+        <h3>Buy side · the order book</h3>
+        <div class="p-card"><span class="p-mg">LO</span><div><b>Long-only anchors</b><span>Fidelity, T. Rowe, Capital: the orders that make books</span></div></div>
+        <div class="p-card"><span class="p-mg">HF</span><div><b>Hedge funds</b><span>momentum and flippers; syndicates know which is which</span></div></div>
+        <div class="p-card"><span class="p-mg">SW</span><div><b>Sovereigns &amp; strategics</b><span>cornerstone and anchor orders de-risking deals</span></div></div>
+        <div class="p-card"><span class="p-mg">IX</span><div><b>Index funds</b><span>must buy at inclusion: the aftermarket's quiet bid</span></div></div>
+        <div class="p-card"><span class="p-mg">CB</span><div><b>Convert arb funds</b><span>the natural buyers of convertibles, hedging the vol</span></div></div>
+        <div class="p-card"><span class="p-mg">RT</span><div><b>Retail platforms</b><span>small allocations, loud sentiment</span></div></div>
+      </div>
     </div>
   </section>
 
+  <section class="lesson" id="roles">
+    <h2><span class="sec-num">3</span> The roles</h2>
+    <div class="roles">
+      <div class="lane sell">
+        <h3>On the ECM desk</h3>
+        <div class="rflow"><span class="rchip">Analyst</span><span class="rarr">→</span><span class="rchip">Associate</span><span class="rarr">→</span><span class="rchip">VP / Syndicate</span><span class="rarr">→</span><span class="rchip">MD</span></div>
+        <div class="rrow"><b>Analyst</b><span>Market update pages, comps at pricing, case studies of every recent deal, dilution math.</span></div>
+        <div class="rrow"><b>Associate</b><span>Drafting sessions, roadshow logistics, order-book tracking.</span></div>
+        <div class="rrow"><b>Syndicate</b><span>The book itself: price talk, allocations, stabilization: the desk's sharp end.</span></div>
+        <div class="rrow"><b>MD</b><span>Window judgment and issuer relationships: when to launch, at what range.</span></div>
+      </div>
+      <div class="lane buy">
+        <h3>Across the table</h3>
+        <div class="rflow"><span class="rchip">PM</span><span class="rarr">·</span><span class="rchip">Analyst (buy side)</span><span class="rarr">·</span><span class="rchip">Corp treasurer</span></div>
+        <div class="rrow"><b>Buy-side analyst</b><span>The 10-day IPO underwrite: model from the S-1, meet management, size the order.</span></div>
+        <div class="rrow"><b>PM</b><span>Decides play-or-pass and at what limit: anchors negotiate before the range is set.</span></div>
+        <div class="rrow"><b>Treasurer / CFO</b><span>The issuer's chair: proceeds, dilution, and which banks earn the mandate.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lesson" id="technicals">
+    <h2><span class="sec-num">4</span> The technicals</h2>
+    <div class="table-wrap"><table class="tech-table">
+      <tr><th>Build</th><th>Mechanics</th><th>What decides it</th></tr>
+      <tr><td>IPO pricing</td><td>Comps minus the IPO discount (~10-15%); range, bookbuild, price; greenshoe (15%) stabilizes after.</td><td>Book quality and oversubscription per price point; the aftermarket target.</td></tr>
+      <tr><td>Follow-ons &amp; blocks</td><td>File-to-offer discounts, wall-crossings, accelerated books; risk bids on blocks.</td><td>Days-of-volume the deal represents; how the last one digested.</td></tr>
+      <tr><td>Converts</td><td>Coupon + conversion premium vs credit and vol; call spreads to offset dilution optics.</td><td>Where the issuer's volatility trades.</td></tr>
+      <tr><td>Dilution math</td><td>Pre/post-money, primary vs secondary, ownership walks.</td><td>Use of proceeds: growth dilution reprices fine; hole-filling does not.</td></tr>
+    </table></div>
+  </section>
+
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">D.3</span> The wire: new issues this week</h2>
+    <h2><span class="sec-num">5</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
-  <section class="lesson" id="landscape">
-    <h2><span class="sec-num">D.4</span> The landscape</h2>
-    <p>Bookrunning is a bulge-bracket oligopoly: Goldman, Morgan Stanley, and JPMorgan lead global ECM league tables,
-      with BofA and the Europeans in the flow; boutiques appear as independent advisers on IPOs (a growing niche:
-      advising the issuer about the banks). Across the table: long-only anchors (Fidelity, T. Rowe, Capital) whose
-      orders make books, hedge funds who flip, and index funds who must buy later: allocation is a game about exactly
-      that. The buy-side counterpart career is equity syndicate and IPO-focused investing.</p>
-  </section>
-
-  <section class="lesson" id="study">
-    <h2><span class="sec-num">D.5</span> The study kit</h2>
-    <p>Process end to end (org meeting to greenshoe exercise), the last 5 significant IPOs: range, price, first-day,
-      where they trade now: and one converts term sheet read until the math is friendly. ECM interviews are market-feel
-      interviews: current windows, recent deals, and honest talk about why a deal worked or broke.</p>
+  <section class="lesson" id="shelf">
+    <h2><span class="sec-num">6</span> The shelf</h2>
+    <div class="kit">
+      <a href="../../industry.html?id=capital-markets">Dossier: Capital Markets</a>
+      <a href="../../industry.html?id=market-infrastructure">Dossier: Exchanges</a>
+      <a href="../../industry.html?id=investment-banking">Dossier: Investment Banking</a>
+      <a href="../modules/capital-markets.html">Module: Capital Markets</a>
+      <a href="../interview-prep.html">Interview bank: markets</a>
+      <a href="../models-map.html#seats">Models Map: the ECM seat</a>
+    </div>
   </section>
 
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
+<script src="../../assets/js/viz.js?v=16"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
+  Viz.systemDiagram(document.getElementById("sysmap"), {
+    accent: "var(--brand)",
+    label: "The ECM ecosystem",
+    center: { title: "The order book", note: "built, priced, allocated", subs: [
+      "S-1 / prospectus on file", "Roadshow · 8 to 10 days", "Bookbuild vs the range",
+      "Pricing night · allocation", "Aftermarket + greenshoe"] },
+    left: { title: "SELL SIDE · bringing shares", items: [
+      { name: "The issuer", note: "primary shares: cash into the company" },
+      { name: "Founders & insiders", note: "secondary shares: cash out" },
+      { name: "Sponsor sellers", note: "the IPO-then-drip exit path" },
+      { name: "Bookrunners / syndicate", note: "GS-MS-JPM class run the book" },
+      { name: "Equity research", note: "the aftermarket narrative (behind the wall)" }
+    ] },
+    right: { title: "BUY SIDE · bringing orders", items: [
+      { name: "Long-only anchors", note: "the orders that legitimize a book" },
+      { name: "Hedge funds", note: "fast money the syndicate rations" },
+      { name: "Cornerstones & sovereigns", note: "pre-committed size" },
+      { name: "Index funds", note: "forced buyers at inclusion" },
+      { name: "Convert arbs", note: "the vol buyers of converts" }
+    ] },
+    capIn: { title: "FEES IN", items: [
+      { name: "Gross spread", note: "~7% small IPOs → 1-2% mega-cap" },
+      { name: "Block risk P&L", note: "the desk's own trading result" },
+      { name: "Converts fees", note: "rate-cycle sensitive volume" }
+    ] },
+    capOut: { title: "WHAT FLOWS OUT", items: [
+      { name: "Proceeds to issuer/sellers", note: "the point of it all" },
+      { name: "Allocations to investors", note: "scarce in hot deals" },
+      { name: "The IPO discount", note: "money left for the aftermarket" }
+    ] },
+    top: { title: "THE REFEREES", items: ["SEC (registration, quiet period)", "FINRA", "The exchanges"] },
+    leftArrow: "offers shares", rightArrow: "places orders"
+  });
   if (window.AtlasNews) {
     AtlasNews.render(document.getElementById("wire-feed"),
       '(IPO OR "initial public offering" OR "follow-on offering" OR "block trade" OR "convertible notes")',
