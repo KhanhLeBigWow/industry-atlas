@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/atlas.css">
+<link rel="stylesheet" href="../assets/css/atlas.css?v=3">
 <style>
   :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
@@ -58,6 +58,16 @@
   .dc-when, .dc-size { font-family: var(--font-mono); font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: var(--surface-2); color: var(--ink-3); }
   .dc-size { background: color-mix(in srgb, var(--brand) 14%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
   .dc-analysis { border-left: 2.5px solid var(--brand); padding-left: 10px; color: var(--ink-2); font-size: .82rem; }
+  .dc-more { margin: 8px 0 4px; }
+  .dc-more summary { cursor: pointer; font-size: .76rem; font-weight: 650; color: var(--brand-strong, var(--brand)); list-style: none; }
+  .dc-more summary::before { content: "\25B8  "; }
+  .dc-more[open] summary::before { content: "\25BE  "; }
+  .dc-more[open] { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; }
+  .dc-parties { margin-top: 8px; }
+  .dc-party { display: grid; grid-template-columns: 92px 1fr; gap: 4px 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; align-items: baseline; }
+  .dc-party:last-child { border-bottom: 0; }
+  .dcp-side { font-family: var(--font-mono); font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--brand-strong, var(--brand)); }
+  .dcp-role { grid-column: 2; font-size: .72rem; color: var(--ink-3); }
 </style>
 </head>
 <body>
@@ -145,18 +155,131 @@
     </table></div>
   </section>
 
+  <section class="lesson" id="subdesks">
+    <h2><span class="sec-num">5</span> The sub-desks: open each one</h2>
+    <p class="small muted">M&amp;A is several distinct crafts wearing one name. Open each panel for the process, the math, and the failure modes.</p>
+
+    <details class="deep" id="sd-sellside">
+      <summary>Sell-side auctions <span class="dtag">the bread and butter</span></summary>
+      <div class="deep-body">
+        <p>Selling a company is process engineering: manufacture competitive tension, protect confidentiality, and keep 2 credible bidders at the table until signatures. The banker's real product is the counterfactual: every bidder must believe someone else will pay more.</p>
+        <h5>The 2-round auction, step by step</h5>
+        <ol>
+          <li><b>Preparation (4 to 8 weeks).</b> CIM, management presentation, financial model with a defensible adjusted-EBITDA bridge, sell-side QoE, data room. The buyer list: strategics by strategic fit, sponsors by platform logic and fund capacity.</li>
+          <li><b>Round 1 (4 to 6 weeks).</b> Teaser + NDA out to 30 to 150 names; process letter sets the rules; indications of interest come back with value ranges. Cull to 4 to 8.</li>
+          <li><b>Round 2 (4 to 6 weeks).</b> Management meetings, full data room, draft SPA in the room. Final bids arrive with markups: price is compared net of the contract's risk allocation.</li>
+          <li><b>Exclusivity and signing (1 to 3 weeks).</b> Confirmatory diligence, financing papers, disclosure schedules.</li>
+        </ol>
+        <h5>The math that decides it</h5>
+        <div class="worked">Bids are compared on TEV, then translated to equity value through the debt-like items schedule: unfunded pensions, earnouts owed, capitalized leases, working-capital peg deltas. A $500M headline bid with a $20M working-capital fight and $15M of debt-like surprises loses to a clean $480M. The peg negotiation is where 1 to 3% of deal value quietly moves.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Leaks</b> reprice the deal or kill it: customer and employee flight starts the day the story runs.</li>
+          <li><b>The broad-auction trap:</b> 100 NDAs signal desperation; the best buyers step back and wait for the process to fail.</li>
+          <li><b>Re-trading:</b> a bidder wins with a number, then chips it in exclusivity. Antidote: keep the runner-up warm.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-buyside">
+      <summary>Buy-side &amp; take-privates <span class="dtag">the other chair</span></summary>
+      <div class="deep-body">
+        <p>Buy-side advisory sells judgment, not process: what the target is worth to this buyer, how to win without overpaying, and how to get the board's yes. Take-privates add a second game: public-company law.</p>
+        <h5>The take-private sequence</h5>
+        <ol>
+          <li><b>The approach.</b> A private bear hug to the board (public if the board stonewalls). The board forms a special committee if insiders or a controlling holder are involved.</li>
+          <li><b>Price discovery.</b> The committee's bankers run a market check or negotiate a go-shop: 25 to 45 days post-signing to solicit topping bids, with a reduced break fee for a go-shop jumper.</li>
+          <li><b>Financing certainty.</b> Committed debt papers and an equity commitment letter; reverse termination fee (4 to 7% of equity) prices the buyer's walk-away right.</li>
+          <li><b>The vote.</b> Proxy out, ISS/Glass Lewis recommendations, majority (or majority-of-the-minority) approval, then closing on regulatory clearance.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">Ability-to-pay LBO: solve for the maximum price at which the sponsor still clears its hurdle. <span class="mono">Max TEV = equity check x target MOIC solved backward through exit multiple, leverage, and FCF paydown.</span> If public holders expect a 30% premium and the ability-to-pay lands at 18%, there is no deal, and saying so early is the advice.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Appraisal and fiduciary suits</b> when process looks pre-wired: the committee's independence is the deal's armor.</li>
+          <li><b>Financing outs</b> in volatile markets: the 2022 vintage of busted take-privates was a lesson in reverse-termination-fee design.</li>
+          <li><b>Winner's curse:</b> the buy-side banker who never says "walk" is a fee machine, not an advisor.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-activism">
+      <summary>Activism defense &amp; hostile situations <span class="dtag">the war room</span></summary>
+      <div class="deep-body">
+        <p>When the buyer or the shareholder will not take no. Defense work is retained before the fight: the vulnerability assessment, the break-glass plan, the relationships with the proxy advisors.</p>
+        <h5>The playbook, both directions</h5>
+        <ul>
+          <li><b>Bear hug:</b> a public offer letter designed to put the board in play. Response calculus: reject, engage, or run a process on your own terms.</li>
+          <li><b>Tender offer:</b> straight to shareholders; the poison pill (shareholder rights plan) caps accumulation, usually at 10 to 15%, and forces negotiation.</li>
+          <li><b>Proxy fight:</b> universal proxy cards made single-seat campaigns cheap; the math is registered votes, not arguments. ISS and Glass Lewis recommendations swing 20 to 30% of the vote.</li>
+          <li><b>The activist screen:</b> underperformance vs peers, conglomerate discount, lazy balance sheet, governance hooks. Defense means fixing the screen before someone else monetizes it.</li>
+        </ul>
+        <h5>The players</h5>
+        <p>Activists: <a href="../../company.html?id=elliott">Elliott</a>, Starboard, Icahn, Third Point, Trian. Defense: <a href="../../company.html?id=goldman-sachs">Goldman</a>, <a href="../../company.html?id=morgan-stanley">Morgan Stanley</a>, <a href="../../company.html?id=evercore">Evercore</a>, <a href="../../company.html?id=moelis">Moelis</a>, plus Wachtell on the legal side and the proxy solicitors (Innisfree, Okapi) counting votes nightly.</p>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Fighting the last war:</b> a pill deters accumulation, not a good argument. Settling for board seats early is often cheaper than a proxy loss.</li>
+          <li><b>The clock:</b> advance-notice windows decide whether a campaign can even launch this year; missing them is malpractice on either side.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-fairness">
+      <summary>Fairness opinions &amp; the merger model <span class="dtag">the technical core</span></summary>
+      <div class="deep-body">
+        <p>The fairness opinion is the board's liability shield and the desk's most standardized product: an opinion that the consideration is fair, from a financial point of view, supported by the full valuation stack.</p>
+        <h5>What is actually in the book</h5>
+        <ol>
+          <li>Trading comps and precedent transactions (with control premiums), footnoted to death.</li>
+          <li>DCF with sensitivity tables on WACC and terminal growth or exit multiple.</li>
+          <li>Accretion/dilution: pro forma EPS under cash, stock, and mixed consideration; the breakeven synergy number.</li>
+          <li>Contribution analysis and exchange-ratio analysis in stock deals: who brings what % of EBITDA vs who gets what % of the combined equity.</li>
+          <li>Premiums paid: 1-day, 30-day, 52-week-high reference points.</li>
+        </ol>
+        <h5>The math worth memorizing</h5>
+        <div class="worked">All-stock deal breakeven: accretive when the acquirer's P/E exceeds the target's deal P/E (after synergies). Cash deal: accretive when the target's after-tax earnings yield beats the after-tax cost of the cash (foregone interest or new debt). <span class="mono">Breakeven synergies = (deal P/E x target NI shortfall) solved to zero EPS impact.</span> Every interview question in this family is one of these 2 identities rearranged.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Synergy inflation:</b> "fully loaded" synergies that ignore dis-synergies (lost customers, retention comp) make bad deals look accretive.</li>
+          <li><b>The single-opinion trap:</b> conflicted advisors (financing the buyer while opining for the seller) invite a second opinion and litigation discovery.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-regulatory">
+      <summary>Antitrust &amp; cross-border <span class="dtag">the closing risk</span></summary>
+      <div class="deep-body">
+        <p>Signing is the middle of the deal. The regulatory desk prices the gap between signing and closing: who bears the risk that a government says no, and what the buyer must give to get to yes.</p>
+        <h5>The gauntlet</h5>
+        <ul>
+          <li><b>HSR (US):</b> filing, 30-day wait, then the second request that turns months into a year. The 2023 merger guidelines lowered the structural thresholds regulators sue on.</li>
+          <li><b>EC (Europe):</b> Phase I (25 working days) or Phase II (90+); remedies negotiated as commitments.</li>
+          <li><b>CFIUS:</b> national-security review of foreign acquirers; can force divestiture years later if skipped.</li>
+          <li><b>China SAMR:</b> the long pole in global tech and semiconductor deals; conditional approvals with behavioral remedies.</li>
+        </ul>
+        <h5>How the contract prices it</h5>
+        <div class="worked">Efforts covenants ("hell or high water" vs "reasonable best efforts"), divestiture caps (buyer must sell up to $X of assets to clear), reverse termination fees for antitrust failure, and outside dates with extensions. A tight covenant package is worth real dollars: the seller's lawyers trade price for certainty on every one of these lines.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Remedy underestimation:</b> the fix-it-first divestiture that satisfies no one, or a divestiture buyer regulators reject.</li>
+          <li><b>Interloper risk during a long review:</b> an 18-month clearance window is an invitation to topping bids and macro turns.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
   <section class="lesson" id="tape">
-    <h2><span class="sec-num">5</span> The deal tape: landmark transactions on this desk</h2>
+    <h2><span class="sec-num">6</span> The deal tape: landmark transactions on this desk</h2>
     <div id="deal-tape"></div>
   </section>
 
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">6</span> The wire</h2>
+    <h2><span class="sec-num">7</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
   <section class="lesson" id="shelf">
-    <h2><span class="sec-num">7</span> The shelf</h2>
+    <h2><span class="sec-num">8</span> The shelf</h2>
     <div class="kit">
       <a href="../../industry.html?id=investment-banking">Dossier: Investment Banking</a>
       <a href="../../industry.html?id=private-equity">Dossier: Private Equity</a>
@@ -171,11 +294,12 @@
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
-<script src="../../assets/js/viz.js?v=16"></script>
+<script src="../../assets/js/viz.js?v=18"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
   Viz.systemDiagram(document.getElementById("sysmap"), {
+    onItemClick: function (co) { location.href = "../../company.html?id=" + co; },
     accent: "var(--brand)",
     label: "The M&A ecosystem",
     center: { title: "The deal", note: "a 4-to-6-month process", subs: [
@@ -183,17 +307,17 @@
       "Finals · bids vs draft contract", "Sign → regulatory → close"] },
     left: { title: "SELL SIDE · running the process", items: [
       { name: "The board & management", note: "the decision and the story" },
-      { name: "Sell-side advisor", note: "GS/MS/JPM or the boutiques: process + price talk" },
+      { name: "Sell-side advisor", note: "GS/MS/JPM or the boutiques: process + price talk", co: "goldman-sachs" },
       { name: "Sponsor sellers", note: "PE exits feed the tape" },
       { name: "Company counsel", note: "contract, disclosure, fiduciary cover" },
       { name: "Coverage bankers", note: "the industry group that sourced it" }
     ] },
     right: { title: "BUY SIDE · bidding", items: [
       { name: "Strategic acquirers", note: "synergies; corp dev inside" },
-      { name: "Financial sponsors", note: "the leverage bid" },
-      { name: "Buy-side advisors", note: "valuation + tactics for the acquirer" },
-      { name: "Financing desks", note: "bridges, bonds, loans behind cash bids" },
-      { name: "Merger arbs (post-announce)", note: "pricing the spread" }
+      { name: "Financial sponsors", note: "the leverage bid", co: "blackstone" },
+      { name: "Buy-side advisors", note: "valuation + tactics for the acquirer", co: "centerview" },
+      { name: "Financing desks", note: "bridges, bonds, loans behind cash bids", co: "jpmorgan" },
+      { name: "Merger arbs (post-announce)", note: "pricing the spread", co: "elliott" }
     ] },
     capIn: { title: "FEES IN", items: [
       { name: "Sell-side success fee", note: "~1% at scale; more below" },
@@ -215,7 +339,7 @@
   }
 })();
 </script>
-<script src="../../assets/data/deals.js?v=17"></script>
+<script src="../../assets/data/deals.js?v=18"></script>
 <script>
 (function () {
   document.querySelectorAll(".p-card[data-co]").forEach(function (c) {
@@ -224,11 +348,23 @@
   });
   var deals = (window.ATLAS_DEALS || []).filter(function (d) { return d.type === "ma"; });
   var el = document.getElementById("deal-tape");
+  function party(p) {
+    return '<div class="dc-party"><span class="dcp-side">' + p.side + '</span><b>' + p.who + '</b><span class="dcp-role">' + p.role + '</span></div>';
+  }
   if (el) el.innerHTML = deals.map(function (d) {
+    var more = "";
+    if (d.background || d.structure || d.outcome || (d.parties && d.parties.length)) {
+      more = '<details class="dc-more"><summary>Full write-up Â· structure Â· the parties</summary>';
+      if (d.background) more += '<p class="small"><b>Background.</b> ' + d.background + '</p>';
+      if (d.structure) more += '<p class="small"><b>Structure.</b> ' + d.structure + '</p>';
+      if (d.outcome) more += '<p class="small"><b>Where it stands.</b> ' + d.outcome + '</p>';
+      if (d.parties && d.parties.length) more += '<div class="dc-parties">' + d.parties.map(party).join("") + '</div>';
+      more += '</details>';
+    }
     return '<div class="deal-card"><div class="dc-top"><span class="dc-when">' + d.when + '</span><span class="dc-size">' + d.size + '</span></div>' +
-      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' +
+      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' + more +
       '<p class="small dc-analysis"><b>Why it matters:</b> ' + d.analysis + '</p>' +
-      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" · ") + "</p>" : "") +
+      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" Â· ") + "</p>" : "") +
       "</div>";
   }).join("");
 })();

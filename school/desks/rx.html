@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/atlas.css">
+<link rel="stylesheet" href="../assets/css/atlas.css?v=3">
 <style>
   :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
@@ -65,6 +65,16 @@
   .dc-when, .dc-size { font-family: var(--font-mono); font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: var(--surface-2); color: var(--ink-3); }
   .dc-size { background: color-mix(in srgb, var(--brand) 14%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
   .dc-analysis { border-left: 2.5px solid var(--brand); padding-left: 10px; color: var(--ink-2); font-size: .82rem; }
+  .dc-more { margin: 8px 0 4px; }
+  .dc-more summary { cursor: pointer; font-size: .76rem; font-weight: 650; color: var(--brand-strong, var(--brand)); list-style: none; }
+  .dc-more summary::before { content: "\25B8  "; }
+  .dc-more[open] summary::before { content: "\25BE  "; }
+  .dc-more[open] { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; }
+  .dc-parties { margin-top: 8px; }
+  .dc-party { display: grid; grid-template-columns: 92px 1fr; gap: 4px 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; align-items: baseline; }
+  .dc-party:last-child { border-bottom: 0; }
+  .dcp-side { font-family: var(--font-mono); font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--brand-strong, var(--brand)); }
+  .dcp-role { grid-column: 2; font-size: .72rem; color: var(--ink-3); }
 </style>
 </head>
 <body>
@@ -166,18 +176,129 @@
     </table></div>
   </section>
 
+  <section class="lesson" id="subdesks">
+    <h2><span class="sec-num">6</span> The sub-desks: open each one</h2>
+    <p class="small muted">Restructuring is one desk with 5 distinct games running at once. Open each panel for the sequence, the math, and how each side loses.</p>
+
+    <details class="deep" id="sd-ch11">
+      <summary>Chapter 11, end to end <span class="dtag">the main event</span></summary>
+      <div class="deep-body">
+        <p>A federal court process for reorganizing a business while it keeps operating. The automatic stay freezes every creditor at the door; the fight moves from collection to valuation and priority.</p>
+        <h5>The case, in sequence</h5>
+        <ol>
+          <li><b>First-day motions:</b> pay employees and critical vendors, keep cash management running, approve interim DIP. The judge's first read of the case's competence.</li>
+          <li><b>DIP financing:</b> super-priority, often priming, loaded with milestones (file a plan by X, sale by Y). Whoever writes the DIP writes the calendar.</li>
+          <li><b>Exclusivity (120 days, extendable to 18 months):</b> only the debtor may propose a plan; the leverage every debtor advisor guards.</li>
+          <li><b>Plan and disclosure statement:</b> classes of claims, treatment of each, the valuation that decides who gets what.</li>
+          <li><b>Confirmation:</b> each impaired class votes (two-thirds in amount, half in number). A dissenting class can be crammed down under 1129(b) if the plan is fair and equitable and respects absolute priority.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">Everything reduces to the waterfall drawn above: <span class="mono">distributable value less admin and priority claims, paid down the priority stack until it runs out.</span> The class where it runs out, the fulcrum, converts to equity and owns the company. Move the enterprise value $200M and the fulcrum moves a class: that is why the valuation fight is the case.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Administrative burn:</b> $10 to 30M a month of professionals in a big case; slow cases consume the estate they argue over.</li>
+          <li><b>The free-fall filing:</b> no RSA, no DIP arranged, trade flees; prepacks exist because free-falls destroy value.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-outofcourt">
+      <summary>Out-of-court &amp; prepacks <span class="dtag">the cheaper path</span></summary>
+      <div class="deep-body">
+        <p>Most restructurings never see a courtroom. The debtor and its largest creditors negotiate privately, sign a restructuring support agreement (RSA), and either close out of court or use a short prepackaged filing to bind holdouts.</p>
+        <h5>The spectrum</h5>
+        <ul>
+          <li><b>Pure out-of-court:</b> exchange offers plus consents; works only when participation clears 90%+ because holdouts keep their old claims.</li>
+          <li><b>Prepack:</b> votes solicited before filing; in and out of Chapter 11 in 1 to 45 days. Binds 100% once confirmed.</li>
+          <li><b>Pre-negotiated:</b> RSA signed with anchor creditors, votes solicited in court; 2 to 4 months.</li>
+        </ul>
+        <h5>The RSA, the desk's real product</h5>
+        <p>Who supports the deal, what they get (exchange terms, fees, backstop economics), milestones, and a fiduciary out. Backstop parties commit to fund new money and are paid 5 to 10% in fees and discounted allocations for it: the economics that make ad hoc groups form early and fight hard.</p>
+        <h5>The math</h5>
+        <div class="worked">Holdout arithmetic runs the structure choice: an exchange at 80 that gets 95% participation still leaves 5% of old bonds due at par. If that stub is small enough to pay, stay out of court; if it can accelerate or sue, the prepack binds it. <span class="mono">Cost comparison: out-of-court ~$20 to 50M of fees vs $150M+ for a contested Chapter 11.</span></div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Participation misses the threshold</b> and the deal converts to a filing anyway, months later and weaker.</li>
+          <li><b>Coercive-exchange litigation:</b> exit consents that strip covenants from non-participants invite years of suits.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-creditor">
+      <summary>Creditor-side representation <span class="dtag">the other war room</span></summary>
+      <div class="deep-body">
+        <p>Every debtor mandate creates 3 or 4 creditor mandates: the ad hoc first-lien group, the crossover group, the unsecured committee, sometimes an equity committee. Creditor work is portfolio triage plus game theory, billed monthly.</p>
+        <h5>How groups form and fight</h5>
+        <ol>
+          <li><b>The organization meeting:</b> holders compare positions, sign co-op agreements (no one exits or trades against the group), hire counsel and a banker.</li>
+          <li><b>Diligence under NDA:</b> the group goes private on information the market lacks; restricted lists and information walls follow.</li>
+          <li><b>The ask:</b> a counter-waterfall, a DIP proposal of their own, or a plan term sheet; leverage comes from blocking positions (one-third of a class stops a cramdown vote).</li>
+          <li><b>The settlement:</b> most fights end in an RSA where the loudest group backstops the new money and books the fees.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">A blocking stake in the fulcrum class is the cheapest control in finance: <span class="mono">one-third of a $600M class bought at 45 is a $90M outlay</span> that can veto any plan touching that class, and usually converts to board seats and backstop economics. Co-op agreements exist because uptiers (Serta) taught minorities what majorities can do to them.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Group fracture:</b> a debtor's exchange offer engineered to peel off half the group; the co-op agreement is the countermeasure and the courts are still pricing its limits.</li>
+          <li><b>Paying for yesterday's collateral:</b> the drop-down already moved the good assets; the liens the group holds secure a shell.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-363">
+      <summary>363 sales &amp; distressed M&amp;A <span class="dtag">the auction inside the case</span></summary>
+      <div class="deep-body">
+        <p>Section 363 lets a debtor sell assets free and clear of liens, faster and cleaner than any plan. For buyers it is the best M&amp;A market that exists: motivated seller, court-blessed title, no reps surviving close.</p>
+        <h5>The choreography</h5>
+        <ol>
+          <li><b>Stalking horse:</b> a first bidder sets the floor in exchange for a 2 to 4% break fee, expense reimbursement, and bid protections (minimum overbid increments).</li>
+          <li><b>Bid procedures approved,</b> marketing period runs 30 to 60 days: the banker's classic sell-side sprint under a judge's clock.</li>
+          <li><b>The auction:</b> open outcry against the stalking horse; secured creditors may credit bid their debt up to its face amount.</li>
+          <li><b>Sale hearing:</b> the court approves the highest and best bid; closing follows in days.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">Credit-bid arithmetic: a lender owed $400M on assets marketed at $250M can bid its paper instead of cash, effectively buying the company at <span class="mono">its debt's market price</span> (bought at 60, credit-bid at par). Cash bidders must beat the face amount of the debt, not its trading price, which is why loan-to-own funds buy the paper first and the auction second.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>The chilled auction:</b> a too-rich break fee or a too-fast timeline scares real bidders off; judges have learned to trim both.</li>
+          <li><b>Melting-ice-cube pricing:</b> genuine urgency (Joann, Spirit's retail vintage) means every week of process is margin walking out the door.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-valuation">
+      <summary>The valuation fight <span class="dtag">where cases are won</span></summary>
+      <div class="deep-body">
+        <p>Recoveries are a function of enterprise value, so every side hires a banker to prove the number that pays its class. The junior classes argue the business is worth more (value reaches them); seniors argue it is worth less (they own it all). Same company, same data room, $700M apart, under oath.</p>
+        <h5>How the fight is fought</h5>
+        <ul>
+          <li><b>Dueling expert reports:</b> DCF, comps, precedents, each assumption chosen from the defensible end of its range in the client's direction.</li>
+          <li><b>The tells:</b> management projections (whose case were they built for?), the DIP budget's own implied multiple, actual market bids from any 363 process, trading prices of the debt itself.</li>
+          <li><b>Cross-examination:</b> the other side's banker walks the court through your football field one cherry-picked comp at a time.</li>
+        </ul>
+        <h5>The math</h5>
+        <div class="worked">A senior-friendly case: 5.5x on trough EBITDA of $180M = <span class="mono">$990M</span>, value breaks in the first lien, juniors get warrants. The junior case: 7.0x on normalized $230M = <span class="mono">$1.6B</span>, first lien covered at par, juniors own the equity. The judge picks a point (or the parties settle at the courthouse steps), and every professional fee in the case was spent arguing that interval.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Winning the trial, losing the exit:</b> a confirmed valuation the market refuses to pay at emergence (the new equity trades at half the court's number).</li>
+          <li><b>Model theater:</b> a 10-year DCF on a business that missed 8 straight quarters persuades no one; credibility, not precision, wins valuation trials.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
   <section class="lesson" id="tape">
-    <h2><span class="sec-num">6</span> The deal tape: landmark transactions on this desk</h2>
+    <h2><span class="sec-num">7</span> The deal tape: landmark transactions on this desk</h2>
     <div id="deal-tape"></div>
   </section>
 
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">7</span> The wire</h2>
+    <h2><span class="sec-num">8</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
   <section class="lesson" id="shelf">
-    <h2><span class="sec-num">8</span> The shelf</h2>
+    <h2><span class="sec-num">9</span> The shelf</h2>
     <div class="kit">
       <a href="../../industry.html?id=private-credit">Dossier: Private Credit</a>
       <a href="../../industry.html?id=banking">Dossier: Banking</a>
@@ -192,27 +313,28 @@
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
-<script src="../../assets/js/viz.js?v=16"></script>
+<script src="../../assets/js/viz.js?v=18"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
   Viz.systemDiagram(document.getElementById("sysmap"), {
+    onItemClick: function (co) { location.href = "../../company.html?id=" + co; },
     accent: "var(--brand)",
     label: "The restructuring ecosystem",
     center: { title: "The distressed company", note: "liquidity dying, value contested", subs: [
       "Trigger · maturity wall or cash burn", "13-week runway · the clock", "Out-of-court vs Chapter 11",
       "DIP funds the case", "Plan / 363 sale → emergence"] },
     left: { title: "DEBTOR SIDE · the company's corner", items: [
-      { name: "RX advisor (debtor)", note: "PJT/Houlihan/Evercore class: strategy + valuation" },
+      { name: "RX advisor (debtor)", note: "PJT/Houlihan/Evercore class: strategy + valuation", co: "pjt-partners" },
       { name: "Turnaround consultant", note: "A&M/FTI/Alix: operations + the 13-week" },
       { name: "Debtor counsel", note: "Kirkland/Weil class: the case's architecture" },
       { name: "CRO & management", note: "running the business through it" },
       { name: "Board / special committee", note: "fiduciaries in the insolvency zone" }
     ] },
     right: { title: "CREDITOR SIDE · fighting for recovery", items: [
-      { name: "Distressed funds", note: "buying the fulcrum to own the equity" },
-      { name: "CLOs & original lenders", note: "defending tranche recoveries" },
-      { name: "DIP lenders", note: "super-priority: tempo control" },
+      { name: "Distressed funds", note: "buying the fulcrum to own the equity", co: "oaktree" },
+      { name: "CLOs & original lenders", note: "defending tranche recoveries", co: "ares" },
+      { name: "DIP lenders", note: "super-priority: tempo control", co: "apollo" },
       { name: "Committees (UCC, ad hoc)", note: "each with its own banker + counsel" },
       { name: "363 bidders", note: "strategics and credit bidders at the auction" }
     ] },
@@ -236,7 +358,7 @@
   }
 })();
 </script>
-<script src="../../assets/data/deals.js?v=17"></script>
+<script src="../../assets/data/deals.js?v=18"></script>
 <script>
 (function () {
   document.querySelectorAll(".p-card[data-co]").forEach(function (c) {
@@ -245,11 +367,23 @@
   });
   var deals = (window.ATLAS_DEALS || []).filter(function (d) { return d.type === "rx"; });
   var el = document.getElementById("deal-tape");
+  function party(p) {
+    return '<div class="dc-party"><span class="dcp-side">' + p.side + '</span><b>' + p.who + '</b><span class="dcp-role">' + p.role + '</span></div>';
+  }
   if (el) el.innerHTML = deals.map(function (d) {
+    var more = "";
+    if (d.background || d.structure || d.outcome || (d.parties && d.parties.length)) {
+      more = '<details class="dc-more"><summary>Full write-up Â· structure Â· the parties</summary>';
+      if (d.background) more += '<p class="small"><b>Background.</b> ' + d.background + '</p>';
+      if (d.structure) more += '<p class="small"><b>Structure.</b> ' + d.structure + '</p>';
+      if (d.outcome) more += '<p class="small"><b>Where it stands.</b> ' + d.outcome + '</p>';
+      if (d.parties && d.parties.length) more += '<div class="dc-parties">' + d.parties.map(party).join("") + '</div>';
+      more += '</details>';
+    }
     return '<div class="deal-card"><div class="dc-top"><span class="dc-when">' + d.when + '</span><span class="dc-size">' + d.size + '</span></div>' +
-      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' +
+      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' + more +
       '<p class="small dc-analysis"><b>Why it matters:</b> ' + d.analysis + '</p>' +
-      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" · ") + "</p>" : "") +
+      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" Â· ") + "</p>" : "") +
       "</div>";
   }).join("");
 })();

@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/atlas.css">
+<link rel="stylesheet" href="../assets/css/atlas.css?v=3">
 <style>
   :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
@@ -58,6 +58,16 @@
   .dc-when, .dc-size { font-family: var(--font-mono); font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: var(--surface-2); color: var(--ink-3); }
   .dc-size { background: color-mix(in srgb, var(--brand) 14%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
   .dc-analysis { border-left: 2.5px solid var(--brand); padding-left: 10px; color: var(--ink-2); font-size: .82rem; }
+  .dc-more { margin: 8px 0 4px; }
+  .dc-more summary { cursor: pointer; font-size: .76rem; font-weight: 650; color: var(--brand-strong, var(--brand)); list-style: none; }
+  .dc-more summary::before { content: "\25B8  "; }
+  .dc-more[open] summary::before { content: "\25BE  "; }
+  .dc-more[open] { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; }
+  .dc-parties { margin-top: 8px; }
+  .dc-party { display: grid; grid-template-columns: 92px 1fr; gap: 4px 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; align-items: baseline; }
+  .dc-party:last-child { border-bottom: 0; }
+  .dcp-side { font-family: var(--font-mono); font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--brand-strong, var(--brand)); }
+  .dcp-role { grid-column: 2; font-size: .72rem; color: var(--ink-3); }
 </style>
 </head>
 <body>
@@ -145,18 +155,126 @@
     </table></div>
   </section>
 
+  <section class="lesson" id="subdesks">
+    <h2><span class="sec-num">5</span> The sub-desks: open each one</h2>
+    <p class="small muted">One desk name, 5 different credit businesses. Open each panel for the mechanics, the pricing math, and the failure modes.</p>
+
+    <details class="deep" id="sd-ig">
+      <summary>Investment-grade new issue <span class="dtag">the flow machine</span></summary>
+      <div class="deep-body">
+        <p>The highest-volume, lowest-fee corner of the capital markets: A-rated treasurers refinancing on a calendar, priced in basis points over Treasuries, executed in hours. The desk's product is timing and distribution, not credit judgment.</p>
+        <h5>A deal day</h5>
+        <ol>
+          <li><b>Go/no-go call at 7am:</b> futures, overnight supply, the day's calendar. Announce at 8, initial price thoughts (IPTs) wide.</li>
+          <li><b>Book builds through the morning;</b> guidance tightens 15 to 25 bps from IPTs as orders stack.</li>
+          <li><b>Launch and price by early afternoon:</b> final spread set, allocations out, bonds free to trade.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked"><span class="mono">New issue concession (NIC) = new bond spread less the issuer's secondary curve.</span> A 5 bp NIC on a $2B 10-year costs the issuer roughly $9M over the life; a hot book prices through the curve (negative NIC). Fees run 30 to 65 bps by tenor, split across an active bookrunner group of 3 to 6 that exists mostly to pay lending relationships.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Reading a fake book:</b> inflated orders shrink at allocation; pricing off them leaves the bond 10 wide by Friday.</li>
+          <li><b>Supply collisions:</b> 8 issuers picking the same Tuesday after a CPI print.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-levfin">
+      <summary>Leveraged finance underwriting <span class="dtag">where the risk lives</span></summary>
+      <div class="deep-body">
+        <p>Financing LBOs and levered corporates with committed capital: the bank signs papers promising the money at a price months before the market gets a vote. The fee is bigger because the desk is short a market-moves option the whole time.</p>
+        <h5>The commitment machine</h5>
+        <ol>
+          <li><b>Commitment papers at signing:</b> the banks commit to fund the debt (term loan + bonds or bridge) at a maximum rate: the cap.</li>
+          <li><b>Flex terms:</b> inside the papers, the right to move price (usually 125 to 150 bps), OID, and some structure against the syndication market. Flex is the desk's insurance policy; its size is the negotiation.</li>
+          <li><b>Syndication before close:</b> loans to CLOs and credit funds, bonds via a roadshow. Clear inside the cap and the desk keeps the economics; get caught past flex and the desk eats the difference.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">Hung-deal arithmetic: commit at SOFR+450 with 98 OID and 150 bps of flex; the market clears at +650 with 94. The flex covers 150 bps and 2 points of OID; the rest, roughly <span class="mono">4 points on the whole tranche</span>, is the banks' loss, which is how the 2022 vintage (Citrix, Twitter/X) put billions of hung paper on bank balance sheets and handed the market to private credit for 2 years.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Marking to hope:</b> holding hung paper at par while the market prints 89.</li>
+          <li><b>Covenant drift:</b> EBITDA addbacks and unrestricted-subsidiary capacity written in the hot market become next cycle's liability-management raw material.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-privcredit">
+      <summary>Private credit &amp; unitranche <span class="dtag">the challenger</span></summary>
+      <div class="deep-body">
+        <p>Direct lenders (<a href="../../company.html?id=ares">Ares</a>, <a href="../../company.html?id=apollo">Apollo</a>, <a href="../../company.html?id=blue-owl">Blue Owl</a>, Golub class) replacing the syndicated market: one lender group, one document, no ratings, no flex, certainty at a spread premium. Now a $1.7T asset class that competes head-to-head with the LevFin desk on every sponsor deal.</p>
+        <h5>How the product differs</h5>
+        <ul>
+          <li><b>Unitranche:</b> one blended-rate facility replacing first-lien plus mezz; sometimes split behind the curtain by an agreement-among-lenders.</li>
+          <li><b>Delayed-draw term loans</b> for M&amp;A platforms; PIK toggles at the aggressive end.</li>
+          <li><b>Documentation:</b> 1 to 3 covenants where the syndicated market has none, but negotiated bilaterally, quietly, and fast.</li>
+          <li><b>Speed and privacy:</b> no ratings process, no roadshow, no market risk between signing and close.</li>
+        </ul>
+        <h5>The math</h5>
+        <div class="worked">The sponsor's comparison: syndicated at SOFR+375 with flex risk and 2 markets to clear, vs unitranche at SOFR+525 with certainty. The 150 bp premium on $500M is $7.5M a year: the price of never being hung. The lender's math: <span class="mono">unlevered yield ~10%, levered 1.5x at the fund, net IRR low-teens</span>, with returns made or lost on default avoidance, not spread.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Mark opacity:</b> private marks move slower than public spreads; LPs learn the truth at refinancing.</li>
+          <li><b>Recovery theater:</b> when a First Brands-style credit cracks, the same names appear in every fund's book at very different marks.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-securitization">
+      <summary>Securitization &amp; structured credit <span class="dtag">the conveyor belt</span></summary>
+      <div class="deep-body">
+        <p>Pool cash-flowing assets in an SPV, slice the claims by seniority, and sell each slice to the investor built for it. The machine that funds auto loans, credit cards, mortgages, aircraft, data centers, and, via CLOs, the entire leveraged loan market.</p>
+        <h5>The structure</h5>
+        <ol>
+          <li><b>True-sale SPV:</b> assets isolated from the originator's bankruptcy.</li>
+          <li><b>Tranching:</b> AAA seniors (60 to 70% of the stack) through mezzanine to the equity slice that absorbs first loss.</li>
+          <li><b>Credit enhancement:</b> subordination, excess spread, reserve accounts; the rating agencies' models decide the sizes.</li>
+          <li><b>The waterfall:</b> sequential pay, triggers that trap cash when collateral deteriorates.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">A CLO buys $400M of loans at SOFR+350, funds with AAA notes at +140 down through BB at +600, average liability cost ~+190: the <span class="mono">~160 bp arbitrage x 10x leverage</span> is the equity's mid-teens return, before defaults. Equity breaks even around 4 to 5% annual defaults at historical recoveries; the 2022-2025 loan vintages are the live experiment.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Correlation denial:</b> tranching diversifies idiosyncratic risk, not systemic risk; 2008's lesson, permanently relearnable.</li>
+          <li><b>Originate-to-distribute drift:</b> when the originator keeps no skin, underwriting follows.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-liability">
+      <summary>Liability management <span class="dtag">the pre-RX desk</span></summary>
+      <div class="deep-body">
+        <p>Fixing a balance sheet without a courtroom: extend maturities, capture discount, raise new money against whatever capacity the old documents left open. The desk sits exactly between DCM and restructuring, and feeds both.</p>
+        <h5>The toolkit, in escalating order</h5>
+        <ul>
+          <li><b>Amend-and-extend:</b> pay lenders a fee and 50 to 100 bps to push the wall out 2 to 3 years.</li>
+          <li><b>Open-market repurchases and tenders:</b> buy your own debt at 70 to capture the discount as equity value.</li>
+          <li><b>Exchange offers:</b> old bonds swapped for new, longer paper, usually at a haircut, often secured on previously unpledged collateral.</li>
+          <li><b>Priming transactions:</b> drop-downs (move assets to an unrestricted sub, borrow against them) and uptiers (majority lenders vote themselves senior). The Serta and Envision fact patterns every credit doc is now drafted against.</li>
+        </ul>
+        <h5>The math</h5>
+        <div class="worked">Discount capture: buy back $300M face at 72 and the balance sheet deleverages by <span class="mono">$84M</span> for $216M of cash, a better return than any project the company owns. The lender-side math is game theory: join the exchange at a haircut with better security, or hold out and risk subordination. Participation thresholds and consent fees are engineered to make holding out feel expensive.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Litigation overhang:</b> uptiers spawn years of lender-on-lender warfare; some courts have unwound them.</li>
+          <li><b>Kicking a can with a cliff:</b> an A&amp;E that adds 300 bps to a business shrinking 5% a year just schedules the RX for a worse vintage.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
   <section class="lesson" id="tape">
-    <h2><span class="sec-num">5</span> The deal tape: landmark transactions on this desk</h2>
+    <h2><span class="sec-num">6</span> The deal tape: landmark transactions on this desk</h2>
     <div id="deal-tape"></div>
   </section>
 
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">6</span> The wire</h2>
+    <h2><span class="sec-num">7</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
   <section class="lesson" id="shelf">
-    <h2><span class="sec-num">7</span> The shelf</h2>
+    <h2><span class="sec-num">8</span> The shelf</h2>
     <div class="kit">
       <a href="../../industry.html?id=private-credit">Dossier: Private Credit</a>
       <a href="../../industry.html?id=banking">Dossier: Banking</a>
@@ -171,11 +289,12 @@
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
-<script src="../../assets/js/viz.js?v=16"></script>
+<script src="../../assets/js/viz.js?v=18"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
   Viz.systemDiagram(document.getElementById("sysmap"), {
+    onItemClick: function (co) { location.href = "../../company.html?id=" + co; },
     accent: "var(--brand)",
     label: "The credit ecosystem",
     center: { title: "The financing", note: "underwritten, syndicated, priced", subs: [
@@ -183,15 +302,15 @@
       "Unitranche · private credit's product", "Bridge → takeout · the underwrite risk"] },
     left: { title: "SELL SIDE · bringing paper", items: [
       { name: "Corporate treasurers", note: "IG flow: refinancing, capex, M&A funding" },
-      { name: "Sponsors", note: "LBO and dividend-recap demand" },
-      { name: "Underwriting desks", note: "JPM/BofA/Citi flow; GS/Barclays/Jefferies LevFin" },
+      { name: "Sponsors", note: "LBO and dividend-recap demand", co: "kkr" },
+      { name: "Underwriting desks", note: "JPM/BofA/Citi flow; GS/Barclays/Jefferies LevFin", co: "jpmorgan" },
       { name: "Rating agencies", note: "the gate every price passes through" },
       { name: "Counsel", note: "the docs that decide future fights" }
     ] },
     right: { title: "BUY SIDE · the money", items: [
-      { name: "CLOs", note: "the loan market's structural bid" },
+      { name: "CLOs", note: "the loan market's structural bid", co: "ares" },
       { name: "HY funds & ETFs", note: "flow-sensitive bond demand" },
-      { name: "Private credit funds", note: "Ares/Apollo class: the middle-market takeover" },
+      { name: "Private credit funds", note: "Ares/Apollo class: the middle-market takeover", co: "apollo" },
       { name: "Insurers & pensions", note: "the IG duration base" },
       { name: "Bank books", note: "revolvers and relationships" }
     ] },
@@ -215,7 +334,7 @@
   }
 })();
 </script>
-<script src="../../assets/data/deals.js?v=17"></script>
+<script src="../../assets/data/deals.js?v=18"></script>
 <script>
 (function () {
   document.querySelectorAll(".p-card[data-co]").forEach(function (c) {
@@ -224,11 +343,23 @@
   });
   var deals = (window.ATLAS_DEALS || []).filter(function (d) { return d.type === "dcm"; });
   var el = document.getElementById("deal-tape");
+  function party(p) {
+    return '<div class="dc-party"><span class="dcp-side">' + p.side + '</span><b>' + p.who + '</b><span class="dcp-role">' + p.role + '</span></div>';
+  }
   if (el) el.innerHTML = deals.map(function (d) {
+    var more = "";
+    if (d.background || d.structure || d.outcome || (d.parties && d.parties.length)) {
+      more = '<details class="dc-more"><summary>Full write-up Â· structure Â· the parties</summary>';
+      if (d.background) more += '<p class="small"><b>Background.</b> ' + d.background + '</p>';
+      if (d.structure) more += '<p class="small"><b>Structure.</b> ' + d.structure + '</p>';
+      if (d.outcome) more += '<p class="small"><b>Where it stands.</b> ' + d.outcome + '</p>';
+      if (d.parties && d.parties.length) more += '<div class="dc-parties">' + d.parties.map(party).join("") + '</div>';
+      more += '</details>';
+    }
     return '<div class="deal-card"><div class="dc-top"><span class="dc-when">' + d.when + '</span><span class="dc-size">' + d.size + '</span></div>' +
-      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' +
+      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' + more +
       '<p class="small dc-analysis"><b>Why it matters:</b> ' + d.analysis + '</p>' +
-      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" · ") + "</p>" : "") +
+      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" Â· ") + "</p>" : "") +
       "</div>";
   }).join("");
 })();

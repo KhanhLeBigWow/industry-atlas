@@ -532,22 +532,22 @@
   }
 
   /* ================= KPI card ================= */
+  /* compact face + one click-to-extend drawer holding the full treatment */
   function kpiCard(k) {
     var band = '<div class="kpi-band"><i class="bad"></i><i class="mid"></i><i class="good"></i></div>' +
       '<div class="kpi-range"><span>' + esc(k.warning || "") + '</span><span>' + esc(k.healthy || "") + "</span></div>";
+    var deep = "";
+    if (k.formula) deep += '<div class="kpi-formula">' + esc(k.formula) + "</div>";
+    if (k.benchmark) deep += '<div class="kpi-lens"><b>Benchmark</b> ' + esc(k.benchmark.median + (k.benchmark.topDecile ? " · top decile " + k.benchmark.topDecile : "")) + "</div>";
+    if (k.investorLens) deep += '<div class="kpi-lens"><b>Investors</b> ' + esc(k.investorLens) + "</div>";
+    if (k.operatorLens) deep += '<div class="kpi-lens"><b>Operators</b> ' + esc(k.operatorLens) + "</div>";
+    if (k.mistakes && k.mistakes.length) deep += '<div class="kpi-lens"><b>Mistakes</b> ' + (k.mistakes || []).map(esc).join(" • ") + "</div>";
+    if (k.trend) deep += '<div class="kpi-lens faint"><b>Trend</b> ' + esc(k.trend) + "</div>";
     return '<div class="kpi-card" id="' + esc(k.id) + '">' +
       '<div class="kpi-name">' + esc(k.name) + (k.industries ? '<span class="pill">' + esc((k.industries[0] || "")) + "</span>" : "") + "</div>" +
       '<div class="kpi-def">' + esc(k.definition) + "</div>" +
-      (k.formula ? '<div class="kpi-formula">' + esc(k.formula) + "</div>" : "") +
       band +
-      (k.benchmark ? '<div class="kpi-lens"><b>Benchmark</b> ' + esc(k.benchmark.median + (k.benchmark.topDecile ? " · top decile " + k.benchmark.topDecile : "")) + "</div>" : "") +
-      (k.investorLens ? '<div class="kpi-lens"><b>Investors</b> ' + esc(k.investorLens) + "</div>" : "") +
-      (k.operatorLens ? '<div class="kpi-lens"><b>Operators</b> ' + esc(k.operatorLens) + "</div>" : "") +
-      ((k.mistakes && k.mistakes.length) || k.trend ?
-        '<details class="kpi-more"><summary>Common mistakes and trend</summary><div class="body">' +
-        (k.mistakes || []).map(function (m) { return "• " + esc(m); }).join("<br>") +
-        (k.trend ? '<br><span class="faint">Trend: ' + esc(k.trend) + "</span>" : "") +
-        "</div></details>" : "") +
+      (deep ? '<details class="kpi-more"><summary>Formula · benchmark · lenses · mistakes</summary><div class="body">' + deep + "</div></details>" : "") +
       "</div>";
   }
 
@@ -715,12 +715,14 @@
     s += '<text x="' + (LX + LW / 2) + '" y="' + (rowY - 12) + '" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="var(--viz-2)">' + esc((cfg.left && cfg.left.title) || "SUPPLY SIDE") + "</text>";
     s += '<text x="' + (RX + RW / 2) + '" y="' + (rowY - 12) + '" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="var(--viz-1)">' + esc((cfg.right && cfg.right.title) || "DEMAND SIDE") + "</text>";
 
-    /* item boxes */
+    /* item boxes: items may carry `co` (a company id) to become clickable */
     function itemBox(x, w, y, it) {
-      var b = '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + itemH + '" rx="8" fill="var(--surface-2)" stroke="var(--axis)"></rect>';
+      var b = '<g class="sd-item"' + (it.co ? ' data-co="' + esc(it.co) + '"' : "") + ">";
+      b += '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + itemH + '" rx="8" fill="var(--surface-2)" stroke="var(--axis)"></rect>';
       b += '<text x="' + (x + 12) + '" y="' + (y + 19) + '" font-size="12" font-weight="600" fill="var(--ink)">' + esc(trunc(it.name, 32)) + "</text>";
       if (it.note) b += '<text x="' + (x + 12) + '" y="' + (y + 35) + '" font-size="10" fill="var(--ink-3)">' + esc(trunc(it.note, 38)) + "</text>";
-      return b;
+      if (it.co) b += "<title>Open the full profile</title>";
+      return b + "</g>";
     }
     left.forEach(function (it, i) {
       var y = rowY + i * (itemH + itemGap);
@@ -770,6 +772,10 @@
     s += "</svg>";
     container.innerHTML = s;
     container.classList.add("sysdiagram");
+    container.querySelectorAll(".sd-item[data-co]").forEach(function (g) {
+      g.style.cursor = "pointer";
+      g.addEventListener("click", function () { if (cfg.onItemClick) cfg.onItemClick(g.getAttribute("data-co")); });
+    });
   }
 
   /* ================= market map (finviz-style two-level squarified treemap) ================= */

@@ -613,3 +613,20 @@ input[type="range"] { width: 100%; accent-color: var(--brand); cursor: pointer; 
   .figure, .tool-output { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .figure svg { min-width: 540px; }
 }
+
+/* v3: deep-dive accordion modules (desk sub-desks, driver atlas) */
+.deep { border: 1px solid var(--hairline); border-radius: var(--radius-lg); background: var(--surface-1); margin: 10px 0; }
+.deep summary { cursor: pointer; padding: 12px 16px; font-weight: 700; font-size: .95rem; list-style: none; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.deep summary::-webkit-details-marker { display: none; }
+.deep summary::after { content: "+"; margin-left: auto; font-family: var(--font-mono); font-size: 1rem; color: var(--brand); font-weight: 600; }
+.deep[open] summary::after { content: "\2013"; }
+.deep summary:hover { color: var(--brand-strong, var(--brand)); }
+.deep summary .dtag { font-family: var(--font-mono); font-size: .6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 2px 8px; border-radius: 6px; background: color-mix(in srgb, var(--brand) 12%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
+.deep-body { padding: 2px 16px 14px; border-top: 1px dashed var(--hairline); }
+.deep-body h5 { margin: 13px 0 5px; font-size: .72rem; text-transform: uppercase; letter-spacing: .07em; color: var(--brand-strong, var(--brand)); }
+.deep-body p { font-size: .84rem; color: var(--ink-2); margin: 6px 0; }
+.deep-body ol, .deep-body ul { font-size: .84rem; color: var(--ink-2); margin: 6px 0; padding-left: 20px; }
+.deep-body li { margin: 4px 0; }
+.deep-body li b { color: var(--ink); }
+.deep-body .worked { background: var(--surface-2); border-radius: 10px; padding: 10px 14px; font-size: .82rem; margin: 8px 0; }
+.deep-body .worked .mono { font-family: var(--font-mono); font-size: .78rem; }

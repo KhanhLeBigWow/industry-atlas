@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/atlas.css">
+<link rel="stylesheet" href="assets/css/atlas.css?v=3">
 <style>
   .career-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
   .career-nav a { font-size: .82rem; font-weight: 600; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
@@ -26,6 +26,12 @@
   .conv-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
   .conv-table th { text-align: left; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
   .conv-table td { padding: 9px 10px; border-bottom: 1px dashed var(--hairline); vertical-align: top; }
+  .drv-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  .drv-table th { text-align: left; font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 8px 10px; border-bottom: 1px solid var(--hairline); }
+  .drv-table td { padding: 10px; border-bottom: 1px dashed var(--hairline); vertical-align: top; line-height: 1.5; }
+  .drv-table td:first-child { font-weight: 650; white-space: nowrap; }
+  .drv-table .fx { font-family: var(--font-mono); font-size: .74rem; color: var(--brand-strong, var(--brand)); display: block; }
+  .drv-table td b { color: var(--ink); }
 </style>
 </head>
 <body>
@@ -263,6 +269,208 @@
         comparable market prices (multiples), the assets themselves (NAV, replacement, liquidation), or what a
         specific buyer can pay (LBO, precedents). Strong answers name 2 lenses, say which one deserves more weight
         HERE, and why: the football field in <a href="modules/valuation.html">Module 04</a> is that judgment, drawn.</p>
+    </div>
+  </section>
+
+  <section class="lesson" id="driver-atlas">
+    <h2><span class="sec-num">M.4</span> The driver atlas: how each industry's model is actually built</h2>
+    <p class="lede">A 3-statement model is a template; the revenue build is where the industry lives. Every business reduces
+      to a formula: units times price, assets times yield, users times monetization. Open each cluster for the build, the
+      drivers that move it, and the quirk that breaks generic models. Every row links to the full dossier.</p>
+
+    <details class="deep" open>
+      <summary>Software &amp; internet <span class="dtag">recurring + usage</span></summary>
+      <div class="deep-body"><div class="table-wrap"><table class="drv-table">
+        <tr><th>Industry</th><th>The revenue build</th><th>The drivers</th><th>The quirk to respect</th></tr>
+        <tr><td><a href="../industry.html?id=saas">SaaS</a></td>
+          <td><span class="fx">Rev = opening ARR x NRR + new bookings</span>Recurring base rolled forward, then new logos layered on.</td>
+          <td>Net revenue retention (110 to 130% is elite), gross churn, CAC payback in months of S&amp;M, Rule of 40 (growth % + FCF margin %).</td>
+          <td>Bookings, billings, deferred revenue, and revenue are 4 different lines on 4 different clocks; cash collects ahead of revenue, so working capital is a tailwind. Pre-profit names price on EV/ARR or EV/gross profit.</td></tr>
+        <tr><td><a href="../industry.html?id=ecommerce">Marketplaces</a></td>
+          <td><span class="fx">Rev = GMV x take rate (3P) or GMV at retail margin (1P)</span>GMV itself = active buyers x order frequency x AOV.</td>
+          <td>Buyer growth and frequency, take-rate ceiling (what sellers tolerate), fulfillment cost per order, ad-revenue attach.</td>
+          <td>1P vs 3P mix moves reported revenue enormously at identical GMV. Model contribution profit per order, not the P&amp;L average.</td></tr>
+        <tr><td><a href="../industry.html?id=cloud">Cloud &amp; hyperscale</a></td>
+          <td><span class="fx">Rev = workloads x usage x unit price</span>Committed contracts (RPO) convert to recognized revenue on consumption.</td>
+          <td>RPO growth, net expansion within accounts, capex-to-capacity lead times, price cuts passed through as volume.</td>
+          <td>Capex leads revenue by 12 to 24 months: depreciation schedules and server lives (extended twice industry-wide) quietly set the margin trajectory.</td></tr>
+        <tr><td><a href="../industry.html?id=ai">AI &amp; compute</a></td>
+          <td><span class="fx">Rev = capacity online x utilization x $/unit (tokens, GPU-hours)</span></td>
+          <td>Power secured (the real constraint), chip supply, $/token deflation vs volume growth, enterprise commitments.</td>
+          <td>Unit prices fall 10x while volumes rise faster: never extrapolate either alone. Depreciation life on accelerators is the entire margin debate.</td></tr>
+      </table></div></div>
+    </details>
+
+    <details class="deep">
+      <summary>Financials <span class="dtag">balance sheets &amp; flows</span></summary>
+      <div class="deep-body"><div class="table-wrap"><table class="drv-table">
+        <tr><th>Industry</th><th>The revenue build</th><th>The drivers</th><th>The quirk to respect</th></tr>
+        <tr><td><a href="../industry.html?id=banking">Banking</a></td>
+          <td><span class="fx">NII = earning assets x NIM; + fee income</span>The balance sheet is modeled first; the income statement falls out of it.</td>
+          <td>Loan growth, deposit beta (how fast funding reprices), provisions/credit costs, efficiency ratio, CET1 headroom.</td>
+          <td>An unlevered DCF is meaningless: leverage IS the business. Value on P/TBV against ROTE; capital requirements cap growth before demand does.</td></tr>
+        <tr><td><a href="../industry.html?id=insurance">Insurance</a></td>
+          <td><span class="fx">UW profit = premiums earned x (1 - combined ratio); + float x yield</span></td>
+          <td>Rate change vs loss trend, combined ratio by line, reserve development, investment yield on the float.</td>
+          <td>Reserves are estimates that get re-marked for years (development); premiums earn over the policy term, not at sale. P/B vs ROE is the pricing grammar.</td></tr>
+        <tr><td><a href="../industry.html?id=asset-management">Asset management</a></td>
+          <td><span class="fx">Rev = average AUM x fee rate (bps)</span>AUM rolls: opening + net flows + market performance.</td>
+          <td>Net flows (the only part management controls), fee compression, mix shift to passive or alts, performance fees.</td>
+          <td>Incremental margins on AUM run 60 to 70%: operating leverage cuts both ways. For alternatives, value fee-related earnings and carry separately (the GP-stakes math on the PCA desk).</td></tr>
+        <tr><td><a href="../industry.html?id=payments">Payments</a></td>
+          <td><span class="fx">Rev = TPV x take rate, net of incentives</span></td>
+          <td>Volume growth (cash displacement), cross-border mix (5 to 10x the domestic yield), incentive contra-revenue, value-added services attach.</td>
+          <td>Gross vs net revenue presentation differs by player: compare take rates on the same basis or not at all.</td></tr>
+        <tr><td><a href="../industry.html?id=market-infrastructure">Exchanges</a></td>
+          <td><span class="fx">Rev = ADV x capture rate + recurring data/index fees</span></td>
+          <td>Volatility (drives volumes), capture per contract, data and index subscription growth.</td>
+          <td>Transaction revenue is a volatility derivative; data revenue is SaaS. Sum-of-the-parts the 2 or misprice both.</td></tr>
+      </table></div></div>
+    </details>
+
+    <details class="deep">
+      <summary>Healthcare <span class="dtag">patients x price x policy</span></summary>
+      <div class="deep-body"><div class="table-wrap"><table class="drv-table">
+        <tr><th>Industry</th><th>The revenue build</th><th>The drivers</th><th>The quirk to respect</th></tr>
+        <tr><td><a href="../industry.html?id=pharma">Pharma</a></td>
+          <td><span class="fx">Rev = sum of franchises: patients x net price x penetration</span>Each asset falls to 10 to 20% of peak on patent expiry.</td>
+          <td>Exclusivity dates, pipeline probability-of-success, gross-to-net spread, launch curves.</td>
+          <td>Model per asset, not in aggregate: a company DCF is a sum of drug DCFs plus a pipeline of options. The cliff is a schedule, not a risk.</td></tr>
+        <tr><td><a href="../industry.html?id=medical-devices">Medical devices</a></td>
+          <td><span class="fx">Rev = installed base x utilization x consumable pull-through + new placements</span></td>
+          <td>Procedure volumes, razor-to-razorblade attach rates, new-product cycles, reimbursement decisions.</td>
+          <td>The recurring consumables mix decides the multiple; placements sold at a loss to seed the annuity are a feature, not a bug.</td></tr>
+        <tr><td><a href="../industry.html?id=hospitals">Hospitals &amp; providers</a></td>
+          <td><span class="fx">Rev = volumes (admissions, visits) x revenue per case</span>Revenue per case = acuity mix x payor mix rates.</td>
+          <td>Volumes and acuity, payor mix (commercial subsidizes government), labor cost inflation vs rate escalators.</td>
+          <td>You do not set half your prices: Medicare and Medicaid rates arrive by rulemaking. Labor is 50%+ of cost and the whole model swing.</td></tr>
+        <tr><td><a href="../industry.html?id=health-insurance">Payors</a></td>
+          <td><span class="fx">Rev = members x premium PMPM; margin = 1 - MLR - SG&amp;A</span></td>
+          <td>Membership by segment, medical loss ratio (~85% regulated floor), utilization trend vs pricing cycle.</td>
+          <td>100 bps of MLR is roughly the entire net margin move: the model is a loss-ratio forecast wearing a revenue line.</td></tr>
+      </table></div></div>
+    </details>
+
+    <details class="deep">
+      <summary>Consumer <span class="dtag">volume + price/mix</span></summary>
+      <div class="deep-body"><div class="table-wrap"><table class="drv-table">
+        <tr><th>Industry</th><th>The revenue build</th><th>The drivers</th><th>The quirk to respect</th></tr>
+        <tr><td><a href="../industry.html?id=retail">Retail</a></td>
+          <td><span class="fx">Rev = stores x sales per store; growth = comps + net new units</span></td>
+          <td>Same-store sales split into traffic vs ticket, gross margin (markdowns, shrink), inventory turns, e-commerce mix.</td>
+          <td>New-unit math is its own model: 4-wall EBITDA, cash-on-cash payback, cannibalization. A retailer growing units with negative comps is renting growth.</td></tr>
+        <tr><td><a href="../industry.html?id=consumer-goods">Consumer goods</a></td>
+          <td><span class="fx">Organic growth = volume + price/mix</span>FX and M&amp;A stripped out; the bridge every quarter reports.</td>
+          <td>Category growth, share, price elasticity, input-cost pass-through, A&amp;P reinvestment rate.</td>
+          <td>Price-led growth with falling volumes is borrowed time: the volume line is the health of the franchise; the price line is the health of the brand.</td></tr>
+        <tr><td><a href="../industry.html?id=restaurants">Restaurants</a></td>
+          <td><span class="fx">Rev = units x AUV; franchised units pay a ~5% royalty instead</span></td>
+          <td>Comps, unit growth, franchise mix, food and labor inflation vs menu pricing.</td>
+          <td>Franchised and company-owned are different businesses in one ticker: a royalty stream (high multiple) vs restaurant margins (low one). Refranchising changes optics, not cash.</td></tr>
+        <tr><td><a href="../industry.html?id=luxury">Luxury</a></td>
+          <td><span class="fx">Rev = volume x price, with volume deliberately constrained</span></td>
+          <td>Pricing power (the annual raise), the China cluster, DTC vs wholesale mix, brand heat.</td>
+          <td>Scarcity is the model: pushing volume to make a quarter is how a luxury brand becomes a premium brand. Watch wholesale channel stuffing as the first crack.</td></tr>
+      </table></div></div>
+    </details>
+
+    <details class="deep">
+      <summary>Industrials &amp; transport <span class="dtag">capacity x utilization x yield</span></summary>
+      <div class="deep-body"><div class="table-wrap"><table class="drv-table">
+        <tr><th>Industry</th><th>The revenue build</th><th>The drivers</th><th>The quirk to respect</th></tr>
+        <tr><td><a href="../industry.html?id=aviation">Airlines</a></td>
+          <td><span class="fx">Rev = ASMs x load factor x yield (= RASM x ASMs)</span></td>
+          <td>Capacity discipline (industry ASM growth vs GDP), fuel and hedges, CASM ex-fuel, ancillary attach.</td>
+          <td>Fixed costs mean 1 point of load factor or yield swings EBIT violently. Fuel passes through only when the whole industry stays disciplined, which it periodically does not.</td></tr>
+        <tr><td><a href="../industry.html?id=aerospace">Aerospace</a></td>
+          <td><span class="fx">Rev = deliveries x price + aftermarket (installed base x flight hours)</span></td>
+          <td>Build rates, backlog in years, aftermarket margins (25 to 30%) vs OE (near zero), shop-visit cycles.</td>
+          <td>OE loses money to build the installed base; the aftermarket annuity is the business. Model the fleet like an insurance float.</td></tr>
+        <tr><td><a href="../industry.html?id=logistics">Freight &amp; logistics</a></td>
+          <td><span class="fx">Rev = volume (loads, TEUs, parcels) x yield per unit</span></td>
+          <td>Tonnage vs pricing cycle (they alternate), network density, fuel surcharges, contract vs spot mix.</td>
+          <td>Density is margin: the incremental package on an existing route is nearly free. Rails and trucking speak in operating ratio (OR), not EBITDA margin.</td></tr>
+        <tr><td><a href="../industry.html?id=automotive">Autos</a></td>
+          <td><span class="fx">Rev = units x ASP; captive finance modeled separately</span></td>
+          <td>Mix (trucks, EVs), incentives per unit, plant utilization (breakeven ~80%), raw materials.</td>
+          <td>Consolidate industrial and finco and you value neither: split them. Production swings working capital hard in both directions.</td></tr>
+      </table></div></div>
+    </details>
+
+    <details class="deep">
+      <summary>Energy, materials &amp; real assets <span class="dtag">price takers, asset models</span></summary>
+      <div class="deep-body"><div class="table-wrap"><table class="drv-table">
+        <tr><th>Industry</th><th>The revenue build</th><th>The drivers</th><th>The quirk to respect</th></tr>
+        <tr><td><a href="../industry.html?id=oil-gas">Upstream oil &amp; gas</a></td>
+          <td><span class="fx">Rev = production x realized price (after hedges and differentials)</span></td>
+          <td>Decline rates (shale wells fall 30 to 40% in year 1), reinvestment rate, breakevens, hedge book.</td>
+          <td>The treadmill: flat production requires constant drilling. Model at the well level and value on NAV (PV-10); multiples on peak-cycle earnings are how buyers overpay.</td></tr>
+        <tr><td><a href="../industry.html?id=utilities">Utilities</a></td>
+          <td><span class="fx">EPS = rate base x allowed ROE x equity share</span></td>
+          <td>Rate-base growth (approved capex), allowed ROE by jurisdiction, regulatory lag, load growth (data centers changed this line).</td>
+          <td>Capex IS the growth algorithm: the model is a regulatory filing. Payout ratios and equity issuance close the loop; the risk is a commission, not a competitor.</td></tr>
+        <tr><td><a href="../industry.html?id=mining">Mining</a></td>
+          <td><span class="fx">Rev = tonnes x grade x recovery x price</span></td>
+          <td>Ore grade (declining almost everywhere), cash-cost curve position, sustaining capex, permitting timelines.</td>
+          <td>Price is exogenous: model the cost curve position and let price scenarios do the rest. NAV at long-run prices beats spot multiples.</td></tr>
+        <tr><td><a href="../industry.html?id=chemicals">Chemicals</a></td>
+          <td><span class="fx">Rev = volume x price; profit = spread over feedstock</span></td>
+          <td>Industry utilization (above ~90%, pricing flies), feedstock spreads (ethane vs naphtha), capacity additions in China.</td>
+          <td>Commodity and specialty deserve different multiples inside the same company. The real model is the spread, not the revenue line.</td></tr>
+        <tr><td><a href="../industry.html?id=real-estate">Real estate</a></td>
+          <td><span class="fx">NOI = GLA x rent x occupancy - opex; value = NOI / cap rate</span></td>
+          <td>Occupancy, releasing spreads, escalators, development yield vs cost of capital.</td>
+          <td>REITs speak AFFO per share, not EPS (depreciation is non-economic here). Every valuation is a cap-rate argument in disguise.</td></tr>
+      </table></div></div>
+    </details>
+
+    <details class="deep">
+      <summary>TMT infrastructure &amp; media <span class="dtag">subs, cycles, capacity</span></summary>
+      <div class="deep-body"><div class="table-wrap"><table class="drv-table">
+        <tr><th>Industry</th><th>The revenue build</th><th>The drivers</th><th>The quirk to respect</th></tr>
+        <tr><td><a href="../industry.html?id=telecom">Telecom</a></td>
+          <td><span class="fx">Rev = subscribers x ARPU, by segment</span></td>
+          <td>Net adds, churn, ARPU accretion from bundles, capex at 15 to 20% of revenue, spectrum outlays.</td>
+          <td>EBITDA flatters: EBITDA less capex is the real currency. Leases and spectrum obligations belong in the EV bridge or the comps lie.</td></tr>
+        <tr><td><a href="../industry.html?id=media">Media &amp; streaming</a></td>
+          <td><span class="fx">Rev = subs x ARPU + advertising (impressions x CPM)</span></td>
+          <td>Net adds and churn, ad-tier mix, content spend, engagement per sub.</td>
+          <td>Content amortization policy is the margin: cash content spend and P&amp;L amortization diverge for years. The gap is the model.</td></tr>
+        <tr><td><a href="../industry.html?id=semiconductors">Semiconductors</a></td>
+          <td><span class="fx">Rev = units x ASP, through a cycle</span></td>
+          <td>Design wins (locked years early), fab utilization, inventory in the channel, capex cycles.</td>
+          <td>Model the cycle, not the year: normalize margins to mid-cycle before applying a multiple, or buy the top with confidence.</td></tr>
+        <tr><td><a href="../industry.html?id=data-infrastructure">Data centers</a></td>
+          <td><span class="fx">Rev = capacity leased (MW) x rate x occupancy</span></td>
+          <td>Bookings vs capacity online, escalators, development yield on cost vs WACC, power procurement.</td>
+          <td>The constraint moved from demand to electrons: signed-but-not-commissioned backlog is the growth line. AFFO and cap-rate grammar, like REITs.</td></tr>
+      </table></div></div>
+    </details>
+
+    <details class="deep">
+      <summary>Services <span class="dtag">the user's example: unit x volume</span></summary>
+      <div class="deep-body"><div class="table-wrap"><table class="drv-table">
+        <tr><th>Industry</th><th>The revenue build</th><th>The drivers</th><th>The quirk to respect</th></tr>
+        <tr><td><a href="../industry.html?id=investment-banking">Professional services</a></td>
+          <td><span class="fx">Rev = billable headcount x utilization x realized rate</span>Investment banking is the atlas's worked example of people-leverage economics.</td>
+          <td>Utilization (70 to 80% target), rate escalation vs realization (discounts), attrition, the pyramid's leverage ratio.</td>
+          <td>The pyramid is the margin: partners sell, associates produce, and the ratio between them is the business model. The assets ride the elevator down every night.</td></tr>
+        <tr><td><a href="../industry.html?id=waste-management">Route-based services</a></td>
+          <td><span class="fx">Rev = units served x volume x price per unit</span>Waste, distribution, uniforms, pest control: the route is the asset.</td>
+          <td>Route density, contract escalators (CPI-linked), retention, tuck-in M&amp;A at 5 to 7x synergized.</td>
+          <td>Density economics: the incremental stop on an existing route is nearly all margin, which is why these industries consolidate forever and the multiples never look cheap.</td></tr>
+        <tr><td><a href="../industry.html?id=education">Education</a></td>
+          <td><span class="fx">Rev = enrollment x tuition (net of discounting)</span></td>
+          <td>Enrollment funnels, discount rates (the sticker is fiction), regulatory funding per student, online mix.</td>
+          <td>Demographics are the demand curve and they are published 18 years in advance: the rare industry where the volume forecast is nearly certain and still ignored.</td></tr>
+      </table></div></div>
+    </details>
+
+    <div class="callout" style="margin-top:20px">
+      <p><strong>How to use this:</strong> pick the seat (M.2), pick the lens (M.3), then let this table hand you the
+        revenue build before you touch a spreadsheet. Every dossier linked above carries the full treatment: KPIs with
+        healthy ranges, the value chain, and the valuation kit. The 3-statement mechanics that sit under all of them
+        live in the <a href="model-lab.html">Model Lab</a>.</p>
     </div>
   </section>
 

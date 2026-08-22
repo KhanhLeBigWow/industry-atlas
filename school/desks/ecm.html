@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/atlas.css">
+<link rel="stylesheet" href="../assets/css/atlas.css?v=3">
 <style>
   :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
@@ -58,6 +58,16 @@
   .dc-when, .dc-size { font-family: var(--font-mono); font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: var(--surface-2); color: var(--ink-3); }
   .dc-size { background: color-mix(in srgb, var(--brand) 14%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
   .dc-analysis { border-left: 2.5px solid var(--brand); padding-left: 10px; color: var(--ink-2); font-size: .82rem; }
+  .dc-more { margin: 8px 0 4px; }
+  .dc-more summary { cursor: pointer; font-size: .76rem; font-weight: 650; color: var(--brand-strong, var(--brand)); list-style: none; }
+  .dc-more summary::before { content: "\25B8  "; }
+  .dc-more[open] summary::before { content: "\25BE  "; }
+  .dc-more[open] { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; }
+  .dc-parties { margin-top: 8px; }
+  .dc-party { display: grid; grid-template-columns: 92px 1fr; gap: 4px 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; align-items: baseline; }
+  .dc-party:last-child { border-bottom: 0; }
+  .dcp-side { font-family: var(--font-mono); font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--brand-strong, var(--brand)); }
+  .dcp-role { grid-column: 2; font-size: .72rem; color: var(--ink-3); }
 </style>
 </head>
 <body>
@@ -144,18 +154,124 @@
     </table></div>
   </section>
 
+  <section class="lesson" id="subdesks">
+    <h2><span class="sec-num">5</span> The sub-desks: open each one</h2>
+    <p class="small muted">ECM is 5 products sharing one syndicate desk. Open each panel for the mechanics, the math, and where deals die.</p>
+
+    <details class="deep" id="sd-ipo">
+      <summary>IPO execution <span class="dtag">the flagship</span></summary>
+      <div class="deep-body">
+        <p>Six months of manufacturing a public company, compressed into a 2-week sprint at the end. The syndicate's product is a stable aftermarket: price the deal so it works for the issuer on day 1 and for the buyer at month 6.</p>
+        <h5>The sequence</h5>
+        <ol>
+          <li><b>Org meeting to first filing (8 to 12 weeks).</b> S-1 drafting, audits, governance cleanup; bake-off decided the league table months earlier.</li>
+          <li><b>Testing the waters.</b> Confidential meetings with 15 to 30 anchor accounts before any public filing; their feedback sets the frame.</li>
+          <li><b>Launch and roadshow (8 to 10 days).</b> Public range set; management does 60+ meetings; the book builds in real time: who, at what limit, at what size.</li>
+          <li><b>Pricing day.</b> The syndicate allocates: long-onlies anchored, hedge funds rationed, flippers cut. Greenshoe (15% over-allotment) sold short at pricing to stabilize the aftermarket.</li>
+          <li><b>Aftermarket.</b> 25-day quiet period, then research initiations; 180-day lockup, then the follow-on calendar begins.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">The IPO discount: price at roughly a 10 to 15% discount to fair value so the deal trades up. A book "20x covered" is mostly inflated limits: the syndicate reads quality (who holds at 6 months) not multiple. Gross spread ~7% on small IPOs, 1.5 to 3.5% at mega-cap, split 20/60/20 management fee/selling concession/underwriting.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Pricing through the range</b> then breaking issue: the deal that "worked" for 1 day poisons the issuer's next 3 trades.</li>
+          <li><b>Windows close fast:</b> a 15% VIX week shuts the calendar; deals that hesitate re-file next quarter.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-blocks">
+      <summary>Follow-ons &amp; block trades <span class="dtag">the risk business</span></summary>
+      <div class="deep-body">
+        <p>Once public, every subsequent share sale is a speed-vs-price trade. The modern market has collapsed toward overnight risk: the bank buys the stock from the seller at a discount and owns the exit problem.</p>
+        <h5>The menu</h5>
+        <ul>
+          <li><b>Marketed follow-on:</b> 2 to 4 days of marketing; best price, most leak risk.</li>
+          <li><b>Overnight bookbuild (agency):</b> launch post-close, price pre-open; the bank takes no position.</li>
+          <li><b>Block trade (risk):</b> banks bid after the close for the whole stake, 2 to 6% below last sale, and resell into the open. The bid is a competition: sellers run 30-minute auctions among 3 to 5 desks.</li>
+          <li><b>Wall-crossing:</b> sounding out 5 to 10 accounts under NDA pre-launch to de-risk the print; the compliance tightrope of the whole business.</li>
+        </ul>
+        <h5>The math</h5>
+        <div class="worked">A $1B block bought at a 4% discount needs to clear above the purchase price across maybe 2 trading days: the desk's P&amp;L is <span class="mono">(resale VWAP less purchase price) x shares, less hedging slippage.</span> One misjudged print (bought at 4% off, market wants 8%) erases a quarter of block profits, which is why the bid sheet prices liquidity (ADV multiples), borrow availability, and event risk, not just the chart.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Sponsor cleanup fatigue:</b> the 4th drip from the same holder trades wider each time; the market front-runs known overhangs.</li>
+          <li><b>Leaked wall-crosses:</b> the stock fades before launch and the trade is dead, plus the regulator calls.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-converts">
+      <summary>Convertibles <span class="dtag">equity with a bond costume</span></summary>
+      <div class="deep-body">
+        <p>A bond plus an embedded call option on the issuer's stock. Issuers sell vol they think is cheap and buy cash coupons they think are expensive; convert arb funds buy the package, short the delta, and trade the gamma.</p>
+        <h5>The terms that matter</h5>
+        <ul>
+          <li><b>Coupon:</b> 0 to 3%, far below the issuer's straight-debt cost.</li>
+          <li><b>Conversion premium:</b> 25 to 40% above the reference price; the strike of the embedded option.</li>
+          <li><b>Call protection, soft calls (130% trigger), and settlement flexibility</b> (cash, shares, or combo) drive the accounting and dilution story.</li>
+          <li><b>Call spread overlays:</b> issuer buys a call spread to push effective dilution to a 75 to 100% premium; costs 8 to 12% of proceeds.</li>
+        </ul>
+        <h5>The math</h5>
+        <div class="worked">Price = straight bond value + option value. The desk quotes it in implied vol: a convert issued at 38 implied when realized runs 45 is cheap to the arb, expensive to the issuer, and it will fly. Rate cycles run the calendar: when straight debt costs 9%, a 1.5% coupon convert with 30% premium is the CFO's easiest meeting of the year.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Dilution denial:</b> boards that treat the premium as "free" meet the share count again at 130% of strike.</li>
+          <li><b>Hedge flow feedback:</b> heavy arb ownership means mechanical selling into rallies and buying into selloffs, which management never enjoys learning about live.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-rights">
+      <summary>Rights issues &amp; TERP math <span class="dtag">the recap tool</span></summary>
+      <div class="deep-body">
+        <p>The European (and distressed) workhorse: existing holders get tradeable rights to buy new shares at a deep discount, pro rata. Nobody is diluted who participates; the discount is optics, not cost.</p>
+        <h5>The math</h5>
+        <div class="worked"><span class="mono">TERP = (market cap + proceeds) / (old + new shares).</span> Stock at 10, 1-for-4 rights at 6: TERP = (4x10 + 1x6)/5 = 9.20. The "40% discount" headline is really a 35% discount to TERP; the right itself is worth TERP minus subscription price (3.20). Underwriters price their fee (1.5 to 3%) against the risk the stock falls through the subscription price during the 2 to 3 week window.</div>
+        <h5>When it appears</h5>
+        <p>Balance-sheet repair (banks post-2008, travel post-2020), funding a jumbo acquisition, or the endgame of a leverage problem. In the US the same job is usually done with a marketed follow-on or a PIPE; in the UK, pre-emption rights make the rights issue the default above ~10% dilution.</p>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Falling through the subscription price:</b> the rights go worthless, the underwriters own the rump, and the fee was never enough.</li>
+          <li><b>Rump placement leaks:</b> the unsubscribed block overhangs the close.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-pipes">
+      <summary>Private placements &amp; PIPEs <span class="dtag">the negotiated print</span></summary>
+      <div class="deep-body">
+        <p>One buyer (or a handful), one negotiation, no roadshow. Speed and certainty priced against a discount and structure: the tool for companies that cannot or will not run a public process.</p>
+        <h5>The spectrum</h5>
+        <ul>
+          <li><b>Common-stock PIPE:</b> 5 to 15% discount, registration rights; the clean version.</li>
+          <li><b>Structured PIPE:</b> convertible preferred with dividends, ratchets, or resets; the term sheet reads friendlier than it settles.</li>
+          <li><b>Late-stage privates / pre-IPO rounds:</b> the crossover funds (Fidelity, T. Rowe, Tiger class) buying ahead of the public window.</li>
+          <li><b>Registered directs and ATMs:</b> the drip alternatives for small caps.</li>
+        </ul>
+        <h5>The math</h5>
+        <div class="worked">Price a structured PIPE by decomposing: face + dividend stream + conversion option + downside protections. A "20% premium convert preferred with a 2x liquidation preference" can carry a true cost of capital north of 15% while the press release says 6%. The desk's job, on either side, is to compute the settlement distribution, not the headline.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Death-spiral resets:</b> ratchets that reprice on every downtick manufacture the dilution they insure against.</li>
+          <li><b>Signaling:</b> a PIPE at a discount tells the market the public window was closed; the stock often gaps to the PIPE price and keeps going.</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
   <section class="lesson" id="tape">
-    <h2><span class="sec-num">5</span> The deal tape: landmark transactions on this desk</h2>
+    <h2><span class="sec-num">6</span> The deal tape: landmark transactions on this desk</h2>
     <div id="deal-tape"></div>
   </section>
 
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">6</span> The wire</h2>
+    <h2><span class="sec-num">7</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
   <section class="lesson" id="shelf">
-    <h2><span class="sec-num">7</span> The shelf</h2>
+    <h2><span class="sec-num">8</span> The shelf</h2>
     <div class="kit">
       <a href="../../industry.html?id=capital-markets">Dossier: Capital Markets</a>
       <a href="../../industry.html?id=market-infrastructure">Dossier: Exchanges</a>
@@ -169,11 +285,12 @@
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
-<script src="../../assets/js/viz.js?v=16"></script>
+<script src="../../assets/js/viz.js?v=18"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
   Viz.systemDiagram(document.getElementById("sysmap"), {
+    onItemClick: function (co) { location.href = "../../company.html?id=" + co; },
     accent: "var(--brand)",
     label: "The ECM ecosystem",
     center: { title: "The order book", note: "built, priced, allocated", subs: [
@@ -183,14 +300,14 @@
       { name: "The issuer", note: "primary shares: cash into the company" },
       { name: "Founders & insiders", note: "secondary shares: cash out" },
       { name: "Sponsor sellers", note: "the IPO-then-drip exit path" },
-      { name: "Bookrunners / syndicate", note: "GS-MS-JPM class run the book" },
+      { name: "Bookrunners / syndicate", note: "GS-MS-JPM class run the book", co: "morgan-stanley" },
       { name: "Equity research", note: "the aftermarket narrative (behind the wall)" }
     ] },
     right: { title: "BUY SIDE · bringing orders", items: [
       { name: "Long-only anchors", note: "the orders that legitimize a book" },
       { name: "Hedge funds", note: "fast money the syndicate rations" },
       { name: "Cornerstones & sovereigns", note: "pre-committed size" },
-      { name: "Index funds", note: "forced buyers at inclusion" },
+      { name: "Index funds", note: "forced buyers at inclusion", co: "blackrock" },
       { name: "Convert arbs", note: "the vol buyers of converts" }
     ] },
     capIn: { title: "FEES IN", items: [
@@ -213,7 +330,7 @@
   }
 })();
 </script>
-<script src="../../assets/data/deals.js?v=17"></script>
+<script src="../../assets/data/deals.js?v=18"></script>
 <script>
 (function () {
   document.querySelectorAll(".p-card[data-co]").forEach(function (c) {
@@ -222,11 +339,23 @@
   });
   var deals = (window.ATLAS_DEALS || []).filter(function (d) { return d.type === "ecm"; });
   var el = document.getElementById("deal-tape");
+  function party(p) {
+    return '<div class="dc-party"><span class="dcp-side">' + p.side + '</span><b>' + p.who + '</b><span class="dcp-role">' + p.role + '</span></div>';
+  }
   if (el) el.innerHTML = deals.map(function (d) {
+    var more = "";
+    if (d.background || d.structure || d.outcome || (d.parties && d.parties.length)) {
+      more = '<details class="dc-more"><summary>Full write-up Â· structure Â· the parties</summary>';
+      if (d.background) more += '<p class="small"><b>Background.</b> ' + d.background + '</p>';
+      if (d.structure) more += '<p class="small"><b>Structure.</b> ' + d.structure + '</p>';
+      if (d.outcome) more += '<p class="small"><b>Where it stands.</b> ' + d.outcome + '</p>';
+      if (d.parties && d.parties.length) more += '<div class="dc-parties">' + d.parties.map(party).join("") + '</div>';
+      more += '</details>';
+    }
     return '<div class="deal-card"><div class="dc-top"><span class="dc-when">' + d.when + '</span><span class="dc-size">' + d.size + '</span></div>' +
-      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' +
+      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' + more +
       '<p class="small dc-analysis"><b>Why it matters:</b> ' + d.analysis + '</p>' +
-      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" · ") + "</p>" : "") +
+      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" Â· ") + "</p>" : "") +
       "</div>";
   }).join("");
 })();

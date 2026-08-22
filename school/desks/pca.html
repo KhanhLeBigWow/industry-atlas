@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/atlas.css">
+<link rel="stylesheet" href="../assets/css/atlas.css?v=3">
 <style>
   :root { --axis: color-mix(in srgb, var(--ink-3) 55%, transparent); }
   .desk-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
@@ -58,6 +58,16 @@
   .dc-when, .dc-size { font-family: var(--font-mono); font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: var(--surface-2); color: var(--ink-3); }
   .dc-size { background: color-mix(in srgb, var(--brand) 14%, var(--surface-2)); color: var(--brand-strong, var(--brand)); }
   .dc-analysis { border-left: 2.5px solid var(--brand); padding-left: 10px; color: var(--ink-2); font-size: .82rem; }
+  .dc-more { margin: 8px 0 4px; }
+  .dc-more summary { cursor: pointer; font-size: .76rem; font-weight: 650; color: var(--brand-strong, var(--brand)); list-style: none; }
+  .dc-more summary::before { content: "\25B8  "; }
+  .dc-more[open] summary::before { content: "\25BE  "; }
+  .dc-more[open] { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; }
+  .dc-parties { margin-top: 8px; }
+  .dc-party { display: grid; grid-template-columns: 92px 1fr; gap: 4px 10px; padding: 6px 0; border-bottom: 1px dashed var(--hairline); font-size: .8rem; align-items: baseline; }
+  .dc-party:last-child { border-bottom: 0; }
+  .dcp-side { font-family: var(--font-mono); font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--brand-strong, var(--brand)); }
+  .dcp-role { grid-column: 2; font-size: .72rem; color: var(--ink-3); }
 </style>
 </head>
 <body>
@@ -148,18 +158,140 @@
       every 5 points of NAV discount ≈ 1 to 1.5 points of IRR; an 18-month deferral on half the price ≈ 3 to 4 points.</p>
   </section>
 
+  <section class="lesson" id="subdesks">
+    <h2><span class="sec-num">5</span> The sub-desks: open each one</h2>
+    <p class="small muted">Five businesses share the PCA umbrella. Each panel below is a self-contained module: the trade, the process, the math, the players, and what goes wrong.</p>
+
+    <details class="deep" id="sd-lp-led">
+      <summary>LP-led secondaries <span class="dtag">the classic trade</span></summary>
+      <div class="deep-body">
+        <p>An LP sells its existing fund interests: the buyer pays cash today for the remaining NAV plus the obligation to fund the unfunded commitments. The seller gets liquidity and balance-sheet room; the buyer gets seasoned, partly de-risked exposure at a discount, with a shorter duration than a blind pool.</p>
+        <h5>The process</h5>
+        <ol>
+          <li><b>Portfolio triage.</b> The advisor splits the book: funds that will clear near par, funds that need a story, tail-end positions that may go to a mosaic (split) sale.</li>
+          <li><b>Data room.</b> Quarterly reports, schedules of investments, capital-account statements. The buyer rebuilds the portfolio company by company for the 10 largest positions and models the rest top-down on a pacing curve.</li>
+          <li><b>Bids as % of NAV</b> off a reference date (usually the latest quarter-end). Distributions after the reference date reduce the purchase price dollar-for-dollar; capital calls add to it. The economics belong to the buyer from the reference date.</li>
+          <li><b>Exclusivity, then consents.</b> Every underlying GP must consent to the transfer, and many hold rights of first refusal. Consent chasing is where timelines die.</li>
+          <li><b>Close</b> with a purchase-price adjustment mechanism, often in 2 tranches for very large books.</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">Buy a buyout book at <span class="mono">92% of a $100M NAV</span>. Underwrite gross cash flows of <span class="mono">1.55x</span> paid over a 5-year pacing curve: that solves to roughly a mid-teens gross IRR. Rules of thumb: every 5 points of discount is worth about 1 to 1.5 points of IRR; venture books price 10 to 20 points below buyout because the marks are older and the pacing longer.</div>
+        <h5>The players</h5>
+        <p>Buyers: <a href="../../company.html?id=ardian">Ardian</a>, Lexington (Franklin Templeton), Blackstone Strategic Partners, HarbourVest, AlpInvest, Goldman Vintage. Advisors: <a href="../../company.html?id=pjt-partners">PJT Park Hill</a>, <a href="../../company.html?id=evercore">Evercore PCA</a>, <a href="../../company.html?id=jefferies">Jefferies</a>, Campbell Lutyens, <a href="../../company.html?id=lazard">Lazard</a>.</p>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Stale marks.</b> Paying 95% of a NAV that is about to be written down 15% is paying 112%. The 2022 denominator-effect wave cleared cheap partly because buyers did not trust the marks.</li>
+          <li><b>Unfunded surprise.</b> A 90% headline price on a fund that is 60% unfunded is mostly a forward commitment, not a discount.</li>
+          <li><b>ROFR games.</b> GPs can hand your price to a preferred buyer. Advisors sequence consents to manage this.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-gp-led">
+      <summary>GP-led secondaries &amp; continuation vehicles <span class="dtag">the growth engine</span></summary>
+      <div class="deep-body">
+        <p>The GP moves 1 asset (or several) out of an aging fund into a new vehicle the same GP manages. Existing LPs choose: sell at the deal price or roll into the CV. A lead secondary buyer underwrites the price, anchors the new capital, and negotiates the terms. This is now roughly half of all secondaries volume, and single-asset CVs are its sharpest edge: a full LBO underwrite of one company, plus a governance negotiation.</p>
+        <h5>The flavors</h5>
+        <ul>
+          <li><b>Single-asset CV.</b> The trophy the GP will not sell. Buyout-grade diligence on one name.</li>
+          <li><b>Multi-asset CV.</b> 2 to 6 assets; diversification lowers the underwriting bar and usually the return target.</li>
+          <li><b>Strip sale.</b> The fund sells a fractional strip of several assets but keeps control; a CV without the full move.</li>
+          <li><b>Tender + staple.</b> Buyer tenders for LP interests and commits primary capital to the GP's next fund. The staple is the price of access, and the conflict everyone watches.</li>
+        </ul>
+        <h5>The process</h5>
+        <ol>
+          <li>Advisor frames price and fairness; pre-marketing to 5 to 10 potential leads.</li>
+          <li>The lead sets price, sizes its check, and negotiates economics: management fee near 1% on committed, carry often tiered (for example 10% over an 8% hurdle, 15% over 12%, 20% over 15%).</li>
+          <li>Syndication fills the book below the lead.</li>
+          <li>LP election window (ILPA asks for 20 business days and a true status-quo option). LPAC waives the conflict.</li>
+          <li>Close: selling LPs cash out, rolling LPs continue, the GP's crystallized carry rolls into the CV (100% rolled is the cleanest signal money can buy).</li>
+        </ol>
+        <h5>The math</h5>
+        <div class="worked">Asset carried at <span class="mono">$1.0B NAV</span>. Lead underwrites a <span class="mono">2.0x in 5 years</span> at par: that is about a 15% gross IRR before the new carry load. If the deal prices at a 5% discount and the GP rolls all carry, the rolling LP's question is symmetric: would you buy this company today at this price? If not, sell.</div>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Adverse selection, inverted.</b> The classic objection ("if it is so good, why sell?") has a real answer: fund life, not asset quality. But when the answer is asset quality, the CV is where it hides.</li>
+          <li><b>Conflicted price discovery.</b> The GP sits on both sides. The lead's independent underwrite, the fairness opinion, and the election option are the 3 checks; when all 3 are soft, LPs get hurt.</li>
+          <li><b>Default-to-roll.</b> LPs without secondaries teams tend to take the status quo without underwriting it. ILPA's push for longer windows exists because of this.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-coinvest">
+      <summary>Co-investment <span class="dtag">fee-free alongside</span></summary>
+      <div class="deep-body">
+        <p>An LP writes equity directly into a sponsor's deal alongside the fund, typically with no management fee and no carry. The sponsor gets a bigger equity check without over-concentrating its own fund; the LP gets the sponsor's deal at the sponsor's basis, minus the 2-and-20.</p>
+        <h5>Why the fee math dominates</h5>
+        <div class="worked">A 2/20 fund turning <span class="mono">2.2x gross</span> hands the LP roughly <span class="mono">1.8x net</span>. The identical deal done as a fee-free co-invest nets the full 2.2x. Blend a program 50/50 between fund and co-invest and the effective fee load on the whole PE allocation drops by roughly a third, worth 100+ bps of net IRR at scale.</div>
+        <h5>The process, at sprint speed</h5>
+        <ol>
+          <li>Sponsor circulates the opportunity, usually 2 to 4 weeks before signing or between signing and close.</li>
+          <li>The co-investor reads the sponsor's own IC memo and model, commissions nothing new that takes weeks, focuses on 2 or 3 kill questions (market, customer concentration, the exit multiple assumption).</li>
+          <li>Legal: a co-invest vehicle LPA, allocation and exit alignment terms (tag rights, no worse than the fund).</li>
+          <li>Fund and close alongside; report quarterly at the sponsor's marks.</li>
+        </ol>
+        <h5>The skill</h5>
+        <p>Selection and speed. The deals shown most freely are the ones sponsors cannot fill, so a disciplined program tracks its sponsors' hit rates and says no fast. The buy side here: HarbourVest, Hamilton Lane, StepStone, AlpInvest, Neuberger, plus the large pensions (CPP, CalPERS) running direct programs.</p>
+        <h5>What goes wrong</h5>
+        <ul>
+          <li><b>Bandwidth.</b> A 400-page data room and 10 business days. Programs without dedicated staff become adverse-selection magnets.</li>
+          <li><b>Concentration creep.</b> Co-invests cluster in the vintages and sectors where sponsors are busiest, exactly when prices are highest.</li>
+          <li><b>No steering wheel.</b> If the deal sours, the co-investor holds a minority sliver with no governance rights and the sponsor's timeline.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-gp-stakes">
+      <summary>GP stakes <span class="dtag">own the manager</span></summary>
+      <div class="deep-body">
+        <p>Buy 10 to 25% of the management company itself: a claim on fee streams, carry, and balance-sheet investments across every current and future fund. Permanent capital, no exit required by the structure, and the seller is usually funding its own growth: GP commitments to the next flagship, founder liquidity, succession.</p>
+        <h5>The valuation build</h5>
+        <div class="worked"><span class="mono">Value = FRE x multiple + PV(carry) + balance sheet.</span> A manager producing $150M of fee-related earnings on a growing platform might carry a 20x FRE multiple ($3.0B), plus carry by vintage discounted at 15 to 25% (say $600M), plus GP commitments at NAV ($400M): $4.0B total, so a 20% stake costs $800M. The swing factor is almost always the next flagship: fundraising trajectory moves FRE more than margins do.</div>
+        <h5>Diligence that matters</h5>
+        <ul>
+          <li><b>Fundraising trajectory:</b> next flagship vs last, re-up rates, LP concentration.</li>
+          <li><b>FRE margin:</b> 50 to 60% is best-in-class; below 40% says the platform is buying growth.</li>
+          <li><b>Key-person depth:</b> a stake in a firm is a stake in 5 people unless proven otherwise.</li>
+          <li><b>Carry quality:</b> vintage spread, European vs American waterfalls, clawback exposure.</li>
+        </ul>
+        <h5>The players</h5>
+        <p><a href="../../company.html?id=blue-owl">Blue Owl</a> (Dyal), Blackstone GP Stakes, Petershill (<a href="../../company.html?id=goldman-sachs">Goldman</a>), Bonaccord, Hunter Point, Armen. The bank PCA desks run the sale processes.</p>
+        <h5>The open question</h5>
+        <p>Exits. The industry has bought hundreds of stakes and sold few. The candidate routes: IPO of the manager, GP buybacks, strip sales to newer stakes funds, and securitizations of the fee streams. Until the routes are proven, GP-stakes funds are priced partly on yield (the fee stream pays a coupon-like distribution) rather than on realized multiples.</p>
+      </div>
+    </details>
+
+    <details class="deep" id="sd-placement">
+      <summary>Fund placement &amp; primaries <span class="dtag">the origination floor</span></summary>
+      <div class="deep-body">
+        <p>Raising the funds in the first place. The placement agent's product is its LP network: who allocates to what strategy, at what size, on what calendar. Everything else on this desk grew out of that network: the LPs you place funds with are the LPs who later need liquidity (LP-led flow) and the GPs you raise for are the GPs who later run CVs (GP-led flow).</p>
+        <h5>The process</h5>
+        <ol>
+          <li><b>Mandate:</b> the agent qualifies the GP (track record attribution, team stability, strategy drift) before taking it to market. A failed raise burns the agent's LP relationships, so agents curate hard.</li>
+          <li><b>Materials:</b> PPM, DDQ, quartile-positioned track record, case studies.</li>
+          <li><b>Premarketing:</b> soft-circling anchors; first-close incentives (fee discounts for early money).</li>
+          <li><b>Closings over 12 to 18 months;</b> the final close is a negotiation about who gets cut back, in hot funds, and who gets chased, in cold ones.</li>
+        </ol>
+        <h5>The economics</h5>
+        <p>Placement fees run around 2% of capital raised from introduced LPs, sometimes with trails. In a cold fundraising market the primaries calendar stalls and the same LP conversations convert into secondaries mandates: exit-starved GPs run CVs, over-allocated LPs sell books. The desk hedges itself.</p>
+        <h5>The players</h5>
+        <p><a href="../../company.html?id=pjt-partners">PJT Park Hill</a>, <a href="../../company.html?id=evercore">Evercore</a> Private Funds, Campbell Lutyens, <a href="../../company.html?id=lazard">Lazard</a> Private Capital Advisory, <a href="../../company.html?id=jefferies">Jefferies</a>, <a href="../../company.html?id=moelis">Moelis</a> Private Funds Advisory, UBS PFG.</p>
+      </div>
+    </details>
+  </section>
+
   <section class="lesson" id="tape">
-    <h2><span class="sec-num">5</span> The deal tape: landmark transactions on this desk</h2>
+    <h2><span class="sec-num">6</span> The deal tape: landmark transactions on this desk</h2>
     <div id="deal-tape"></div>
   </section>
 
   <section class="lesson" id="wire">
-    <h2><span class="sec-num">6</span> The wire</h2>
+    <h2><span class="sec-num">7</span> The wire</h2>
     <div id="wire-feed"></div>
   </section>
 
   <section class="lesson" id="shelf">
-    <h2><span class="sec-num">7</span> The shelf: dossiers &amp; tools this desk runs on</h2>
+    <h2><span class="sec-num">8</span> The shelf: dossiers &amp; tools this desk runs on</h2>
     <div class="kit">
       <a href="../../industry.html?id=private-equity">Dossier: Private Equity</a>
       <a href="../../industry.html?id=asset-management">Dossier: Asset Management</a>
@@ -174,11 +306,12 @@
 </main>
 <script src="../assets/data/curriculum.js"></script>
 <script src="../assets/js/atlas.js?v=2"></script>
-<script src="../../assets/js/viz.js?v=16"></script>
+<script src="../../assets/js/viz.js?v=18"></script>
 <script src="../../assets/js/news.js?v=16"></script>
 <script>
 (function () {
   Viz.systemDiagram(document.getElementById("sysmap"), {
+    onItemClick: function (co) { location.href = "../../company.html?id=" + co; },
     accent: "var(--brand)",
     label: "The secondaries ecosystem",
     center: { title: "The transaction", note: "priced as % of NAV", subs: [
@@ -188,14 +321,14 @@
       { name: "Pensions & endowments", note: "rebalancing, liquidity, denominator effect" },
       { name: "Sovereign funds & insurers", note: "portfolio pruning at scale" },
       { name: "GPs (continuation vehicles)", note: "keeping the prize asset longer" },
-      { name: "The PCA desks", note: "PJT Park Hill, Evercore, Jefferies, Lazard, CL" },
+      { name: "The PCA desks", note: "PJT Park Hill, Evercore, Jefferies, Lazard, CL", co: "pjt-partners" },
       { name: "Fund-of-funds legacy books", note: "tail-end cleanups" }
     ] },
     right: { title: "BUY SIDE · who prices it", items: [
-      { name: "Secondaries funds", note: "Ardian, Lexington, Strategic Partners" },
+      { name: "Secondaries funds", note: "Ardian, Lexington, Strategic Partners", co: "ardian" },
       { name: "GP-led / single-asset sleeves", note: "buyout-grade underwriting" },
       { name: "Co-invest programs", note: "HarbourVest, Hamilton Lane, StepStone" },
-      { name: "GP-stakes funds", note: "Blue Owl, Petershill, Bonaccord" },
+      { name: "GP-stakes funds", note: "Blue Owl, Petershill, Bonaccord", co: "blue-owl" },
       { name: "Semi-liquid vehicles", note: "the retail wrappers on all of it" }
     ] },
     capIn: { title: "FEES & ECONOMICS IN", items: [
@@ -218,7 +351,7 @@
   }
 })();
 </script>
-<script src="../../assets/data/deals.js?v=17"></script>
+<script src="../../assets/data/deals.js?v=18"></script>
 <script>
 (function () {
   document.querySelectorAll(".p-card[data-co]").forEach(function (c) {
@@ -227,11 +360,23 @@
   });
   var deals = (window.ATLAS_DEALS || []).filter(function (d) { return d.type === "pca"; });
   var el = document.getElementById("deal-tape");
+  function party(p) {
+    return '<div class="dc-party"><span class="dcp-side">' + p.side + '</span><b>' + p.who + '</b><span class="dcp-role">' + p.role + '</span></div>';
+  }
   if (el) el.innerHTML = deals.map(function (d) {
+    var more = "";
+    if (d.background || d.structure || d.outcome || (d.parties && d.parties.length)) {
+      more = '<details class="dc-more"><summary>Full write-up Â· structure Â· the parties</summary>';
+      if (d.background) more += '<p class="small"><b>Background.</b> ' + d.background + '</p>';
+      if (d.structure) more += '<p class="small"><b>Structure.</b> ' + d.structure + '</p>';
+      if (d.outcome) more += '<p class="small"><b>Where it stands.</b> ' + d.outcome + '</p>';
+      if (d.parties && d.parties.length) more += '<div class="dc-parties">' + d.parties.map(party).join("") + '</div>';
+      more += '</details>';
+    }
     return '<div class="deal-card"><div class="dc-top"><span class="dc-when">' + d.when + '</span><span class="dc-size">' + d.size + '</span></div>' +
-      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' +
+      '<h4>' + d.headline + '</h4><p class="small">' + d.synopsis + '</p>' + more +
       '<p class="small dc-analysis"><b>Why it matters:</b> ' + d.analysis + '</p>' +
-      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" · ") + "</p>" : "") +
+      (d.companies && d.companies.length ? '<p class="small">Profiles: ' + d.companies.map(function (co) { return '<a href="../../company.html?id=' + co + '">' + co.replace(/-/g, " ") + "</a>"; }).join(" Â· ") + "</p>" : "") +
       "</div>";
   }).join("");
 })();
