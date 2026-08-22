@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22 07:29z",
+ "generated": "2026-08-22 11:59z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -61,181 +61,163 @@
     "url": "https://www.sun-sentinel.com/2026/08/21/us-financial-markets-bond-market-swings/",
     "domain": "sun-sentinel.com",
     "when": "Aug 21 · 17:00z"
-   },
-   {
-    "title": "Deutsche Bank",
-    "url": "https://www.americanbanker.com/organization/deutsche-bank",
-    "domain": "americanbanker.com",
-    "when": "Aug 22 · 00:15z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Kochi to host Kerala Cyber Suraksha Summit 2026 on Sep 5 - The HinduBusinessLine",
-    "url": "https://www.thehindubusinessline.com/info-tech/kochi-to-host-kerala-cyber-suraksha-summit-2026-on-sep-5/article71368664.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 20 · 11:30z"
+    "title": "India rolls out ICT track theme at BRICS meet",
+    "url": "https://www.prokerala.com/news/articles/a1803188.html",
+    "domain": "prokerala.com",
+    "when": "Aug 21 · 16:00z"
    },
    {
-    "title": "Why Marvell Stock Surged Today | The Motley Fool",
-    "url": "https://www.fool.com/investing/2026/08/19/why-marvell-stock-surged-today/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 20 · 04:30z"
+    "title": "Aehr Test Systems to Participate in the Jefferies Semiconductor , IT Hardware & Communications Technology Conference on August 25 , 2026",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69375277-aehr-test-systems-to-participate-in-the-jefferies-semiconductor-it-hardware-communications-technology-conference-on-august-25-2026-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 21 · 12:15z"
    },
    {
-    "title": "Marvell Shares Jump 7 % as Google Chip Deal Confirms Custom AI Silicon Partnership , Analysts",
-    "url": "https://www.ibtimes.com.au/marvell-google-ai-accelerator-chips-partnership-1874278",
-    "domain": "ibtimes.com.au",
-    "when": "Aug 19 · 17:15z"
-   },
-   {
-    "title": "What real technology transfer means | The Manila Times",
-    "url": "https://www.manilatimes.net/2026/08/20/business/top-business/what-real-technology-transfer-means/2408679",
-    "domain": "manilatimes.net",
-    "when": "Aug 19 · 16:45z"
-   },
-   {
-    "title": "Sovereign cloud  strategic enabler  of digital transformation , says Portuguese government",
-    "url": "https://www.globalgovernmentforum.com/sovereign-cloud-strategic-enabler-of-digital-transformation-says-portuguese-government/",
-    "domain": "globalgovernmentforum.com",
-    "when": "Aug 19 · 17:00z"
-   },
-   {
-    "title": "Zong announces Rs4 billion investment in Karachi",
-    "url": "https://arynews.tv/zong-announces-rs4-billion-investment-in-karachi",
-    "domain": "arynews.tv",
-    "when": "Aug 20 · 11:30z"
-   },
-   {
-    "title": "Alibaba quarterly revenue jumps 9 % as AI boom fuels cloud business",
-    "url": "https://www.theglobeandmail.com/business/article-alibaba-earnings-results-cloud-business/",
-    "domain": "theglobeandmail.com",
-    "when": "Aug 20 · 11:30z"
-   },
-   {
-    "title": "Jensen Huang Just Signed AI Factory Deals Across Japan Biggest Manufacturers . What That Means for Nvidia Growth . ",
-    "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-just-signed-ai-162500368.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 19 · 17:00z"
-   },
-   {
-    "title": "Gujarat , Walmart explore global market opportunities for MSMEs and small artisans ahead of Vibrant Summit 2027",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260820/4488886.html",
-    "domain": "news.webindia123.com",
-    "when": "Aug 20 · 11:15z"
-   },
-   {
-    "title": "TopHat Security , Inc . Announces Series A Financing Led by Landolt Securities to Accelerate OT and AI Infrastructure Security",
-    "url": "https://thestarphoenix.com/press-releases/pr-newswire/tophat-security-inc-announces-series-a-financing-led-by-landolt-securities-to-accelerate-ot-and-ai-infrastructure-security/",
-    "domain": "thestarphoenix.com",
-    "when": "Aug 19 · 16:45z"
-   },
-   {
-    "title": "AI agents are finding new ways to bypass safeguards",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-agents-are-finding-new-ways-to-bypass-safeguards/articleshow/133358572.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 20 · 01:00z"
-   },
-   {
-    "title": "Apply Now : Digital Skills for Women+ Program ( Canada ) ",
-    "url": "https://www2.fundsforngos.org/individuals/apply-now-digital-skills-for-women-program-canada/",
-    "domain": "fundsforngos.org",
-    "when": "Aug 20 · 08:45z"
-   },
-   {
-    "title": "SOE MINISTER WILLIAM DUMA TO UNVEIL PNG SOVEREIGN CLOUD AND AI DATACENTER KUMUL CLOUD INFINITY EMTV ONLINE",
-    "url": "https://emtv.com.pg/soe-minister-william-duma-to-unveil-pngs-sovereign-cloud-and-ai-datacenter-kumul-cloud-infinity/",
+    "title": "DATEC LAUNCHES KUMUL CLOUD INFINITY - PNG FIRST SOVEREIGN CLOUD AND AI DATA CENTER EMTV ONLINE",
+    "url": "https://emtv.com.pg/datec-launches-kumul-cloud-infinity-pngs-first-sovereign-cloud-and-ai-data-center/",
     "domain": "emtv.com.pg",
-    "when": "Aug 20 · 03:45z"
+    "when": "Aug 22 · 03:15z"
    },
    {
-    "title": "Gujarat CM Bhupendra Patel visits Micron , Google during US trip ; discusses AI , skilling",
-    "url": "https://www.hindustantimes.com/genesis/gujarat-cm-bhupendra-patel-visits-micron-google-during-us-trip-discusses-ai-skilling-101787200906866.html",
-    "domain": "hindustantimes.com",
-    "when": "Aug 20 · 05:15z"
+    "title": "Data commissioner says focus on AI should be  new opportunities , not job losses",
+    "url": "https://www.tribune242.com/news/2026/aug/21/data-commissioner-says-focus-on-ai-should-be-new-opportunities-not-job-losses/",
+    "domain": "tribune242.com",
+    "when": "Aug 21 · 20:15z"
+   },
+   {
+    "title": "Palantir Co - Founder Peter Thiel Hedge Fund Just Made a Big Bet on This Genius AI Stock Pick",
+    "url": "https://www.fool.com/investing/2026/08/21/palantir-co-founder-peter-thiels-hedge-fund-just-m/",
+    "domain": "fool.com",
+    "when": "Aug 21 · 19:45z"
+   },
+   {
+    "title": "UH Maui College receives $660K to enhance AI , cybersecurity education",
+    "url": "https://www.mauinews.com/news/local-news/2026/08/uh-maui-college-receives-660k-to-enhance-ai-cybersecurity-education-2/",
+    "domain": "mauinews.com",
+    "when": "Aug 21 · 20:15z"
+   },
+   {
+    "title": "MAHA activists criticize Trump push for coal - powered AI data centers",
+    "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-maha-ai-data-centers-rfk-jr-b3037333.html",
+    "domain": "independent.co.uk",
+    "when": "Aug 21 · 20:15z"
+   },
+   {
+    "title": "MAHA activists criticize Trump for promoting coal for AI data centers",
+    "url": "https://www.ocregister.com/2026/08/21/maha-data-centers/",
+    "domain": "ocregister.com",
+    "when": "Aug 21 · 18:00z"
+   },
+   {
+    "title": "MAHA activists urge Trump against promoting coal to power energy - hungry AI data centers – Winnipeg Free Press",
+    "url": "https://www.winnipegfreepress.com/arts-and-life/life/health/2026/08/21/maha-activists-criticize-trump-for-promoting-coal-to-power-energy-hungry-ai-data-centers",
+    "domain": "winnipegfreepress.com",
+    "when": "Aug 21 · 17:45z"
+   },
+   {
+    "title": "MAHA activists criticize Trump for promoting coal to power energy - hungry AI data centers",
+    "url": "https://www.bangordailynews.com/2026/08/21/nation/maha-activists-criticize-trump-for-promoting-coal-to-power-energy-hungry-ai-data-centers/",
+    "domain": "bangordailynews.com",
+    "when": "Aug 21 · 18:00z"
+   },
+   {
+    "title": "Other View : Building data centers in space a crazy but great idea",
+    "url": "https://www.duluthnewstribune.com/opinion/editorials/other-view-building-data-centers-in-space-a-crazy-but-great-idea",
+    "domain": "duluthnewstribune.com",
+    "when": "Aug 21 · 16:00z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Hedge fund tax break grips Hong Kong as banks fear exodus",
-    "url": "https://www.moneycontrol.com/news/business/hedge-fund-tax-break-grips-hong-kong-as-banks-fear-exodus-14008225.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 18 · 02:45z"
+    "title": "Alternative asset manager confirms hackers stole personal data in social engineering attack",
+    "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/alternative-asset-manager-confirms-hackers-stole-personal-data-in-social-engineering-attack-587077.aspx",
+    "domain": "insurancebusinessmag.com",
+    "when": "Aug 21 · 21:00z"
    },
    {
-    "title": "Bank of America unassuming CEO has some jokes",
-    "url": "https://www.efinancialcareers.com/news/brian-moynihan-bank-of-america",
+    "title": "Goldman Sachs and Morgan Stanley traders are helping Deutsche back into the big time",
+    "url": "https://www.efinancialcareers.com/news/deutsche-bank-commodities-equities",
     "domain": "efinancialcareers.com",
-    "when": "Aug 18 · 09:15z"
+    "when": "Aug 21 · 12:15z"
    },
    {
-    "title": "Mega funding round puts Constantinople on fast track to unicorn status",
-    "url": "https://www.afr.com/street-talk/constantinople-in-stealth-cash-call-on-fast-track-to-unicorn-status-20260818-p60pbn",
-    "domain": "afr.com",
-    "when": "Aug 18 · 09:30z"
+    "title": "Ken Griffin says Citadel unwound 80 % of Situational Awareness risk in $4B worth of trades",
+    "url": "https://nypost.com/2026/08/21/business/ken-griffin-says-citadel-unwound-80-of-situational-awareness-risk-in-4b-worth-of-trades/",
+    "domain": "nypost.com",
+    "when": "Aug 21 · 19:30z"
    },
    {
-    "title": "NBPE Announces Transaction in Own Shares | The Manila Times",
-    "url": "https://www.manilatimes.net/2026/08/18/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2407270",
-    "domain": "manilatimes.net",
-    "when": "Aug 18 · 07:30z"
+    "title": "Ken Griffin Details Citadel Unwind Of Situational Awareness Portfolio Risk",
+    "url": "https://www.zerohedge.com/news/2026-08-21/ken-griffin-details-citadels-unwind-situational-awareness-portfolio-risk",
+    "domain": "zerohedge.com",
+    "when": "Aug 22 · 03:00z"
    },
    {
-    "title": "10 New Firms Join Insurance Journal Top 100 Independent Agencies",
-    "url": "https://www.insurancejournal.com/news/national/2026/08/18/881935.htm",
-    "domain": "insurancejournal.com",
-    "when": "Aug 18 · 06:15z"
-   },
-   {
-    "title": "Bernhard buying , selling companies , targeting $1 . 5B fund | Business News",
-    "url": "https://www.nola.com/news/business/bernhard-capital-deals-exits-launching-fund/article_ac7c55b0-c725-4209-8bc9-8fe26fb23f5c.html",
-    "domain": "nola.com",
-    "when": "Aug 17 · 19:00z"
-   },
-   {
-    "title": "Billionaire Bill Ackman Just Invested in Netflix Stock . Here Why Investors Should Care . ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-ackman-just-invested-182500429.html",
+    "title": "Citadel sheds over 80 % of aggregate risk from Situational Awareness portfolio",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/citadel-sheds-over-80-aggregate-155732684.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 17 · 19:00z"
+    "when": "Aug 21 · 16:30z"
    },
    {
-    "title": "Credo ( CRDO ) Soars Ahead of Earnings , Revenues Seen to More - Than - Double",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/credo-crdo-soars-ahead-earnings-014918463.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 18 · 02:30z"
+    "title": "Palantir Co - Founder Peter Thiel Hedge Fund Just Made a Big Bet on This Genius AI Stock Pick",
+    "url": "https://www.fool.com/investing/2026/08/21/palantir-co-founder-peter-thiels-hedge-fund-just-m/",
+    "domain": "fool.com",
+    "when": "Aug 21 · 19:45z"
    },
    {
-    "title": "Quant ratings on Appaloosa Management top holdings : AMZN , MU , TSM ( AMZN : NASDAQ ) ",
-    "url": "https://seekingalpha.com/news/4633889-quant-ratings-on-appaloosa-managements-top-holdings-amzn-mu-tsm",
-    "domain": "seekingalpha.com",
-    "when": "Aug 17 · 19:00z"
+    "title": "Citadel unloads over 80 % of bets bought from Leopold Aschenbrenner Situational Awareness",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/citadel-unloads-over-80-of-bets-bought-from-leopold-aschenbrenners-situational-awareness/articleshow/133413202.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 21 · 20:30z"
    },
    {
-    "title": "Closing the Gap with PPLI and PPVA in Estate Planning",
-    "url": "https://natlawreview.com/article/sunset-gone-income-tax-remains-ppli-ppva-solution",
-    "domain": "natlawreview.com",
-    "when": "Aug 17 · 21:15z"
-   },
-   {
-    "title": "Retail Investors Just Sold Space Exploration Technologies Corp . ( SPCX ) for the First Time . The Stock Also Just Reclaimed Its IPO Price",
-    "url": "https://www.insidermonkey.com/blog/retail-investors-just-sold-space-exploration-technologies-corp-spcx-for-the-first-time-the-stock-also-just-reclaimed-its-ipo-price-1809868/",
+    "title": "Jack Henry ( JKHY ) Beat Estimates . Can Faster Payments Restore Margin Growth ? ",
+    "url": "https://www.insidermonkey.com/blog/jack-henry-jkhy-beat-estimates-can-faster-payments-restore-margin-growth-1811835/",
     "domain": "insidermonkey.com",
-    "when": "Aug 17 · 19:15z"
+    "when": "Aug 22 · 00:00z"
    },
    {
-    "title": "Search Fund Accelerator pays entrepreneurs to buy companies | Innovation",
-    "url": "https://www.nola.com/news/business/innovation/new-orleans-firm-search-fund-accelerator-pays-entrepreneurs-to-find-companies-worth-buying/article_e42b2990-7f93-4bbb-a8d3-d8385a799ea0.html",
-    "domain": "nola.com",
-    "when": "Aug 17 · 19:00z"
+    "title": "Fifth bank fails in 2026 as drip of small - bank closures continues",
+    "url": "https://www.americanbanker.com/news/fifth-bank-fails-in-2026-as-drip-of-small-bank-closures-continues",
+    "domain": "americanbanker.com",
+    "when": "Aug 22 · 00:15z"
    },
    {
-    "title": "General Atlantic is working with JPMorgan to lead fresh IPO push",
-    "url": "https://www.moneycontrol.com/news/business/general-atlantic-is-working-with-jpmorgan-to-lead-fresh-ipo-push-14008515.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 18 · 05:45z"
+    "title": "Lyntris Inc . - Insider Monkey",
+    "url": "https://www.insidermonkey.com/insider-trading/company/lyntris+inc/2132582/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 21 · 22:15z"
+   },
+   {
+    "title": "Everyone Arguing About Taxing the Rich . Almost Nobody Noticed the $1 Trillion Already Slipping Past the IRS",
+    "url": "https://finance.yahoo.com/economy/policy/articles/everyone-arguing-taxing-rich-almost-224909156.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 21 · 23:15z"
+   },
+   {
+    "title": "Optima Launches to Make Hedge - Fund Intelligence Personal",
+    "url": "https://news.webindia123.com/news/Articles/Business/20260821/4489409.html",
+    "domain": "news.webindia123.com",
+    "when": "Aug 21 · 15:00z"
+   },
+   {
+    "title": "Top Real Estate Stocks To Follow Now – August 21st",
+    "url": "https://www.dailypolitical.com/2026/08/21/top-real-estate-stocks-to-follow-now-august-21st.html",
+    "domain": "dailypolitical.com",
+    "when": "Aug 21 · 19:30z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
+   {
+    "title": "AI , private equity and a planned grid takeover",
+    "url": "https://www.santafenewmexican.com/opinion/my_view/ai-private-equity-and-a-planned-grid-takeover/article_4a5a3ad1-e140-4b70-81ec-1d5026107c60.html",
+    "domain": "santafenewmexican.com",
+    "when": "Aug 22 · 08:45z"
+   },
    {
     "title": "Oil markets : Iraq wants production at 8 - 10 million bpd",
     "url": "https://www.bnnbloomberg.ca/markets/oil/2026/08/21/iraq-aims-to-boost-oil-output-to-8-10-million-bpd-in-six-years/",
@@ -249,16 +231,22 @@
     "when": "Aug 22 · 04:15z"
    },
    {
+    "title": "Ghana Moves To Supply Electricity To Nigeria As It Craves To Become Africa Energy Hub",
+    "url": "https://leadership.ng/ghana-moves-to-supply-electricity-to-nigeria-as-it-craves-to-become-africas-energy-hub/",
+    "domain": "leadership.ng",
+    "when": "Aug 22 · 08:45z"
+   },
+   {
     "title": "Govt hikes petrol by Rs3 . 81 , HSD by Rs3 . 59 till August 24",
     "url": "https://tribune.com.pk/story/2625133/govt-hikes-petrol-by-rs381-hsd-by-rs359-till-august-24",
     "domain": "tribune.com.pk",
     "when": "Aug 21 · 19:15z"
    },
    {
-    "title": "Oil set for second weekly gain as US ramps up pressure on Iran",
-    "url": "https://tribune.com.pk/story/2625074/oil-set-for-second-weekly-gain-as-us-ramps-up-pressure-on-iran",
-    "domain": "tribune.com.pk",
-    "when": "Aug 21 · 11:00z"
+    "title": "Gongloff : Trump is aiding a golden age for renewable energy",
+    "url": "https://www.eastbaytimes.com/2026/08/22/mark-gongloff-trump-is-aiding-a-golden-age-for-renewable-energy-2/",
+    "domain": "eastbaytimes.com",
+    "when": "Aug 22 · 10:30z"
    },
    {
     "title": "Oil set for second weekly gain on Iran pressure",
@@ -285,6 +273,12 @@
     "when": "Aug 22 · 06:30z"
    },
    {
+    "title": "The 1970s Oil Crisis : Never Forget - Watts Up With That ? ",
+    "url": "https://wattsupwiththat.com/2026/08/21/the-1970s-oil-crisis-never-forget/",
+    "domain": "wattsupwiththat.com",
+    "when": "Aug 22 · 08:45z"
+   },
+   {
     "title": "This Week in Science : Highest Radiation Occupation , a Shooting Star , And More ! ",
     "url": "https://www.sciencealert.com/this-week-in-science-highest-radiation-occupation-a-shooting-star-and-more",
     "domain": "sciencealert.com",
@@ -295,12 +289,6 @@
     "url": "http://www.bignewsnetwork.com/news/279256354/china-supported-wind-power-project-completed-in-uzbekistan",
     "domain": "bignewsnetwork.com",
     "when": "Aug 21 · 14:45z"
-   },
-   {
-    "title": "Constellation Energy vs . Vistra : Who Leads the AI Power Revenue Race ? ",
-    "url": "https://www.fool.com/coverage/charts/2026/08/21/constellation-energy-vs-vistra-who-leads-the-ai-power-revenue-race/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 21 · 13:45z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
@@ -391,52 +379,88 @@
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "Which Healthcare ETF Is the Better Buy : VanEck Pharma PPH or State Street Biotech XBI ? ",
-    "url": "https://finance.yahoo.com/healthcare/articles/healthcare-etf-better-buy-vanecks-180250312.html",
+    "title": "Why Amylyx Pharmaceuticals Blasted Nearly 79 % Higher This Week",
+    "url": "https://www.fool.com/investing/2026/08/21/why-amylyx-pharmaceuticals-blasted-nearly-79-highe/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 21 · 23:30z"
+   },
+   {
+    "title": "Weekly Buzz : RARE , REGN Secure FDA Nod , BMRN Stikes Deal ; HUMA , EYPT Face Trial Setbacks",
+    "url": "https://www.rttnews.com/3683242/weekly-buzz-rare-regn-secure-fda-nod-bmrn-stikes-deal-huma-eypt-face-trial-setbacks.aspx",
+    "domain": "rttnews.com",
+    "when": "Aug 21 · 19:15z"
+   },
+   {
+    "title": "Pharma ETF or Biotech ETF : Which Matches Your Investing Mindset ? ",
+    "url": "https://www.fool.com/coverage/etfs/2026/08/21/pharma-etf-or-biotech-etf-which-matches-your-investing-mindset/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 21 · 23:30z"
+   },
+   {
+    "title": "After Three Trial Deaths in China , Republicans Tell FDA : Stop Taking the Data on Faith",
+    "url": "https://redstate.com/ben-smith/2026/08/21/after-3-trial-deaths-in-china-republicans-tell-fda-stop-taking-the-data-on-faith-n2205905",
+    "domain": "redstate.com",
+    "when": "Aug 21 · 19:45z"
+   },
+   {
+    "title": "Faster , Cheaper Drugs : China Biotech Impact",
+    "url": "https://www.bioxconomy.com/access-and-channel/how-chinas-biotech-boom-is-bringing-patients-faster-more-affordable-drugs",
+    "domain": "bioxconomy.com",
+    "when": "Aug 21 · 16:45z"
+   },
+   {
+    "title": "Can Merck & Company ( MRK ) Stake in Evaxion A / S ( EVAX ) Validate the Potential of AI - Driven Vaccine Discovery ? ",
+    "url": "https://finance.yahoo.com/healthcare/articles/merck-company-mrk-stake-evaxion-220634079.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 20 · 06:15z"
+    "when": "Aug 22 · 04:00z"
    },
    {
-    "title": "TIL Therapy Clinical Trial Pipeline Appears Robust With 17+ Key Pharma Companies Actively Working in the Therapeutics Segment | DelveInsight",
-    "url": "https://www.manilatimes.net/2026/08/20/tmt-newswire/globenewswire/til-therapy-clinical-trial-pipeline-appears-robust-with-17-key-pharma-companies-actively-working-in-the-therapeutics-segment-delveinsight/2408715",
-    "domain": "manilatimes.net",
-    "when": "Aug 19 · 18:30z"
+    "title": "Political interference threatens drug safety standards",
+    "url": "https://www.newsday.com/opinion/commentary/fda-drug-standards-turmoil-nxzl2c0c",
+    "domain": "newsday.com",
+    "when": "Aug 21 · 20:15z"
    },
    {
-    "title": "Trump picks Dr . Heidi Overton , a top White House aide , to lead the Food and Drug Administration",
-    "url": "https://www.latimes.com/world-nation/story/2026-08-19/trump-picks-dr-heidi-overton-top-white-house-aide-to-lead-fda",
-    "domain": "latimes.com",
-    "when": "Aug 19 · 18:00z"
+    "title": "More than 16 , 000 doses of Ervebo vaccine arrive in Ebola - hit DRC",
+    "url": "https://www.thehindu.com/news/international/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-drc/article71376510.ece",
+    "domain": "thehindu.com",
+    "when": "Aug 22 · 05:15z"
    },
    {
-    "title": "Who Is Dr . Heidi Overton ? Trump FDA Nominee Once Stood By Him Over False Autism - Vaccine Claim",
-    "url": "https://www.ibtimes.co.uk/dr-heidi-overton-nominated-fda-controversy-1815211",
-    "domain": "ibtimes.co.uk",
-    "when": "Aug 19 · 20:30z"
+    "title": "IBBQ vs . PBE : Which Biotech ETF Is the Better Buy ? ",
+    "url": "https://www.fool.com/coverage/etfs/2026/08/21/ibbq-vs-pbe-which-biotech-etf-is-the-better-buy/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 21 · 13:45z"
    },
    {
-    "title": "Trump picks Dr . Heidi Overton , New Mexico native , to lead the FDA",
-    "url": "https://www.abqjournal.com/news/trump-picks-dr-heidi-overton-a-unm-medical-school-grad-to-lead-the-fda/3105317",
-    "domain": "abqjournal.com",
-    "when": "Aug 19 · 19:15z"
+    "title": "Big pharma companies Moderna and Merck push new mRNA cancer vaccine to prevent melanoma recurrence",
+    "url": "https://www.oann.com/newsroom/big-pharma-companies-moderna-and-merck-push-new-mrna-cancer-vaccine-to-prevent-melanoma-recurrence/",
+    "domain": "oann.com",
+    "when": "Aug 22 · 01:00z"
    },
    {
-    "title": "President Donald Trump picks Dr . Heidi Overton , a top White House aide , to lead the Food and Drug Administration",
-    "url": "https://www.chicagotribune.com/2026/08/19/trump-picks-dr-heidi-overton-fda/",
-    "domain": "chicagotribune.com",
-    "when": "Aug 19 · 21:15z"
+    "title": "Connected Solutions For Self - Injection",
+    "url": "https://www.clinicalleader.com/doc/connected-solutions-for-self-injection-0001",
+    "domain": "clinicalleader.com",
+    "when": "Aug 22 · 03:15z"
    },
    {
-    "title": "Trump nominates Dr Heidi Overton to lead FDA amid political , health policy challenges",
-    "url": "https://www.thehindubusinessline.com/news/world/trump-picks-white-house-health-aide-dr-heidi-overton-to-lead-fda/article71366848.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 20 · 02:00z"
+    "title": "Commentary : FDA turmoil and political interference threatens drug safety standards",
+    "url": "https://www.yakimaherald.com/opinion/commentary-fda-turmoil-and-political-interference-threatens-drug-safety-standards/article_ead15620-8f7c-4626-aa59-d14f046e8599.html",
+    "domain": "yakimaherald.com",
+    "when": "Aug 22 · 00:45z"
    },
    {
-    "title": "Trump announces his pick to lead the FDA",
-    "url": "https://www.ky3.com/2026/08/19/trump-announces-his-pick-lead-fda/",
-    "domain": "ky3.com",
-    "when": "Aug 19 · 20:00z"
+    "title": "India Must Move from  Pharmacy of the World  to  Laboratory of the World ; AI Must Complement , not Replace , Human Clinical Judgement : Union Minister Smt . Anupriya Patel",
+    "url": "https://orissadiary.com/india-must-move-from-pharmacy-of-the-world-to-laboratory-of-the-world-ai-must-complement-not-replace-human-clinical-judgement-union-minister-smt-anupriya-pate/",
+    "domain": "orissadiary.com",
+    "when": "Aug 22 · 11:15z"
+   },
+   {
+    "title": "Drug prices have declined sharply , and Trump is taking credit . The reason behind the drop is complex",
+    "url": "https://www.psdispatch.com/news/business/104713/drug-prices-have-declined-sharply-and-trump-is-taking-credit-the-reason-behind-the-drop-is-complex",
+    "domain": "psdispatch.com",
+    "when": "Aug 21 · 22:45z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
@@ -613,82 +637,88 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Gas prices worse under Trump",
-    "url": "https://www.chronicleonline.com/opinion/letters_to_editor/gas-prices-worse-under-trump/article_d478eeee-c959-598e-aa70-5f592269f304.html",
-    "domain": "chronicleonline.com",
-    "when": "Aug 19 · 07:30z"
+    "title": "Talks Collapse - Tariffs Begin Now - A Direct and Confrontational U . S - Canada Trade War is Now a Reality",
+    "url": "https://theconservativetreehouse.com/blog/2026/08/22/talks-collapse-tariffs-begin-now-a-direct-and-confrontational-u-s-canada-trade-war-is-now-a-reality/comment-page-1/",
+    "domain": "theconservativetreehouse.com",
+    "when": "Aug 22 · 08:45z"
    },
    {
-    "title": "Quebec  ready to face threat  of Trump latest tariffs if deal isnt reached , premier says",
-    "url": "https://montrealgazette.com/news/provincial-news/provincial-politics/quebec-ready-to-face-threat-of-trumps-latest-tariffs-if-deal-isnt-reached-premier-says/",
-    "domain": "montrealgazette.com",
-    "when": "Aug 18 · 23:45z"
+    "title": "Tariffs are over - emphasised , says BCG chief",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/tariffs-are-over-emphasised-says-bcg-chief/articleshow/133413470.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Aug 21 · 20:30z"
    },
    {
-    "title": "How a secret 20 , 000 - mile solar supply chain outplayed U . S . tariffs",
-    "url": "https://www.latimes.com/business/story/2026-08-18/how-secret-20-000-mile-solar-supply-chain-outplayed-u-s-tariffs",
-    "domain": "latimes.com",
-    "when": "Aug 18 · 18:45z"
+    "title": "Data shows Minnesota has paid a steep price for Trump tariffs",
+    "url": "http://www.minnpost.com/community-voices/2026/08/data-shows-minnesota-has-paid-a-steep-price-for-trumps-tariffs/",
+    "domain": "minnpost.com",
+    "when": "Aug 22 · 06:00z"
    },
    {
-    "title": "Trump new tariff already hurting Canadian businesses ahead of deadline",
-    "url": "https://www.niagarafallsreview.ca/business/trumps-new-50-per-cent-tariff-already-hurting-canadian-businesses--before-it-takes-effect/article_ed8d6004-e546-5a1a-a54d-c15193a4284a.html",
-    "domain": "niagarafallsreview.ca",
-    "when": "Aug 18 · 21:00z"
+    "title": "US - Canada trade war reignites as talks fail at last minute - Breaking News",
+    "url": "https://www.dailymirror.lk/breaking-news/US-Canada-trade-war-reignites-as-talks-fail-at-last-minute/108-348624",
+    "domain": "dailymirror.lk",
+    "when": "Aug 22 · 10:00z"
    },
    {
-    "title": "Q1FY27 earnings strong ; manufacturing emerges as top bet : Sachin Bajaj",
-    "url": "https://www.business-standard.com/markets/interviews/q1fy27-earnings-strong-manufacturing-emerges-as-top-bet-sachin-bajaj-126081900652_1.html",
-    "domain": "business-standard.com",
-    "when": "Aug 19 · 09:30z"
+    "title": "US - Canada trade talks collapse , triggering 50 % Trump tariffs",
+    "url": "https://www.moneycontrol.com/world/us-canada-fail-to-reach-trade-pact-to-avert-trump-tariffs-article-14012716.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 22 · 06:15z"
    },
    {
-    "title": "Press Release",
-    "url": "https://www.mining.com/press-release?id=6a84bed8b1b1911646d9eff6",
-    "domain": "mining.com",
-    "when": "Aug 18 · 22:15z"
+    "title": "US hits Canada with 50 % tariffs as trade talks collapse , Carney vows retaliation",
+    "url": "https://www.thenews.com.pk/latest/1413155-us-hits-canada-with-50-tariffs-as-trade-talks-collapse-carney-vows-retaliation",
+    "domain": "thenews.com.pk",
+    "when": "Aug 22 · 06:15z"
    },
    {
-    "title": "US - China Trade Tensions Could Affect Altana Supply Chain Software",
-    "url": "https://www.businessinsider.com/us-china-trade-altana-supply-chain-software-2026-8",
-    "domain": "businessinsider.com",
-    "when": "Aug 18 · 21:00z"
+    "title": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail",
+    "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail",
+    "domain": "aljazeera.com",
+    "when": "Aug 22 · 05:15z"
    },
    {
-    "title": "N . W . T . premier ready to put American booze on shelves for a  good deal  ",
-    "url": "https://www.cbc.ca/news/canada/north/tariffs-us-canada-north-alcohol-ban-9.7311887",
-    "domain": "cbc.ca",
-    "when": "Aug 19 · 01:30z"
+    "title": "US , Canada Push to Seal Trade Deal as Deadline Nears",
+    "url": "https://www.deccanchronicle.com/world/americas/us-canada-push-to-seal-trade-deal-as-deadline-nears-1981237",
+    "domain": "deccanchronicle.com",
+    "when": "Aug 22 · 03:15z"
    },
    {
-    "title": "AI can demystify supply chain regulations for global businesses if geopolitics dont get in the way",
-    "url": "https://www.yahoo.com/news/articles/ai-demystify-supply-chain-regulations-184711547.html",
-    "domain": "yahoo.com",
-    "when": "Aug 18 · 20:45z"
+    "title": "Indian Captain Faces 10 Years in united kingdom Jail Over Russian Oil Sanctions : Why Wife Calls Him a  Scapegoat  ",
+    "url": "https://www.heraldgoa.in/globe-nation/indian-captain-faces-10-years-in-uk-jail-over-russian-oil-sanctions-why-wife-calls-him-a-scapegoat/486127/",
+    "domain": "heraldgoa.in",
+    "when": "Aug 21 · 17:30z"
    },
    {
-    "title": "Trump says US and Canada have reached last - minute deal to delay 50 % US tariffs on Canadian imports",
-    "url": "https://www.wpxi.com/news/local/trump-says-us-canada-have-reached-last-minute-deal-delay-50-us-tariffs-canadian-imports/TIVQRKXBM5DBZAUWALRQ4CIVNY/",
-    "domain": "wpxi.com",
-    "when": "Aug 19 · 04:15z"
+    "title": "US - Canada trade talks collapse as 50 percent tariffs hit Canadian goods",
+    "url": "https://www.moneycontrol.com/world/us-canada-trade-talks-collapse-as-50-percent-tariffs-hit-canadian-goods-article-14012915.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 22 · 11:00z"
    },
    {
-    "title": "Port of Los Angeles Nears 1 Million TEUs in Second - Busiest July",
-    "url": "https://gcaptain.com/port-of-los-angeles-nears-1-million-teus-in-second-busiest-july/",
-    "domain": "gcaptain.com",
-    "when": "Aug 18 · 22:45z"
+    "title": "U . S .- Canada trade talks collapse minutes before deadline for tariffs to take effect",
+    "url": "https://www.wamc.org/2026-08-22/u-s-canada-trade-talks-collapse-minutes-before-deadline-for-tariffs-to-take-effect",
+    "domain": "wamc.org",
+    "when": "Aug 22 · 09:15z"
    },
    {
-    "title": "Trump says last - minute deal reached to delay 50 % US tariffs on Canadian imports",
-    "url": "https://www.fox17online.com/news/trump-says-us-and-canada-have-reached-last-minute-deal-to-delay-50-us-tariffs-on-canadian-imports",
-    "domain": "fox17online.com",
-    "when": "Aug 19 · 07:00z"
+    "title": "Samsung Set to Reclaim Smartphone Market Leader Position in 2023 , ETRetail",
+    "url": "https://retail.economictimes.indiatimes.com/news/consumer-durables-and-information-technology/consumer-electronics/samsung-to-reclaim-top-position-in-smartphone-market-this-year/133416594",
+    "domain": "retail.economictimes.indiatimes.com",
+    "when": "Aug 22 · 06:45z"
    },
    {
-    "title": "US and Canada hold last - minute talks to stop Trump tariffs",
-    "url": "https://www.bostonglobe.com/2026/08/18/nation/us-canada-tariffs-talks/",
-    "domain": "bostonglobe.com",
-    "when": "Aug 18 · 22:30z"
+    "title": "India Inc Got All It Takes to Roll Out  World+1  Model",
+    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/22/satet-front/india-incs-got-all-it-takes-to-roll-out-world1-model/articleshow/133413790.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 22 · 06:15z"
+   },
+   {
+    "title": "Schwartz says farewell to its staple cherry soda , and blames Trump tariffs",
+    "url": "https://torontosun.com/montreal-news/schwartzs-says-farewell-to-its-staple-cherry-soda-and-blames-trumps-tariffs/wcm/f6a8e4ad-aa26-4209-badb-ef929ac8be6a",
+    "domain": "torontosun.com",
+    "when": "Aug 21 · 15:45z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -699,10 +729,10 @@
     "when": "Aug 21 · 16:45z"
    },
    {
-    "title": "Franklin Templeton sees S & P 500 as high as 7 , 800 , beating consensus",
-    "url": "https://www.investmentnews.com/equities/franklin-templeton-sees-sp-500-as-high-as-7800-beating-consensus/267911",
-    "domain": "investmentnews.com",
-    "when": "Aug 21 · 11:00z"
+    "title": "Intermediate Capital Group plc ( LON : ICG ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
+    "url": "https://www.themarketsdaily.com/2026/08/22/intermediate-capital-group-plc-lonicg-receives-consensus-recommendation-of-moderate-buy-from-brokerages.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 22 · 08:45z"
    }
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [],
@@ -722,22 +752,10 @@
     "when": "Aug 21 · 23:30z"
    },
    {
-    "title": "Holy Apostles Parish appeal of sex abuse assessment upheld",
-    "url": "https://www.post-journal.com/news/top-stories/2026/08/holy-apostles-parish-appeal-of-sex-abuse-assessment-upheld/",
-    "domain": "post-journal.com",
-    "when": "Aug 21 · 11:00z"
-   },
-   {
     "title": "Auction cancelled for ex - Little Italy restaurant",
     "url": "https://www.capitalgazette.com/2026/08/21/auction-for-ex-little-italy-restaurant-canceled-following-bankruptcy-filing/",
     "domain": "capitalgazette.com",
     "when": "Aug 21 · 13:45z"
-   },
-   {
-    "title": "FCC Grants Cumulus Bankruptcy Emergence Plans , With Promises | Radio & Television Business Report",
-    "url": "https://rbr.com/fcc-grants-cumulus-bankruptcy-emergence-plans-with-promises/",
-    "domain": "rbr.com",
-    "when": "Aug 21 · 09:00z"
    },
    {
     "title": "Art Penn PennantPark | Wealth Management",
@@ -770,6 +788,12 @@
     "when": "Aug 21 · 22:30z"
    },
    {
+    "title": "Critical Review : Xtera Communications ( OTCMKTS : XCOMQ ) and Viasat ( NASDAQ : VSAT ) ",
+    "url": "https://www.themarketsdaily.com/2026/08/22/critical-review-xtera-communications-otcmktsxcomq-and-viasat-nasdaqvsat.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 22 · 11:00z"
+   },
+   {
     "title": "Google $10M Spirit Airlines Data Bid Raises Privacy Concerns",
     "url": "https://www.blackenterprise.com/google-spirit-airlines-data-employee-privacy/",
     "domain": "blackenterprise.com",
@@ -792,8 +816,105 @@
     "url": "https://www.10news.com/us-news/crime/texas-court-reduces-50m-judgment-against-infowars-alex-jones-over-falsely-labeling-newtown-killings-a-hoax",
     "domain": "10news.com",
     "when": "Aug 22 · 04:15z"
+   },
+   {
+    "title": "Infowar Alex Jones $50 million judgment reduced by court",
+    "url": "https://www.wcvb.com/article/infowars-alex-jones-judgment-slashed-falsely-calling-school-shooting-hoax/73495666",
+    "domain": "wcvb.com",
+    "when": "Aug 21 · 16:45z"
    }
   ],
-  "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": []
+  "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
+   {
+    "title": "Insomniac Venthole - Daily Kos",
+    "url": "https://www.dailykos.com/stories/2026/8/21/800087828/community/insomniacs-venthole/",
+    "domain": "dailykos.com",
+    "when": "Aug 22 · 05:15z"
+   },
+   {
+    "title": "U . S . Billionaires Are Piling Into Argentina Vaca Muerta Shale",
+    "url": "https://finance.yahoo.com/energy/articles/u-billionaires-piling-argentina-vaca-164010172.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 21 · 17:30z"
+   },
+   {
+    "title": "Can Trane Technologies plc ( TT ) and Eaton Corporation , PLC ( ETN ) Become Major Winners from the AI Data Center Boom ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-plc-tt-eaton-225548421.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 22 · 05:30z"
+   },
+   {
+    "title": "Arctos Strikes Deal for 10 % of Atlanta Falcons In Deal Valuing Team at More Than $10 Billion",
+    "url": "https://www.ibtimes.com/arctos-strikes-deal-10-atlanta-falcons-deal-valuing-team-more-10-billion-3806639",
+    "domain": "ibtimes.com",
+    "when": "Aug 21 · 13:45z"
+   },
+   {
+    "title": "Tapestry Top Lawyer Filed a Stock Transaction . Tariffs Are the Bigger Story",
+    "url": "https://www.fool.com/coverage/filings/2026/08/22/tapestry-s-top-lawyer-filed-a-stock-transaction-tariffs-are-the-bigger-story/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 22 · 10:30z"
+   },
+   {
+    "title": "La - Z - Boy ( LZB ) Fell 16 % After Hours . Is Retail Growth Hiding a Wholesale Problem ? ",
+    "url": "https://www.insidermonkey.com/blog/la-z-boy-lzb-fell-16-after-hours-is-retail-growth-hiding-a-wholesale-problem-1811833/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 22 · 00:00z"
+   },
+   {
+    "title": "HydrogenPro ASA ( STU : R6Z ) ( Q2 2026 ) Earnings Call Highlights : Strategic Shift to OEM Model and ... ",
+    "url": "https://finance.yahoo.com/energy/articles/hydrogenpro-asa-stu-r6z-q2-230358081.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 21 · 23:30z"
+   },
+   {
+    "title": "Parex Resources Targets 90 , 000 Bpd as Frontera Deal , Ecopetrol Projects Fuel Growth",
+    "url": "https://finance.yahoo.com/energy/articles/parex-resources-targets-90-000-070159676.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 22 · 10:15z"
+   },
+   {
+    "title": "Robot Busted In Half After Racing Top Speed Straight Into A Wall",
+    "url": "https://kotaku.com/clanker-runs-full-speed-into-a-wall-and-then-snaps-in-half-after-stumbling-backwards-2000726696",
+    "domain": "kotaku.com",
+    "when": "Aug 21 · 21:30z"
+   },
+   {
+    "title": "Anthropic - Backed Ode Buys Casper As AI Services Race Heats Up",
+    "url": "https://www.forbes.com/sites/ronschmelzer/2026/08/21/anthropic-backed-ode-buys-casper-as-ai-services-race-heats-up/",
+    "domain": "forbes.com",
+    "when": "Aug 21 · 14:30z"
+   },
+   {
+    "title": "Azerbaijan ABB to enter Uzbek market through Davr Bank partnership",
+    "url": "https://www.trend.az/business/4217184.html",
+    "domain": "trend.az",
+    "when": "Aug 22 · 11:00z"
+   },
+   {
+    "title": "Cox , Spectrum complete multi - billion dollar merger",
+    "url": "https://www.wowt.com/2026/08/21/cox-spectrum-complete-multi-billion-dollar-merger/",
+    "domain": "wowt.com",
+    "when": "Aug 21 · 21:00z"
+   },
+   {
+    "title": "ZenaTech expands drone services with Canadian engineering acquisition",
+    "url": "https://www.engineering.com/zenatech-expands-drone-services-with-canadian-engineering-acquisition/",
+    "domain": "engineering.com",
+    "when": "Aug 21 · 14:30z"
+   },
+   {
+    "title": "Flagstar picks cloud - native core to replace legacy patchwork",
+    "url": "https://finance.yahoo.com/technology/articles/flagstar-picks-cloud-native-core-091706733.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 22 · 11:00z"
+   },
+   {
+    "title": "FLUENT Reports Second Quarter 2026 Results",
+    "url": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/fluent-reports-second-quarter-2026-results/2410233",
+    "domain": "manilatimes.net",
+    "when": "Aug 21 · 22:45z"
+   }
+  ]
  }
 }
