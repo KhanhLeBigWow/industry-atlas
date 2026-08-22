@@ -149,6 +149,7 @@
     var links = [
       { t: "Curriculum", h: "index.html#curriculum" },
       { t: "Interviews", h: "interview-prep.html", id: "interviews" },
+      { t: "Model Lab", h: "model-lab.html", id: "model-lab" },
       { t: "Toolkit", h: "toolkit.html", id: "toolkit" },
       { t: "Glossary", h: "glossary.html", id: "glossary" },
       { t: "Industry Atlas ↗", h: "../index.html" }

@@ -49,7 +49,9 @@
       model answer: tight enough to say out loud, complete enough to survive follow-ups. Progress saves on your device.</p>
     <nav class="career-nav">
       <a href="interview-prep.html" class="on">📋 Interview bank</a>
-      <a href="lateral.html">🔁 The lateral guide</a>
+      <a href="drills.html">🥊 Drill room</a>
+      <a href="model-lab.html">🧪 Model Lab</a>
+      <a href="lateral.html">🔁 Lateral guide</a>
       <a href="groups.html">🏛 Firms &amp; groups</a>
       <a href="toolkit.html">🧮 Toolkit</a>
     </nav>
@@ -67,6 +69,16 @@
     <div class="qp-progress"><i id="qp-bar"></i></div>
     <p class="small muted" id="qp-count" style="margin-bottom:14px"></p>
     <div id="qp-list"></div>
+
+    <div class="callout" style="margin-top:26px">
+      <p><strong>The reading room.</strong> The books the buy-side actually recommends to fellows, and why:
+        <b>The Little Book That Builds Wealth</b> (Dorsey): the cleanest taxonomy of moats ever written, read it before
+        any "durable business" question. <b>Measuring the Moat</b> (Mauboussin): the analytical upgrade: how to TEST for
+        competitive advantage in the numbers. <b>Superforecasting</b> (Tetlock): calibration, base rates, and updating:
+        the mental habits behind every good underwrite. Add <b>The Outsiders</b> (Thorndike) for capital allocation and
+        any Damodaran material (free online) for valuation depth. One book internalized beats 5 skimmed: interviewers
+        can tell which you did.</p>
+    </div>
   </section>
 
 </main>
@@ -84,6 +96,7 @@
     { id: "dcf", name: "DCF", mod: "Module 04" },
     { id: "ma", name: "M&A", mod: "Module 05" },
     { id: "lbo", name: "LBO", mod: "Module 06" },
+    { id: "pe", name: "PE & buy-side", mod: "Module 06 + the Drill Room" },
     { id: "rx", name: "Restructuring", mod: "Modules 05-07" },
     { id: "mkt", name: "Markets & judgment", mod: "Module 07" }
   ];
@@ -180,7 +193,19 @@
     { c: "mkt", d: 1, q: "Rates rise 100bps. What happens to bond prices, and which bonds move most?", a: "Prices fall: fixed coupons are worth less against higher available yields. Sensitivity is duration: roughly, price change equals negative duration times the yield change, so a 7-year-duration bond drops ~7%. Long maturities and low coupons mean high duration (zeros are the extreme); floating-rate debt barely moves. Credit adds a second axis: if rates rise on growth, spreads may tighten and cushion; if on inflation fear, both can hurt." },
     { c: "mkt", d: 2, q: "How do you attack an estimation question you have never seen?", a: "Announce the structure before the arithmetic: define the quantity, decompose into drivers you can anchor (population, frequency, price), estimate each with stated assumptions, multiply, then sanity-check against a known reference from another direction. Round aggressively: clean numbers, visible logic. The interviewer grades the decomposition and composure, not the third digit: a confident 2x error with clean logic beats a lucky bullseye you cannot defend." },
     { c: "mkt", d: 2, q: "A company's stock drops 20% on earnings. Walk me through your diagnostic.", a: "Separate the P&L from the narrative: did numbers miss (revenue vs margin vs EPS quality), did guidance reset (the usual killer), or did the thesis break (a competitor, a lost customer, a regulatory turn)? Then judge duration: one-quarter noise, cycle turn, or secular break? Check what insiders and the credit market did. The skill on display is triage: most 20% moves are guidance resets, and the money question is whether the new baseline is now true." },
-    { c: "mkt", d: 1, q: "Quick math: a fund invests $100M and exits at $250M after 6 years. Rough IRR?", a: "2.5x over 6 years. Anchors: 2x in 6 years is ~12% (rule of 72), 3x in 6 years is ~20%. 2.5x sits between: ~16-17%. Exact answer is 16.5%, but the interviewer wants the anchoring method said aloud: doubling times via rule of 72, then interpolate. Practicing 5 of these makes every technical round calmer." }
+    { c: "mkt", d: 1, q: "Quick math: a fund invests $100M and exits at $250M after 6 years. Rough IRR?", a: "2.5x over 6 years. Anchors: 2x in 6 years is ~12% (rule of 72), 3x in 6 years is ~20%. 2.5x sits between: ~16-17%. Exact answer is 16.5%, but the interviewer wants the anchoring method said aloud: doubling times via rule of 72, then interpolate. Practicing 5 of these makes every technical round calmer." },
+
+    /* ---------- pe & buy-side ---------- */
+    { c: "pe", d: 1, q: "Why private equity, and why now?", a: "The seat change must be the logic: from advising on transactions to owning the outcome: underwriting a thesis, living with the company for 5 years, and being paid on whether you were right. Prove the instinct with something you already did: a deal where you formed a view beyond the client's, an investment you researched deeply. Avoid: hours, prestige, or 'the natural next step' said without a reason: they hear that 40 times a cycle." },
+    { c: "pe", d: 1, q: "Walk me through a paper LBO out loud.", a: "Narrate the 5 stops without hesitation: entry (EBITDA times multiple = EV; split into debt and the equity check), exit EBITDA (growth compounded, rounded aggressively), exit EV (times the exit multiple), exit debt (entry debt minus cumulative paydown), exit equity (EV minus debt), then MOIC and the IRR anchor (2x in 5 years is ~15%). The grade is composure and clean rounding, not decimals: practice until the shape is automatic." },
+    { c: "pe", d: 1, q: "Tell me about a deal on your resume, as an investor.", a: "Same deal, different lens than the banker version: would YOU have bought it, at what price, and why? Structure: the business in a sentence, the 2 or 3 value drivers that actually mattered, what the diligence said (and what it missed), the price against your view of value, and the verdict with a reason. Saying 'I would not have done this deal at that multiple, because...' with evidence is often the strongest answer in the process." },
+    { c: "pe", d: 2, q: "Pitch a company we should buy.", a: "Use the LBO frame end to end: a business with stable cash flows and a fixable flaw, entry multiple and why it is attainable, the leverage the cash flows support, the 2 or 3 value-creation levers (operations, add-ons, mix), the exit path and buyer, and the returns math to a rough MOIC. Close with the risk that kills the deal and why it is priced in. One company you genuinely know beats 3 you skimmed." },
+    { c: "pe", d: 2, q: "What happens in a PE modeling test, and what actually gets graded?", a: "Typically 1 to 3 hours: build an LBO from a short fact pattern or template: sources and uses, a debt schedule with a cash sweep, 3-statement or shortcut operating model, returns with sensitivities. Graded, in order: does it balance and sweep correctly, are the mechanics clean under time pressure, do your assumptions show judgment (not just midpoint everything), and can you explain every line afterward. Speed comes from reps: rebuild the same model until it is muscle memory." },
+    { c: "pe", d: 2, q: "How would you structure a 1-page investment memo (case study)?", a: "Six blocks: thesis in 2 sentences (what you own and why it wins), business quality (moat, unit economics, customer concentration), the numbers that matter (growth, margins, FCF conversion), value-creation plan with owners for each lever, returns (base and downside MOIC/IRR with the math visible), and risks with mitigants: including the one that would make you walk. Committees read the thesis and the downside case first; write those best." },
+    { c: "pe", d: 1, q: "What makes a business genuinely durable? How do you test for a moat?", a: "Name the mechanism, not the adjective: switching costs (what does leaving actually cost the customer), network effects (does value scale with users), cost advantage (structural, not cyclical), intangibles (brands that price, licenses that exclude). Then test it in the numbers: pricing power shows up as stable-or-rising gross margins; real moats show returns on capital persistently above cost of capital. If the moat is real, incumbents' share barely moves in 10 years: check." },
+    { c: "pe", d: 2, q: "How does on-cycle PE recruiting actually work, and how do you prepare for its speed?", a: "A small set of headhunters intermediates the megafund process: coffee chats begin, then the cycle 'kicks off' with little warning and offers happen within days: sometimes months into your first analyst year. Preparation therefore front-loads: paper LBO and model reps done BEFORE kickoff, deal stories rehearsed, a genuine answer on fund size and strategy preference. Off-cycle (middle market, growth) is slower and more merit-visible: interviewing well rested beats interviewing first." },
+    { c: "pe", d: 2, q: "Growth equity screen: what would you ask a software company first?", a: "The retention stack, before anything else: gross revenue retention (do customers stay), net revenue retention (do they expand), then growth efficiency (CAC payback, burn multiple), gross margin (is it actually software), and logo concentration. A business at 95% gross retention and 115% NRR compounds by standing still: that is the asset. Growth with leaky retention is a bucket with a hole: the pitch deck's growth rate is the least interesting number on it." },
+    { c: "pe", d: 1, q: "You own the company now. What do you actually do in the first 100 days?", a: "Three tracks: control the cash (13-week cash flow, working capital discipline, quick procurement wins), install the scoreboard (a KPI pack the board sees monthly: the 5 numbers that drive the thesis), and staff the plan (assess the CEO and CFO honestly, hire where the value-creation plan needs muscle). The discipline is sequencing: nothing strategic works until the reporting is trustworthy. Interviewers want evidence you think like an owner, not an analyst with a new title." }
   ];
 
   /* ---------- render ---------- */

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" data-module="drills" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Drill Room · Capital Atlas</title>
+<meta name="description" content="Randomized finance drills with step-by-step solutions: paper LBOs, IRR and MOIC mental math, and accretion/dilution snap calls.">
+<script>(function(){var t;try{t=localStorage.getItem("atlas-theme")}catch(e){}if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/atlas.css">
+<style>
+  .career-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .career-nav a { font-size: .82rem; font-weight: 600; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
+  .career-nav a.on, .career-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
+  .drill { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 18px 20px; margin-bottom: 20px; }
+  .drill h3 { margin: 0 0 4px; }
+  .drill .use { font-size: .82rem; color: var(--ink-2); margin: 0 0 12px; }
+  .prompt { background: var(--surface-2); border: 1px solid var(--hairline); border-radius: 10px; padding: 14px 16px; font-size: .9rem; line-height: 1.65; }
+  .prompt b { font-family: var(--font-mono); }
+  .steps { margin-top: 12px; }
+  .step { border-left: 3px solid var(--hairline); padding: 8px 14px; margin: 6px 0; font-size: .86rem; color: var(--ink-2); display: none; }
+  .step.shown { display: block; border-left-color: var(--brand); }
+  .step b { color: var(--ink); font-family: var(--font-mono); }
+  .drill-actions { display: flex; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
+  .final { display: none; margin-top: 10px; padding: 10px 14px; border-radius: 10px; font-size: .9rem; font-weight: 650;
+    background: color-mix(in srgb, var(--pos, #0ca30c) 12%, var(--surface-2)); }
+  .final.shown { display: block; }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="module-hero">
+    <span class="kicker">The career wing · Drills</span>
+    <h1>The Drill Room.</h1>
+    <p class="hero-tagline">Reps build calm. Every drill here generates fresh numbers each time and reveals its solution
+      one step at a time, the way you should say it aloud in the room. Paper LBOs, returns mental math, and
+      accretion/dilution snap calls: the 3 drills every PE and IB process assumes.</p>
+    <nav class="career-nav">
+      <a href="interview-prep.html">📋 Interview bank</a>
+      <a href="drills.html" class="on">🥊 Drill room</a>
+      <a href="model-lab.html">🧪 Model Lab</a>
+      <a href="lateral.html">🔁 Lateral guide</a>
+      <a href="groups.html">🏛 Firms &amp; groups</a>
+      <a href="toolkit.html">🧮 Toolkit</a>
+    </nav>
+    <div class="hero-meta"></div>
+  </header>
+
+  <section class="lesson">
+
+    <div class="drill" id="d-lbo">
+      <h3>1 · The paper LBO</h3>
+      <p class="use">The classic PE screen: 5 minutes, no Excel, round numbers said aloud. Work it on paper first,
+        then step through the solution. Every "next step" is a line you should be able to narrate.</p>
+      <div class="prompt" id="lbo-prompt"></div>
+      <div class="steps" id="lbo-steps"></div>
+      <div class="final" id="lbo-final"></div>
+      <div class="drill-actions">
+        <button class="btn btn-primary btn-sm" id="lbo-step">Reveal next step</button>
+        <button class="btn btn-sm" id="lbo-new">New drill (fresh numbers)</button>
+      </div>
+    </div>
+
+    <div class="drill" id="d-irr">
+      <h3>2 · Returns mental math</h3>
+      <p class="use">MOIC to IRR and back, no calculator: the anchors are 2x in 5 years ≈ 15%, 3x in 5 ≈ 25%, and the
+        rule of 72 for doubling times. Say your answer before revealing.</p>
+      <div class="prompt" id="irr-prompt"></div>
+      <div class="steps" id="irr-steps"></div>
+      <div class="drill-actions">
+        <button class="btn btn-primary btn-sm" id="irr-step">Reveal the answer</button>
+        <button class="btn btn-sm" id="irr-new">New drill</button>
+      </div>
+    </div>
+
+    <div class="drill" id="d-acc">
+      <h3>3 · Accretion / dilution snap call</h3>
+      <p class="use">All-stock deal, no synergies: accretive or dilutive, and roughly how much? The rule: compare the
+        P/Es. The buyer's expensive paper buying cheaper earnings accretes.</p>
+      <div class="prompt" id="acc-prompt"></div>
+      <div class="steps" id="acc-steps"></div>
+      <div class="drill-actions">
+        <button class="btn btn-primary btn-sm" id="acc-step">Reveal the logic</button>
+        <button class="btn btn-sm" id="acc-new">New drill</button>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p><strong>Where the theory lives.</strong> Paper LBO mechanics: <a href="modules/lbo-pe.html">Module 06</a> and
+        the <a href="toolkit.html">Toolkit's</a> LBO quick-returns tool. Statement linkages behind every model test:
+        <a href="model-lab.html">the Model Lab</a>. The verbal answers: <a href="interview-prep.html">the interview
+        bank's</a> LBO and PE categories.</p>
+    </div>
+
+  </section>
+
+</main>
+<script src="assets/data/curriculum.js"></script>
+<script src="assets/js/atlas.js"></script>
+<script>
+(function () {
+  "use strict";
+  function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
+
+  /* ---------- 1. paper LBO ---------- */
+  var L = {};
+  function lboNew() {
+    L.e0 = pick([50, 60, 75, 80, 100, 120]);
+    L.mult = pick([8, 9, 10]);
+    L.debtPct = pick([50, 60]);
+    L.g = pick([5, 10]);
+    L.exitMult = L.mult;
+    L.years = 5;
+    L.paydownPct = 50;
+    var ev = L.e0 * L.mult, debt = ev * L.debtPct / 100, eq = ev - debt;
+    /* growth chosen so exit EBITDA is clean-ish */
+    document.getElementById("lbo-prompt").innerHTML =
+      "A sponsor buys a company at <b>" + L.mult + "x</b> EBITDA of <b>$" + L.e0 + "M</b>, funding it with <b>" +
+      L.debtPct + "%</b> debt. EBITDA grows <b>" + L.g + "%</b> a year for <b>5 years</b>; over the hold, free cash flow " +
+      "pays down debt equal to <b>" + L.paydownPct + "% of entry debt</b>. Exit at the same <b>" + L.exitMult + "x</b>. " +
+      "What are the MOIC and rough IRR?";
+    var e5 = L.e0 * Math.pow(1 + L.g / 100, 5);
+    var evx = e5 * L.exitMult, debtX = debt * (1 - L.paydownPct / 100), eqx = evx - debtX;
+    var moic = eqx / eq, irr = (Math.pow(moic, 1 / 5) - 1) * 100;
+    var steps = [
+      "<b>Entry:</b> EV = " + L.e0 + " x " + L.mult + " = <b>$" + Math.round(ev) + "M</b>. Debt = " + L.debtPct + "% = <b>$" + Math.round(debt) + "M</b>, so the equity check = <b>$" + Math.round(eq) + "M</b>.",
+      "<b>Exit EBITDA:</b> " + L.e0 + " growing " + L.g + "% for 5 years ≈ <b>$" + Math.round(e5) + "M</b>. (Shortcut: " + L.g + "% for 5 years ≈ " + Math.round((Math.pow(1 + L.g / 100, 5) - 1) * 100) + "% total.)",
+      "<b>Exit EV:</b> " + Math.round(e5) + " x " + L.exitMult + " = <b>$" + Math.round(evx) + "M</b>.",
+      "<b>Debt at exit:</b> " + Math.round(debt) + " less " + L.paydownPct + "% paid down = <b>$" + Math.round(debtX) + "M</b>.",
+      "<b>Exit equity:</b> " + Math.round(evx) + " minus " + Math.round(debtX) + " = <b>$" + Math.round(eqx) + "M</b>."
+    ];
+    L.final = "MOIC = " + Math.round(eqx) + " / " + Math.round(eq) + " = <b>" + moic.toFixed(1) + "x</b> · IRR ≈ <b>" + Math.round(irr) + "%</b> (anchor: 2x in 5 ≈ 15%, 3x in 5 ≈ 25%, interpolate).";
+    var box = document.getElementById("lbo-steps");
+    box.innerHTML = steps.map(function (s) { return '<div class="step">' + s + "</div>"; }).join("");
+    document.getElementById("lbo-final").className = "final";
+    L.i = 0;
+  }
+  document.getElementById("lbo-step").addEventListener("click", function () {
+    var steps = document.querySelectorAll("#lbo-steps .step");
+    if (L.i < steps.length) { steps[L.i].classList.add("shown"); L.i++; }
+    if (L.i >= steps.length) {
+      var f = document.getElementById("lbo-final");
+      f.innerHTML = L.final; f.classList.add("shown");
+    }
+  });
+  document.getElementById("lbo-new").addEventListener("click", lboNew);
+
+  /* ---------- 2. returns mental math ---------- */
+  var R = {};
+  function irrNew() {
+    R.mode = pick(["m2i", "i2m", "dbl"]);
+    if (R.mode === "m2i") {
+      R.moic = pick([1.5, 2, 2.5, 3, 4]); R.yrs = pick([3, 4, 5, 6]);
+      document.getElementById("irr-prompt").innerHTML = "A deal returns <b>" + R.moic + "x</b> over <b>" + R.yrs + " years</b>. Rough IRR?";
+      var irr = (Math.pow(R.moic, 1 / R.yrs) - 1) * 100;
+      R.ans = "<b>≈ " + Math.round(irr) + "%</b>. Anchor from doubling: 2x in " + R.yrs + " years is " + Math.round((Math.pow(2, 1 / R.yrs) - 1) * 100) + "% (rule of 72: 72 / " + R.yrs + " ≈ " + Math.round(72 / R.yrs) + "%), then scale toward " + R.moic + "x.";
+    } else if (R.mode === "i2m") {
+      R.irr = pick([10, 15, 20, 25]); R.yrs = pick([4, 5, 6]);
+      document.getElementById("irr-prompt").innerHTML = "A fund compounds at <b>" + R.irr + "%</b> for <b>" + R.yrs + " years</b>. Rough MOIC?";
+      var m = Math.pow(1 + R.irr / 100, R.yrs);
+      R.ans = "<b>≈ " + m.toFixed(1) + "x</b>. Rule of 72: money doubles every " + Math.round(72 / R.irr) + " years at " + R.irr + "%, so " + R.yrs + " years is " + (R.yrs / (72 / R.irr)).toFixed(1) + " doublings.";
+    } else {
+      R.irr = pick([6, 8, 9, 12, 18, 24]);
+      document.getElementById("irr-prompt").innerHTML = "At <b>" + R.irr + "%</b> a year, how long does money take to double?";
+      R.ans = "<b>≈ " + (72 / R.irr).toFixed(1) + " years</b> (rule of 72: 72 / " + R.irr + "). Exact answer: " + (Math.log(2) / Math.log(1 + R.irr / 100)).toFixed(1) + " years: the rule is that good.";
+    }
+    document.getElementById("irr-steps").innerHTML = '<div class="step">' + R.ans + "</div>";
+  }
+  document.getElementById("irr-step").addEventListener("click", function () {
+    document.querySelector("#irr-steps .step").classList.add("shown");
+  });
+  document.getElementById("irr-new").addEventListener("click", irrNew);
+
+  /* ---------- 3. accretion / dilution ---------- */
+  var A = {};
+  function accNew() {
+    A.bpe = pick([12, 15, 18, 20, 25]);
+    A.tpe = pick([8, 10, 12, 14, 16, 22, 28]);
+    while (A.tpe === A.bpe) A.tpe = pick([8, 10, 12, 14, 16, 22, 28]);
+    document.getElementById("acc-prompt").innerHTML =
+      "Acquirer trades at <b>" + A.bpe + "x</b> earnings; it buys a target for <b>" + A.tpe + "x</b> (post-premium), " +
+      "<b>all stock</b>, no synergies. Accretive or dilutive, and why?";
+    var acc = A.bpe > A.tpe;
+    document.getElementById("acc-steps").innerHTML = '<div class="step">' +
+      "<b>" + (acc ? "Accretive" : "Dilutive") + ".</b> All-stock rule: compare P/Es. The buyer's earnings yield is " +
+      (100 / A.bpe).toFixed(1) + "% vs the target's " + (100 / A.tpe).toFixed(1) + "%. Paying " + A.tpe + "x with " + A.bpe + "x paper means each new share issued " +
+      (acc ? "buys MORE earnings than it gives up: EPS rises." : "buys LESS earnings than it gives up: EPS falls.") +
+      " Remember the trap: " + (acc ? "accretion is arithmetic, not value creation" : "dilutive deals can still create value if the price beats intrinsic worth") + ".</div>";
+  }
+  document.getElementById("acc-step").addEventListener("click", function () {
+    document.querySelector("#acc-steps .step").classList.add("shown");
+  });
+  document.getElementById("acc-new").addEventListener("click", accNew);
+
+  lboNew(); irrNew(); accNew();
+})();
+</script>
+</body>
+</html>

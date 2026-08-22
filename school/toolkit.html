@@ -11,6 +11,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/atlas.css">
 <style>
+  .career-nav { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+  .career-nav a { font-size: .82rem; font-weight: 600; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--hairline); color: var(--ink-2); background: var(--surface-1); }
+  .career-nav a.on, .career-nav a:hover { color: var(--ink); border-color: var(--brand); text-decoration: none; }
   .tk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
   @media (max-width: 940px) { .tk-grid { grid-template-columns: 1fr; } }
   .tk-card { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: var(--radius-lg); padding: 18px 20px; }
@@ -36,6 +39,14 @@
     <p class="hero-tagline">The workhorse math of the industry as standalone tools: cost of capital, a quick DCF,
       the EV bridge, comps pricing, LBO returns, and the compounding machine. Everything runs in your browser;
       each module of the curriculum teaches the theory behind one of these.</p>
+    <nav class="career-nav">
+      <a href="interview-prep.html">📋 Interview bank</a>
+      <a href="drills.html">🥊 Drill room</a>
+      <a href="model-lab.html">🧪 Model Lab</a>
+      <a href="lateral.html">🔁 Lateral guide</a>
+      <a href="groups.html">🏛 Firms &amp; groups</a>
+      <a href="toolkit.html" class="on">🧮 Toolkit</a>
+    </nav>
     <div class="hero-meta"></div>
   </header>
 

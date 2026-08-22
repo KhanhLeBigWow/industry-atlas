@@ -338,6 +338,7 @@
         })) + "</div>" +
         '<div class="sf-col"><div class="sf-h">Learn & build</div>' + links([
           ["Finance School", "school/index.html"], ["Interview prep", "school/interview-prep.html"],
+          ["The Model Lab", "school/model-lab.html"], ["The Drill Room", "school/drills.html"],
           ["The lateral guide", "school/lateral.html"], ["Firms & groups", "school/groups.html"],
           ["The toolkit (calculators)", "school/toolkit.html"],
           ["Live market heat setup", "markets.html#heat"], ["Architecture notes", "https://github.com/KhanhLeBigWow/industry-atlas/blob/main/docs/ARCHITECTURE.md"],
