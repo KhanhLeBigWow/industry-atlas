@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22 11:59z",
+ "generated": "2026-08-23 11:58z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -65,150 +65,174 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "India rolls out ICT track theme at BRICS meet",
-    "url": "https://www.prokerala.com/news/articles/a1803188.html",
-    "domain": "prokerala.com",
-    "when": "Aug 21 · 16:00z"
+    "title": "ODU now offers Ph . D . in cybersecurity . Learn about it here : ",
+    "url": "https://www.pilotonline.com/2026/08/22/cyber-phd-odu/",
+    "domain": "pilotonline.com",
+    "when": "Aug 22 · 16:00z"
    },
    {
-    "title": "Aehr Test Systems to Participate in the Jefferies Semiconductor , IT Hardware & Communications Technology Conference on August 25 , 2026",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69375277-aehr-test-systems-to-participate-in-the-jefferies-semiconductor-it-hardware-communications-technology-conference-on-august-25-2026-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Aug 21 · 12:15z"
+    "title": "Amazon Custom Chip Business Crossed a $25 Billion Run Rate : Time to Load Up on Shares ? ",
+    "url": "https://finance.yahoo.com/technology/ai/articles/amazons-custom-chip-business-crossed-185300891.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 22 · 19:30z"
    },
    {
-    "title": "DATEC LAUNCHES KUMUL CLOUD INFINITY - PNG FIRST SOVEREIGN CLOUD AND AI DATA CENTER EMTV ONLINE",
-    "url": "https://emtv.com.pg/datec-launches-kumul-cloud-infinity-pngs-first-sovereign-cloud-and-ai-data-center/",
-    "domain": "emtv.com.pg",
-    "when": "Aug 22 · 03:15z"
+    "title": "Taiwanese delegation calls for redesign , repair , recycle of electronics to reduce e - waste",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/taiwanese-delegation-calls-for-redesign-repair-recycle-of-electronics-to-reduce-e-waste/article71378016.ece",
+    "domain": "thehindu.com",
+    "when": "Aug 22 · 15:00z"
    },
    {
-    "title": "Data commissioner says focus on AI should be  new opportunities , not job losses",
-    "url": "https://www.tribune242.com/news/2026/aug/21/data-commissioner-says-focus-on-ai-should-be-new-opportunities-not-job-losses/",
-    "domain": "tribune242.com",
-    "when": "Aug 21 · 20:15z"
+    "title": "DayOne Secures $415m Green Loan For Singapore Data Centre",
+    "url": "https://www.crowdfundinsider.com/2026/08/300163-dayone-secures-415m-green-loan-for-singapore-data-centre/",
+    "domain": "crowdfundinsider.com",
+    "when": "Aug 23 · 00:45z"
    },
    {
-    "title": "Palantir Co - Founder Peter Thiel Hedge Fund Just Made a Big Bet on This Genius AI Stock Pick",
-    "url": "https://www.fool.com/investing/2026/08/21/palantir-co-founder-peter-thiels-hedge-fund-just-m/",
+    "title": "Alphabet and Amazon Are Investing $420 Billion in Artificial Intelligence ( AI ) Infrastructure : 4 Hardware Stocks Set to Profit",
+    "url": "https://www.fool.com/investing/2026/08/22/alphabet-and-amazon-are-investing-420-billion-in-a/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Aug 21 · 19:45z"
+    "when": "Aug 22 · 12:45z"
    },
    {
-    "title": "UH Maui College receives $660K to enhance AI , cybersecurity education",
-    "url": "https://www.mauinews.com/news/local-news/2026/08/uh-maui-college-receives-660k-to-enhance-ai-cybersecurity-education-2/",
-    "domain": "mauinews.com",
-    "when": "Aug 21 · 20:15z"
+    "title": "ASEAN Digital Economy Framework Agreement to drive higher value for VN firms",
+    "url": "https://vietnamnews.vn/economy/1798062/asean-digital-economy-framework-agreement-to-drive-higher-value-for-vn-firms.html",
+    "domain": "vietnamnews.vn",
+    "when": "Aug 22 · 13:45z"
    },
    {
-    "title": "MAHA activists criticize Trump push for coal - powered AI data centers",
-    "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-maha-ai-data-centers-rfk-jr-b3037333.html",
-    "domain": "independent.co.uk",
-    "when": "Aug 21 · 20:15z"
+    "title": "Top Technology Stocks To Follow Now – August 22nd",
+    "url": "https://www.tickerreport.com/banking-finance/13554636/top-technology-stocks-to-follow-now-august-22nd.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 22 · 19:30z"
    },
    {
-    "title": "MAHA activists criticize Trump for promoting coal for AI data centers",
-    "url": "https://www.ocregister.com/2026/08/21/maha-data-centers/",
-    "domain": "ocregister.com",
-    "when": "Aug 21 · 18:00z"
+    "title": "Kalaburagi : SIT hackathon gives students a platform to turn ideas into real - world solutions",
+    "url": "https://www.thehindu.com/news/national/karnataka/sit-hackathon-gives-students-a-platform-to-turn-ideas-into-real-world-solutions/article71377881.ece",
+    "domain": "thehindu.com",
+    "when": "Aug 22 · 14:15z"
    },
    {
-    "title": "MAHA activists urge Trump against promoting coal to power energy - hungry AI data centers – Winnipeg Free Press",
-    "url": "https://www.winnipegfreepress.com/arts-and-life/life/health/2026/08/21/maha-activists-criticize-trump-for-promoting-coal-to-power-energy-hungry-ai-data-centers",
-    "domain": "winnipegfreepress.com",
-    "when": "Aug 21 · 17:45z"
+    "title": "Securities summit highlights need for technology infrastructure modernisation",
+    "url": "https://vietnamnews.vn/society/1798060/securities-summit-highlights-need-for-technology-infrastructure-modernisation.html",
+    "domain": "vietnamnews.vn",
+    "when": "Aug 22 · 13:45z"
    },
    {
-    "title": "MAHA activists criticize Trump for promoting coal to power energy - hungry AI data centers",
-    "url": "https://www.bangordailynews.com/2026/08/21/nation/maha-activists-criticize-trump-for-promoting-coal-to-power-energy-hungry-ai-data-centers/",
-    "domain": "bangordailynews.com",
-    "when": "Aug 21 · 18:00z"
+    "title": "India emerges top growth market for Sophos ; business grows 60 pc in FY26",
+    "url": "https://www.dailyexcelsior.com/india-emerges-top-growth-market-for-sophos-business-grows-60-pc-in-fy26/",
+    "domain": "dailyexcelsior.com",
+    "when": "Aug 23 · 11:15z"
    },
    {
-    "title": "Other View : Building data centers in space a crazy but great idea",
-    "url": "https://www.duluthnewstribune.com/opinion/editorials/other-view-building-data-centers-in-space-a-crazy-but-great-idea",
-    "domain": "duluthnewstribune.com",
-    "when": "Aug 21 · 16:00z"
+    "title": "Exclusive : Israel Offers to Support India Next - Generation Sudarshan Chakra Air Defence Network",
+    "url": "https://idrw.org/exclusive-israel-offers-to-support-indias-next-generation-sudarshan-chakra-air-defence-network/",
+    "domain": "idrw.org",
+    "when": "Aug 23 · 04:00z"
+   },
+   {
+    "title": "DYPIU to launch School of Legal Studies , Governance and Public Policy",
+    "url": "https://www.thehindubusinessline.com/news/education/dypiu-to-launch-school-of-legal-studies-governance-and-public-policy/article71378086.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Aug 22 · 15:30z"
+   },
+   {
+    "title": "BOK expected to raise Korea 2026 growth estimate to over 3 %: experts",
+    "url": "https://www.koreatimes.co.kr/economy/20260823/bok-expected-to-raise-koreas-2026-growth-estimate-to-over-3-experts",
+    "domain": "koreatimes.co.kr",
+    "when": "Aug 23 · 06:45z"
+   },
+   {
+    "title": "40 Teams Gather in Hong Kong to Compete in the  AI x Cybersecurity Challenge  ",
+    "url": "https://www.manilatimes.net/2026/08/23/tmt-newswire/media-outreach-newswire/40-teams-gather-in-hong-kong-to-compete-in-the-ai-x-cybersecurity-challenge/2410468",
+    "domain": "manilatimes.net",
+    "when": "Aug 23 · 09:30z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Alternative asset manager confirms hackers stole personal data in social engineering attack",
-    "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/alternative-asset-manager-confirms-hackers-stole-personal-data-in-social-engineering-attack-587077.aspx",
-    "domain": "insurancebusinessmag.com",
-    "when": "Aug 21 · 21:00z"
-   },
-   {
-    "title": "Goldman Sachs and Morgan Stanley traders are helping Deutsche back into the big time",
-    "url": "https://www.efinancialcareers.com/news/deutsche-bank-commodities-equities",
-    "domain": "efinancialcareers.com",
-    "when": "Aug 21 · 12:15z"
-   },
-   {
-    "title": "Ken Griffin says Citadel unwound 80 % of Situational Awareness risk in $4B worth of trades",
-    "url": "https://nypost.com/2026/08/21/business/ken-griffin-says-citadel-unwound-80-of-situational-awareness-risk-in-4b-worth-of-trades/",
-    "domain": "nypost.com",
-    "when": "Aug 21 · 19:30z"
-   },
-   {
-    "title": "Ken Griffin Details Citadel Unwind Of Situational Awareness Portfolio Risk",
-    "url": "https://www.zerohedge.com/news/2026-08-21/ken-griffin-details-citadels-unwind-situational-awareness-portfolio-risk",
-    "domain": "zerohedge.com",
-    "when": "Aug 22 · 03:00z"
-   },
-   {
-    "title": "Citadel sheds over 80 % of aggregate risk from Situational Awareness portfolio",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/citadel-sheds-over-80-aggregate-155732684.html",
+    "title": "HSBC Holdings plc ( HSBC ) vs . UBS Group AG ( UBS ): Two European Banking Giants , Two Very Different Stories This Quarter",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-holdings-plc-hsbc-vs-191318513.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 16:30z"
+    "when": "Aug 23 · 01:45z"
    },
    {
-    "title": "Palantir Co - Founder Peter Thiel Hedge Fund Just Made a Big Bet on This Genius AI Stock Pick",
-    "url": "https://www.fool.com/investing/2026/08/21/palantir-co-founder-peter-thiels-hedge-fund-just-m/",
+    "title": "FireFly Metals readies $180m equity raising ; hires broker",
+    "url": "https://www.afr.com/street-talk/firefly-metals-readies-180m-equity-raising-hires-broker-20260823-p60qqe",
+    "domain": "afr.com",
+    "when": "Aug 23 · 04:45z"
+   },
+   {
+    "title": "AGL - run South Australian wind farms up for sale with $400m price tag",
+    "url": "https://www.afr.com/street-talk/agl-run-south-australian-wind-farms-up-for-sale-with-400m-price-tag-20260823-p60qp6",
+    "domain": "afr.com",
+    "when": "Aug 23 · 04:45z"
+   },
+   {
+    "title": "US Treasury bond buybacks : Trump move to lower yields and borrowing costs",
+    "url": "https://www.smh.com.au/business/the-economy/trump-s-desperate-move-to-mess-with-markets-is-destined-to-fail-20260820-p60pwb.html",
+    "domain": "smh.com.au",
+    "when": "Aug 23 · 05:00z"
+   },
+   {
+    "title": "Madden : How the probe into Mark Walter , Dodgers impacts salary cap push",
+    "url": "https://www.nydailynews.com/2026/08/22/bill-madden-mark-walter-dodgers-salary-cap-guggenheirm-deferred-salaries/",
+    "domain": "nydailynews.com",
+    "when": "Aug 22 · 17:30z"
+   },
+   {
+    "title": "Billionaire Ken Griffin Just Loaded Up on Eli Lilly Stock . Should You ? ",
+    "url": "https://www.fool.com/investing/2026/08/23/billionaire-ken-griffin-just-loaded-up-on-eli-lill/",
     "domain": "fool.com",
-    "when": "Aug 21 · 19:45z"
+    "when": "Aug 23 · 10:15z"
    },
    {
-    "title": "Citadel unloads over 80 % of bets bought from Leopold Aschenbrenner Situational Awareness",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/citadel-unloads-over-80-of-bets-bought-from-leopold-aschenbrenners-situational-awareness/articleshow/133413202.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 21 · 20:30z"
+    "title": "No room for missteps in bank earnings after run - up in lender stocks : fund manager",
+    "url": "https://www.stcatharinesstandard.ca/business/no-room-for-missteps-in-bank-earnings-after-run-up-in-lenders-stocks-fund-manager/article_5acbc651-9fc8-5d4b-aa4c-54c4cd174468.html",
+    "domain": "stcatharinesstandard.ca",
+    "when": "Aug 23 · 11:15z"
    },
    {
-    "title": "Jack Henry ( JKHY ) Beat Estimates . Can Faster Payments Restore Margin Growth ? ",
-    "url": "https://www.insidermonkey.com/blog/jack-henry-jkhy-beat-estimates-can-faster-payments-restore-margin-growth-1811835/",
-    "domain": "insidermonkey.com",
-    "when": "Aug 22 · 00:00z"
+    "title": "Reviewing OFG Bancorp ( NYSE : OFG ) and Shinsei Bank ( OTCMKTS : SKLKY ) ",
+    "url": "https://www.themarketsdaily.com/2026/08/22/reviewing-ofg-bancorp-nyseofg-and-shinsei-bank-otcmktssklky.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 22 · 14:30z"
    },
    {
-    "title": "Fifth bank fails in 2026 as drip of small - bank closures continues",
-    "url": "https://www.americanbanker.com/news/fifth-bank-fails-in-2026-as-drip-of-small-bank-closures-continues",
-    "domain": "americanbanker.com",
-    "when": "Aug 22 · 00:15z"
-   },
-   {
-    "title": "Lyntris Inc . - Insider Monkey",
-    "url": "https://www.insidermonkey.com/insider-trading/company/lyntris+inc/2132582/",
-    "domain": "insidermonkey.com",
-    "when": "Aug 21 · 22:15z"
-   },
-   {
-    "title": "Everyone Arguing About Taxing the Rich . Almost Nobody Noticed the $1 Trillion Already Slipping Past the IRS",
-    "url": "https://finance.yahoo.com/economy/policy/articles/everyone-arguing-taxing-rich-almost-224909156.html",
+    "title": "Eric Trump - backed Space - Eyes to appoint ex - Delta Force officer and ex - banker , sources say",
+    "url": "https://finance.yahoo.com/technology/articles/eric-trump-backed-space-eyes-120942923.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 23:15z"
+    "when": "Aug 22 · 14:30z"
    },
    {
-    "title": "Optima Launches to Make Hedge - Fund Intelligence Personal",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260821/4489409.html",
-    "domain": "news.webindia123.com",
-    "when": "Aug 21 · 15:00z"
+    "title": "Situational Awareness Bet Billions on Sandisk Before Imploding . The Supercycle Is Far From Over for SNDK Stock . ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/situational-awareness-bet-billions-sandisk-113001932.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 22 · 13:00z"
    },
    {
-    "title": "Top Real Estate Stocks To Follow Now – August 21st",
-    "url": "https://www.dailypolitical.com/2026/08/21/top-real-estate-stocks-to-follow-now-august-21st.html",
-    "domain": "dailypolitical.com",
-    "when": "Aug 21 · 19:30z"
+    "title": "Promising Bank Stocks To Keep An Eye On – August 22nd",
+    "url": "https://www.tickerreport.com/banking-finance/13554615/promising-bank-stocks-to-keep-an-eye-on-august-22nd.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 22 · 17:30z"
+   },
+   {
+    "title": "Jim Cramer Continued To Complain About JPMorgan Chase & Co . ( NYSE : JPM ) & Wells Fargo Multiple",
+    "url": "https://www.insidermonkey.com/blog/jim-cramer-continued-to-complain-about-jpmorgan-chase-co-nysejpm-wells-fargos-multiple-1821911/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 23 · 03:30z"
+   },
+   {
+    "title": "Banco Santander ( LON : BNC ) Stock Price Crosses Above Fifty Day Moving Average – Should You Sell ? ",
+    "url": "https://www.themarketsdaily.com/2026/08/22/banco-santander-lonbnc-stock-price-crosses-above-fifty-day-moving-average-should-you-sell.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 22 · 16:00z"
+   },
+   {
+    "title": "Solerus Announces Plans for New Growth Fund for High - Net - Worth Investors",
+    "url": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/solerus-announces-plans-for-new-growth-fund-for-high-net-worth-investors/2410345",
+    "domain": "manilatimes.net",
+    "when": "Aug 22 · 12:45z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
@@ -379,168 +403,186 @@
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "Why Amylyx Pharmaceuticals Blasted Nearly 79 % Higher This Week",
-    "url": "https://www.fool.com/investing/2026/08/21/why-amylyx-pharmaceuticals-blasted-nearly-79-highe/?source=iedfolrf0000001",
+    "title": "Which Biotech ETF Is a Better Buy : Concentrated Bet or Broad Basket ? ",
+    "url": "https://www.fool.com/coverage/etfs/2026/08/22/which-biotech-etf-is-a-better-buy-concentrated-bet-or-broad-basket/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Aug 21 · 23:30z"
+    "when": "Aug 22 · 12:45z"
    },
    {
-    "title": "Weekly Buzz : RARE , REGN Secure FDA Nod , BMRN Stikes Deal ; HUMA , EYPT Face Trial Setbacks",
-    "url": "https://www.rttnews.com/3683242/weekly-buzz-rare-regn-secure-fda-nod-bmrn-stikes-deal-huma-eypt-face-trial-setbacks.aspx",
-    "domain": "rttnews.com",
-    "when": "Aug 21 · 19:15z"
+    "title": "Letter Shows Protocol Lapses in Sanofi RSV Infant Vaccine Trial Paused After Participant Death – NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-08-22-letter-shows-lapses-sanofi-rsv-vaccine-trial.html",
+    "domain": "naturalnews.com",
+    "when": "Aug 23 · 04:00z"
    },
    {
-    "title": "Pharma ETF or Biotech ETF : Which Matches Your Investing Mindset ? ",
-    "url": "https://www.fool.com/coverage/etfs/2026/08/21/pharma-etf-or-biotech-etf-which-matches-your-investing-mindset/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 21 · 23:30z"
-   },
-   {
-    "title": "After Three Trial Deaths in China , Republicans Tell FDA : Stop Taking the Data on Faith",
-    "url": "https://redstate.com/ben-smith/2026/08/21/after-3-trial-deaths-in-china-republicans-tell-fda-stop-taking-the-data-on-faith-n2205905",
-    "domain": "redstate.com",
-    "when": "Aug 21 · 19:45z"
-   },
-   {
-    "title": "Faster , Cheaper Drugs : China Biotech Impact",
-    "url": "https://www.bioxconomy.com/access-and-channel/how-chinas-biotech-boom-is-bringing-patients-faster-more-affordable-drugs",
-    "domain": "bioxconomy.com",
-    "when": "Aug 21 · 16:45z"
-   },
-   {
-    "title": "Can Merck & Company ( MRK ) Stake in Evaxion A / S ( EVAX ) Validate the Potential of AI - Driven Vaccine Discovery ? ",
-    "url": "https://finance.yahoo.com/healthcare/articles/merck-company-mrk-stake-evaxion-220634079.html",
+    "title": "Little - Known HOWL Stock Skyrockets 100 % on Biotech Merger News",
+    "url": "https://finance.yahoo.com/healthcare/articles/little-known-howl-stock-skyrockets-175111028.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 04:00z"
+    "when": "Aug 23 · 00:45z"
    },
    {
-    "title": "Political interference threatens drug safety standards",
-    "url": "https://www.newsday.com/opinion/commentary/fda-drug-standards-turmoil-nxzl2c0c",
-    "domain": "newsday.com",
-    "when": "Aug 21 · 20:15z"
+    "title": "Health : More than 16 , 000 doses of Ervebo vaccine arrive in E",
+    "url": "https://www.newvision.co.ug/category/health/more-than-16000-doses-of-ervebo-vaccine-arriv-NV_239269_082026",
+    "domain": "newvision.co.ug",
+    "when": "Aug 22 · 18:00z"
    },
    {
-    "title": "More than 16 , 000 doses of Ervebo vaccine arrive in Ebola - hit DRC",
-    "url": "https://www.thehindu.com/news/international/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-drc/article71376510.ece",
-    "domain": "thehindu.com",
-    "when": "Aug 22 · 05:15z"
+    "title": "VivoPower PLC Ordinary Shares ( NASDAQ : VIVO ) & Portage Biotech ( NASDAQ : ALP ) Head - To - Head Analysis",
+    "url": "https://www.themarketsdaily.com/2026/08/23/vivopower-plc-ordinary-shares-nasdaqvivo-portage-biotech-nasdaqalp-head-to-head-analysis.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 23 · 10:15z"
    },
    {
-    "title": "IBBQ vs . PBE : Which Biotech ETF Is the Better Buy ? ",
-    "url": "https://www.fool.com/coverage/etfs/2026/08/21/ibbq-vs-pbe-which-biotech-etf-is-the-better-buy/?source=iedfolrf0000001",
+    "title": "Breakfast News : A Conversation With Ionis CEO",
+    "url": "https://www.fool.com/investing/breakfast-news/2026/08/22/breakfast-news/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Aug 21 · 13:45z"
+    "when": "Aug 22 · 12:45z"
    },
    {
-    "title": "Big pharma companies Moderna and Merck push new mRNA cancer vaccine to prevent melanoma recurrence",
-    "url": "https://www.oann.com/newsroom/big-pharma-companies-moderna-and-merck-push-new-mrna-cancer-vaccine-to-prevent-melanoma-recurrence/",
-    "domain": "oann.com",
-    "when": "Aug 22 · 01:00z"
+    "title": "MediPharm Labs ( OTCMKTS : MEDIF ) and Verrica Pharmaceuticals ( NASDAQ : VRCA ) Head to Head Survey",
+    "url": "https://www.dailypolitical.com/2026/08/22/medipharm-labs-otcmktsmedif-and-verrica-pharmaceuticals-nasdaqvrca-head-to-head-survey.html",
+    "domain": "dailypolitical.com",
+    "when": "Aug 22 · 15:00z"
    },
    {
-    "title": "Connected Solutions For Self - Injection",
-    "url": "https://www.clinicalleader.com/doc/connected-solutions-for-self-injection-0001",
-    "domain": "clinicalleader.com",
-    "when": "Aug 22 · 03:15z"
+    "title": "Ebola : DRC receives shipment of more than 16 , 000 vaccine doses",
+    "url": "https://www.africanews.com/2026/08/22/ebola-drc-receives-shipment-of-more-than-16000-vaccine-doses/",
+    "domain": "africanews.com",
+    "when": "Aug 22 · 12:45z"
    },
    {
-    "title": "Commentary : FDA turmoil and political interference threatens drug safety standards",
-    "url": "https://www.yakimaherald.com/opinion/commentary-fda-turmoil-and-political-interference-threatens-drug-safety-standards/article_ead15620-8f7c-4626-aa59-d14f046e8599.html",
-    "domain": "yakimaherald.com",
-    "when": "Aug 22 · 00:45z"
+    "title": "Thousands of doses of Ebola vaccine arrive in DR Congo",
+    "url": "https://www.taipeitimes.com/News/world/archives/2026/08/23/2003862994",
+    "domain": "taipeitimes.com",
+    "when": "Aug 22 · 17:00z"
    },
    {
-    "title": "India Must Move from  Pharmacy of the World  to  Laboratory of the World ; AI Must Complement , not Replace , Human Clinical Judgement : Union Minister Smt . Anupriya Patel",
-    "url": "https://orissadiary.com/india-must-move-from-pharmacy-of-the-world-to-laboratory-of-the-world-ai-must-complement-not-replace-human-clinical-judgement-union-minister-smt-anupriya-pate/",
-    "domain": "orissadiary.com",
-    "when": "Aug 22 · 11:15z"
+    "title": "Ultragenyx Pharmaceutical ( NASDAQ : RARE ) Price Target Raised to $103 . 00",
+    "url": "https://www.dailypolitical.com/2026/08/23/ultragenyx-pharmaceutical-nasdaqrare-price-target-raised-to-103-00.html",
+    "domain": "dailypolitical.com",
+    "when": "Aug 23 · 08:15z"
    },
    {
-    "title": "Drug prices have declined sharply , and Trump is taking credit . The reason behind the drop is complex",
-    "url": "https://www.psdispatch.com/news/business/104713/drug-prices-have-declined-sharply-and-trump-is-taking-credit-the-reason-behind-the-drop-is-complex",
-    "domain": "psdispatch.com",
-    "when": "Aug 21 · 22:45z"
+    "title": "India must move from  pharmacy to laboratory of the world : Anupriya Patel",
+    "url": "https://www.prokerala.com/news/articles/a1803503.html",
+    "domain": "prokerala.com",
+    "when": "Aug 22 · 15:30z"
+   },
+   {
+    "title": "Good News , Gym Haters : An  Exercise Pill  Just Got One Step Closer to Shelves",
+    "url": "https://www.vice.com/en/article/good-news-gym-haters-an-exercise-pill-just-got-one-step-closer-to-shelves/",
+    "domain": "vice.com",
+    "when": "Aug 22 · 12:45z"
+   },
+   {
+    "title": "How Integrated Scientific Workflows Are Redefining Strategic Advantage for India Pharmaceutical and Biotechnology Sectors",
+    "url": "https://www.newsx.com/bl-news/how-integrated-scientific-workflows-are-redefining-strategic-advantage-for-indias-pharmaceutical-and-biotechnology-sectors-263362/",
+    "domain": "newsx.com",
+    "when": "Aug 22 · 17:15z"
+   },
+   {
+    "title": "TGTX Stock Alert : What to Know as Takeover Rumors Swirl Around TG Therapeutics",
+    "url": "https://finance.yahoo.com/healthcare/articles/tgtx-stock-alert-know-takeover-193547123.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 23 · 01:45z"
+   },
+   {
+    "title": "Endocyte - mit small molecule drug conjugates gegen Krebs - 500 Beiträge pro Seite",
+    "url": "https://www.wallstreet-online.de/diskussion/500-beitraege/1163478-1-500/endocyte-mit-small-molecule-drug-conjugates-gegen-krebs",
+    "domain": "wallstreet-online.de",
+    "when": "Aug 22 · 23:00z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "Shifting Fortunes for L . A . Ports Boost Surrounding Industrial Real Estate – Commercial Observer",
-    "url": "https://commercialobserver.com/2026/08/la-calif-ports-industrial-tariff-trade/",
-    "domain": "commercialobserver.com",
-    "when": "Aug 21 · 14:45z"
+    "title": "Eric Trump - backed Space - Eyes to appoint ex - Delta Force officer and ex - banker , sources say",
+    "url": "https://finance.yahoo.com/technology/articles/eric-trump-backed-space-eyes-120942923.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 22 · 14:30z"
    },
    {
-    "title": "Lockton launches US aviation practice as rates harden",
-    "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/lockton-launches-us-aviation-practice-as-rates-harden-586987.aspx",
-    "domain": "insurancebusinessmag.com",
-    "when": "Aug 21 · 11:15z"
+    "title": "Rafale Local Production Could Extend Into the Early 2040s Even if Contract Is Signed This Year",
+    "url": "https://idrw.org/rafale-local-production-could-extend-into-the-early-2040s-even-if-contract-is-signed-this-year/",
+    "domain": "idrw.org",
+    "when": "Aug 22 · 13:30z"
    },
    {
-    "title": "Nikon Advanced Manufacturing Looks to the Next Frontier for AM : Space - 3DPrint . com",
-    "url": "https://3dprint.com/330208/nikon-advanced-manufacturing-looks-to-the-next-frontier-for-am-space/",
-    "domain": "3dprint.com",
-    "when": "Aug 21 · 17:30z"
+    "title": "As Europe rearms , Italy space sector faces a scale test",
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/23/2003862953",
+    "domain": "taipeitimes.com",
+    "when": "Aug 22 · 17:00z"
    },
    {
-    "title": "Best Defense Stocks To Consider – August 21st",
-    "url": "https://www.dailypolitical.com/2026/08/21/best-defense-stocks-to-consider-august-21st.html",
+    "title": "Spaceport America targets defense and drone industry growth",
+    "url": "https://www.abqjournal.com/business/is-spaceport-america-primed-for-a-turnaround/3106204",
+    "domain": "abqjournal.com",
+    "when": "Aug 22 · 13:15z"
+   },
+   {
+    "title": "Contrasting Sypris Solutions ( NASDAQ : SYPR ) and Bantec ( OTCMKTS : BANT ) ",
+    "url": "https://www.dailypolitical.com/2026/08/22/contrasting-sypris-solutions-nasdaqsypr-and-bantec-otcmktsbant.html",
     "domain": "dailypolitical.com",
-    "when": "Aug 21 · 17:30z"
+    "when": "Aug 23 · 04:45z"
    },
    {
-    "title": "McKinley Acquisition Corporation : Space - Eyes Announces Four Distinguished Appointments to Post - Combination Board of Directors Reflecting Deep National Security , Intelligence , Defense and Global Capital Markets Expertise",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69376295-mckinley-acquisition-corporation-space-eyes-announces-four-distinguished-appointments-to-post-combination-board-of-directors-reflecting-deep-national-399.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Aug 21 · 13:30z"
+    "title": "Why the Tejas Mk2 Is the Definitive Stepping Stone to India Fifth - Generation AMCA",
+    "url": "https://idrw.org/why-the-tejas-mk2-is-the-definitive-stepping-stone-to-indias-fifth-generation-amca/",
+    "domain": "idrw.org",
+    "when": "Aug 23 · 04:00z"
    },
    {
-    "title": "AST SpaceMobile vs . Boeing : Which High Flying Stock Is a Better Buy in 2026 ? ",
-    "url": "https://www.fool.com/coverage/better-buy/2026/08/21/ast-spacemobile-vs-boeing-which-high-flying-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 21 · 23:30z"
+    "title": "Hanwha Group to invest $299 mil . into US defense subsidiaries",
+    "url": "https://www.koreatimes.co.kr/business/companies/20260823/hanwha-group-to-invest-299-mil-into-us-defense-subsidiaries",
+    "domain": "koreatimes.co.kr",
+    "when": "Aug 23 · 06:45z"
    },
    {
-    "title": "Which Aerospace & Defense ETF Is a Better Buy : Big Bets or Broad Exposure ? ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/aerospace-defense-etf-better-buy-033201625.html",
+    "title": "3D Printing News Briefs , August 22 , 2026 : Polymers for CubeSats , Animal Mobility Devices , & More - 3DPrint . com",
+    "url": "https://3dprint.com/331035/3d-printing-news-briefs-8-22-2026/",
+    "domain": "3dprint.com",
+    "when": "Aug 22 · 17:45z"
+   },
+   {
+    "title": "  You have shown courage in new sector : PM Modi lauds space startups during interaction with CEOs",
+    "url": "https://www.hindustantimes.com/india-news/you-have-shown-courage-in-new-sector-pm-modi-lauds-space-startups-during-interaction-with-ceos-101787466254606.html",
+    "domain": "hindustantimes.com",
+    "when": "Aug 23 · 07:00z"
+   },
+   {
+    "title": "GUEST OPINION : Opportunity Now apprenticeship program builds a skilled workforce",
+    "url": "https://gazette.com/2026/08/23/guest-opinion-opportunity-now-apprenticeship-program-builds-a-skilled-workforce/",
+    "domain": "gazette.com",
+    "when": "Aug 23 · 11:30z"
+   },
+   {
+    "title": "The future of Islamic NATO",
+    "url": "https://dailypioneer.com/news/the-future-of-islamic-nato",
+    "domain": "dailypioneer.com",
+    "when": "Aug 23 · 08:30z"
+   },
+   {
+    "title": "Meet Frank Lucci , the 18 - year - old Texas student who built a high - precision robot sensor for under $25 ; it is nearly 20 times cheaper than existing options",
+    "url": "https://timesofindia.indiatimes.com/world/us/meet-frank-lucci-the-18-year-old-texas-student-who-built-a-high-precision-robot-sensor-for-under-25-it-is-nearly-20-times-cheaper-than-existing-options/articleshow/133434736.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Aug 23 · 08:00z"
+   },
+   {
+    "title": "Head - To - Head Comparison : Exchange Income ( EIFZF ) & Its Peers",
+    "url": "https://www.tickerreport.com/banking-finance/13554417/head-to-head-comparison-exchange-income-eifzf-its-peers.html",
+    "domain": "tickerreport.com",
+    "when": "Aug 22 · 12:45z"
+   },
+   {
+    "title": "Inside America Drone Arms Race : What Industry Experts See Ahead Of Procurement Supercycle",
+    "url": "https://www.zerohedge.com/military/inside-americas-drone-arms-race-what-industry-insiders-see-ahead-procurement-supercycle",
+    "domain": "zerohedge.com",
+    "when": "Aug 23 · 06:30z"
+   },
+   {
+    "title": "Carpenter Technology ( CRS ) Appoints Ken Giacobbe To Its Board",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-appoints-ken-070943439.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 04:15z"
-   },
-   {
-    "title": "Stratasys ( SSYS ): A Pivotal Transition Meets Cash Flow Realities",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stratasys-ssys-pivotal-transition-meets-160146586.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 16:30z"
-   },
-   {
-    "title": "Millworks Technologies Secures Orders Worth 53 . 74 Cr",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260821/4489247.html",
-    "domain": "news.webindia123.com",
-    "when": "Aug 21 · 09:00z"
-   },
-   {
-    "title": "UAE Business : DP World moves 500 , 000 TEUs across GCC overland network",
-    "url": "https://www.gdnonline.com:443/Details/1404080",
-    "domain": "gdnonline.com",
-    "when": "Aug 21 · 11:00z"
-   },
-   {
-    "title": "DHL Expres Rakhi Express is Back with 50 % Off on International Shipments from India",
-    "url": "https://aninews.in/news/business/dhl-express-rakhi-express-is-back-with-50-off-on-international-shipments-from-india20260821163823/",
-    "domain": "aninews.in",
-    "when": "Aug 21 · 12:15z"
-   },
-   {
-    "title": "Verra Mobility ( VRRM ): How a Lost Customer Contract Changed the Investment Case",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/verra-mobility-vrrm-lost-customer-161042764.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 23:30z"
-   },
-   {
-    "title": "Trump signs new national space policy to enable 1 , 000 US rocket launches per year",
-    "url": "https://www.space.com/space-exploration/trump-signs-new-national-space-policy-to-enable-1-000-us-rocket-launches-per-year",
-    "domain": "space.com",
-    "when": "Aug 22 · 00:30z"
+    "when": "Aug 23 · 08:00z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
@@ -638,87 +680,69 @@
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
     "title": "Talks Collapse - Tariffs Begin Now - A Direct and Confrontational U . S - Canada Trade War is Now a Reality",
-    "url": "https://theconservativetreehouse.com/blog/2026/08/22/talks-collapse-tariffs-begin-now-a-direct-and-confrontational-u-s-canada-trade-war-is-now-a-reality/comment-page-1/",
+    "url": "https://theconservativetreehouse.com/blog/2026/08/22/talks-collapse-tariffs-begin-now-a-direct-and-confrontational-u-s-canada-trade-war-is-now-a-reality/comment-page-3/",
     "domain": "theconservativetreehouse.com",
-    "when": "Aug 22 · 08:45z"
+    "when": "Aug 22 · 13:45z"
    },
    {
-    "title": "Tariffs are over - emphasised , says BCG chief",
-    "url": "https://timesofindia.indiatimes.com/business/india-business/tariffs-are-over-emphasised-says-bcg-chief/articleshow/133413470.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Aug 21 · 20:30z"
+    "title": "Canada - US Trade War Erupts , Setting New 50 % Tariffs On Canadian Goods",
+    "url": "https://www.zerohedge.com/political/canada-us-trade-war-erupts-setting-new-50-tariffs-canadian-goods",
+    "domain": "zerohedge.com",
+    "when": "Aug 22 · 15:45z"
    },
    {
-    "title": "Data shows Minnesota has paid a steep price for Trump tariffs",
-    "url": "http://www.minnpost.com/community-voices/2026/08/data-shows-minnesota-has-paid-a-steep-price-for-trumps-tariffs/",
-    "domain": "minnpost.com",
-    "when": "Aug 22 · 06:00z"
+    "title": "What to know about Trump 50 % tariffs on Canadian goods that just went into effect",
+    "url": "https://www.adn.com/nation-world/2026/08/22/what-to-know-about-trumps-50-tariffs-on-canadian-goods-that-just-went-into-effect/",
+    "domain": "adn.com",
+    "when": "Aug 22 · 22:00z"
    },
    {
-    "title": "US - Canada trade war reignites as talks fail at last minute - Breaking News",
-    "url": "https://www.dailymirror.lk/breaking-news/US-Canada-trade-war-reignites-as-talks-fail-at-last-minute/108-348624",
-    "domain": "dailymirror.lk",
-    "when": "Aug 22 · 10:00z"
-   },
-   {
-    "title": "US - Canada trade talks collapse , triggering 50 % Trump tariffs",
-    "url": "https://www.moneycontrol.com/world/us-canada-fail-to-reach-trade-pact-to-avert-trump-tariffs-article-14012716.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 22 · 06:15z"
-   },
-   {
-    "title": "US hits Canada with 50 % tariffs as trade talks collapse , Carney vows retaliation",
-    "url": "https://www.thenews.com.pk/latest/1413155-us-hits-canada-with-50-tariffs-as-trade-talks-collapse-carney-vows-retaliation",
-    "domain": "thenews.com.pk",
-    "when": "Aug 22 · 06:15z"
-   },
-   {
-    "title": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail",
-    "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail",
-    "domain": "aljazeera.com",
-    "when": "Aug 22 · 05:15z"
-   },
-   {
-    "title": "US , Canada Push to Seal Trade Deal as Deadline Nears",
-    "url": "https://www.deccanchronicle.com/world/americas/us-canada-push-to-seal-trade-deal-as-deadline-nears-1981237",
-    "domain": "deccanchronicle.com",
-    "when": "Aug 22 · 03:15z"
-   },
-   {
-    "title": "Indian Captain Faces 10 Years in united kingdom Jail Over Russian Oil Sanctions : Why Wife Calls Him a  Scapegoat  ",
-    "url": "https://www.heraldgoa.in/globe-nation/indian-captain-faces-10-years-in-uk-jail-over-russian-oil-sanctions-why-wife-calls-him-a-scapegoat/486127/",
-    "domain": "heraldgoa.in",
-    "when": "Aug 21 · 17:30z"
-   },
-   {
-    "title": "US - Canada trade talks collapse as 50 percent tariffs hit Canadian goods",
-    "url": "https://www.moneycontrol.com/world/us-canada-trade-talks-collapse-as-50-percent-tariffs-hit-canadian-goods-article-14012915.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 22 · 11:00z"
-   },
-   {
-    "title": "U . S .- Canada trade talks collapse minutes before deadline for tariffs to take effect",
-    "url": "https://www.wamc.org/2026-08-22/u-s-canada-trade-talks-collapse-minutes-before-deadline-for-tariffs-to-take-effect",
-    "domain": "wamc.org",
-    "when": "Aug 22 · 09:15z"
-   },
-   {
-    "title": "Samsung Set to Reclaim Smartphone Market Leader Position in 2023 , ETRetail",
-    "url": "https://retail.economictimes.indiatimes.com/news/consumer-durables-and-information-technology/consumer-electronics/samsung-to-reclaim-top-position-in-smartphone-market-this-year/133416594",
-    "domain": "retail.economictimes.indiatimes.com",
-    "when": "Aug 22 · 06:45z"
-   },
-   {
-    "title": "India Inc Got All It Takes to Roll Out  World+1  Model",
-    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/22/satet-front/india-incs-got-all-it-takes-to-roll-out-world1-model/articleshow/133413790.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 22 · 06:15z"
-   },
-   {
-    "title": "Schwartz says farewell to its staple cherry soda , and blames Trump tariffs",
-    "url": "https://torontosun.com/montreal-news/schwartzs-says-farewell-to-its-staple-cherry-soda-and-blames-trumps-tariffs/wcm/f6a8e4ad-aa26-4209-badb-ef929ac8be6a",
+    "title": "Job losses , inflation and bail - outs – high costs of all - out trade war",
+    "url": "https://torontosun.com/opinion/columnists/job-losses-inflation-bail-outs-high-costs-all-out-trade-war",
     "domain": "torontosun.com",
-    "when": "Aug 21 · 15:45z"
+    "when": "Aug 22 · 23:00z"
+   },
+   {
+    "title": "The trade cold war suddenly turns hot again - The Globe and Mail",
+    "url": "https://www.theglobeandmail.com/politics/opinion/article-the-trade-cold-war-suddenly-turns-hot-again/",
+    "domain": "theglobeandmail.com",
+    "when": "Aug 23 · 00:45z"
+   },
+   {
+    "title": "ترمب لكندا : فرضتم على مزارعينا رسوماً باهظة لسنوات .. « كفى » ",
+    "url": "https://www.okaz.com.sa/economy/na/2262490",
+    "domain": "okaz.com.sa",
+    "when": "Aug 23 · 11:00z"
+   },
+   {
+    "title": "Canada / Trump Trade War Impact on Paramount / Warner Bros , Hollywood",
+    "url": "https://bleedingcool.com/tv/canada-trump-trade-war-fuels-paramount-warner-bros-hollywood-drama/",
+    "domain": "bleedingcool.com",
+    "when": "Aug 22 · 19:30z"
+   },
+   {
+    "title": "US - Canada trade deal collapses as Trump 50 % tariffs go into effect",
+    "url": "https://www.washingtonexaminer.com/news/world/4697211/us-canada-trade-deal-collapse/",
+    "domain": "washingtonexaminer.com",
+    "when": "Aug 22 · 14:45z"
+   },
+   {
+    "title": "Why the U . S .- Canada Trade Talks Fell Apart",
+    "url": "https://www.theatlantic.com/ideas/2026/08/why-us-canada-trade-talks-fell-apart/688386/",
+    "domain": "theatlantic.com",
+    "when": "Aug 22 · 15:45z"
+   },
+   {
+    "title": "Trump hits out at Canada over retaliatory tariffs",
+    "url": "https://www.dw.com/en/trump-hits-out-at-canada-over-retaliatory-tariffs/a-78471618",
+    "domain": "dw.com",
+    "when": "Aug 23 · 08:00z"
+   },
+   {
+    "title": "Canada walks away from US trade talks , retaliates against tariffs",
+    "url": "https://www.brisbanetimes.com.au/world/north-america/at-war-canada-walks-away-from-us-trade-talks-retaliates-to-tariffs-20260823-p60qnc.html",
+    "domain": "brisbanetimes.com.au",
+    "when": "Aug 22 · 23:15z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -736,7 +760,98 @@
    }
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [],
-  "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [],
+  "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
+   {
+    "title": "Pride Hotels Eyes ₹1 , 000 - Crore IPO By December , Expansion Pipeline To Take Portfolio To 72 Properties",
+    "url": "https://www.freepressjournal.in/business/pride-hotels-eyes-1000-crore-ipo-by-december-expansion-pipeline-to-take-portfolio-to-72-properties",
+    "domain": "freepressjournal.in",
+    "when": "Aug 23 · 07:45z"
+   },
+   {
+    "title": "Upcoming IPO : Gemini Edibles & Fats India files draft papers to raise funds via public issue . Details here",
+    "url": "https://www.livemint.com/market/ipo/upcoming-ipo-gemini-edibles-fats-india-files-draft-papers-to-raise-funds-via-public-issue-details-here-11787469576854.html",
+    "domain": "livemint.com",
+    "when": "Aug 23 · 08:30z"
+   },
+   {
+    "title": "Anthropic market debut could beat recent IPO record set by SpaceX",
+    "url": "https://www.dailysabah.com/business/tech/anthropic-market-debut-could-beat-recent-ipo-record-set-by-spacex",
+    "domain": "dailysabah.com",
+    "when": "Aug 23 · 11:15z"
+   },
+   {
+    "title": "Shein PE backers may have to hold on a little longer",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sheins-pe-backers-may-hold-212550250.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 23 · 04:00z"
+   },
+   {
+    "title": "A91 Partners set to cash out ₹445 crore from Atomberg ahead of IPO",
+    "url": "https://www.thehindubusinessline.com/companies/a91-partners-set-to-cash-out-445-crore-from-atomberg-ahead-of-ipo/article71378754.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Aug 23 · 06:15z"
+   },
+   {
+    "title": "Anthropic IPO could break SpaceX record with $2 trillion valuation",
+    "url": "http://www.bgnes.com/technology/anthropic-ipo-could-break-spacex-record-with-2-trillion-valuation",
+    "domain": "bgnes.com",
+    "when": "Aug 22 · 15:30z"
+   },
+   {
+    "title": "Pride Hotels steps up expansion , plans ₹1 , 000 crore IPO by December",
+    "url": "https://www.business-standard.com/markets/ipo/pride-hotels-steps-up-expansion-plans-1-000-crore-ipo-by-december-126082300157_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 23 · 08:00z"
+   },
+   {
+    "title": "Pride Hotels steps up expansion , plans Rs 1 , 000 - cr IPO by December",
+    "url": "https://www.dailyexcelsior.com/pride-hotels-steps-up-expansion-plans-rs-1000-cr-ipo-by-december/",
+    "domain": "dailyexcelsior.com",
+    "when": "Aug 23 · 06:30z"
+   },
+   {
+    "title": "Anthropic market debut could break SpaceX IPO record : media",
+    "url": "https://www.digitaljournal.com/article/anthropic-market-debut-could-break-spacex-ipo-record-media/",
+    "domain": "digitaljournal.com",
+    "when": "Aug 22 · 16:00z"
+   },
+   {
+    "title": "Anthropic Investors Want a $2 Trillion IPO . The Last Record - Setting IPO Has Made Its Buyers Nothing in Two Months . ",
+    "url": "https://www.fool.com/investing/2026/08/22/anthropic-s-investors-want-a-usd2-trillion-ipo-the-last-record-setting-ipo-has-made-its-buyers-nothing-in-two-months/",
+    "domain": "fool.com",
+    "when": "Aug 23 · 00:45z"
+   },
+   {
+    "title": "Bangkok Post - Anthropic IPO could break SpaceX record",
+    "url": "https://www.bangkokpost.com/business/general/3306204/anthropic-ipo-could-break-spacex-record",
+    "domain": "bangkokpost.com",
+    "when": "Aug 22 · 15:00z"
+   },
+   {
+    "title": "SpaceX Bounced 35 % Off Its Lows Then Another Lockup Hit . Here Whether the Recovery Is Real or a Trap for Investors . ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-bounced-35-off-lows-090401271.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 23 · 10:30z"
+   },
+   {
+    "title": "Gemini Edibles & Fats IPO : Oil maker flags raw material , regional concentration , other risks in DRHP",
+    "url": "https://www.prokerala.com/news/articles/a1803514.html",
+    "domain": "prokerala.com",
+    "when": "Aug 22 · 15:30z"
+   },
+   {
+    "title": "Pomerantz LLP Notifies Investors of Class Action Against EquipmentShare . com ... ",
+    "url": "https://www.pr-inside.com/pomerantz-llp-notifies-investors-of-class-action-against-equipmentshare-com-r5215017.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 22 · 18:00z"
+   },
+   {
+    "title": "Anthropic eyeing $100B in blockbuster IPO ( ANTHRO : Private ) ",
+    "url": "https://seekingalpha.com/news/4636038-anthropic-eyeing-100b-blockbuster-ipo",
+    "domain": "seekingalpha.com",
+    "when": "Aug 22 · 13:15z"
+   }
+  ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
@@ -826,94 +941,76 @@
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "Insomniac Venthole - Daily Kos",
-    "url": "https://www.dailykos.com/stories/2026/8/21/800087828/community/insomniacs-venthole/",
-    "domain": "dailykos.com",
-    "when": "Aug 22 · 05:15z"
+    "title": "Pomerantz LLP Brings Class Action Litigation Against Datavault AI Inc .– ... ",
+    "url": "https://www.pr-inside.com/pomerantz-llp-brings-class-action-litigation-against-datavault-ai-inc-r5215020.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 22 · 18:00z"
    },
    {
-    "title": "U . S . Billionaires Are Piling Into Argentina Vaca Muerta Shale",
-    "url": "https://finance.yahoo.com/energy/articles/u-billionaires-piling-argentina-vaca-164010172.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 17:30z"
+    "title": "A State College Unwind That Benefits Seven Mountains Media | Radio & Television Business Report",
+    "url": "https://rbr.com/a-state-college-unwind-that-benefits-seven-mountains-media/",
+    "domain": "rbr.com",
+    "when": "Aug 22 · 14:00z"
    },
    {
-    "title": "Can Trane Technologies plc ( TT ) and Eaton Corporation , PLC ( ETN ) Become Major Winners from the AI Data Center Boom ? ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-plc-tt-eaton-225548421.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 05:30z"
+    "title": "Paramount and California to hold preliminary talks on Warner Bros deal",
+    "url": "https://www.business-standard.com/india-news/paramount-and-california-to-hold-preliminary-talks-on-warner-bros-deal-126082300145_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 23 · 06:15z"
    },
    {
-    "title": "Arctos Strikes Deal for 10 % of Atlanta Falcons In Deal Valuing Team at More Than $10 Billion",
-    "url": "https://www.ibtimes.com/arctos-strikes-deal-10-atlanta-falcons-deal-valuing-team-more-10-billion-3806639",
-    "domain": "ibtimes.com",
-    "when": "Aug 21 · 13:45z"
+    "title": "Govt cannot force private landowners to execute sale deeds for acquisition of land : Allahabad HC",
+    "url": "https://economictimes.indiatimes.com/news/india/govt-cannot-force-private-landowners-to-execute-sale-deeds-for-acquisition-of-land-allahabad-hc/articleshow/133433793.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 23 · 04:45z"
    },
    {
-    "title": "Tapestry Top Lawyer Filed a Stock Transaction . Tariffs Are the Bigger Story",
-    "url": "https://www.fool.com/coverage/filings/2026/08/22/tapestry-s-top-lawyer-filed-a-stock-transaction-tariffs-are-the-bigger-story/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 22 · 10:30z"
+    "title": "  Genocide powered by Oracle : Why Mark Ruffalo slammed Larry Ellison $111 Paramount merger with Warner Bros",
+    "url": "https://www.theweek.in/news/entertainment/2026/08/23/genocide-powered-by-oracle-why-mark-ruffalo-slammed-billionaire-larry-ellisons-111-paramount-merger-with-warner-bros.html",
+    "domain": "theweek.in",
+    "when": "Aug 23 · 09:30z"
    },
    {
-    "title": "La - Z - Boy ( LZB ) Fell 16 % After Hours . Is Retail Growth Hiding a Wholesale Problem ? ",
-    "url": "https://www.insidermonkey.com/blog/la-z-boy-lzb-fell-16-after-hours-is-retail-growth-hiding-a-wholesale-problem-1811833/",
-    "domain": "insidermonkey.com",
-    "when": "Aug 22 · 00:00z"
+    "title": "Deputy Commissioner inspects Mother and Child Hospital in Yadgir city , orders infrastructure boost",
+    "url": "https://www.thehindu.com/news/national/karnataka/deputy-commissioner-inspects-mother-and-child-hospital-in-yadgir-city-orders-infrastructure-boost/article71377591.ece",
+    "domain": "thehindu.com",
+    "when": "Aug 22 · 13:15z"
    },
    {
-    "title": "HydrogenPro ASA ( STU : R6Z ) ( Q2 2026 ) Earnings Call Highlights : Strategic Shift to OEM Model and ... ",
-    "url": "https://finance.yahoo.com/energy/articles/hydrogenpro-asa-stu-r6z-q2-230358081.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 23:30z"
+    "title": "Mark Ruffalo shuts down rumours of antisemitism",
+    "url": "https://www.thenews.com.pk/latest/1413290-mark-ruffalo-shuts-down-rumours-of-antisemitism",
+    "domain": "thenews.com.pk",
+    "when": "Aug 23 · 11:00z"
    },
    {
-    "title": "Parex Resources Targets 90 , 000 Bpd as Frontera Deal , Ecopetrol Projects Fuel Growth",
-    "url": "https://finance.yahoo.com/energy/articles/parex-resources-targets-90-000-070159676.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 10:15z"
+    "title": "NexG welcomes govt decision not to acquire Datasonic",
+    "url": "https://www.freemalaysiatoday.com/category/nation/2026/08/23/nexg-welcomes-govt-decision-not-to-acquire-datasonic",
+    "domain": "freemalaysiatoday.com",
+    "when": "Aug 23 · 08:45z"
    },
    {
-    "title": "Robot Busted In Half After Racing Top Speed Straight Into A Wall",
-    "url": "https://kotaku.com/clanker-runs-full-speed-into-a-wall-and-then-snaps-in-half-after-stumbling-backwards-2000726696",
-    "domain": "kotaku.com",
-    "when": "Aug 21 · 21:30z"
+    "title": "PSE approves RRHI delisting",
+    "url": "https://www.philstar.com/business/2026/08/23/2551053/pse-approves-rrhi-delisting",
+    "domain": "philstar.com",
+    "when": "Aug 22 · 18:00z"
    },
    {
-    "title": "Anthropic - Backed Ode Buys Casper As AI Services Race Heats Up",
-    "url": "https://www.forbes.com/sites/ronschmelzer/2026/08/21/anthropic-backed-ode-buys-casper-as-ai-services-race-heats-up/",
-    "domain": "forbes.com",
-    "when": "Aug 21 · 14:30z"
+    "title": "Nearly 40 , 000 bottles of eye drops recalled nationwide over possible contamination",
+    "url": "https://www.fox29.com/news/nearly-40000-bottles-eye-drops-recalled-nationwide-over-possible-contamination",
+    "domain": "fox29.com",
+    "when": "Aug 22 · 12:30z"
    },
    {
-    "title": "Azerbaijan ABB to enter Uzbek market through Davr Bank partnership",
-    "url": "https://www.trend.az/business/4217184.html",
-    "domain": "trend.az",
-    "when": "Aug 22 · 11:00z"
+    "title": "KMPDU opposes Sh5m fine , five - year jail term for detaining patients",
+    "url": "https://www.standardmedia.co.ke/health/health-science/article/2001555944/kmpdu-opposes-sh5m-fine-five-year-jail-term-for-detaining-patients",
+    "domain": "standardmedia.co.ke",
+    "when": "Aug 22 · 13:45z"
    },
    {
-    "title": "Cox , Spectrum complete multi - billion dollar merger",
-    "url": "https://www.wowt.com/2026/08/21/cox-spectrum-complete-multi-billion-dollar-merger/",
-    "domain": "wowt.com",
-    "when": "Aug 21 · 21:00z"
-   },
-   {
-    "title": "ZenaTech expands drone services with Canadian engineering acquisition",
-    "url": "https://www.engineering.com/zenatech-expands-drone-services-with-canadian-engineering-acquisition/",
-    "domain": "engineering.com",
-    "when": "Aug 21 · 14:30z"
-   },
-   {
-    "title": "Flagstar picks cloud - native core to replace legacy patchwork",
-    "url": "https://finance.yahoo.com/technology/articles/flagstar-picks-cloud-native-core-091706733.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 11:00z"
-   },
-   {
-    "title": "FLUENT Reports Second Quarter 2026 Results",
-    "url": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/fluent-reports-second-quarter-2026-results/2410233",
-    "domain": "manilatimes.net",
-    "when": "Aug 21 · 22:45z"
+    "title": "CJ CheilJedang California kitchen feeds Bibigo US rise",
+    "url": "https://www.koreaherald.com/article/10849133",
+    "domain": "koreaherald.com",
+    "when": "Aug 23 · 08:30z"
    }
   ]
  }
