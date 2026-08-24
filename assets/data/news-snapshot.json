@@ -1,152 +1,164 @@
 {
- "generated": "2026-08-23 11:58z",
+ "generated": "2026-08-24 12:08z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "The Bond Market Just Flashed a Rare Warning Seen Twice in 20 Years . History Says the Stock Market Will Do This Next . ",
-    "url": "https://www.fool.com/investing/2026/08/21/bond-market-rare-warning-stock-market-do-this-next/",
-    "domain": "fool.com",
-    "when": "Aug 21 · 12:30z"
+    "title": "Crude Oil Prices , Geopolitical Tensions to Influence Indian Stock Market",
+    "url": "https://www.rediff.com/business/report/crude-oil-prices-geopolitical-tensions-to-influence-indian-stock-market/20260823.htm",
+    "domain": "rediff.com",
+    "when": "Aug 23 · 13:15z"
    },
    {
-    "title": "President Donald Trump Just Threw the Fed Under the Bus Over Interest Rates ( Again !), but He Missing the Bigger Picture",
-    "url": "https://www.fool.com/investing/2026/08/21/donald-trump-threw-fed-under-bus-interest-rates/?source=iedfolrf0000001",
+    "title": "One Sentence in the Fed Meeting Minutes Is Nightmare Fuel for Fed Chair Kevin Warsh and the Stock Market",
+    "url": "https://www.fool.com/investing/2026/08/24/one-sentence-fed-minutes-nightmare-fuel-fed-warsh/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Aug 21 · 13:45z"
+    "when": "Aug 24 · 10:45z"
    },
    {
-    "title": "Why the bond market is flexing its muscles , and why everyone needs to care",
-    "url": "https://finance.yahoo.com/economy/articles/why-bond-market-flexing-muscles-205919131.html",
+    "title": "New Fed chair faces critical test at Jackson Hole as inflation fears mount",
+    "url": "https://www.theguardian.com/business/2026/aug/24/fed-chair-kevin-warsh-faces-critical-test-jackson-hole-inflation-fears-mount",
+    "domain": "theguardian.com",
+    "when": "Aug 24 · 06:00z"
+   },
+   {
+    "title": "The MoA Week In Review – OT 2026 - 181 – Moon of Alabama",
+    "url": "https://www.moonofalabama.org/2026/08/the-moa-week-in-review-ot-2026-181.html",
+    "domain": "moonofalabama.org",
+    "when": "Aug 23 · 17:45z"
+   },
+   {
+    "title": "Asian shares mostly decline as bond market pressure mounts – Winnipeg Free Press",
+    "url": "https://www.winnipegfreepress.com/business/2026/08/24/asian-shares-mostly-decline-as-bond-market-pressure-mounts",
+    "domain": "winnipegfreepress.com",
+    "when": "Aug 24 · 06:15z"
+   },
+   {
+    "title": "Trump Sparks Mockery After Suggesting Baffling New Use For The Military",
+    "url": "https://www.huffingtonpost.co.uk/entry/trump-mockery-military-bond-market_uk_6a8aae9ae4b0832f43175d20",
+    "domain": "huffingtonpost.co.uk",
+    "when": "Aug 23 · 12:00z"
+   },
+   {
+    "title": "Nifty set for positive start ; global yields , Iran tensions in focus",
+    "url": "https://www.business-standard.com/markets/capital-market-news/nifty-set-for-positive-start-global-yields-iran-tensions-in-focus-126082400104_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 24 · 06:00z"
+   },
+   {
+    "title": "Bessent  Treasury twist  fails to tame bond yields as markets defy Trump administration",
+    "url": "https://www.moneycontrol.com/world/bessent-s-treasury-twist-fails-to-tame-bond-yields-as-markets-defy-trump-administration-article-14013416.html",
+    "domain": "moneycontrol.com",
+    "when": "Aug 24 · 02:30z"
+   },
+   {
+    "title": "Transcript : Neel Kashkari , Minneapolis Fed president and CEO , on  Face the Nation with Margaret Brennan , Aug . 23 , 2026",
+    "url": "https://finance.yahoo.com/economy/policy/articles/transcript-neel-kashkari-minneapolis-fed-170311550.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 05:15z"
+    "when": "Aug 23 · 17:45z"
    },
    {
-    "title": "Lacy Hunt : Fed Been  Stealth - Easing  Since December",
-    "url": "https://www.zerohedge.com/economics/lacy-hunt-feds-been-stealth-easing-december",
-    "domain": "zerohedge.com",
-    "when": "Aug 21 · 15:00z"
+    "title": "Asian shares mostly decline as bond market pressure mounts | The Asahi Shimbun : Breaking News , Japan News and Analysis",
+    "url": "https://www.asahi.com/ajw/articles/16830460",
+    "domain": "asahi.com",
+    "when": "Aug 24 · 07:15z"
    },
    {
-    "title": "Gold Prices Hit Three - Month High as Dollar Weakens",
-    "url": "http://www.econotimes.com/Gold-Prices-Hit-Three-Month-High-as-Dollar-Weakens-1750150",
-    "domain": "econotimes.com",
-    "when": "Aug 22 · 00:00z"
+    "title": "Asian shares mostly decline as bond market pressure mounts",
+    "url": "https://www.news4jax.com/news/2026/08/24/asian-shares-mostly-decline-as-bond-market-pressure-mounts/",
+    "domain": "news4jax.com",
+    "when": "Aug 24 · 06:00z"
    },
    {
-    "title": "Wall Street week ahead : Nvidia earnings , Jackson Hole to test pillars of stock rally",
-    "url": "https://www.theglobeandmail.com/investing/article-wall-street-week-ahead-nvidia-earnings-jackson-hole-to-test-pillars-of/",
-    "domain": "theglobeandmail.com",
-    "when": "Aug 21 · 15:15z"
-   },
-   {
-    "title": "Betting markets price 59 % chance of Bitcoin hitting $80 , 000 this month",
-    "url": "https://www.proactiveinvestors.co.uk/companies/news/1097402/betting-markets-price-59-chance-of-bitcoin-hitting-80-000-this-month-1097402.html",
-    "domain": "proactiveinvestors.co.uk",
-    "when": "Aug 21 · 12:15z"
-   },
-   {
-    "title": "Gold Rises Above $4 , 600 on Weaker Dollar , Debt Fears Update",
-    "url": "https://www.morningstar.com/news/dow-jones/202608217117/gold-rises-above-4600-on-weaker-dollar-debt-fears-update",
-    "domain": "morningstar.com",
-    "when": "Aug 21 · 20:30z"
-   },
-   {
-    "title": "Why Treasury bond buybacks arent stopping the surge in Treasury and mortgage rates",
-    "url": "https://www.latimes.com/business/story/2026-08-21/why-treasurys-bond-buybacks-arent-stopping-surge-in-treasury-mortgage-rates",
-    "domain": "latimes.com",
-    "when": "Aug 21 · 16:00z"
-   },
-   {
-    "title": "US stocks rise as the bond market big swings ease a bit",
-    "url": "https://www.sun-sentinel.com/2026/08/21/us-financial-markets-bond-market-swings/",
-    "domain": "sun-sentinel.com",
-    "when": "Aug 21 · 17:00z"
+    "title": "The treasury bond mess : is this the demise of the US as a safe haven ? ",
+    "url": "https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt",
+    "domain": "theguardian.com",
+    "when": "Aug 24 · 10:45z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "ODU now offers Ph . D . in cybersecurity . Learn about it here : ",
-    "url": "https://www.pilotonline.com/2026/08/22/cyber-phd-odu/",
-    "domain": "pilotonline.com",
-    "when": "Aug 22 · 16:00z"
+    "title": "Need for more AI - savvy engineers",
+    "url": "https://www.thenational.com.pg/need-for-more-ai-savvy-engineers/",
+    "domain": "thenational.com.pg",
+    "when": "Aug 24 · 02:00z"
    },
    {
-    "title": "Amazon Custom Chip Business Crossed a $25 Billion Run Rate : Time to Load Up on Shares ? ",
-    "url": "https://finance.yahoo.com/technology/ai/articles/amazons-custom-chip-business-crossed-185300891.html",
+    "title": "Nigeria sovereign cloud moment : Securing the infrastructure behind the digital economy , By Shuaib S . Agaka",
+    "url": "https://www.premiumtimesng.com/opinion/904942-nigerias-sovereign-cloud-moment-securing-the-infrastructure-behind-the-digital-economy-by-shuaib-s-agaka.html",
+    "domain": "premiumtimesng.com",
+    "when": "Aug 23 · 17:15z"
+   },
+   {
+    "title": "Alibaba set to open down 8 % in Hong Kong after $10 . 2 billion share placement plan",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-set-open-down-8-013210207.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 19:30z"
+    "when": "Aug 24 · 02:00z"
    },
    {
-    "title": "Taiwanese delegation calls for redesign , repair , recycle of electronics to reduce e - waste",
-    "url": "https://www.thehindu.com/news/national/andhra-pradesh/taiwanese-delegation-calls-for-redesign-repair-recycle-of-electronics-to-reduce-e-waste/article71378016.ece",
-    "domain": "thehindu.com",
-    "when": "Aug 22 · 15:00z"
+    "title": "Alibaba Seeks $10 Billion From Share Sale for AI Expansion",
+    "url": "https://www.deccanchronicle.com/artificial-intelligence/alibaba-seeks-10-billion-from-share-sale-for-ai-expansion-1981550",
+    "domain": "deccanchronicle.com",
+    "when": "Aug 23 · 12:00z"
    },
    {
-    "title": "DayOne Secures $415m Green Loan For Singapore Data Centre",
-    "url": "https://www.crowdfundinsider.com/2026/08/300163-dayone-secures-415m-green-loan-for-singapore-data-centre/",
-    "domain": "crowdfundinsider.com",
-    "when": "Aug 23 · 00:45z"
+    "title": "Alibaba shares fall 8 % after $13b Hong Kong share sale",
+    "url": "https://www.asiaone.com:443/money/alibaba-shares-fall-8-after-13b-hong-kong-share-sale",
+    "domain": "asiaone.com",
+    "when": "Aug 24 · 04:30z"
    },
    {
-    "title": "Alphabet and Amazon Are Investing $420 Billion in Artificial Intelligence ( AI ) Infrastructure : 4 Hardware Stocks Set to Profit",
-    "url": "https://www.fool.com/investing/2026/08/22/alphabet-and-amazon-are-investing-420-billion-in-a/?source=iedfolrf0000001",
+    "title": "BLUECLOUDS commences delivery of services to SpaceX",
+    "url": "https://www.business-standard.com/markets/capital-market-news/blueclouds-commences-delivery-of-services-to-spacex-126082400142_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 24 · 06:00z"
+   },
+   {
+    "title": "Fort Wayne campus to host Mark Cuban Foundation AI Bootcamp",
+    "url": "https://www.journalgazette.net/local/schools/fort-wayne-campus-to-host-mark-cuban-foundations-ai-bootcamp/article_15f410af-b827-48e0-8020-369d82296c58.html",
+    "domain": "journalgazette.net",
+    "when": "Aug 24 · 03:30z"
+   },
+   {
+    "title": "Empowering tier 2 , tier 3 youth with future skills key to Viksit Bharat 2047 : Jayant Chaudhary",
+    "url": "https://www.prokerala.com/news/articles/a1803771.html",
+    "domain": "prokerala.com",
+    "when": "Aug 23 · 13:15z"
+   },
+   {
+    "title": "OpenAI warns AI - powered cyberattacks could become  ongoing , persistent  ",
+    "url": "https://www.thenews.com.pk/latest/1413317-openai-warns-ai-powered-cyberattacks-could-become-ongoing-persistent",
+    "domain": "thenews.com.pk",
+    "when": "Aug 23 · 14:45z"
+   },
+   {
+    "title": "Blue Cloud Softech Solutions Commences Execution of USD 150 MillionMaster Services Agreement with SpaceX International Ltd , MY",
+    "url": "https://www.newsx.com/bl-news/blue-cloud-softech-solutions-commences-execution-of-usd-150-millionmaster-services-agreement-with-spacex-international-ltd-my-264046/",
+    "domain": "newsx.com",
+    "when": "Aug 24 · 10:15z"
+   },
+   {
+    "title": "Beyond Nvidia , AMD , and Broadcom : Why This Chip Stock Will Emerge as the Biggest Winner of the AI Semiconductor Boom",
+    "url": "https://www.fool.com/investing/2026/08/24/beyond-nvidia-amd-and-broadcom-why-this-chip-stock/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Aug 22 · 12:45z"
+    "when": "Aug 24 · 10:45z"
    },
    {
-    "title": "ASEAN Digital Economy Framework Agreement to drive higher value for VN firms",
-    "url": "https://vietnamnews.vn/economy/1798062/asean-digital-economy-framework-agreement-to-drive-higher-value-for-vn-firms.html",
-    "domain": "vietnamnews.vn",
-    "when": "Aug 22 · 13:45z"
+    "title": "Alibaba launches $10 billion Hong Kong share placement to fund AI spending",
+    "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-launches-10-billion-hong-044723823.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 24 · 07:15z"
    },
    {
-    "title": "Top Technology Stocks To Follow Now – August 22nd",
-    "url": "https://www.tickerreport.com/banking-finance/13554636/top-technology-stocks-to-follow-now-august-22nd.html",
-    "domain": "tickerreport.com",
-    "when": "Aug 22 · 19:30z"
-   },
-   {
-    "title": "Kalaburagi : SIT hackathon gives students a platform to turn ideas into real - world solutions",
-    "url": "https://www.thehindu.com/news/national/karnataka/sit-hackathon-gives-students-a-platform-to-turn-ideas-into-real-world-solutions/article71377881.ece",
-    "domain": "thehindu.com",
-    "when": "Aug 22 · 14:15z"
-   },
-   {
-    "title": "Securities summit highlights need for technology infrastructure modernisation",
-    "url": "https://vietnamnews.vn/society/1798060/securities-summit-highlights-need-for-technology-infrastructure-modernisation.html",
-    "domain": "vietnamnews.vn",
-    "when": "Aug 22 · 13:45z"
-   },
-   {
-    "title": "India emerges top growth market for Sophos ; business grows 60 pc in FY26",
-    "url": "https://www.dailyexcelsior.com/india-emerges-top-growth-market-for-sophos-business-grows-60-pc-in-fy26/",
-    "domain": "dailyexcelsior.com",
-    "when": "Aug 23 · 11:15z"
-   },
-   {
-    "title": "Exclusive : Israel Offers to Support India Next - Generation Sudarshan Chakra Air Defence Network",
-    "url": "https://idrw.org/exclusive-israel-offers-to-support-indias-next-generation-sudarshan-chakra-air-defence-network/",
-    "domain": "idrw.org",
-    "when": "Aug 23 · 04:00z"
-   },
-   {
-    "title": "DYPIU to launch School of Legal Studies , Governance and Public Policy",
-    "url": "https://www.thehindubusinessline.com/news/education/dypiu-to-launch-school-of-legal-studies-governance-and-public-policy/article71378086.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 22 · 15:30z"
-   },
-   {
-    "title": "BOK expected to raise Korea 2026 growth estimate to over 3 %: experts",
-    "url": "https://www.koreatimes.co.kr/economy/20260823/bok-expected-to-raise-koreas-2026-growth-estimate-to-over-3-experts",
-    "domain": "koreatimes.co.kr",
-    "when": "Aug 23 · 06:45z"
-   },
-   {
-    "title": "40 Teams Gather in Hong Kong to Compete in the  AI x Cybersecurity Challenge  ",
-    "url": "https://www.manilatimes.net/2026/08/23/tmt-newswire/media-outreach-newswire/40-teams-gather-in-hong-kong-to-compete-in-the-ai-x-cybersecurity-challenge/2410468",
+    "title": "STMicroelectronics and NUS launch Corporate Lab to power the future of Edge AI in Singapore",
+    "url": "https://www.manilatimes.net/2026/08/24/tmt-newswire/globenewswire/stmicroelectronics-and-nus-launch-corporate-lab-to-power-the-future-of-edge-ai-in-singapore/2410671",
     "domain": "manilatimes.net",
-    "when": "Aug 23 · 09:30z"
+    "when": "Aug 24 · 07:30z"
+   },
+   {
+    "title": "3 Tech Compounders Fit for Warren Buffett Portfolio",
+    "url": "https://www.fool.com/investing/2026/08/23/tech-compounders-fit-for-warren-buffett-portfolio/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 23 · 14:45z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
@@ -237,168 +249,150 @@
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "AI , private equity and a planned grid takeover",
-    "url": "https://www.santafenewmexican.com/opinion/my_view/ai-private-equity-and-a-planned-grid-takeover/article_4a5a3ad1-e140-4b70-81ec-1d5026107c60.html",
-    "domain": "santafenewmexican.com",
-    "when": "Aug 22 · 08:45z"
+    "title": "Sinopec Achieves Solid Operating Results in the First Half of 2026",
+    "url": "https://www.pr-inside.com/sinopec-achieves-solid-operating-results-in-the-first-half-of-r5215429.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 24 · 07:15z"
    },
    {
-    "title": "Oil markets : Iraq wants production at 8 - 10 million bpd",
-    "url": "https://www.bnnbloomberg.ca/markets/oil/2026/08/21/iraq-aims-to-boost-oil-output-to-8-10-million-bpd-in-six-years/",
-    "domain": "bnnbloomberg.ca",
-    "when": "Aug 21 · 15:45z"
+    "title": "Press Release",
+    "url": "https://www.mining.com/press-release?id=6a8be295936fe3d2a96091d2",
+    "domain": "mining.com",
+    "when": "Aug 24 · 06:45z"
    },
    {
-    "title": "Colorado voters to decide on constitutional right to natural gas",
-    "url": "https://www.kktv.com/2026/08/21/colorado-voters-decide-constitutional-right-natural-gas/",
-    "domain": "kktv.com",
-    "when": "Aug 22 · 04:15z"
+    "title": "Stocks to watch : Reliance Industries , Power Grid , IREDA among shares to be in focus today . Details here",
+    "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-reliance-industries-power-grid-ireda-among-shares-to-be-in-focus-today-details-here-11787536183776.html",
+    "domain": "livemint.com",
+    "when": "Aug 24 · 02:30z"
    },
    {
-    "title": "Ghana Moves To Supply Electricity To Nigeria As It Craves To Become Africa Energy Hub",
-    "url": "https://leadership.ng/ghana-moves-to-supply-electricity-to-nigeria-as-it-craves-to-become-africas-energy-hub/",
-    "domain": "leadership.ng",
-    "when": "Aug 22 · 08:45z"
+    "title": "Sinopec H1 Profit Climbs On Higher Oil Prices ; Stock Up",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69384921-sinopec-h1-profit-climbs-on-higher-oil-prices-stock-up-020.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 24 · 06:00z"
    },
    {
-    "title": "Govt hikes petrol by Rs3 . 81 , HSD by Rs3 . 59 till August 24",
-    "url": "https://tribune.com.pk/story/2625133/govt-hikes-petrol-by-rs381-hsd-by-rs359-till-august-24",
-    "domain": "tribune.com.pk",
-    "when": "Aug 21 · 19:15z"
+    "title": "Best Oil Stocks To Add to Your Watchlist – August 23rd",
+    "url": "https://www.themarketsdaily.com/2026/08/23/best-oil-stocks-to-add-to-your-watchlist-august-23rd.html",
+    "domain": "themarketsdaily.com",
+    "when": "Aug 23 · 18:30z"
    },
    {
-    "title": "Gongloff : Trump is aiding a golden age for renewable energy",
-    "url": "https://www.eastbaytimes.com/2026/08/22/mark-gongloff-trump-is-aiding-a-golden-age-for-renewable-energy-2/",
-    "domain": "eastbaytimes.com",
-    "when": "Aug 22 · 10:30z"
+    "title": "The energy challenges of the next presidency",
+    "url": "https://cyprus-mail.com/2026/08/23/the-energy-challenges-of-the-next-presidency",
+    "domain": "cyprus-mail.com",
+    "when": "Aug 23 · 14:45z"
    },
    {
-    "title": "Oil set for second weekly gain on Iran pressure",
-    "url": "https://www.pakistantoday.com.pk/2026/08/21/oil-heads-for-second-weekly-gain-as-us-pressure-on-iran-keeps-supply-concerns-in-focus",
-    "domain": "pakistantoday.com.pk",
-    "when": "Aug 21 · 20:30z"
+    "title": "Norway Stands Firm on Arctic Oil and Gas Drilling Despite EU Opposition",
+    "url": "https://www.oedigital.com/news/542344-norway-stands-firm-on-arctic-oil-and-gas-drilling-despite-eu-opposition",
+    "domain": "oedigital.com",
+    "when": "Aug 24 · 10:45z"
    },
    {
-    "title": "Oil Prices Set For Second Weekly Gain As US Threatens",
-    "url": "https://www.marinelink.com/news/oil-prices-set-second-weekly-gain-us-542331",
-    "domain": "marinelink.com",
-    "when": "Aug 21 · 19:45z"
+    "title": "Welspun Renewable energy Business Race : Macquarie , RPSG in Last Lap",
+    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/24/et-front/welspun-re-biz-race-macquarie-rpsg-in-last-lap/articleshow/133446725.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 24 · 06:15z"
    },
    {
-    "title": "MOV Climate Corner : Root of all evil",
-    "url": "https://www.mariettatimes.com/opinion/local-columns/2026/08/mov-climate-corner-root-of-all-evil/",
-    "domain": "mariettatimes.com",
-    "when": "Aug 22 · 06:30z"
+    "title": "US billionaires are piling millions into Argentina Shale boom , here what is driving it",
+    "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-billionaires-are-piling-millions-into-argentinas-shale-boom-heres-what-is-driving-it/articleshow/133453584.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 24 · 07:15z"
    },
    {
-    "title": "Mid - Ohio Valley Climate Corner : Root of all evil",
-    "url": "https://www.newsandsentinel.com/opinion/local-columns/2026/08/mid-ohio-valley-climate-corner-root-of-all-evil/",
-    "domain": "newsandsentinel.com",
-    "when": "Aug 22 · 06:30z"
-   },
-   {
-    "title": "The 1970s Oil Crisis : Never Forget - Watts Up With That ? ",
-    "url": "https://wattsupwiththat.com/2026/08/21/the-1970s-oil-crisis-never-forget/",
-    "domain": "wattsupwiththat.com",
-    "when": "Aug 22 · 08:45z"
-   },
-   {
-    "title": "This Week in Science : Highest Radiation Occupation , a Shooting Star , And More ! ",
-    "url": "https://www.sciencealert.com/this-week-in-science-highest-radiation-occupation-a-shooting-star-and-more",
-    "domain": "sciencealert.com",
-    "when": "Aug 21 · 14:30z"
-   },
-   {
-    "title": "China - supported wind power project completed in Uzbekistan",
-    "url": "http://www.bignewsnetwork.com/news/279256354/china-supported-wind-power-project-completed-in-uzbekistan",
-    "domain": "bignewsnetwork.com",
-    "when": "Aug 21 · 14:45z"
+    "title": "Norway will drill in Arctic regardless of EU position , says energy minister | WSAU News / Talk 550 AM · 99 . 9 FM",
+    "url": "https://wsau.com/2026/08/24/norway-will-drill-in-arctic-regardless-of-eus-position-says-energy-minister/",
+    "domain": "wsau.com",
+    "when": "Aug 24 · 06:15z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "Why Did Critical Metals Stock Just Gain 22 . 6 %? ",
-    "url": "https://www.fool.com/investing/2026/08/21/why-did-critical-metals-corp-stock-just-gain-226/?source=iedfolrf0000001",
+    "title": "MP Materials vs . The Metals Company : Which Rare - Earth Bet Actually Pays Off First ? ",
+    "url": "https://www.fool.com/investing/2026/08/23/mp-materials-vs-the-metals-company-which-rare-eart/",
     "domain": "fool.com",
-    "when": "Aug 21 · 23:30z"
+    "when": "Aug 23 · 12:00z"
    },
    {
-    "title": "Australia must stay realistic in metals race : Panel",
-    "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2867950-australia-must-stay-realistic-in-metals-race-panel",
-    "domain": "argusmedia.com",
-    "when": "Aug 21 · 15:45z"
+    "title": "Sandur Manganese forays into hospitality with new wholly owned subsidiary",
+    "url": "https://www.business-standard.com/markets/capital-market-news/sandur-manganese-forays-into-hospitality-with-new-wholly-owned-subsidiary-126082400083_1.html",
+    "domain": "business-standard.com",
+    "when": "Aug 24 · 06:00z"
    },
    {
-    "title": "Perenti ( AUSDF ) Expected to Post Quarterly Earnings on Monday",
-    "url": "https://www.dailypolitical.com/2026/08/21/perenti-ausdf-expected-to-post-quarterly-earnings-on-monday.html",
-    "domain": "dailypolitical.com",
-    "when": "Aug 22 · 06:00z"
+    "title": "BHP shares hit record $67 . 72 as copper rally powers miners higher",
+    "url": "https://www.proactiveinvestors.com.au/companies/news/1097451/bhp-shares-hit-record-67-72-as-copper-rally-powers-miners-higher-1097451.html",
+    "domain": "proactiveinvestors.com.au",
+    "when": "Aug 24 · 07:15z"
    },
    {
-    "title": "Steel Development Ministry Signs Agreement To Revive Delta Steel Company – THISDAYLIVE",
-    "url": "https://www.thisdaylive.com/2026/08/21/steel-development-ministry-signs-agreement-to-revive-delta-steel-company/",
-    "domain": "thisdaylive.com",
-    "when": "Aug 21 · 12:15z"
+    "title": "Critical minerals offer a big potential | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/08/24/opinion/editorial/critical-minerals-offer-a-big-potential/2410554",
+    "domain": "manilatimes.net",
+    "when": "Aug 23 · 17:15z"
    },
    {
-    "title": "US , Australia and others turning to Brazil for rare earth minerals",
-    "url": "https://www.naharnet.com:443/stories/en/321992-us-australia-and-others-turning-to-brazil-for-rare-earth-minerals",
-    "domain": "naharnet.com",
-    "when": "Aug 21 · 09:15z"
+    "title": "The Maurutania Iron Ore Train : Steel Veins Through the Sahara",
+    "url": "https://www.africaoutlookmag.com/mining/the-maurutania-iron-ore-train-steel-veins-through-the-sahara",
+    "domain": "africaoutlookmag.com",
+    "when": "Aug 24 · 10:45z"
    },
    {
-    "title": "Red Rock Resources ( LON : RRR ) Shares Down 4 . 8 % – Here What Happened",
-    "url": "https://www.dailypolitical.com/2026/08/21/red-rock-resources-lonrrr-shares-down-4-8-heres-what-happened.html",
-    "domain": "dailypolitical.com",
-    "when": "Aug 21 · 13:45z"
+    "title": "De Beers Sale Could Face 18 Months Of Regulatory Reviews",
+    "url": "https://www.idexonline.com/FullArticle?Id=51357",
+    "domain": "idexonline.com",
+    "when": "Aug 24 · 04:30z"
    },
    {
-    "title": "USA Rare Earth Rises 8 %, Critical Metals Jumps 10 %, MP Materials Climbs 5 % as the Resource Sector Catches a Bid",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/usa-rare-earth-rises-8-142609271.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 15:00z"
+    "title": "2 rescued , 22 missing after China - bound iron ore vessel sinks off Odisha coast",
+    "url": "https://www.hindustantimes.com/india-news/2-rescued-22-missing-after-china-bound-iron-ore-vessel-sinks-off-odisha-coast-101787484142328.html",
+    "domain": "hindustantimes.com",
+    "when": "Aug 23 · 12:15z"
    },
    {
-    "title": "Copper Just Overtook Iron Ore at BHP Group ( BHP ). Is Its Portfolio Finally Re - Rating ? ",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/copper-just-overtook-iron-ore-010149340.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 10:45z"
+    "title": "Copper , Tungsten and Manganese : Bulgaria Strategic Mineral Potential - Novinite . com",
+    "url": "https://www.novinite.com/articles/240222/Copper,+Tungsten+and+Manganese:+Bulgaria%E2%80%99s+Strategic+Mineral+Potential",
+    "domain": "novinite.com",
+    "when": "Aug 24 · 06:15z"
    },
    {
-    "title": "Nigeria Revives Delta Steel With $1 . 3 Billion Investment Plan",
-    "url": "https://naija247news.com/nigeria-revives-delta-steel-with-1-3-billion-investment-plan/",
-    "domain": "naija247news.com",
-    "when": "Aug 21 · 23:30z"
+    "title": "2 Rescued Off Bay of Bengal as Indian Coast Guard Leads Search Op",
+    "url": "https://www.deccanchronicle.com/nation/current-affairs/2-survivors-from-panama-flagged-vessel-rescued-search-ops-underway-sonowal-1981548",
+    "domain": "deccanchronicle.com",
+    "when": "Aug 23 · 12:00z"
    },
    {
-    "title": "CBI seeks sanction for prosecution against Minister B . Nagendra",
-    "url": "https://www.thehindu.com/news/national/karnataka/cbi-seeks-sanction-for-prosecution-against-minister-b-nagendra/article71374855.ece",
-    "domain": "thehindu.com",
-    "when": "Aug 21 · 16:45z"
+    "title": "Navy , ICG step up search operations as MV Ocean Winner still untraceable with 22 crewmen",
+    "url": "https://www.newindianexpress.com/states/odisha/2026/Aug/24/navy-icg-step-up-search-operations-as-mv-ocean-winner-still-untraceable-with-22-crewmen",
+    "domain": "newindianexpress.com",
+    "when": "Aug 24 · 05:45z"
    },
    {
-    "title": "Vale S . A . $VALE Position Increased by Tocqueville Asset Management L . P . ",
-    "url": "https://www.dailypolitical.com/2026/08/21/vale-s-a-vale-position-increased-by-tocqueville-asset-management-l-p.html",
-    "domain": "dailypolitical.com",
-    "when": "Aug 21 · 10:00z"
+    "title": "Landslide at waste mound in Guinea capital kills 30 , government says | Guinea",
+    "url": "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens",
+    "domain": "theguardian.com",
+    "when": "Aug 23 · 23:00z"
    },
    {
-    "title": "Analysts Set Cleveland - Cliffs Inc . ( NYSE : CLF ) Target Price at $11 . 86",
-    "url": "https://www.dailypolitical.com/2026/08/20/analysts-set-cleveland-cliffs-inc-nyseclf-target-price-at-11-86.html",
-    "domain": "dailypolitical.com",
-    "when": "Aug 21 · 07:30z"
+    "title": "Landslide at Guinea landfill kills 30 , government says",
+    "url": "https://www.ksl.com:443/article/51615197/landslide-at-guinea-landfill-kills-30-government-says",
+    "domain": "ksl.com",
+    "when": "Aug 24 · 03:30z"
    },
    {
-    "title": "Iron Ore Wrap : Vale Rises While China Steel Falters",
-    "url": "https://www.riotimesonline.com/iron-ore-markets-latam-friday-august-21-2026/",
-    "domain": "riotimesonline.com",
-    "when": "Aug 21 · 14:30z"
+    "title": "Landslide at Guinea landfill kills 30",
+    "url": "https://www.samaa.tv/2087355686-landslide-at-guinea-landfill-kills-30",
+    "domain": "samaa.tv",
+    "when": "Aug 24 · 07:15z"
    },
    {
-    "title": "Argentina RIGI Bets on Oil , Copper , Code , and Long Concessions",
-    "url": "https://latinamericanpost.com/economy-en/argentinas-rigi-bets-on-oil-copper-code-and-long-concessions/",
-    "domain": "latinamericanpost.com",
-    "when": "Aug 21 · 21:00z"
+    "title": "Panama - flagged ship sinks off Odisha , 2 rescued ; search on for 22 : Shipping minister",
+    "url": "https://timesofindia.indiatimes.com/india/panama-flagged-ship-sinks-off-odisha-2-rescued-search-on-for-22-shipping-minister/articleshow/133442072.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Aug 23 · 16:00z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -852,91 +846,152 @@
     "when": "Aug 22 · 13:15z"
    }
   ],
-  "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [],
+  "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
+   {
+    "title": "The Bank of Canada worried about the rise of private credit . Here why - National",
+    "url": "https://globalnews.ca/news/12031968/bank-of-canada-private-credit/",
+    "domain": "globalnews.ca",
+    "when": "Aug 23 · 18:30z"
+   },
+   {
+    "title": "Bank of Canada concerned over private credit risks - National",
+    "url": "https://globalnews.ca/news/12031910/bank-of-canada-private-credit-risks/",
+    "domain": "globalnews.ca",
+    "when": "Aug 23 · 14:45z"
+   },
+   {
+    "title": "Partners Group exits Gong Cha investment after Bain buyout of bubble tea brand",
+    "url": "https://www.businesstimes.com.sg/companies-markets/partners-group-exits-gong-cha-investment-after-bain-buyout-bubble-tea-brand",
+    "domain": "businesstimes.com.sg",
+    "when": "Aug 24 · 02:30z"
+   },
+   {
+    "title": "Partners Group exits tea chain Gong Cha after Bain buyout",
+    "url": "https://www.dealstreetasia.com/stories/partners-group-exits-gong-cha-492983",
+    "domain": "dealstreetasia.com",
+    "when": "Aug 24 · 07:30z"
+   },
+   {
+    "title": "Partners Group : Partners Group private credit strategy to exit Gong cha , one of the world fastest - growing global tea brands",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69384749-partners-group-partners-group-s-private-credit-strategy-to-exit-gong-cha-one-of-the-world-s-fastest-growing-global-tea-brands-023.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 24 · 06:00z"
+   },
+   {
+    "title": "Top high - yield savings rates Aug . 24 , 2026 : Up to 4 . 50 % APY",
+    "url": "https://fortune.com/article/best-savings-account-rates-8-24-2026/",
+    "domain": "fortune.com",
+    "when": "Aug 24 · 11:45z"
+   },
+   {
+    "title": "Here why the Bank of Canada is worried about the rise of private credit",
+    "url": "https://www.thepeterboroughexaminer.com/business/heres-why-the-bank-of-canada-is-worried-about-the-rise-of-private-credit/article_2ae47e9e-b534-5629-ac95-ff8730be1dad.html",
+    "domain": "thepeterboroughexaminer.com",
+    "when": "Aug 23 · 13:30z"
+   },
+   {
+    "title": "Amundi USD High Yield Corporate Bond ESG UCITS ETF Dist : Net Asset Value ( s ) ",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69386312-amundi-usd-high-yield-corporate-bond-esg-ucits-etf-dist-net-asset-value-s-015.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Aug 24 · 08:00z"
+   },
+   {
+    "title": "Fully Covered 11 - 14 % Yields : Big Cash Flow For Pennies On The Dollar",
+    "url": "https://seekingalpha.com/article/4939400-fully-covered-11-14-percent-yields-big-cash-flow-for-pennies-on-dollar",
+    "domain": "seekingalpha.com",
+    "when": "Aug 24 · 08:15z"
+   },
+   {
+    "title": "The Portfolio Blueprint for Building $19 , 000 a Month in Dividend Income",
+    "url": "https://247wallst.com/personal-finance/2026/08/23/the-portfolio-blueprint-for-building-19000-a-month-in-dividend-income/",
+    "domain": "247wallst.com",
+    "when": "Aug 23 · 13:30z"
+   },
+   {
+    "title": "Gilead Core Business Is Accelerating , But Will Its $11 Billion Pipeline Bet Pay Off ? ",
+    "url": "https://www.insidermonkey.com/blog/gileads-core-business-is-accelerating-but-will-its-11-billion-pipeline-bet-pay-off-1821686/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 24 · 02:00z"
+   },
+   {
+    "title": "TelOne seeks billions in broadband push - The Standard",
+    "url": "https://www.thestandard.co.zw/business/article/200059519/telone-seeks-billions-in-broadband-push",
+    "domain": "thestandard.co.zw",
+    "when": "Aug 23 · 13:15z"
+   }
+  ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
-    "title": "170 - year - old whiskey brand facing Chapter 7 has 99 problems",
-    "url": "https://finance.yahoo.com/small-business/articles/170-old-whiskey-brand-facing-014013556.html",
+    "title": "Liquor industry struggles grow with another Chapter 7 filing",
+    "url": "https://finance.yahoo.com/small-business/articles/liquor-industry-struggles-grow-another-213300135.html",
     "domain": "finance.yahoo.com",
-    "when": "Aug 21 · 13:45z"
+    "when": "Aug 23 · 22:00z"
    },
    {
-    "title": "Anderson Hay delays bankruptcy plan confirmation",
-    "url": "https://capitalpress.com/2026/08/21/anderson-hay-delays-bankruptcy-plan-confirmation/",
-    "domain": "capitalpress.com",
-    "when": "Aug 21 · 23:30z"
+    "title": "Billionaire David Tepper Has 16 % of His $7 . 5 Billion Appaloosa Portfolio in Amazon Stock . Is It Still a Buy ? ",
+    "url": "https://www.fool.com/investing/2026/08/23/billionaire-david-tepper-has-16-of-his-75-billion/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Aug 23 · 14:45z"
    },
    {
-    "title": "Auction cancelled for ex - Little Italy restaurant",
-    "url": "https://www.capitalgazette.com/2026/08/21/auction-for-ex-little-italy-restaurant-canceled-following-bankruptcy-filing/",
-    "domain": "capitalgazette.com",
-    "when": "Aug 21 · 13:45z"
+    "title": "Alex Jones gets Sandy Hook family Texas verdict reduced on appeal",
+    "url": "https://www.yahoo.com/news/us/articles/alex-jones-gets-sandy-hook-200949622.html",
+    "domain": "yahoo.com",
+    "when": "Aug 23 · 15:30z"
    },
    {
-    "title": "Art Penn PennantPark | Wealth Management",
-    "url": "https://www.wealthmanagement.com/author/art-penn",
-    "domain": "wealthmanagement.com",
-    "when": "Aug 21 · 22:30z"
+    "title": "Beijing moves to wrap up saga of troubled property giant Evergrande after founder gets life sentence",
+    "url": "https://macaudailytimes.com.mo/beijing-moves-to-wrap-up-saga-of-troubled-property-giant-evergrande-after-founder-gets-life-sentence.html",
+    "domain": "macaudailytimes.com.mo",
+    "when": "Aug 24 · 04:15z"
    },
    {
-    "title": "Deion Sander lawyer files motion to quash subpoena in son bankruptcy trial",
-    "url": "https://www.denverpost.com/2026/08/21/deion-sanders-quash-subpoena-bankruptcy/",
-    "domain": "denverpost.com",
-    "when": "Aug 21 · 19:45z"
+    "title": "Is Wolfspeed Stock a Buy on the Latest Dip ? ",
+    "url": "https://www.fool.com/investing/2026/08/23/is-wolfspeed-stock-a-buy-on-the-latest-dip/",
+    "domain": "fool.com",
+    "when": "Aug 23 · 15:00z"
    },
    {
-    "title": "Reviewing Hillman Solutions ( NASDAQ : HLMN ) and Ecosphere Technologies ( OTCMKTS : ESPHQ ) ",
-    "url": "https://www.tickerreport.com/banking-finance/13553259/reviewing-hillman-solutions-nasdaqhlmn-and-ecosphere-technologies-otcmktsesphq.html",
-    "domain": "tickerreport.com",
-    "when": "Aug 21 · 16:45z"
+    "title": "Fifth Circuit Modifies The Definition Of Limited Partner For Self - Employment Tax",
+    "url": "https://www.mondaq.com:443/unitedstates/income-tax/1833994/fifth-circuit-modifies-the-definition-of-limited-partner-for-self-employment-tax",
+    "domain": "mondaq.com",
+    "when": "Aug 24 · 08:15z"
    },
    {
-    "title": "Guangzhou court allows bank to apply for Evergrande bankruptcy liquidation",
-    "url": "http://global.chinadaily.com.cn/a/202608/21/WS6a880803a3106bc57421ccb7.html",
-    "domain": "global.chinadaily.com.cn",
-    "when": "Aug 21 · 15:00z"
+    "title": "125 - year - old mall retail anchor closes discount outlet , cuts 101 jobs",
+    "url": "https://finance.yahoo.com/small-business/articles/125-old-mall-retail-anchor-181700285.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 23 · 18:45z"
    },
    {
-    "title": "Deion Sanders Faces Subpoena Drama As Colorado Season Nears - ",
-    "url": "https://www.blackenterprise.com/deion-sanders-faces-subpoena-colorado-season/",
-    "domain": "blackenterprise.com",
-    "when": "Aug 21 · 22:30z"
+    "title": "Alex Jones damages cut to about $6M in Sandy Hook case – NBC 5 Dallas - Fort Worth",
+    "url": "https://www.nbcdfw.com/news/local/court-cuts-50m-judgment-against-infowars-alex-jones-over-falsely-labeling-newtown-killings-a-hoax/4066302/",
+    "domain": "nbcdfw.com",
+    "when": "Aug 23 · 15:30z"
    },
    {
-    "title": "Critical Review : Xtera Communications ( OTCMKTS : XCOMQ ) and Viasat ( NASDAQ : VSAT ) ",
-    "url": "https://www.themarketsdaily.com/2026/08/22/critical-review-xtera-communications-otcmktsxcomq-and-viasat-nasdaqvsat.html",
+    "title": "IBC @ Crossroads : A Decade of Evolution , The Road Ahead",
+    "url": "https://aninews.in/news/business/ibc-crossroads-a-decade-of-evolution-the-road-ahead20260824151726/",
+    "domain": "aninews.in",
+    "when": "Aug 24 · 11:15z"
+   },
+   {
+    "title": "AI Data Wars Begin As Google , Mercor And Micro1 Bid For Spirit Data",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-data-wars-begin-google-205245665.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 23 · 21:30z"
+   },
+   {
+    "title": "Iridium World Communications ( OTCMKTS : IRIDQ ) & KORE Group ( NYSE : KORE ) Financial Comparison",
+    "url": "https://www.themarketsdaily.com/2026/08/23/iridium-world-communications-otcmktsiridq-kore-group-nysekore-financial-comparison.html",
     "domain": "themarketsdaily.com",
-    "when": "Aug 22 · 11:00z"
+    "when": "Aug 23 · 18:30z"
    },
    {
-    "title": "Google $10M Spirit Airlines Data Bid Raises Privacy Concerns",
-    "url": "https://www.blackenterprise.com/google-spirit-airlines-data-employee-privacy/",
-    "domain": "blackenterprise.com",
-    "when": "Aug 21 · 22:30z"
-   },
-   {
-    "title": "Court slashes $50M judgment against Infowar Alex Jones over falsely calling school shooting a hoax",
-    "url": "https://www.adn.com/nation-world/2026/08/21/court-slashes-50m-judgment-against-infowars-alex-jones-over-falsely-calling-school-shooting-a-hoax/",
-    "domain": "adn.com",
-    "when": "Aug 21 · 17:30z"
-   },
-   {
-    "title": "Court cuts $50M judgment against Alex Jones over falsely labeling Sandy Hook killings a hoax",
-    "url": "https://www.durangoherald.com/articles/associated-press/court-slashes-50m-judgment-against-infowars-alex-jones-over-falsely-calling-school-shooting-a-hoa/",
-    "domain": "durangoherald.com",
-    "when": "Aug 22 · 04:00z"
-   },
-   {
-    "title": "Texas court cuts $50M judgment against Alex Jones in Newtown shooting hoax case",
-    "url": "https://www.10news.com/us-news/crime/texas-court-reduces-50m-judgment-against-infowars-alex-jones-over-falsely-labeling-newtown-killings-a-hoax",
-    "domain": "10news.com",
-    "when": "Aug 22 · 04:15z"
-   },
-   {
-    "title": "Infowar Alex Jones $50 million judgment reduced by court",
-    "url": "https://www.wcvb.com/article/infowars-alex-jones-judgment-slashed-falsely-calling-school-shooting-hoax/73495666",
-    "domain": "wcvb.com",
-    "when": "Aug 21 · 16:45z"
+    "title": "UK chain with 450 shops set to close popular city centre site in September",
+    "url": "https://www.express.co.uk/news/uk/2241745/uk-chain-450-shops-close-city-september",
+    "domain": "express.co.uk",
+    "when": "Aug 23 · 22:00z"
    }
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
