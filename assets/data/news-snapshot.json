@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24 12:08z",
+ "generated": "2026-08-25 12:09z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -163,88 +163,94 @@
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "HSBC Holdings plc ( HSBC ) vs . UBS Group AG ( UBS ): Two European Banking Giants , Two Very Different Stories This Quarter",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-holdings-plc-hsbc-vs-191318513.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 23 · 01:45z"
-   },
-   {
-    "title": "FireFly Metals readies $180m equity raising ; hires broker",
-    "url": "https://www.afr.com/street-talk/firefly-metals-readies-180m-equity-raising-hires-broker-20260823-p60qqe",
-    "domain": "afr.com",
-    "when": "Aug 23 · 04:45z"
-   },
-   {
-    "title": "AGL - run South Australian wind farms up for sale with $400m price tag",
-    "url": "https://www.afr.com/street-talk/agl-run-south-australian-wind-farms-up-for-sale-with-400m-price-tag-20260823-p60qp6",
-    "domain": "afr.com",
-    "when": "Aug 23 · 04:45z"
-   },
-   {
-    "title": "US Treasury bond buybacks : Trump move to lower yields and borrowing costs",
-    "url": "https://www.smh.com.au/business/the-economy/trump-s-desperate-move-to-mess-with-markets-is-destined-to-fail-20260820-p60pwb.html",
-    "domain": "smh.com.au",
-    "when": "Aug 23 · 05:00z"
-   },
-   {
-    "title": "Madden : How the probe into Mark Walter , Dodgers impacts salary cap push",
-    "url": "https://www.nydailynews.com/2026/08/22/bill-madden-mark-walter-dodgers-salary-cap-guggenheirm-deferred-salaries/",
-    "domain": "nydailynews.com",
-    "when": "Aug 22 · 17:30z"
-   },
-   {
-    "title": "Billionaire Ken Griffin Just Loaded Up on Eli Lilly Stock . Should You ? ",
-    "url": "https://www.fool.com/investing/2026/08/23/billionaire-ken-griffin-just-loaded-up-on-eli-lill/",
-    "domain": "fool.com",
-    "when": "Aug 23 · 10:15z"
-   },
-   {
-    "title": "No room for missteps in bank earnings after run - up in lender stocks : fund manager",
-    "url": "https://www.stcatharinesstandard.ca/business/no-room-for-missteps-in-bank-earnings-after-run-up-in-lenders-stocks-fund-manager/article_5acbc651-9fc8-5d4b-aa4c-54c4cd174468.html",
-    "domain": "stcatharinesstandard.ca",
-    "when": "Aug 23 · 11:15z"
-   },
-   {
-    "title": "Reviewing OFG Bancorp ( NYSE : OFG ) and Shinsei Bank ( OTCMKTS : SKLKY ) ",
-    "url": "https://www.themarketsdaily.com/2026/08/22/reviewing-ofg-bancorp-nyseofg-and-shinsei-bank-otcmktssklky.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 22 · 14:30z"
-   },
-   {
-    "title": "Eric Trump - backed Space - Eyes to appoint ex - Delta Force officer and ex - banker , sources say",
-    "url": "https://finance.yahoo.com/technology/articles/eric-trump-backed-space-eyes-120942923.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 14:30z"
-   },
-   {
-    "title": "Situational Awareness Bet Billions on Sandisk Before Imploding . The Supercycle Is Far From Over for SNDK Stock . ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/situational-awareness-bet-billions-sandisk-113001932.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 22 · 13:00z"
-   },
-   {
-    "title": "Promising Bank Stocks To Keep An Eye On – August 22nd",
-    "url": "https://www.tickerreport.com/banking-finance/13554615/promising-bank-stocks-to-keep-an-eye-on-august-22nd.html",
-    "domain": "tickerreport.com",
-    "when": "Aug 22 · 17:30z"
-   },
-   {
-    "title": "Jim Cramer Continued To Complain About JPMorgan Chase & Co . ( NYSE : JPM ) & Wells Fargo Multiple",
-    "url": "https://www.insidermonkey.com/blog/jim-cramer-continued-to-complain-about-jpmorgan-chase-co-nysejpm-wells-fargos-multiple-1821911/",
+    "title": "Hackers Breach Apollo Global ( APO ) Right as Assets Hit $1 Trillion",
+    "url": "https://www.insidermonkey.com/blog/hackers-breach-apollo-global-apo-right-as-assets-hit-1-trillion-1822255/",
     "domain": "insidermonkey.com",
-    "when": "Aug 23 · 03:30z"
+    "when": "Aug 24 · 15:30z"
    },
    {
-    "title": "Banco Santander ( LON : BNC ) Stock Price Crosses Above Fifty Day Moving Average – Should You Sell ? ",
-    "url": "https://www.themarketsdaily.com/2026/08/22/banco-santander-lonbnc-stock-price-crosses-above-fifty-day-moving-average-should-you-sell.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 22 · 16:00z"
+    "title": "Superhero on track for $186m valuation as Salter Bros tips in",
+    "url": "https://www.afr.com/street-talk/superhero-on-track-for-176m-valuation-as-salter-bros-tips-in-20260825-p60rck",
+    "domain": "afr.com",
+    "when": "Aug 25 · 08:15z"
    },
    {
-    "title": "Solerus Announces Plans for New Growth Fund for High - Net - Worth Investors",
-    "url": "https://www.manilatimes.net/2026/08/22/tmt-newswire/globenewswire/solerus-announces-plans-for-new-growth-fund-for-high-net-worth-investors/2410345",
-    "domain": "manilatimes.net",
-    "when": "Aug 22 · 12:45z"
+    "title": "Air dried dog food company Eureka Pet Co hires Maris Capital to hunt for investors",
+    "url": "https://www.afr.com/street-talk/pe-hounds-sniff-out-dog-food-business-eureka-pet-co-20260825-p60r7u",
+    "domain": "afr.com",
+    "when": "Aug 25 · 11:15z"
+   },
+   {
+    "title": "Something wild happened to applications to work at Citi",
+    "url": "https://www.efinancialcareers.com/news/applications-to-work-at-citi",
+    "domain": "efinancialcareers.com",
+    "when": "Aug 25 · 11:00z"
+   },
+   {
+    "title": "RadPartners signs deal to acquire $1 billion Everlight Radiology",
+    "url": "https://www.afr.com/street-talk/radpartners-signs-deal-to-acquire-1-billion-everlight-radiology-20260824-p60qwu",
+    "domain": "afr.com",
+    "when": "Aug 24 · 21:45z"
+   },
+   {
+    "title": "KBW Tom Michaud on running a bank , bank runs and recovering from 9 / 11",
+    "url": "https://www.americanbanker.com/news/kbws-tom-michaud-on-running-a-bank-bank-runs-and-recovering-from-9-11",
+    "domain": "americanbanker.com",
+    "when": "Aug 24 · 13:30z"
+   },
+   {
+    "title": "What qualifications do you need to work for a hedge fund ? ",
+    "url": "https://www.efinancialcareers.com/news/cfa-mba-caia-phd-or-masters-what-do-hedge-funds-want",
+    "domain": "efinancialcareers.com",
+    "when": "Aug 24 · 15:45z"
+   },
+   {
+    "title": "Ares Leads $2 . 2 Billion Healthcare Loan - Los Angeles Business Journal",
+    "url": "https://labusinessjournal.com/finance/ares-leads-2-2-billion-healthcare-loan/",
+    "domain": "labusinessjournal.com",
+    "when": "Aug 24 · 16:30z"
+   },
+   {
+    "title": "India Inc equity fundraising surges past Rs 1 . 11 lakh crore on strong inflows in July - August",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/india-incs-equity-fundraising-surges-past-rs-1-11-lakh-crore-on-strong-inflows-in-july-august/articleshow/133485341.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Aug 25 · 02:00z"
+   },
+   {
+    "title": "Some compliance professionals are earning $475k+",
+    "url": "https://www.efinancialcareers.com/news/compliance-pay-salaries-bonuses",
+    "domain": "efinancialcareers.com",
+    "when": "Aug 25 · 11:00z"
+   },
+   {
+    "title": "Trip . com ( TCOM ): China Largest Travel Platform Set for Long Term Gains",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/trip-com-tcom-china-largest-120739032.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 24 · 13:00z"
+   },
+   {
+    "title": "Berkshire Hathaway ( BRK - B ) Cash Pile Just Shrank for the First Time in Years . Is Greg Abel Finally Spending ? ",
+    "url": "https://www.insidermonkey.com/blog/berkshire-hathaway-brk-bs-cash-pile-just-shrank-for-the-first-time-in-years-is-greg-abel-finally-spending-1810946/",
+    "domain": "insidermonkey.com",
+    "when": "Aug 24 · 19:45z"
+   },
+   {
+    "title": "The skills you need for a career in financial services compliance",
+    "url": "https://www.efinancialcareers.com/news/skills-needed-compliance",
+    "domain": "efinancialcareers.com",
+    "when": "Aug 24 · 15:45z"
+   },
+   {
+    "title": "JPMorgan , Morgan Stanley Fight Suits Over Role in Buyout Deals",
+    "url": "https://www.claimsjournal.com/news/national/2026/08/25/339748.htm",
+    "domain": "claimsjournal.com",
+    "when": "Aug 25 · 05:45z"
+   },
+   {
+    "title": "A Goldman portfolio of favorite stocks is up 29 % this year . Here are the new members",
+    "url": "https://www.cnbc.com/2026/08/24/a-goldman-portfolio-of-favorite-stocks-is-up-29percent-this-year-here-are-the-new-members.html",
+    "domain": "cnbc.com",
+    "when": "Aug 24 · 20:15z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
@@ -311,88 +317,70 @@
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "MP Materials vs . The Metals Company : Which Rare - Earth Bet Actually Pays Off First ? ",
-    "url": "https://www.fool.com/investing/2026/08/23/mp-materials-vs-the-metals-company-which-rare-eart/",
-    "domain": "fool.com",
-    "when": "Aug 23 · 12:00z"
+    "title": "The Amazon faces a radioactive future",
+    "url": "http://www.brazilsun.com/news/279263271/the-amazon-faces-a-radioactive-future",
+    "domain": "brazilsun.com",
+    "when": "Aug 25 · 08:15z"
    },
    {
-    "title": "Sandur Manganese forays into hospitality with new wholly owned subsidiary",
-    "url": "https://www.business-standard.com/markets/capital-market-news/sandur-manganese-forays-into-hospitality-with-new-wholly-owned-subsidiary-126082400083_1.html",
+    "title": "BHP hits R4 - trillion JSE valuation as copper fuels bullish outlook",
+    "url": "https://www.businessday.co.za/companies/2026-08-25-bhp-hits-r4-trillion-jse-valuation-as-copper-fuels-bullish-outlook/",
+    "domain": "businessday.co.za",
+    "when": "Aug 25 · 05:45z"
+   },
+   {
+    "title": "Brazil , US to meet on tariffs after Lula - Trump call",
+    "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2868864-brazil-us-to-meet-on-tariffs-after-lula-trump-call",
+    "domain": "argusmedia.com",
+    "when": "Aug 24 · 17:45z"
+   },
+   {
+    "title": "The Metals Royalty Company Announces Closing of Additional 1 . 0 % Mesabi ... ",
+    "url": "https://www.pr-inside.com/the-metals-royalty-company-announces-closing-of-additional-1-0-mesabi-r5215673.htm",
+    "domain": "pr-inside.com",
+    "when": "Aug 24 · 21:30z"
+   },
+   {
+    "title": "Coal India plans ₹1 trillion investment in coal evacuation , gasification",
+    "url": "https://www.livemint.com/companies/news/coal-india-plans-rs-1-trillion-investment-in-coal-evacuation-gasification-11787628695114.html",
+    "domain": "livemint.com",
+    "when": "Aug 25 · 09:15z"
+   },
+   {
+    "title": "Locals concerned as Trump admin fast - tracks public process for Wyoming rare earth mine – Winnipeg Free Press",
+    "url": "https://www.winnipegfreepress.com/arts-and-life/life/greenpage/2026/08/24/locals-concerned-as-trump-admin-fast-tracks-public-process-for-wyoming-rare-earth-mine",
+    "domain": "winnipegfreepress.com",
+    "when": "Aug 24 · 21:45z"
+   },
+   {
+    "title": "Greenland Mines Delivers Landmark S - K 1300 Mineral Resource Estimate for Sarfartoq in Greenland ; First - Ever Indicated Resource and First Combined Open Pit / Underground Resource for the Critical Nd - Pr Magnet Rare Earths Project",
+    "url": "https://leaderpost.com/press-releases/globe-newswire/greenland-mines-delivers-landmark-s-k-1300-mineral-resource-estimate-for-sarfartoq-in-greenland-first-ever-indicated-resource-and-first-combined-open-pit-underground-resource-for-the-critical-nd-pr-m/",
+    "domain": "leaderpost.com",
+    "when": "Aug 24 · 14:45z"
+   },
+   {
+    "title": "Is MP Materials Stock a Buy After Earnings ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-stock-buy-earnings-145000917.html",
+    "domain": "finance.yahoo.com",
+    "when": "Aug 24 · 15:30z"
+   },
+   {
+    "title": "India Steel Sector Continues Its Upward Trajectory in Apr - Jul 2026 | Odisha Diary , Latest Odisha News , Breaking News Odisha",
+    "url": "https://orissadiary.com/indias-steel-sector-continues-its-upward-trajectory-in-apr-jul-2026/",
+    "domain": "orissadiary.com",
+    "when": "Aug 25 · 11:15z"
+   },
+   {
+    "title": "China Rare - Earth Trade Leverage Looms Over Japan , United States",
+    "url": "https://foreignpolicy.com/2026/08/24/rare-earths-china-japan-trade-united-states-trump-supply-chain/",
+    "domain": "foreignpolicy.com",
+    "when": "Aug 25 · 10:30z"
+   },
+   {
+    "title": "West Asia war doubled freight costs , says Jindal Steel MD V R Sharma",
+    "url": "https://www.business-standard.com/companies/people/w-asia-crisis-doubled-freight-costs-hurt-competitiveness-jindal-steel-md-126082400981_1.html",
     "domain": "business-standard.com",
-    "when": "Aug 24 · 06:00z"
-   },
-   {
-    "title": "BHP shares hit record $67 . 72 as copper rally powers miners higher",
-    "url": "https://www.proactiveinvestors.com.au/companies/news/1097451/bhp-shares-hit-record-67-72-as-copper-rally-powers-miners-higher-1097451.html",
-    "domain": "proactiveinvestors.com.au",
-    "when": "Aug 24 · 07:15z"
-   },
-   {
-    "title": "Critical minerals offer a big potential | The Manila Times",
-    "url": "https://www.manilatimes.net/2026/08/24/opinion/editorial/critical-minerals-offer-a-big-potential/2410554",
-    "domain": "manilatimes.net",
-    "when": "Aug 23 · 17:15z"
-   },
-   {
-    "title": "The Maurutania Iron Ore Train : Steel Veins Through the Sahara",
-    "url": "https://www.africaoutlookmag.com/mining/the-maurutania-iron-ore-train-steel-veins-through-the-sahara",
-    "domain": "africaoutlookmag.com",
-    "when": "Aug 24 · 10:45z"
-   },
-   {
-    "title": "De Beers Sale Could Face 18 Months Of Regulatory Reviews",
-    "url": "https://www.idexonline.com/FullArticle?Id=51357",
-    "domain": "idexonline.com",
-    "when": "Aug 24 · 04:30z"
-   },
-   {
-    "title": "2 rescued , 22 missing after China - bound iron ore vessel sinks off Odisha coast",
-    "url": "https://www.hindustantimes.com/india-news/2-rescued-22-missing-after-china-bound-iron-ore-vessel-sinks-off-odisha-coast-101787484142328.html",
-    "domain": "hindustantimes.com",
-    "when": "Aug 23 · 12:15z"
-   },
-   {
-    "title": "Copper , Tungsten and Manganese : Bulgaria Strategic Mineral Potential - Novinite . com",
-    "url": "https://www.novinite.com/articles/240222/Copper,+Tungsten+and+Manganese:+Bulgaria%E2%80%99s+Strategic+Mineral+Potential",
-    "domain": "novinite.com",
-    "when": "Aug 24 · 06:15z"
-   },
-   {
-    "title": "2 Rescued Off Bay of Bengal as Indian Coast Guard Leads Search Op",
-    "url": "https://www.deccanchronicle.com/nation/current-affairs/2-survivors-from-panama-flagged-vessel-rescued-search-ops-underway-sonowal-1981548",
-    "domain": "deccanchronicle.com",
-    "when": "Aug 23 · 12:00z"
-   },
-   {
-    "title": "Navy , ICG step up search operations as MV Ocean Winner still untraceable with 22 crewmen",
-    "url": "https://www.newindianexpress.com/states/odisha/2026/Aug/24/navy-icg-step-up-search-operations-as-mv-ocean-winner-still-untraceable-with-22-crewmen",
-    "domain": "newindianexpress.com",
-    "when": "Aug 24 · 05:45z"
-   },
-   {
-    "title": "Landslide at waste mound in Guinea capital kills 30 , government says | Guinea",
-    "url": "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens",
-    "domain": "theguardian.com",
-    "when": "Aug 23 · 23:00z"
-   },
-   {
-    "title": "Landslide at Guinea landfill kills 30 , government says",
-    "url": "https://www.ksl.com:443/article/51615197/landslide-at-guinea-landfill-kills-30-government-says",
-    "domain": "ksl.com",
-    "when": "Aug 24 · 03:30z"
-   },
-   {
-    "title": "Landslide at Guinea landfill kills 30",
-    "url": "https://www.samaa.tv/2087355686-landslide-at-guinea-landfill-kills-30",
-    "domain": "samaa.tv",
-    "when": "Aug 24 · 07:15z"
-   },
-   {
-    "title": "Panama - flagged ship sinks off Odisha , 2 rescued ; search on for 22 : Shipping minister",
-    "url": "https://timesofindia.indiatimes.com/india/panama-flagged-ship-sinks-off-odisha-2-rescued-search-on-for-22-shipping-minister/articleshow/133442072.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Aug 23 · 16:00z"
+    "when": "Aug 24 · 20:00z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -756,94 +744,16 @@
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Pride Hotels Eyes ₹1 , 000 - Crore IPO By December , Expansion Pipeline To Take Portfolio To 72 Properties",
-    "url": "https://www.freepressjournal.in/business/pride-hotels-eyes-1000-crore-ipo-by-december-expansion-pipeline-to-take-portfolio-to-72-properties",
-    "domain": "freepressjournal.in",
-    "when": "Aug 23 · 07:45z"
+    "title": "Shares of this sandwich shop may surge , Loop Capital says",
+    "url": "https://www.cnbc.com/2026/08/24/shares-of-this-sandwich-shop-may-surge-loop-capital-says-.html",
+    "domain": "cnbc.com",
+    "when": "Aug 24 · 15:45z"
    },
    {
-    "title": "Upcoming IPO : Gemini Edibles & Fats India files draft papers to raise funds via public issue . Details here",
-    "url": "https://www.livemint.com/market/ipo/upcoming-ipo-gemini-edibles-fats-india-files-draft-papers-to-raise-funds-via-public-issue-details-here-11787469576854.html",
-    "domain": "livemint.com",
-    "when": "Aug 23 · 08:30z"
-   },
-   {
-    "title": "Anthropic market debut could beat recent IPO record set by SpaceX",
-    "url": "https://www.dailysabah.com/business/tech/anthropic-market-debut-could-beat-recent-ipo-record-set-by-spacex",
-    "domain": "dailysabah.com",
-    "when": "Aug 23 · 11:15z"
-   },
-   {
-    "title": "Shein PE backers may have to hold on a little longer",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/sheins-pe-backers-may-hold-212550250.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 23 · 04:00z"
-   },
-   {
-    "title": "A91 Partners set to cash out ₹445 crore from Atomberg ahead of IPO",
-    "url": "https://www.thehindubusinessline.com/companies/a91-partners-set-to-cash-out-445-crore-from-atomberg-ahead-of-ipo/article71378754.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Aug 23 · 06:15z"
-   },
-   {
-    "title": "Anthropic IPO could break SpaceX record with $2 trillion valuation",
-    "url": "http://www.bgnes.com/technology/anthropic-ipo-could-break-spacex-record-with-2-trillion-valuation",
-    "domain": "bgnes.com",
-    "when": "Aug 22 · 15:30z"
-   },
-   {
-    "title": "Pride Hotels steps up expansion , plans ₹1 , 000 crore IPO by December",
-    "url": "https://www.business-standard.com/markets/ipo/pride-hotels-steps-up-expansion-plans-1-000-crore-ipo-by-december-126082300157_1.html",
-    "domain": "business-standard.com",
-    "when": "Aug 23 · 08:00z"
-   },
-   {
-    "title": "Pride Hotels steps up expansion , plans Rs 1 , 000 - cr IPO by December",
-    "url": "https://www.dailyexcelsior.com/pride-hotels-steps-up-expansion-plans-rs-1000-cr-ipo-by-december/",
-    "domain": "dailyexcelsior.com",
-    "when": "Aug 23 · 06:30z"
-   },
-   {
-    "title": "Anthropic market debut could break SpaceX IPO record : media",
-    "url": "https://www.digitaljournal.com/article/anthropic-market-debut-could-break-spacex-ipo-record-media/",
-    "domain": "digitaljournal.com",
-    "when": "Aug 22 · 16:00z"
-   },
-   {
-    "title": "Anthropic Investors Want a $2 Trillion IPO . The Last Record - Setting IPO Has Made Its Buyers Nothing in Two Months . ",
-    "url": "https://www.fool.com/investing/2026/08/22/anthropic-s-investors-want-a-usd2-trillion-ipo-the-last-record-setting-ipo-has-made-its-buyers-nothing-in-two-months/",
-    "domain": "fool.com",
-    "when": "Aug 23 · 00:45z"
-   },
-   {
-    "title": "Bangkok Post - Anthropic IPO could break SpaceX record",
-    "url": "https://www.bangkokpost.com/business/general/3306204/anthropic-ipo-could-break-spacex-record",
-    "domain": "bangkokpost.com",
-    "when": "Aug 22 · 15:00z"
-   },
-   {
-    "title": "SpaceX Bounced 35 % Off Its Lows Then Another Lockup Hit . Here Whether the Recovery Is Real or a Trap for Investors . ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-bounced-35-off-lows-090401271.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 23 · 10:30z"
-   },
-   {
-    "title": "Gemini Edibles & Fats IPO : Oil maker flags raw material , regional concentration , other risks in DRHP",
-    "url": "https://www.prokerala.com/news/articles/a1803514.html",
-    "domain": "prokerala.com",
-    "when": "Aug 22 · 15:30z"
-   },
-   {
-    "title": "Pomerantz LLP Notifies Investors of Class Action Against EquipmentShare . com ... ",
-    "url": "https://www.pr-inside.com/pomerantz-llp-notifies-investors-of-class-action-against-equipmentshare-com-r5215017.htm",
-    "domain": "pr-inside.com",
-    "when": "Aug 22 · 18:00z"
-   },
-   {
-    "title": "Anthropic eyeing $100B in blockbuster IPO ( ANTHRO : Private ) ",
-    "url": "https://seekingalpha.com/news/4636038-anthropic-eyeing-100b-blockbuster-ipo",
-    "domain": "seekingalpha.com",
-    "when": "Aug 22 · 13:15z"
+    "title": "Oura Plans $3 Billion IPO , Aiming for $16 Billion Valuation",
+    "url": "https://95wxtk.iheart.com/content/2026-08-25-oura-plans-3-billion-ipo-aiming-for-16-billion-valuation/",
+    "domain": "95wxtk.iheart.com",
+    "when": "Aug 25 · 08:00z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
