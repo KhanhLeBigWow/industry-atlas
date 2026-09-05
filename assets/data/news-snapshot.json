@@ -1,78 +1,72 @@
 {
- "generated": "2026-09-04 15:18z",
+ "generated": "2026-09-05 14:13z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "Crude Oil Prices , Geopolitical Tensions to Influence Indian Stock Market",
-    "url": "https://www.rediff.com/business/report/crude-oil-prices-geopolitical-tensions-to-influence-indian-stock-market/20260823.htm",
-    "domain": "rediff.com",
-    "when": "Aug 23 · 13:15z"
+    "title": "Trump warns hell cut trade with some countries if Fed doesnt lower rates",
+    "url": "https://www.upi.com/Top_News/US/2026/09/04/trump-federal-reserve-interest-rate/8711788541853/",
+    "domain": "upi.com",
+    "when": "Sep 4 · 21:45z"
    },
    {
-    "title": "One Sentence in the Fed Meeting Minutes Is Nightmare Fuel for Fed Chair Kevin Warsh and the Stock Market",
-    "url": "https://www.fool.com/investing/2026/08/24/one-sentence-fed-minutes-nightmare-fuel-fed-warsh/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Aug 24 · 10:45z"
+    "title": "Gold Price Drops as Fed Rate Rise Looms on US Jobs Surprise",
+    "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-price-jobs-fed-rates-090420261",
+    "domain": "bullionvault.com",
+    "when": "Sep 4 · 18:15z"
    },
    {
-    "title": "New Fed chair faces critical test at Jackson Hole as inflation fears mount",
-    "url": "https://www.theguardian.com/business/2026/aug/24/fed-chair-kevin-warsh-faces-critical-test-jackson-hole-inflation-fears-mount",
-    "domain": "theguardian.com",
-    "when": "Aug 24 · 06:00z"
+    "title": "Mortgage rates hit highest level since 2025 , adding to the affordability crunch",
+    "url": "https://komonews.com/news/nation-world/mortgage-rates-hit-highest-level-since-2025-adding-to-the-affordability-crunch-bond-market-yields-housing-sales-construction",
+    "domain": "komonews.com",
+    "when": "Sep 4 · 16:15z"
    },
    {
-    "title": "The MoA Week In Review – OT 2026 - 181 – Moon of Alabama",
-    "url": "https://www.moonofalabama.org/2026/08/the-moa-week-in-review-ot-2026-181.html",
-    "domain": "moonofalabama.org",
-    "when": "Aug 23 · 17:45z"
+    "title": "Trump Calls For Interest Rate Cut",
+    "url": "https://woc1420.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+    "domain": "woc1420.iheart.com",
+    "when": "Sep 4 · 18:15z"
    },
    {
-    "title": "Asian shares mostly decline as bond market pressure mounts – Winnipeg Free Press",
-    "url": "https://www.winnipegfreepress.com/business/2026/08/24/asian-shares-mostly-decline-as-bond-market-pressure-mounts",
-    "domain": "winnipegfreepress.com",
-    "when": "Aug 24 · 06:15z"
+    "title": "Trump Calls For Interest Rate Cut | News Radio 920 AM & 104 . 7 FM",
+    "url": "https://newsradiori.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+    "domain": "newsradiori.iheart.com",
+    "when": "Sep 4 · 18:15z"
    },
    {
-    "title": "Trump Sparks Mockery After Suggesting Baffling New Use For The Military",
-    "url": "https://www.huffingtonpost.co.uk/entry/trump-mockery-military-bond-market_uk_6a8aae9ae4b0832f43175d20",
-    "domain": "huffingtonpost.co.uk",
-    "when": "Aug 23 · 12:00z"
+    "title": "Trump Calls For Interest Rate Cut | Jet Radio 1400",
+    "url": "https://jetradio1400.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+    "domain": "jetradio1400.iheart.com",
+    "when": "Sep 4 · 18:45z"
    },
    {
-    "title": "Nifty set for positive start ; global yields , Iran tensions in focus",
-    "url": "https://www.business-standard.com/markets/capital-market-news/nifty-set-for-positive-start-global-yields-iran-tensions-in-focus-126082400104_1.html",
-    "domain": "business-standard.com",
-    "when": "Aug 24 · 06:00z"
+    "title": "Trump Calls For Interest Rate Cut | NewsRadio WKCY",
+    "url": "https://newsradiowkcy.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+    "domain": "newsradiowkcy.iheart.com",
+    "when": "Sep 4 · 16:45z"
    },
    {
-    "title": "Bessent  Treasury twist  fails to tame bond yields as markets defy Trump administration",
-    "url": "https://www.moneycontrol.com/world/bessent-s-treasury-twist-fails-to-tame-bond-yields-as-markets-defy-trump-administration-article-14013416.html",
-    "domain": "moneycontrol.com",
-    "when": "Aug 24 · 02:30z"
+    "title": "Trump Calls For Interest Rate Cut | News Radio 830 KHVH",
+    "url": "https://khvhradio.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+    "domain": "khvhradio.iheart.com",
+    "when": "Sep 4 · 18:00z"
    },
    {
-    "title": "Transcript : Neel Kashkari , Minneapolis Fed president and CEO , on  Face the Nation with Margaret Brennan , Aug . 23 , 2026",
-    "url": "https://finance.yahoo.com/economy/policy/articles/transcript-neel-kashkari-minneapolis-fed-170311550.html",
-    "domain": "finance.yahoo.com",
-    "when": "Aug 23 · 17:45z"
+    "title": "Trump Calls For Interest Rate Cut | NewsRadio WIOD",
+    "url": "https://wiod.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+    "domain": "wiod.iheart.com",
+    "when": "Sep 4 · 18:00z"
    },
    {
-    "title": "Asian shares mostly decline as bond market pressure mounts | The Asahi Shimbun : Breaking News , Japan News and Analysis",
-    "url": "https://www.asahi.com/ajw/articles/16830460",
-    "domain": "asahi.com",
-    "when": "Aug 24 · 07:15z"
+    "title": "Trump Calls For Interest Rate Cut | NewsRadio 1370 AM & 92 . 9 FM WSPD",
+    "url": "https://wspd.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+    "domain": "wspd.iheart.com",
+    "when": "Sep 4 · 18:00z"
    },
    {
-    "title": "Asian shares mostly decline as bond market pressure mounts",
-    "url": "https://www.news4jax.com/news/2026/08/24/asian-shares-mostly-decline-as-bond-market-pressure-mounts/",
-    "domain": "news4jax.com",
-    "when": "Aug 24 · 06:00z"
-   },
-   {
-    "title": "The treasury bond mess : is this the demise of the US as a safe haven ? ",
-    "url": "https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt",
-    "domain": "theguardian.com",
-    "when": "Aug 24 · 10:45z"
+    "title": "Trump Calls For Interest Rate Cut | NewsRadio WFLA",
+    "url": "https://wflanews.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+    "domain": "wflanews.iheart.com",
+    "when": "Sep 4 · 18:00z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
@@ -900,76 +894,88 @@
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "Pomerantz LLP Brings Class Action Litigation Against Datavault AI Inc .– ... ",
-    "url": "https://www.pr-inside.com/pomerantz-llp-brings-class-action-litigation-against-datavault-ai-inc-r5215020.htm",
-    "domain": "pr-inside.com",
-    "when": "Aug 22 · 18:00z"
+    "title": "China Xi to bring large CEO delegation on US visit : Sources",
+    "url": "https://www.channelnewsasia.com/east-asia/china-us-visit-ceo-delegation-business-6362951",
+    "domain": "channelnewsasia.com",
+    "when": "Sep 4 · 20:45z"
    },
    {
-    "title": "A State College Unwind That Benefits Seven Mountains Media | Radio & Television Business Report",
-    "url": "https://rbr.com/a-state-college-unwind-that-benefits-seven-mountains-media/",
-    "domain": "rbr.com",
-    "when": "Aug 22 · 14:00z"
+    "title": "Stocks making big moves this week : SAIC , Reddit , Fortrea , GitLab , and G - III",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-week-203810253.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 4 · 21:15z"
    },
    {
-    "title": "Paramount and California to hold preliminary talks on Warner Bros deal",
-    "url": "https://www.business-standard.com/india-news/paramount-and-california-to-hold-preliminary-talks-on-warner-bros-deal-126082300145_1.html",
-    "domain": "business-standard.com",
-    "when": "Aug 23 · 06:15z"
+    "title": "Is News ( NWSA ) A Bargain On Its Q2 Earnings Beat And Digital Ad Growth ? ",
+    "url": "https://finance.yahoo.com/media-advertising/articles/news-nwsa-bargain-q2-earnings-070738296.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 5 · 08:00z"
    },
    {
-    "title": "Govt cannot force private landowners to execute sale deeds for acquisition of land : Allahabad HC",
-    "url": "https://economictimes.indiatimes.com/news/india/govt-cannot-force-private-landowners-to-execute-sale-deeds-for-acquisition-of-land-allahabad-hc/articleshow/133433793.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 23 · 04:45z"
+    "title": "LivePerson Shareholders Approved SoundHound Deal . Does Closing Solve the Hard Part ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/liveperson-shareholders-approved-soundhound-deal-180827339.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 5 · 01:15z"
    },
    {
-    "title": "  Genocide powered by Oracle : Why Mark Ruffalo slammed Larry Ellison $111 Paramount merger with Warner Bros",
-    "url": "https://www.theweek.in/news/entertainment/2026/08/23/genocide-powered-by-oracle-why-mark-ruffalo-slammed-billionaire-larry-ellisons-111-paramount-merger-with-warner-bros.html",
-    "domain": "theweek.in",
-    "when": "Aug 23 · 09:30z"
+    "title": "CEO Brian Niccol Just Announced Incredible News for Starbucks Investors",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ceo-brian-niccol-just-announced-070501651.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 5 · 07:45z"
    },
    {
-    "title": "Deputy Commissioner inspects Mother and Child Hospital in Yadgir city , orders infrastructure boost",
-    "url": "https://www.thehindu.com/news/national/karnataka/deputy-commissioner-inspects-mother-and-child-hospital-in-yadgir-city-orders-infrastructure-boost/article71377591.ece",
-    "domain": "thehindu.com",
-    "when": "Aug 22 · 13:15z"
+    "title": "Hormel ( HRL ) Expanded Adjusted Operating Margin Despite a Volume Decline . Can Cost Savings Carry the Turnaround ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hormel-hrl-expanded-adjusted-operating-171850605.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 4 · 18:00z"
    },
    {
-    "title": "Mark Ruffalo shuts down rumours of antisemitism",
-    "url": "https://www.thenews.com.pk/latest/1413290-mark-ruffalo-shuts-down-rumours-of-antisemitism",
-    "domain": "thenews.com.pk",
-    "when": "Aug 23 · 11:00z"
+    "title": "International Business : Xi revives business diplomacy for upcoming Washington trip",
+    "url": "https://www.gdnonline.com:443/Details/1405386",
+    "domain": "gdnonline.com",
+    "when": "Sep 4 · 22:30z"
    },
    {
-    "title": "NexG welcomes govt decision not to acquire Datasonic",
-    "url": "https://www.freemalaysiatoday.com/category/nation/2026/08/23/nexg-welcomes-govt-decision-not-to-acquire-datasonic",
-    "domain": "freemalaysiatoday.com",
-    "when": "Aug 23 · 08:45z"
+    "title": "  Aim to Empower 100 million AI builder : Hugging Face CEO Clement Delangue as Nvidia buys AI startup for $12 . 93 billion",
+    "url": "https://www.livemint.com/ai/artificial-intelligence/aim-to-empower-100-million-ai-builders-hugging-face-ceo-clement-delangue-as-nvidia-buys-ai-startup-for-12-93-billion-11788601972449.html",
+    "domain": "livemint.com",
+    "when": "Sep 5 · 12:00z"
    },
    {
-    "title": "PSE approves RRHI delisting",
-    "url": "https://www.philstar.com/business/2026/08/23/2551053/pse-approves-rrhi-delisting",
-    "domain": "philstar.com",
-    "when": "Aug 22 · 18:00z"
+    "title": "NVIDIA to Acquire Hugging Face for Nearly $13 Billion",
+    "url": "https://propakistani.pk/2026/09/05/nvidia-to-acquire-hugging-face-for-nearly-13-billion/",
+    "domain": "propakistani.pk",
+    "when": "Sep 4 · 21:15z"
    },
    {
-    "title": "Nearly 40 , 000 bottles of eye drops recalled nationwide over possible contamination",
-    "url": "https://www.fox29.com/news/nearly-40000-bottles-eye-drops-recalled-nationwide-over-possible-contamination",
-    "domain": "fox29.com",
-    "when": "Aug 22 · 12:30z"
+    "title": "Brian Madden Top Picks for Sept . 4 , 2026 – BNN Bloomberg",
+    "url": "https://www.bnnbloomberg.ca/markets/2026/09/04/brian-maddens-top-picks-for-sept-4-2026/",
+    "domain": "bnnbloomberg.ca",
+    "when": "Sep 4 · 18:45z"
    },
    {
-    "title": "KMPDU opposes Sh5m fine , five - year jail term for detaining patients",
-    "url": "https://www.standardmedia.co.ke/health/health-science/article/2001555944/kmpdu-opposes-sh5m-fine-five-year-jail-term-for-detaining-patients",
-    "domain": "standardmedia.co.ke",
-    "when": "Aug 22 · 13:45z"
+    "title": "Robbins LLP Urges DLVT Stockholders to Contact the Firm for Information About the Class Action Lawsuit Against Datavault AI Inc . ",
+    "url": "http://www.prnewswire.com/news-releases/robbins-llp-urges-dlvt-stockholders-to-contact-the-firm-for-information-about-the-class-action-lawsuit-against-datavault-ai-inc-302870454.html",
+    "domain": "prnewswire.com",
+    "when": "Sep 5 · 00:15z"
    },
    {
-    "title": "CJ CheilJedang California kitchen feeds Bibigo US rise",
-    "url": "https://www.koreaherald.com/article/10849133",
-    "domain": "koreaherald.com",
-    "when": "Aug 23 · 08:30z"
+    "title": "Acquisitive Strategy Offers Long - Term Prospects for QXO Inc . ( QXO ) Despite Dilution and Integration Risks",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/acquisitive-strategy-offers-long-term-125906273.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 5 · 13:30z"
+   },
+   {
+    "title": "Adobe just handed Photoshop to someone who has never run it",
+    "url": "https://thenextweb.com/news/adobe-chakravarthy-ceo-enterprise-side-succession",
+    "domain": "thenextweb.com",
+    "when": "Sep 4 · 19:15z"
+   },
+   {
+    "title": "Jim Cramer on PG & E ( PCG ): Wildfire Liability Puts Growth Plans Under Pressure",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-pg-e-pcg-102609345.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 5 · 11:00z"
    }
   ]
  }
