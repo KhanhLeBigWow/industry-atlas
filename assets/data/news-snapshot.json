@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08 15:28z",
+ "generated": "2026-09-09 15:26z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -231,64 +231,82 @@
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Sinopec Achieves Solid Operating Results in the First Half of 2026",
-    "url": "https://www.pr-inside.com/sinopec-achieves-solid-operating-results-in-the-first-half-of-r5215429.htm",
-    "domain": "pr-inside.com",
-    "when": "Aug 24 · 07:15z"
-   },
-   {
-    "title": "Press Release",
-    "url": "https://www.mining.com/press-release?id=6a8be295936fe3d2a96091d2",
-    "domain": "mining.com",
-    "when": "Aug 24 · 06:45z"
-   },
-   {
-    "title": "Stocks to watch : Reliance Industries , Power Grid , IREDA among shares to be in focus today . Details here",
-    "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-reliance-industries-power-grid-ireda-among-shares-to-be-in-focus-today-details-here-11787536183776.html",
-    "domain": "livemint.com",
-    "when": "Aug 24 · 02:30z"
-   },
-   {
-    "title": "Sinopec H1 Profit Climbs On Higher Oil Prices ; Stock Up",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69384921-sinopec-h1-profit-climbs-on-higher-oil-prices-stock-up-020.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Aug 24 · 06:00z"
-   },
-   {
-    "title": "Best Oil Stocks To Add to Your Watchlist – August 23rd",
-    "url": "https://www.themarketsdaily.com/2026/08/23/best-oil-stocks-to-add-to-your-watchlist-august-23rd.html",
-    "domain": "themarketsdaily.com",
-    "when": "Aug 23 · 18:30z"
-   },
-   {
-    "title": "The energy challenges of the next presidency",
-    "url": "https://cyprus-mail.com/2026/08/23/the-energy-challenges-of-the-next-presidency",
-    "domain": "cyprus-mail.com",
-    "when": "Aug 23 · 14:45z"
-   },
-   {
-    "title": "Norway Stands Firm on Arctic Oil and Gas Drilling Despite EU Opposition",
-    "url": "https://www.oedigital.com/news/542344-norway-stands-firm-on-arctic-oil-and-gas-drilling-despite-eu-opposition",
-    "domain": "oedigital.com",
-    "when": "Aug 24 · 10:45z"
-   },
-   {
-    "title": "Welspun Renewable energy Business Race : Macquarie , RPSG in Last Lap",
-    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/24/et-front/welspun-re-biz-race-macquarie-rpsg-in-last-lap/articleshow/133446725.cms",
+    "title": "Canada Poland trade : Canada looks beyond the US as Ottawa targets Poland with nuclear technology , uranium and LNG in major trade push amid global energy uncertainty",
+    "url": "https://economictimes.indiatimes.com/news/international/global-trends/canada-looks-beyond-the-us-as-ottawa-targets-poland-with-nuclear-technology-uranium-and-lng-in-major-trade-push-amid-global-energy-uncertainty/articleshow/133936407.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Aug 24 · 06:15z"
+    "when": "Sep 8 · 18:45z"
    },
    {
-    "title": "US billionaires are piling millions into Argentina Shale boom , here what is driving it",
-    "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-billionaires-are-piling-millions-into-argentinas-shale-boom-heres-what-is-driving-it/articleshow/133453584.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Aug 24 · 07:15z"
+    "title": "Chennai Petroleum , MRPL , Oil India shares gain as Brent nears $100",
+    "url": "https://www.businesstoday.in/markets/stocks/story/chennai-petroleum-mrpl-oil-india-shares-gain-as-brent-nears-100-554149-2026-09-09",
+    "domain": "businesstoday.in",
+    "when": "Sep 9 · 05:30z"
    },
    {
-    "title": "Norway will drill in Arctic regardless of EU position , says energy minister | WSAU News / Talk 550 AM · 99 . 9 FM",
-    "url": "https://wsau.com/2026/08/24/norway-will-drill-in-arctic-regardless-of-eus-position-says-energy-minister/",
-    "domain": "wsau.com",
-    "when": "Aug 24 · 06:15z"
+    "title": "War On Iran : Crude Price Nears $100 Barrel While Trump Still Hopes To Win – Moon of Alabama",
+    "url": "https://www.moonofalabama.org/2026/09/war-on-iran-crude-price-nears-100-barrel-while-trump-still-hopes-to-win.html/comment-page-2",
+    "domain": "moonofalabama.org",
+    "when": "Sep 8 · 23:45z"
+   },
+   {
+    "title": "Midwest grid operator to study accelerated deployments for 5 Indiana power projects – Inside INdiana Business",
+    "url": "https://www.insideindianabusiness.com/articles/midwest-grid-operator-to-study-accelerated-deployments-for-5-indiana-power-projects",
+    "domain": "insideindianabusiness.com",
+    "when": "Sep 8 · 23:30z"
+   },
+   {
+    "title": "Türkiye to start challenging oil - targeted drilling in western Black Sea soon",
+    "url": "https://www.dailysabah.com/business/economy/turkiye-to-start-challenging-oil-targeted-drilling-in-western-black-sea-soon",
+    "domain": "dailysabah.com",
+    "when": "Sep 9 · 14:00z"
+   },
+   {
+    "title": "A history of oil price swings this century",
+    "url": "https://www.rte.ie/news/business/2026/0909/1590893-a-history-of-oil-price-swings-this-century/",
+    "domain": "rte.ie",
+    "when": "Sep 9 · 12:00z"
+   },
+   {
+    "title": "Renewable Energy Stocks To Add to Your Watchlist – September 8th",
+    "url": "https://www.tickerreport.com/banking-finance/13577128/renewable-energy-stocks-to-add-to-your-watchlist-september-8th.html",
+    "domain": "tickerreport.com",
+    "when": "Sep 8 · 18:45z"
+   },
+   {
+    "title": "Oil prices climb towards $100 as US - Iran conflict continues",
+    "url": "https://finance.yahoo.com/energy/articles/oil-prices-climb-towards-100-064829890.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 9 · 07:15z"
+   },
+   {
+    "title": "NextEra Just Secured Up to $1 . 9 Billion to Restart Iowa Only Nuclear Plant . Here The Real Reason Why . ",
+    "url": "https://finance.yahoo.com/energy/articles/nextera-just-secured-1-9-192501684.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 8 · 20:00z"
+   },
+   {
+    "title": "Oil prices rise above $100 a barrel for first time since July as Iran war escalates",
+    "url": "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates",
+    "domain": "theguardian.com",
+    "when": "Sep 9 · 08:00z"
+   },
+   {
+    "title": "Global oil prices hit $100 per barrel as Middle East conflict roils markets",
+    "url": "https://www.cnn.com/2026/09/09/economy/oil-price-iran-war",
+    "domain": "cnn.com",
+    "when": "Sep 9 · 11:00z"
+   },
+   {
+    "title": "Constellation Energy Biggest AI Power Deal Doesnt Start Paying Until June 2027",
+    "url": "https://www.fool.com/investing/2026/09/08/constellation-energy-s-biggest-ai-power-deal-doesn-t-start-paying-until-june-2027/",
+    "domain": "fool.com",
+    "when": "Sep 9 · 00:00z"
+   },
+   {
+    "title": "Azerbaijan details energy transition impact on jobs and skilled workforce",
+    "url": "https://www.trend.az/business/green-economy/4222229.html",
+    "domain": "trend.az",
+    "when": "Sep 9 · 12:45z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
@@ -533,94 +551,76 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Hana Financial supports low - cost egg supply ahead of Chuseok",
-    "url": "https://www.koreatimes.co.kr/business/banking-finance/20260906/hana-financial-supports-low-cost-egg-supply-ahead-of-chuseok",
-    "domain": "koreatimes.co.kr",
-    "when": "Sep 6 · 08:45z"
+    "title": "Retail Stocks To Watch Today – September 8th",
+    "url": "https://www.dailypolitical.com/2026/09/08/retail-stocks-to-watch-today-september-8th.html",
+    "domain": "dailypolitical.com",
+    "when": "Sep 8 · 18:45z"
    },
    {
-    "title": "Skilled migrants needed to help build 13 - tower Brisbane development at former Olympic athlete village site",
-    "url": "https://www.afr.com/property/residential/queensland-calls-for-skilled-migrants-to-help-build-13-luxury-towers-20260906-p60uv5",
-    "domain": "afr.com",
-    "when": "Sep 6 · 09:45z"
+    "title": "Criteo Promotes Guillaume Dupont To ANZ Country Head",
+    "url": "https://www.bandt.com.au/criteo-elevates-guillaume-dupont-to-anz-country-head/",
+    "domain": "bandt.com.au",
+    "when": "Sep 9 · 03:00z"
    },
    {
-    "title": "Khyber Group eyes ₹38 cr revenue from trout farming biz , to invest ₹60 cr",
-    "url": "https://www.business-standard.com/companies/news/khyber-group-eyes-38-cr-revenue-from-trout-farming-biz-to-invest-60-cr-126090600177_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 6 · 07:15z"
+    "title": "Azamara Cruises and Starboard Partner for Cruise Retail Shopping Rewards Program",
+    "url": "https://www.travelmarketreport.com/cruises/articles/azamara-cruises-and-starboard-partner-for-cruise-retail-shopping-rewards-program",
+    "domain": "travelmarketreport.com",
+    "when": "Sep 8 · 18:15z"
    },
    {
-    "title": "Fed Beige Book Finds Modest Growth Led by Data Centers",
-    "url": "https://finance.yahoo.com/economy/articles/fed-beige-book-finds-modest-173046265.html",
+    "title": "Swiss Luxury Expert : Laopu Gold Is Following -- and Rewriting -- the Rules of Luxury",
+    "url": "http://www.prnewswire.com/news-releases/swiss-luxury-expert-laopu-gold-is-followingand-rewritingthe-rules-of-luxury-302873277.html",
+    "domain": "prnewswire.com",
+    "when": "Sep 9 · 06:15z"
+   },
+   {
+    "title": "Furniture brand Eva opens Melbourne showroom that feels like home",
+    "url": "https://www.smartcompany.com.au/retail/eva-furniture-showroom-melbourne-richmond-house/",
+    "domain": "smartcompany.com.au",
+    "when": "Sep 9 · 05:00z"
+   },
+   {
+    "title": "Britain retail sales growth slows in August : BRC",
+    "url": "http://www.bignewsnetwork.com/news/279294640/britain-retail-sales-growth-slows-in-august-brc",
+    "domain": "bignewsnetwork.com",
+    "when": "Sep 8 · 20:00z"
+   },
+   {
+    "title": "Jaywing Extends Myer Relationship",
+    "url": "https://www.bandt.com.au/jaywing-extends-myer-relationship/",
+    "domain": "bandt.com.au",
+    "when": "Sep 9 · 03:00z"
+   },
+   {
+    "title": "FinancialContent - Why OneWater ( ONEW ) Shares Are Plunging Today",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-8-why-onewater-onew-shares-are-plunging-today",
+    "domain": "markets.financialcontent.com",
+    "when": "Sep 8 · 22:00z"
+   },
+   {
+    "title": "Quick commerce gains as e - commerce loses share : Report - The HinduBusinessLine",
+    "url": "https://www.thehindubusinessline.com/companies/quick-commerce-gains-as-e-commerce-loses-share-report/article71443589.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Sep 8 · 17:30z"
+   },
+   {
+    "title": "China consumer , wholesale inflation rebound in August",
+    "url": "https://www.cnbc.com/2026/09/09/china-cpi-ppi-august-oil-prices-tech-manufacturing-.html",
+    "domain": "cnbc.com",
+    "when": "Sep 9 · 03:00z"
+   },
+   {
+    "title": "New report shows the economic toll of ICE raids",
+    "url": "https://wnyc.org/npr/nx-s1-5955787",
+    "domain": "wnyc.org",
+    "when": "Sep 9 · 01:30z"
+   },
+   {
+    "title": "Alibaba vs . Shopify : Which Retail Platform Is a Better Buy in 2026 ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-vs-shopify-retail-platform-151801915.html",
     "domain": "finance.yahoo.com",
-    "when": "Sep 5 · 18:45z"
-   },
-   {
-    "title": "Police seize £200k Lamborghini under tightened antisocial driving laws",
-    "url": "https://www.aol.co.uk/articles/police-seize-200k-lamborghini-under-192340000.html",
-    "domain": "aol.co.uk",
-    "when": "Sep 5 · 20:00z"
-   },
-   {
-    "title": "Lululemon billionaire founder Chip Wilson files for divorce after 20 years of marriage with no prenup in place",
-    "url": "https://nypost.com/2026/09/05/business/lululemon-billionaire-founder-chip-wilson-files-for-divorce-after-20-years-of-marriage-with-no-prenup-in-place/",
-    "domain": "nypost.com",
-    "when": "Sep 6 · 03:45z"
-   },
-   {
-    "title": "Dear Kroger Stock Fans , Mark Your Calendars for September 11",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/dear-kroger-stock-fans-mark-140002214.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 6 · 14:00z"
-   },
-   {
-    "title": "WorldIPI LLC : What Gives With Eylsia Nicolas Numbers ? Why One of the Fastest - Growing Artists in the World Is Invisible on Industry - Controlled Platforms",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69503207-worldipi-llc-what-gives-with-eylsia-nicolas-s-numbers-why-one-of-the-fastest-growing-artists-in-the-world-is-invisible-on-industry-controlled-platfo-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Sep 5 · 20:00z"
-   },
-   {
-    "title": "Makati Business Club ( MBC",
-    "url": "https://tribune.net.ph/topic/makati-business-club-mbc",
-    "domain": "tribune.net.ph",
-    "when": "Sep 6 · 07:15z"
-   },
-   {
-    "title": "Rolls - Royce Vs Bentley : Which Luxury Automaker Sells More ? ",
-    "url": "https://www.motor1.com:443/news/807183/rolls-royce-vs-bentley-sales-figures/",
-    "domain": "motor1.com",
-    "when": "Sep 5 · 18:30z"
-   },
-   {
-    "title": "What Gives With Eylsia Nicolas Numbers ? Why One of the Fastest ‑ Growing ... ",
-    "url": "https://www.pr-inside.com/what-gives-with-eylsia-nicolas-s-numbers-why-one-of-the-fastest-growing-r5219645.htm",
-    "domain": "pr-inside.com",
-    "when": "Sep 5 · 18:45z"
-   },
-   {
-    "title": "Agree Realty Director Rakolta Buys 20 , 136 Shares for $1 . 5 Million",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/agree-realty-director-rakolta-buys-031501468.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 6 · 03:45z"
-   },
-   {
-    "title": "6 Luxury Cars That Make Financial Sense in Retirement , According to a Mechanic",
-    "url": "https://www.aol.com/articles/6-luxury-cars-financial-sense-131104000.html",
-    "domain": "aol.com",
-    "when": "Sep 5 · 18:00z"
-   },
-   {
-    "title": "August Job Gains Blew Past Estimates . Here What It Means for the Fed . ",
-    "url": "https://finance.yahoo.com/economy/policy/articles/august-job-gains-blew-past-030500568.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 6 · 03:45z"
-   },
-   {
-    "title": "Retail investors power direct mutual fund shift as digital access grows",
-    "url": "https://www.business-standard.com/markets/mutual-fund/markets-mutual-fund-retail-investors-direct-plan-mutual-fund-aum-growth-126090600173_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 6 · 07:00z"
+    "when": "Sep 8 · 23:45z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
@@ -711,294 +711,384 @@
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
    {
-    "title": "A Five Percent Cap Is Not an Exit | HedgeCo Insights",
-    "url": "https://hedgeco.net/news/09/2026/a-five-percent-cap-is-not-an-exit.html",
-    "domain": "hedgeco.net",
-    "when": "Sep 6 · 13:45z"
+    "title": "Durable investment - management businesses are built between fundraises , not during them",
+    "url": "https://www.thesouthafrican.com/business/durable-investment-management-businesses-are-built-between-fundraises-not-during-them/",
+    "domain": "thesouthafrican.com",
+    "when": "Sep 8 · 17:30z"
    },
    {
-    "title": "Head to Head Survey : Cherry Hill Mortgage Investment ( NYSE : CHMI ) and Apollo Global Management ( NYSE : APO ) ",
-    "url": "https://www.tickerreport.com/banking-finance/13574928/head-to-head-survey-cherry-hill-mortgage-investment-nysechmi-and-apollo-global-management-nyseapo.html",
-    "domain": "tickerreport.com",
-    "when": "Sep 6 · 00:45z"
+    "title": "Peterson Partners Raises Continuation Vehicle for Kelso Industries ; NorthSands Capital Serves as Sole Lead Investor",
+    "url": "http://www.prnewswire.com/news-releases/peterson-partners-raises-continuation-vehicle-for-kelso-industries-northsands-capital-serves-as-sole-lead-investor-302873644.html",
+    "domain": "prnewswire.com",
+    "when": "Sep 9 · 12:30z"
+   },
+   {
+    "title": "Agenda Reveal : Announcing Private Wealth , Capital & Innovation Forum sessions",
+    "url": "https://www.dealstreetasia.com/stories/private-wealth-capital-innovation-forum-494614",
+    "domain": "dealstreetasia.com",
+    "when": "Sep 9 · 07:00z"
    }
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "LGT Wealth Management is hiring from UBS",
-    "url": "https://www.afr.com/street-talk/lgt-wealth-management-raids-ubs-adviser-ranks-again-20260906-p60uub",
+    "title": "LiveLaw Academy Launches Capsule Course on Mergers and Acquisitions",
+    "url": "https://www.livelaw.in/top-stories/livelaw-academy-launches-capsule-course-on-mergers-and-acquisitions-549242",
+    "domain": "livelaw.in",
+    "when": "Sep 8 · 18:45z"
+   },
+   {
+    "title": "NOJA Power acquisition : Goldman Sachs Asset Management buys controlling stake in Brisbane electrical manufacturer for over $1 billion",
+    "url": "https://www.afr.com/street-talk/ellerston-signs-1b-deal-to-sell-noja-to-goldman-sachs-alternatives-20260909-p60vvd",
     "domain": "afr.com",
-    "when": "Sep 6 · 09:45z"
+    "when": "Sep 9 · 08:15z"
    },
    {
-    "title": "Continental AG calls Sunday board huddle to anoint mycar new owner",
-    "url": "https://www.afr.com/street-talk/continetal-ag-calls-sunday-board-huddle-to-anoint-mycar-s-new-owner-20260906-p60uuf",
+    "title": "Alceon private equity bets on AI implementation biz Engage Squared",
+    "url": "https://www.afr.com/street-talk/alceon-private-equity-bets-on-ai-implementation-biz-engage-squared-20260909-p60vpc",
     "domain": "afr.com",
-    "when": "Sep 6 · 05:15z"
+    "when": "Sep 9 · 11:15z"
    },
    {
-    "title": "Charles Sauer : Antitrust federalism",
-    "url": "https://www.dailyfreeman.com/2026/09/06/charles-sauer-antitrust-federalism/",
-    "domain": "dailyfreeman.com",
-    "when": "Sep 6 · 07:30z"
-   },
-   {
-    "title": "Dear Kroger Stock Fans , Mark Your Calendars for September 11",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/dear-kroger-stock-fans-mark-140002214.html",
+    "title": "Clean Harbors ( CLH ) Bets $470 Million on EnviroServe Will the Synergies Pay Off ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/clean-harbors-clh-bets-470-190353778.html",
     "domain": "finance.yahoo.com",
-    "when": "Sep 6 · 14:00z"
+    "when": "Sep 9 · 04:00z"
    },
    {
-    "title": " [ COVER STORY ] From Tiger to Align , shareholder activism takes root in Korea",
-    "url": "https://www.koreatimes.co.kr/economy/20260906/cover-story-from-tiger-to-align-shareholder-activism-takes-root-in-korea",
-    "domain": "koreatimes.co.kr",
-    "when": "Sep 5 · 23:00z"
+    "title": "Veteran fund manager Paul Xiradi secret investment in AI start - up Firmus Technologies revealed",
+    "url": "https://www.afr.com/street-talk/ausbil-s-veteran-stockpicker-paul-xiradis-emerges-as-firmus-bull-20260909-p60vp7",
+    "domain": "afr.com",
+    "when": "Sep 9 · 04:45z"
    },
    {
-    "title": "Sheepshead Bay street takeovers spark calls for more NYPD patrols",
-    "url": "https://www.fox5ny.com/news/sheepshead-bay-street-takeovers-spark-calls-more-nypd-patrols",
-    "domain": "fox5ny.com",
-    "when": "Sep 6 · 00:45z"
+    "title": "The Nonnie Group Supports UNLV Athletics",
+    "url": "https://nevadabusiness.com/2026/09/the-nonnie-group-supports-unlv-athletics/",
+    "domain": "nevadabusiness.com",
+    "when": "Sep 9 · 00:00z"
    },
    {
-    "title": "Curfew in place at AlterFest after apparent  teen takeover  - WHIO TV 7 and WHIO Radio",
-    "url": "https://www.whio.com/news/local/apparent-teen-takeover-trend-hits-alterfest-prompts-new-curfew/5OPICXV7Z5D73NJIIWDNIILLXA/",
-    "domain": "whio.com",
-    "when": "Sep 6 · 07:15z"
-   },
-   {
-    "title": "Police conduct large - scale response to street takeover – NBC Los Angeles",
-    "url": "https://www.nbclosangeles.com/news/local/harbor-gateway-street-takeover-bust/3937956/",
-    "domain": "nbclosangeles.com",
-    "when": "Sep 5 · 19:45z"
-   },
-   {
-    "title": "Large street takeover in Harbor Gateway turns into  demolition derby  amid arrests – Orange County Register",
-    "url": "https://www.ocregister.com/2026/09/05/large-street-takeover-in-harbor-gateway-turns-into-demolition-derby-amid-arrests/",
-    "domain": "ocregister.com",
-    "when": "Sep 6 · 00:30z"
-   },
-   {
-    "title": "3 Nuclear Stocks to Buy With $2 , 000 After One Fell 83 % ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/3-nuclear-stocks-buy-2-204301311.html",
+    "title": "Apogee ( APOG ) Agreed to Acquire GroGlass for Up to €62 . 5M . Can a High - Margin Niche Deliver the Promised Synergies ? ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/apogee-apog-agreed-acquire-groglass-024507584.html",
     "domain": "finance.yahoo.com",
-    "when": "Sep 5 · 21:15z"
+    "when": "Sep 9 · 03:15z"
    },
    {
-    "title": "4 Phone Carriers You Might Not Realize Are Owned By T - Mobile",
-    "url": "https://www.bgr.com/2248979/phone-carriers-that-are-owned-by-t-mobile/",
-    "domain": "bgr.com",
-    "when": "Sep 5 · 18:45z"
+    "title": "Valvoline™ Global Operations to Acquire Luval S . A . to Further Strategic Growth in Chile",
+    "url": "http://www.prnewswire.com/news-releases/valvoline-global-operations-to-acquire-luval-sa-to-further-strategic-growth-in-chile-302872494.html",
+    "domain": "prnewswire.com",
+    "when": "Sep 9 · 12:30z"
    },
    {
-    "title": "  Model fatigue  sets in AI labs roll out new versions at dizzying pace",
-    "url": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
-    "domain": "cnbc.com",
-    "when": "Sep 6 · 12:45z"
+    "title": "A Look Back at Investment Banking & Brokerage Stock Q2 Earnings : Stifel ( NYSE : SF ) Vs The Rest Of The Pack",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/look-back-investment-banking-brokerage-235118964.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 9 · 00:15z"
    },
    {
-    "title": "LAPD street takeover sting detains 300 , targets 100 cars",
-    "url": "https://nypost.com/2026/09/05/us-news/lapd-street-takeover-sting-detains-300-targets-100-cars/",
-    "domain": "nypost.com",
-    "when": "Sep 5 · 19:00z"
+    "title": "Nvidia vs . Broadcom : Comparing Recent Quarterly Revenue Trajectories",
+    "url": "https://www.fool.com/coverage/charts/2026/09/08/nvidia-vs-broadcom-comparing-recent-quarterly-revenue-trajectories/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Sep 8 · 23:15z"
    },
    {
-    "title": "Police Conduct Large - Scale Response to Street Takeover",
-    "url": "https://mynewsla.com/crime/2026/09/05/police-conduct-large-scale-response-to-street-takeover/",
-    "domain": "mynewsla.com",
-    "when": "Sep 5 · 15:00z"
+    "title": "Foreign capital seeks stronger foothold in Việt Nam through M & A",
+    "url": "https://vietnamnews.vn/economy/1799189/foreign-capital-seeks-stronger-foothold-in-viet-nam-through-m-a.html",
+    "domain": "vietnamnews.vn",
+    "when": "Sep 9 · 02:15z"
    },
    {
-    "title": "AlterFest puts age curfew in place after  teen takeover  event Saturday night | Local",
-    "url": "https://www.daytondailynews.com/local/alterfest-puts-age-curfew-in-place-after-teen-takeover-event-saturday-night/article_319f9084-86dd-4e0c-a095-1e0fee973da1.html",
-    "domain": "daytondailynews.com",
-    "when": "Sep 6 · 11:15z"
+    "title": "Vertiv ( VRT ) Signed a Deal Worth Up to $2 . 6B for UtilityInnovation . Can Faster Power Deployment Justify the Contingent Consideration ? ",
+    "url": "https://www.insidermonkey.com/blog/vertiv-vrt-signed-a-deal-worth-up-to-2-6b-for-utilityinnovation-can-faster-power-deployment-justify-the-contingent-consideration-1826778/",
+    "domain": "insidermonkey.com",
+    "when": "Sep 9 · 05:30z"
+   },
+   {
+    "title": "South Carolina Street Takeover Ends With 80 Arrests And 38 Cars Impounded",
+    "url": "https://www.carscoops.com/2026/09/south-carolina-street-takeover/",
+    "domain": "carscoops.com",
+    "when": "Sep 8 · 23:45z"
+   },
+   {
+    "title": "After huge gains for Canadian bank stocks , money managers look south of the border for better returns",
+    "url": "https://www.theglobeandmail.com/investing/globe-advisor/advisor-stocks/article-after-huge-gains-for-canadian-bank-stocks-money-managers-look-south-of/",
+    "domain": "theglobeandmail.com",
+    "when": "Sep 9 · 12:30z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Shares of this sandwich shop may surge , Loop Capital says",
-    "url": "https://www.cnbc.com/2026/08/24/shares-of-this-sandwich-shop-may-surge-loop-capital-says-.html",
-    "domain": "cnbc.com",
-    "when": "Aug 24 · 15:45z"
+    "title": "NSE IPO likely to open on Sep 18 , list on Sep 25",
+    "url": "https://www.rediff.com/business/report/nse-ipo-likely-to-open-on-sep-18-list-on-sep-25/20260908.htm",
+    "domain": "rediff.com",
+    "when": "Sep 8 · 17:30z"
    },
    {
-    "title": "Oura Plans $3 Billion IPO , Aiming for $16 Billion Valuation",
-    "url": "https://95wxtk.iheart.com/content/2026-08-25-oura-plans-3-billion-ipo-aiming-for-16-billion-valuation/",
-    "domain": "95wxtk.iheart.com",
-    "when": "Aug 25 · 08:00z"
+    "title": "Maharaja & Speedex India SME IPO From Sept 10",
+    "url": "https://www.deccanchronicle.com/business/maharaja-speedex-india-sme-ipo-from-sept-10-1986037",
+    "domain": "deccanchronicle.com",
+    "when": "Sep 9 · 08:00z"
+   },
+   {
+    "title": "NSE IPO Live Updates : What latest GMP signals for listing , expected share price band in ₹1700 range , opening date news",
+    "url": "https://www.livemint.com/market/ipo/nse-ipo-live-updates-what-latest-gmp-signals-for-listing-expected-share-price-band-in-rs-1700-range-opening-date-news-11788926345214.html",
+    "domain": "livemint.com",
+    "when": "Sep 9 · 05:30z"
+   },
+   {
+    "title": "Torrent Gas files updated draft prospectus for IPO",
+    "url": "https://www.vccircle.com/torrentgas-files-updated-draft-prospectus-for-ipo",
+    "domain": "vccircle.com",
+    "when": "Sep 9 · 07:00z"
+   },
+   {
+    "title": "NSE IPO : SBI , Bank of Baroda , GIC Re , New India Assurance shares in focus post price band cut",
+    "url": "https://www.businesstoday.in/markets/stocks/story/nse-ipo-sbi-bank-of-baroda-gic-re-new-india-assurance-shares-in-focus-post-price-band-cut-554130-2026-09-09",
+    "domain": "businesstoday.in",
+    "when": "Sep 9 · 05:30z"
+   },
+   {
+    "title": "Wake Up , SpaceX Shareholders : Up to $47 Billion in Insider Selling Pressure Is Set to Hit the Tape Today , Sept . 9",
+    "url": "https://www.aol.com/articles/wake-spacex-shareholders-47-billion-092601000.html",
+    "domain": "aol.com",
+    "when": "Sep 9 · 10:30z"
+   },
+   {
+    "title": "NSE IPO will not be of ₹30000 cr ? Why reduced OFS could bring down the overall issue size",
+    "url": "https://www.livemint.com/market/ipo/nse-ipo-will-not-be-of-rs-30000-cr-why-reduced-ofs-could-bring-down-the-overall-issue-size-11788952136045.html",
+    "domain": "livemint.com",
+    "when": "Sep 9 · 12:30z"
+   },
+   {
+    "title": "Mahatransco Plans ₹10 , 000 Crore IPO To Become India First Listed State - Owned Power Transmission Firm",
+    "url": "https://www.freepressjournal.in/business/mahatransco-plans-10000-crore-ipo-to-become-indias-first-listed-state-owned-power-transmission-firm",
+    "domain": "freepressjournal.in",
+    "when": "Sep 9 · 11:00z"
+   },
+   {
+    "title": "Furniture rental firm Rentomojo $133 mn IPO fully subscribed on first day",
+    "url": "https://www.vccircle.com/furniturerental-firm-rentomojo-s-133-mn-ipo-fully-subscribed-on-first-day",
+    "domain": "vccircle.com",
+    "when": "Sep 9 · 12:00z"
+   },
+   {
+    "title": "NSE may cut IPO size to Rs 25 , 000 crore from Rs 30 , 000 crore",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/nse-may-cut-ipo-size-to-rs-25000-crore-from-rs-30000-crore/articleshow/133947283.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Sep 9 · 02:00z"
+   },
+   {
+    "title": "Arcil raises ₹220 crore from anchor investors ; ₹733 crore IPO opens for subscription",
+    "url": "https://www.thehindubusinessline.com/markets/arcil-raises-220-crore-from-anchor-investors-733-crore-ipo-opens-for-subscription/article71445773.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Sep 9 · 08:15z"
+   },
+   {
+    "title": "NSE set to price India IPO at Rs 1 , 700 to Rs 1 , 785 a share",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/nse-set-to-price-india-ipo-at-rs-1700-to-rs-1785-a-share/articleshow/133935920.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Sep 8 · 18:00z"
+   },
+   {
+    "title": "NSE IPO price likely at Rs 1 , 700 - 1 , 785 per share ; stake sale may be cut to 5 . 5 % ",
+    "url": "https://www.moneycontrol.com/news/business/ipo/nse-ipo-price-likely-at-rs-1-700-1-785-per-share-stake-sale-may-be-cut-to-5-5-14025576.html",
+    "domain": "moneycontrol.com",
+    "when": "Sep 8 · 18:15z"
+   },
+   {
+    "title": "Mahatransco likely to target $1 billion in first IPO by a state government transmission company",
+    "url": "https://www.moneycontrol.com/news/business/ipo/maharashtra-s-state-transmission-arm-mahatransco-likely-to-target-1-billion-through-proposed-ipo-14026070.html",
+    "domain": "moneycontrol.com",
+    "when": "Sep 9 · 12:15z"
+   },
+   {
+    "title": "Arcil raises Rs 220 cr from anchor investors ; Rs 733 cr IPO opens for subscription",
+    "url": "https://www.dailyexcelsior.com/arcil-raises-rs-220-cr-from-anchor-investors-rs-733-cr-ipo-opens-for-subscription/",
+    "domain": "dailyexcelsior.com",
+    "when": "Sep 9 · 11:00z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
    {
-    "title": "China unveils 2030 funding push for food security and rural modernisation",
-    "url": "https://www.businesstimes.com.sg/international/china-unveils-2030-funding-push-food-security-and-rural-modernisation",
-    "domain": "businesstimes.com.sg",
-    "when": "Sep 7 · 05:00z"
+    "title": "L & T raises Rs 500 cr via tokenised bonds issuance",
+    "url": "https://www.business-standard.com/markets/capital-market-news/l-t-raises-rs-500-cr-via-tokenised-bonds-issuance-126090900673_1.html",
+    "domain": "business-standard.com",
+    "when": "Sep 9 · 09:45z"
    },
    {
-    "title": "Real estate leads Indias private credit deals but emerges as top default - risk concern : EY",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260906/4495475.html",
-    "domain": "news.webindia123.com",
-    "when": "Sep 6 · 17:45z"
+    "title": "Orange : Orange successfully completes a bond issuance in 4 tranches for a total amount of 4 . 1 billion euros",
+    "url": "https://www.manilatimes.net/2026/09/09/tmt-newswire/globenewswire/orange-orange-successfully-completes-a-bond-issuance-in-4-tranches-for-a-total-amount-of-41-billion-euros/2420973",
+    "domain": "manilatimes.net",
+    "when": "Sep 8 · 18:45z"
    },
    {
-    "title": "Hong Kong Positioned to Become a Leading Hub for Nature and Blue Finance",
-    "url": "https://portal.sina.com.hk/finance/finance-mediaoutreachnewswire/media-outreach/2026/09/07/1913814/hong-kong-positioned-to-become-a-leading-hub-for-nature-and-blue-finance/",
-    "domain": "portal.sina.com.hk",
-    "when": "Sep 7 · 04:15z"
+    "title": "Beyond bricks and mortar : Financing the intangible economy",
+    "url": "https://jerseyeveningpost.com/business/2026/09/09/beyond-bricks-and-mortar-financing-the-intangible-economy/",
+    "domain": "jerseyeveningpost.com",
+    "when": "Sep 9 · 09:45z"
    },
    {
-    "title": "Bathla collapse could mean higher returns for private credit investors",
-    "url": "https://www.afr.com/markets/private-markets/hmc-says-bathla-an-opportunity-for-high-quality-private-credit-funds-20260907-p60v0i",
-    "domain": "afr.com",
-    "when": "Sep 7 · 04:45z"
+    "title": "FG Woos Austrian Investors with 20 % Dollar Returns in Nigeri",
+    "url": "https://punchng.com/fg-woos-austrian-investors-with-20-dollar-returns/",
+    "domain": "punchng.com",
+    "when": "Sep 8 · 18:45z"
    },
    {
-    "title": "Should You Forget High - Yield Dividend ETFs and Buy a Dividend Growth ETF Instead ? ",
-    "url": "https://www.aol.com/articles/forget-high-yield-dividend-etfs-190500000.html",
-    "domain": "aol.com",
-    "when": "Sep 6 · 20:30z"
+    "title": "Global Market : Japan bond yields ease as yen strength tempers BOJ tightening bets",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-ease-as-yen-strength-tempers-boj-tightening-bets/articleshow/133952201.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Sep 9 · 05:00z"
    },
    {
-    "title": "Brutal private credit maths quietly kill housing supply targets",
-    "url": "https://www.afr.com/chanticleer/the-brutal-private-credit-maths-quietly-killing-housing-targets-20260907-p60v63",
-    "domain": "afr.com",
-    "when": "Sep 7 · 12:45z"
+    "title": "Property developers turn to asset sales , bonds as funding pressure mounts",
+    "url": "https://vietnamnews.vn/economy/1799188/property-developers-turn-to-asset-sales-bonds-as-funding-pressure-mounts.html",
+    "domain": "vietnamnews.vn",
+    "when": "Sep 9 · 04:15z"
    },
    {
-    "title": "Australia has a housing shortage . So why are Bathla and other home builders collapsing ? ",
-    "url": "https://theconversation.com/australia-has-a-housing-shortage-so-why-are-bathla-and-other-home-builders-collapsing-291029",
-    "domain": "theconversation.com",
-    "when": "Sep 7 · 05:30z"
+    "title": "Private credit defaults dont mean losses . Here what advisors should watch",
+    "url": "https://www.investmentnews.com/alternatives/private-credit-defaults-dont-mean-losses-heres-what-advisors-should-watch/268118",
+    "domain": "investmentnews.com",
+    "when": "Sep 8 · 22:15z"
    },
    {
-    "title": "MENA startup funding jumps to $375 million in August 2026",
-    "url": "https://www.wamda.com/2026/09/mena-startup-funding-jumps-375-million-august-2026",
-    "domain": "wamda.com",
-    "when": "Sep 7 · 01:45z"
-   },
-   {
-    "title": "She Has $400 , 000 In An Old 401 ( k ) And Wants To Invest It In Real Estate Her Husband Wants To Leave It Alone",
-    "url": "https://finance.yahoo.com/real-estate/articles/she-400-000-old-401-145955011.html",
+    "title": "Best high - yield savings interest rates today , Wednesday , September 9 , 2026 : Earn up to 4 . 10 % APY",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-wednesday-september-9-2026-earn-up-to-410-apy-100000748.html",
     "domain": "finance.yahoo.com",
-    "when": "Sep 7 · 02:15z"
+    "when": "Sep 9 · 11:00z"
    },
    {
-    "title": "Singapore , Hong Kong banks to benefit most as Asia capital markets deepen in H2 : Morgan Stanley",
-    "url": "https://www.businesstimes.com.sg/companies-markets/singapore-hong-kong-banks-benefit-most-asia-capital-markets-deepen-h2-morgan-stanley",
-    "domain": "businesstimes.com.sg",
-    "when": "Sep 7 · 09:15z"
+    "title": "Blackstone private credit fund continues to restrict investors selling shares",
+    "url": "https://www.investmentnews.com/alternatives/blackstone-private-credit-fund-continues-to-restrict-investors-selling-shares/268116",
+    "domain": "investmentnews.com",
+    "when": "Sep 8 · 22:15z"
    },
    {
-    "title": "ASIC puts private credit on notice after Bathla collapse",
-    "url": "https://www.theadviser.com.au/compliance/48905-asic-puts-private-credit-on-notice-after-bathla-collapse",
-    "domain": "theadviser.com.au",
-    "when": "Sep 6 · 22:30z"
+    "title": "Zankore Secures $3 . 1 Billion in Financing for Nvidia AI Cloud Expansion in Southeast Asia , ETTelecom",
+    "url": "https://telecom.economictimes.indiatimes.com/news/internet/ooredoo-backed-zankore-secures-3-1-billion-financing-for-nvidia-ai-cloud-platform/133964725",
+    "domain": "telecom.economictimes.indiatimes.com",
+    "when": "Sep 9 · 12:45z"
    },
    {
-    "title": "Real estate leads India private credit deals but emerges as top default - risk concern : EY",
-    "url": "http://www.bignewsnetwork.com/news/279290220/real-estate-leads-india-private-credit-deals-but-emerges-as-top-default-risk-concern-ey",
-    "domain": "bignewsnetwork.com",
-    "when": "Sep 6 · 18:45z"
+    "title": "2 savings accounts to consider if the Fed raises rates this September ( and one to avoid ) ",
+    "url": "https://www.cbsnews.com/news/savings-accounts-consider-fed-raises-rates-september-2026/",
+    "domain": "cbsnews.com",
+    "when": "Sep 8 · 19:45z"
    },
    {
-    "title": "Weight - loss compound may help shed fat without eating less",
-    "url": "https://freerepublic.com/focus/f-chat/4394495/posts",
-    "domain": "freerepublic.com",
-    "when": "Sep 7 · 01:45z"
+    "title": "Corporations Loaning Out Money Like Banks Is Causing a New Wild West of Finance",
+    "url": "https://thenewamerican.com/us/economics/corporations-loaning-out-money-like-banks-is-causing-a-new-wild-west-of-finance/",
+    "domain": "thenewamerican.com",
+    "when": "Sep 8 · 18:00z"
+   },
+   {
+    "title": "Three - Year Note Auction Attracts Above Average Demand",
+    "url": "https://www.finanzen.ch/nachrichten/zinsen/three-year-note-auction-attracts-above-average-demand-1036529467",
+    "domain": "finanzen.ch",
+    "when": "Sep 8 · 18:00z"
+   },
+   {
+    "title": "Jefferies Financial Group Inc .: Jefferies Credit Partners Announces $4 Billion Capacity for Its European Direct Lending Strategy Anchored by First Close of Inaugural European Direct Lending Fund Backed by Allianz Global Investors",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69533450-jefferies-financial-group-inc-jefferies-credit-partners-announces-dollar-4-billion-capacity-for-its-european-direct-lending-strategy-anchored-by-first-clo-004.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Sep 9 · 12:30z"
+   },
+   {
+    "title": "PM seeks export - led growth push",
+    "url": "https://tribune.com.pk/story/2628226/pm-seeks-export-led-growth-push",
+    "domain": "tribune.com.pk",
+    "when": "Sep 9 · 04:45z"
    }
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
-    "title": "Global dining leader closing 261 restaurants , steakhouse chain",
-    "url": "https://finance.yahoo.com/small-business/articles/global-dining-leader-closing-261-163500654.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 6 · 17:15z"
+    "title": " / C O R R E C T I O N -- Zaiger Linden Roberti & Pepe LLC / ",
+    "url": "https://www.prnewswire.com/news-releases/former-sdny-bankruptcy-judge-robert-e-gerber-joins-zaiger-linden-roberti--pepe-302872405.html",
+    "domain": "prnewswire.com",
+    "when": "Sep 9 · 01:30z"
    },
    {
-    "title": "Loss of Costco deal helps push beverage brand into Chapter 11",
-    "url": "https://finance.yahoo.com/healthcare/articles/loss-costco-deal-helps-push-150700837.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 7 · 15:45z"
+    "title": "Saint Augustine Cancels Fall Classes as Crisis Deepens – HotAir",
+    "url": "https://hotair.com/headlines/2026/09/08/saint-augustines-cancels-fall-classes-as-crisis-deepens-n3818746",
+    "domain": "hotair.com",
+    "when": "Sep 8 · 18:45z"
    },
    {
-    "title": "FTX Repaid Dollars , Not the Future It Stole - By Fransiscus Nanga Roka",
-    "url": "https://www.opinionnigeria.com/ftx-repaid-dollars-not-the-future-it-stole-by-fransiscus-nanga-roka/",
-    "domain": "opinionnigeria.com",
-    "when": "Sep 6 · 18:45z"
+    "title": "LIV Golf files for bankruptcy protection as it tries to survive in a smaller version",
+    "url": "https://www.koreaherald.com/article/10867246",
+    "domain": "koreaherald.com",
+    "when": "Sep 9 · 01:00z"
    },
    {
-    "title": "What does it really mean to go bankrupt ? ",
-    "url": "https://theweek.com/personal-finance/filing-for-bankruptcy-pros-cons",
-    "domain": "theweek.com",
-    "when": "Sep 7 · 07:00z"
+    "title": "Chapter 11 and 7 Bankruptcy Filings in MA , ME , NH , RI , NY , DE",
+    "url": "https://natlawreview.com/article/weekly-bankruptcy-alert-september-6-2026",
+    "domain": "natlawreview.com",
+    "when": "Sep 8 · 18:45z"
    },
    {
-    "title": "Bankrupt Woking : How the borough council racked up debts surpassing £2 . 1 billion",
-    "url": "https://www.getsurrey.co.uk/news/surrey-news/bankrupt-woking-how-borough-council-34074574",
-    "domain": "getsurrey.co.uk",
-    "when": "Sep 7 · 06:30z"
+    "title": "McIlroy warns tours have  decisions to make  as LIV Golf exodus edges closer",
+    "url": "https://www.aol.co.uk/articles/mcilroy-warns-tours-decisions-liv-141524000.html",
+    "domain": "aol.co.uk",
+    "when": "Sep 9 · 14:45z"
    },
    {
-    "title": "Casas Bahia Files for Court Protection in Brazil",
-    "url": "https://www.riotimesonline.com/brazil-casas-bahia-judicial-recovery-layoffs-tax-probe-2026/",
+    "title": "Major CT law firm opens Dallas office in latest geographic expansion",
+    "url": "https://hartfordbusiness.com/article/major-ct-law-firm-opens-dallas-office-in-latest-geographic-expansion/",
+    "domain": "hartfordbusiness.com",
+    "when": "Sep 8 · 20:00z"
+   },
+   {
+    "title": "LIV Golf files for bankruptcy protection",
+    "url": "https://www.the42.ie/liv-goal-bankrupt-7156560-Sep2026/",
+    "domain": "the42.ie",
+    "when": "Sep 8 · 23:30z"
+   },
+   {
+    "title": "Rite Aid loss could be Dollar General gain in Milford",
+    "url": "https://www.unionleader.com/nh/news/business/rite-aids-loss-could-be-dollar-generals-gain-in-milford/article_37226917-126e-4596-8352-84170159f675.html",
+    "domain": "unionleader.com",
+    "when": "Sep 9 · 01:30z"
+   },
+   {
+    "title": "LA Council Seeks to Support Hotel Development at Oceanwide Plaza",
+    "url": "https://mynewsla.com/business/2026/09/08/la-council-seeks-to-support-hotel-development-at-oceanwide-plaza/",
+    "domain": "mynewsla.com",
+    "when": "Sep 8 · 20:30z"
+   },
+   {
+    "title": "Ghana Bond Market Turnover Falls 68 % to GH2 . 12bn",
+    "url": "https://www.riotimesonline.com/ghana-bond-market-turnover-2026/",
     "domain": "riotimesonline.com",
-    "when": "Sep 7 · 09:45z"
+    "when": "Sep 8 · 23:30z"
    },
    {
-    "title": "South Korea to consolidate state energy companies",
-    "url": "https://www.upi.com/Top_News/World-News/2026/09/06/South-Korea-to-consolidate-state-energy-companies/5981788737759/",
-    "domain": "upi.com",
-    "when": "Sep 7 · 02:15z"
+    "title": "Bryson DeChambeau and five big - name stars free to leave as LIV Golf files for bankruptcy",
+    "url": "https://www.aol.co.uk/articles/bryson-dechambeau-five-big-name-223100000.html",
+    "domain": "aol.co.uk",
+    "when": "Sep 8 · 23:00z"
    },
    {
-    "title": "Saudi Prince Alwaleed invests $500m in GM IPO",
-    "url": "https://www.inautonews.com/saudi-billionaire-invests-500-million-in-general-motors",
-    "domain": "inautonews.com",
-    "when": "Sep 7 · 04:30z"
+    "title": "Chinese court guidance aims to smooth developer bankruptcies , reassure creditors",
+    "url": "https://www.scmp.com/business/article/3366807/chinese-court-guidance-aims-smooth-developer-bankruptcies-reassure-creditors",
+    "domain": "scmp.com",
+    "when": "Sep 9 · 04:00z"
    },
    {
-    "title": "Financial Survey : BioRestorative Therapies ( BRTXQ ) and Its Rivals",
-    "url": "https://www.tickerreport.com/banking-finance/13575635/financial-survey-biorestorative-therapies-brtxq-and-its-rivals.html",
-    "domain": "tickerreport.com",
-    "when": "Sep 6 · 17:45z"
+    "title": "Kate Abdo brutally mocks Jamie Carragher with bankruptcy jokes",
+    "url": "https://metro.co.uk/2026/09/09/kate-abdo-brutally-mocks-jamie-carragher-bankruptcy-jokes-live-coverage-29568639/",
+    "domain": "metro.co.uk",
+    "when": "Sep 9 · 10:15z"
    },
    {
-    "title": "Double Fine first game since leaving Xbox is a comedy bus - driving sim called Thank You Bus Driver",
-    "url": "https://www.eurogamer.net/double-fine-thank-you-bus-driver-first-game-post-xbox",
-    "domain": "eurogamer.net",
-    "when": "Sep 6 · 17:30z"
+    "title": "What Next For Vacant Rite Aid Stores In New York ? ",
+    "url": "https://wsrkfm.com/ixp/706/p/rite-aid-replacements-new-york/",
+    "domain": "wsrkfm.com",
+    "when": "Sep 8 · 18:00z"
    },
    {
-    "title": "Trump wants your 401 ( k ) in private equity just as the industry drowns in thousands of unsold companies",
-    "url": "https://www.aol.com/articles/trump-wants-401-k-private-110000000.html",
-    "domain": "aol.com",
-    "when": "Sep 7 · 12:45z"
-   },
-   {
-    "title": "Why Donald Trump trolling of Canada is the same old playbook of a businessman flop",
-    "url": "https://www.stcatharinesstandard.ca/opinion/columnists/why-donald-trump-s-trolling-of-canada-is-the-same-old-playbook-of-a-businessman-flop/article_e3620404-792f-592a-a807-ec6281592d50.html",
-    "domain": "stcatharinesstandard.ca",
-    "when": "Sep 7 · 10:15z"
-   },
-   {
-    "title": "The new order faces a familiar test of power",
-    "url": "https://www.newindianexpress.com/opinion/2026/Sep/06/the-new-order-faces-a-familiar-test-of-power",
-    "domain": "newindianexpress.com",
-    "when": "Sep 6 · 19:00z"
-   },
-   {
-    "title": "VW Needs A Major Overhaul As Its Global Problems Keep Growing",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/vw-needs-major-overhaul-global-183036523.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 6 · 19:15z"
-   },
-   {
-    "title": "Al Obaidi : Iraq banking sector in reform phase , not collapsing",
-    "url": "https://www.iraqinews.com/iraq/iraq-banking-sector-reform-not-collapsing-manar-al-obaidi-2026/",
-    "domain": "iraqinews.com",
-    "when": "Sep 7 · 09:15z"
+    "title": "Ghana Domestic Borrowing Jumps GH¢57bn |Business Day Ghana",
+    "url": "https://businessdayghana.com/ghanas-domestic-borrowing-jumps-gh%C2%A257bn/",
+    "domain": "businessdayghana.com",
+    "when": "Sep 9 · 11:00z"
    }
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
