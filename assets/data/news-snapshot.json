@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20 15:00z",
+ "generated": "2026-09-21 17:23z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -655,82 +655,94 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "How the trade war with Canada is affecting auto - parts makers : NPR",
-    "url": "https://www.npr.org/transcripts/nx-s1-5961530",
-    "domain": "npr.org",
-    "when": "Sep 12 · 06:30z"
+    "title": "EU Trade Deals Must Uphold The Due Diligence Rules Europe Passed",
+    "url": "https://www.socialeurope.eu/eu-trade-deals-must-uphold-the-due-diligence-rules-europe-passed",
+    "domain": "socialeurope.eu",
+    "when": "Sep 21 · 07:00z"
    },
    {
-    "title": "Iran war tests expanding BRICS as bloc seeks greater global clout",
-    "url": "https://aa.com.tr/en/world/iran-war-tests-expanding-brics-as-bloc-seeks-greater-global-clout/4054458",
-    "domain": "aa.com.tr",
-    "when": "Sep 11 · 23:00z"
+    "title": "Not aimed at India , but meant for India : Russia sanctions law leaves New Delhi at Trump mercy",
+    "url": "https://economictimes.indiatimes.com/opinion/et-commentary/not-aimed-at-india-but-meant-for-india-russia-sanctions-law-leaves-new-delhi-at-trumps-mercy/articleshow/134372472.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Sep 20 · 18:30z"
    },
    {
-    "title": "US House of Representatives to vote on Russia sanctions bill that could hit India with tariffs",
-    "url": "https://www.moneycontrol.com/world/us-house-of-representatives-to-vote-on-russia-sanctions-bill-that-could-hit-india-with-tariffs-article-14028262.html",
+    "title": "Xi announces US visit , Trump plans rare airport welcome",
+    "url": "https://www.rediff.com/news/report/xi-announces-us-visit-trump-plans-rare-airport-welcome/20260921.htm",
+    "domain": "rediff.com",
+    "when": "Sep 21 · 13:00z"
+   },
+   {
+    "title": "The View From India newsletter : Punished for importing Russian oil",
+    "url": "https://www.thehindu.com/newsletter/newsletter-international/the-view-from-india-newsletter-punished-for-importing-russian-oil/article71490391.ece",
+    "domain": "thehindu.com",
+    "when": "Sep 21 · 09:15z"
+   },
+   {
+    "title": "Along Northern Border ,  Rhetoric That Has Inspired a Boycott  ",
+    "url": "https://www.newser.com/story/396574/along-northern-border-rhetoric-that-has-inspired-a-boycott.html",
+    "domain": "newser.com",
+    "when": "Sep 20 · 23:00z"
+   },
+   {
+    "title": "US - China trade war timeline : Key moments from Trump tariffs to Xi talks",
+    "url": "https://www.thehindubusinessline.com/news/world/trump-xi-talks-key-milestones-in-the-us-china-trade-war-since-february-2025/article71490026.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Sep 21 · 05:45z"
+   },
+   {
+    "title": "Tariffs , fuel costs , and rising rates squeeze U . S . manufacturers",
+    "url": "https://finance.yahoo.com/economy/policy/articles/tariffs-fuel-costs-rising-rates-123314726.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 21 · 13:00z"
+   },
+   {
+    "title": "Reject US tariffs , put trade deal on hold : Congres Anand Sharma to Govt",
+    "url": "https://economictimes.indiatimes.com/news/politics-and-nation/reject-us-tariffs-put-trade-deal-on-hold-congress-anand-sharma-to-govt/articleshow/134374498.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Sep 20 · 19:30z"
+   },
+   {
+    "title": "Why have US prosecutors labelled China Huawei a criminal enterprise ? | Explainer News",
+    "url": "https://www.aljazeera.com/news/2026/9/20/why-have-us-prosecutors-labelled-chinas-huawei-a-criminal-enterprise",
+    "domain": "aljazeera.com",
+    "when": "Sep 20 · 19:00z"
+   },
+   {
+    "title": "Trump says Putin wants to end Ukraine war , says Zelensky  overplayed his hand  ",
+    "url": "https://www.moneycontrol.com/world/trump-says-putin-wants-to-end-ukraine-war-says-zelensky-overplayed-his-hand-article-14034776.html",
     "domain": "moneycontrol.com",
-    "when": "Sep 12 · 03:30z"
+    "when": "Sep 21 · 15:15z"
    },
    {
-    "title": "The U . S .- Canada trade war is creating a headache for auto - parts makers",
-    "url": "https://www.kuow.org/npr-news/2026-09-11/the-u-s-canada-trade-war-is-creating-a-headache-for-auto-parts-makers",
-    "domain": "kuow.org",
-    "when": "Sep 11 · 16:00z"
-   },
-   {
-    "title": "Trump wants Bombardier out of US market . In CT , the company employs hundreds",
-    "url": "https://www.courant.com/2026/09/12/trump-wants-bombardier-out-of-us-market-in-ct-the-company-employs-hundreds/",
-    "domain": "courant.com",
-    "when": "Sep 12 · 09:45z"
-   },
-   {
-    "title": "Trump has prioritized oil and minerals . Lower prices havent followed . ",
-    "url": "https://www.csmonitor.com/Business/2026/0912/trump-gas-prices-energy-policy",
-    "domain": "csmonitor.com",
-    "when": "Sep 12 · 09:45z"
-   },
-   {
-    "title": "Trump says Canada trade deal could come  fairly soon  amid escalating tariff war",
-    "url": "https://www.moneycontrol.com/world/trump-says-canada-trade-deal-could-come-fairly-soon-amid-escalating-tariff-war-article-14028625.html",
-    "domain": "moneycontrol.com",
-    "when": "Sep 12 · 13:30z"
-   },
-   {
-    "title": "Ontario alcohol makers largely unfazed by Trump booze ban",
-    "url": "https://www.thespec.com/business/ontario-alcohol-donald-trump-booze-ban/article_2e754531-f0db-53dc-a5f5-47b22783f421.html",
-    "domain": "thespec.com",
-    "when": "Sep 12 · 13:15z"
-   },
-   {
-    "title": "Russia faces over 30 , 000 sanctions : Putin condemns  ugly  trade tactics",
-    "url": "https://www.business-standard.com/world-news/russia-faces-over-30-000-sanctions-putin-condemns-ugly-trade-tactics-126091200060_1.html",
+    "title": "China , US hold in - depth talks on tariffs , AI issues ahead of Xi - Trump meet",
+    "url": "https://www.business-standard.com/world-news/china-us-hold-in-depth-talks-on-tariffs-ai-issues-ahead-of-xi-trump-meet-126092100234_1.html",
     "domain": "business-standard.com",
-    "when": "Sep 12 · 03:30z"
+    "when": "Sep 21 · 09:15z"
    },
    {
-    "title": "Putin says Russia hit with  more than 30 , 000 sanctions ; condemns  ugly  trade tactics , secondary penalty threats",
-    "url": "https://www.tribuneindia.com/news/world/putin-says-russia-hit-with-more-than-30000-sanctions-condemns-ugly-trade-tactics-secondary-penalty-threats/",
-    "domain": "tribuneindia.com",
-    "when": "Sep 11 · 23:00z"
+    "title": "China , US hold  candid , in - depth  talks on tariffs , AI issues ahead of Xi - Trump meeting",
+    "url": "https://www.thehindubusinessline.com/news/world/china-us-hold-candid-in-depth-talks-on-tariffs-ai-issues-ahead-of-xi-trump-meeting/article71490221.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Sep 21 · 10:15z"
    },
    {
-    "title": "Teledyne ( TDY ) Lands $15 . 4 Million European Drone Contract as Shares Pull Back",
-    "url": "https://www.insidermonkey.com/blog/teledyne-tdy-lands-15-4-million-european-drone-contract-as-shares-pull-back-1836175/",
-    "domain": "insidermonkey.com",
-    "when": "Sep 11 · 23:30z"
+    "title": "  This meeting could change a lot : Zelenskyy speaks with Trump , confirms New York meeting amid Ukraine peace push",
+    "url": "https://aninews.in/news/world/europe/this-meeting-could-change-a-lot-zelenskyy-speaks-with-trump-confirms-new-york-meeting-amid-ukraine-peace-push20260921022954/",
+    "domain": "aninews.in",
+    "when": "Sep 20 · 21:30z"
    },
    {
-    "title": "New Delhi Declaration : BRICS criticises unilateral tariffs , sanctions ; warns of trade disruption",
-    "url": "https://www.tribuneindia.com/news/india/new-delhi-declaration-brics-criticises-unilateral-tariffs-sanctions-warns-of-trade-disruption/",
-    "domain": "tribuneindia.com",
-    "when": "Sep 12 · 13:15z"
+    "title": "Serious escalation : On the U . S ., Russia Sanctions Act and India",
+    "url": "https://www.thehindu.com/opinion/editorial/serious-escalation-on-the-us-russia-sanctions-act-and-india/article71488040.ece",
+    "domain": "thehindu.com",
+    "when": "Sep 20 · 19:30z"
    },
    {
-    "title": "US House Set To Take Up Russia Sanctions Bill Amid Fight Over Trump Tariff Powers",
-    "url": "https://www.rferl.org/a/russia-sanctions-us-shadow-fleet-congress/33852638.html",
-    "domain": "rferl.org",
-    "when": "Sep 11 · 21:30z"
+    "title": "Us Tariffs On Russian Oil : India examining new US tariff powers targeting Russian oil buyers : Piyush Goyal",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/india-examining-new-us-tariff-powers-targeting-russian-oil-buyers-piyush-goyal/articleshow/134386339.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Sep 21 · 10:30z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -835,94 +847,88 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "OpenAI Projects Burning Through $278 Billion by 2030",
-    "url": "https://finance.yahoo.com/technology/ai/articles/openai-projects-burning-278-billion-230655542.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 20 · 07:30z"
-   },
-   {
-    "title": "Liqvd Digital India issue to open on Sep 23 , price band fixed at ₹51 - 54",
-    "url": "https://www.business-standard.com/markets/ipo/liqvd-digital-india-issue-to-open-on-sep-23-price-band-fixed-at-51-54-126092000345_1.html",
+    "title": "NSE IPO GMP Today : NSE IPO subscribed 1 . 47 times on final day so far ; retail lags , NIIs lead",
+    "url": "https://www.business-standard.com/markets/ipo/nse-ipo-subscribed-1-47-times-on-final-day-so-far-retail-lags-niis-lead-126092100239_1.html",
     "domain": "business-standard.com",
-    "when": "Sep 20 · 11:00z"
+    "when": "Sep 21 · 06:30z"
    },
    {
-    "title": "Liqvd Digital India IPO Opens September 23 , SME Issue Sets Price Band At ₹51 - 54",
-    "url": "https://www.freepressjournal.in/business/liqvd-digital-india-ipo-opens-september-23-sme-issue-sets-price-band-at-51-54",
+    "title": "Accel - backed Moneyview seeks $624 million valuation in trimmed India IPO",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/accel-backed-moneyview-seeks-624-million-valuation-in-trimmed-india-ipo/article71490017.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Sep 21 · 05:45z"
+   },
+   {
+    "title": "Oura ring company targets US$15 . 62B valuation on Nasdaq IPO",
+    "url": "https://www.bnnbloomberg.ca/markets/nasdaq/2026/09/21/oura-targets-us1562-billion-valuation-in-us-ipo-setting-stage-for-fall-listings/",
+    "domain": "bnnbloomberg.ca",
+    "when": "Sep 21 · 16:30z"
+   },
+   {
+    "title": "Carlyle Group Plans $400 Million IPO For India Auto Parts Platform Highway Roop Precision Technologies",
+    "url": "https://www.freepressjournal.in/business/carlyle-group-plans-400-million-ipo-for-india-auto-parts-platform-highway-roop-precision-technologies",
     "domain": "freepressjournal.in",
-    "when": "Sep 20 · 12:15z"
+    "when": "Sep 21 · 13:00z"
    },
    {
-    "title": "SME IPO : Liqvd Digital India issue to open on Sep 23 ; price band fixed at Rs 51 - 54",
-    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/sme-ipo-liqvd-digital-india-issue-to-open-on-sep-23-price-band-fixed-at-rs-51-54/articleshow/134367283.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 20 · 12:00z"
+    "title": "NSE IPO : Will there be a negative listing ? But , should you still apply if yes , then why | What experts suggest",
+    "url": "https://www.livemint.com/market/ipo/nse-ipo-will-there-be-a-negative-listing-but-should-you-still-apply-if-yes-then-why-what-experts-suggest-11789965511769.html",
+    "domain": "livemint.com",
+    "when": "Sep 21 · 09:30z"
    },
    {
-    "title": "Bengaluru - based A - One Steels India to raise ₹405 crore in an IPO",
-    "url": "https://www.thehindu.com/business/Industry/bengaluru-based-a-one-steels-india-to-raise-405-crore-in-an-ipo/article71482276.ece",
-    "domain": "thehindu.com",
-    "when": "Sep 20 · 11:00z"
-   },
-   {
-    "title": "Should You Invest in an Anthropic IPO ETF ? What Investors Need to Know Right Now . ",
-    "url": "https://www.fool.com/investing/2026/09/20/should-you-invest-in-an-anthropic-ipo-etf-what-inv/",
-    "domain": "fool.com",
-    "when": "Sep 20 · 11:15z"
-   },
-   {
-    "title": "FedEx Counts on Polish Billionaire to Crack Markets in Europe",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-counts-polish-billionaire-crack-100022557.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 20 · 11:30z"
-   },
-   {
-    "title": "Tessolve in talks to acquire two firms , eyes $500 mn revenue in 3 - 4 years",
-    "url": "https://www.business-standard.com/companies/news/tessolve-in-talks-to-acquire-two-firms-eyes-500-mn-revenue-in-3-4-years-126092000400_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 20 · 11:30z"
-   },
-   {
-    "title": "Tessolve in talks to acquire two firms , eyes USD 500 million revenue in 3 - 4 years",
-    "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/tessolve-in-talks-to-acquire-two-firms-eyes-usd-500-million-revenue-in-3-4-years/articleshow/134366485.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 20 · 10:45z"
-   },
-   {
-    "title": "Join Class Action to Recover Losses from AEVEX Corp . ( AVEX ) – Contact ... ",
-    "url": "https://www.pr-inside.com/join-class-action-to-recover-losses-from-aevex-corp-avex-contact-r5225012.htm",
-    "domain": "pr-inside.com",
-    "when": "Sep 20 · 14:00z"
-   },
-   {
-    "title": "Tata Trusts calls Chandra reappointment  void , questions casting vote",
-    "url": "https://www.business-standard.com/companies/news/noel-tata-trusts-chandrasekaran-reappointment-casting-vote-tata-sons-126092000508_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 20 · 13:15z"
-   },
-   {
-    "title": "Nscale files for $35bn US listing",
-    "url": "https://www.cityam.com/nscale-files-for-35bn-us-listing/",
-    "domain": "cityam.com",
-    "when": "Sep 20 · 11:30z"
-   },
-   {
-    "title": "  Your brain literally atrophie : Tech payouts are leaving people suddenly rich but also depressed , distant and delusional",
-    "url": "https://www.aol.com/articles/brain-literally-atrophies-tech-payouts-100000000.html",
-    "domain": "aol.com",
-    "when": "Sep 20 · 11:45z"
-   },
-   {
-    "title": "Rs 3 , 825 crore IPO rush : 6 companies to launch public issues next week",
-    "url": "https://www.moneycontrol.com/news/business/ipo/rs-3-825-crore-ipo-rush-6-companies-to-launch-public-issues-next-week-14033803.html",
+    "title": "Manika Plastech share price : Stock lists flat at IPO price on NSE , BSE ; should you buy , sell or hold ? ",
+    "url": "https://www.moneycontrol.com/news/business/ipo/manika-plastech-share-price-stock-lists-flat-at-ipo-price-on-nse-bse-should-you-buy-sell-or-hold-14034221.html",
     "domain": "moneycontrol.com",
-    "when": "Sep 20 · 09:15z"
+    "when": "Sep 21 · 05:15z"
    },
    {
-    "title": "6 companies line up IPOs worth ₹3 , 825 cr amid brisk primary market activity",
-    "url": "https://www.business-standard.com/markets/news/6-companies-line-up-ipos-worth-3-825-cr-amid-brisk-primary-market-activity-126092000194_1.html",
+    "title": "Tiger Global - backed Moneyview sets IPO price band for Rs 1 , 092 - crore offer . Check key dates , other details",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tiger-global-backed-moneyview-sets-ipo-price-band-for-rs-1092-crore-offer-check-key-dates-other-details/articleshow/134379230.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Sep 21 · 04:45z"
+   },
+   {
+    "title": "Manika Plastech shares make flat market debut , list at par with IPO price",
+    "url": "https://www.business-standard.com/markets/news/manika-plastech-shares-make-flat-market-debut-list-at-par-with-ipo-price-126092100151_1.html",
     "domain": "business-standard.com",
-    "when": "Sep 20 · 07:15z"
+    "when": "Sep 21 · 06:30z"
+   },
+   {
+    "title": "Mastercard to exit Pine Labs in $93 million block deal",
+    "url": "https://www.livemint.com/market/mastercard-to-exit-pine-labs-in-93-million-block-deal-11790000864502.html",
+    "domain": "livemint.com",
+    "when": "Sep 21 · 16:30z"
+   },
+   {
+    "title": "Peshwa Wheat IPO Opens September 24 , ₹53 . 52 - Crore Issue Commands ₹58 – 60 Grey - Market Premium",
+    "url": "https://www.freepressjournal.in/business/peshwa-wheat-ipo-opens-september-24-5352-crore-issue-commands-5860-grey-market-premium",
+    "domain": "freepressjournal.in",
+    "when": "Sep 21 · 13:00z"
+   },
+   {
+    "title": "Main Street Capital Went Public at $15 a Share . $10 , 000 Invested Then Now Collects About $177 a Month in Regular Dividends . ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/main-street-capital-went-public-192000983.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 20 · 19:45z"
+   },
+   {
+    "title": "Baystreet . ca - Smart Ring Maker Oura Holds Initial Public Offering",
+    "url": "http://baystreet.ca/stockstowatch/24082/Smart-Ring-Maker-Oura-Holds-Initial-Public-Offering",
+    "domain": "baystreet.ca",
+    "when": "Sep 21 · 15:15z"
+   },
+   {
+    "title": "  Dangote Refinery IPO Investors Face No Risk , Set For Bountiful Returns  ",
+    "url": "https://leadership.ng/dangote-refinery-ipo-investors-face-no-risk-set-for-bountiful-returns/",
+    "domain": "leadership.ng",
+    "when": "Sep 21 · 06:15z"
+   },
+   {
+    "title": "Adroit Industries to raise ₹151 cr through IPO - The HinduBusinessLine",
+    "url": "https://www.thehindubusinessline.com/markets/adroit-industries-to-raise-151-cr-through-ipo/article71490890.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Sep 21 · 10:15z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
