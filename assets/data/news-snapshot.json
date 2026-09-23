@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22 15:48z",
+ "generated": "2026-09-23 15:45z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -219,94 +219,88 @@
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Current price of oil as of Sept . 21 , 2026",
-    "url": "https://fortune.com/article/price-of-oil-09-21-2026/",
-    "domain": "fortune.com",
-    "when": "Sep 21 · 19:30z"
+    "title": "Oil minister Hardeep Puri calls for deeper India - OPEC energy ties",
+    "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/oil-minister-hardeep-puri-calls-for-deeper-india-opec-energy-ties/articleshow/134419602.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Sep 22 · 19:45z"
    },
    {
-    "title": "Why put natural gas in the Constitution over and above all the other energy sources we rely on ? ( Editorial ) ",
-    "url": "https://www.denverpost.com/2026/09/21/amendment-82-natural-gas-guarantee-home-heating/",
-    "domain": "denverpost.com",
-    "when": "Sep 21 · 18:00z"
+    "title": "India , Opec discuss oil market stability , seek closer energy ties",
+    "url": "https://www.livemint.com/industry/energy/india-opec-discuss-oil-market-stability-and-energy-security-11790084268850.html",
+    "domain": "livemint.com",
+    "when": "Sep 22 · 16:30z"
    },
    {
-    "title": "PPC Expands Central Europe Renewables Portfolio With 2 GW - Plus ABO Deal",
-    "url": "https://www.in.gr/2026/09/21/english-edition/ppc-expands-central-europe-renewables-portfolio-with-2-gw-plus-abo-deal/",
-    "domain": "in.gr",
-    "when": "Sep 21 · 19:30z"
+    "title": "India , OPEC hold 7th high - level dialogue on energy security and market stability",
+    "url": "http://www.indiagazette.com/news/279323968/india-opec-hold-7th-high-level-dialogue-on-energy-security-and-market-stability",
+    "domain": "indiagazette.com",
+    "when": "Sep 22 · 19:30z"
    },
    {
-    "title": "Uzbekistan renewable energy capacity exceeds 6 . 3 GW",
-    "url": "https://www.trend.az/casia/uzbekistan/4226699.html",
-    "domain": "trend.az",
-    "when": "Sep 22 · 14:45z"
+    "title": "India , OPEC deepen dialogue on energy stability",
+    "url": "https://ibcworldnews.com/2026/09/22/india-opec-deepen-dialogue-on-energy-stability/",
+    "domain": "ibcworldnews.com",
+    "when": "Sep 22 · 16:30z"
    },
    {
-    "title": "Hormuz Crisis to Push Global Coal Demand to Record High  | Peak Oil News and Message Boards",
-    "url": "https://peakoil.com/consumption/hormuz-crisis-to-push-global-coal-demand-to-record-high",
-    "domain": "peakoil.com",
-    "when": "Sep 21 · 22:45z"
+    "title": "Shipping Tribune",
+    "url": "https://www.shippingtribune.com/news/shipping/7th+High-Level+Meeting+of+the+OPEC-India+Energy+Dialogue",
+    "domain": "shippingtribune.com",
+    "when": "Sep 23 · 04:30z"
    },
    {
-    "title": "Where Is OPEC+ ? Riyadh and Moscow Silence Is Becoming Deafening",
-    "url": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html",
-    "domain": "oilprice.com",
-    "when": "Sep 21 · 22:00z"
-   },
-   {
-    "title": "Vanguard Renewables and Generate Upcycle Unite to Create North America Largest Food Waste - to - RNG Platform",
-    "url": "https://www.newswire.ca/news-releases/vanguard-renewables-and-generate-upcycle-unite-to-create-north-america-s-largest-food-waste-to-rng-platform-813952835.html",
-    "domain": "newswire.ca",
-    "when": "Sep 21 · 16:30z"
-   },
-   {
-    "title": "Army plans nuclear reactor at Aberdeen Proving Ground",
-    "url": "https://www.baltimoresun.com/2026/09/21/army-plans-small-nuclear-reactor-at-aberdeen-proving-ground/",
-    "domain": "baltimoresun.com",
-    "when": "Sep 22 · 01:15z"
-   },
-   {
-    "title": "Diamondback Energy Is Down 11 % This Year While the Permian Basin Keeps Pumping . Is FANG Stock a Buy ? ",
-    "url": "https://finance.yahoo.com/energy/articles/diamondback-energy-down-11-while-165946740.html",
+    "title": "Improved Crude Flows Through the Strait of Hormuz Sink Oil Prices",
+    "url": "https://finance.yahoo.com/energy/articles/improved-crude-flows-strait-hormuz-191555763.html",
     "domain": "finance.yahoo.com",
-    "when": "Sep 22 · 04:45z"
+    "when": "Sep 23 · 06:30z"
    },
    {
-    "title": "Energy and mining set to benefit from global investment shift",
-    "url": "https://www.businessday.co.za/companies/2026-09-22-shifting-global-investment-set-to-benefit-sa-energy-and-mining-sectors/",
-    "domain": "businessday.co.za",
-    "when": "Sep 22 · 06:45z"
+    "title": "Crude Prices Sink on Larger Flows of Oil Through the Strait of Hormuz",
+    "url": "https://finance.yahoo.com/energy/articles/crude-prices-sink-larger-flows-153518210.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 22 · 23:30z"
    },
    {
-    "title": "Ontario launches project to refurbish 4 nuclear reactors at Pickering plant",
-    "url": "https://www.cbc.ca/news/canada/toronto/pickering-nuclear-reactors-refurbishment-9.7352170",
-    "domain": "cbc.ca",
-    "when": "Sep 21 · 19:45z"
+    "title": "Google Goes Nuclear With Power Upgrade Agreement in Georgia",
+    "url": "https://www.fool.com/investing/2026/09/22/google-goes-nuclear-with-power-upgrade-agreement-in-georgia/",
+    "domain": "fool.com",
+    "when": "Sep 23 · 01:00z"
    },
    {
-    "title": "Army plans small nuclear reactor at Aberdeen Proving Ground",
-    "url": "https://www.stripes.com/branches/army/2026-09-21/aberdeen-proving-ground-nuclear-reactor-22925119.html",
-    "domain": "stripes.com",
-    "when": "Sep 22 · 03:45z"
+    "title": "Top Renewable Energy Stocks To Keep An Eye On – September 22nd",
+    "url": "https://www.tickerreport.com/banking-finance/13591939/top-renewable-energy-stocks-to-keep-an-eye-on-september-22nd.html",
+    "domain": "tickerreport.com",
+    "when": "Sep 22 · 18:45z"
    },
    {
-    "title": "Pickering nuclear reactors start coming off - line for massive refurbishment",
-    "url": "https://globalnews.ca/news/12067522/pickering-refurb-begins/",
-    "domain": "globalnews.ca",
-    "when": "Sep 21 · 21:15z"
+    "title": "Trump says  big decision  on whether to  annihilate  Iran is still ahead",
+    "url": "https://local12.com/news/nation-world/trump-big-decision-annihilate-iran-address-world-leaders-defend-decision-start-war",
+    "domain": "local12.com",
+    "when": "Sep 22 · 18:15z"
    },
    {
-    "title": "Armed group shuts Libya pipeline valve at key oil field",
-    "url": "https://arynews.tv/armed-group-shuts-libya-pipeline-valve-key-oil-field",
-    "domain": "arynews.tv",
-    "when": "Sep 22 · 07:30z"
+    "title": "Long Island heating oil prices surge as winter approaches",
+    "url": "https://www.newsday.com/long-island/politics/home-heating-oil-prices-winter-natural-gas-j458wefc",
+    "domain": "newsday.com",
+    "when": "Sep 22 · 22:15z"
    },
    {
-    "title": "Endesa S . A . – Unsponsored ADR ( OTCMKTS : ELEZY ) Given Consensus Recommendation of  Strong Sell  by Brokerages",
-    "url": "https://www.dailypolitical.com/2026/09/22/endesa-s-a-unsponsored-adr-otcmktselezy-given-consensus-recommendation-of-strong-sell-by-brokerages.html",
-    "domain": "dailypolitical.com",
-    "when": "Sep 22 · 11:00z"
+    "title": "Rupee rises 20 paise to close at 9558 against US dollar",
+    "url": "https://dailypioneer.com/news/rupee-rises-20-paise-to-close-at-9558-against-us-dollar",
+    "domain": "dailypioneer.com",
+    "when": "Sep 23 · 08:15z"
+   },
+   {
+    "title": "Oil Prices Extend Losses as U . S .- Iran Talks Ease Supply Fears",
+    "url": "http://www.econotimes.com/Oil-Prices-Extend-Losses-as-US-Iran-Talks-Ease-Supply-Fears-1752743",
+    "domain": "econotimes.com",
+    "when": "Sep 23 · 05:30z"
+   },
+   {
+    "title": "UNGA Address on Iran Nuclear Deal Warning , US Midterm Impact and Global Oil Prices",
+    "url": "https://article.wn.com/view/2026/09/23/UNGA_Address_on_Iran_Nuclear_Deal_Warning_US_Midterm_Impact_/",
+    "domain": "article.wn.com",
+    "when": "Sep 23 · 07:15z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
@@ -471,82 +465,94 @@
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "Garuda Aerospace hosts Major General Gopal Kapoor at the company defence drone manufacturing facility in Chennai",
-    "url": "https://www.thehindubusinessline.com/companies/garuda-aerospace-showcases-facility-to-army-design-bureau/article71460386.ece",
+    "title": "Hanwha Aerospace sets up Saudi unit in Middle East defense push",
+    "url": "https://www.koreaherald.com/article/10883412",
+    "domain": "koreaherald.com",
+    "when": "Sep 23 · 04:30z"
+   },
+   {
+    "title": "Tiderock Companies and Extremis Systems Announce Collaboration to Evaluate Lightweight Structural Survivability for Marine and Unmanned Platforms",
+    "url": "http://www.hawaiitelegraph.com/news/279326122/tiderock-companies-and-extremis-systems-announce-collaboration-to-evaluate-lightweight-structural-survivability-for-marine-and-unmanned-platforms",
+    "domain": "hawaiitelegraph.com",
+    "when": "Sep 23 · 15:15z"
+   },
+   {
+    "title": "Dynamic Aerospace Systems ( OTCQB : BRQL ) UAV Platforms Presented to Japan Acquisition , Technology & Logistics Agency ( ATLA ) and Japan Self - Defense Forces ( JSDF ) Officials",
+    "url": "http://www.hawaiitelegraph.com/news/279326061/dynamic-aerospace-systems-otcqbbrql-uav-platforms-presented-to-japan-acquisition-technology-logistics-agency-atla-and-japan-self-defense-forces-jsdf-officials",
+    "domain": "hawaiitelegraph.com",
+    "when": "Sep 23 · 15:15z"
+   },
+   {
+    "title": "Raymond Limited Advances Aerospace and Defence Strategy With Aircraft Structures Programme",
+    "url": "https://www.newsx.com/nx-news/raymond-limited-advances-aerospace-and-defence-strategy-with-aircraft-structures-programme-274945/",
+    "domain": "newsx.com",
+    "when": "Sep 23 · 12:30z"
+   },
+   {
+    "title": "Global Mayors Dialogue in Wuhan focuses on urban innovation and cooperation",
+    "url": "https://www.manilatimes.net/2026/09/23/tmt-newswire/media-outreach-newswire/global-mayors-dialogue-in-wuhan-focuses-on-urban-innovation-and-cooperation/2431506",
+    "domain": "manilatimes.net",
+    "when": "Sep 23 · 15:15z"
+   },
+   {
+    "title": "New Balance , San Antonio Shoemakers win $156 . 9 million in military contracts",
+    "url": "https://www.stripes.com/theaters/us/2026-09-22/new-balance-sas-athletic-shoe-military-contracts-22937070.html",
+    "domain": "stripes.com",
+    "when": "Sep 23 · 08:15z"
+   },
+   {
+    "title": "Why precision is sharpening Indian manufacturing - The HinduBusinessLine",
+    "url": "https://www.thehindubusinessline.com/opinion/why-precision-is-sharpening-indian-manufacturing/article71495308.ece",
     "domain": "thehindubusinessline.com",
-    "when": "Sep 12 · 17:15z"
+    "when": "Sep 23 · 02:45z"
    },
    {
-    "title": "Space Stocks To Follow Now – September 12th",
-    "url": "https://www.themarketsdaily.com/2026/09/12/space-stocks-to-follow-now-september-12th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Sep 12 · 20:00z"
+    "title": "Top 7 largest manufacturing countries in Africa",
+    "url": "https://tribuneonlineng.com/top-7-largest-manufacturing-countries-in-africa/",
+    "domain": "tribuneonlineng.com",
+    "when": "Sep 22 · 18:15z"
    },
    {
-    "title": "Firefly Aerospace vs . Joby Aviation : Which Industrials Stock Is a Better Buy in 2026 ? ",
-    "url": "https://www.fool.com/coverage/better-buy/2026/09/12/firefly-aerospace-vs-joby-aviation-which-industrials-stock-is-a-better-buy-in-2026/",
-    "domain": "fool.com",
-    "when": "Sep 12 · 18:30z"
+    "title": "BRI Southern Gateway : The Pinglu Canal and Regional Connectivity",
+    "url": "https://pakobserver.net/bris-southern-gateway-the-pinglu-canal-and-regional-connectivity/",
+    "domain": "pakobserver.net",
+    "when": "Sep 23 · 06:15z"
    },
    {
-    "title": "  No crisis remains confined : PM Modi outlines BRICS early - warning and supply - chain push",
-    "url": "https://www.moneycontrol.com/news/business/no-crisis-remains-confined-pm-modi-outlines-brics-early-warning-and-supply-chain-push-14028808.html",
-    "domain": "moneycontrol.com",
-    "when": "Sep 13 · 07:00z"
+    "title": "Beyond Paramount : What other industries could be eyeing Nashville ? ",
+    "url": "https://fox17.com/news/local/beyond-paramount-what-other-industries-could-be-eyeing-nashville",
+    "domain": "fox17.com",
+    "when": "Sep 22 · 18:15z"
    },
    {
-    "title": "Karnataka seeks bigger ExxonMobil footprint in Bengaluru , eyes skilling and startup tie - ups",
-    "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/karnataka-seeks-bigger-exxonmobil-footprint-in-bengaluru-eyes-skilling-and-startup-tie-ups/articleshow/134179498.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 13 · 06:15z"
+    "title": "Fuel delivery delays cost Ghana $60m in demurrage – CUTS Intl",
+    "url": "http://www.businessghana.com/site/news/business/356514/Fuel-delivery-delays-cost-Ghana-$60m-in-demurrage-%E2%80%93-CUTS-Int%E2%80%99l",
+    "domain": "businessghana.com",
+    "when": "Sep 23 · 04:30z"
    },
    {
-    "title": "Karnataka Home Minister Priyank Kharge holds talks with ExxonMobil on expanding Bengaluru operations",
-    "url": "https://news.webindia123.com/news/Articles/Business/20260913/4498069.html",
-    "domain": "news.webindia123.com",
-    "when": "Sep 13 · 06:15z"
+    "title": "SAESL expands aerospace talent pipeline under four new partnerships",
+    "url": "https://sbr.com.sg/news/saesl-expands-aerospace-talent-pipeline-under-four-new-partnerships",
+    "domain": "sbr.com.sg",
+    "when": "Sep 23 · 05:45z"
    },
    {
-    "title": "3D Printing News Briefs , September 12 , 2026 : Rebranding , Cybersecurity , Project Call , & More - 3DPrint . com",
-    "url": "https://3dprint.com/332432/3d-printing-news-briefs-9-12-2026/",
-    "domain": "3dprint.com",
-    "when": "Sep 12 · 15:30z"
+    "title": "South Africa Showcases Homegrown Defense Tech",
+    "url": "https://www.africa.com/top-10-news/south-africa-showcases-homegrown-defense-tech",
+    "domain": "africa.com",
+    "when": "Sep 22 · 22:45z"
    },
    {
-    "title": "Türkiye to boost mining investment to strengthen energy security",
-    "url": "https://www.hurriyetdailynews.com/turkiye-to-boost-mining-investment-to-strengthen-energy-security-226806",
-    "domain": "hurriyetdailynews.com",
-    "when": "Sep 13 · 08:45z"
+    "title": "Chinese defense equipment presented as tailored , systematic solutions draws attention at Africa main defense expo",
+    "url": "http://eng.chinamil.com.cn/2025xb/C_251453/F_251462/16488521.html",
+    "domain": "eng.chinamil.com.cn",
+    "when": "Sep 23 · 02:45z"
    },
    {
-    "title": "  Ill never sleep soundly : IAI chairman warns Israel will always need more intercept",
-    "url": "https://www.ynetnews.com/article/s1nhwcfkgx",
-    "domain": "ynetnews.com",
-    "when": "Sep 12 · 17:15z"
-   },
-   {
-    "title": "New Manitoba - Canada defence alliance announced",
-    "url": "https://www.mysteinbach.ca/news/17191/new-manitoba-canada-defence-alliance-announced/",
-    "domain": "mysteinbach.ca",
-    "when": "Sep 12 · 16:00z"
-   },
-   {
-    "title": "Wanted : Oil tankers at any cost as tensions in the Gulf trigger a global scramble",
-    "url": "https://english.elpais.com/economy-and-business/2026-09-13/wanted-oil-tankers-at-any-cost-as-tensions-in-the-gulf-trigger-a-global-scramble.html",
-    "domain": "english.elpais.com",
-    "when": "Sep 13 · 06:15z"
-   },
-   {
-    "title": "V . O . C . Port bags two awards at global ports and shipping awards",
-    "url": "https://www.thehindu.com/news/cities/Madurai/v-o-c-port-bags-two-awards-at-global-ports-and-shipping-awards/article71460853.ece",
-    "domain": "thehindu.com",
-    "when": "Sep 12 · 16:00z"
-   },
-   {
-    "title": "9 months after MoU with USTDA , Hisar airport sees no progress",
-    "url": "https://www.tribuneindia.com/news/haryana/9-months-after-mou-with-ustda-hisar-airport-sees-no-progress/",
-    "domain": "tribuneindia.com",
-    "when": "Sep 12 · 18:30z"
+    "title": "ADB Bangladesh Economic Growth & Inflation Forecast 2027 | ADB cuts Bangladesh growth forecast to 4 % for FY27",
+    "url": "https://www.thedailystar.net/business/news/adb-cuts-bangladesh-growth-forecast-4-fy27-4280746",
+    "domain": "thedailystar.net",
+    "when": "Sep 23 · 06:00z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
@@ -817,180 +823,144 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "NSE IPO GMP Today : NSE IPO subscribed 1 . 47 times on final day so far ; retail lags , NIIs lead",
-    "url": "https://www.business-standard.com/markets/ipo/nse-ipo-subscribed-1-47-times-on-final-day-so-far-retail-lags-niis-lead-126092100239_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 21 · 06:30z"
-   },
-   {
-    "title": "Accel - backed Moneyview seeks $624 million valuation in trimmed India IPO",
-    "url": "https://www.thehindubusinessline.com/markets/stock-markets/accel-backed-moneyview-seeks-624-million-valuation-in-trimmed-india-ipo/article71490017.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Sep 21 · 05:45z"
-   },
-   {
-    "title": "Oura ring company targets US$15 . 62B valuation on Nasdaq IPO",
-    "url": "https://www.bnnbloomberg.ca/markets/nasdaq/2026/09/21/oura-targets-us1562-billion-valuation-in-us-ipo-setting-stage-for-fall-listings/",
-    "domain": "bnnbloomberg.ca",
-    "when": "Sep 21 · 16:30z"
-   },
-   {
-    "title": "Carlyle Group Plans $400 Million IPO For India Auto Parts Platform Highway Roop Precision Technologies",
-    "url": "https://www.freepressjournal.in/business/carlyle-group-plans-400-million-ipo-for-india-auto-parts-platform-highway-roop-precision-technologies",
-    "domain": "freepressjournal.in",
-    "when": "Sep 21 · 13:00z"
-   },
-   {
-    "title": "NSE IPO : Will there be a negative listing ? But , should you still apply if yes , then why | What experts suggest",
-    "url": "https://www.livemint.com/market/ipo/nse-ipo-will-there-be-a-negative-listing-but-should-you-still-apply-if-yes-then-why-what-experts-suggest-11789965511769.html",
-    "domain": "livemint.com",
-    "when": "Sep 21 · 09:30z"
-   },
-   {
-    "title": "Manika Plastech share price : Stock lists flat at IPO price on NSE , BSE ; should you buy , sell or hold ? ",
-    "url": "https://www.moneycontrol.com/news/business/ipo/manika-plastech-share-price-stock-lists-flat-at-ipo-price-on-nse-bse-should-you-buy-sell-or-hold-14034221.html",
+    "title": "Iris Global Services files IPO papers with SEBI ; eyes Rs 200 crore via fresh issue",
+    "url": "https://www.moneycontrol.com/news/business/ipo/iris-global-services-files-ipo-papers-with-sebi-eyes-rs-200-crore-via-fresh-issue-14036045.html",
     "domain": "moneycontrol.com",
-    "when": "Sep 21 · 05:15z"
+    "when": "Sep 23 · 05:45z"
    },
    {
-    "title": "Tiger Global - backed Moneyview sets IPO price band for Rs 1 , 092 - crore offer . Check key dates , other details",
-    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tiger-global-backed-moneyview-sets-ipo-price-band-for-rs-1092-crore-offer-check-key-dates-other-details/articleshow/134379230.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 21 · 04:45z"
+    "title": "SD International files draft papers with SEBI to raise funds via IPO",
+    "url": "https://www.moneycontrol.com/news/business/ipo/sd-international-files-draft-papers-with-sebi-to-raise-funds-via-ipo-14036044.html",
+    "domain": "moneycontrol.com",
+    "when": "Sep 23 · 05:45z"
    },
    {
-    "title": "Manika Plastech shares make flat market debut , list at par with IPO price",
-    "url": "https://www.business-standard.com/markets/news/manika-plastech-shares-make-flat-market-debut-list-at-par-with-ipo-price-126092100151_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 21 · 06:30z"
+    "title": "Mynt draws global institutional interest ahead of IPO",
+    "url": "https://www.philstar.com/business/stock-commentary/2026/09/23/2558371/mynt-draws-global-institutional-interest-ahead-ipo",
+    "domain": "philstar.com",
+    "when": "Sep 23 · 05:00z"
    },
    {
-    "title": "Mastercard to exit Pine Labs in $93 million block deal",
-    "url": "https://www.livemint.com/market/mastercard-to-exit-pine-labs-in-93-million-block-deal-11790000864502.html",
-    "domain": "livemint.com",
-    "when": "Sep 21 · 16:30z"
+    "title": "African payments firm Airtel Money plots debut on London stock market",
+    "url": "https://www.thetelegraphandargus.co.uk/news/national/26573558.african-payments-firm-airtel-money-plots-debut-london-stock-market/",
+    "domain": "thetelegraphandargus.co.uk",
+    "when": "Sep 23 · 07:30z"
    },
    {
-    "title": "Peshwa Wheat IPO Opens September 24 , ₹53 . 52 - Crore Issue Commands ₹58 – 60 Grey - Market Premium",
-    "url": "https://www.freepressjournal.in/business/peshwa-wheat-ipo-opens-september-24-5352-crore-issue-commands-5860-grey-market-premium",
-    "domain": "freepressjournal.in",
-    "when": "Sep 21 · 13:00z"
+    "title": "Swastika Infra raises Rs 48 . 26 crore from anchor investors ahead of Rs 161 crore IPO",
+    "url": "https://www.moneycontrol.com/news/business/ipo/swastika-infra-raises-rs-48-26-crore-from-anchor-investors-ahead-of-rs-161-crore-ipo-14035750.html",
+    "domain": "moneycontrol.com",
+    "when": "Sep 22 · 18:00z"
    },
    {
-    "title": "Main Street Capital Went Public at $15 a Share . $10 , 000 Invested Then Now Collects About $177 a Month in Regular Dividends . ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/main-street-capital-went-public-192000983.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 20 · 19:45z"
-   },
-   {
-    "title": "Baystreet . ca - Smart Ring Maker Oura Holds Initial Public Offering",
-    "url": "http://baystreet.ca/stockstowatch/24082/Smart-Ring-Maker-Oura-Holds-Initial-Public-Offering",
-    "domain": "baystreet.ca",
-    "when": "Sep 21 · 15:15z"
-   },
-   {
-    "title": "  Dangote Refinery IPO Investors Face No Risk , Set For Bountiful Returns  ",
-    "url": "https://leadership.ng/dangote-refinery-ipo-investors-face-no-risk-set-for-bountiful-returns/",
-    "domain": "leadership.ng",
-    "when": "Sep 21 · 06:15z"
-   },
-   {
-    "title": "Adroit Industries to raise ₹151 cr through IPO - The HinduBusinessLine",
-    "url": "https://www.thehindubusinessline.com/markets/adroit-industries-to-raise-151-cr-through-ipo/article71490890.ece",
+    "title": "Hero Motors shares rise nearly 7 % after weak market debut",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/hero-motors-shares-rebound-nearly-7-after-weak-market-debut/article71498334.ece",
     "domain": "thehindubusinessline.com",
-    "when": "Sep 21 · 10:15z"
+    "when": "Sep 23 · 06:30z"
+   },
+   {
+    "title": "Jindal Supreme shares surge 31 % in market debut - The HinduBusinessLine",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/jindal-supreme-shares-surge-31-in-market-debut/article71498444.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Sep 23 · 06:30z"
+   },
+   {
+    "title": "Adroit Industries raises Rs 45 . 21 crore from anchor investors ahead of Rs 151 crore IPO",
+    "url": "https://www.moneycontrol.com/news/business/ipo/adroit-industries-raises-rs-45-21-crore-from-anchor-investors-ahead-of-rs-151-crore-ipo-14035810.html",
+    "domain": "moneycontrol.com",
+    "when": "Sep 23 · 03:15z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
    {
-    "title": "L & T raises Rs 500 cr via tokenised bonds issuance",
-    "url": "https://www.business-standard.com/markets/capital-market-news/l-t-raises-rs-500-cr-via-tokenised-bonds-issuance-126090900673_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 9 · 09:45z"
+    "title": "Apollo private credit fund redemption requests ease in third quarter",
+    "url": "https://www.aol.com/articles/apollo-private-credit-fund-redemption-204438000.html",
+    "domain": "aol.com",
+    "when": "Sep 22 · 22:15z"
    },
    {
-    "title": "Orange : Orange successfully completes a bond issuance in 4 tranches for a total amount of 4 . 1 billion euros",
-    "url": "https://www.manilatimes.net/2026/09/09/tmt-newswire/globenewswire/orange-orange-successfully-completes-a-bond-issuance-in-4-tranches-for-a-total-amount-of-41-billion-euros/2420973",
-    "domain": "manilatimes.net",
-    "when": "Sep 8 · 18:45z"
+    "title": "SB Energy Delays IPO Funding World Largest Data Center Amid Investor Revolt , Public Outcry",
+    "url": "https://www.zerohedge.com/technology/sb-energy-delays-ipo-funding-worlds-largest-data-center-amid-investor-revolt-public",
+    "domain": "zerohedge.com",
+    "when": "Sep 23 · 05:45z"
    },
    {
-    "title": "Beyond bricks and mortar : Financing the intangible economy",
-    "url": "https://jerseyeveningpost.com/business/2026/09/09/beyond-bricks-and-mortar-financing-the-intangible-economy/",
-    "domain": "jerseyeveningpost.com",
-    "when": "Sep 9 · 09:45z"
+    "title": "ADB : Philippines bond market grows at faster pace in Q2",
+    "url": "https://www.philstar.com/business/2026/09/23/2558145/adb-philippines-bond-market-grows-faster-pace-q2",
+    "domain": "philstar.com",
+    "when": "Sep 22 · 16:30z"
    },
    {
-    "title": "FG Woos Austrian Investors with 20 % Dollar Returns in Nigeri",
-    "url": "https://punchng.com/fg-woos-austrian-investors-with-20-dollar-returns/",
-    "domain": "punchng.com",
-    "when": "Sep 8 · 18:45z"
+    "title": "Economic Watch : Panda bond surge signals China onshore market appeal",
+    "url": "http://www.brazilsun.com/news/279325755/economic-watch-panda-bond-surge-signals-china-onshore-market-appeal",
+    "domain": "brazilsun.com",
+    "when": "Sep 23 · 15:15z"
    },
    {
-    "title": "Global Market : Japan bond yields ease as yen strength tempers BOJ tightening bets",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-ease-as-yen-strength-tempers-boj-tightening-bets/articleshow/133952201.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 9 · 05:00z"
+    "title": "Panda bond surge signals China onshore market appeal",
+    "url": "http://www.brazilsun.com/news/279325851/panda-bond-surge-signals-china-onshore-market-appeal",
+    "domain": "brazilsun.com",
+    "when": "Sep 23 · 15:15z"
    },
    {
-    "title": "Property developers turn to asset sales , bonds as funding pressure mounts",
-    "url": "https://vietnamnews.vn/economy/1799188/property-developers-turn-to-asset-sales-bonds-as-funding-pressure-mounts.html",
-    "domain": "vietnamnews.vn",
-    "when": "Sep 9 · 04:15z"
+    "title": "Private - credit firms are buzzing about getting in on JPMorgan card empire",
+    "url": "https://www.livemint.com/global/privatecredit-firms-are-buzzing-about-getting-in-on-jpmorgan-s-card-empire-11790130541266.html",
+    "domain": "livemint.com",
+    "when": "Sep 23 · 04:30z"
    },
    {
-    "title": "Private credit defaults dont mean losses . Here what advisors should watch",
-    "url": "https://www.investmentnews.com/alternatives/private-credit-defaults-dont-mean-losses-heres-what-advisors-should-watch/268118",
-    "domain": "investmentnews.com",
-    "when": "Sep 8 · 22:15z"
-   },
-   {
-    "title": "Best high - yield savings interest rates today , Wednesday , September 9 , 2026 : Earn up to 4 . 10 % APY",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-wednesday-september-9-2026-earn-up-to-410-apy-100000748.html",
+    "title": "Vaulted Deep gets $35M debt deal to expand bio - waste CDR",
+    "url": "https://finance.yahoo.com/healthcare/articles/vaulted-deep-gets-35m-debt-123000480.html",
     "domain": "finance.yahoo.com",
-    "when": "Sep 9 · 11:00z"
+    "when": "Sep 23 · 04:30z"
    },
    {
-    "title": "Blackstone private credit fund continues to restrict investors selling shares",
-    "url": "https://www.investmentnews.com/alternatives/blackstone-private-credit-fund-continues-to-restrict-investors-selling-shares/268116",
-    "domain": "investmentnews.com",
-    "when": "Sep 8 · 22:15z"
+    "title": "The dominance of credit megafunds has only grown in 2026",
+    "url": "https://finance.yahoo.com/markets/options/articles/dominance-credit-megafunds-only-grew-182215507.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 23 · 05:30z"
    },
    {
-    "title": "Zankore Secures $3 . 1 Billion in Financing for Nvidia AI Cloud Expansion in Southeast Asia , ETTelecom",
-    "url": "https://telecom.economictimes.indiatimes.com/news/internet/ooredoo-backed-zankore-secures-3-1-billion-financing-for-nvidia-ai-cloud-platform/133964725",
-    "domain": "telecom.economictimes.indiatimes.com",
-    "when": "Sep 9 · 12:45z"
+    "title": "India : Kotak Alt Yield & Growth Fund hits final close at $522m",
+    "url": "https://www.dealstreetasia.com/stories/kotak-alts-yield-growth-495960",
+    "domain": "dealstreetasia.com",
+    "when": "Sep 23 · 15:15z"
    },
    {
-    "title": "2 savings accounts to consider if the Fed raises rates this September ( and one to avoid ) ",
-    "url": "https://www.cbsnews.com/news/savings-accounts-consider-fed-raises-rates-september-2026/",
-    "domain": "cbsnews.com",
-    "when": "Sep 8 · 19:45z"
+    "title": "3 Dividend Stocks Trading Cheap Enough to Buy Meaningful Stakes for Under $1 , 000",
+    "url": "https://www.aol.com/articles/3-dividend-stocks-trading-cheap-120049000.html",
+    "domain": "aol.com",
+    "when": "Sep 23 · 12:30z"
    },
    {
-    "title": "Corporations Loaning Out Money Like Banks Is Causing a New Wild West of Finance",
-    "url": "https://thenewamerican.com/us/economics/corporations-loaning-out-money-like-banks-is-causing-a-new-wild-west-of-finance/",
-    "domain": "thenewamerican.com",
-    "when": "Sep 8 · 18:00z"
+    "title": "Spend Smarter , Save More , and Stay on Track With Spruce : What It Is and How It Differs From Other Banking Apps",
+    "url": "https://www.ign.com/articles/spruce-banking-app-explained",
+    "domain": "ign.com",
+    "when": "Sep 22 · 23:30z"
    },
    {
-    "title": "Three - Year Note Auction Attracts Above Average Demand",
-    "url": "https://www.finanzen.ch/nachrichten/zinsen/three-year-note-auction-attracts-above-average-demand-1036529467",
-    "domain": "finanzen.ch",
-    "when": "Sep 8 · 18:00z"
+    "title": "Australian housing construction faces a major supply slump in the coming year , develops say , even as the HIA Housing 100 report shows major pick - up",
+    "url": "https://www.afr.com/property/residential/home-building-about-to-fall-off-a-cliff-mirvac-warns-20260923-p60z86",
+    "domain": "afr.com",
+    "when": "Sep 23 · 01:45z"
    },
    {
-    "title": "Jefferies Financial Group Inc .: Jefferies Credit Partners Announces $4 Billion Capacity for Its European Direct Lending Strategy Anchored by First Close of Inaugural European Direct Lending Fund Backed by Allianz Global Investors",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69533450-jefferies-financial-group-inc-jefferies-credit-partners-announces-dollar-4-billion-capacity-for-its-european-direct-lending-strategy-anchored-by-first-clo-004.htm",
+    "title": "Butterfield shareholders greenlight CIBC Caribbean deal",
+    "url": "https://www.jamaicaobserver.com/2026/09/23/butterfield-shareholders-greenlight-cibc-caribbean-deal/",
+    "domain": "jamaicaobserver.com",
+    "when": "Sep 23 · 08:15z"
+   },
+   {
+    "title": "Bird . com secures $450m financing as it launches communications infrastructure for AI agents",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69657888-bird-com-secures-dollar-450m-financing-as-it-launches-communications-infrastructure-for-ai-agents-008.htm",
     "domain": "finanznachrichten.de",
-    "when": "Sep 9 · 12:30z"
+    "when": "Sep 23 · 15:15z"
    },
    {
-    "title": "PM seeks export - led growth push",
-    "url": "https://tribune.com.pk/story/2628226/pm-seeks-export-led-growth-push",
-    "domain": "tribune.com.pk",
-    "when": "Sep 9 · 04:45z"
+    "title": "A 40 - Year - Old Has $2 . 4M , No Mortgage And Spends About $45K A Year  It Seems Like I Can Just Quit My Job  ",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/40-old-2-4m-no-131510562.html",
+    "domain": "finance.yahoo.com",
+    "when": "Sep 22 · 22:00z"
    }
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
