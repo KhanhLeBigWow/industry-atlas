@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 17:10z",
+ "generated": "2026-10-01 17:40z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -477,82 +477,94 @@
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "China Accelerates Commercial Space Offensive with High - Density Launch Sorties and LEO Megaconstellations",
-    "url": "https://www.chinatechnews.com/2026/09/25/129740-china-accelerates-commercial-space-offensive-with-high-density-launch-sorties-and-leo-megaconstellations",
-    "domain": "chinatechnews.com",
-    "when": "Sep 25 · 01:45z"
+    "title": "Tiberius Aerospace Secures $500 Million Sceptre Contract Establishing First Scaled Deployment of Defense - as - a - Service",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69732326-tiberius-aerospace-secures-dollar-500-million-sceptre-contract-establishing-first-scaled-deployment-of-defense-as-a-service-004.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 1 · 14:45z"
    },
    {
-    "title": "San Antonio Named a North American  City to Watch  as Region Surpasses 2026 Economic Development Goals",
-    "url": "http://www.prnewswire.com/news-releases/san-antonio-named-a-north-american-city-to-watch-as-region-surpasses-2026-economic-development-goals-302889553.html",
+    "title": "Joby , GE , Collins win millions in new defense work | Local",
+    "url": "https://www.daytondailynews.com/local/200m-in-defense-contracts-landed-recently-by-ud-joby-ge-collins-aerospace/article_d143d62d-87d5-566e-bc6e-d5c7ec34e489.html",
+    "domain": "daytondailynews.com",
+    "when": "Oct 1 · 03:15z"
+   },
+   {
+    "title": "Türkiye homegrown submarine to reach greater depths with high - grade steel",
+    "url": "https://aa.com.tr/en/turkiye/turkiye-s-homegrown-submarine-to-reach-greater-depths-with-high-grade-steel/4075135",
+    "domain": "aa.com.tr",
+    "when": "Oct 1 · 15:30z"
+   },
+   {
+    "title": "China Exploitation of Nvidia Downstream Control Problems",
+    "url": "https://www.theepochtimes.com/opinion/chinas-exploitation-of-nvidias-downstream-control-problems-6088808",
+    "domain": "theepochtimes.com",
+    "when": "Sep 30 · 21:30z"
+   },
+   {
+    "title": "Barnes Aerospace Acquires ATL Turbine Services , Establishing First Aeroengine Component Repair Operation in Europe",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69732558-barnes-aerospace-acquires-atl-turbine-services-establishing-first-aeroengine-component-repair-operation-in-europe-004.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 1 · 15:00z"
+   },
+   {
+    "title": "COEUS Consulting named a 2026 MSP Titans of the Industry Southwest finalist",
+    "url": "https://azbigmedia.com/business/technology/coeus-consulting-named-a-2026-msp-titans-of-the-industry-southwest-finalist/",
+    "domain": "azbigmedia.com",
+    "when": "Oct 1 · 03:00z"
+   },
+   {
+    "title": "Labsphere Acquires Photon Gear , Adding Ultra - High - Precision Optical Design and Assembly",
+    "url": "http://www.prnewswire.com/news-releases/labsphere-acquires-photon-gear-adding-ultra-high-precision-optical-design-and-assembly-302896267.html",
     "domain": "prnewswire.com",
-    "when": "Sep 24 · 17:30z"
+    "when": "Oct 1 · 16:45z"
    },
    {
-    "title": " 《 TAIPEI TIMES 》 Brave Eagle AJT production completed - 焦點",
-    "url": "https://news.ltn.com.tw/news/focus/breakingnews/5585555",
-    "domain": "news.ltn.com.tw",
-    "when": "Sep 24 · 19:30z"
+    "title": "Biho Hybrid Returns to India Air Defence Discussions Says Korean Media",
+    "url": "https://idrw.org/biho-hybrid-returns-to-indias-air-defence-discussions-says-korean-media/",
+    "domain": "idrw.org",
+    "when": "Oct 1 · 07:00z"
    },
    {
-    "title": "Could Albany International ( AIN ) The Boeing ( BA ) Deal Strengthen its Aerospace Growth Story ? ",
-    "url": "https://www.insidermonkey.com/news/could-albany-international-ains-the-boeing-ba-deal-strengthen-its-aerospace-growth-story-1835749/",
-    "domain": "insidermonkey.com",
-    "when": "Sep 24 · 22:00z"
+    "title": "North East manufacturers join forces with aerospace alliance",
+    "url": "https://www.thenorthernecho.co.uk/news/26591744.north-east-manufacturers-join-forces-aerospace-alliance/",
+    "domain": "thenorthernecho.co.uk",
+    "when": "Oct 1 · 05:00z"
    },
    {
-    "title": "GE Aerospace is Spending $11 . 75 Billion to Fix a Supply - Chain Bottleneck . Will it Pay Off ? ",
-    "url": "https://www.insidermonkey.com/news/ge-aerospace-is-spending-11-75-billion-to-fix-a-supply-chain-bottleneck-will-it-pay-off-1840838/",
-    "domain": "insidermonkey.com",
-    "when": "Sep 24 · 18:45z"
-   },
-   {
-    "title": "Boeing vs . Lockheed Martin : Which Essential U . S . Aerospace Stock Is a Better Buy in 2026 ? ",
-    "url": "https://www.fool.com/coverage/better-buy/2026/09/24/boeing-vs-lockheed-martin-which-essential-u-s-aerospace-stock-is-a-better-buy-in-2026/",
+    "title": "Soaring Defense Spending Means Great News for These 2 Stocks",
+    "url": "https://www.fool.com/investing/2026/10/01/soaring-defense-spending-means-great-news-for-thes/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Sep 24 · 22:45z"
+    "when": "Oct 1 · 15:45z"
    },
    {
-    "title": "Assam expanding beyond traditional sectors : Finance Minister",
-    "url": "https://dailypioneer.com/news/assam-expanding-beyond-traditional-sectors-finance-minister",
-    "domain": "dailypioneer.com",
-    "when": "Sep 25 · 06:15z"
+    "title": "Texas startup awarded DoD contract for scandium recovery",
+    "url": "https://www.mining.com/texas-startup-awarded-dod-contract-for-scandium-recovery/",
+    "domain": "mining.com",
+    "when": "Oct 1 · 02:30z"
    },
    {
-    "title": "ATI Targets $1 . 35B EBITDA Run Rate as Aerospace , Defense Near 70 % of Sales",
-    "url": "https://www.dailypolitical.com/2026/09/24/ati-targets-1-35b-ebitda-run-rate-as-aerospace-defense-near-70-of-sales.html",
-    "domain": "dailypolitical.com",
-    "when": "Sep 25 · 05:45z"
+    "title": "Shield AI chooses Des Moines for new site of AI fighter jet production",
+    "url": "https://komonews.com/news/local/des-moines-residents-business-boeing-shield-ai-in-washington-state-governors-space-council-commercial-space-industry-aerospace-industry-ai-piloted-fighter-jet-designed-to-take-off-and-land-vertically-engineers",
+    "domain": "komonews.com",
+    "when": "Sep 30 · 23:15z"
    },
    {
-    "title": "Ged ODwyer wins Bolton News Lifetime Achievement Award",
-    "url": "https://www.theboltonnews.co.uk/news/26564107.ged-odwyer-wins-bolton-news-lifetime-achievement-award/",
-    "domain": "theboltonnews.co.uk",
-    "when": "Sep 25 · 05:15z"
+    "title": "Mahindra , Embraer identify Nagpur for potential C - 390 aircraft assembly line",
+    "url": "https://www.moneycontrol.com/news/business/companies/mahindra-embraer-identify-nagpur-for-potential-c-390-aircraft-assembly-line-14043147.html",
+    "domain": "moneycontrol.com",
+    "when": "Oct 1 · 17:00z"
    },
    {
-    "title": "Hong Kong 2026 Policy Address : A Strategic Vision for a Bright New Era",
-    "url": "https://www.manilatimes.net/2026/09/25/tmt-newswire/media-outreach-newswire/hong-kongs-2026-policy-address-a-strategic-vision-for-a-bright-new-era/2432769",
-    "domain": "manilatimes.net",
-    "when": "Sep 24 · 22:45z"
+    "title": "4 Ways A & D Companies Can Finance Growth At Every Stage",
+    "url": "https://aviationweek.com/aerospace/4-ways-ad-companies-can-finance-growth-every-stage",
+    "domain": "aviationweek.com",
+    "when": "Oct 1 · 09:45z"
    },
    {
-    "title": "Telangana to host  Raksha Expo  as part of Invest Telangana Global Summit 2026",
-    "url": "https://aninews.in/news/national/politics/telangana-to-host-raksha-expo-as-part-of-invest-telangana-global-summit-202620260924221935/",
-    "domain": "aninews.in",
-    "when": "Sep 24 · 17:30z"
-   },
-   {
-    "title": "PM Modi lauds  Make in India  success ; credits infrastructure & innovation for national growth",
-    "url": "https://www.business-standard.com/india-news/pm-modi-lauds-make-in-india-success-credits-infrastructure-innovation-for-national-growth-126092500479_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 25 · 09:15z"
-   },
-   {
-    "title": "Rethinking the Packaging Pipeline : Sterling Contract Packaging Featured on  All Access hosted by Andy Garcia  ",
-    "url": "http://www.prnewswire.com/news-releases/rethinking-the-packaging-pipeline-sterling-contract-packaging-featured-on-all-access-hosted-by-andy-garcia-302888806.html",
-    "domain": "prnewswire.com",
-    "when": "Sep 25 · 09:15z"
+    "title": "UAE Business : IFFCO to show manufacturing capabilities at Gulfood",
+    "url": "https://www.gdnonline.com:443/Details/1408255",
+    "domain": "gdnonline.com",
+    "when": "Oct 1 · 11:00z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
@@ -711,10 +723,10 @@
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
    {
-    "title": "Exclusive : Sun Capital closes Anderson Global continuation vehicle",
-    "url": "https://www.pehub.com/exclusive-sun-capital-closes-anderson-global-cv-its-second-this-year/",
-    "domain": "pehub.com",
-    "when": "Sep 29 · 11:45z"
+    "title": "NuSummit Appoints Kunal Purohit as Managing Director and CEO",
+    "url": "http://www.bignewsnetwork.com/news/279344734/nusummit-appoints-kunal-purohit-as-managing-director-and-ceo",
+    "domain": "bignewsnetwork.com",
+    "when": "Oct 1 · 07:00z"
    }
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
@@ -811,94 +823,82 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Sollfege Smart Electronics IPO to raise ₹21 . 7 cr , open on Sep 30",
-    "url": "https://www.thehindubusinessline.com/markets/sollfege-smart-electronics-ipo-to-raise-217-cr-open-on-sep-30/article71515167.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Sep 27 · 05:00z"
-   },
-   {
-    "title": "SK Hynix Solidigm weighs IPO that could value the unit at up to US$150 billion : sources",
-    "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/sk-hynixs-solidigm-weighs-ipo-could-value-unit-us150-billion-sources",
-    "domain": "businesstimes.com.sg",
-    "when": "Sep 27 · 02:30z"
-   },
-   {
-    "title": "Mynt IPO opens investment opportunity for OFWs",
-    "url": "https://www.manilatimes.net/2026/09/27/news/mynt-ipo-opens-investment-opportunity-for-ofws/2433558",
-    "domain": "manilatimes.net",
-    "when": "Sep 27 · 04:00z"
-   },
-   {
-    "title": "Arete 22 Files For Rs 440 Crore IPO , Funds To Support Working Capital And Debt Repayment",
-    "url": "https://www.freepressjournal.in/business/arete-22-files-for-rs-440-crore-ipo-funds-to-support-working-capital-and-debt-repayment",
-    "domain": "freepressjournal.in",
-    "when": "Sep 27 · 05:00z"
-   },
-   {
-    "title": "Eventions Sets Rs 38 . 12 Crore IPO , Subscription Opens September 30 At Rs 112 – 118",
-    "url": "https://www.freepressjournal.in/business/eventions-sets-rs-3812-crore-ipo-subscription-opens-september-30-at-rs-112118",
-    "domain": "freepressjournal.in",
-    "when": "Sep 27 · 07:00z"
-   },
-   {
-    "title": "PSEi faces pressure from rising yields , weak peso - BusinessWorld Online",
-    "url": "https://bworldonline.com/stock-market/2026/09/27/781942/psei-faces-pressure-from-rising-yields-weak-peso/",
-    "domain": "bworldonline.com",
-    "when": "Sep 27 · 15:30z"
-   },
-   {
-    "title": "ACF sensitises Kano residents on Dangote refinery IPO",
-    "url": "https://dailytrust.com/acf-sensitises-kano-residents-on-dangote-refinery-ipo/",
-    "domain": "dailytrust.com",
-    "when": "Sep 27 · 01:00z"
-   },
-   {
-    "title": "Maharaja & Speedex India Invests ₹19 . 80 Crore in Subsidiary Dewdrop Bottles",
-    "url": "https://www.equitybulls.com/category.php?id=375815",
-    "domain": "equitybulls.com",
-    "when": "Sep 27 · 10:30z"
-   },
-   {
-    "title": "Pomerantz LLP Issues Reminder to Shareholders in York Space Systems , ... ",
-    "url": "https://www.pr-inside.com/pomerantz-llp-issues-reminder-to-shareholders-in-york-space-systems-r5227786.htm",
-    "domain": "pr-inside.com",
-    "when": "Sep 27 · 15:30z"
-   },
-   {
-    "title": "Bonus & dividends : SAIL , IGL among 10 stocks turning ex - record date this week . Do you own any ? ",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/bonus-dividends-sail-igl-among-10-stocks-turning-ex-record-date-this-week-do-you-own-any/articleshow/134514676.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 27 · 05:00z"
-   },
-   {
-    "title": "SpaceX Next Starship Launch Will Generate Revenue -- Sort Of",
-    "url": "https://www.fool.com/investing/2026/09/27/spacexs-next-starship-launch-will-generate-revenue/",
+    "title": "Anthropic Plans to Spend $518 Billion on Cloud and Data Centers . More Than $100 Billion Is Already Promised to Amazon . ",
+    "url": "https://www.fool.com/investing/2026/09/30/anthropic-plans-to-spend-usd518-billion-on-cloud-and-data-centers-more-than-usd100-billion-is-already-promised-to-amazon/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Sep 27 · 12:45z"
+    "when": "Oct 1 · 02:30z"
    },
    {
-    "title": "Class Action Litigation Filed by Pomerantz LLP for Investors of Aardvark ... ",
-    "url": "https://www.pr-inside.com/class-action-litigation-filed-by-pomerantz-llp-for-investors-of-aardvark-r5227775.htm",
-    "domain": "pr-inside.com",
-    "when": "Sep 27 · 15:30z"
+    "title": "Indian PV manufacturer Vishakha Renewables files for IPO",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69729348-indian-pv-manufacturer-vishakha-renewables-files-for-ipo-451.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 1 · 11:00z"
    },
    {
-    "title": "Prediction : This Space Stock Will Outperform SpaceX Over the Next 10 Years",
-    "url": "https://www.aol.com/articles/prediction-space-stock-outperform-spacex-052000000.html",
-    "domain": "aol.com",
-    "when": "Sep 27 · 07:45z"
+    "title": "Khaadi to List on PSX",
+    "url": "https://propakistani.pk/2026/10/01/khaadi-to-list-on-psx/",
+    "domain": "propakistani.pk",
+    "when": "Oct 1 · 15:30z"
    },
    {
-    "title": "Cars24 expects to be eligible to file DRHP by April : CFO Shivanshu Makkar",
-    "url": "https://www.moneycontrol.com/news/business/ipo/cars24-expects-to-be-eligible-to-file-drhp-by-april-cfo-shivanshu-makkar-14039177.html",
-    "domain": "moneycontrol.com",
-    "when": "Sep 27 · 09:00z"
+    "title": "Tubig Pilipinas eyes P1 . 8 billion from follow - on share offer",
+    "url": "https://www.philstar.com/business/2026/10/02/2560290/tubig-pilipinas-eyes-p18-billion-follow-share-offer",
+    "domain": "philstar.com",
+    "when": "Oct 1 · 17:00z"
    },
    {
-    "title": "Cars24 expects to file IPO papers by April after reverse flip to India : CFO",
-    "url": "https://www.business-standard.com/markets/ipo/cars24-expects-to-file-ipo-papers-by-april-after-reverse-flip-to-india-cfo-126092700129_1.html",
+    "title": "Inox Air Products files IPO papers ; issue size not disclosed",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/inox-air-products-files-ipo-papers-issue-size-not-disclosed/articleshow/134613796.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 1 · 10:00z"
+   },
+   {
+    "title": "Anarock Property Consultants files DRHP to raise ₹1 , 000 cr via IPO",
+    "url": "https://www.business-standard.com/markets/ipo/anarock-property-consultants-files-drhp-to-raise-1-000-cr-via-ipo-126100100644_1.html",
     "domain": "business-standard.com",
-    "when": "Sep 27 · 06:45z"
+    "when": "Oct 1 · 11:00z"
+   },
+   {
+    "title": "If Youd Invested $10 , 000 in SpaceX at Its IPO , Here How Much Youd Have Today",
+    "url": "https://www.fool.com/investing/2026/10/01/you-invest-10000-spacex-ipo-how-much-today/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Oct 1 · 15:45z"
+   },
+   {
+    "title": "Anarock Property Consultants files papers for Rs 1 , 000 crore IPO",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/anarock-property-consultants-files-papers-for-rs-1000-crore-ipo/articleshow/134608009.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 1 · 05:30z"
+   },
+   {
+    "title": "AVEX Investor Alert : Kessler Topaz Meltzer & Check , LLP Encourages AVEX Investors with Losses to Contact the Firm",
+    "url": "http://www.prnewswire.com/news-releases/avex-investor-alert-kessler-topaz-meltzer--check-llp-encourages-avex-investors-with-losses-to-contact-the-firm-302896025.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 1 · 15:30z"
+   },
+   {
+    "title": "OpenAI delayed IPO means more reliance on private investment",
+    "url": "https://www.marketplace.org/story/2026/09/30/openais-delayed-ipo-means-more-reliance-on-private-investment",
+    "domain": "marketplace.org",
+    "when": "Oct 1 · 03:45z"
+   },
+   {
+    "title": "Business : NSSF receives Sh42 . 6b dividend from Airtel Uganda",
+    "url": "https://www.newvision.co.ug/category/business/nssf-receives-sh426b-dividend-from-airtel-uga-NV_241614_102026",
+    "domain": "newvision.co.ug",
+    "when": "Oct 1 · 03:00z"
+   },
+   {
+    "title": "GCash owner Mynt prices Philippine IPO at 6 . 6 pesos per share",
+    "url": "https://www.dealstreetasia.com/stories/gcash-owner-mynt-prices-philippine-ipo-at-6-6-pesos-per-share-496835",
+    "domain": "dealstreetasia.com",
+    "when": "Oct 1 · 05:00z"
+   },
+   {
+    "title": "Airtel Money heading for £5 . 3bn stock market debut after setting float price",
+    "url": "https://www.dissexpress.co.uk/national/airtel-money-heading-for-5-3bn-stock-market-debut-after-setting-float-price-172404/",
+    "domain": "dissexpress.co.uk",
+    "when": "Oct 1 · 09:00z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
