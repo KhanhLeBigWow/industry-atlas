@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01 17:40z",
+ "generated": "2026-10-02 16:58z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -65,266 +65,242 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Digital exports : path to high - value knowledge economy",
-    "url": "https://tribune.com.pk/story/2631743/digital-exports-path-to-high-value-knowledge-economy",
-    "domain": "tribune.com.pk",
-    "when": "Sep 28 · 05:30z"
+    "title": "Big Tech earnings could fuel a big October move for the stock market",
+    "url": "https://www.foxbusiness.com/markets/october-could-be-a-huge-month-for-the-stock-market-heres-why",
+    "domain": "foxbusiness.com",
+    "when": "Oct 1 · 22:30z"
    },
    {
-    "title": "edForce appoints industry veteran Ramesh Padmanabhan as CEO",
-    "url": "https://www.adgully.com/post/21313/edforce-appoints-industry-veteran-ramesh-padmanabhan-as-ceo",
-    "domain": "adgully.com",
-    "when": "Sep 28 · 07:45z"
-   },
-   {
-    "title": "Treasure Global Signs MOU for US$38 Million Acquisition of 51 % Controlling Stake in Smart Water Metering Company",
-    "url": "https://www.manilatimes.net/2026/09/28/tmt-newswire/globenewswire/treasure-global-signs-mou-for-us38-million-acquisition-of-51-controlling-stake-in-smart-water-metering-company/2434257",
-    "domain": "manilatimes.net",
-    "when": "Sep 28 · 14:15z"
-   },
-   {
-    "title": "Aehr Test Systems to Participate in 18th Annual CEO Investor Summit 2026 in San Francisco",
-    "url": "http://www.tennesseedaily.com/news/279337581/aehr-test-systems-to-participate-in-18th-annual-ceo-investor-summit-2026-in-san-francisco",
-    "domain": "tennesseedaily.com",
-    "when": "Sep 28 · 16:15z"
-   },
-   {
-    "title": "Lam Research will employ hundreds at East Bay tech hub to meet AI demand",
-    "url": "https://www.mercurynews.com/2026/09/28/tech-lam-jobs-semiconductor-chip-economy-build-property-livermore-ai/",
-    "domain": "mercurynews.com",
-    "when": "Sep 28 · 17:45z"
-   },
-   {
-    "title": "Seligman Ventures doubles capital to $1 billion as AI boom revives hardware bets",
-    "url": "https://economictimes.indiatimes.com/tech/funding/seligman-ventures-doubles-capital-to-1-billion-as-ai-boom-revives-hardware-bets/articleshow/134544025.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 28 · 14:15z"
-   },
-   {
-    "title": "Cerebras to supply AI systems to cloud computing startup Gimlet Labs",
-    "url": "https://www.thestar.com.my/tech/tech-news/2026/09/28/cerebras-to-supply-ai-systems-to-cloud-computing-startup-gimlet-labs",
-    "domain": "thestar.com.my",
-    "when": "Sep 28 · 14:15z"
-   },
-   {
-    "title": "U . S . Stock Futures Fall as Iran , Oil and AI Risks Rattle Markets",
-    "url": "http://www.econotimes.com/US-Stock-Futures-Fall-as-Iran-Oil-and-AI-Risks-Rattle-Markets-1753239",
+    "title": "Amazon Eyes $8 Billion Nvidia Chip Spinoff to Fund AI Expansion",
+    "url": "http://www.econotimes.com/Amazon-Eyes-8-Billion-Nvidia-Chip-Spinoff-to-Fund-AI-Expansion-1753760",
     "domain": "econotimes.com",
-    "when": "Sep 28 · 11:00z"
+    "when": "Oct 2 · 08:45z"
    },
    {
-    "title": "FG targets 1m export - linked jobs , 10m IT certified Nigerians",
-    "url": "https://thesun.ng/fg-targets-1m-export-linked-jobs-10m-it-certified-nigerians-by-2030/",
-    "domain": "thesun.ng",
-    "when": "Sep 28 · 05:45z"
+    "title": "Nigeria : Cloud Adoption - Fear of Losing Data Control Stalls Nigeria Digital Growth - - Don",
+    "url": "https://allafrica.com/stories/202610010492.html",
+    "domain": "allafrica.com",
+    "when": "Oct 1 · 18:45z"
    },
    {
-    "title": "Nvidia China Chip Sales Report Sends Chinese Semiconductor Stocks Lower",
-    "url": "http://www.econotimes.com/Nvidia-China-Chip-Sales-Report-Sends-Chinese-Semiconductor-Stocks-Lower-1753243",
-    "domain": "econotimes.com",
-    "when": "Sep 28 · 11:00z"
+    "title": "IEM - UEM Group takes IEEE IEMCON 2026 to UC Berkeley , linking Indian researchers with global technology community",
+    "url": "http://www.southeastasiapost.com/news/279345695/iem-uem-group-takes-ieee-iemcon-2026-to-uc-berkeley-linking-indian-researchers-with-global-technology-community",
+    "domain": "southeastasiapost.com",
+    "when": "Oct 1 · 19:00z"
    },
    {
-    "title": "Who writes the code of the new world ? | The Jerusalem Post",
-    "url": "http://www.jpost.com/defense-and-tech/article-909926",
-    "domain": "jpost.com",
-    "when": "Sep 28 · 07:30z"
+    "title": "Palantir Billionaire Peter Thiel Has 42 % of His Portfolio in These 2 Artificial Intelligence Stocks",
+    "url": "https://www.fool.com/investing/2026/10/02/palantir-billionaire-peter-thiel-has-42-of-his-por/",
+    "domain": "fool.com",
+    "when": "Oct 2 · 08:30z"
    },
    {
-    "title": "Country needs to build its own digital security platforms : Sunil Gupta",
-    "url": "https://www.business-standard.com/technology/tech-news/country-needs-to-build-its-own-digital-security-platforms-sunil-gupta-126092700685_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 27 · 19:15z"
+    "title": "FTC Probing OpenAI , Anthropic Over Product Safety Concerns",
+    "url": "https://www.insurancejournal.com/news/national/2026/10/02/887673.htm",
+    "domain": "insurancejournal.com",
+    "when": "Oct 2 · 06:15z"
    },
    {
-    "title": "TSMC Accelerates 2nm Expansion as AI Chip Demand Surges",
-    "url": "http://www.econotimes.com/TSMC-Accelerates-2nm-Expansion-as-AI-Chip-Demand-Surges-1753189",
-    "domain": "econotimes.com",
-    "when": "Sep 28 · 06:00z"
+    "title": "Japan banks uncover twice the vulnerabilities following Mythos AI release",
+    "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-banks-uncover-twice-the-vulnerabilities-following-mythos-ai-release",
+    "domain": "asia.nikkei.com",
+    "when": "Oct 1 · 21:45z"
    },
    {
-    "title": "Taking conversations beyond the page - BusinessWorld Online",
-    "url": "https://bworldonline.com/special-features/2026/09/28/782108/taking-conversations-beyond-the-page/",
-    "domain": "bworldonline.com",
-    "when": "Sep 27 · 19:45z"
+    "title": "Sam Altman releases personal AI agent . Google releases Argon AI Does this look like any of these companies are slowing down . ",
+    "url": "https://www.investmentwatchblog.com/sam-altman-releases-personal-ai-agent-google-releases-argon-ai-does-this-look-like-any-of-these-companies-are-slowing-down/",
+    "domain": "investmentwatchblog.com",
+    "when": "Oct 2 · 00:15z"
+   },
+   {
+    "title": "Faster , bigger , easier : Interpol stark warning on AI - fuelled cybercrime for corporate world",
+    "url": "https://www.moneycontrol.com/world/faster-bigger-easier-interpol-s-stark-warning-on-ai-fuelled-cybercrime-for-corporate-world-article-14043258.html",
+    "domain": "moneycontrol.com",
+    "when": "Oct 2 · 05:30z"
+   },
+   {
+    "title": "Jim Cramer on software stock Q3 comeback",
+    "url": "https://www.cnbc.com/2026/10/01/jim-cramer-software-stocks-q3.html",
+    "domain": "cnbc.com",
+    "when": "Oct 1 · 22:45z"
+   },
+   {
+    "title": "CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector",
+    "url": "https://seekingalpha.com/news/4649465-crowdstrike-okta-rubrik-all-reach-one-year-highs-as-ai-continues-to-rally-cyber-sector",
+    "domain": "seekingalpha.com",
+    "when": "Oct 1 · 20:15z"
+   },
+   {
+    "title": "AI Speech - to - Text System for Egyptian Courts Launches October 1st",
+    "url": "https://cairoscene.com/News/AI-Speech-to-Text-System-for-Egyptian-Courts-Launches-October-1st",
+    "domain": "cairoscene.com",
+    "when": "Oct 2 · 04:00z"
+   },
+   {
+    "title": "FinancialContent - Why Applied Materials ( AMAT ) Stock Is Up Today",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-1-why-applied-materials-amat-stock-is-up-today",
+    "domain": "markets.financialcontent.com",
+    "when": "Oct 1 · 17:30z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Millennium $20bn capital raise attracts more than $30bn … ",
-    "url": "https://hedgeweek.com/news/millenniums-20bn-capital-raise-attracts-more-than-30bn-of-investor-demand",
-    "domain": "hedgeweek.com",
-    "when": "Sep 28 · 17:00z"
+    "title": "NBPE Announces Transaction in Own Shares | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/10/02/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2437793",
+    "domain": "manilatimes.net",
+    "when": "Oct 2 · 07:45z"
    },
    {
-    "title": "How Muse and other AI agents could spark a bank run , according to an economist",
-    "url": "https://www.morningstar.com/news/marketwatch/2026092826/how-muse-and-other-ai-agents-could-spark-a-bank-run-according-to-an-economist",
-    "domain": "morningstar.com",
-    "when": "Sep 28 · 11:30z"
+    "title": "TRIMAX Power Systems Selected to Present at NIBA 153rd Investment Conference",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69734892-trimax-power-systems-selected-to-present-at-niba-s-153rd-investment-conference-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 1 · 19:45z"
    },
    {
-    "title": "Oman gives banks three years to separate securities businesses",
-    "url": "https://www.omanobserver.om/article/1196910/business/banking/oman-gives-banks-three-years-to-separate-securities-businesses",
-    "domain": "omanobserver.om",
-    "when": "Sep 28 · 17:15z"
+    "title": "Broadcom AI chip financing : Broadcom starts amassing $60 billion to fund chips for Anthropic : Report",
+    "url": "https://economictimes.indiatimes.com/tech/technology/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic-report/articleshow/134632012.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 2 · 05:30z"
    },
    {
-    "title": "Relation Insurance Reports It Acquired Pennsylvania LaPlaca Agency",
-    "url": "https://www.insurancejournal.com/news/east/2026/09/28/886957.htm",
-    "domain": "insurancejournal.com",
-    "when": "Sep 28 · 05:30z"
+    "title": "Next OpenAI , Anthropic may go direct to retail investor . Buyer beware",
+    "url": "https://www.cnbc.com/2026/10/01/sec-private-equity-hedge-funds-stock-investing.html",
+    "domain": "cnbc.com",
+    "when": "Oct 1 · 18:30z"
    },
    {
-    "title": "More US Candidates Call Out Private Equity Role in Making Housing Less Affordable",
-    "url": "https://www.nakedcapitalism.com/2026/09/more-us-candidates-call-out-private-equity-role-in-making-housing-less-affordable.html",
-    "domain": "nakedcapitalism.com",
-    "when": "Sep 28 · 15:30z"
+    "title": "EQT Agreed to Sell Korea Acuon Group to a Hanwha Life - Led Consortium : ",
+    "url": "https://hedgeco.net/news/10/2026/eqt-agreed-to-sell-koreas-acuon-group-to-a-hanwha-life-led-consortium.html",
+    "domain": "hedgeco.net",
+    "when": "Oct 1 · 19:00z"
    },
    {
-    "title": "Obiyemi : Issuing Houses Can Thrive amid Market Volatility , Regulation – THISDAYLIVE",
-    "url": "https://www.thisdaylive.com/2026/09/28/obiyemi-issuing-houses-can-thrive-amid-market-volatility-regulation/",
-    "domain": "thisdaylive.com",
-    "when": "Sep 28 · 05:30z"
+    "title": "JMMB Group watching interest rates hikes , adds that Guyana market difficult to enter",
+    "url": "https://jamaica-gleaner.com/article/business/20261002/jmmb-group-watching-interest-rates-hikes-adds-guyana-market-difficult",
+    "domain": "jamaica-gleaner.com",
+    "when": "Oct 2 · 08:45z"
    },
    {
-    "title": "Relation Insurance acquires Pennsylvania family agency",
-    "url": "https://www.insurancebusinessmag.com/us/news/mergers-acquisitions/relation-insurance-acquires-pennsylvania-family-agency-591323.aspx",
-    "domain": "insurancebusinessmag.com",
-    "when": "Sep 28 · 06:30z"
+    "title": "Trilegal lawyer Anamika Ray joins Anagram Partners as Partner in Corporate practice",
+    "url": "https://www.barandbench.com/law-firms/corporate/trilegal-lawyer-anamika-ray-joins-anagram-partners-as-partner-in-corporate-practice",
+    "domain": "barandbench.com",
+    "when": "Oct 2 · 08:45z"
    },
    {
-    "title": "20 years ago : Phones4U sold in £1 . 46bn deal as John Caudwell  cleared his office  ",
-    "url": "https://www.stokesentinel.co.uk/news/stoke-on-trent-news/20-years-ago-phones4u-sold-11175161",
-    "domain": "stokesentinel.co.uk",
-    "when": "Sep 28 · 17:15z"
+    "title": "HDFC Bank , Kotak Mahindra Bank put two Anups atop banking big succession puzzle",
+    "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/hdfc-bank-kotak-mahindra-bank-put-two-anups-atop-bankings-big-succession-puzzle/articleshow/134626950.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 1 · 21:00z"
    },
    {
-    "title": "Aon targets gas power project risk with lifecycle insurance program",
-    "url": "https://www.insurancebusinessmag.com/au/news/breaking-news/aon-launches-us2-5bn-lifecycle-program-for-gas-power-projects-591382.aspx",
-    "domain": "insurancebusinessmag.com",
-    "when": "Sep 28 · 13:15z"
+    "title": "Some of the super wealthy are plowing money into a tax loophole to slash taxes to 0",
+    "url": "https://www.capeandislands.org/2026-10-01/some-of-the-super-wealthy-are-plowing-money-into-a-tax-loophole-to-slash-taxes-to-0",
+    "domain": "capeandislands.org",
+    "when": "Oct 2 · 03:15z"
    },
    {
-    "title": "Citigroup ( C ) Lines Up a $3 Billion Banamex IPO for January",
-    "url": "https://www.insidermonkey.com/news/citigroup-c-lines-up-a-3-billion-banamex-ipo-for-january-1844835/",
-    "domain": "insidermonkey.com",
-    "when": "Sep 27 · 22:30z"
+    "title": "One day , two Anups ; one Saha , one Bagchi at helm of two big banks | Meet ex - ICICI and IIT , IIM alumni banks banked upon",
+    "url": "https://www.livemint.com/companies/one-day-two-anups-one-saha-one-bagchi-at-helm-of-two-big-banks-meet-ex-icici-and-iit-iim-alumni-banks-banked-upon-11790878388600.html",
+    "domain": "livemint.com",
+    "when": "Oct 1 · 21:30z"
    },
    {
-    "title": "IRDAI Latest Missive Can Miss The Target",
-    "url": "https://www.freepressjournal.in/analysis/irdais-latest-missive-can-miss-the-target",
-    "domain": "freepressjournal.in",
-    "when": "Sep 28 · 17:30z"
+    "title": "Novartis Cant Dodge Hedge Fund Trade Secrets Suit",
+    "url": "https://www.law360.com:443/articles/2532760",
+    "domain": "law360.com",
+    "when": "Oct 2 · 04:45z"
    },
    {
-    "title": "The EIB and Intesa Sanpaolo provide €300 million to support social housing and student residences in Italy",
-    "url": "https://www.eib.org/en/press/all/2026-320-the-eib-and-intesa-sanpaolo-provide-eur300-million-to-support-social-housing-and-student-residences-in-italy",
-    "domain": "eib.org",
-    "when": "Sep 28 · 16:30z"
-   },
-   {
-    "title": "Travel insurers move to fill the gap banks are leaving",
-    "url": "https://www.insurancebusinessmag.com/au/news/travel/travel-insurers-move-to-fill-the-gap-banks-are-leaving-591439.aspx",
-    "domain": "insurancebusinessmag.com",
-    "when": "Sep 28 · 18:15z"
-   },
-   {
-    "title": "Exclusive - Bridgepoint , Astorg consider £2 billion - plus Fenergo sale , sources say",
-    "url": "https://www.thestar.com.my/tech/tech-news/2026/09/28/exclusive-bridgepoint-astorg-consider-2-billion-plus-fenergo-sale-sources-say",
-    "domain": "thestar.com.my",
-    "when": "Sep 28 · 16:45z"
-   },
-   {
-    "title": "Why credit card rewards schemes are being slashed",
-    "url": "https://www.abc.net.au/listen/programs/abc-news-top-stories/why-credit-card-rewards-schemes-are-being-slashed/107205182",
-    "domain": "abc.net.au",
-    "when": "Sep 28 · 11:15z"
+    "title": "Connie Petropoulos | Inside Philanthropy",
+    "url": "https://www.insidephilanthropy.com/author/connie-petropoulos",
+    "domain": "insidephilanthropy.com",
+    "when": "Oct 1 · 21:45z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Current price of oil as of Sept . 28 , 2026",
-    "url": "https://fortune.com/article/price-of-oil-09-28-2026/",
-    "domain": "fortune.com",
-    "when": "Sep 28 · 17:15z"
+    "title": "NYPA to own 51 % of 240 - MW solar project with EDF",
+    "url": "https://www.utilitydive.com/news/nypa-240-mw-solar-project-edf-rich-road/831878/",
+    "domain": "utilitydive.com",
+    "when": "Oct 1 · 17:30z"
    },
    {
-    "title": "CCTV Script 25 / 09 / 26",
-    "url": "https://www.cnbc.com/2026/09/28/cctv-script-25/09/26.html",
-    "domain": "cnbc.com",
-    "when": "Sep 28 · 07:15z"
+    "title": "Oil holds as Gulf exports recover , Iran talks",
+    "url": "https://www.omanobserver.om/article/1197092/business/oil-holds-as-gulf-exports-recover-iran-talks",
+    "domain": "omanobserver.om",
+    "when": "Oct 1 · 19:00z"
    },
    {
-    "title": "IREDA , Engineers India , PNB : Top stocks to trade Check key levels , target prices & stop loss",
-    "url": "https://www.businesstoday.in/markets/stocks/story/ireda-engineers-india-pnb-top-stocks-to-trade-check-key-levels-target-prices-stop-loss-558118-2026-09-28",
-    "domain": "businesstoday.in",
-    "when": "Sep 28 · 04:15z"
+    "title": "Gujarat : GSECL enters nuclear power sector , signs MoU with NPCIL for new project",
+    "url": "https://www.prokerala.com/news/articles/a1819303.html",
+    "domain": "prokerala.com",
+    "when": "Oct 1 · 19:00z"
    },
    {
-    "title": "Riyadh to Host Global Energy Leaders for Talks on Markets , Supply",
-    "url": "https://english.aawsat.com/business/5323382-riyadh-host-global-energy-leaders-talks-markets-supply",
-    "domain": "english.aawsat.com",
-    "when": "Sep 28 · 11:00z"
+    "title": "Oil Prices Rise as China Halts Petroleum Products Exports",
+    "url": "https://pakobserver.net/oil-prices-rise-as-china-halts-petroleum-products-exports/",
+    "domain": "pakobserver.net",
+    "when": "Oct 1 · 21:45z"
    },
    {
-    "title": "IEX subsidiary Indian Coal Exchange applies for trading licence with CCO",
-    "url": "https://www.business-standard.com/companies/news/iex-subsidiary-indian-coal-exchange-applies-for-trading-licence-with-cco-126092800181_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 28 · 05:30z"
+    "title": "India needs integrated energy storage policy to build resilience against geopolitical shocks : S & P Global Energy Gauri Jauhar",
+    "url": "https://aninews.in/news/business/india-needs-integrated-energy-storage-policy-to-build-resilience-against-geopolitical-shocks-sampp-global-energys-gauri-jauhar20261002095329/",
+    "domain": "aninews.in",
+    "when": "Oct 2 · 05:30z"
    },
    {
-    "title": "Trump says Iran war to end soon , further strikes possible",
-    "url": "https://www.samaa.tv/2087357539-trump-says-iran-war-to-end-soon-further-strikes-possible",
-    "domain": "samaa.tv",
-    "when": "Sep 28 · 07:45z"
+    "title": "Oil prices stable amid mixed supply signals from the Middle East",
+    "url": "https://www.thenationalnews.com/business/energy/2026/10/02/oil-prices-stable-amid-mixed-supply-signals-from-the-middle-east/",
+    "domain": "thenationalnews.com",
+    "when": "Oct 2 · 09:15z"
    },
    {
-    "title": "Oil up , Wall Street dips after Trump rejects Iran truce offer",
-    "url": "http://thepeninsulaqatar.com/article/28/09/2026/oil-up-wall-street-dips-after-trump-rejects-iran-truce-offer",
-    "domain": "thepeninsulaqatar.com",
-    "when": "Sep 28 · 16:15z"
+    "title": "Azerbaijan - EU relations development prospects discussed ( PHOTO ) ",
+    "url": "https://www.trend.az/azerbaijan/politics/4230285.html",
+    "domain": "trend.az",
+    "when": "Oct 1 · 19:00z"
    },
    {
-    "title": "Empty storage in Europe , closed Hormuz , gas at 100 euros – A provocative proposal from the EU",
-    "url": "https://www.bankingnews.gr/diethni/articles/901955/empty-storage-in-europe-closed-hormuz-gas-at-100-euros-a-provocative-proposal-from-the-eu",
-    "domain": "bankingnews.gr",
-    "when": "Sep 28 · 12:30z"
+    "title": "Iran war to end  very quickly : Trump",
+    "url": "https://www.prokerala.com/news/articles/a1819353.html",
+    "domain": "prokerala.com",
+    "when": "Oct 2 · 05:30z"
    },
    {
-    "title": "Oil , AI demand give ringgit room to rally , say strategists",
-    "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/28/oil-ai-demand-give-ringgit-room-to-rally-say-strategists",
-    "domain": "freemalaysiatoday.com",
-    "when": "Sep 28 · 04:30z"
+    "title": "  Pretend Im on the ticket : Trump shares message to Oklahomans in exclusive interview",
+    "url": "https://www.news9.com/oklahoma-elections/trump-oklahoma-exclusive-interview",
+    "domain": "news9.com",
+    "when": "Oct 2 · 04:30z"
    },
    {
-    "title": "Powering progress : The pivotal role of logistics in Africa renewable energy boom",
-    "url": "https://www.bizcommunity.com/article/powering-progress-the-pivotal-role-of-logistics-in-africas-renewable-energy-boom-303698a",
-    "domain": "bizcommunity.com",
-    "when": "Sep 28 · 11:00z"
+    "title": "Utilities Shares Tick Higher as Bond Yields Cool Down Utilities Roundup",
+    "url": "https://www.morningstar.com/news/dow-jones/202610019427/utilities-shares-tick-higher-as-bond-yields-cool-down-utilities-roundup",
+    "domain": "morningstar.com",
+    "when": "Oct 1 · 22:00z"
    },
    {
-    "title": "EPIRA at 25 : Goals reached , new issues for the future - BusinessWorld Online",
-    "url": "https://bworldonline.com/opinion/2026/09/28/782605/epira-at-25-goals-reached-new-issues-for-the-future/",
-    "domain": "bworldonline.com",
-    "when": "Sep 28 · 17:00z"
+    "title": "Trump says he may ask Europe to release diesel reserves",
+    "url": "https://aa.com.tr/en/economy/trump-says-he-may-ask-europe-to-release-diesel-reserves/4075597",
+    "domain": "aa.com.tr",
+    "when": "Oct 1 · 23:15z"
    },
    {
-    "title": "Bajaj Asset Management Nimesh Chandan pivots to AI appliers and large - cap stocks - Moneycontrol . com",
-    "url": "https://www.moneycontrol.com/news/business/stocks/bajaj-asset-management-s-nimesh-chandan-pivots-to-ai-appliers-and-large-cap-stocks-alpha-article-14039778.html",
-    "domain": "moneycontrol.com",
-    "when": "Sep 28 · 11:00z"
+    "title": "  A powerful buffer : How solar saved the EU €37 . 4 billion since the war on Iran began",
+    "url": "https://www.euronews.com/2026/10/02/solar-saved-europe-3bn-in-fossil-fuel-imports-in-march-which-country-is-leading-the-way",
+    "domain": "euronews.com",
+    "when": "Oct 2 · 08:15z"
    },
    {
-    "title": "  Will win very soon : Trump hints at possible pre - midterm strikes on Iran",
-    "url": "https://timesofindia.indiatimes.com/world/us/will-win-very-soon-trump-hints-at-possible-pre-midterm-strikes-on-iran/articleshow/134529548.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Sep 28 · 02:45z"
+    "title": "Govt increases petrol by Rs3 . 26 , cuts diesel by Rs1 . 01 for Oct 2",
+    "url": "https://tribune.com.pk/story/2632477/govt-increases-petrol-by-rs326-cuts-diesel-by-rs101-for-oct-2",
+    "domain": "tribune.com.pk",
+    "when": "Oct 1 · 19:00z"
    },
    {
-    "title": "Hilton New Brand Blueprint Could Cut Energy Bills Up To 40 % ",
-    "url": "https://skift.com/2026/09/28/hiltons-new-brand-blueprint-could-cut-energy-bills-up-to-40/",
-    "domain": "skift.com",
-    "when": "Sep 28 · 15:45z"
+    "title": "Puerto Rico faces record electric rate as demand and costs increase",
+    "url": "https://www.wral.com/news/ap/80e3e-puerto-rico-faces-record-electric-rate-as-demand-and-costs-increase/",
+    "domain": "wral.com",
+    "when": "Oct 1 · 19:45z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
@@ -477,186 +453,162 @@
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "Tiberius Aerospace Secures $500 Million Sceptre Contract Establishing First Scaled Deployment of Defense - as - a - Service",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69732326-tiberius-aerospace-secures-dollar-500-million-sceptre-contract-establishing-first-scaled-deployment-of-defense-as-a-service-004.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Oct 1 · 14:45z"
+    "title": "Mahindra , Embraer in talks to build C - 390 military aircraft ecosystem",
+    "url": "https://www.business-standard.com/companies/news/mahindra-embraer-in-talks-to-build-c-390-military-aircraft-ecosystem-126100101499_1.html",
+    "domain": "business-standard.com",
+    "when": "Oct 1 · 19:30z"
    },
    {
-    "title": "Joby , GE , Collins win millions in new defense work | Local",
-    "url": "https://www.daytondailynews.com/local/200m-in-defense-contracts-landed-recently-by-ud-joby-ge-collins-aerospace/article_d143d62d-87d5-566e-bc6e-d5c7ec34e489.html",
-    "domain": "daytondailynews.com",
-    "when": "Oct 1 · 03:15z"
-   },
-   {
-    "title": "Türkiye homegrown submarine to reach greater depths with high - grade steel",
-    "url": "https://aa.com.tr/en/turkiye/turkiye-s-homegrown-submarine-to-reach-greater-depths-with-high-grade-steel/4075135",
-    "domain": "aa.com.tr",
-    "when": "Oct 1 · 15:30z"
-   },
-   {
-    "title": "China Exploitation of Nvidia Downstream Control Problems",
-    "url": "https://www.theepochtimes.com/opinion/chinas-exploitation-of-nvidias-downstream-control-problems-6088808",
-    "domain": "theepochtimes.com",
-    "when": "Sep 30 · 21:30z"
-   },
-   {
-    "title": "Barnes Aerospace Acquires ATL Turbine Services , Establishing First Aeroengine Component Repair Operation in Europe",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69732558-barnes-aerospace-acquires-atl-turbine-services-establishing-first-aeroengine-component-repair-operation-in-europe-004.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Oct 1 · 15:00z"
-   },
-   {
-    "title": "COEUS Consulting named a 2026 MSP Titans of the Industry Southwest finalist",
-    "url": "https://azbigmedia.com/business/technology/coeus-consulting-named-a-2026-msp-titans-of-the-industry-southwest-finalist/",
-    "domain": "azbigmedia.com",
-    "when": "Oct 1 · 03:00z"
-   },
-   {
-    "title": "Labsphere Acquires Photon Gear , Adding Ultra - High - Precision Optical Design and Assembly",
-    "url": "http://www.prnewswire.com/news-releases/labsphere-acquires-photon-gear-adding-ultra-high-precision-optical-design-and-assembly-302896267.html",
+    "title": "Electroplating Market to Reach USD 21 . 26 Billion by 2034 , Driven by Automotive , Electronics and Sustainable Surface - Finishing Technologies , reports Maximize Market Research",
+    "url": "http://www.prnewswire.com/news-releases/electroplating-market-to-reach-usd-21-26-billion-by-2034--driven-by-automotive-electronics-and-sustainable-surface-finishing-technologies-reports-maximize-market-research-302895935.html",
     "domain": "prnewswire.com",
-    "when": "Oct 1 · 16:45z"
+    "when": "Oct 1 · 22:30z"
    },
    {
-    "title": "Biho Hybrid Returns to India Air Defence Discussions Says Korean Media",
-    "url": "https://idrw.org/biho-hybrid-returns-to-indias-air-defence-discussions-says-korean-media/",
-    "domain": "idrw.org",
-    "when": "Oct 1 · 07:00z"
+    "title": "Embraer , Mahindra eye Nagpur for C - 390 Millennium production",
+    "url": "https://www.rediff.com/news/report/embraer-mahindra-eye-nagpur-for-c-390-millennium-production/20261002.htm",
+    "domain": "rediff.com",
+    "when": "Oct 1 · 21:30z"
    },
    {
-    "title": "North East manufacturers join forces with aerospace alliance",
-    "url": "https://www.thenorthernecho.co.uk/news/26591744.north-east-manufacturers-join-forces-aerospace-alliance/",
-    "domain": "thenorthernecho.co.uk",
-    "when": "Oct 1 · 05:00z"
+    "title": "Collins Aerospace announces multi - million dollar expansion",
+    "url": "https://www.kcci.com/article/collins-aerospace-expand-west-des-moines-facility/73977040",
+    "domain": "kcci.com",
+    "when": "Oct 1 · 18:30z"
    },
    {
-    "title": "Soaring Defense Spending Means Great News for These 2 Stocks",
-    "url": "https://www.fool.com/investing/2026/10/01/soaring-defense-spending-means-great-news-for-thes/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Oct 1 · 15:45z"
+    "title": "The $40 Billion Minerals Gamble : Can Trump Break China Chokehold Before The West Rearmament Hits A Wall ? ",
+    "url": "https://www.zerohedge.com/commodities/40-billion-minerals-gamble-can-trump-break-chinas-chokehold-wests-rearmament-hits-wall",
+    "domain": "zerohedge.com",
+    "when": "Oct 2 · 02:15z"
    },
    {
-    "title": "Texas startup awarded DoD contract for scandium recovery",
-    "url": "https://www.mining.com/texas-startup-awarded-dod-contract-for-scandium-recovery/",
-    "domain": "mining.com",
-    "when": "Oct 1 · 02:30z"
+    "title": "Albers Aerospace expands Tucson site , plans to double staff",
+    "url": "https://www.kvoa.com/news/local/albers-aerospace-expands-tucson-site-plans-to-double-staff/article_37d54ee1-e396-40bf-bb64-783779d82784.html",
+    "domain": "kvoa.com",
+    "when": "Oct 1 · 22:30z"
    },
    {
-    "title": "Shield AI chooses Des Moines for new site of AI fighter jet production",
-    "url": "https://komonews.com/news/local/des-moines-residents-business-boeing-shield-ai-in-washington-state-governors-space-council-commercial-space-industry-aerospace-industry-ai-piloted-fighter-jet-designed-to-take-off-and-land-vertically-engineers",
-    "domain": "komonews.com",
-    "when": "Sep 30 · 23:15z"
+    "title": "DCE , Babcock sign MoU for uncrewed ground systems ⋆ Electronics Weekly",
+    "url": "https://www.electronicsweekly.com/news/business/babcock-dce-sign-mou-for-uncrewed-ground-systems-2026-10/",
+    "domain": "electronicsweekly.com",
+    "when": "Oct 1 · 18:45z"
    },
    {
-    "title": "Mahindra , Embraer identify Nagpur for potential C - 390 aircraft assembly line",
-    "url": "https://www.moneycontrol.com/news/business/companies/mahindra-embraer-identify-nagpur-for-potential-c-390-aircraft-assembly-line-14043147.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 1 · 17:00z"
+    "title": "Valley manufacturing center renamed in honor of Lamoncha family",
+    "url": "https://www.salemnews.net/news/local-news/2026/10/valley-manufacturing-center-renamed-in-honor-of-lamoncha-family-2/",
+    "domain": "salemnews.net",
+    "when": "Oct 2 · 08:30z"
    },
    {
-    "title": "4 Ways A & D Companies Can Finance Growth At Every Stage",
-    "url": "https://aviationweek.com/aerospace/4-ways-ad-companies-can-finance-growth-every-stage",
-    "domain": "aviationweek.com",
-    "when": "Oct 1 · 09:45z"
+    "title": "Complete Financial Solutions ( CFSu ) Advances Development Projects Supporting Energy , Manufacturing and Sovereign AI Compute Initiatives",
+    "url": "https://www.owensoundsuntimes.com/press-releases/newsfile/complete-financial-solutions-cfsu-advances-development-projects-supporting-energy-manufacturing-and-sovereign-ai-compute-initiatives/",
+    "domain": "owensoundsuntimes.com",
+    "when": "Oct 1 · 22:45z"
    },
    {
-    "title": "UAE Business : IFFCO to show manufacturing capabilities at Gulfood",
-    "url": "https://www.gdnonline.com:443/Details/1408255",
-    "domain": "gdnonline.com",
-    "when": "Oct 1 · 11:00z"
+    "title": "GMP Labeling Celebrates 40 Years of US Manufacturing for Regulated Industries",
+    "url": "https://www.prnewswire.com/news-releases/gmp-labeling-celebrates-40-years-of-us-manufacturing-for-regulated-industries-302896698.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 1 · 23:45z"
+   },
+   {
+    "title": "Cantor : Almonty  Moving Seamlessly  Into Production As Korean Tungsten Mine Becomes Western Lifeline",
+    "url": "http://www.zerohedge.com/commodities/cantor-almonty-moving-seamlessly-production-korean-tungsten-mine-becomes-western",
+    "domain": "zerohedge.com",
+    "when": "Oct 1 · 19:00z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "EMARKETER acquires research arm of RetailX for global expansion of trusted retail brand rankings",
-    "url": "http://www.prnewswire.com/news-releases/emarketer-acquires-research-arm-of-retailx-for-global-expansion-of-trusted-retail-brand-rankings-302889449.html",
-    "domain": "prnewswire.com",
-    "when": "Sep 24 · 16:00z"
+    "title": "Human experiences do more for ecommerce conversions",
+    "url": "https://www.supermarketnews.com/grocery-technology/human-experiences-do-more-for-ecommerce-conversions",
+    "domain": "supermarketnews.com",
+    "when": "Oct 1 · 21:45z"
    },
    {
-    "title": "Retail , food , beverage sales hit record highs for August",
-    "url": "https://www.taipeitimes.com/News/biz/archives/2026/09/25/2003864842",
-    "domain": "taipeitimes.com",
-    "when": "Sep 24 · 19:15z"
-   },
-   {
-    "title": "PYMNTS | Amazon Wants to Run Merchant Businesses Beyond Amazon",
-    "url": "https://www.pymnts.com/news/retail/2026/amazon-wants-to-run-merchants-businesses-beyond-amazon/",
+    "title": "PYMNTS | Amazon and Walmart Race to Be Merchant Operating System",
+    "url": "https://www.pymnts.com/news/retail/2026/amazon-and-walmart-race-to-become-merchants-operating-system/",
     "domain": "pymnts.com",
-    "when": "Sep 24 · 23:15z"
+    "when": "Oct 1 · 23:15z"
    },
    {
-    "title": "Snapdeal parent AceVector IPO opens for subscription : Key things to know",
-    "url": "https://economictimes.indiatimes.com/tech/technology/snapdeal-parent-acevectors-ipo-opens-for-subscription-key-things-to-know/articleshow/134479910.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 25 · 09:15z"
+    "title": "Target , Safeway win in grocery delivery , pickup",
+    "url": "https://www.supermarketnews.com/grocery-operations/target-safeway-win-in-grocery-delivery-pickup",
+    "domain": "supermarketnews.com",
+    "when": "Oct 1 · 21:45z"
    },
    {
-    "title": "Winifred Mandela precinct launches African - inspired  diamond walk  ",
-    "url": "https://www.timeslive.co.za/news/south-africa/2026-09-25-winifred-mandela-precinct-launches-african-inspired-diamond-walk/",
-    "domain": "timeslive.co.za",
-    "when": "Sep 25 · 08:45z"
+    "title": "Google Publishes Guidelines For Using Generative AI Content Online",
+    "url": "https://www.mediapost.com/publications/article/418453/google-publishes-guidelines-for-using-generative-a.html",
+    "domain": "mediapost.com",
+    "when": "Oct 2 · 07:45z"
    },
    {
-    "title": "Rate - sensitive stocks to watch after the Fed hike",
-    "url": "https://www.livemint.com/market/stock-market-news/us-federal-reserve-fed-rate-hike-rate-sensitive-stocks-11790251770744.html",
-    "domain": "livemint.com",
-    "when": "Sep 25 · 02:00z"
+    "title": "Produce retailers face a challenging merchandising landscape",
+    "url": "https://www.supermarketnews.com/fresh-produce/produce-retailers-face-a-challenging-merchandising-landscape",
+    "domain": "supermarketnews.com",
+    "when": "Oct 1 · 17:15z"
    },
    {
-    "title": "AI In Retail Statistics By Market And Trends ( 2026 ) ",
-    "url": "https://www.sci-tech-today.com/news/ai-in-retail-statistics/",
-    "domain": "sci-tech-today.com",
-    "when": "Sep 25 · 06:45z"
+    "title": "Luxury retail expansion slows in 2026",
+    "url": "https://www.scotsmanguide.com/news/luxury-retail-expansion-slows-in-2026/",
+    "domain": "scotsmanguide.com",
+    "when": "Oct 1 · 22:00z"
    },
    {
-    "title": "NewtekOne Inc ( NEWT ) Stock News & Articles",
-    "url": "https://247wallst.com/companies/newt/",
-    "domain": "247wallst.com",
-    "when": "Sep 24 · 17:30z"
+    "title": "Established London Bakery Brand With Strong Online Sales - Buy or Sell a united kingdom Business with Daltons Business",
+    "url": "https://www.daltonsbusiness.com/listing/established-london-bakery-brand-with-strong-for-sale-DB2612063/",
+    "domain": "daltonsbusiness.com",
+    "when": "Oct 1 · 20:45z"
    },
    {
-    "title": "Meesho valuation woes prompt Nomura to assign  Reduce  tag ; stock down 5 % ",
-    "url": "https://www.business-standard.com/markets/news/meesho-s-valuation-woes-prompt-nomura-to-assign-reduce-tag-stock-down-5-126092500311_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 25 · 07:00z"
+    "title": "List of Stores Closing This Fall",
+    "url": "https://www.newsweek.com/list-of-stores-closing-this-fall-12513835",
+    "domain": "newsweek.com",
+    "when": "Oct 2 · 00:15z"
    },
    {
-    "title": "Higher income households eating out less as consumer pain bites : survey - National",
-    "url": "https://globalnews.ca/news/12071929/higher-income-households-eating-out-less-as-consumer-pain-bites-survey/",
-    "domain": "globalnews.ca",
-    "when": "Sep 24 · 20:30z"
+    "title": "Arab News | Saudi Arabia consumer spending rises 3 . 5 % as hotels , recreation see gains",
+    "url": "https://www.arabnews.com/business/saudi-arabias-consumer-spending-rises-35-as-hotels-recreation-see-gains-3003757",
+    "domain": "arabnews.com",
+    "when": "Oct 2 · 06:45z"
    },
    {
-    "title": "High prices have not slowed beef buyers - High Plains Journal",
-    "url": "https://hpj.com/2026/09/24/high-prices-have-not-slowed-beef-buyers/",
-    "domain": "hpj.com",
-    "when": "Sep 24 · 16:00z"
+    "title": "Tom Ford Fashion Expands U . S . Presence With Three New Luxury Stores",
+    "url": "https://wwd.com/business-news/retail/tom-ford-fashion-new-stores-costa-mesa-bal-harbour-san-diego-1239300840/",
+    "domain": "wwd.com",
+    "when": "Oct 2 · 06:45z"
    },
    {
-    "title": "Retail growth beyond Metro Manila",
-    "url": "https://www.philstar.com/business/2026/09/25/2558678/retail-growth-beyond-metro-manila",
-    "domain": "philstar.com",
-    "when": "Sep 24 · 19:00z"
+    "title": "Can AI Really Disrupt DoorDash ( DASH )? Jim Cramer Isnt Convinced",
+    "url": "https://www.insidermonkey.com/news/can-ai-really-disrupt-doordash-dash-jim-cramer-isnt-convinced-1847482/",
+    "domain": "insidermonkey.com",
+    "when": "Oct 1 · 23:15z"
    },
    {
-    "title": "Plant Riverside District : An obsolete power plant was no longer serving its original industrial purpose ; developers explored a new life for the landmark through mixed - use redevelopment",
-    "url": "https://economictimes.indiatimes.com/news/international/us/an-obsolete-power-plant-was-no-longer-serving-its-original-industrial-purpose-developers-explored-a-new-life-for-the-landmark-through-mixed-use-redevelopment/articleshow/134469018.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 24 · 20:30z"
+    "title": "Stubborn inflation and consistent growth shift Fed debate to timing of next hike",
+    "url": "https://ktul.com/news/nation-world/stubborn-inflation-and-consistent-growth-shift-federal-reserve-debate-to-timing-of-next-hike-economy-gdp-pce-consumer-spending",
+    "domain": "ktul.com",
+    "when": "Oct 1 · 17:30z"
    },
    {
-    "title": "An Accountant Playbook to Great Marketing ft . Sony Mary Yee",
-    "url": "https://www.adweek.com/brand-marketing/an-accountants-playbook-to-great-marketing-ft-sonys-mary-yee/",
-    "domain": "adweek.com",
-    "when": "Sep 24 · 21:30z"
+    "title": "Samsonite Group Completes Acquisition of BÉIS",
+    "url": "http://www.prnewswire.com/news-releases/samsonite-group-completes-acquisition-of-beis-302896685.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 1 · 23:15z"
    },
    {
-    "title": "RSP : Building strength upon strength",
-    "url": "https://www.businesstimes.com.sg/lifestyle/bt-luxe/bt-luxe/rsp-building-strength-upon-strength",
-    "domain": "businesstimes.com.sg",
-    "when": "Sep 25 · 04:45z"
+    "title": "Here are the opening dates for Uniqlo two new Miami stores",
+    "url": "https://www.miaminewtimes.com/arts-culture/uniqlo-announces-opening-dates-for-two-miami-stores-40588930/",
+    "domain": "miaminewtimes.com",
+    "when": "Oct 1 · 19:45z"
+   },
+   {
+    "title": "Multrees Walk to give ECA students hands on experience",
+    "url": "https://theedinburghreporter.co.uk/2026/10/multrees-walk-to-give-eca-students-hands-on-experience/",
+    "domain": "theedinburghreporter.co.uk",
+    "when": "Oct 1 · 18:30z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
@@ -823,22 +775,58 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Anthropic Plans to Spend $518 Billion on Cloud and Data Centers . More Than $100 Billion Is Already Promised to Amazon . ",
-    "url": "https://www.fool.com/investing/2026/09/30/anthropic-plans-to-spend-usd518-billion-on-cloud-and-data-centers-more-than-usd100-billion-is-already-promised-to-amazon/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Oct 1 · 02:30z"
+    "title": "Carlsberg India unit , 3 other firms get Sebi nod to proceed with IPO plans",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-india-unit-3-other-firms-get-sebi-nod-to-proceed-with-ipo-plans/articleshow/134634784.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 2 · 08:30z"
    },
    {
-    "title": "Indian PV manufacturer Vishakha Renewables files for IPO",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69729348-indian-pv-manufacturer-vishakha-renewables-files-for-ipo-451.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Oct 1 · 11:00z"
+    "title": "CMA questions hit Kenya sale of Dangote shares",
+    "url": "https://www.businessdailyafrica.com/bd/economy/cma-questions-hit-kenya-sale-of-dangote-shares-5616510",
+    "domain": "businessdailyafrica.com",
+    "when": "Oct 1 · 22:30z"
    },
    {
-    "title": "Khaadi to List on PSX",
-    "url": "https://propakistani.pk/2026/10/01/khaadi-to-list-on-psx/",
-    "domain": "propakistani.pk",
-    "when": "Oct 1 · 15:30z"
+    "title": "Eventions SME IPO to open on Sep 30 ; seeks to raise Rs 38 . 12 cr",
+    "url": "https://economictimes.indiatimes.com/industry/media/entertainment/eventions-sme-ipo-to-open-on-sep-30-seeks-to-raise-rs-38-12-cr/articleshow/134623904.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 1 · 17:30z"
+   },
+   {
+    "title": "Maxivision Eye Hospitals confidentially files for IPO , takes first formal step toward listing",
+    "url": "https://www.moneycontrol.com/news/business/ipo/maxivision-eye-hospitals-confidentially-files-for-ipo-takes-first-formal-step-toward-listing-14043239.html",
+    "domain": "moneycontrol.com",
+    "when": "Oct 2 · 03:15z"
+   },
+   {
+    "title": "SME IPO : Sollfege Smart Electronics to raise Rs 21 . 7 - cr ; issue to open on Sep 30",
+    "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/sme-ipo-sollfege-smart-electronics-to-raise-rs-21-7-cr-issue-to-open-on-sep-30/articleshow/134623740.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 1 · 17:30z"
+   },
+   {
+    "title": "Mynt sets GCash IPO price at P6 . 60 | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/10/02/business/mynt-sets-gcash-ipo-price-at-p660/2437736",
+    "domain": "manilatimes.net",
+    "when": "Oct 2 · 03:15z"
+   },
+   {
+    "title": "Quadria - backed Maxivision confidentially files for India IPO",
+    "url": "https://www.dealstreetasia.com/stories/maxivision-files-for-india-ipo-496936",
+    "domain": "dealstreetasia.com",
+    "when": "Oct 2 · 09:15z"
+   },
+   {
+    "title": "GCash parent Mynt prices IPO at P6 . 60 per share",
+    "url": "https://interaksyon.philstar.com/business/2026/10/02/320052/gcash-parent-mynt-prices-ipo-at-p6-60-per-share/",
+    "domain": "interaksyon.philstar.com",
+    "when": "Oct 2 · 03:00z"
+   },
+   {
+    "title": "HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Suja Life , Inc . ( NASDAQ : SUJA ) Following 70 % Post - IPO Stock Crash",
+    "url": "http://www.prnewswire.com/news-releases/hagens-berman-national-securities-law-firm-announces-investigation-into-suja-life-inc-nasdaq-suja-following-70-post-ipo-stock-crash-302896313.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 1 · 19:00z"
    },
    {
     "title": "Tubig Pilipinas eyes P1 . 8 billion from follow - on share offer",
@@ -847,58 +835,34 @@
     "when": "Oct 1 · 17:00z"
    },
    {
-    "title": "Inox Air Products files IPO papers ; issue size not disclosed",
-    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/inox-air-products-files-ipo-papers-issue-size-not-disclosed/articleshow/134613796.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 1 · 10:00z"
-   },
-   {
-    "title": "Anarock Property Consultants files DRHP to raise ₹1 , 000 cr via IPO",
-    "url": "https://www.business-standard.com/markets/ipo/anarock-property-consultants-files-drhp-to-raise-1-000-cr-via-ipo-126100100644_1.html",
-    "domain": "business-standard.com",
-    "when": "Oct 1 · 11:00z"
-   },
-   {
-    "title": "If Youd Invested $10 , 000 in SpaceX at Its IPO , Here How Much Youd Have Today",
-    "url": "https://www.fool.com/investing/2026/10/01/you-invest-10000-spacex-ipo-how-much-today/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Oct 1 · 15:45z"
-   },
-   {
-    "title": "Anarock Property Consultants files papers for Rs 1 , 000 crore IPO",
-    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/anarock-property-consultants-files-papers-for-rs-1000-crore-ipo/articleshow/134608009.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 1 · 05:30z"
-   },
-   {
-    "title": "AVEX Investor Alert : Kessler Topaz Meltzer & Check , LLP Encourages AVEX Investors with Losses to Contact the Firm",
-    "url": "http://www.prnewswire.com/news-releases/avex-investor-alert-kessler-topaz-meltzer--check-llp-encourages-avex-investors-with-losses-to-contact-the-firm-302896025.html",
-    "domain": "prnewswire.com",
-    "when": "Oct 1 · 15:30z"
-   },
-   {
-    "title": "OpenAI delayed IPO means more reliance on private investment",
-    "url": "https://www.marketplace.org/story/2026/09/30/openais-delayed-ipo-means-more-reliance-on-private-investment",
-    "domain": "marketplace.org",
-    "when": "Oct 1 · 03:45z"
-   },
-   {
-    "title": "Business : NSSF receives Sh42 . 6b dividend from Airtel Uganda",
-    "url": "https://www.newvision.co.ug/category/business/nssf-receives-sh426b-dividend-from-airtel-uga-NV_241614_102026",
-    "domain": "newvision.co.ug",
-    "when": "Oct 1 · 03:00z"
-   },
-   {
-    "title": "GCash owner Mynt prices Philippine IPO at 6 . 6 pesos per share",
-    "url": "https://www.dealstreetasia.com/stories/gcash-owner-mynt-prices-philippine-ipo-at-6-6-pesos-per-share-496835",
+    "title": "Airtel Money targets $7b valuation in IPO boost for London",
+    "url": "https://www.dealstreetasia.com/stories/airtel-money-ipo-london-496934",
     "domain": "dealstreetasia.com",
-    "when": "Oct 1 · 05:00z"
+    "when": "Oct 2 · 04:30z"
    },
    {
-    "title": "Airtel Money heading for £5 . 3bn stock market debut after setting float price",
-    "url": "https://www.dissexpress.co.uk/national/airtel-money-heading-for-5-3bn-stock-market-debut-after-setting-float-price-172404/",
-    "domain": "dissexpress.co.uk",
-    "when": "Oct 1 · 09:00z"
+    "title": "Nvidia - backed Firmus prices landmark IPO at A$11 a share",
+    "url": "https://www.moneycontrol.com/news/business/nvidia-backed-firmus-prices-landmark-ipo-at-a-11-a-share-14043244.html",
+    "domain": "moneycontrol.com",
+    "when": "Oct 2 · 03:15z"
+   },
+   {
+    "title": "Anthropic reportedly looking to IPO as early as mid - November",
+    "url": "https://www.aol.com/articles/anthropic-reportedly-looking-ipo-early-180315000.html",
+    "domain": "aol.com",
+    "when": "Oct 1 · 19:00z"
+   },
+   {
+    "title": "SK Hynix says Solidigm IPO remains undecided as AI storage demand drives investment",
+    "url": "https://www.digitimes.com/news/a20261002VL203/sk-hynix-solidigm-investment-ipo-demand.html",
+    "domain": "digitimes.com",
+    "when": "Oct 2 · 03:15z"
+   },
+   {
+    "title": "Filipinos get shot at digital economy ownership with GCash IPO , says solon",
+    "url": "https://www.philstar.com/business/2026/10/02/2560452/filipinos-get-shot-digital-economy-ownership-gcash-ipo-says-solon",
+    "domain": "philstar.com",
+    "when": "Oct 2 · 03:45z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
