@@ -1,146 +1,56 @@
 {
- "generated": "2026-10-07 18:09z",
+ "generated": "2026-10-08 18:09z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "Stock Market Investors Just Got Bad News From the Federal Reserve . History Says This Will Happen Next . ",
-    "url": "https://www.fool.com/investing/2026/09/20/stock-market-investors-bad-news-federa-reserve-this-happen-next/",
-    "domain": "fool.com",
-    "when": "Sep 20 · 11:15z"
+    "title": "FxWirePro : EUR / NZD recovers from early dip , upside pressure builds",
+    "url": "http://www.econotimes.com/FxWirePro-EUR-NZD-recovers-from-early-dip-upside-pressure-builds-1754289",
+    "domain": "econotimes.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Struggling US home buyers , and market , face new hurdles as mortgage rates near 7 % ",
-    "url": "https://www.theoaklandpress.com/2026/09/20/struggling-us-home-buyers-and-market-face-new-hurdles-as-mortgage-rates-near-7/",
-    "domain": "theoaklandpress.com",
-    "when": "Sep 20 · 11:15z"
+    "title": "RBI increases repo rate to 5 . 50 %: How does it impact a consumer ? ",
+    "url": "https://www.sentinelassam.com/topheadlines/rbi-increases-repo-rate-to-550-how-does-it-impact-a-consumer",
+    "domain": "sentinelassam.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Will President Trump Crash the Stock Market ? History Says This Could Come Next . ",
-    "url": "https://www.fool.com/investing/2026/09/20/will-president-trump-crash-the-stock-market-histor/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Sep 20 · 11:45z"
-   },
-   {
-    "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth – Winnipeg Free Press",
-    "url": "https://www.winnipegfreepress.com/business/2026/09/20/federal-reserve-rate-hike-reflects-new-world-of-sticky-inflation-and-faster-growth",
-    "domain": "winnipegfreepress.com",
-    "when": "Sep 20 · 12:45z"
-   },
-   {
-    "title": "When higher interest rates create opportunity",
-    "url": "https://www.jamaicaobserver.com/2026/09/20/higher-interest-rates-create-opportunity/",
-    "domain": "jamaicaobserver.com",
-    "when": "Sep 20 · 12:00z"
-   },
-   {
-    "title": "Top stocks to buy on Monday when market opens : DLF , PN Gadgil Jewellers , HPCL - Stop - loss , target by Ganesh Dongre",
-    "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-on-monday-when-market-opens-dlf-pn-gadgil-jewellers-hpcl-stop-loss-target-by-ganesh-dongre-11789887141838.html",
-    "domain": "livemint.com",
-    "when": "Sep 20 · 11:45z"
-   },
-   {
-    "title": "FPIs Withdraw Rs 20 , 974 Crore from Indian Equities Amid Global Uncertainty , Rising US Yields",
-    "url": "https://www.rediff.com/business/report/fpis-withdraw-rs-20974-crore-from-indian-equities-amid-global-uncertainty-rising-us-yields/20260920.htm",
-    "domain": "rediff.com",
-    "when": "Sep 20 · 12:15z"
-   },
-   {
-    "title": "The Fed rate hike is actually good news for millions of Americans",
-    "url": "https://www.aol.com/articles/fed-rate-hike-actually-good-000700000.html",
-    "domain": "aol.com",
-    "when": "Sep 20 · 05:00z"
-   },
-   {
-    "title": "Are global stock markets heading for a crash ? ",
-    "url": "https://www.theguardian.com/business/ng-interactive/2026/sep/20/stock-market-crash-government-bond-yields",
-    "domain": "theguardian.com",
-    "when": "Sep 20 · 05:45z"
-   },
-   {
-    "title": "China keeps benchmark lending rates unchanged for 16th month in September",
-    "url": "https://www.aol.com/articles/china-keeps-benchmark-lending-rates-013349000.html",
-    "domain": "aol.com",
-    "when": "Sep 20 · 03:00z"
+    "title": "Biotech and Pharma Industry News | BioPharma Dive",
+    "url": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc",
+    "domain": "biopharmadive.com",
+    "when": "Oct 8 · 05:30z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Big Tech earnings could fuel a big October move for the stock market",
-    "url": "https://www.foxbusiness.com/markets/october-could-be-a-huge-month-for-the-stock-market-heres-why",
-    "domain": "foxbusiness.com",
-    "when": "Oct 1 · 22:30z"
+    "title": "Blue Cloud Softech Signs Three - Year MoU With Senegal Ministry , GCIB For Africa",
+    "url": "https://www.freepressjournal.in/business/blue-cloud-softech-signs-three-year-mou-with-senegal-ministry-gcib-for-africa",
+    "domain": "freepressjournal.in",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Amazon Eyes $8 Billion Nvidia Chip Spinoff to Fund AI Expansion",
-    "url": "http://www.econotimes.com/Amazon-Eyes-8-Billion-Nvidia-Chip-Spinoff-to-Fund-AI-Expansion-1753760",
-    "domain": "econotimes.com",
-    "when": "Oct 2 · 08:45z"
+    "title": "Cybersecurity experts share tips to stay safe online while using AI tools",
+    "url": "https://www.kltv.com/2026/10/08/cybersecurity-experts-share-tips-stay-safe-online-while-using-ai-tools/",
+    "domain": "kltv.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Nigeria : Cloud Adoption - Fear of Losing Data Control Stalls Nigeria Digital Growth - - Don",
-    "url": "https://allafrica.com/stories/202610010492.html",
-    "domain": "allafrica.com",
-    "when": "Oct 1 · 18:45z"
+    "title": "AI eats into entry - level tech jobs as India graduates seek work",
+    "url": "https://www.business-standard.com/industry/news/ai-eats-into-entry-level-tech-jobs-as-india-s-graduates-seek-work-126100800232_1.html",
+    "domain": "business-standard.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "IEM - UEM Group takes IEEE IEMCON 2026 to UC Berkeley , linking Indian researchers with global technology community",
-    "url": "http://www.southeastasiapost.com/news/279345695/iem-uem-group-takes-ieee-iemcon-2026-to-uc-berkeley-linking-indian-researchers-with-global-technology-community",
-    "domain": "southeastasiapost.com",
-    "when": "Oct 1 · 19:00z"
+    "title": "US to invest over $100 million on STEM programmes amid AI race with China",
+    "url": "https://www.business-standard.com/world-news/us-to-invest-over-100-million-on-stem-programmes-amid-ai-race-with-china-126100800147_1.html",
+    "domain": "business-standard.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Palantir Billionaire Peter Thiel Has 42 % of His Portfolio in These 2 Artificial Intelligence Stocks",
-    "url": "https://www.fool.com/investing/2026/10/02/palantir-billionaire-peter-thiel-has-42-of-his-por/",
-    "domain": "fool.com",
-    "when": "Oct 2 · 08:30z"
-   },
-   {
-    "title": "FTC Probing OpenAI , Anthropic Over Product Safety Concerns",
-    "url": "https://www.insurancejournal.com/news/national/2026/10/02/887673.htm",
-    "domain": "insurancejournal.com",
-    "when": "Oct 2 · 06:15z"
-   },
-   {
-    "title": "Japan banks uncover twice the vulnerabilities following Mythos AI release",
-    "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-banks-uncover-twice-the-vulnerabilities-following-mythos-ai-release",
-    "domain": "asia.nikkei.com",
-    "when": "Oct 1 · 21:45z"
-   },
-   {
-    "title": "Sam Altman releases personal AI agent . Google releases Argon AI Does this look like any of these companies are slowing down . ",
-    "url": "https://www.investmentwatchblog.com/sam-altman-releases-personal-ai-agent-google-releases-argon-ai-does-this-look-like-any-of-these-companies-are-slowing-down/",
-    "domain": "investmentwatchblog.com",
-    "when": "Oct 2 · 00:15z"
-   },
-   {
-    "title": "Faster , bigger , easier : Interpol stark warning on AI - fuelled cybercrime for corporate world",
-    "url": "https://www.moneycontrol.com/world/faster-bigger-easier-interpol-s-stark-warning-on-ai-fuelled-cybercrime-for-corporate-world-article-14043258.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 2 · 05:30z"
-   },
-   {
-    "title": "Jim Cramer on software stock Q3 comeback",
-    "url": "https://www.cnbc.com/2026/10/01/jim-cramer-software-stocks-q3.html",
-    "domain": "cnbc.com",
-    "when": "Oct 1 · 22:45z"
-   },
-   {
-    "title": "CrowdStrike , Okta , Rubrik all reach one - year highs as AI continues to rally cyber sector",
-    "url": "https://seekingalpha.com/news/4649465-crowdstrike-okta-rubrik-all-reach-one-year-highs-as-ai-continues-to-rally-cyber-sector",
-    "domain": "seekingalpha.com",
-    "when": "Oct 1 · 20:15z"
-   },
-   {
-    "title": "AI Speech - to - Text System for Egyptian Courts Launches October 1st",
-    "url": "https://cairoscene.com/News/AI-Speech-to-Text-System-for-Egyptian-Courts-Launches-October-1st",
-    "domain": "cairoscene.com",
-    "when": "Oct 2 · 04:00z"
-   },
-   {
-    "title": "FinancialContent - Why Applied Materials ( AMAT ) Stock Is Up Today",
-    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-1-why-applied-materials-amat-stock-is-up-today",
-    "domain": "markets.financialcontent.com",
-    "when": "Oct 1 · 17:30z"
+    "title": "Arizona courts breached by cyberattack , data stolen for more than 1 million people",
+    "url": "https://www.kold.com/2026/10/08/arizona-courts-breached-by-cyberattack-data-stolen-more-than-1-million-people/",
+    "domain": "kold.com",
+    "when": "Oct 8 · 05:30z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
@@ -219,88 +129,22 @@
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "NYPA to own 51 % of 240 - MW solar project with EDF",
-    "url": "https://www.utilitydive.com/news/nypa-240-mw-solar-project-edf-rich-road/831878/",
-    "domain": "utilitydive.com",
-    "when": "Oct 1 · 17:30z"
+    "title": "US prepares military for possible new Iran strikes , Trump yet to decide",
+    "url": "https://www.business-standard.com/world-news/us-prepares-military-for-possible-new-iran-strikes-trump-yet-to-decide-126100800105_1.html",
+    "domain": "business-standard.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Oil holds as Gulf exports recover , Iran talks",
-    "url": "https://www.omanobserver.om/article/1197092/business/oil-holds-as-gulf-exports-recover-iran-talks",
-    "domain": "omanobserver.om",
-    "when": "Oct 1 · 19:00z"
+    "title": "Data centre operators  on board  with energy rules",
+    "url": "https://www.goulburnpost.com.au/story/9364636/data-centre-operators-on-board-with-energy-rules/",
+    "domain": "goulburnpost.com.au",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Gujarat : GSECL enters nuclear power sector , signs MoU with NPCIL for new project",
-    "url": "https://www.prokerala.com/news/articles/a1819303.html",
-    "domain": "prokerala.com",
-    "when": "Oct 1 · 19:00z"
-   },
-   {
-    "title": "Oil Prices Rise as China Halts Petroleum Products Exports",
-    "url": "https://pakobserver.net/oil-prices-rise-as-china-halts-petroleum-products-exports/",
-    "domain": "pakobserver.net",
-    "when": "Oct 1 · 21:45z"
-   },
-   {
-    "title": "India needs integrated energy storage policy to build resilience against geopolitical shocks : S & P Global Energy Gauri Jauhar",
-    "url": "https://aninews.in/news/business/india-needs-integrated-energy-storage-policy-to-build-resilience-against-geopolitical-shocks-sampp-global-energys-gauri-jauhar20261002095329/",
-    "domain": "aninews.in",
-    "when": "Oct 2 · 05:30z"
-   },
-   {
-    "title": "Oil prices stable amid mixed supply signals from the Middle East",
-    "url": "https://www.thenationalnews.com/business/energy/2026/10/02/oil-prices-stable-amid-mixed-supply-signals-from-the-middle-east/",
-    "domain": "thenationalnews.com",
-    "when": "Oct 2 · 09:15z"
-   },
-   {
-    "title": "Azerbaijan - EU relations development prospects discussed ( PHOTO ) ",
-    "url": "https://www.trend.az/azerbaijan/politics/4230285.html",
-    "domain": "trend.az",
-    "when": "Oct 1 · 19:00z"
-   },
-   {
-    "title": "Iran war to end  very quickly : Trump",
-    "url": "https://www.prokerala.com/news/articles/a1819353.html",
-    "domain": "prokerala.com",
-    "when": "Oct 2 · 05:30z"
-   },
-   {
-    "title": "  Pretend Im on the ticket : Trump shares message to Oklahomans in exclusive interview",
-    "url": "https://www.news9.com/oklahoma-elections/trump-oklahoma-exclusive-interview",
-    "domain": "news9.com",
-    "when": "Oct 2 · 04:30z"
-   },
-   {
-    "title": "Utilities Shares Tick Higher as Bond Yields Cool Down Utilities Roundup",
-    "url": "https://www.morningstar.com/news/dow-jones/202610019427/utilities-shares-tick-higher-as-bond-yields-cool-down-utilities-roundup",
-    "domain": "morningstar.com",
-    "when": "Oct 1 · 22:00z"
-   },
-   {
-    "title": "Trump says he may ask Europe to release diesel reserves",
-    "url": "https://aa.com.tr/en/economy/trump-says-he-may-ask-europe-to-release-diesel-reserves/4075597",
-    "domain": "aa.com.tr",
-    "when": "Oct 1 · 23:15z"
-   },
-   {
-    "title": "  A powerful buffer : How solar saved the EU €37 . 4 billion since the war on Iran began",
-    "url": "https://www.euronews.com/2026/10/02/solar-saved-europe-3bn-in-fossil-fuel-imports-in-march-which-country-is-leading-the-way",
-    "domain": "euronews.com",
-    "when": "Oct 2 · 08:15z"
-   },
-   {
-    "title": "Govt increases petrol by Rs3 . 26 , cuts diesel by Rs1 . 01 for Oct 2",
-    "url": "https://tribune.com.pk/story/2632477/govt-increases-petrol-by-rs326-cuts-diesel-by-rs101-for-oct-2",
-    "domain": "tribune.com.pk",
-    "when": "Oct 1 · 19:00z"
-   },
-   {
-    "title": "Puerto Rico faces record electric rate as demand and costs increase",
-    "url": "https://www.wral.com/news/ap/80e3e-puerto-rico-faces-record-electric-rate-as-demand-and-costs-increase/",
-    "domain": "wral.com",
-    "when": "Oct 1 · 19:45z"
+    "title": "RBI increases repo rate to 5 . 50 %: How does it impact a consumer ? ",
+    "url": "https://www.sentinelassam.com/topheadlines/rbi-increases-repo-rate-to-550-how-does-it-impact-a-consumer",
+    "domain": "sentinelassam.com",
+    "when": "Oct 8 · 05:30z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
@@ -533,94 +377,22 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Ecommerce Stocks To Follow Now – October 3rd",
-    "url": "https://www.dailypolitical.com/2026/10/06/ecommerce-stocks-to-follow-now-october-3rd.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "IOI Properties bets on Singapore CBD offices",
+    "url": "https://www.straitstimes.com/business/the-best-address-in-singapore-why-malaysias-ioi-properties-is-betting-billions-on-the-cbd",
+    "domain": "straitstimes.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Siddharth Kapoor Design Studio Strengthens Its Position as One of the Best Architects in Dehradun with a Growing Portfolio Across Uttarakhand",
-    "url": "https://aninews.in/news/business/siddharth-kapoor-design-studio-strengthens-its-position-as-one-of-the-best-architects-in-dehradun-with-a-growing-portfolio-across-uttarakhand20261006123508/",
-    "domain": "aninews.in",
-    "when": "Oct 6 · 08:30z"
+    "title": "The most expensive grocery staples in South Africa",
+    "url": "https://www.jacarandafm.com/shows/breakfast/the-most-expensive-grocery-staples-in-south-africa/",
+    "domain": "jacarandafm.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Coffee majors rewriting playbook in China - Chinadaily . com . cn",
-    "url": "http://global.chinadaily.com.cn/a/202610/06/WS6ac444ece4b06d4aa0561717.html",
-    "domain": "global.chinadaily.com.cn",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Disclosure of total number of voting rights and number of shares in the capital at September 30 , 2026",
-    "url": "https://www.manilatimes.net/2026/10/06/tmt-newswire/globenewswire/disclosure-of-total-number-of-voting-rights-and-number-of-shares-in-the-capital-at-september-30-2026/2439677",
-    "domain": "manilatimes.net",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Reliance wins court reprieve against  energy drink  label ban for Campa brand products",
-    "url": "https://www.moneycontrol.com/news/business/companies/reliance-wins-court-reprieve-against-energy-drink-label-ban-for-campa-brand-products-14045612.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Hotel Stocks To Follow Now – October 3rd",
-    "url": "https://www.tickerreport.com/banking-finance/13609672/hotel-stocks-to-follow-now-october-3rd.html",
-    "domain": "tickerreport.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Private equity inflows into Indian real estate jump 23 % to $2 . 7 billion in H1 FY27",
-    "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/private-equity-inflows-into-indian-real-estate-jump-23-to-2-7-billion-in-h1-fy27/articleshow/134728076.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Indices close in red - Business News",
-    "url": "https://www.dailymirror.lk/business-news/Indices-close-in-red/273-351858",
-    "domain": "dailymirror.lk",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Cascadia Development to work on North Shore rental project | Daily Hive",
-    "url": "https://dailyhive.com/vancouver/cascadia-developer-vancouver-partner-content",
-    "domain": "dailyhive.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "China deflation crisis deepens as economic growth model stalls - International",
-    "url": "https://www.dailymirror.lk/international/Chinas-deflation-crisis-deepens-as-economic-growth-model-stalls/107-351882",
-    "domain": "dailymirror.lk",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "I review outdoor gear the most versatile Patagonia jacket in my closet is 50 % off",
-    "url": "https://www.tomsguide.com/wellness/fitness/i-review-outdoor-gear-the-most-versatile-patagonia-jacket-in-my-closet-is-50-percent-off",
-    "domain": "tomsguide.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "NBFCs to see strong 1HFY27 despite margin pressure from higher funding costs : Report",
-    "url": "https://aninews.in/news/business/nbfcs-to-see-strong-1hfy27-despite-margin-pressure-from-higher-funding-costs-report16020261006124843/",
-    "domain": "aninews.in",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Neurita Tequila names Dutch distributor - The Spirits Business",
-    "url": "https://www.thespiritsbusiness.com/2026/10/neurita-tequila-names-dutch-distributor/",
-    "domain": "thespiritsbusiness.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Buying the iPhone Duo ? Here how to get one on launch day",
-    "url": "https://www.tomsguide.com/phones/iphones/planning-to-buy-apples-foldable-iphone-duo-heres-how-to-get-one-on-launch-day",
-    "domain": "tomsguide.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "JBL PartyBox 720 , 330 , 130 , PartyBox On The Go 2 Series Speakers , JBL EasySing Mics Launched in India",
-    "url": "https://themobileindian.com/news/jbl-partybox-720-330-130-partybox-on-the-go-2-series-speakers-jbl-easysing-mics-launched-in-india",
-    "domain": "themobileindian.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "Tata Steel India Crude Steel Production Rises 10 % YoY In Q2 FY27 To 6 . 21 Million Tonnes",
+    "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
+    "domain": "freepressjournal.in",
+    "when": "Oct 8 · 05:30z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
@@ -745,94 +517,28 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Carlsberg India unit , 3 other firms get Sebi nod to proceed with IPO plans",
-    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-india-unit-3-other-firms-get-sebi-nod-to-proceed-with-ipo-plans/articleshow/134634784.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 2 · 08:30z"
+    "title": "Nyoro suspended over claims NSSF , PSSF , Kenya Re were pressured to buy KPC shares",
+    "url": "https://capitalfm.africa/nyoro-suspended-over-claims-nssf-pssf-kenya-re-were-pressured-to-buy-kpc-shares/",
+    "domain": "capitalfm.africa",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "CMA questions hit Kenya sale of Dangote shares",
-    "url": "https://www.businessdailyafrica.com/bd/economy/cma-questions-hit-kenya-sale-of-dangote-shares-5616510",
-    "domain": "businessdailyafrica.com",
-    "when": "Oct 1 · 22:30z"
+    "title": "Investors Urged to Contact Levi & Korsinsky for Information Before ... ",
+    "url": "https://www.pr-inside.com/investors-urged-to-contact-levi-korsinsky-for-information-before-r5231384.htm",
+    "domain": "pr-inside.com",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Eventions SME IPO to open on Sep 30 ; seeks to raise Rs 38 . 12 cr",
-    "url": "https://economictimes.indiatimes.com/industry/media/entertainment/eventions-sme-ipo-to-open-on-sep-30-seeks-to-raise-rs-38-12-cr/articleshow/134623904.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 1 · 17:30z"
+    "title": "Data centre operators  on board  with energy rules",
+    "url": "https://www.goulburnpost.com.au/story/9364636/data-centre-operators-on-board-with-energy-rules/",
+    "domain": "goulburnpost.com.au",
+    "when": "Oct 8 · 05:30z"
    },
    {
-    "title": "Maxivision Eye Hospitals confidentially files for IPO , takes first formal step toward listing",
-    "url": "https://www.moneycontrol.com/news/business/ipo/maxivision-eye-hospitals-confidentially-files-for-ipo-takes-first-formal-step-toward-listing-14043239.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 2 · 03:15z"
-   },
-   {
-    "title": "SME IPO : Sollfege Smart Electronics to raise Rs 21 . 7 - cr ; issue to open on Sep 30",
-    "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/sme-ipo-sollfege-smart-electronics-to-raise-rs-21-7-cr-issue-to-open-on-sep-30/articleshow/134623740.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 1 · 17:30z"
-   },
-   {
-    "title": "Mynt sets GCash IPO price at P6 . 60 | The Manila Times",
-    "url": "https://www.manilatimes.net/2026/10/02/business/mynt-sets-gcash-ipo-price-at-p660/2437736",
-    "domain": "manilatimes.net",
-    "when": "Oct 2 · 03:15z"
-   },
-   {
-    "title": "Quadria - backed Maxivision confidentially files for India IPO",
-    "url": "https://www.dealstreetasia.com/stories/maxivision-files-for-india-ipo-496936",
-    "domain": "dealstreetasia.com",
-    "when": "Oct 2 · 09:15z"
-   },
-   {
-    "title": "GCash parent Mynt prices IPO at P6 . 60 per share",
-    "url": "https://interaksyon.philstar.com/business/2026/10/02/320052/gcash-parent-mynt-prices-ipo-at-p6-60-per-share/",
-    "domain": "interaksyon.philstar.com",
-    "when": "Oct 2 · 03:00z"
-   },
-   {
-    "title": "HAGENS BERMAN , NATIONAL SECURITIES LAW FIRM , Announces Investigation into Suja Life , Inc . ( NASDAQ : SUJA ) Following 70 % Post - IPO Stock Crash",
-    "url": "http://www.prnewswire.com/news-releases/hagens-berman-national-securities-law-firm-announces-investigation-into-suja-life-inc-nasdaq-suja-following-70-post-ipo-stock-crash-302896313.html",
-    "domain": "prnewswire.com",
-    "when": "Oct 1 · 19:00z"
-   },
-   {
-    "title": "Tubig Pilipinas eyes P1 . 8 billion from follow - on share offer",
-    "url": "https://www.philstar.com/business/2026/10/02/2560290/tubig-pilipinas-eyes-p18-billion-follow-share-offer",
-    "domain": "philstar.com",
-    "when": "Oct 1 · 17:00z"
-   },
-   {
-    "title": "Airtel Money targets $7b valuation in IPO boost for London",
-    "url": "https://www.dealstreetasia.com/stories/airtel-money-ipo-london-496934",
-    "domain": "dealstreetasia.com",
-    "when": "Oct 2 · 04:30z"
-   },
-   {
-    "title": "Nvidia - backed Firmus prices landmark IPO at A$11 a share",
-    "url": "https://www.moneycontrol.com/news/business/nvidia-backed-firmus-prices-landmark-ipo-at-a-11-a-share-14043244.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 2 · 03:15z"
-   },
-   {
-    "title": "Anthropic reportedly looking to IPO as early as mid - November",
-    "url": "https://www.aol.com/articles/anthropic-reportedly-looking-ipo-early-180315000.html",
-    "domain": "aol.com",
-    "when": "Oct 1 · 19:00z"
-   },
-   {
-    "title": "SK Hynix says Solidigm IPO remains undecided as AI storage demand drives investment",
-    "url": "https://www.digitimes.com/news/a20261002VL203/sk-hynix-solidigm-investment-ipo-demand.html",
-    "domain": "digitimes.com",
-    "when": "Oct 2 · 03:15z"
-   },
-   {
-    "title": "Filipinos get shot at digital economy ownership with GCash IPO , says solon",
-    "url": "https://www.philstar.com/business/2026/10/02/2560452/filipinos-get-shot-digital-economy-ownership-gcash-ipo-says-solon",
-    "domain": "philstar.com",
-    "when": "Oct 2 · 03:45z"
+    "title": "Biotech and Pharma Industry News | BioPharma Dive",
+    "url": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc",
+    "domain": "biopharmadive.com",
+    "when": "Oct 8 · 05:30z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
