@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09 17:43z",
+ "generated": "2026-10-10 16:31z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -23,276 +23,330 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Blue Cloud Softech Signs Three - Year MoU With Senegal Ministry , GCIB For Africa",
-    "url": "https://www.freepressjournal.in/business/blue-cloud-softech-signs-three-year-mou-with-senegal-ministry-gcib-for-africa",
-    "domain": "freepressjournal.in",
-    "when": "Oct 8 · 05:30z"
+    "title": "Microsoft , Nvidia push AI agents onto personal computers",
+    "url": "http://www.argentinastar.com/news/279358260/microsoft-nvidia-push-ai-agents-onto-personal-computers",
+    "domain": "argentinastar.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Cybersecurity experts share tips to stay safe online while using AI tools",
-    "url": "https://www.kltv.com/2026/10/08/cybersecurity-experts-share-tips-stay-safe-online-while-using-ai-tools/",
-    "domain": "kltv.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Kenya Re taps university students for AI - powered flood solution plan",
+    "url": "https://www.the-star.co.ke/business/2026-10-10-kenya-re-taps-university-students-for-ai-powered-flood-solution-plan",
+    "domain": "the-star.co.ke",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "AI eats into entry - level tech jobs as India graduates seek work",
-    "url": "https://www.business-standard.com/industry/news/ai-eats-into-entry-level-tech-jobs-as-india-s-graduates-seek-work-126100800232_1.html",
-    "domain": "business-standard.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "AI deepfake ads grow more popular in US midterm campaigns , misleading voters - Shafaqna English",
+    "url": "https://en.shafaqna.com/483957/ai-deepfake-ads-grow-more-popular-in-us-midterm-campaigns-misleading-voters/",
+    "domain": "en.shafaqna.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "US to invest over $100 million on STEM programmes amid AI race with China",
-    "url": "https://www.business-standard.com/world-news/us-to-invest-over-100-million-on-stem-programmes-amid-ai-race-with-china-126100800147_1.html",
-    "domain": "business-standard.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "We Must Embrace , Not Pause , AI and Data Centers",
+    "url": "https://townhall.com/columnists/pauldriessen/2026/10/10/we-must-embrace-not-pause-ai-and-data-centers-n2684451",
+    "domain": "townhall.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Arizona courts breached by cyberattack , data stolen for more than 1 million people",
-    "url": "https://www.kold.com/2026/10/08/arizona-courts-breached-by-cyberattack-data-stolen-more-than-1-million-people/",
-    "domain": "kold.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "PMO honors NAZA , The True Story filmmakers for challenging allegations against",
+    "url": "http://www.jpost.com/israel-news/article-911208",
+    "domain": "jpost.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "How AI is changing lawyers , billable hours and legal careers",
+    "url": "https://www.cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html",
+    "domain": "cnbc.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Trump Stumps In New York , Criticizes Hochul | NewsTalk 1240 WSFC",
+    "url": "https://wsfcam.iheart.com/content/2026-10-10-trump-stumps-in-new-york-criticizes-hochul/",
+    "domain": "wsfcam.iheart.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Trump Stumps In New York , Criticizes Hochul",
+    "url": "https://woc1420.iheart.com/content/2026-10-10-trump-stumps-in-new-york-criticizes-hochul/",
+    "domain": "woc1420.iheart.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Trump Stumps In New York , Criticizes Hochul | Newsradio 600 KOGO",
+    "url": "https://kogo.iheart.com/content/2026-10-10-trump-stumps-in-new-york-criticizes-hochul/",
+    "domain": "kogo.iheart.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "  We need to be worried about the idiots running it : Why the real danger may be who controls AI and not just how smart it gets",
+    "url": "https://www.indiatimes.com/trending/we-need-to-be-worried-about-the-idiots-running-it-why-the-real-danger-may-be-who-controls-ai-and-not-just-how-smart-it-gets/articleshow/134847134.html",
+    "domain": "indiatimes.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "India remains key market for global smartphone makers amid evolving demand , component price pressure",
+    "url": "https://www.thehindubusinessline.com/info-tech/india-remains-key-market-for-global-smartphone-makers-amid-evolving-demand-component-price-pressure/article71567186.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "  Bound to cause headaches in the long run : Can programmers build careers without relying on AI tools ? Here what the Internet thinks",
+    "url": "https://www.indiatimes.com/trending/bound-to-cause-headaches-in-the-long-run-can-programmers-build-careers-without-relying-on-ai-tools-heres-what-the-internet-thinks/articleshow/134837087.html",
+    "domain": "indiatimes.com",
+    "when": "Oct 10 · 06:45z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "NBPE Announces Transaction in Own Shares | The Manila Times",
-    "url": "https://www.manilatimes.net/2026/10/02/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2437793",
-    "domain": "manilatimes.net",
-    "when": "Oct 2 · 07:45z"
+    "title": "The Pentagon awarded $350M to a firm tied to a senior DOD official",
+    "url": "https://www.defenseone.com/policy/2026/10/pentagon-350-million-contracts-official/416543/",
+    "domain": "defenseone.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "TRIMAX Power Systems Selected to Present at NIBA 153rd Investment Conference",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69734892-trimax-power-systems-selected-to-present-at-niba-s-153rd-investment-conference-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Oct 1 · 19:45z"
+    "title": "  We need to be worried about the idiots running it : Why the real danger may be who controls AI and not just how smart it gets",
+    "url": "https://www.indiatimes.com/trending/we-need-to-be-worried-about-the-idiots-running-it-why-the-real-danger-may-be-who-controls-ai-and-not-just-how-smart-it-gets/articleshow/134847134.html",
+    "domain": "indiatimes.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Broadcom AI chip financing : Broadcom starts amassing $60 billion to fund chips for Anthropic : Report",
-    "url": "https://economictimes.indiatimes.com/tech/technology/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic-report/articleshow/134632012.cms",
+    "title": "China adds 10 . 52 - million urban jobs in January to September to roll out services jobs policy",
+    "url": "https://www.timeslive.co.za/news/world/2026-10-10-china-adds-1052-million-urban-jobs-in-january-to-september-to-roll-out-services-jobs-policy/",
+    "domain": "timeslive.co.za",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "It Time to Confront America Insurance Monopolies",
+    "url": "https://townhall.com/columnists/joelwhite/2026/10/10/its-time-to-confront-americas-insurance-monopolies-n2684235",
+    "domain": "townhall.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "RBI takes steps to choke speculative bets against the rupee in forex market",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-takes-steps-to-choke-speculative-bets-against-the-rupee-in-forex-market/articleshow/134848611.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "RBI rate hikes of 50 bps expected in next two policies , terminal repo rate to reach 6 . 0 %: Kotak report",
+    "url": "https://timesofoman.com/article/177844-rbi-rate-hikes-of-50-bps-expected-in-next-two-policies-kotak-report",
+    "domain": "timesofoman.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Life insurers projected to post 10 - 20 % VNB growth in 2QFY27 : Report",
+    "url": "http://www.pakistantelegraph.com/news/279363083/life-insurers-projected-to-post-10-20-vnb-growth-in-2qfy27-report",
+    "domain": "pakistantelegraph.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "RBI opens special dollar window for three state - run oil marketing companies",
+    "url": "https://www.moneycontrol.com/news/business/banks/rbi-opens-special-dollar-window-for-three-state-run-oil-marketing-companies-14048990.html",
+    "domain": "moneycontrol.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "How to storm - proof your home , from roof tiles to garden fences",
+    "url": "https://www.theguardian.com/money/2026/oct/10/storm-proof-home-roof-garden-pipes-flooding-winter",
+    "domain": "theguardian.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "US Slaps Sanctions on ICC Following Ex - Judge Nobel Prize Win - Jowhar News Leader",
+    "url": "https://jowhar.com/us-slaps-sanctions-on-icc-following-ex-judges-nobel-prize-win/",
+    "domain": "jowhar.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Two men arrested after BMW rams police vehicle and crashes",
+    "url": "https://www.lancashiretelegraph.co.uk/news/26624882.two-men-arrested-bmw-rams-police-vehicle-crashes/",
+    "domain": "lancashiretelegraph.co.uk",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Kenya Re taps university students for AI - powered flood solution plan",
+    "url": "https://www.the-star.co.ke/business/2026-10-10-kenya-re-taps-university-students-for-ai-powered-flood-solution-plan",
+    "domain": "the-star.co.ke",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
+    "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Oct 2 · 05:30z"
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Next OpenAI , Anthropic may go direct to retail investor . Buyer beware",
-    "url": "https://www.cnbc.com/2026/10/01/sec-private-equity-hedge-funds-stock-investing.html",
-    "domain": "cnbc.com",
-    "when": "Oct 1 · 18:30z"
+    "title": "UK savings : 5 % interest rate deals may not last , say experts",
+    "url": "https://www.theguardian.com/money/2026/oct/10/uk-savings-interest-rate-deals-nsi-bonds",
+    "domain": "theguardian.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "EQT Agreed to Sell Korea Acuon Group to a Hanwha Life - Led Consortium : ",
-    "url": "https://hedgeco.net/news/10/2026/eqt-agreed-to-sell-koreas-acuon-group-to-a-hanwha-life-led-consortium.html",
-    "domain": "hedgeco.net",
-    "when": "Oct 1 · 19:00z"
-   },
-   {
-    "title": "JMMB Group watching interest rates hikes , adds that Guyana market difficult to enter",
-    "url": "https://jamaica-gleaner.com/article/business/20261002/jmmb-group-watching-interest-rates-hikes-adds-guyana-market-difficult",
-    "domain": "jamaica-gleaner.com",
-    "when": "Oct 2 · 08:45z"
-   },
-   {
-    "title": "Trilegal lawyer Anamika Ray joins Anagram Partners as Partner in Corporate practice",
-    "url": "https://www.barandbench.com/law-firms/corporate/trilegal-lawyer-anamika-ray-joins-anagram-partners-as-partner-in-corporate-practice",
-    "domain": "barandbench.com",
-    "when": "Oct 2 · 08:45z"
-   },
-   {
-    "title": "HDFC Bank , Kotak Mahindra Bank put two Anups atop banking big succession puzzle",
-    "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/hdfc-bank-kotak-mahindra-bank-put-two-anups-atop-bankings-big-succession-puzzle/articleshow/134626950.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 1 · 21:00z"
-   },
-   {
-    "title": "Some of the super wealthy are plowing money into a tax loophole to slash taxes to 0",
-    "url": "https://www.capeandislands.org/2026-10-01/some-of-the-super-wealthy-are-plowing-money-into-a-tax-loophole-to-slash-taxes-to-0",
-    "domain": "capeandislands.org",
-    "when": "Oct 2 · 03:15z"
-   },
-   {
-    "title": "One day , two Anups ; one Saha , one Bagchi at helm of two big banks | Meet ex - ICICI and IIT , IIM alumni banks banked upon",
-    "url": "https://www.livemint.com/companies/one-day-two-anups-one-saha-one-bagchi-at-helm-of-two-big-banks-meet-ex-icici-and-iit-iim-alumni-banks-banked-upon-11790878388600.html",
-    "domain": "livemint.com",
-    "when": "Oct 1 · 21:30z"
-   },
-   {
-    "title": "Novartis Cant Dodge Hedge Fund Trade Secrets Suit",
-    "url": "https://www.law360.com:443/articles/2532760",
-    "domain": "law360.com",
-    "when": "Oct 2 · 04:45z"
-   },
-   {
-    "title": "Connie Petropoulos | Inside Philanthropy",
-    "url": "https://www.insidephilanthropy.com/author/connie-petropoulos",
-    "domain": "insidephilanthropy.com",
-    "when": "Oct 1 · 21:45z"
+    "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+    "url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
+    "domain": "the-star.co.ke",
+    "when": "Oct 10 · 06:45z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "US prepares military for possible new Iran strikes , Trump yet to decide",
-    "url": "https://www.business-standard.com/world-news/us-prepares-military-for-possible-new-iran-strikes-trump-yet-to-decide-126100800105_1.html",
-    "domain": "business-standard.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Stronger BoP outlook to keep Rupee far more stable ; FY27 surplus seen at USD 97 - 100 billion : Report",
+    "url": "https://timesofoman.com/article/177843-stronger-balance-of-payments-outlook-to-keep-rupee-far-more-stable",
+    "domain": "timesofoman.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Data centre operators  on board  with energy rules",
-    "url": "https://www.goulburnpost.com.au/story/9364636/data-centre-operators-on-board-with-energy-rules/",
-    "domain": "goulburnpost.com.au",
-    "when": "Oct 8 · 05:30z"
+    "title": "We Must Embrace , Not Pause , AI and Data Centers",
+    "url": "https://townhall.com/columnists/pauldriessen/2026/10/10/we-must-embrace-not-pause-ai-and-data-centers-n2684451",
+    "domain": "townhall.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "RBI increases repo rate to 5 . 50 %: How does it impact a consumer ? ",
-    "url": "https://www.sentinelassam.com/topheadlines/rbi-increases-repo-rate-to-550-how-does-it-impact-a-consumer",
-    "domain": "sentinelassam.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
+    "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "RBI takes steps to choke speculative bets against the rupee in forex market",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-takes-steps-to-choke-speculative-bets-against-the-rupee-in-forex-market/articleshow/134848611.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Hoosiers brace for more gas price changes after a 15 - cent jump in a day",
+    "url": "https://www.wishtv.com/news/local-news/hoosiers-brace-for-more-gas-price-changes-after-a-15-cent-jump-in-a-day/",
+    "domain": "wishtv.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Donald Trump slams Nobel Peace Prize awarded to Navi Pillay over snub",
+    "url": "http://www.jpost.com/international/article-911201",
+    "domain": "jpost.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Donald Trump Makes BIG Announcement , Strikes Diesel Deal With Putin , Says  Prices Will Come Down Fast  ",
+    "url": "https://www.oneindia.com/international/donald-trump-makes-big-announcement-strikes-diesel-deal-with-putin-says-prices-will-come-down-fas-8230651.html",
+    "domain": "oneindia.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "John Cena , Jessica Biel hail  Matchbox  director Sam Hargrave for  pushing the envelope  ",
+    "url": "https://www.philstar.com/entertainment/2026/10/10/2562259/john-cena-jessica-biel-hail-matchbox-director-sam-hargrave-pushing-envelope",
+    "domain": "philstar.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Data centre market faces energy challenges",
+    "url": "https://vietnamnews.vn/economy/1801684/data-centre-market-faces-energy-challenges.html",
+    "domain": "vietnamnews.vn",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Putin says Russian oil supplies to US will",
+    "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
+    "domain": "timesofoman.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
+    "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions-on-the-war/articleshow/134847184.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Isaias makes landfall , Santa Rosa looks to begin recovery efforts",
+    "url": "https://navarrepress.com/isaias-makes-landfall-santa-rosa-looks-to-begin-recovery-efforts/",
+    "domain": "navarrepress.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Opportunity : US Space Academy would be a good fit for W . Va . ",
+    "url": "https://www.newsandsentinel.com/opinion/editorials/2026/10/opportunity-us-space-academy-would-be-a-good-fit-for-w-va/",
+    "domain": "newsandsentinel.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Mid - Ohio Valley Climate Corner : Vote not just for climate , but affordability",
+    "url": "https://www.newsandsentinel.com/opinion/local-columns/2026/10/mid-ohio-valley-climate-corner-vote-not-just-for-climate-but-affordability/",
+    "domain": "newsandsentinel.com",
+    "when": "Oct 10 · 06:45z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "NMDC commissions ₹5 , 427 cr integrated iron ore project in Chhattisgarh",
-    "url": "https://www.business-standard.com/companies/news/nmdc-commissions-5-427-cr-integrated-iron-ore-project-in-chhattisgarh-126092800121_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 28 · 05:30z"
+    "title": "Migori miners challenged to plant trees to help restore degraded land",
+    "url": "https://www.standardmedia.co.ke/nyanza/article/2001559833/migori-miners-challenged-to-plant-trees-to-help-restore-degraded-land",
+    "domain": "standardmedia.co.ke",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Global X Rare Earth & Critical Materials ETF ( NASDAQ : EART ) Stock Short Interest Climbs 153 . 1 % ",
-    "url": "https://www.tickerreport.com/banking-finance/13599344/global-x-rare-earth-critical-materials-etf-nasdaqeart-stock-short-interest-climbs-153-1.html",
-    "domain": "tickerreport.com",
-    "when": "Sep 28 · 17:45z"
+    "title": "Coalition seeks to shield mines from climate activists",
+    "url": "https://www.canberratimes.com.au/story/9366011/coalition-seeks-to-shield-mines-from-climate-activists/",
+    "domain": "canberratimes.com.au",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Sandur Manganese sets up subsidiary to manufacture medical devices",
-    "url": "https://www.business-standard.com/markets/capital-market-news/sandur-manganese-sets-up-subsidiary-to-manufacture-medical-devices-126092800088_1.html",
-    "domain": "business-standard.com",
-    "when": "Sep 28 · 03:30z"
+    "title": "Calcutta VFD marks National Fire Prevention Week",
+    "url": "https://www.reviewonline.com/news/local-news/2026/10/calcutta-vfd-marks-national-fire-prevention-week/",
+    "domain": "reviewonline.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "A 175 - year - old golden rule in markets is starting to break",
-    "url": "https://www.theage.com.au/business/markets/a-175-year-old-golden-rule-in-markets-is-starting-to-break-20260928-p60xns.html",
-    "domain": "theage.com.au",
-    "when": "Sep 28 · 06:30z"
+    "title": "Government targets 17 . 2m trees to mark 2026 Mazingira Day",
+    "url": "https://www.the-star.co.ke/news/2026-10-10-state-targets-172m-trees-to-mark-mazingira-day",
+    "domain": "the-star.co.ke",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Trump to announce $15B Iowa project to create largest - ever US steel plant",
-    "url": "https://www.foxnews.com/politics/largest-ever-us-steel-plant-coming-key-red-state-trump-unveils-15b-investment",
-    "domain": "foxnews.com",
-    "when": "Sep 28 · 16:15z"
+    "title": "Strong quake shakes Panama , but no major destruction",
+    "url": "https://www.canberratimes.com.au/story/9365947/strong-quake-shakes-panama-but-no-major-destruction/",
+    "domain": "canberratimes.com.au",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "NMDC commissions Rs 5 , 427 crore iron ore project in Chhattisgarh",
-    "url": "https://ianslive.in/nmdc-commissions-rs-5427-crore-iron-ore-project-in-chhattisgarh--20260928090609",
-    "domain": "ianslive.in",
-    "when": "Sep 28 · 04:15z"
+    "title": "Chief Joseph Middle School Incident Prompts Police Response",
+    "url": "https://97rockonline.com/ixp/112/p/chief-joseph-middle-school-safety-incident/",
+    "domain": "97rockonline.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Trump to announce new $15B steel plant : White House official",
-    "url": "https://abcnews.com/Politics/trump-announce-new-15b-steel-plant-white-house/story?id=136821451",
-    "domain": "abcnews.com",
-    "when": "Sep 28 · 16:30z"
+    "title": "Novagold Resources ( NYSEAMERICAN : NG ) Stock Gets Price Target Cut from Morgan Stanley",
+    "url": "https://www.themarketsdaily.com/2026/10/10/novagold-resources-nyseamericanng-stock-gets-price-target-cut-from-morgan-stanley.html",
+    "domain": "themarketsdaily.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Barbil Bolanikhadan Doubling Project Boosts Transport - Pragativadi I Latest Odisha News in English I Breaking News",
-    "url": "https://pragativadi.com/railways-approves-rs-122-crore-barbil-bolanikhadan-doubling-to-boost-iron-ore-freight/",
-    "domain": "pragativadi.com",
-    "when": "Sep 28 · 15:45z"
+    "title": "Spa bliss in the Alps : hot springs and hiking in the shadow of Mont Blanc",
+    "url": "https://www.theguardian.com/travel/2026/oct/10/spa-mountain-town-saint-gervais-les-bains-france-mont-blanc",
+    "domain": "theguardian.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "North America is building rare earth plants faster than it is building rare earth engineers",
-    "url": "https://www.northernminer.com/news/north-america-is-building-rare-earth-plants-faster-than-it-is-building-rare-earth-engineers/1003895179/",
-    "domain": "northernminer.com",
-    "when": "Sep 28 · 15:45z"
+    "title": "We Must Embrace , Not Pause , AI and Data Centers",
+    "url": "https://townhall.com/columnists/pauldriessen/2026/10/10/we-must-embrace-not-pause-ai-and-data-centers-n2684451",
+    "domain": "townhall.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "ABC Politics - WOND",
-    "url": "https://wondradio.com/abc-politics/98d1e766a19b3913a5faaee5703e116a",
-    "domain": "wondradio.com",
-    "when": "Sep 28 · 15:30z"
-   },
-   {
-    "title": "German industry hoards rare earths as Brussels squares up to China",
-    "url": "https://www.politico.eu/article/german-industry-hoards-rare-earths-as-brussels-squares-up-to-china/",
-    "domain": "politico.eu",
-    "when": "Sep 28 · 02:45z"
+    "title": "President Ruto expected in Trans Nzoia as government targets 17 . 24 million trees",
+    "url": "https://capitalfm.africa/president-ruto-expected-in-trans-nzoia-as-government-targets-17-24-million-trees/",
+    "domain": "capitalfm.africa",
+    "when": "Oct 10 · 06:45z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "Babesiosis Data Readout Today As 60 Degrees Pharmaceuticals Shares Climb",
-    "url": "https://www.rttnews.com/3696739/babesiosis-data-readout-today-as-60-degrees-pharmaceuticals-shares-climb.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "We Must Embrace , Not Pause , AI and Data Centers",
+    "url": "https://townhall.com/columnists/pauldriessen/2026/10/10/we-must-embrace-not-pause-ai-and-data-centers-n2684451",
+    "domain": "townhall.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Blinkit , Copenhagen Hospitality , Eatclubs Among Establishments Facing Maharashtra FDA Action In Festive - Season Crackdown",
-    "url": "https://www.freepressjournal.in/mumbai/blinkit-copenhagen-hospitality-eatclubs-among-establishments-facing-maharashtra-fda-action-in-festive-season-crackdown",
-    "domain": "freepressjournal.in",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "  Once Saw Giant Rat …: Mumbaikars Divided Over Andheri Iconic Suraj Lama Momos Licence Suspension , Bollywood Connection Resurfaces",
-    "url": "https://www.freepressjournal.in/lifestyle/once-saw-giant-rat-mumbaikars-divided-over-andheris-iconic-suraj-lama-momos-licence-suspension-bollywood-connection-resurfaces",
-    "domain": "freepressjournal.in",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "  Owners Fear Him : Tukaram Mundhe Hailed As  Rockstar  By The New York Times For Maharashtra Food Safety Crackdown",
-    "url": "https://www.freepressjournal.in/viral/owners-fear-him-tukaram-mundhe-hailed-as-rockstar-by-the-new-york-times-for-maharashtra-food-safety-crackdown",
-    "domain": "freepressjournal.in",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Piramal Pharma Solutions Launches New Microbiology Laboratory at Its Lexington , KY Sterile Injectable Facility",
-    "url": "https://aninews.in/news/business/piramal-pharma-solutions-launches-new-microbiology-laboratory-at-its-lexington-ky-sterile-injectable-facility20261006124426/",
-    "domain": "aninews.in",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Head - To - Head Contrast : Avantor ( NYSE : AVTR ) vs . Medpace ( NASDAQ : MEDP ) ",
-    "url": "https://www.dailypolitical.com/2026/10/06/head-to-head-contrast-avantor-nyseavtr-vs-medpace-nasdaqmedp.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Biotech Stocks At 52 - Week Highs - PCVX +31 % On Phase 3 Results , INFU , ILMN +7 %, CRL+7 %, HTFL +5 % ",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69763404-biotech-stocks-at-52-week-highs-pcvx-31-on-phase-3-results-infu-ilmn-7-crl-7-htfl-5-020.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "EAM Jaishankar undertakes five - day visit to Ghana , Cote dIvoire and Ethiopia",
-    "url": "https://news.webindia123.com/news/Articles/World/20261006/4507675.html",
-    "domain": "news.webindia123.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "DGTR launches five anti - dumping probes on Chinese imports , steps up trade - remedy action",
-    "url": "https://aninews.in/news/business/dgtr-launches-five-anti-dumping-probes-on-chinese-imports-steps-up-trade-remedy-action20261006130812/",
-    "domain": "aninews.in",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "India opens 5 new anti - dumping probes ; Chinese imports under lens in every case",
-    "url": "https://www.moneycontrol.com/news/business/india-opens-5-new-anti-dumping-probes-chinese-imports-under-lens-in-every-case-14045658.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Health Matters newsletter : Celebrating new frontiers , questioning old barriers",
-    "url": "https://www.thehindu.com/newsletter/health-matters/health-matters-newsletter-celebrating-new-frontiers-questioning-old-barriers/article71549968.ece",
-    "domain": "thehindu.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Rigetti Computing vs . D - Wave Quantum : Which Quantum Computing Stock Is the Better Buy ? ",
-    "url": "https://www.fool.com/investing/2026/10/06/rigetti-computing-vs-d-wave-quantum-which-quantum/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "QuantWare appoints Bart Filius as Chief Financial Officer",
-    "url": "https://itbrief.co.nz/story/quantware-appoints-bart-filius-as-chief-financial-officer",
-    "domain": "itbrief.co.nz",
-    "when": "Oct 6 · 08:30z"
+    "title": "Corning ( NYSE : GLW ) Stock Purchase Revealed by Rep . Maria Elvira Salazar",
+    "url": "https://www.themarketsdaily.com/2026/10/10/corning-nyseglw-stock-purchase-revealed-by-rep-maria-elvira-salazar.html",
+    "domain": "themarketsdaily.com",
+    "when": "Oct 10 · 06:45z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
@@ -377,22 +431,94 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "IOI Properties bets on Singapore CBD offices",
-    "url": "https://www.straitstimes.com/business/the-best-address-in-singapore-why-malaysias-ioi-properties-is-betting-billions-on-the-cbd",
-    "domain": "straitstimes.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Friend U Visa Curbs Only a Gain for New India : Goyal",
+    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/friend-us-visa-curbs-only-a-gain-for-new-india-goyal/articleshow/134842801.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "The most expensive grocery staples in South Africa",
-    "url": "https://www.jacarandafm.com/shows/breakfast/the-most-expensive-grocery-staples-in-south-africa/",
-    "domain": "jacarandafm.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Malaysian man to be charged over alleged involvement in scam impersonating CNB officer",
+    "url": "https://www.asiaone.com/singapore/police-malaysian-man-cnb-impersonation-scam",
+    "domain": "asiaone.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Tata Steel India Crude Steel Production Rises 10 % YoY In Q2 FY27 To 6 . 21 Million Tonnes",
-    "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
-    "domain": "freepressjournal.in",
-    "when": "Oct 8 · 05:30z"
+    "title": "India remains key market for global smartphone makers amid evolving demand , component price pressure",
+    "url": "https://www.thehindubusinessline.com/info-tech/india-remains-key-market-for-global-smartphone-makers-amid-evolving-demand-component-price-pressure/article71567186.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "The next phase of farm electrification : Tillers , weeders and the machines around the tractor",
+    "url": "https://www.thehindubusinessline.com/economy/agri-business/the-next-phase-of-farm-electrification-tillers-weeders-and-the-machines-around-the-tractor/article71565519.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Avenue Supermarts ( DMart ) Q2 Results LIVE : Earnings , Revenue , Profit Updates",
+    "url": "https://www.thehindubusinessline.com/companies/avenue-supermarts-earnings-d-mart-q2-results-today-live-news-updates-10-october-2026/article71567080.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "It Time to Confront America Insurance Monopolies",
+    "url": "https://townhall.com/columnists/joelwhite/2026/10/10/its-time-to-confront-americas-insurance-monopolies-n2684235",
+    "domain": "townhall.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "The Guide # 264 : Why is Hollywood obsessed with the tech - bro baddie ? ",
+    "url": "https://www.theguardian.com/culture/2026/oct/09/why-is-hollywood-obsessed-with-the-tech-bro-baddie",
+    "domain": "theguardian.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Next . js 16 . 4",
+    "url": "https://nextjs.org/blog/next-16-4",
+    "domain": "nextjs.org",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Donald Trump Makes BIG Announcement , Strikes Diesel Deal With Putin , Says  Prices Will Come Down Fast  ",
+    "url": "https://www.oneindia.com/international/donald-trump-makes-big-announcement-strikes-diesel-deal-with-putin-says-prices-will-come-down-fas-8230651.html",
+    "domain": "oneindia.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Auckland . Scoop » NZ Supermarket Challenger To Open 20+ Stores , Create Up To 1 , 000 Regional Jobs",
+    "url": "https://auckland.scoop.co.nz/2026/10/nz-supermarket-challenger-to-open-20-stores-create-up-to-1000-regional-jobs/",
+    "domain": "auckland.scoop.co.nz",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Sentencings from Clinton County",
+    "url": "https://www.lockhaven.com/news/police-court-and-fires/2026/10/sentencings-from-clinton-county-72/",
+    "domain": "lockhaven.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Counter - Terrorism : The Hamas Eternal War",
+    "url": "http://www.strategypage.com/%5Chtmw%5Chtterr%5Carticles%5C2026100993248.aspx",
+    "domain": "strategypage.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Proceedings from district judges",
+    "url": "https://www.lockhaven.com/news/police-court-and-fires/2026/10/proceedings-from-district-judges-365/",
+    "domain": "lockhaven.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Boys Town Nevada Celebrates 35 Years With  Impact Gala  Honoring Mark Davis",
+    "url": "https://nevadabusiness.com/2026/10/boys-town-nevada-celebrates-35-years-with-impact-gala-honoring-mark-davis/",
+    "domain": "nevadabusiness.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "Lewisham named south - east London biggest eyesore",
+    "url": "https://www.london-now.co.uk/news/26591576.lewisham-named-south-east-londons-biggest-eyesore/",
+    "domain": "london-now.co.uk",
+    "when": "Oct 10 · 06:45z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
@@ -497,48 +623,36 @@
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "Major role played by one of first black families in Derbyshire town to be celebrated",
-    "url": "https://www.derbytelegraph.co.uk/news/local-news/major-role-played-one-first-11184221",
-    "domain": "derbytelegraph.co.uk",
-    "when": "Oct 6 · 08:30z"
+    "title": "Tata Motors raises Iveco takeover offer price to 14 . 40 euro per share",
+    "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-raises-iveco-takeover-offer-price-to-14-40-euro-per-share/articleshow/134848656.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Informa snaps up Clarion Events in £2 . 2bn deal with Blackstone",
-    "url": "https://www.cityam.com/informa-snaps-up-clarion-events-in-2-3bn-deal-with-blackstone/",
-    "domain": "cityam.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "Telegram Desktop : one - click account takeover via IPC injection",
+    "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+    "domain": "beaksec.github.io",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Solid Waste & Recycling News",
-    "url": "https://www.wastedive.com/?page=2&_sp=741aa289-fb9c-4658-9c1e-1e91e377e7a1",
-    "domain": "wastedive.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "Ten things you didnt know about Jaguar controversial new Type 01 EV",
+    "url": "https://www.dailymail.com/money/electriccars/article-16187257/Ten-things-electric-Jaguar-Type-01.html",
+    "domain": "dailymail.com",
+    "when": "Oct 10 · 06:45z"
+   },
+   {
+    "title": "the problem",
+    "url": "https://shrub.industries/words/problem.html",
+    "domain": "shrub.industries",
+    "when": "Oct 10 · 06:45z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Nyoro suspended over claims NSSF , PSSF , Kenya Re were pressured to buy KPC shares",
-    "url": "https://capitalfm.africa/nyoro-suspended-over-claims-nssf-pssf-kenya-re-were-pressured-to-buy-kpc-shares/",
-    "domain": "capitalfm.africa",
-    "when": "Oct 8 · 05:30z"
-   },
-   {
-    "title": "Investors Urged to Contact Levi & Korsinsky for Information Before ... ",
-    "url": "https://www.pr-inside.com/investors-urged-to-contact-levi-korsinsky-for-information-before-r5231384.htm",
-    "domain": "pr-inside.com",
-    "when": "Oct 8 · 05:30z"
-   },
-   {
-    "title": "Data centre operators  on board  with energy rules",
-    "url": "https://www.goulburnpost.com.au/story/9364636/data-centre-operators-on-board-with-energy-rules/",
-    "domain": "goulburnpost.com.au",
-    "when": "Oct 8 · 05:30z"
-   },
-   {
-    "title": "Biotech and Pharma Industry News | BioPharma Dive",
-    "url": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc",
-    "domain": "biopharmadive.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Wes Maas offloads $50m shopping mall as Firmus float fallout hits",
+    "url": "https://www.brisbanetimes.com.au/business/small-business/wes-maas-offloads-50m-shopping-mall-as-firmus-float-fallout-hits-20261009-p613wf.html",
+    "domain": "brisbanetimes.com.au",
+    "when": "Oct 10 · 06:45z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
@@ -727,88 +841,16 @@
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "Centurion expands Hong Kong presence with $59 . 4m building acquisition",
-    "url": "https://sbr.com.sg/residential-property/news/centurion-expands-hong-kong-presence-594m-building-acquisition",
-    "domain": "sbr.com.sg",
-    "when": "Sep 28 · 04:15z"
+    "title": "It Time to Confront America Insurance Monopolies",
+    "url": "https://townhall.com/columnists/joelwhite/2026/10/10/its-time-to-confront-americas-insurance-monopolies-n2684235",
+    "domain": "townhall.com",
+    "when": "Oct 10 · 06:45z"
    },
    {
-    "title": "Food Dive : Food Industry News and Analysis",
-    "url": "https://www.fooddive.com/?page=2&_sp=c145dd23-20f2-494a-a19b-3f5f40b07569",
-    "domain": "fooddive.com",
-    "when": "Sep 27 · 21:45z"
-   },
-   {
-    "title": "CDL to divest S$6 billion over 3 years , CEO pledges  unwavering focu on execution of new strategy",
-    "url": "https://www.channelnewsasia.com/singapore/cdl-kwek-family-divestments-investments-6414536",
-    "domain": "channelnewsasia.com",
-    "when": "Sep 28 · 07:00z"
-   },
-   {
-    "title": "Iran evades US sanctions using scheme tied to Trump commerce secretary : report",
-    "url": "https://www.rawstory.com/howard-lutnick-crypto/",
-    "domain": "rawstory.com",
-    "when": "Sep 28 · 17:15z"
-   },
-   {
-    "title": "CDL shares dip 6 % after strategic review release",
-    "url": "https://www.businesstimes.com.sg/companies-markets/cdl-shares-dip-6-after-strategic-review-release",
-    "domain": "businesstimes.com.sg",
-    "when": "Sep 28 · 05:45z"
-   },
-   {
-    "title": "Eaton to acquire COL Group for $923m",
-    "url": "https://www.power-technology.com/news/eaton-to-acquire-col-group-923m/",
-    "domain": "power-technology.com",
-    "when": "Sep 28 · 11:15z"
-   },
-   {
-    "title": "CDL to unlock hidden empire worth $6b for growth",
-    "url": "https://www.straitstimes.com/business/cdl-to-unlock-hidden-empire-worth-6b-to-deploy-into-better-yielding-assets",
-    "domain": "straitstimes.com",
-    "when": "Sep 28 · 06:30z"
-   },
-   {
-    "title": "Gold Fields denied takeover at Australia top gold producer",
-    "url": "https://www.bizcommunity.com/article/gold-fields-denied-takeover-at-australias-top-gold-producer-292597a",
-    "domain": "bizcommunity.com",
-    "when": "Sep 28 · 11:00z"
-   },
-   {
-    "title": "Is Algonquin ( AQN ) Strategic Pivot Built for Long - Term Value ? ",
-    "url": "https://www.insidermonkey.com/news/is-algonquins-aqn-strategic-pivot-built-for-long-term-value-1845487/",
-    "domain": "insidermonkey.com",
-    "when": "Sep 28 · 06:00z"
-   },
-   {
-    "title": "Can Par Pacific ( PARR ) Turn a Laramie Exit Into Refining Growth ? ",
-    "url": "https://www.insidermonkey.com/news/can-par-pacific-parr-turn-a-laramie-exit-into-refining-growth-1845490/",
-    "domain": "insidermonkey.com",
-    "when": "Sep 28 · 06:00z"
-   },
-   {
-    "title": "Ardova - led consortium to acquire Powergas",
-    "url": "https://punchng.com/ardova-led-consortium-to-acquire-powergas/",
-    "domain": "punchng.com",
-    "when": "Sep 28 · 04:15z"
-   },
-   {
-    "title": "Aluma fund buys OPC Energy unit for NIS 272m",
-    "url": "https://en.globes.co.il/en/article-aluma-fund-buys-opc-energy-unit-for-nis-272m-1001557711",
-    "domain": "en.globes.co.il",
-    "when": "Sep 28 · 10:15z"
-   },
-   {
-    "title": "Nokia Is The Networking Juggernaut AI Investors Should Watch Right Now",
-    "url": "https://www.aol.com/articles/nokia-networking-juggernaut-ai-investors-144522000.html",
-    "domain": "aol.com",
-    "when": "Sep 28 · 15:15z"
-   },
-   {
-    "title": "Vote smuggling : Registration bureau , IEBC on the spot as Ugandans issued IDs and voter cards",
-    "url": "https://www.standardmedia.co.ke/national/article/2001558838/vote-smuggling-registration-bureau-iebc-on-the-spot-as-ugandans-issued-ids-and-voters-cards",
-    "domain": "standardmedia.co.ke",
-    "when": "Sep 28 · 05:30z"
+    "title": "Cosatu warns Premier of dire action if fruit cannery closes",
+    "url": "https://www.timeslive.co.za/news/business/2026-10-10-cosatu-warns-premier-of-dire-action-if-fruit-cannery-closes/",
+    "domain": "timeslive.co.za",
+    "when": "Oct 10 · 06:45z"
    }
   ]
  }
