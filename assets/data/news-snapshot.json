@@ -1,24 +1,90 @@
 {
- "generated": "2026-10-14 16:08z",
+ "generated": "2026-10-15 15:55z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "FxWirePro : EUR / NZD recovers from early dip , upside pressure builds",
-    "url": "http://www.econotimes.com/FxWirePro-EUR-NZD-recovers-from-early-dip-upside-pressure-builds-1754289",
-    "domain": "econotimes.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Small - cap stocks quietly slide into correction territory",
+    "url": "https://www.cnbc.com/2026/10/15/small-cap-stocks-slide-into-correction-territory.html",
+    "domain": "cnbc.com",
+    "when": "Oct 15 · 14:15z"
    },
    {
-    "title": "RBI increases repo rate to 5 . 50 %: How does it impact a consumer ? ",
-    "url": "https://www.sentinelassam.com/topheadlines/rbi-increases-repo-rate-to-550-how-does-it-impact-a-consumer",
-    "domain": "sentinelassam.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Suddenly , Wall Street is worried that the U . S . economy is more  vulnerable  than it looks",
+    "url": "https://fortune.com/2026/10/15/suddenly-wall-street-is-worried-that-the-u-s-economy-is-more-vulnerable-than-it-looks/",
+    "domain": "fortune.com",
+    "when": "Oct 15 · 14:30z"
    },
    {
-    "title": "Biotech and Pharma Industry News | BioPharma Dive",
-    "url": "https://www.biopharmadive.com/?page=2&_sp=55904eff-66d1-43a8-bc97-7e7124b9a4fc",
-    "domain": "biopharmadive.com",
-    "when": "Oct 8 · 05:30z"
+    "title": "Euro slides to fresh lows against US dollar and British pound despite ECB rate hikes",
+    "url": "https://www.aol.co.uk/articles/euro-slides-fresh-lows-against-122534000.html",
+    "domain": "aol.co.uk",
+    "when": "Oct 15 · 13:15z"
+   },
+   {
+    "title": "The Stock Market Is Facing 3 Huge Problems Right Now , and History Is Clear About What Coming",
+    "url": "https://www.fool.com/investing/2026/10/15/the-stock-market-is-facing-3-huge-problems-right-n/",
+    "domain": "fool.com",
+    "when": "Oct 15 · 13:15z"
+   },
+   {
+    "title": "Gold price today : Gold rate recovers after consecutive losses but there is a concern . Details here",
+    "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-recovers-after-consecutive-losses-but-there-is-a-concern-details-here/articleshow/134969502.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 15 · 14:30z"
+   },
+   {
+    "title": "5 Things to Know Before the Stock Market Opens on Thursday",
+    "url": "https://www.aol.com/articles/5-things-know-stock-market-121200000.html",
+    "domain": "aol.com",
+    "when": "Oct 15 · 13:00z"
+   },
+   {
+    "title": "International Business : Citi turns hawkish",
+    "url": "https://www.gdnonline.com:443/Details/1409764/Citi-turns-hawkish",
+    "domain": "gdnonline.com",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "UBS extends Fed tightening cycle forecast with March rate hike after inflation surprise",
+    "url": "https://www.aol.com/articles/ubs-extends-fed-tightening-cycle-092129000.html",
+    "domain": "aol.com",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "Nasdaq futures dive 1 % as AI rout deepens on debt concerns",
+    "url": "https://www.aol.com/articles/nasdaq-futures-dive-1-ai-082238000.html",
+    "domain": "aol.com",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "Morning Bid : CoreWeave unravels",
+    "url": "https://www.aol.com/articles/morning-bid-coreweave-unravels-104050000.html",
+    "domain": "aol.com",
+    "when": "Oct 15 · 11:45z"
+   },
+   {
+    "title": "Nvidia stock sinks amid concerns over AI financing",
+    "url": "https://www.aol.com/articles/nvidia-stock-sinks-amid-concerns-134237000.html",
+    "domain": "aol.com",
+    "when": "Oct 15 · 14:30z"
+   },
+   {
+    "title": "Over 850 stocks fall as US inflation fears rattle Bursa Malaysia",
+    "url": "https://www.thestar.com.my/business/business-news/2026/10/15/over-850-stocks-fall-as-us-inflation-fears-rattle-bursa-malaysia",
+    "domain": "thestar.com.my",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "Philippine peso sinks past P63 per dollar for first time",
+    "url": "https://bworldonline.com/top-stories/2026/10/15/787274/philippine-peso-sinks-past-p63-per-dollar-for-first-time/",
+    "domain": "bworldonline.com",
+    "when": "Oct 15 · 14:15z"
+   },
+   {
+    "title": "Report shines light on how much Iran War is costing American households",
+    "url": "https://www.aol.com/articles/report-shines-light-much-iran-114025000.html",
+    "domain": "aol.com",
+    "when": "Oct 15 · 13:00z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
@@ -337,16 +403,58 @@
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "We Must Embrace , Not Pause , AI and Data Centers",
-    "url": "https://townhall.com/columnists/pauldriessen/2026/10/10/we-must-embrace-not-pause-ai-and-data-centers-n2684451",
-    "domain": "townhall.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Alimentiv and International Bowel Ultrasound Group Expand Partnership to Include Ultrasound Training for Clinical Trials",
+    "url": "https://www.prnewswire.com:443/news-releases/alimentiv-and-international-bowel-ultrasound-group-expand-partnership-to-include-ultrasound-training-for-clinical-trials-302910171.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 15 · 14:00z"
    },
    {
-    "title": "Corning ( NYSE : GLW ) Stock Purchase Revealed by Rep . Maria Elvira Salazar",
-    "url": "https://www.themarketsdaily.com/2026/10/10/corning-nyseglw-stock-purchase-revealed-by-rep-maria-elvira-salazar.html",
-    "domain": "themarketsdaily.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Alimentiv Inc .: Alimentiv and International Bowel Ultrasound Group Expand Partnership to Include Ultrasound Training for Clinical Trials",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69848770-alimentiv-inc-alimentiv-and-international-bowel-ultrasound-group-expand-partnership-to-include-ultrasound-training-for-clinical-trials-008.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 15 · 14:15z"
+   },
+   {
+    "title": "Pope Brother Also Battling Cancer | Talk Radio 105 . 9",
+    "url": "https://talkradio1059.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
+    "domain": "talkradio1059.iheart.com",
+    "when": "Oct 15 · 12:30z"
+   },
+   {
+    "title": "Pope Brother Also Battling Cancer",
+    "url": "https://wjno.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
+    "domain": "wjno.iheart.com",
+    "when": "Oct 15 · 12:30z"
+   },
+   {
+    "title": "Pope Brother Also Battling Cancer | NewsTalk WMEQ",
+    "url": "https://wmeq.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
+    "domain": "wmeq.iheart.com",
+    "when": "Oct 15 · 12:30z"
+   },
+   {
+    "title": "Pope Brother Also Battling Cancer | News Radio 105 . 5 WERC",
+    "url": "https://wercfm.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
+    "domain": "wercfm.iheart.com",
+    "when": "Oct 15 · 13:15z"
+   },
+   {
+    "title": "Pope Brother Also Battling Cancer | KFYR 550 AM / 99 . 7 FM",
+    "url": "https://kfyr.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
+    "domain": "kfyr.iheart.com",
+    "when": "Oct 15 · 13:00z"
+   },
+   {
+    "title": "Pope Brother Also Battling Cancer | NewsTalk 1320 KWHN",
+    "url": "https://kwhn.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
+    "domain": "kwhn.iheart.com",
+    "when": "Oct 15 · 13:30z"
+   },
+   {
+    "title": "Pope Brother Also Battling Cancer | NewsRadio WHAM 1180",
+    "url": "https://wham1180.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
+    "domain": "wham1180.iheart.com",
+    "when": "Oct 15 · 12:30z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
@@ -431,94 +539,46 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Friend U Visa Curbs Only a Gain for New India : Goyal",
-    "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/friend-us-visa-curbs-only-a-gain-for-new-india-goyal/articleshow/134842801.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "U . S . retail sales beat expectations on higher gasoline prices",
+    "url": "https://www.theglobeandmail.com/business/economy/article-us-retail-sales-september-2026-gasoline-prices/",
+    "domain": "theglobeandmail.com",
+    "when": "Oct 15 · 13:30z"
    },
    {
-    "title": "Malaysian man to be charged over alleged involvement in scam impersonating CNB officer",
-    "url": "https://www.asiaone.com/singapore/police-malaysian-man-cnb-impersonation-scam",
-    "domain": "asiaone.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Top ecommerce accolade for Powys - based retailer Charlies",
+    "url": "https://www.countytimes.co.uk/news/26639661.top-ecommerce-accolade-powys-based-retailer-charlies/",
+    "domain": "countytimes.co.uk",
+    "when": "Oct 15 · 14:15z"
    },
    {
-    "title": "India remains key market for global smartphone makers amid evolving demand , component price pressure",
-    "url": "https://www.thehindubusinessline.com/info-tech/india-remains-key-market-for-global-smartphone-makers-amid-evolving-demand-component-price-pressure/article71567186.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Retail sales up 0 . 8 % in September as shoppers remain resilient",
+    "url": "https://www.dailycamera.com/2026/10/15/retail-sales-september/",
+    "domain": "dailycamera.com",
+    "when": "Oct 15 · 14:15z"
    },
    {
-    "title": "The next phase of farm electrification : Tillers , weeders and the machines around the tractor",
-    "url": "https://www.thehindubusinessline.com/economy/agri-business/the-next-phase-of-farm-electrification-tillers-weeders-and-the-machines-around-the-tractor/article71565519.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Opinion : The economy is both good and bad for Chicagoans",
+    "url": "https://www.chicagotribune.com/2026/10/15/opinion-chicago-economy-consumer-spending/",
+    "domain": "chicagotribune.com",
+    "when": "Oct 15 · 13:00z"
    },
    {
-    "title": "Avenue Supermarts ( DMart ) Q2 Results LIVE : Earnings , Revenue , Profit Updates",
-    "url": "https://www.thehindubusinessline.com/companies/avenue-supermarts-earnings-d-mart-q2-results-today-live-news-updates-10-october-2026/article71567080.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Maison DArome Introduces Affordable Luxury Perfumes in India , ETRetail",
+    "url": "https://retail.economictimes.indiatimes.com/news/health-and-beauty/cosmetics-and-fragrances/maison-darome-wants-india-to-say-oui-to-luxury-perfumes-without-the-heavy-price-tag/134962941",
+    "domain": "retail.economictimes.indiatimes.com",
+    "when": "Oct 15 · 14:30z"
    },
    {
-    "title": "It Time to Confront America Insurance Monopolies",
-    "url": "https://townhall.com/columnists/joelwhite/2026/10/10/its-time-to-confront-americas-insurance-monopolies-n2684235",
-    "domain": "townhall.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Here Is What You Need to Know About the Rise of Western Luxury Style",
+    "url": "https://www.aceshowbiz.com/news/view/00262626.html",
+    "domain": "aceshowbiz.com",
+    "when": "Oct 15 · 11:45z"
    },
    {
-    "title": "The Guide # 264 : Why is Hollywood obsessed with the tech - bro baddie ? ",
-    "url": "https://www.theguardian.com/culture/2026/oct/09/why-is-hollywood-obsessed-with-the-tech-bro-baddie",
-    "domain": "theguardian.com",
-    "when": "Oct 10 · 06:45z"
-   },
-   {
-    "title": "Next . js 16 . 4",
-    "url": "https://nextjs.org/blog/next-16-4",
-    "domain": "nextjs.org",
-    "when": "Oct 10 · 06:45z"
-   },
-   {
-    "title": "Donald Trump Makes BIG Announcement , Strikes Diesel Deal With Putin , Says  Prices Will Come Down Fast  ",
-    "url": "https://www.oneindia.com/international/donald-trump-makes-big-announcement-strikes-diesel-deal-with-putin-says-prices-will-come-down-fas-8230651.html",
-    "domain": "oneindia.com",
-    "when": "Oct 10 · 06:45z"
-   },
-   {
-    "title": "Auckland . Scoop » NZ Supermarket Challenger To Open 20+ Stores , Create Up To 1 , 000 Regional Jobs",
-    "url": "https://auckland.scoop.co.nz/2026/10/nz-supermarket-challenger-to-open-20-stores-create-up-to-1000-regional-jobs/",
-    "domain": "auckland.scoop.co.nz",
-    "when": "Oct 10 · 06:45z"
-   },
-   {
-    "title": "Sentencings from Clinton County",
-    "url": "https://www.lockhaven.com/news/police-court-and-fires/2026/10/sentencings-from-clinton-county-72/",
-    "domain": "lockhaven.com",
-    "when": "Oct 10 · 06:45z"
-   },
-   {
-    "title": "Counter - Terrorism : The Hamas Eternal War",
-    "url": "http://www.strategypage.com/%5Chtmw%5Chtterr%5Carticles%5C2026100993248.aspx",
-    "domain": "strategypage.com",
-    "when": "Oct 10 · 06:45z"
-   },
-   {
-    "title": "Proceedings from district judges",
-    "url": "https://www.lockhaven.com/news/police-court-and-fires/2026/10/proceedings-from-district-judges-365/",
-    "domain": "lockhaven.com",
-    "when": "Oct 10 · 06:45z"
-   },
-   {
-    "title": "Boys Town Nevada Celebrates 35 Years With  Impact Gala  Honoring Mark Davis",
-    "url": "https://nevadabusiness.com/2026/10/boys-town-nevada-celebrates-35-years-with-impact-gala-honoring-mark-davis/",
-    "domain": "nevadabusiness.com",
-    "when": "Oct 10 · 06:45z"
-   },
-   {
-    "title": "Lewisham named south - east London biggest eyesore",
-    "url": "https://www.london-now.co.uk/news/26591576.lewisham-named-south-east-londons-biggest-eyesore/",
-    "domain": "london-now.co.uk",
-    "when": "Oct 10 · 06:45z"
+    "title": "Retail sales up 0 . 8 % in September , but a big chunk of spending went to paying gasoline bills",
+    "url": "http://www.hngnews.com/nation_world/retail-sales-up-0-8-in-september-but-a-big-chunk-of-spending-went-to/article_258ef688-f08d-57e0-bc5e-e552ea5c9e58.html",
+    "domain": "hngnews.com",
+    "when": "Oct 15 · 14:30z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
@@ -623,28 +683,94 @@
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "Tata Motors raises Iveco takeover offer price to 14 . 40 euro per share",
-    "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-raises-iveco-takeover-offer-price-to-14-40-euro-per-share/articleshow/134848656.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Labcorp to buy assets of OPKO BioReference Health ( LH : NYSE ) ",
+    "url": "https://seekingalpha.com/news/4653328-labcorp-buy-assets-opkos-bioreference-health",
+    "domain": "seekingalpha.com",
+    "when": "Oct 15 · 13:15z"
    },
    {
-    "title": "Telegram Desktop : one - click account takeover via IPC injection",
-    "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-    "domain": "beaksec.github.io",
-    "when": "Oct 10 · 06:45z"
+    "title": "BlackRock , ADIA , Norges seek anchor slots in Jio $3 . 2 bn IPO",
+    "url": "https://www.livemint.com/market/ipo/blackrock-adia-norges-seek-anchor-slots-in-jio-s-3-2-bn-ipo-11792059501690.html",
+    "domain": "livemint.com",
+    "when": "Oct 15 · 11:45z"
    },
    {
-    "title": "Ten things you didnt know about Jaguar controversial new Type 01 EV",
-    "url": "https://www.dailymail.com/money/electriccars/article-16187257/Ten-things-electric-Jaguar-Type-01.html",
-    "domain": "dailymail.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "UAE Business : DP World names new head for Asia Pacific region",
+    "url": "https://www.gdnonline.com:443/Details/1409825/DP-World-names-new-head-for-Asia-Pacific-region",
+    "domain": "gdnonline.com",
+    "when": "Oct 15 · 13:15z"
    },
    {
-    "title": "the problem",
-    "url": "https://shrub.industries/words/problem.html",
-    "domain": "shrub.industries",
-    "when": "Oct 10 · 06:45z"
+    "title": "Winners Inc . Announces Letter of Intent to Acquire  VaulterX  in Cash and Stock Transaction",
+    "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/winners-inc-announces-letter-of-intent-to-acquire-vaulterx-in-cash-and-stock-transaction/2446621",
+    "domain": "manilatimes.net",
+    "when": "Oct 15 · 13:45z"
+   },
+   {
+    "title": "Tech M & A deals : Datacor , MySep , Agilent Technologies , Proscia , Payward , Saldo Bank , Neara , Zepben",
+    "url": "https://infotechlead.com/analytics/tech-ma-deals-datacor-mysep-agilent-technologies-proscia-payward-saldo-bank-neara-zepben-98880",
+    "domain": "infotechlead.com",
+    "when": "Oct 15 · 11:45z"
+   },
+   {
+    "title": "DP World Appoints Jason Varsamidis As Chief Executive Officer And Managing Director , Asia Pacific",
+    "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/media-outreach-newswire/dp-world-appoints-jason-varsamidis-as-chief-executive-officer-and-managing-director-asia-pacific/2446287",
+    "domain": "manilatimes.net",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "Bank of America shares flat after earnings - driven sell - off , slide over 20 % from recent peak",
+    "url": "https://www.livemint.com/market/stock-market-news/bank-of-america-shares-flat-after-earnings-driven-sell-off-slide-over-20-from-recent-peak-11792064609643.html",
+    "domain": "livemint.com",
+    "when": "Oct 15 · 13:30z"
+   },
+   {
+    "title": "Tale of two markets : Our 3 biggest winners and losers over the past five weeks",
+    "url": "https://www.cnbc.com/investingclub/2026/10/15/tale-of-two-markets-our-3-biggest-winners-and-losers-over-the-past-five-weeks.html",
+    "domain": "cnbc.com",
+    "when": "Oct 15 · 14:30z"
+   },
+   {
+    "title": "Xali Gold Appoints Susan Mitchell as Senior Financial Advisor",
+    "url": "https://www.simcoereformer.ca/press-releases/globe-newswire/xali-gold-appoints-susan-mitchell-as-senior-financial-advisor/",
+    "domain": "simcoereformer.ca",
+    "when": "Oct 15 · 11:45z"
+   },
+   {
+    "title": "Ecopetrol Continues Advancing Its Transformation Journey with the Appointment of Its New Corporate Compliance Officer",
+    "url": "http://www.prnewswire.com/news-releases/ecopetrol-continues-advancing-its-transformation-journey-with-the-appointment-of-its-new-corporate-compliance-officer-302910099.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 15 · 13:15z"
+   },
+   {
+    "title": "Groww building in - house AI stack amid rising compute costs",
+    "url": "https://www.medianama.com/2026/10/223-groww-ai-stack-compute-costs/",
+    "domain": "medianama.com",
+    "when": "Oct 15 · 14:45z"
+   },
+   {
+    "title": "Paul Weiss and Clifford Chance in line for nearly £60m in fees for Apollo - easyJet deal",
+    "url": "https://www.legalbusiness.co.uk/law-firms/paul-weiss-and-clifford-chance-in-line-for-nearly-60m-in-fees-for-apollo-easyjet-deal/",
+    "domain": "legalbusiness.co.uk",
+    "when": "Oct 15 · 13:15z"
+   },
+   {
+    "title": "Running Toward the Fire • The Austin Chronicle",
+    "url": "https://www.austinchronicle.com/news/running-toward-the-fire/",
+    "domain": "austinchronicle.com",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "Haoxin Holdings Limited : Haoxin Holdings Details 12 - Module AI Logistics Platform Under Strategic Evaluation",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69848429-haoxin-holdings-limited-haoxin-holdings-details-12-module-ai-logistics-platform-under-strategic-evaluation-296.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 15 · 13:45z"
+   },
+   {
+    "title": "Form 38 . 5A – Irish Residential Properties REIT PLC | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/irish-residential-properties-reit-p-irish-residential-properties-ord-shs--0qt8/form-38-5a-irish-residential-properties-reit-plc/9825211",
+    "domain": "investegate.co.uk",
+    "when": "Oct 15 · 13:00z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
@@ -841,16 +967,88 @@
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "It Time to Confront America Insurance Monopolies",
-    "url": "https://townhall.com/columnists/joelwhite/2026/10/10/its-time-to-confront-americas-insurance-monopolies-n2684235",
-    "domain": "townhall.com",
-    "when": "Oct 10 · 06:45z"
+    "title": "Are billion - dollar supplement deals becoming the new benchmark ? ",
+    "url": "https://www.nutraingredients.com/Article/2026/10/15/are-billion-dollar-supplement-deals-becoming-the-new-benchmark/",
+    "domain": "nutraingredients.com",
+    "when": "Oct 15 · 14:30z"
    },
    {
-    "title": "Cosatu warns Premier of dire action if fruit cannery closes",
-    "url": "https://www.timeslive.co.za/news/business/2026-10-10-cosatu-warns-premier-of-dire-action-if-fruit-cannery-closes/",
-    "domain": "timeslive.co.za",
-    "when": "Oct 10 · 06:45z"
+    "title": "Pyxis Tankers acquires 100 % of Ultramax bulk carrier Ormi",
+    "url": "https://www.inewsgr.com/3/Pyxis-Tankers-acquires-100-of-Ultramax-bulk-carrier-Ormi.htm",
+    "domain": "inewsgr.com",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "3 AI Infrastructure Stocks to Buy Right Now and Hold for 10 Years",
+    "url": "https://www.fool.com/investing/2026/10/15/ai-infrastructure-stocks-buy-now-hold-amd-tsmc/",
+    "domain": "fool.com",
+    "when": "Oct 15 · 13:15z"
+   },
+   {
+    "title": "AtlasClear To Acquire Ark Financial Services For Up To $24 . 5 Mln",
+    "url": "https://www.finanzen.ch/nachrichten/aktien/atlasclear-to-acquire-ark-financial-services-for-up-to-$24-5-mln-1036629818",
+    "domain": "finanzen.ch",
+    "when": "Oct 15 · 12:30z"
+   },
+   {
+    "title": "GTT Group Founder Michael Lubitz Joining Expert Panel at IAM Patent Transactions 2026 in San Diego",
+    "url": "http://www.prnewswire.com/news-releases/gtt-group-founder-michael-lubitz-joining-expert-panel-at-iam-patent-transactions-2026-in-san-diego-302909545.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 15 · 14:15z"
+   },
+   {
+    "title": "Liberty Mutual to acquire Brazilian surety business",
+    "url": "https://www.businessinsurance.com/liberty-mutual-to-acquire-brazilian-surety-business/",
+    "domain": "businessinsurance.com",
+    "when": "Oct 15 · 15:30z"
+   },
+   {
+    "title": "Retail News and Trends | Retail Dive",
+    "url": "https://www.retaildive.com/?page=2&_sp=38206f3b-190b-47ba-9f0d-accbfb9f88ac",
+    "domain": "retaildive.com",
+    "when": "Oct 15 · 15:30z"
+   },
+   {
+    "title": "Lyft eyes upscale corporate travel as next leg of growth",
+    "url": "https://www.hindustantimes.com/world-news/lyft-eyes-upscale-corporate-travel-as-next-leg-of-growth-101792066362137.html",
+    "domain": "hindustantimes.com",
+    "when": "Oct 15 · 14:00z"
+   },
+   {
+    "title": "Big Yellow keeping  all option under review amid activist investor pressure",
+    "url": "https://www.lancashiretelegraph.co.uk/news/national/26638447.big-yellow-keeping-all-options-review-amid-activist-investor-pressure/",
+    "domain": "lancashiretelegraph.co.uk",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "  American dream will continue to exist : Warren Buffett successor is betting big on U . S . housing",
+    "url": "https://fortune.com/2026/10/15/berkshire-hathaway-greg-abel-lennar-taylor-morrison-housing-american-dream/",
+    "domain": "fortune.com",
+    "when": "Oct 15 · 10:00z"
+   },
+   {
+    "title": "Labcorp To Acquire BioReference Health Assets ; OPKO Shares Rise 7 . 35 % ",
+    "url": "https://www.rttnews.com/3699346/labcorp-to-acquire-bioreference-health-assets-opko-shares-rise-7-35.aspx",
+    "domain": "rttnews.com",
+    "when": "Oct 15 · 13:15z"
+   },
+   {
+    "title": "Defence Ministry signs ₹4 , 106 cr deals for IAF satellite , Navy torpedoes",
+    "url": "https://www.business-standard.com/india-news/defence-ministry-signs-4-106-cr-deals-for-iaf-satellite-navy-torpedoes-126101500956_1.html",
+    "domain": "business-standard.com",
+    "when": "Oct 15 · 12:30z"
+   },
+   {
+    "title": "Completion of the acquisition of Tau - Cen | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/caspian-sunrise--casp/completion-of-the-acquisition-of-tau-cen-/9825708",
+    "domain": "investegate.co.uk",
+    "when": "Oct 15 · 15:30z"
+   },
+   {
+    "title": "Defence ministry inks Rs 4 , 106 crore contracts for IAF communication satellite , Navy torpedoes",
+    "url": "https://economictimes.indiatimes.com/news/defence/defence-ministry-inks-rs-4106-crore-contracts-for-iaf-communication-satellite-navy-torpedoes/articleshow/134968428.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 15 · 13:15z"
    }
   ]
  }
