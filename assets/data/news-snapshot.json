@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15 15:55z",
+ "generated": "2026-10-16 15:40z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -403,182 +403,200 @@
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "Alimentiv and International Bowel Ultrasound Group Expand Partnership to Include Ultrasound Training for Clinical Trials",
-    "url": "https://www.prnewswire.com:443/news-releases/alimentiv-and-international-bowel-ultrasound-group-expand-partnership-to-include-ultrasound-training-for-clinical-trials-302910171.html",
-    "domain": "prnewswire.com",
-    "when": "Oct 15 · 14:00z"
+    "title": "FDA  reset  continues with new plan for reviewing rare disease drugs",
+    "url": "https://www.healthcaredive.com/news/fda-rare-disease-framework-initiative-drug-development/833119/",
+    "domain": "healthcaredive.com",
+    "when": "Oct 15 · 19:00z"
    },
    {
-    "title": "Alimentiv Inc .: Alimentiv and International Bowel Ultrasound Group Expand Partnership to Include Ultrasound Training for Clinical Trials",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69848770-alimentiv-inc-alimentiv-and-international-bowel-ultrasound-group-expand-partnership-to-include-ultrasound-training-for-clinical-trials-008.htm",
+    "title": "Moleculin Announces Reverse Stock Split | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/10/16/tmt-newswire/globenewswire/moleculin-announces-reverse-stock-split/2447558",
+    "domain": "manilatimes.net",
+    "when": "Oct 16 · 14:00z"
+   },
+   {
+    "title": "The Race For Clinical Trials : Can The FDA New Pilot Program Stop The U . S . From Falling Behind ? - Healthcare",
+    "url": "https://www.mondaq.com:443/unitedstates/healthcare/1855922/the-race-for-clinical-trials-can-the-fdas-new-pilot-program-stop-the-us-from-falling-behind",
+    "domain": "mondaq.com",
+    "when": "Oct 16 · 09:00z"
+   },
+   {
+    "title": "The FDA Must End Unnecessary Drug Trials | Opinion",
+    "url": "https://www.newsweek.com/the-fda-must-end-unnecessary-drug-trials-opinion-12577778",
+    "domain": "newsweek.com",
+    "when": "Oct 16 · 14:30z"
+   },
+   {
+    "title": "Biotech and Pharma Industry News | BioPharma Dive",
+    "url": "https://www.biopharmadive.com/?page=2&_sp=56a2791d-a1db-49c6-911b-a653b147b0f1",
+    "domain": "biopharmadive.com",
+    "when": "Oct 16 · 06:30z"
+   },
+   {
+    "title": "SEC And FDA Formalize Information - Sharing Framework For Public Companies",
+    "url": "https://www.mondaq.com:443/unitedstates/securities/1855568/sec-and-fda-formalize-information-sharing-framework-for-public-companies",
+    "domain": "mondaq.com",
+    "when": "Oct 15 · 23:00z"
+   },
+   {
+    "title": "Mankind Pharma to buy Belgian biotech firm for cancer - care innovation",
+    "url": "https://www.vccircle.com/mankindpharma-to-buy-belgian-biotech-firm-for-cancer-care-innovation",
+    "domain": "vccircle.com",
+    "when": "Oct 16 · 09:45z"
+   },
+   {
+    "title": "PharmaEssentia Corporation : From Taiwan to the World : PharmaEssentia Builds a Scientist - Led , Fully Integrated Global Biopharmaceutical Company with Patients at Its Core",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69858295-pharmaessentia-corporation-from-taiwan-to-the-world-pharmaessentia-builds-a-scientist-led-fully-integrated-global-biopharmaceutical-company-with-pa-004.htm",
     "domain": "finanznachrichten.de",
-    "when": "Oct 15 · 14:15z"
+    "when": "Oct 16 · 12:30z"
    },
    {
-    "title": "Pope Brother Also Battling Cancer | Talk Radio 105 . 9",
-    "url": "https://talkradio1059.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
-    "domain": "talkradio1059.iheart.com",
-    "when": "Oct 15 · 12:30z"
+    "title": "These 2 Stocks Have Run Circles Around the Magnificent Seven This Year , and Wall Street Says There Is More Upside Ahead",
+    "url": "https://www.fool.com/investing/2026/10/15/these-2-stocks-have-run-circles-around-the-magnificent-seven-this-year-and-wall-street-says-there-is-more-upside-ahead/",
+    "domain": "fool.com",
+    "when": "Oct 15 · 21:30z"
    },
    {
-    "title": "Pope Brother Also Battling Cancer",
-    "url": "https://wjno.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
-    "domain": "wjno.iheart.com",
-    "when": "Oct 15 · 12:30z"
+    "title": "Editorial : The innovative molecules emerging from Asia",
+    "url": "https://cen.acs.org/business/investment/editorial-innovative-molecules-emerging-asia/104/web/2026/10",
+    "domain": "cen.acs.org",
+    "when": "Oct 16 · 11:30z"
    },
    {
-    "title": "Pope Brother Also Battling Cancer | NewsTalk WMEQ",
-    "url": "https://wmeq.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
-    "domain": "wmeq.iheart.com",
-    "when": "Oct 15 · 12:30z"
-   },
-   {
-    "title": "Pope Brother Also Battling Cancer | News Radio 105 . 5 WERC",
-    "url": "https://wercfm.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
-    "domain": "wercfm.iheart.com",
-    "when": "Oct 15 · 13:15z"
-   },
-   {
-    "title": "Pope Brother Also Battling Cancer | KFYR 550 AM / 99 . 7 FM",
-    "url": "https://kfyr.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
-    "domain": "kfyr.iheart.com",
-    "when": "Oct 15 · 13:00z"
-   },
-   {
-    "title": "Pope Brother Also Battling Cancer | NewsTalk 1320 KWHN",
-    "url": "https://kwhn.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
-    "domain": "kwhn.iheart.com",
-    "when": "Oct 15 · 13:30z"
-   },
-   {
-    "title": "Pope Brother Also Battling Cancer | NewsRadio WHAM 1180",
-    "url": "https://wham1180.iheart.com/content/2026-10-15-popes-brother-also-battling-cancer/",
-    "domain": "wham1180.iheart.com",
-    "when": "Oct 15 · 12:30z"
+    "title": "F . Hoffmann - La Roche Ltd : FDA approves Roche Enspryng , a first - in - class IL - 6R inhibitor , as the first and only at - home subcutaneous treatment option for thyroid eye disease ( TED ) ",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69853420-f-hoffmann-la-roche-ltd-fda-approves-roche-s-enspryng-a-first-in-class-il-6r-inhibitor-as-the-first-and-only-at-home-subcutaneous-treatment-option-399.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 16 · 06:00z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "Russia burning as Ukraine launches massive drone attack on Moscow",
-    "url": "https://www.express.co.uk/news/world/2254731/russia-burning-ukraine-massive-drone-attack-moscow",
-    "domain": "express.co.uk",
-    "when": "Oct 6 · 08:30z"
+    "title": "Yemen Houthis Seek to Build Advanced Ballistic Missiles With China - Linked Parts : Research Group",
+    "url": "https://www.theepochtimes.com/world/yemens-houthis-seek-to-build-advanced-ballistic-missiles-with-china-linked-parts-report-6104285",
+    "domain": "theepochtimes.com",
+    "when": "Oct 15 · 18:30z"
    },
    {
-    "title": "Nigeria : Military Aircraft Crash - Ondo Governor Orders Emergency , Logistics Support",
-    "url": "https://allafrica.com/stories/202610060110.html",
-    "domain": "allafrica.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "Michigan Space Innovation Hub to launch with nearly $1 . 2 million grant",
+    "url": "https://www.wilx.com/2026/10/15/michigan-space-innovation-hub-launch-with-nearly-12-million-grant/",
+    "domain": "wilx.com",
+    "when": "Oct 15 · 23:45z"
    },
    {
-    "title": "Young Kazakhstani witnesses collaboration on new Silk Road",
-    "url": "http://global.chinadaily.com.cn/a/202610/06/WS6ac42ed5e4b06d4aa05616bc.html",
-    "domain": "global.chinadaily.com.cn",
-    "when": "Oct 6 · 08:30z"
+    "title": "Intelligent Aerospace Manufacturing Starts 1 Billion Yuan Beijing Base for NEVs , Aerospace",
+    "url": "https://autonews.gasgoo.com/articles/ev/intelligent-aerospace-manufacturing-starts-1-billion-yuan-beijing-base-for-nevs-aerospace-2110982034628771841",
+    "domain": "autonews.gasgoo.com",
+    "when": "Oct 16 · 07:45z"
    },
    {
-    "title": "Arab News | Oil gains as traders weigh Gulf tensions against strong Mideast exports",
-    "url": "https://www.arabnews.com/energy/oil-gains-as-traders-weigh-gulf-tensions-against-strong-mideast-exports-3004831",
-    "domain": "arabnews.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "Cato Adds 500 - Ton Stamp Forming Press for Thermoplastic Composites",
+    "url": "https://www.compositesworld.com:443/news/cato-adds-500-ton-stamp-forming-press-for-thermoplastic-composites",
+    "domain": "compositesworld.com",
+    "when": "Oct 15 · 20:30z"
    },
    {
-    "title": "Piramal Pharma Solutions Launches New Microbiology Laboratory at Its Lexington , KY Sterile Injectable Facility",
-    "url": "https://aninews.in/news/business/piramal-pharma-solutions-launches-new-microbiology-laboratory-at-its-lexington-ky-sterile-injectable-facility20261006124426/",
-    "domain": "aninews.in",
-    "when": "Oct 6 · 08:30z"
+    "title": "FinancialContent - Why Rocket Lab ( RKLB ) Shares Are Sliding Today",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-15-why-rocket-lab-rklb-shares-are-sliding-today",
+    "domain": "markets.financialcontent.com",
+    "when": "Oct 15 · 16:45z"
    },
    {
-    "title": "Buying the iPhone Duo ? Here how to get one on launch day",
-    "url": "https://www.tomsguide.com/phones/iphones/planning-to-buy-apples-foldable-iphone-duo-heres-how-to-get-one-on-launch-day",
-    "domain": "tomsguide.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "North Texas Aerospace Industry Needs Workers . GE Is Putting $1 Million Toward The Problem . ",
+    "url": "https://www.klif.com/2026/10/15/north-texas-aerospace-industry-needs-workers-ge-is-putting-1-million-toward-the-problem/",
+    "domain": "klif.com",
+    "when": "Oct 15 · 20:45z"
    },
    {
-    "title": "HIP crosses 1mn TEU milestone - Business News",
-    "url": "https://www.dailymirror.lk/business-news/HIP-crosses-1mn-TEU-milestone/273-351866",
-    "domain": "dailymirror.lk",
-    "when": "Oct 6 · 08:30z"
+    "title": "$23 Million for Michigan projects including two in U . P . ",
+    "url": "https://www.miningjournal.net/news/front-page-news/2026/10/23-million-for-michigan-projects-including-two-in-u-p/",
+    "domain": "miningjournal.net",
+    "when": "Oct 16 · 10:45z"
    },
    {
-    "title": "Swindon Council explores partnership with BMW MINI plant",
-    "url": "https://www.swindonadvertiser.co.uk/news/26609310.swindon-council-explores-partnership-bmws-mini-plant/",
-    "domain": "swindonadvertiser.co.uk",
-    "when": "Oct 6 · 08:30z"
+    "title": "Speaker Wetangula eyes China Tianjin model for Lamu port",
+    "url": "https://www.standardmedia.co.ke/africa/article/2001560221/speaker-wetangula-eyes-chinas-tianjin-model-for-lamu-port",
+    "domain": "standardmedia.co.ke",
+    "when": "Oct 15 · 15:45z"
    },
    {
-    "title": "Saudi - Backed Forces Strike Back After Iran Proxy Seizes Control of Bab el - Mandeb – PJ Media",
-    "url": "https://pjmedia.com/david-manney/2026/10/05/irans-proxy-grabbed-bab-el-mandeb-saudi-backed-forces-just-hit-back-hard-n4958009",
-    "domain": "pjmedia.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "A & D Due Diligence : What Buyers Ask , How Sellers Should Prepare",
+    "url": "https://aviationweek.com/aerospace/ad-due-diligence-what-buyers-ask-how-sellers-should-prepare",
+    "domain": "aviationweek.com",
+    "when": "Oct 16 · 10:00z"
    },
    {
-    "title": "China deflation crisis deepens as economic growth model stalls - International",
-    "url": "https://www.dailymirror.lk/international/Chinas-deflation-crisis-deepens-as-economic-growth-model-stalls/107-351882",
-    "domain": "dailymirror.lk",
-    "when": "Oct 6 · 08:30z"
+    "title": "NIPPON EXPRESS HOLDINGS Acquires All Shares of Metro Supply Chain Group",
+    "url": "https://www.thewhig.com/news/nippon-express-holdings-acquires-all-shares-of-metro-supply-chain-group/",
+    "domain": "thewhig.com",
+    "when": "Oct 16 · 07:00z"
    },
    {
-    "title": "Oil Industry Braces For Years Of Market Disruption",
-    "url": "https://www.marinelink.com/news/oil-industry-braces-years-market-543478",
-    "domain": "marinelink.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "Taobao Upgrades 6 Refreshed Experiences for Cross - Border Users",
+    "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/pr-newswire/taobao-upgrades-6-refreshed-experiences-for-cross-border-users/2446898",
+    "domain": "manilatimes.net",
+    "when": "Oct 15 · 16:15z"
    },
    {
-    "title": "Elon Musk Recaptures Trillionaire Status | NewsTalk 1240 WSFC",
-    "url": "https://wsfcam.iheart.com/content/2026-10-06-elon-musk-recaptures-trillionaire-status/",
-    "domain": "wsfcam.iheart.com",
-    "when": "Oct 6 · 08:30z"
-   },
-   {
-    "title": "Elon Musk Recaptures Trillionaire Status",
-    "url": "https://710wor.iheart.com/content/2026-10-06-elon-musk-recaptures-trillionaire-status/",
-    "domain": "710wor.iheart.com",
-    "when": "Oct 6 · 08:30z"
+    "title": "Crane Market Size to Reach USD 43 . 78 Billion by 2031 , Driven by Rising Construction and Infrastructure Development , Says Mordor Intelligence",
+    "url": "http://www.prnewswire.com/news-releases/crane-market-size-to-reach-usd-43-78-billion-by-2031--driven-by-rising-construction-and-infrastructure-development-says-mordor-intelligence-302910188.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 15 · 15:45z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "U . S . retail sales beat expectations on higher gasoline prices",
-    "url": "https://www.theglobeandmail.com/business/economy/article-us-retail-sales-september-2026-gasoline-prices/",
-    "domain": "theglobeandmail.com",
-    "when": "Oct 15 · 13:30z"
+    "title": "Americans Keep Shopping as They Shrug Off Higher Prices",
+    "url": "https://www.aol.com/articles/americans-keep-shopping-shrug-off-221753000.html",
+    "domain": "aol.com",
+    "when": "Oct 16 · 00:15z"
    },
    {
-    "title": "Top ecommerce accolade for Powys - based retailer Charlies",
-    "url": "https://www.countytimes.co.uk/news/26639661.top-ecommerce-accolade-powys-based-retailer-charlies/",
-    "domain": "countytimes.co.uk",
-    "when": "Oct 15 · 14:15z"
+    "title": "Would You Have Held Shopify Through an 86 . 6 % Crash ? Here What Happened Next",
+    "url": "https://247wallst.com/investing/2026/10/15/would-you-have-held-shopify-through-an-86-6-crash-heres-what-happened-next/",
+    "domain": "247wallst.com",
+    "when": "Oct 15 · 19:00z"
    },
    {
-    "title": "Retail sales up 0 . 8 % in September as shoppers remain resilient",
-    "url": "https://www.dailycamera.com/2026/10/15/retail-sales-september/",
-    "domain": "dailycamera.com",
-    "when": "Oct 15 · 14:15z"
-   },
-   {
-    "title": "Opinion : The economy is both good and bad for Chicagoans",
-    "url": "https://www.chicagotribune.com/2026/10/15/opinion-chicago-economy-consumer-spending/",
-    "domain": "chicagotribune.com",
-    "when": "Oct 15 · 13:00z"
-   },
-   {
-    "title": "Maison DArome Introduces Affordable Luxury Perfumes in India , ETRetail",
-    "url": "https://retail.economictimes.indiatimes.com/news/health-and-beauty/cosmetics-and-fragrances/maison-darome-wants-india-to-say-oui-to-luxury-perfumes-without-the-heavy-price-tag/134962941",
-    "domain": "retail.economictimes.indiatimes.com",
-    "when": "Oct 15 · 14:30z"
-   },
-   {
-    "title": "Here Is What You Need to Know About the Rise of Western Luxury Style",
-    "url": "https://www.aceshowbiz.com/news/view/00262626.html",
-    "domain": "aceshowbiz.com",
-    "when": "Oct 15 · 11:45z"
+    "title": "Gold price hits $4 , 154 / oz after retail sales rise 0 . 8 % in September",
+    "url": "http://www.kitco.com/news/article/2026-10-15/gold-price-hits-4154oz-after-retail-sales-rise-08-september",
+    "domain": "kitco.com",
+    "when": "Oct 15 · 17:30z"
    },
    {
     "title": "Retail sales up 0 . 8 % in September , but a big chunk of spending went to paying gasoline bills",
-    "url": "http://www.hngnews.com/nation_world/retail-sales-up-0-8-in-september-but-a-big-chunk-of-spending-went-to/article_258ef688-f08d-57e0-bc5e-e552ea5c9e58.html",
-    "domain": "hngnews.com",
-    "when": "Oct 15 · 14:30z"
+    "url": "https://www.wbrz.com/news/retail-sales-up-0-8-in-september-but-a-big-chunk-of-spending-went-to-paying-gasoline-bills",
+    "domain": "wbrz.com",
+    "when": "Oct 15 · 21:45z"
+   },
+   {
+    "title": "NRF Forecasts 2026 Holiday Sales Growth as Consumers Remain Resilient",
+    "url": "https://www.bicycleretailer.com/announcements/2026/10/15/nrf-forecasts-2026-holiday-sales-growth-consumers-remain-resilient",
+    "domain": "bicycleretailer.com",
+    "when": "Oct 15 · 19:00z"
+   },
+   {
+    "title": "Hemp Hop Launches Mini Pre Rolls Collection as Cannabis Multipacks Gain Momentum",
+    "url": "https://www.manilatimes.net/2026/10/16/tmt-newswire/globenewswire/hemp-hop-launches-mini-pre-rolls-collection-as-cannabis-multipacks-gain-momentum/2447515",
+    "domain": "manilatimes.net",
+    "when": "Oct 16 · 13:45z"
+   },
+   {
+    "title": "NRF Forecasts 4 . 2 Percent U . S . Holiday Sales Gains",
+    "url": "https://wwd.com/business-news/retail/nrf-forecasts-4-2-percent-u-s-holiday-sales-gains-1239350675/",
+    "domain": "wwd.com",
+    "when": "Oct 15 · 21:30z"
+   },
+   {
+    "title": "US retail trade group forecasts healthy holiday sales , in part due to inflation",
+    "url": "https://www.clickondetroit.com/business/2026/10/15/us-retail-trade-group-forecasts-healthy-holiday-sales-in-part-due-to-inflation/",
+    "domain": "clickondetroit.com",
+    "when": "Oct 15 · 19:45z"
+   },
+   {
+    "title": "Retail trade group forecasts healthy holiday sales , some from inflation",
+    "url": "https://www.baltimoresun.com/2026/10/15/retail-holiday-forecasts/",
+    "domain": "baltimoresun.com",
+    "when": "Oct 15 · 19:00z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
@@ -783,186 +801,180 @@
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
    {
-    "title": "Apollo private credit fund redemption requests ease in third quarter",
-    "url": "https://www.aol.com/articles/apollo-private-credit-fund-redemption-204438000.html",
-    "domain": "aol.com",
-    "when": "Sep 22 · 22:15z"
+    "title": "China plan to make yuan a global currency enters faster phase",
+    "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/chinas-plan-make-yuan-global-currency-enters-faster-phase",
+    "domain": "businesstimes.com.sg",
+    "when": "Oct 16 · 00:30z"
    },
    {
-    "title": "SB Energy Delays IPO Funding World Largest Data Center Amid Investor Revolt , Public Outcry",
-    "url": "https://www.zerohedge.com/technology/sb-energy-delays-ipo-funding-worlds-largest-data-center-amid-investor-revolt-public",
+    "title": "Market selloff , rising rates test AI data centre deal boom",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/market-selloff-rising-rates-test-ai-data-centre-deal-boom/articleshow/134971509.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 15 · 16:45z"
+   },
+   {
+    "title": "Equitable Bank completes successful issuance of €500 million of covered bonds , furthering diversification of the bank funding",
+    "url": "https://www.prnewswire.com/news-releases/equitable-bank-completes-successful-issuance-of-500-million-of-covered-bonds-furthering-diversification-of-the-banks-funding-302910301.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 15 · 16:00z"
+   },
+   {
+    "title": "Chinese Finance Minister welcomes Pakistan economic progress",
+    "url": "https://arynews.tv/chinese-finance-minister-welcomes-pakistans-economic-progress",
+    "domain": "arynews.tv",
+    "when": "Oct 15 · 17:00z"
+   },
+   {
+    "title": "African Startups Raise $2 . 49B in 9 Months as Q3 Rebounds",
+    "url": "https://techcabal.com/2026/10/15/african-startups-raise-2-49b-in-9-months/",
+    "domain": "techcabal.com",
+    "when": "Oct 15 · 15:45z"
+   },
+   {
+    "title": "BlackRock Record Asset Holdings Are Half The Size Of US Economy",
+    "url": "https://www.zerohedge.com/markets/blackrocks-record-asset-holdings-are-half-size-us-economy",
     "domain": "zerohedge.com",
-    "when": "Sep 23 · 05:45z"
+    "when": "Oct 16 · 01:15z"
    },
    {
-    "title": "ADB : Philippines bond market grows at faster pace in Q2",
-    "url": "https://www.philstar.com/business/2026/09/23/2558145/adb-philippines-bond-market-grows-faster-pace-q2",
-    "domain": "philstar.com",
-    "when": "Sep 22 · 16:30z"
+    "title": "Abu Dhabi may opt for debt financing over asset drawdowns : Fitch",
+    "url": "https://www.zawya.com/en/economy/abu-dhabi-may-opt-for-debt-financing-over-asset-drawdowns-fitch-1705204",
+    "domain": "zawya.com",
+    "when": "Oct 16 · 09:00z"
    },
    {
-    "title": "Economic Watch : Panda bond surge signals China onshore market appeal",
-    "url": "http://www.brazilsun.com/news/279325755/economic-watch-panda-bond-surge-signals-china-onshore-market-appeal",
-    "domain": "brazilsun.com",
-    "when": "Sep 23 · 15:15z"
+    "title": "AI boom could trigger sharp equity market correction , losses may  spread around the world : IMF",
+    "url": "https://aninews.in/news/business/ai-boom-could-trigger-sharp-equity-market-correction-losses-may-8220spread-around-the-world8221-imf20261016121027/",
+    "domain": "aninews.in",
+    "when": "Oct 16 · 07:45z"
    },
    {
-    "title": "Panda bond surge signals China onshore market appeal",
-    "url": "http://www.brazilsun.com/news/279325851/panda-bond-surge-signals-china-onshore-market-appeal",
-    "domain": "brazilsun.com",
-    "when": "Sep 23 · 15:15z"
+    "title": "JPMorgan , Goldman boost yield on Volta AI loan to lure investors",
+    "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/jpmorgan-goldman-boost-yield-volta-ai-loan-lure-investors",
+    "domain": "businesstimes.com.sg",
+    "when": "Oct 16 · 00:30z"
    },
    {
-    "title": "Private - credit firms are buzzing about getting in on JPMorgan card empire",
-    "url": "https://www.livemint.com/global/privatecredit-firms-are-buzzing-about-getting-in-on-jpmorgan-s-card-empire-11790130541266.html",
-    "domain": "livemint.com",
-    "when": "Sep 23 · 04:30z"
-   },
-   {
-    "title": "Vaulted Deep gets $35M debt deal to expand bio - waste CDR",
-    "url": "https://finance.yahoo.com/healthcare/articles/vaulted-deep-gets-35m-debt-123000480.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 23 · 04:30z"
-   },
-   {
-    "title": "The dominance of credit megafunds has only grown in 2026",
-    "url": "https://finance.yahoo.com/markets/options/articles/dominance-credit-megafunds-only-grew-182215507.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 23 · 05:30z"
-   },
-   {
-    "title": "India : Kotak Alt Yield & Growth Fund hits final close at $522m",
-    "url": "https://www.dealstreetasia.com/stories/kotak-alts-yield-growth-495960",
-    "domain": "dealstreetasia.com",
-    "when": "Sep 23 · 15:15z"
-   },
-   {
-    "title": "3 Dividend Stocks Trading Cheap Enough to Buy Meaningful Stakes for Under $1 , 000",
-    "url": "https://www.aol.com/articles/3-dividend-stocks-trading-cheap-120049000.html",
+    "title": "Emergency Funds Over $25 , 000 Could Be Giving Up $1 , 000 a Year",
+    "url": "https://www.aol.com/articles/emergency-funds-over-25-000-191500000.html",
     "domain": "aol.com",
-    "when": "Sep 23 · 12:30z"
+    "when": "Oct 15 · 20:45z"
    },
    {
-    "title": "Spend Smarter , Save More , and Stay on Track With Spruce : What It Is and How It Differs From Other Banking Apps",
-    "url": "https://www.ign.com/articles/spruce-banking-app-explained",
-    "domain": "ign.com",
-    "when": "Sep 22 · 23:30z"
+    "title": "Private credit faces deployment squeeze as fundraising hits record",
+    "url": "https://www.aol.com/articles/private-credit-faces-deployment-squeeze-182639000.html",
+    "domain": "aol.com",
+    "when": "Oct 15 · 19:00z"
    },
    {
-    "title": "Australian housing construction faces a major supply slump in the coming year , develops say , even as the HIA Housing 100 report shows major pick - up",
-    "url": "https://www.afr.com/property/residential/home-building-about-to-fall-off-a-cliff-mirvac-warns-20260923-p60z86",
-    "domain": "afr.com",
-    "when": "Sep 23 · 01:45z"
+    "title": "IMF warns AI boom could spark market turmoil",
+    "url": "https://www.prokerala.com/news/articles/a1825061.html",
+    "domain": "prokerala.com",
+    "when": "Oct 16 · 04:00z"
    },
    {
-    "title": "Butterfield shareholders greenlight CIBC Caribbean deal",
-    "url": "https://www.jamaicaobserver.com/2026/09/23/butterfield-shareholders-greenlight-cibc-caribbean-deal/",
-    "domain": "jamaicaobserver.com",
-    "when": "Sep 23 · 08:15z"
+    "title": "Mexican peso drops while Aussie dollar resilient in flight to quality",
+    "url": "https://asia.nikkei.com/business/markets/currencies/mexican-peso-drops-while-aussie-dollar-resilient-in-flight-to-quality",
+    "domain": "asia.nikkei.com",
+    "when": "Oct 15 · 17:00z"
    },
    {
-    "title": "Bird . com secures $450m financing as it launches communications infrastructure for AI agents",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69657888-bird-com-secures-dollar-450m-financing-as-it-launches-communications-infrastructure-for-ai-agents-008.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Sep 23 · 15:15z"
-   },
-   {
-    "title": "A 40 - Year - Old Has $2 . 4M , No Mortgage And Spends About $45K A Year  It Seems Like I Can Just Quit My Job  ",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/40-old-2-4m-no-131510562.html",
-    "domain": "finance.yahoo.com",
-    "when": "Sep 22 · 22:00z"
+    "title": "2 High - Yield Dividend Stocks Worth Buying Before 2026 Ends",
+    "url": "https://www.aol.com/articles/2-high-yield-dividend-stocks-204300000.html",
+    "domain": "aol.com",
+    "when": "Oct 15 · 21:15z"
    }
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
-    "title": "Let take stock of India Insolvency and Bankruptcy Code : is it aligned with the economy interests ? ",
-    "url": "https://www.livemint.com/opinion/online-views/how-india-should-revise-the-insolvency-and-bankruptcy-code-spur-private-cape-aligned-with-the-economy-s-interests-11790487173537.html",
-    "domain": "livemint.com",
-    "when": "Sep 27 · 08:15z"
+    "title": "Breaking Bad actor barbecue restaurant files for bankruptcy",
+    "url": "https://www.independent.co.uk/news/world/americas/breaking-bad-dean-norris-restaurant-bankruptcy-b3067439.html",
+    "domain": "independent.co.uk",
+    "when": "Oct 15 · 18:30z"
    },
    {
-    "title": "Corporate purchase of bankrupted apple company Gebbers Farms nearly complete",
-    "url": "https://www.spokesman.com/stories/2026/sep/27/corporate-purchase-of-bankrupted-apple-company-geb/",
-    "domain": "spokesman.com",
-    "when": "Sep 27 · 15:00z"
+    "title": "Hain Celestial plunges on concern sale of international nusiness will be derailed",
+    "url": "https://seekingalpha.com/news/4653584-hain-celestial-plunges-on-concern-sale-of-international-nusiness-will-be-derailed",
+    "domain": "seekingalpha.com",
+    "when": "Oct 15 · 20:45z"
    },
    {
-    "title": "Alvarez & Marsal eyes 10X India growth in six years : MD Luis de Lucio",
-    "url": "https://www.livemint.com/companies/news/alvarez-marsal-india-business-growth-private-equity-consulting-luis-de-lucio-11790488552550.html",
-    "domain": "livemint.com",
-    "when": "Sep 27 · 11:00z"
+    "title": "Three partners have joined forces to revive Salad and Go",
+    "url": "https://www.nrn.com/fast-casual/thought-salad-and-go-was-dead-think-again",
+    "domain": "nrn.com",
+    "when": "Oct 15 · 18:30z"
    },
    {
-    "title": "California oldest family - owned winery declares bankruptcy as wine industry struggles",
-    "url": "https://www.newstribune.com/news/2026/sep/27/californias-oldest-family-owned-winery-declares/",
-    "domain": "newstribune.com",
-    "when": "Sep 27 · 09:30z"
-   },
-   {
-    "title": "Today in History , 1979 : Federal bankruptcy judge in Fargo ousted from post",
-    "url": "https://www.inforum.com/community/today-in-history-1979-federal-bankruptcy-judge-in-fargo-ousted-from-post",
-    "domain": "inforum.com",
-    "when": "Sep 27 · 06:30z"
-   },
-   {
-    "title": "NCLAT dismisses Affle 3i plea against insolvency of Talent Unlimited Online Services",
-    "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/nclat-dismisses-affle-3is-plea-against-insolvency-of-talent-unlimited-online-services/articleshow/134515994.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 27 · 07:45z"
-   },
-   {
-    "title": "Mayawati announces restructuring of BSP",
-    "url": "https://economictimes.indiatimes.com/news/elections/assembly-elections/uttar-pradesh/mayawati-announces-restructuring-of-bsp/articleshow/134518150.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Sep 27 · 10:30z"
-   },
-   {
-    "title": "Starbucks Confirms 250 Closures After Gaining  Deeper Visibility Into Some Underperforming  Stores",
-    "url": "https://www.ibtimes.co.uk/starbucks-confirms-250-closures-after-gaining-deeper-visibility-some-underperforming-stores-1822111",
-    "domain": "ibtimes.co.uk",
-    "when": "Sep 27 · 14:30z"
-   },
-   {
-    "title": "Why Starbucks Is Shutting Hundreds of Cafes in the Middle of a Comeback",
-    "url": "https://www.aol.com/articles/why-starbucks-shutting-hundreds-cafes-132524000.html",
+    "title": "Jon Rahm will be free to leave LIV and pursue other opportunities under separation agreement",
+    "url": "https://www.aol.com/articles/jon-rahm-free-leave-liv-163415000.html",
     "domain": "aol.com",
-    "when": "Sep 27 · 14:45z"
+    "when": "Oct 15 · 17:30z"
    },
    {
-    "title": "After 39 Years Working for the Same Company , He Had Accumulated 10 . 8 Million Shares of Stock . On September 15 , 2008 , Those Shares Were Worth Nothing . The Story of How Dick Fuld Lost Up to 80 % of His Net Worth Holds an Important Lesson for Eve...",
-    "url": "https://www.aol.com/articles/39-years-working-same-company-133335000.html",
-    "domain": "aol.com",
-    "when": "Sep 27 · 14:45z"
-   },
-   {
-    "title": "New Mexico Congressional District 2 candidate questionnaires",
-    "url": "https://www.santafenewmexican.com/news/local_news/new-mexico-congressional-district-2-candidate-questionnaires/article_556f26df-5f59-481b-9827-072c92414222.html",
+    "title": "Judge finalizes bankruptcy for major New Mexico nursing home operator",
+    "url": "https://www.santafenewmexican.com/news/local_news/judge-finalizes-bankruptcy-for-major-new-mexico-nursing-home-operator/article_5b152084-2f5c-4172-bee1-13a222972e83.html",
     "domain": "santafenewmexican.com",
-    "when": "Sep 27 · 07:30z"
+    "when": "Oct 16 · 07:15z"
    },
    {
-    "title": "Swindon council tax hike fear as finance chief reveals budget crisis",
-    "url": "https://www.swindonadvertiser.co.uk/news/26582287.swindon-council-tax-hike-fear-finance-chief-reveals-budget-crisis/",
-    "domain": "swindonadvertiser.co.uk",
-    "when": "Sep 27 · 05:00z"
+    "title": "Salad and Go , inflation , and Gen Korean",
+    "url": "https://www.nrn.com/quick-service/salad-and-go-inflation-and-gen-korean",
+    "domain": "nrn.com",
+    "when": "Oct 15 · 18:30z"
    },
    {
-    "title": "Vanderbilt University puts Divinity School into receivership | Chattanooga Times Free Press",
-    "url": "https://www.timesfreepress.com/news/2026/sep/26/vanderbilt-university-puts-divinity-school-into/",
-    "domain": "timesfreepress.com",
-    "when": "Sep 27 · 05:15z"
+    "title": "UK - styled insolvency law to dismantle exit barrier holding back private equity : StanChart CEO - Business",
+    "url": "https://www.dailymirror.lk/business-news/UK-styled-insolvency-law-to-dismantle-exit-barrier-holding-back-private-equity-StanChart-CEO/273-352665",
+    "domain": "dailymirror.lk",
+    "when": "Oct 16 · 07:45z"
    },
    {
-    "title": "Google turns 28 : How a search engine started by two Stanford students grew into Gmail , YouTube , Android and Gemini AI",
-    "url": "https://timesofindia.indiatimes.com/education/news/google-turns-28-how-a-search-engine-started-by-two-stanford-students-grew-into-gmail-youtube-android-and-gemini-ai/articleshow/134514639.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Sep 27 · 05:15z"
+    "title": "Japanese investors extend foreign bond selling to fourth week , pace slows",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/10/16/japanese-investors-extend-foreign-bond-selling-to-fourth-week-pace-slows",
+    "domain": "freemalaysiatoday.com",
+    "when": "Oct 16 · 08:45z"
    },
    {
-    "title": "NCLT Approves ₹17 . 75 - Crore Resolution Plan For Zicom , Ending Insolvency Proceedings",
-    "url": "https://www.freepressjournal.in/mumbai/nclt-approves-1775-crore-resolution-plan-for-zicom-ending-insolvency-proceedings",
-    "domain": "freepressjournal.in",
-    "when": "Sep 27 · 02:30z"
+    "title": "Crescent Dunes solar plant in Nevada sells for $7 million after two bankruptcies",
+    "url": "https://pvtimes.com/news/nevada-solar-plant-sells-for-cents-on-the-dollar-193695/",
+    "domain": "pvtimes.com",
+    "when": "Oct 16 · 14:00z"
+   },
+   {
+    "title": "Morning Bid : Calm after CoreWeave shock , but for how long ? ",
+    "url": "https://www.aol.com/articles/morning-bid-calm-coreweave-shock-043107000.html",
+    "domain": "aol.com",
+    "when": "Oct 16 · 06:30z"
+   },
+   {
+    "title": "Cyber Incident at BAE Systems Disrupts US Federal Bankruptcy Noticing",
+    "url": "https://www.infosecurity-magazine.com/news/cyber-incident-bae-us-bankruptcy/",
+    "domain": "infosecurity-magazine.com",
+    "when": "Oct 16 · 11:30z"
+   },
+   {
+    "title": "AI Economic Fallout : Getty Bankruptcy , Character . AI Collapse , and Wipro Workforce Shift",
+    "url": "https://openthemagazine.com/technology/the-ai-casualty-ledger-gettys-bankruptcy-plan-characterais-collapse-wipros-shrinking-workforce",
+    "domain": "openthemagazine.com",
+    "when": "Oct 15 · 17:15z"
+   },
+   {
+    "title": "Massachusetts AG Joins Effort to Protect AI Chatbot Data",
+    "url": "https://www.govtech.com/artificial-intelligence/massachusetts-ag-joins-effort-to-protect-ai-chatbot-data",
+    "domain": "govtech.com",
+    "when": "Oct 16 · 02:00z"
+   },
+   {
+    "title": "Global Market : Japanese investors extend foreign bond selling streak to four weeks",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japanese-investors-extend-foreign-bond-selling-streak-to-four-weeks/articleshow/134985765.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 16 · 08:00z"
+   },
+   {
+    "title": "CoreWeave debt scare rattles markets as Asian stocks bounce",
+    "url": "https://www.irishtimes.com/business/2026/10/16/coreweave-debt-scare-rattles-markets-as-asian-stocks-bounce/",
+    "domain": "irishtimes.com",
+    "when": "Oct 16 · 07:00z"
    }
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
