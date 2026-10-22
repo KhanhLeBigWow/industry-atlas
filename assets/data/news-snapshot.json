@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21 16:16z",
+ "generated": "2026-10-22 16:09z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -89,168 +89,162 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Bonds have taken control of the market narrative – analyst ( SP500 :) ",
-    "url": "https://seekingalpha.com/news/4654432-bonds-have-taken-control-of-the-markets-narrative-analyst",
-    "domain": "seekingalpha.com",
-    "when": "Oct 19 · 22:45z"
+    "title": "BusinessDay Reports Nigeria Tech Assessment Will Cover Five Sectors",
+    "url": "https://econotimes.com/BusinessDay-Reports-Nigeria-Tech-Assessment-Will-Cover-Five-Sectors-1759809",
+    "domain": "econotimes.com",
+    "when": "Oct 22 · 04:30z"
    },
    {
-    "title": "Connecticut Probes How Utilities Use AI , Safeguard It",
-    "url": "https://www.govtech.com/artificial-intelligence/connecticut-probes-how-utilities-use-ai-safeguard-it",
-    "domain": "govtech.com",
-    "when": "Oct 20 · 00:30z"
+    "title": "FinancialContent - Teradyne , Vishay Intertechnology , Allegro MicroSystems , Entegris , and AMD shares are soaring , what you need to know",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-teradyne-vishay-intertechnology-allegro-microsystems-entegris-and-amd-shares-are-soaring-what-you-need-to-know",
+    "domain": "markets.financialcontent.com",
+    "when": "Oct 21 · 20:30z"
    },
    {
-    "title": "Nasdaq climbs as chip and AI - linked stocks bounce back",
-    "url": "https://www.koreatimes.co.kr/world/20261020/nasdaq-climbs-as-chip-and-ai-linked-stocks-bounce-back",
-    "domain": "koreatimes.co.kr",
-    "when": "Oct 19 · 20:45z"
+    "title": "FinancialContent - Western Digital , Nova , Amtech , Monolithic Power Systems , and Texas Instruments shares skyrocket , what you need to know",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-western-digital-nova-amtech-monolithic-power-systems-and-texas-instruments-shares-skyrocket-what-you-need-to-know",
+    "domain": "markets.financialcontent.com",
+    "when": "Oct 21 · 20:30z"
    },
    {
-    "title": "Should You Buy the iShares Semiconductor ETF After Its 25 % Plunge ? The Answer Might Surprise You . ",
-    "url": "https://www.fool.com/investing/2026/10/20/should-buy-ishares-semiconductor-etf-25-plunge-ans/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Oct 20 · 11:30z"
+    "title": "FinancialContent - MACOM , Semtech , FormFactor , Penguin Solutions , and Seagate stocks trade up , what you need to know",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-macom-semtech-formfactor-penguin-solutions-and-seagate-stocks-trade-up-what-you-need-to-know",
+    "domain": "markets.financialcontent.com",
+    "when": "Oct 21 · 20:30z"
    },
    {
-    "title": "Stock Market Today , Oct . 19 : Amazon Surges on Morgan Stanley Top Pick and $350 Price Target",
-    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/19/stock-market-today-oct-19-amazon-surges-on-morgan-stanley-top-pick-and-usd350-price-target/",
-    "domain": "fool.com",
-    "when": "Oct 19 · 22:45z"
+    "title": "Millions of hacking attempts as companies , governments rush to patch PHP flaws",
+    "url": "https://www.businesstimes.com.sg/international/millions-hacking-attempts-companies-governments-rush-patch-php-flaws",
+    "domain": "businesstimes.com.sg",
+    "when": "Oct 22 · 15:00z"
    },
    {
-    "title": "Arista Networks Is Heading for a Big Test on Nov . 3 . Here What Could Send the Stock Soaring . ",
-    "url": "https://www.fool.com/investing/2026/10/19/arista-networks-is-heading-for-a-big-test-on-nov-3/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Oct 19 · 17:30z"
+    "title": "Global Market : Japan Nikkei falls as chip stocks retreat on AI spending concerns",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-falls-as-chip-stocks-retreat-on-ai-spending-concerns/articleshow/135106795.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 22 · 04:45z"
    },
    {
-    "title": "S & P 500 , Nasdaq rise as AI stocks rebound and oil prices ease ahead of major US company earnings this week",
-    "url": "https://www.hindustantimes.com/world-news/us-news/sp-500-nasdaq-rise-as-ai-stocks-rebound-and-oil-prices-ease-ahead-of-major-us-company-earnings-this-week-101792428940525.html",
+    "title": "H - 1B woes : Over 12 , 000 Indian tech workers return from US amid visa uncertainty and layoffs - Key details here",
+    "url": "https://www.hindustantimes.com/world-news/us-news/h1b-woes-over-12-000-indian-tech-workers-return-from-us-amid-visa-uncertainty-and-layoffs-101792598505937.html",
     "domain": "hindustantimes.com",
-    "when": "Oct 19 · 19:15z"
+    "when": "Oct 21 · 17:00z"
    },
    {
-    "title": "Azerbaijan warns of lack of control over data uploaded to AI tools",
-    "url": "https://www.trend.az/azerbaijan/society/4236868.html",
+    "title": "BBC , Wikipedia among Major Sites hit by Global Cybersecurity Scare over Critical PHP Flaws",
+    "url": "https://en.dailypakistan.com.pk/22-Oct-2026/bbc-wikipedia-among-major-sites-hit-by-global-cybersecurity-scare-over-critical-php-flaws",
+    "domain": "en.dailypakistan.com.pk",
+    "when": "Oct 22 · 10:30z"
+   },
+   {
+    "title": "FinancialContent - Rapid7 , CrowdStrike , Cloudflare , Okta , and JFrog shares skyrocket , what you need to know",
+    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-rapid7-crowdstrike-cloudflare-okta-and-jfrog-shares-skyrocket-what-you-need-to-know",
+    "domain": "markets.financialcontent.com",
+    "when": "Oct 21 · 17:15z"
+   },
+   {
+    "title": "AI adoption could expose African ports to cyberattacks – NPA",
+    "url": "https://punchng.com/ai-adoption-could-expose-african-ports-to-cyberattacks-dantsoho/",
+    "domain": "punchng.com",
+    "when": "Oct 22 · 01:00z"
+   },
+   {
+    "title": "Why cybersecurity stocks are getting another big boost . Theyre key to the AI trade",
+    "url": "https://www.cnbc.com/2026/10/22/why-cybersecurity-stocks-are-getting-another-big-boost-theyre-key-to-the-ai-trade.html",
+    "domain": "cnbc.com",
+    "when": "Oct 22 · 15:30z"
+   },
+   {
+    "title": "University of Utah Health Recognized for Digital Health Achievement as 2026 Digital Health Most Wired Survey Recipient",
+    "url": "https://healthcare.utah.edu/press-releases/2026/10/university-of-utah-health-recognized-digital-health-achievement-2026-digital",
+    "domain": "healthcare.utah.edu",
+    "when": "Oct 21 · 18:00z"
+   },
+   {
+    "title": "Kyrgyzstan targets tech breakthrough , digital state in 5 years",
+    "url": "https://www.trend.az/casia/kyrgyzstan/4237958.html",
     "domain": "trend.az",
-    "when": "Oct 20 · 08:30z"
+    "when": "Oct 22 · 11:15z"
    },
    {
-    "title": "Baku hosts 8th summit of state information security chiefs",
-    "url": "https://www.trend.az/azerbaijan/society/4236807.html",
-    "domain": "trend.az",
-    "when": "Oct 20 · 06:45z"
-   },
-   {
-    "title": "What the Tech ? What could go right with AI",
-    "url": "https://www.wfmz.com/features/what-the-tech/what-the-tech-what-could-go-right-with-ai/article_0fd46fc3-00aa-4747-838a-630b0ca806db.html",
-    "domain": "wfmz.com",
-    "when": "Oct 20 · 01:30z"
-   },
-   {
-    "title": "Singapore and Sweden unite to advance trusted AI , quantum technology and 6G",
-    "url": "https://news.az/news/singapore-and-sweden-unite-to-advance-trusted-ai-quantum-technology-and-6g",
-    "domain": "news.az",
-    "when": "Oct 20 · 07:15z"
-   },
-   {
-    "title": "Azerbaijan warns of AI - driven information security risks",
-    "url": "https://www.trend.az/azerbaijan/society/4236825.html",
-    "domain": "trend.az",
-    "when": "Oct 20 · 07:15z"
-   },
-   {
-    "title": "AI and neocloud stock sell - off is in headlines , but expert warns artificial intelligence demand is the hidden factor no one is watching",
-    "url": "https://www.afr.com/chanticleer/fresh-ai-sell-off-is-indiscriminate-but-beware-the-other-story-20261020-p61763",
-    "domain": "afr.com",
-    "when": "Oct 20 · 07:30z"
-   },
-   {
-    "title": "Horizon3 sets up ASEAN headquarters in Singapore",
-    "url": "https://sbr.com.sg/information-technology/news/horizon3-sets-asean-headquarters-in-singapore",
-    "domain": "sbr.com.sg",
-    "when": "Oct 19 · 23:15z"
+    "title": "Taiwan first - ever chip workers strike begins at Micron plant",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-first-ever-chip-workers-strike-begins-at-micron-plant",
+    "domain": "asia.nikkei.com",
+    "when": "Oct 22 · 03:30z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Goldman Sachs hired an AI infrastructure investment banking MD from SMBC",
-    "url": "https://www.efinancialcareers.com/news/goldman-sachs-hired-an-ai-infrastructure-investment-banking-md-from-smbc",
-    "domain": "efinancialcareers.com",
-    "when": "Oct 20 · 21:15z"
+    "title": "Regal Funds Management ( RPL ASX ) unveils succession plan ahead of Phil King exit",
+    "url": "https://www.afr.com/street-talk/regal-unveils-succession-plan-to-clients-ahead-of-phil-king-s-exit-20261022-p617ru",
+    "domain": "afr.com",
+    "when": "Oct 22 · 08:30z"
    },
    {
-    "title": "Exclusive - Blackstone , Warburg explore IntraFi sale at over $10 billion , sources say",
-    "url": "https://www.aol.com/articles/exclusive-blackstone-warburg-explore-intrafi-163740000.html",
-    "domain": "aol.com",
-    "when": "Oct 20 · 17:30z"
+    "title": "Miras Investments Appoints Matthew Lesesky as Global Head of Private Equity",
+    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/miras-investments-appoints-matthew-lesesky-as-global-head-of-private-equity/2452035",
+    "domain": "manilatimes.net",
+    "when": "Oct 22 · 14:45z"
    },
    {
-    "title": "Insurance agency M & A sinks to 8 - year low as PE exits loom",
-    "url": "https://www.insurancebusinessmag.com/us/news/mergers-acquisitions/insurance-agency-manda-sinks-to-eightyear-low-as-pe-exits-loom-594367.aspx",
-    "domain": "insurancebusinessmag.com",
-    "when": "Oct 21 · 14:00z"
+    "title": "Domestic Banks Step Up to Fund India Deal Boom",
+    "url": "https://economictimes.indiatimes.com/et-front/domestic-banksstep-up-to-fundindia-deal-boom/articleshow/135101248.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 22 · 01:00z"
    },
    {
-    "title": "Alternative IQ Announces Winners of the 2026 Canadian Hedge Fund Awards",
-    "url": "https://www.timminspress.com/press-releases/newsfile/alternative-iq-announces-winners-of-the-2026-canadian-hedge-fund-awards/",
-    "domain": "timminspress.com",
-    "when": "Oct 21 · 12:00z"
+    "title": "Indian banks open cheque books for ₹10 , 000 crore - plus in M & A funding after RBI rule change",
+    "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/indian-banks-open-cheque-books-for-10000-crore-plus-in-ma-funding-after-rbi-rule-change/articleshow/135099726.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 22 · 01:00z"
    },
    {
-    "title": "Anthropic is making bank CEOs look overpaid",
-    "url": "https://www.efinancialcareers.com/news/anthropic-pay-vs-banking",
-    "domain": "efinancialcareers.com",
-    "when": "Oct 21 · 12:00z"
+    "title": "PR News | Oakley Capital Isola Joins Prosek Partners",
+    "url": "https://www.odwyerpr.com/story/public/25489/2026-10-21/oakley-capitals-isola-joins-prosek-partners.html",
+    "domain": "odwyerpr.com",
+    "when": "Oct 21 · 19:00z"
    },
    {
-    "title": "Bank Stocks To Keep An Eye On – October 20th",
-    "url": "https://www.dailypolitical.com/2026/10/20/bank-stocks-to-keep-an-eye-on-october-20th.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 20 · 16:45z"
-   },
-   {
-    "title": "Barclays reallocates capital to meet hedge fund financing … ",
-    "url": "https://hedgeweek.com/news/barclays-reallocates-capital-to-meet-hedge-fund-financing-demand",
+    "title": "Hedge fund demand for leverage drives Wall Street … ",
+    "url": "https://hedgeweek.com/news/hedge-fund-demand-for-leverage-drives-wall-street-equities-revenue-to-record-highs",
     "domain": "hedgeweek.com",
-    "when": "Oct 21 · 11:00z"
+    "when": "Oct 22 · 11:15z"
    },
    {
-    "title": "Nigeria : JPMorgan Deposits $38m With Nigeria Central Bank As It Nears Launch",
-    "url": "https://allafrica.com/stories/202610210013.html",
-    "domain": "allafrica.com",
-    "when": "Oct 21 · 08:00z"
+    "title": "Orical Wins Regulatory Reporting Solution of the Year at Hedgeweek® US Awards 2026",
+    "url": "https://www.prnewswire.com/news-releases/orical-wins-regulatory-reporting-solution-of-the-year-at-hedgeweek-us-awards-2026-302915823.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 21 · 19:30z"
    },
    {
-    "title": "Navatar Connects Claude and Salesforce Through Bidirectional MCP for Private Equity and M & A",
-    "url": "https://www.manilatimes.net/2026/10/21/tmt-newswire/globenewswire/navatar-connects-claude-and-salesforce-through-bidirectional-mcp-for-private-equity-and-ma/2450387",
+    "title": "Australian tech executive Zoe Kalar looks for rescue consortium to buy embattled WeAre8",
+    "url": "https://www.afr.com/street-talk/aussie-tech-exec-looks-for-rescue-consortium-to-buy-embattled-weare8-20261022-p6172d",
+    "domain": "afr.com",
+    "when": "Oct 22 · 05:15z"
+   },
+   {
+    "title": "TN High Court Says  No  to PE Ownership of Law Firms But Other Options Open",
+    "url": "https://www.insurancejournal.com/news/southeast/2026/10/22/889892.htm",
+    "domain": "insurancejournal.com",
+    "when": "Oct 22 · 06:45z"
+   },
+   {
+    "title": "NBPE Announces Transaction in Own Shares | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2451454",
     "domain": "manilatimes.net",
-    "when": "Oct 21 · 05:45z"
+    "when": "Oct 22 · 07:00z"
    },
    {
-    "title": "Citi Mexico sees new opportunities with banks after Banamex split",
-    "url": "https://www.aol.com/articles/citi-mexico-sees-opportunities-banks-184303000.html",
-    "domain": "aol.com",
-    "when": "Oct 20 · 19:45z"
+    "title": "Situational Unawareness : Banks Ran Out Of Room To Lever Up The AI Trade , So They Made More",
+    "url": "http://www.zerohedge.com/markets/situational-unawareness-banks-ran-out-room-lever-ai-trade-so-they-made-more",
+    "domain": "zerohedge.com",
+    "when": "Oct 21 · 23:15z"
    },
    {
-    "title": "Ionic Digital stock could more than double , Sachem Head says - reports",
-    "url": "https://seekingalpha.com/news/4654948-ionic-digital-stock-could-more-than-double-sachem-head-says---reports",
-    "domain": "seekingalpha.com",
-    "when": "Oct 20 · 21:30z"
-   },
-   {
-    "title": "National Business Capital Expands to West Coast , Appoints Veteran Investment Banker Eric D . Coonrod to Lead Institutional Partnerships",
-    "url": "https://www.manilatimes.net/2026/10/21/tmt-newswire/globenewswire/national-business-capital-expands-to-west-coast-appoints-veteran-investment-banker-eric-d-coonrod-to-lead-institutional-partnerships/2450845",
-    "domain": "manilatimes.net",
-    "when": "Oct 21 · 13:15z"
-   },
-   {
-    "title": "Newport Restaurant Group is 100 % owned by its workers and has paid them $33 million since 1995",
-    "url": "https://fortune.com/article/newport-restaurant-group-esop-employee-owned-33-million-small-business-succession/",
-    "domain": "fortune.com",
-    "when": "Oct 21 · 15:15z"
+    "title": "IIFL Capital Maiden Late - Stage Private Equity Fund Announces First Close at ~ ₹500 Crore",
+    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/iifl-capitals-maiden-late-stage-private-equity-fund-announces-first-close-at-500-crore/article71610142.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 22 · 07:00z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
@@ -501,88 +495,94 @@
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "China solar export controls target 12 photovoltaic technologies",
-    "url": "https://en.shafaqna.com/486053/china-solar-export-controls/",
-    "domain": "en.shafaqna.com",
-    "when": "Oct 19 · 08:30z"
-   },
-   {
-    "title": "Bel Fuse Schedules Third Quarter 2026 Financial Results Conference Call",
-    "url": "https://www.manilatimes.net/2026/10/19/tmt-newswire/globenewswire/bel-fuse-schedules-third-quarter-2026-financial-results-conference-call/2448731",
+    "title": "3D Systems Opens New Industrial Technology Center to Expand America Advanced Manufacturing Capacity",
+    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/3d-systems-opens-new-industrial-technology-center-to-expand-americas-advanced-manufacturing-capacity/2451298",
     "domain": "manilatimes.net",
-    "when": "Oct 19 · 13:30z"
+    "when": "Oct 21 · 23:00z"
    },
    {
-    "title": "Head to Head Contrast : Applied Aerospace & Defense ( AADX ) versus The Competition",
-    "url": "https://www.dailypolitical.com/2026/10/19/head-to-head-contrast-applied-aerospace-defense-aadx-versus-the-competition.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 19 · 10:45z"
+    "title": "iShares Aerospace ETF vs Tema Space Innovators ETF",
+    "url": "https://www.fool.com/coverage/etfs/2026/10/21/ishares-aerospace-etf-vs-tema-space-innovators-etf/",
+    "domain": "fool.com",
+    "when": "Oct 22 · 01:00z"
    },
    {
-    "title": "AMPulse Asia : Fresh Funding and Flying Parts Shake Up APAC 3D Printing - 3DPrint . com",
-    "url": "https://3dprint.com/335184/ampulse-asia-fresh-funding-and-flying-parts-shake-up-apac-3d-printing/",
+    "title": "Arclin Announces Strategic Expansion of Nomex® Manufacturing Capacity",
+    "url": "http://www.prnewswire.com/news-releases/arclin-announces-strategic-expansion-of-nomex-manufacturing-capacity-302916034.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 22 · 09:45z"
+   },
+   {
+    "title": "  No company is immune : Supply chain woes weigh on defense firms",
+    "url": "https://www.defensenews.com/air/2021/11/23/no-company-is-immune-supply-chain-woes-weigh-on-defense-firms/",
+    "domain": "defensenews.com",
+    "when": "Oct 22 · 06:15z"
+   },
+   {
+    "title": "RTX Corporation ( RTX ) Strong Earnings and Cash Flow Make It an Aerospace Dividend Favorite",
+    "url": "https://www.insidermonkey.com/news/rtx-corporation-rtx-strong-earnings-and-cash-flow-make-it-an-aerospace-dividend-favorite-1855011/",
+    "domain": "insidermonkey.com",
+    "when": "Oct 21 · 19:00z"
+   },
+   {
+    "title": "Caracol and GADC Want to Print in Greenland - 3DPrint . com | Additive Manufacturing Business",
+    "url": "https://3dprint.com/335139/caracol-and-gadc-want-to-print-in-greenland/",
     "domain": "3dprint.com",
-    "when": "Oct 19 · 08:15z"
+    "when": "Oct 21 · 17:00z"
    },
    {
-    "title": "AlixPartner Marc Iampieri addresses parcel trends , peak season , AI and the future of logistics",
-    "url": "https://www.logisticsmgmt.com/podcast/alixpartners_marc_iampieri_addresses_parcel_trends_peak_season_ai_and_the_future_of_logistics",
-    "domain": "logisticsmgmt.com",
-    "when": "Oct 19 · 13:15z"
+    "title": "Are Rogue AI Agents Pushing the Buttons on Your Manufacturing Shop Floor ? So That Happened",
+    "url": "https://www.industryweek.com/members/article/55413410/are-rogue-ai-agents-pushing-the-buttons-on-your-manufacturing-shop-floor-so-that-happened",
+    "domain": "industryweek.com",
+    "when": "Oct 21 · 21:15z"
    },
    {
-    "title": "JPMorgan deployed $230 billion in first year of security effort",
-    "url": "https://www.moneycontrol.com/news/business/companies/jpmorgan-deployed-230-billion-in-first-year-of-security-effort-14055587.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 19 · 11:45z"
+    "title": "Marble Imaging and Reflex Aerospace Select Odysseus Space Laser Terminal for First Satellite Mission – SatNews",
+    "url": "https://satnews.com/2026/10/21/marble-imaging-and-reflex-aerospace-select-odysseus-space-laser-terminal-for-first-satellite-mission/",
+    "domain": "satnews.com",
+    "when": "Oct 21 · 21:30z"
    },
    {
-    "title": "Top Industrial Stocks To Research – October 18th",
-    "url": "https://www.tickerreport.com/banking-finance/13624904/top-industrial-stocks-to-research-october-18th.html",
-    "domain": "tickerreport.com",
-    "when": "Oct 18 · 18:45z"
+    "title": "Qatar , Indonesia , Pakistan , and Turkiye sign Badr MoU to promote defense industries cooperation",
+    "url": "http://thepeninsulaqatar.com/article/21/10/2026/qatar-indonesia-pakistan-and-turkiye-sign-badr-mou-to-promote-defense-industries-cooperation",
+    "domain": "thepeninsulaqatar.com",
+    "when": "Oct 21 · 17:00z"
    },
    {
-    "title": "Ge - Shen stays ahead of the game",
-    "url": "https://www.thestar.com.my/business/business-news/2026/10/19/ge-shen-stays-ahead-of-the-game",
-    "domain": "thestar.com.my",
-    "when": "Oct 18 · 18:15z"
+    "title": "BAE buys Weld County Danfoss facility for $30M – BizWest",
+    "url": "https://bizwest.com/2026/10/21/bae-buys-weld-county-danfoss-facility-for-30m/",
+    "domain": "bizwest.com",
+    "when": "Oct 21 · 16:30z"
    },
    {
-    "title": "Northern Ireland offers Indian companies a gateway for global growth",
-    "url": "https://www.business-standard.com/content/specials/northern-ireland-offers-indian-companies-a-gateway-for-global-growth-126101500345_1.html",
-    "domain": "business-standard.com",
-    "when": "Oct 19 · 07:30z"
-   },
-   {
-    "title": "Top Airline Stocks To Watch Today – October 19th",
-    "url": "https://www.themarketsdaily.com/2026/10/19/top-airline-stocks-to-watch-today-october-19th.html",
-    "domain": "themarketsdaily.com",
-    "when": "Oct 19 · 16:45z"
-   },
-   {
-    "title": "Calls for progress on Taichung airport",
-    "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/19/2003866225",
-    "domain": "taipeitimes.com",
-    "when": "Oct 18 · 19:00z"
-   },
-   {
-    "title": "FinancialContent - RTX ( RTX ) Reports Q3 : Everything You Need To Know Ahead Of Earnings",
-    "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-19-rtx-rtx-reports-q3-everything-you-need-to-know-ahead-of-earnings",
-    "domain": "markets.financialcontent.com",
-    "when": "Oct 19 · 03:30z"
-   },
-   {
-    "title": "QTREX Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-    "url": "https://www.manilatimes.net/2026/10/19/tmt-newswire/globenewswire/qtrex-regains-compliance-with-nasdaq-minimum-bid-price-requirement/2448709",
+    "title": "QuantumScape Announces Plans for 100 MWh Solid - State Battery Production Line for AI Data Centers , Aerospace and Defense",
+    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/quantumscape-announces-plans-for-100-mwh-solid-state-battery-production-line-for-ai-data-centers-aerospace-and-defense/2451249",
     "domain": "manilatimes.net",
-    "when": "Oct 19 · 12:45z"
+    "when": "Oct 21 · 21:30z"
    },
    {
-    "title": "Elbit Systems wins $235m rocket contract in Europe",
-    "url": "https://en.globes.co.il/en/article-elbit-systems-wins-235m-rocket-contract-in-europe-1001559992",
-    "domain": "en.globes.co.il",
-    "when": "Oct 19 · 11:15z"
+    "title": "Merz hopes to cash in chips with Nvidia investments",
+    "url": "https://www.irishtimes.com/business/2026/10/22/merz-hopes-to-cash-in-chips-with-nvidia-investments/",
+    "domain": "irishtimes.com",
+    "when": "Oct 22 · 05:30z"
+   },
+   {
+    "title": "Defense tech company opens St . Paul hub , joins statewide security ecosystem",
+    "url": "https://www.twincities.com/2026/10/21/lyntris-st-paul-hub-defense-tech/",
+    "domain": "twincities.com",
+    "when": "Oct 21 · 20:30z"
+   },
+   {
+    "title": "Chinese - linked hackers compromise ConnectWise , target hundreds in global attack , Microsoft says",
+    "url": "https://bdnews24.com/technology/fhqntfz868",
+    "domain": "bdnews24.com",
+    "when": "Oct 22 · 05:30z"
+   },
+   {
+    "title": "EDITORIAL : The importance of ties with Japan",
+    "url": "https://www.taipeitimes.com/News/editorials/archives/2026/10/22/2003866391",
+    "domain": "taipeitimes.com",
+    "when": "Oct 21 · 17:45z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
@@ -865,102 +865,186 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Wes Maas offloads $50m shopping mall as Firmus float fallout hits",
-    "url": "https://www.brisbanetimes.com.au/business/small-business/wes-maas-offloads-50m-shopping-mall-as-firmus-float-fallout-hits-20261009-p613wf.html",
-    "domain": "brisbanetimes.com.au",
-    "when": "Oct 10 · 06:45z"
+    "title": "Jio Platforms IPO GMP Day 1 Highlights :: Jio Platforms IPO Day 1 Live : Issue fully subscribed 1 . 27x , QIB portion 3 . 86x",
+    "url": "https://www.thehindubusinessline.com/companies/jio-platforms-ipo-gmp-day-1-subscription-status-highlights-updates/article71606199.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 22 · 07:00z"
+   },
+   {
+    "title": "Jio Platforms IPO Day 2 Live : Issue subscribed 3 . 55 times , retail portion crosses 1x",
+    "url": "https://www.thehindubusinessline.com/markets/jio-platforms-ipo-day-2-subscription-status-live-news-updates/article71610082.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 22 · 06:45z"
+   },
+   {
+    "title": "Jio Platforms IPO Fully Subscribed in Record Time , ETTelecom",
+    "url": "https://telecom.economictimes.indiatimes.com/news/industry/retail-portion-of-jio-platforms-ipo-fully-subscribed/135109973",
+    "domain": "telecom.economictimes.indiatimes.com",
+    "when": "Oct 22 · 08:00z"
+   },
+   {
+    "title": "Retail portion of Jio Platform IPO fully subscribed - The HinduBusinessLine",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/retail-portion-of-jio-platforms-ipo-fully-subscribed/article71610350.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 22 · 10:30z"
+   },
+   {
+    "title": "Upcoming issue : Core4 Engineers to open for subscription on BSE SME on Oct 23 ; check key details",
+    "url": "https://www.moneycontrol.com/news/business/upcoming-issue-core4-engineers-to-open-for-subscription-on-bse-sme-on-oct-23-check-key-details-14057458.html",
+    "domain": "moneycontrol.com",
+    "when": "Oct 22 · 07:00z"
+   },
+   {
+    "title": "SoftBank - backed India Oyo Hotels owner halves proposed IPO , filing shows",
+    "url": "https://www.thehindubusinessline.com/markets/softbank-backed-indias-oyo-hotels-owner-halves-proposed-ipo-filing-shows/article71609977.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 22 · 07:00z"
+   },
+   {
+    "title": "SoftBank - backed Oyo Hotels owner halves IPO size",
+    "url": "https://www.vccircle.com/softbankbacked-oyo-hotels-owner-halves-ipo-size",
+    "domain": "vccircle.com",
+    "when": "Oct 22 · 06:45z"
+   },
+   {
+    "title": "RedPlanet extends gains to 52 . 6 % on ACE Market debut",
+    "url": "https://www.thestar.com.my/business/business-news/2026/10/22/redplanet-extends-gains-to-526-on-ace-market-debut",
+    "domain": "thestar.com.my",
+    "when": "Oct 22 · 03:45z"
+   },
+   {
+    "title": "Carlsberg prepares India business IPO worth up to $700 million , eyes December launch",
+    "url": "https://www.livemint.com/companies/news/carlsberg-prepares-india-business-ipo-worth-up-to-700-million-eyes-december-launch-11792634847843.html",
+    "domain": "livemint.com",
+    "when": "Oct 22 · 03:30z"
+   },
+   {
+    "title": "AP Govt rolls out financial restructuring plan for APTransco ; to explore IPO option",
+    "url": "https://www.thehindubusinessline.com/news/national/ap-govt-rolls-out-financial-restructuring-plan-for-aptransco-to-explore-ipo-option/article71608530.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 21 · 16:45z"
+   },
+   {
+    "title": "Jio IPO continues to garner strong demand on Day 2 of subscription ; QIBs lead with 9 . 4x demand",
+    "url": "https://www.moneycontrol.com/news/business/ipo/jio-ipo-continues-to-garner-strong-demand-on-day-2-of-subscription-qibs-lead-with-9-5x-demand-check-gmp-14057263.html",
+    "domain": "moneycontrol.com",
+    "when": "Oct 22 · 04:45z"
+   },
+   {
+    "title": "Jio Platforms IPO fully subscribed , attracts 3 . 16x demand on day one",
+    "url": "https://www.thehindubusinessline.com/markets/jio-platforms-ipo-fully-subscribed-attracts-316x-demand-on-day-one/article71608411.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 21 · 17:15z"
+   },
+   {
+    "title": "Integris Medtech recalibrates proposed IPO , reducing fresh issue component from ₹925 crore to ₹600 crore",
+    "url": "https://www.thehindubusinessline.com/markets/integris-medtech-recalibrates-proposed-ipo-reducing-fresh-issue-component-from-925-crore-to-600-crore/article71611799.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 22 · 14:15z"
+   },
+   {
+    "title": "Andhra Pradesh - Transco to tap the capital markets soon",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-transco-to-tap-the-capital-markets-soon/article71609982.ece",
+    "domain": "thehindu.com",
+    "when": "Oct 22 · 04:30z"
+   },
+   {
+    "title": "Jio Platforms IPO draws Rs 3 . 2 lakh crore in total demand , sets mega - issue record",
+    "url": "https://www.moneycontrol.com/news/business/markets/jio-platforms-ipo-draws-rs-3-2-lakh-crore-in-total-demand-sets-mega-issue-record-14056865.html",
+    "domain": "moneycontrol.com",
+    "when": "Oct 21 · 17:00z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
    {
-    "title": "Australia debt market and record - breaking bond issuance positions nation as a global funding destination",
-    "url": "https://www.afr.com/companies/financial-services/don-t-let-old-financial-plumbing-choke-australia-s-bond-boom-20261020-p616nu",
-    "domain": "afr.com",
-    "when": "Oct 20 · 00:00z"
+    "title": "Nexans 9M 2026 : Exceptionally high momentum in PWR - Grid and PWR - Connect , PWR - Transmission continued growth normalization , 2026 guidance confirmed",
+    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/nexans-9m-2026-exceptionally-high-momentum-in-pwr-grid-and-pwr-connect-pwr-transmission-continued-growth-normalization-2026-guidance-confirmed/2451423",
+    "domain": "manilatimes.net",
+    "when": "Oct 22 · 05:45z"
    },
    {
-    "title": "CoreWeave debt selloff poses limited risk to global banks , J . P . Morgan says",
-    "url": "https://www.aol.com/articles/coreweave-debt-selloff-poses-limited-073051000.html",
-    "domain": "aol.com",
-    "when": "Oct 20 · 09:15z"
+    "title": "India : Ascertis Credit Fund IV crosses $700m in commitments",
+    "url": "https://www.dealstreetasia.com/stories/ascertis-credit-fund-iv-498828",
+    "domain": "dealstreetasia.com",
+    "when": "Oct 21 · 18:00z"
    },
    {
-    "title": "Podcast : The Hidden Opportunities in an Unattractive Bond Market",
-    "url": "https://www.wealthmanagement.com/fixed-income/views-from-6-230-the-hidden-opportunities-in-an-unattractive-bond-market",
-    "domain": "wealthmanagement.com",
-    "when": "Oct 19 · 20:30z"
+    "title": "SoftBank - backed India Oyo Hotels owner halves proposed IPO , filing shows",
+    "url": "https://www.thehindubusinessline.com/markets/softbank-backed-indias-oyo-hotels-owner-halves-proposed-ipo-filing-shows/article71609977.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Oct 22 · 07:00z"
    },
    {
-    "title": "Skylink sells $5m bonds at 8 % to boost credit business",
-    "url": "https://sbr.com.sg/markets-investing/news/skylink-sells-5m-bonds-8-boost-credit-business",
-    "domain": "sbr.com.sg",
-    "when": "Oct 20 · 05:15z"
+    "title": "ASX to open higher as Wall Street surges , Meta raises spending forecast to fund AI expansion , live updates",
+    "url": "https://www.abc.net.au/news/2026-10-22/asx-markets-business-news-live-updates-thursday-22-october/107295020",
+    "domain": "abc.net.au",
+    "when": "Oct 21 · 21:45z"
    },
    {
-    "title": "Barclays defends £15 billion private credit book after reported BoE scrutiny",
-    "url": "https://www.aol.com/articles/barclays-defends-15-billion-private-170012000.html",
-    "domain": "aol.com",
-    "when": "Oct 19 · 17:45z"
+    "title": "Big Tech AI Debt Deluge Might Be Even Worse Than Previously Reported",
+    "url": "https://dailycaller.com/2026/10/21/wall-streets-ai-boom-faces-growing-questions-over-who-holds-the-debt/",
+    "domain": "dailycaller.com",
+    "when": "Oct 22 · 00:45z"
    },
    {
-    "title": "London high yield traders are suffering after Virgin Media left them exposed",
-    "url": "https://www.efinancialcareers.com/news/london-s-high-yield-traders-are-suffering-after-virgin-media-left-them-exposed",
+    "title": "Family offices warm to infrastructure , stay put on private credit , says BlackRock",
+    "url": "https://www.investmentnews.com/alternatives/family-offices-warm-to-infrastructure-stay-put-on-private-credit-says-blackrock/268677",
+    "domain": "investmentnews.com",
+    "when": "Oct 21 · 18:45z"
+   },
+   {
+    "title": "Twenty - Year Bond Auction Attracts Above Average Demand",
+    "url": "https://www.finanzen.ch/nachrichten/zinsen/twenty-year-bond-auction-attracts-above-average-demand-1036650386",
+    "domain": "finanzen.ch",
+    "when": "Oct 21 · 18:00z"
+   },
+   {
+    "title": "Ex - Barclays MD bemoans cost - cutting , says juniors unfairly blamed for resultant errors",
+    "url": "https://www.efinancialcareers.com/news/ex-barclays-md-bemoans-cost-cutting-says-juniors-unfairly-blamed-for-resultant-errors",
     "domain": "efinancialcareers.com",
-    "when": "Oct 19 · 21:45z"
+    "when": "Oct 21 · 16:45z"
    },
    {
-    "title": "The private credit crisis means the golden age of property lending is over",
-    "url": "https://www.afr.com/markets/debt-markets/australian-private-credit-is-adjusting-to-a-new-reality-20261020-p61732",
-    "domain": "afr.com",
-    "when": "Oct 20 · 07:30z"
+    "title": "SoftBank - backed Oyo Hotels owner halves IPO size",
+    "url": "https://www.vccircle.com/softbankbacked-oyo-hotels-owner-halves-ipo-size",
+    "domain": "vccircle.com",
+    "when": "Oct 22 · 06:45z"
    },
    {
-    "title": "Barclays private credit loans trigger Bank of England complaint",
-    "url": "https://www.aol.com/articles/barclays-private-credit-loans-trigger-163409000.html",
-    "domain": "aol.com",
-    "when": "Oct 19 · 17:30z"
+    "title": "It looks like a music festival . It really a sales pitch for private credit . ",
+    "url": "https://www.livemint.com/global/it-looks-like-a-music-festival-it-s-really-a-sales-pitch-for-private-credit-11792632708511.html",
+    "domain": "livemint.com",
+    "when": "Oct 22 · 03:30z"
    },
    {
-    "title": "3 Dividend ETFs That Deliver More Power as a Combined Portfolio",
-    "url": "https://www.fool.com/investing/2026/10/19/3-dividend-etfs-more-power-as-combined-portfolio/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Oct 19 · 17:30z"
+    "title": "More foreign institutions eye panda bonds as renminbi green financing gains appeal : financial expert",
+    "url": "https://www.globaltimes.cn/page/202610/1372716.shtml",
+    "domain": "globaltimes.cn",
+    "when": "Oct 21 · 16:45z"
    },
    {
-    "title": "Treasuries lose appeal as portfolio hedge amid inflation … ",
-    "url": "https://hedgeweek.com/news/treasuries-lose-appeal-as-portfolio-hedge-amid-inflation-pressures-citi-warns",
-    "domain": "hedgeweek.com",
-    "when": "Oct 20 · 11:45z"
+    "title": "GTJAI Assists in the Successful Issuance of Central Asia First Sovereign Wealth Fund Offshore RMB Bond – IT Business Net",
+    "url": "https://itbusinessnet.com/2026/10/gtjai-assists-in-the-successful-issuance-of-central-asias-first-sovereign-wealth-fund-offshore-rmb-bond/",
+    "domain": "itbusinessnet.com",
+    "when": "Oct 22 · 08:15z"
    },
    {
-    "title": "Trade GBP | GBP to USD | USD / GBP | Markets . com",
-    "url": "https://www.markets.com/instrument/gbpusd/",
-    "domain": "markets.com",
-    "when": "Oct 20 · 11:15z"
+    "title": "UOB Thailand strengthens sustainable finance leadership on back of award - winning deals",
+    "url": "https://www.newswit.com/en/ieo1oi61kuh3aedk6b99cyyx46s1b2h7",
+    "domain": "newswit.com",
+    "when": "Oct 22 · 08:30z"
    },
    {
-    "title": "China top economic planner vows more efforts to expand domestic demand",
-    "url": "http://usa.chinadaily.com.cn/a/202610/20/WS6ad72b3ee4b06d4aa0563cc6.html",
-    "domain": "usa.chinadaily.com.cn",
-    "when": "Oct 20 · 13:15z"
+    "title": "This REIT Offers Hot 6 . 5 % Yield , But Growth Is On Ice",
+    "url": "https://www.investors.com/research/the-income-investor/reit-americold-stock-cold-storge-dividend-yield-investing-markets/",
+    "domain": "investors.com",
+    "when": "Oct 22 · 13:45z"
    },
    {
-    "title": "What to Know & How to Vote on Palm Beach County Three Ballot Questions – Top 3 Takeaways | 1290 WJNO",
-    "url": "https://wjno.iheart.com/featured/brian-mudd/content/2026-10-20-what-to-know-how-to-vote-on-palm-beach-countys-three-ballot-questions-top-3-takeaways/",
-    "domain": "wjno.iheart.com",
-    "when": "Oct 20 · 11:30z"
-   },
-   {
-    "title": "Mortgage Rates Today , Monday , October 19 : Starting the Week Lower",
-    "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-monday-october-19-2026",
-    "domain": "nerdwallet.com",
-    "when": "Oct 19 · 16:00z"
-   },
-   {
-    "title": "Stewards Inc . Goes National : Kicks Off 12 - Month Television , Billboard ... ",
-    "url": "https://www.pr-inside.com/stewards-inc-goes-national-kicks-off-12-month-television-billboard-r5235347.htm",
-    "domain": "pr-inside.com",
-    "when": "Oct 20 · 15:00z"
+    "title": "IMF urges Uganda to deepen private - sector credit for stronger growth",
+    "url": "https://www.channelafrica.co.za/channelafrica/news/imf-urges-uganda-to-deepen-private-sector-credit-for-stronger-growth/",
+    "domain": "channelafrica.co.za",
+    "when": "Oct 21 · 16:45z"
    }
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
@@ -1039,94 +1123,88 @@
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "Prudential sells Brazil and Mexico units for 4 billion cash to exit emerging markets",
-    "url": "https://www.investmentwatchblog.com/prudential-sells-brazil-and-mexico-units-for-4-billion-cash-to-exit-emerging-markets/",
-    "domain": "investmentwatchblog.com",
-    "when": "Oct 20 · 17:30z"
+    "title": "Sonoco Reports Third Quarter 2026 Results",
+    "url": "https://www.simcoereformer.ca/press-releases/globe-newswire/sonoco-reports-third-quarter-2026-results/",
+    "domain": "simcoereformer.ca",
+    "when": "Oct 21 · 21:30z"
    },
    {
-    "title": "DNV acquires majority stake in Aquabench",
-    "url": "https://www.worldfishing.net/news/aquaculture/dnv-acquires-majority-stake-in-aquabench/",
-    "domain": "worldfishing.net",
-    "when": "Oct 21 · 08:45z"
+    "title": "Sonoco Posts Loss In Q3 Hurt By Goodwill Impairment Charges",
+    "url": "https://www.finanzen.ch/nachrichten/aktien/sonoco-posts-loss-in-q3-hurt-by-goodwill-impairment-charges-1036651596",
+    "domain": "finanzen.ch",
+    "when": "Oct 21 · 22:15z"
    },
    {
-    "title": "Salesforce Agrees to Buy Braze at About $5 . 66 Billion Enterprise Value",
-    "url": "https://econotimes.com/Salesforce-Agrees-to-Buy-Braze-at-About-5-66-Billion-Enterprise-Value-1758072",
-    "domain": "econotimes.com",
-    "when": "Oct 20 · 20:45z"
+    "title": "Tavistock pursues Atomos deal as it shifts to AI advice strategy",
+    "url": "https://www.moneymarketing.co.uk/news/tavistock-pursues-atomos-deal-as-it-shifts-to-ai-advice-strategy/",
+    "domain": "moneymarketing.co.uk",
+    "when": "Oct 21 · 17:30z"
    },
    {
-    "title": "Revolve Reports FY2026 Financial Results and Advances Growth Through ... ",
-    "url": "https://www.pr-inside.com/revolve-reports-fy2026-financial-results-and-advances-growth-through-r5235610.htm",
-    "domain": "pr-inside.com",
-    "when": "Oct 21 · 01:15z"
-   },
-   {
-    "title": "FinTrU : Company set to cut jobs in Belfast and Londonderry",
-    "url": "https://www.bbc.co.uk/news/articles/c6wyrp99jxrzo",
-    "domain": "bbc.co.uk",
-    "when": "Oct 21 · 12:00z"
-   },
-   {
-    "title": "Salesforce Buys Braze for $5 . 66B ; Marketing Cloud Lacked Real - Time Consumer Event Processing",
-    "url": "https://www.techtimes.com/articles/329295/20261021/salesforce-buys-braze-566b-marketing-cloud-lacked-real-time-consumer-event-processing.htm",
-    "domain": "techtimes.com",
-    "when": "Oct 21 · 14:00z"
-   },
-   {
-    "title": "Intuit Offers Free Federal Tax Filing with Credit Karma Tax",
-    "url": "https://www.cpapracticeadvisor.com/2026/10/20/intuit-offers-free-federal-tax-filing-with-credit-karma-tax/192063/",
-    "domain": "cpapracticeadvisor.com",
-    "when": "Oct 20 · 22:15z"
-   },
-   {
-    "title": "IFM Investors buys Associated British Ports",
-    "url": "https://splash247.com/ifm-investors-buys-associated-british-ports/",
-    "domain": "splash247.com",
-    "when": "Oct 21 · 11:15z"
-   },
-   {
-    "title": "A 30 . 9 % Yield Looks Incredible . The Dividend Math Tells Another Story",
-    "url": "https://247wallst.com/investing/2026/10/20/a-30-9-yield-looks-incredible-the-dividend-math-tells-another-story/",
-    "domain": "247wallst.com",
-    "when": "Oct 20 · 16:45z"
-   },
-   {
-    "title": "Revolve Renewable Power Corp .: Revolve Reports FY2026 Financial Results and Advances Growth Through Project - Level Financing and Strategic Acquisitions",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69889322-revolve-renewable-power-corp-revolve-reports-fy2026-financial-results-and-advances-growth-through-project-level-financing-and-strategic-acquisitions-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Oct 21 · 01:45z"
-   },
-   {
-    "title": "Completion of the Acquisition of GEM Newco Limited | Company Announcement",
-    "url": "https://www.investegate.co.uk/announcement/rns/earnz--earn/completion-of-the-acquisition-of-gem-newco-limited/9832665",
-    "domain": "investegate.co.uk",
-    "when": "Oct 20 · 17:30z"
-   },
-   {
-    "title": "October Capital Formed with Dedicated Focus on Services Businesses",
-    "url": "https://www.manilatimes.net/2026/10/21/tmt-newswire/globenewswire/october-capital-formed-with-dedicated-focus-on-services-businesses/2450909",
-    "domain": "manilatimes.net",
-    "when": "Oct 21 · 14:00z"
-   },
-   {
-    "title": "Bank First Announces Net Income for the Third Quarter of 2026",
-    "url": "http://www.prnewswire.com/news-releases/bank-first-announces-net-income-for-the-third-quarter-of-2026-302914456.html",
-    "domain": "prnewswire.com",
-    "when": "Oct 20 · 20:45z"
-   },
-   {
-    "title": "Why Klaviyo Stock Rallied Today | The Motley Fool",
-    "url": "https://www.fool.com/investing/2026/10/20/why-klaviyo-stock-rallied-today/?source=iedfolrf0000001",
+    "title": "Stock Market Today , Oct . 21 : AT & T Beats Earnings on Strong Fiber Growth , Raises 2026 Profit Outlook",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/21/stock-market-today-oct-21-at-and-t-beats-earnings-on-strong-fiber-growth-raises-2026-profit-outlook/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Oct 20 · 17:45z"
+    "when": "Oct 21 · 21:15z"
    },
    {
-    "title": "Urban Renewal Bill to complement laws on dilapidated strata buildings , says Nga",
-    "url": "https://www.thestar.com.my/news/nation/2026/10/21/urban-renewal-bill-to-complement-laws-on-dilapidated-strata-buildings-says-nga",
-    "domain": "thestar.com.my",
-    "when": "Oct 21 · 02:30z"
+    "title": "Cognizant Agrees to Buy DyFlex for SAP Reach in Australia and New Zealand",
+    "url": "https://econotimes.com/Cognizant-Agrees-to-Buy-DyFlex-for-SAP-Reach-in-Australia-and-New-Zealand-1759980",
+    "domain": "econotimes.com",
+    "when": "Oct 22 · 08:15z"
+   },
+   {
+    "title": "Metals One targets full control of South African gold business in all - share deal",
+    "url": "https://www.proactiveinvestors.com/companies/news/1100532/metals-one-targets-full-control-of-south-african-gold-business-in-all-share-deal-1100532.html",
+    "domain": "proactiveinvestors.com",
+    "when": "Oct 22 · 11:15z"
+   },
+   {
+    "title": "Emirates NBD nine - month profit up 4pc , net income soars to $11 . 4bn",
+    "url": "https://tradearabia.com:443/News/488341/Emirates-NBD-nine-month-profit-up-4pc-net-income-soars-to-$11.4bn",
+    "domain": "tradearabia.com",
+    "when": "Oct 21 · 21:45z"
+   },
+   {
+    "title": "Emirates NBD nine - month profit before tax hits $6 . 62bn",
+    "url": "https://tradearabia.com:443/News/488341/Emirates-NBD-nine-month-profit-before-tax-hits-$6.62bn/BANK",
+    "domain": "tradearabia.com",
+    "when": "Oct 22 · 06:00z"
+   },
+   {
+    "title": "Australian Fund to Acquire Majority Stake in united kingdom Largest Port Operator in $13 . 4 Billion Deal",
+    "url": "https://gcaptain.com/australian-fund-to-acquire-majority-stake-in-uks-largest-port-operator-in-13-4-billion-deal/",
+    "domain": "gcaptain.com",
+    "when": "Oct 21 · 21:15z"
+   },
+   {
+    "title": "Quantum Stocks : Defense Giants Northrop , Lockheed Take Aim At Frontier Technologies",
+    "url": "https://www.investors.com/news/technology/quantum-stocks-defense-giants-northrop-lockheed-commercial-military-applications/",
+    "domain": "investors.com",
+    "when": "Oct 22 · 15:30z"
+   },
+   {
+    "title": "AST SpaceMobile Hit a 52 - Week Low Days After SpaceX Spent $8 Billion on Spectrum . That Not a Coincidence . ",
+    "url": "https://www.fool.com/investing/2026/10/21/ast-spacemobile-hit-a-52-week-low-days-after-space/",
+    "domain": "fool.com",
+    "when": "Oct 21 · 20:15z"
+   },
+   {
+    "title": "Allegion plc : Allegion ( NYSE : ALLE ) Reports Q3 - 2026 Financial Results",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69906216-allegion-plc-allegion-nyse-alle-reports-q3-2026-financial-results-004.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 22 · 10:30z"
+   },
+   {
+    "title": "LSEG Agrees To Acquire Octus For $3 . 535 Bln",
+    "url": "https://www.rttnews.com/3701583/lseg-agrees-to-acquire-octus-for-3-535-bln.aspx",
+    "domain": "rttnews.com",
+    "when": "Oct 22 · 08:45z"
+   },
+   {
+    "title": "Sonoco Reports Third Quarter 2026 Results",
+    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/sonoco-reportsthird-quarter-2026-results/2451282",
+    "domain": "manilatimes.net",
+    "when": "Oct 21 · 21:30z"
    }
   ]
  }
