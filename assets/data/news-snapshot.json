@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22 16:09z",
+ "generated": "2026-10-23 16:04z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -341,440 +341,434 @@
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "Cleveland - Cliffs - CLF - Stock Price & News",
-    "url": "https://www.fool.com/quote/nyse/clf/",
-    "domain": "fool.com",
-    "when": "Oct 19 · 22:45z"
+    "title": "Mining Investment Exceeds $5 Billion , Driving Territory Growth",
+    "url": "https://www.miragenews.com/mining-investment-exceeds-5-billion-driving-1765285/",
+    "domain": "miragenews.com",
+    "when": "Oct 22 · 23:15z"
    },
    {
-    "title": "Uzbekistan , ReElement agree on critical minerals pilot",
-    "url": "https://www.trend.az/casia/uzbekistan/4236794.html",
-    "domain": "trend.az",
-    "when": "Oct 20 · 06:45z"
+    "title": "The critical minerals war",
+    "url": "https://tribune.com.pk/story/2636380/the-critical-minerals-war",
+    "domain": "tribune.com.pk",
+    "when": "Oct 23 · 08:30z"
    },
    {
-    "title": "Copper production falls but BHP maintains full - year guidance",
-    "url": "https://www.businessday.co.za/companies/earnings/2026-10-20-copper-production-falls-but-bhp-maintains-full-year-guidance/",
-    "domain": "businessday.co.za",
-    "when": "Oct 20 · 06:45z"
+    "title": "South Africa sets record with 7 . 6km freight train",
+    "url": "https://dunyanews.tv/en/WeirdNews/979131-south-africa-sets-record-with-76km-freight-train",
+    "domain": "dunyanews.tv",
+    "when": "Oct 22 · 23:00z"
    },
    {
-    "title": "Critical minerals : Why mining communities may suffer the fate",
-    "url": "https://thesun.ng/critical-minerals-why-mining-communities-may-suffer-the-fate-of-niger-delta/",
-    "domain": "thesun.ng",
-    "when": "Oct 20 · 01:00z"
+    "title": "Unions slam BHP chairman pay rise days after announcing Pilbara job cuts",
+    "url": "https://www.smh.com.au/national/western-australia/unions-slam-bhp-chairman-s-pay-rise-days-after-pilbara-job-cuts-20261023-p61865.html",
+    "domain": "smh.com.au",
+    "when": "Oct 23 · 06:00z"
    },
    {
-    "title": "Investors must process Ghana minerals locally - President announces phased ban of raw minerals by 2030",
-    "url": "https://www.graphic.com.gh/news/general-news/ghana-news-investors-must-process-ghanas-minerals-locally-president-announces-phased-ban-of-raw-minerals-by-2030.html",
-    "domain": "graphic.com.gh",
-    "when": "Oct 20 · 11:30z"
-   },
-   {
-    "title": "BHP misses quarterly copper output estimates on Chile disruptions",
-    "url": "https://www.mining.com/web/bhp-misses-quarterly-copper-output-estimates-on-chile-disruptions/",
+    "title": "AI boom could overwhelm metals supply : WoodMac",
+    "url": "https://www.mining.com/ai-boom-could-overwhelm-metals-supply-woodmac/",
     "domain": "mining.com",
-    "when": "Oct 20 · 03:15z"
+    "when": "Oct 22 · 16:00z"
    },
    {
-    "title": "United States Antimony Soars 11 % While Rare Earth Peers Retreat ; united states Rare Earth Drops 3 %, Critical Metals Falls 4 % ",
-    "url": "https://www.aol.com/articles/united-states-antimony-soars-11-155430000.html",
-    "domain": "aol.com",
-    "when": "Oct 19 · 16:45z"
+    "title": "Union Minister G Kishan Reddy to visit Australia to strengthen bilateral cooperation in critical minerals",
+    "url": "http://www.sydneysun.com/news/279392545/union-minister-g-kishan-reddy-to-visit-australia-to-strengthen-bilateral-cooperation-in-critical-minerals",
+    "domain": "sydneysun.com",
+    "when": "Oct 22 · 18:30z"
    },
    {
-    "title": "How Myanmar rare earth elements reshape China supply chain",
-    "url": "https://www.dailysabah.com/opinion/op-ed/how-myanmars-rare-earth-elements-reshape-chinas-supply-chain",
-    "domain": "dailysabah.com",
-    "when": "Oct 19 · 22:45z"
+    "title": "ASX 200 Slips as Miners Slide and Zip Crashes on Fraud Hit , While Banks Rally After Wall Street Tech Rout",
+    "url": "https://www.ibtimes.com.au/asx-200-falls-zip-shares-mining-stocks-1877239",
+    "domain": "ibtimes.com.au",
+    "when": "Oct 23 · 05:00z"
    },
    {
-    "title": "Saskatchewan veteran uranium miners now face scrappy rivals and sparks are flying",
-    "url": "https://edmontonjournal.com:443/business/energy/saskatchewans-veteran-uranium-miners-now-face-scrappy-rivals-and-sparks-are-flying/wcm/ce2167a0-a6a1-4d96-a94a-b62a9cb9b386",
-    "domain": "edmontonjournal.com",
-    "when": "Oct 19 · 19:15z"
+    "title": "Altius Minerals ( OTCMKTS : ATUSF ) Share Price Breaks Below 200 Day Moving Average – Time to Sell ? ",
+    "url": "https://www.themarketsdaily.com/2026/10/23/altius-minerals-otcmktsatusf-share-price-breaks-below-200-day-moving-average-time-to-sell.html",
+    "domain": "themarketsdaily.com",
+    "when": "Oct 23 · 08:30z"
    },
    {
-    "title": "African Mining Week ( AMW ) 2026 Technical Track Looks Beyond the Mine",
-    "url": "http://www.businessghana.com/site/news/general/358020/African-Mining-Week-(AMW)-2026-Technical-Track-Looks-Beyond-the-Mine",
-    "domain": "businessghana.com",
-    "when": "Oct 19 · 18:45z"
+    "title": "Reviewing Mesabi Trust ( NYSE : MSB ) & Barrick Mining ( NYSE : B ) ",
+    "url": "https://www.dailypolitical.com/2026/10/22/reviewing-mesabi-trust-nysemsb-barrick-mining-nyseb.html",
+    "domain": "dailypolitical.com",
+    "when": "Oct 22 · 22:45z"
    },
    {
-    "title": "The First New US Lithium Plant In 50 Years Is Using An Unexpected Metal Source",
-    "url": "https://www.bgr.com/2290814/us-new-lithium-plant-unexpected-source/",
-    "domain": "bgr.com",
-    "when": "Oct 20 · 00:30z"
+    "title": "Top Mining Stocks To Keep An Eye On – October 22nd",
+    "url": "https://www.dailypolitical.com/2026/10/22/top-mining-stocks-to-keep-an-eye-on-october-22nd.html",
+    "domain": "dailypolitical.com",
+    "when": "Oct 22 · 17:30z"
    },
    {
-    "title": "Drilling Expands Mineralized Footprint at Penelope",
-    "url": "https://www.intelligencer.ca/press-releases/newsfile/drilling-expands-mineralized-footprint-at-penelope/",
-    "domain": "intelligencer.ca",
-    "when": "Oct 20 · 12:00z"
+    "title": "Fortescue warns of production slowdown without China deal ( FSUMF : OTCMKTS ) ",
+    "url": "https://seekingalpha.com/news/4656067-fortescue-warns-of-production-slowdown-without-china-deal",
+    "domain": "seekingalpha.com",
+    "when": "Oct 22 · 17:30z"
+   },
+   {
+    "title": "Sunrise Energy Metals Shares Sink 15 % as Scandium Developer Extends Slide Amid Plan to Move Listing to Nasdaq",
+    "url": "https://www.ibtimes.com.au/sunrise-energy-metals-shares-fall-us-listing-1877246",
+    "domain": "ibtimes.com.au",
+    "when": "Oct 23 · 05:00z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "The FDA Calendar Smart Money Never Ignores",
-    "url": "https://investorplace.com/2026/10/fda-calendar-smart-money/",
-    "domain": "investorplace.com",
-    "when": "Oct 19 · 21:45z"
+    "title": "Clinical trial establishes effective HIV dosing regimen for full - term newborns",
+    "url": "https://www.news-medical.net/news/20261022/Clinical-trial-establishes-effective-HIV-dosing-regimen-for-full-term-newborns.aspx",
+    "domain": "news-medical.net",
+    "when": "Oct 22 · 21:45z"
    },
    {
-    "title": "NanoViricide Revolutionary Broad - Spectrum Drug Candidate NV - 387 Has ... ",
-    "url": "https://www.pr-inside.com/nanoviricides-revolutionary-broad-spectrum-drug-candidate-nv-387-has-r5235292.htm",
-    "domain": "pr-inside.com",
-    "when": "Oct 20 · 13:30z"
+    "title": "FDA Grants Traditional Approval to Keytruda for TMB - H Solid Tumors",
+    "url": "https://www.curetoday.com/view/fda-grants-traditional-approval-to-pembrolizumab-for-tmb-h-solid-tumors",
+    "domain": "curetoday.com",
+    "when": "Oct 22 · 23:30z"
    },
    {
-    "title": "Clinical Trial Management System Market to Reach USD 9 . 9 Billion",
-    "url": "https://www.openpr.com/news/4666310/clinical-trial-management-system-market-to-reach-usd-9-9-billion",
-    "domain": "openpr.com",
-    "when": "Oct 19 · 19:30z"
+    "title": "Lemon Hits Limit - Up ; Licensing Hopes Lift G2G , OliX [ K - Bio Pulse ] ",
+    "url": "https://www.edaily.co.kr/News/Read?newsId=03958966645615872&mediaCodeNo=257",
+    "domain": "edaily.co.kr",
+    "when": "Oct 23 · 05:00z"
    },
    {
-    "title": "Optimi Health Completes MDMA Production for Phase 3 PTSD Trial in Canada , MAPS Trial in Israel and Commercial Supply in Australia",
-    "url": "https://www.manilatimes.net/2026/10/20/tmt-newswire/globenewswire/optimi-health-completes-mdma-production-for-phase-3-ptsd-trial-in-canada-maps-trial-in-israel-and-commercial-supply-in-australia/2449781",
-    "domain": "manilatimes.net",
-    "when": "Oct 20 · 13:15z"
+    "title": "Here what Moderna latest mRNA cancer vaccine data actually show",
+    "url": "https://www.scientificamerican.com/article/heres-what-modernas-latest-mrna-cancer-vaccine-data-actually-show/",
+    "domain": "scientificamerican.com",
+    "when": "Oct 23 · 00:00z"
    },
    {
-    "title": "Healthcare Contract Research Outsourcing Market : Rising R & D Spending and Digital Innovation to Accelerate Industry Growth by 2036",
-    "url": "https://whatech.com/og/markets-research/medical/1020729-healthcare-contract-research-outsourcing-market-rising-r-d-spending-and-digital-innovation-to-accelerate-industry-growth-by-2036.html",
-    "domain": "whatech.com",
-    "when": "Oct 20 · 01:15z"
-   },
-   {
-    "title": "Nearly 16 , 000 Bottles of Popular Thyroid Drug Recalled Nationwide",
-    "url": "https://www.theepochtimes.com/us/nearly-16000-bottles-of-popular-thyroid-drug-recalled-nationwide-6105943",
-    "domain": "theepochtimes.com",
-    "when": "Oct 19 · 19:30z"
-   },
-   {
-    "title": "Kane Biotech Signs Distribution Agreement with The Stevens Company",
-    "url": "https://www.manilatimes.net/2026/10/20/tmt-newswire/globenewswire/kane-biotech-signs-distribution-agreement-with-the-stevens-company/2449615",
-    "domain": "manilatimes.net",
-    "when": "Oct 20 · 12:00z"
-   },
-   {
-    "title": "FDA Approves Dostarlimab for dMMR / MSI - H Locally Advanced Rectal Cancer",
-    "url": "https://www.onclive.com/view/fda-approves-dostarlimab-for-dmmr-msi-h-locally-advanced-rectal-cancer",
-    "domain": "onclive.com",
-    "when": "Oct 19 · 21:00z"
-   },
-   {
-    "title": "FDA Approves Phentolamine Eye Drop for Presbyopia in Adults",
-    "url": "https://www.pharmacytimes.com/view/fda-approves-phentolamine-eye-drop-for-presbyopia-in-adults",
-    "domain": "pharmacytimes.com",
-    "when": "Oct 19 · 21:15z"
-   },
-   {
-    "title": "Eloxx Pharmaceuticals Finalizes 52 - Week Phase 2 EXPRESS Study Design in Nonsense - Mutation ADPKD and Appoints T . R . Srinivas , M . D ., Chief Medical Officer",
-    "url": "http://www.prnewswire.com/news-releases/eloxx-pharmaceuticals-finalizes-52-week-phase-2-express-study-design-in-nonsense-mutation-adpkd-and-appoints-tr-srinivas-md-chief-medical-officer-302914139.html",
+    "title": "Alebund Pharmaceuticals Announces Poster Presentation by Partner R1 Therapeutics of Global Phase IIb Multi - Regional Clinical Trial Design for AP306 at ASN Kidney Week 2026",
+    "url": "https://www.prnewswire.com/news-releases/alebund-pharmaceuticals-announces-poster-presentation-by-partner-r1-therapeutics-of-global-phase-iib-multi-regional-clinical-trial-design-for-ap306-at-asn-kidney-week-2026-302917966.html",
     "domain": "prnewswire.com",
-    "when": "Oct 20 · 14:00z"
+    "when": "Oct 23 · 11:30z"
    },
    {
-    "title": "Applied Biologics Announces Acceptance for Publication of Interim Results from Randomized Controlled CAMPX Trial Evaluating XWRAP®",
-    "url": "https://www.manilatimes.net/2026/10/20/tmt-newswire/globenewswire/applied-biologics-announces-acceptance-for-publication-of-interim-results-from-randomized-controlled-campx-trial-evaluating-xwrap/2449818",
+    "title": "Ascleti Strategic Partner Sagimet Announces First Patient Dosed in Phase III U . S . Clinical Trial of Denifanstat ( ASC40 ) for Moderate to Severe Acne",
+    "url": "https://www.manilatimes.net/2026/10/23/tmt-newswire/pr-newswire/ascletis-strategic-partner-sagimet-announces-first-patient-dosed-in-phase-iii-us-clinical-trial-of-denifanstat-asc40-for-moderate-to-severe-acne/2452445",
     "domain": "manilatimes.net",
-    "when": "Oct 20 · 13:30z"
+    "when": "Oct 23 · 03:30z"
    },
    {
-    "title": "Kane to Showcase revyve® at Wounds Canada National Hybrid Conference",
-    "url": "https://www.northernnews.ca/press-releases/globe-newswire/kane-to-showcase-revyve-at-wounds-canada-national-hybrid-conference/",
-    "domain": "northernnews.ca",
-    "when": "Oct 19 · 19:30z"
+    "title": "Invesco Pharmaceuticals ETF vs . iShares Biotechnology ETF : Which Is the Better Buy ? ",
+    "url": "https://www.fool.com/coverage/etfs/2026/10/23/invesco-pharmaceuticals-etf-vs-ishares-biotechnology-etf-which-is-the-better-buy/",
+    "domain": "fool.com",
+    "when": "Oct 23 · 07:30z"
    },
    {
-    "title": "Envoy Medical Hits Six - Month Milestone , Marks Halfway Point in Final Stage of Data Collection , and Highlights Differentiated Device Design",
-    "url": "https://www.saultstar.com/press-releases/newsfile/envoy-medical-hits-six-month-milestone-marks-halfway-point-in-final-stage-of-data-collection-and-highlights-differentiated-device-design/",
-    "domain": "saultstar.com",
-    "when": "Oct 20 · 14:00z"
+    "title": "ImmunoForge to Showcase Proprietary Platform Technologies and Next - Generation Oncology & Phase 2 Clinical Pipelines at BIO - Europe 2026",
+    "url": "http://www.prnewswire.com/news-releases/immunoforge-to-showcase-proprietary-platform-technologies-and-next-generation-oncology--phase-2-clinical-pipelines-at-bio-europe-2026-302917622.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 23 · 04:00z"
+   },
+   {
+    "title": "New research finds prescription drug costs could play major role in midterm elections",
+    "url": "https://www.wbbjtv.com/2026/10/22/new-research-finds-prescription-drug-costs-could-play-major-role-midterm-elections/",
+    "domain": "wbbjtv.com",
+    "when": "Oct 23 · 01:15z"
+   },
+   {
+    "title": "Top Pharmaceutical Stocks To Add to Your Watchlist – October 22nd",
+    "url": "https://www.dailypolitical.com/2026/10/22/top-pharmaceutical-stocks-to-add-to-your-watchlist-october-22nd.html",
+    "domain": "dailypolitical.com",
+    "when": "Oct 22 · 17:30z"
+   },
+   {
+    "title": "Biohaven ( BHVN ) Soars 25 % on FDA Drug Review , Price Target Upgrade",
+    "url": "https://www.insidermonkey.com/news/biohaven-bhvn-soars-25-on-fda-drug-review-price-target-upgrade-1858483/",
+    "domain": "insidermonkey.com",
+    "when": "Oct 23 · 03:15z"
+   },
+   {
+    "title": "Governor Says Ramaswamy Ad Is  Deeply , Deeply Troubling  ",
+    "url": "https://www.newser.com/story/398651/ohios-gop-governor-condemns-ramaswamy-ad.html",
+    "domain": "newser.com",
+    "when": "Oct 22 · 20:00z"
+   },
+   {
+    "title": "World - first cancer vaccine slashes death risk in stunning findings led by Aussie scientist",
+    "url": "https://www.dailymail.com/news/article-16231693/cancer-vaccine-trial-australia-georgina-long.html",
+    "domain": "dailymail.com",
+    "when": "Oct 23 · 00:15z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "3D Systems Opens New Industrial Technology Center to Expand America Advanced Manufacturing Capacity",
-    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/3d-systems-opens-new-industrial-technology-center-to-expand-americas-advanced-manufacturing-capacity/2451298",
+    "title": "CORRECTION - 3D Systems Opens New Industrial Technology Center to Expand America Advanced Manufacturing Capacity",
+    "url": "https://www.manilatimes.net/2026/10/23/tmt-newswire/globenewswire/correction-3d-systems-opens-new-industrial-technology-center-to-expand-americas-advanced-manufacturing-capacity/2452427",
     "domain": "manilatimes.net",
-    "when": "Oct 21 · 23:00z"
+    "when": "Oct 23 · 01:15z"
    },
    {
-    "title": "iShares Aerospace ETF vs Tema Space Innovators ETF",
-    "url": "https://www.fool.com/coverage/etfs/2026/10/21/ishares-aerospace-etf-vs-tema-space-innovators-etf/",
-    "domain": "fool.com",
-    "when": "Oct 22 · 01:00z"
+    "title": "Why Trump Cant Afford to Lose The Rare Earth Race",
+    "url": "https://oilprice.com/Energy/Energy-General/Why-Trump-Cant-Afford-to-Lose-The-Rare-Earth-Race.html",
+    "domain": "oilprice.com",
+    "when": "Oct 23 · 04:00z"
    },
    {
-    "title": "Arclin Announces Strategic Expansion of Nomex® Manufacturing Capacity",
-    "url": "http://www.prnewswire.com/news-releases/arclin-announces-strategic-expansion-of-nomex-manufacturing-capacity-302916034.html",
+    "title": "Spectrum Control Earns Platinum Award in 2026 Military + Aerospace Electronics Innovators Award",
+    "url": "http://www.prnewswire.com/news-releases/spectrum-control-earns-platinum-award-in-2026-military--aerospace-electronics-innovators-award-302917258.html",
     "domain": "prnewswire.com",
-    "when": "Oct 22 · 09:45z"
+    "when": "Oct 22 · 17:30z"
    },
    {
-    "title": "  No company is immune : Supply chain woes weigh on defense firms",
-    "url": "https://www.defensenews.com/air/2021/11/23/no-company-is-immune-supply-chain-woes-weigh-on-defense-firms/",
-    "domain": "defensenews.com",
-    "when": "Oct 22 · 06:15z"
+    "title": "Applied Aerospace & Defense ( NYSE : AADX ) Reaches New 12 - Month Low – Should You Sell ? ",
+    "url": "https://www.tickerreport.com/banking-finance/13631914/applied-aerospace-defense-nyseaadx-reaches-new-12-month-low-should-you-sell.html",
+    "domain": "tickerreport.com",
+    "when": "Oct 22 · 21:45z"
    },
    {
-    "title": "RTX Corporation ( RTX ) Strong Earnings and Cash Flow Make It an Aerospace Dividend Favorite",
-    "url": "https://www.insidermonkey.com/news/rtx-corporation-rtx-strong-earnings-and-cash-flow-make-it-an-aerospace-dividend-favorite-1855011/",
-    "domain": "insidermonkey.com",
-    "when": "Oct 21 · 19:00z"
+    "title": "Old Filton Airfield named among world most important aviation sites",
+    "url": "https://www.bristolpost.co.uk/news/bristol-news/old-filton-airfield-named-among-11210249",
+    "domain": "bristolpost.co.uk",
+    "when": "Oct 22 · 23:30z"
    },
    {
-    "title": "Caracol and GADC Want to Print in Greenland - 3DPrint . com | Additive Manufacturing Business",
-    "url": "https://3dprint.com/335139/caracol-and-gadc-want-to-print-in-greenland/",
-    "domain": "3dprint.com",
-    "when": "Oct 21 · 17:00z"
+    "title": "Zetwerk Manufacturing shares list at 5 % premium over IPO price",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/zetwerk-manufacturing-business-shares-to-list-today-check-gmp-ahead-of-debut/articleshow/135131780.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Oct 23 · 05:00z"
    },
    {
-    "title": "Are Rogue AI Agents Pushing the Buttons on Your Manufacturing Shop Floor ? So That Happened",
-    "url": "https://www.industryweek.com/members/article/55413410/are-rogue-ai-agents-pushing-the-buttons-on-your-manufacturing-shop-floor-so-that-happened",
-    "domain": "industryweek.com",
-    "when": "Oct 21 · 21:15z"
+    "title": "ELEKTROS Marks 51 . 52 % Daily Share Advance as Northern New York Lithium ... ",
+    "url": "https://www.pr-inside.com/elektros-marks-51-52-daily-share-advance-as-northern-new-york-lithium-r5236327.htm",
+    "domain": "pr-inside.com",
+    "when": "Oct 23 · 00:15z"
    },
    {
-    "title": "Marble Imaging and Reflex Aerospace Select Odysseus Space Laser Terminal for First Satellite Mission – SatNews",
-    "url": "https://satnews.com/2026/10/21/marble-imaging-and-reflex-aerospace-select-odysseus-space-laser-terminal-for-first-satellite-mission/",
-    "domain": "satnews.com",
-    "when": "Oct 21 · 21:30z"
-   },
-   {
-    "title": "Qatar , Indonesia , Pakistan , and Turkiye sign Badr MoU to promote defense industries cooperation",
-    "url": "http://thepeninsulaqatar.com/article/21/10/2026/qatar-indonesia-pakistan-and-turkiye-sign-badr-mou-to-promote-defense-industries-cooperation",
-    "domain": "thepeninsulaqatar.com",
-    "when": "Oct 21 · 17:00z"
-   },
-   {
-    "title": "BAE buys Weld County Danfoss facility for $30M – BizWest",
-    "url": "https://bizwest.com/2026/10/21/bae-buys-weld-county-danfoss-facility-for-30m/",
-    "domain": "bizwest.com",
-    "when": "Oct 21 · 16:30z"
-   },
-   {
-    "title": "QuantumScape Announces Plans for 100 MWh Solid - State Battery Production Line for AI Data Centers , Aerospace and Defense",
-    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/quantumscape-announces-plans-for-100-mwh-solid-state-battery-production-line-for-ai-data-centers-aerospace-and-defense/2451249",
+    "title": "BendPak Opens Third Distribution Center to Accelerate Delivery Nationwide",
+    "url": "https://www.manilatimes.net/2026/10/23/tmt-newswire/globenewswire/bendpak-opens-third-distribution-center-to-accelerate-delivery-nationwide/2452192",
     "domain": "manilatimes.net",
-    "when": "Oct 21 · 21:30z"
+    "when": "Oct 22 · 18:15z"
    },
    {
-    "title": "Merz hopes to cash in chips with Nvidia investments",
-    "url": "https://www.irishtimes.com/business/2026/10/22/merz-hopes-to-cash-in-chips-with-nvidia-investments/",
-    "domain": "irishtimes.com",
-    "when": "Oct 22 · 05:30z"
+    "title": "Microsoft Links ConnectWise Cloud Backup Compromise to AI - Assisted Attacks",
+    "url": "https://econotimes.com/Microsoft-Links-ConnectWise-Cloud-Backup-Compromise-to-AI-Assisted-Attacks-1760984",
+    "domain": "econotimes.com",
+    "when": "Oct 23 · 06:00z"
    },
    {
-    "title": "Defense tech company opens St . Paul hub , joins statewide security ecosystem",
-    "url": "https://www.twincities.com/2026/10/21/lyntris-st-paul-hub-defense-tech/",
-    "domain": "twincities.com",
-    "when": "Oct 21 · 20:30z"
+    "title": "SBA , Pentagon Partner to Strengthen Defense Manufacturing",
+    "url": "https://www.military.com/sba-and-pentagon-partner-to-strengthen-70-of-us-defense-industrial-base",
+    "domain": "military.com",
+    "when": "Oct 23 · 09:15z"
    },
    {
-    "title": "Chinese - linked hackers compromise ConnectWise , target hundreds in global attack , Microsoft says",
-    "url": "https://bdnews24.com/technology/fhqntfz868",
-    "domain": "bdnews24.com",
-    "when": "Oct 22 · 05:30z"
+    "title": "Why Lockheed Martin Stock Soared Today | The Motley Fool",
+    "url": "https://www.fool.com/investing/2026/10/22/why-lockheed-martin-stock-soared-today/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Oct 23 · 01:15z"
    },
    {
-    "title": "EDITORIAL : The importance of ties with Japan",
-    "url": "https://www.taipeitimes.com/News/editorials/archives/2026/10/22/2003866391",
-    "domain": "taipeitimes.com",
-    "when": "Oct 21 · 17:45z"
+    "title": "Stock Market Today , Oct . 22 : SpaceX Earnings Beat Sparks Profit - Taking",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/22/stock-market-today-oct-22-spacex-earnings-beat-sparks-profit-taking/",
+    "domain": "fool.com",
+    "when": "Oct 22 · 22:45z"
+   },
+   {
+    "title": "Elektros Celebrates 51 . 52 % Daily Gain and Reaffirms Vision for Lithium ... ",
+    "url": "https://www.pr-inside.com/elektros-celebrates-51-52-daily-gain-and-reaffirms-vision-for-lithium-r5236358.htm",
+    "domain": "pr-inside.com",
+    "when": "Oct 23 · 04:00z"
+   },
+   {
+    "title": "Elektros , Inc .: Elektros Celebrates 51 . 52 % Daily Gain and Reaffirms Vision for Lithium and Next - Generation EV Charging",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69914734-elektros-inc-elektros-celebrates-51-52-daily-gain-and-reaffirms-vision-for-lithium-and-next-generation-ev-charging-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Oct 23 · 04:30z"
+   },
+   {
+    "title": "Kenya : Mombasa Port Receives Seven Tankers Carrying Fuel , Palm Oil",
+    "url": "https://allafrica.com/stories/202610230045.html",
+    "domain": "allafrica.com",
+    "when": "Oct 23 · 06:00z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "AI to spur Southeast Asia digital economy to $368 billion , shows study",
-    "url": "https://www.business-standard.com/world-news/ai-to-spur-southeast-asia-s-digital-economy-to-368-billion-shows-study-126102100168_1.html",
-    "domain": "business-standard.com",
-    "when": "Oct 21 · 05:30z"
+    "title": "Best Ecommerce Stocks To Consider – October 22nd",
+    "url": "https://www.tickerreport.com/banking-finance/13631425/best-ecommerce-stocks-to-consider-october-22nd.html",
+    "domain": "tickerreport.com",
+    "when": "Oct 22 · 19:00z"
    },
    {
-    "title": "7 Key Trends Shaping Ecommerce Retail Industry",
-    "url": "https://smallbiztrends.com/ecommerce-retail-industry/",
-    "domain": "smallbiztrends.com",
-    "when": "Oct 20 · 23:15z"
+    "title": "Canada Goose to open expanded Sydney flagship",
+    "url": "https://www.ragtrader.com.au/news/canada-goose-to-open-expanded-sydney-flagship",
+    "domain": "ragtrader.com.au",
+    "when": "Oct 23 · 01:00z"
    },
    {
-    "title": "The Outnet Partners With Catche AI Fit Tech to Reduce Returns and Boost Online Fashion Sales",
-    "url": "https://wwd.com/business-news/technology/the-outnet-catches-ai-fit-tech-reduce-returns-1239376686/",
-    "domain": "wwd.com",
-    "when": "Oct 21 · 14:00z"
+    "title": "Retail sales in Great Britain fall as struggling households cut back",
+    "url": "https://www.theguardian.com/business/2026/oct/23/retail-sales-in-great-britain-fall-as-struggling-households-cut-back",
+    "domain": "theguardian.com",
+    "when": "Oct 23 · 08:45z"
    },
    {
-    "title": "Kenya : Timevallée Opens First Luxury Multi - Brand Watch Boutique in Kenya",
-    "url": "https://allafrica.com/stories/202610210338.html",
-    "domain": "allafrica.com",
-    "when": "Oct 21 · 12:00z"
+    "title": "Prada Reports 1 % Revenue Growth Despite Luxury Market Slowdown , ETRetail",
+    "url": "https://retail.economictimes.indiatimes.com/news/apparel-fashion/luxury/prada-q3-revenue-rises-in-a-slowing-luxe-market/135132225",
+    "domain": "retail.economictimes.indiatimes.com",
+    "when": "Oct 23 · 03:30z"
    },
    {
-    "title": "Premium liquor makers bet on festive gifting as consumers trade up to pricier spirits",
-    "url": "https://www.moneycontrol.com/news/business/companies/premium-liquor-makers-bet-on-festive-gifting-as-consumers-trade-up-to-pricier-spirits-14056708.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 21 · 10:00z"
+    "title": "UK Retail Sales Fall 0 . 4 %, but Q3 Growth Holds Up Despite September Weakness",
+    "url": "https://www.actionforex.com/live-comments/658444-uk-retail-sales-fall-0-4-but-q3-growth-holds-up-despite-september-weakness/",
+    "domain": "actionforex.com",
+    "when": "Oct 23 · 08:15z"
    },
    {
-    "title": "Chatsi Announces $2 . 5 Million Seed Financing Commitment to Expand AI Sales Agents for Ecommerce",
-    "url": "https://www.pr.com:443/press-release/981717",
-    "domain": "pr.com",
-    "when": "Oct 20 · 22:45z"
-   },
-   {
-    "title": "High Earners Pull Back As U . S . Consumer Confidence Slips Ahead Of Fed Rate Decision",
-    "url": "https://www.aol.com/articles/high-earners-pull-back-u-215111000.html",
-    "domain": "aol.com",
-    "when": "Oct 20 · 22:45z"
-   },
-   {
-    "title": "Alibaba vs . Home Depot : Which Consumer Stock Is a Better Buy in 2026 ? ",
-    "url": "https://www.fool.com/coverage/better-buy/2026/10/20/alibaba-vs-home-depot-which-consumer-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
+    "title": "Boston Beer : 3 Key Takeaways for Long - Term Investors",
+    "url": "https://www.fool.com/earnings/takeaways/2026/10/22/boston-beer-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Oct 20 · 21:30z"
+    "when": "Oct 23 · 05:30z"
    },
    {
-    "title": "Fuels And Service Stations Boost S Group 9M Sales Growth",
-    "url": "https://www.esmmagazine.com/retail/fuel-retail-and-service-stations-boost-s-groups-9m-growth-by-over-21-323913",
-    "domain": "esmmagazine.com",
-    "when": "Oct 21 · 07:30z"
+    "title": "King Charles Praised for  Secretly Taking on Meghan Wellness Brand  ",
+    "url": "https://radaronline.com/p/king-charles-secretly-challenges-meghan-markle-wellness-brand-as-ever/",
+    "domain": "radaronline.com",
+    "when": "Oct 23 · 02:15z"
    },
    {
-    "title": "Honey Play Box Highlights Five Holiday Trends",
-    "url": "https://avn.com/press/novelty/honey-play-box-highlights-five-holiday-trends-152654",
-    "domain": "avn.com",
-    "when": "Oct 21 · 00:00z"
+    "title": "REVOLVE Opens New Store at Aventura Mall , Expanding Its Physical Retail Presence",
+    "url": "https://www.prnewswire.com/news-releases/revolve-opens-new-store-at-aventura-mall-expanding-its-physical-retail-presence-302917581.html",
+    "domain": "prnewswire.com",
+    "when": "Oct 23 · 13:30z"
    },
    {
-    "title": "Azoma raises $11 . 2 million Series A to continue defining the Agentic Commerce Optimization category",
-    "url": "https://www.manilatimes.net/2026/10/21/tmt-newswire/globenewswire/azoma-raises-112-million-series-a-to-continue-defining-the-agentic-commerce-optimization-category/2450918",
+    "title": "The RealReal CEO top leadership lesson : Be willing to be wrong",
+    "url": "https://www.cnbc.com/make-it/2026/10/22/therealreal-ceo-leadership-lesson.html",
+    "domain": "cnbc.com",
+    "when": "Oct 22 · 19:45z"
+   },
+   {
+    "title": "Hongkong Land Celebrates  Destination CENTRAL  Campaign in Support of the Long - term Renewal of Central",
+    "url": "https://www.manilatimes.net/2026/10/23/tmt-newswire/media-outreach-newswire/hongkong-land-celebrates-destination-central-campaign-in-support-of-the-long-term-renewal-of-central/2452710",
     "domain": "manilatimes.net",
-    "when": "Oct 21 · 14:00z"
+    "when": "Oct 23 · 12:00z"
    },
    {
-    "title": "Stolen Goods Reportedly Being Sold Cheaply on the Streets of France Amid Recent Riots",
-    "url": "https://www.ibtimes.co.uk/suspected-looted-luxury-goods-sold-france-1826899",
-    "domain": "ibtimes.co.uk",
-    "when": "Oct 21 · 10:00z"
+    "title": "Canada Post updates Canadians on critical work to deliver a stronger , modern postal service",
+    "url": "https://www.thewhig.com/press-releases/pr-newswire/canada-post-updates-canadians-on-critical-work-to-deliver-a-stronger-modern-postal-service/",
+    "domain": "thewhig.com",
+    "when": "Oct 22 · 19:00z"
    },
    {
-    "title": "Designer handbag Birkin losing its scarcity appeal",
-    "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/21/end-of-an-era-how-the-hermes-birkin-bag-is-losing-its-scarcity-appeal/",
-    "domain": "bnnbloomberg.ca",
-    "when": "Oct 21 · 13:30z"
+    "title": "designboom competitions | designboom . com",
+    "url": "https://www.designboom.com/competition/classics-the-small-luxury-design-award-2027/",
+    "domain": "designboom.com",
+    "when": "Oct 23 · 10:00z"
    },
    {
-    "title": "Bangkok Post - The 1 Central Group unveils megatrends shaping Asian retail at World Retail Lab Asia 2026",
-    "url": "https://www.bangkokpost.com/thailand/pr/3340928/the-1-central-group-unveils-megatrends-shaping-asian-retailat-world-retail-lab-asia-2026",
-    "domain": "bangkokpost.com",
-    "when": "Oct 21 · 05:00z"
+    "title": "Perma - Fix Environmental Services ( PESI ): Navigating Slipping Government Timelines and Financing Concerns",
+    "url": "https://www.insidermonkey.com/news/perma-fix-environmental-services-pesi-navigating-slipping-government-timelines-and-financing-concerns-1858201/",
+    "domain": "insidermonkey.com",
+    "when": "Oct 22 · 16:00z"
    },
    {
-    "title": "Watsons Launches Asia First Watsons Plus Customer Experience in Malaysia Setting a New Benchmark for Health and Beauty Retail",
-    "url": "https://www.manilatimes.net/2026/10/21/tmt-newswire/media-outreach-newswire/watsons-launches-asias-first-watsons-plus-customer-experience-in-malaysia-setting-a-new-benchmark-for-health-and-beauty-retail/2450459",
-    "domain": "manilatimes.net",
-    "when": "Oct 21 · 08:45z"
+    "title": "Shifting trends in Africa luxury market",
+    "url": "https://www.cnbcafrica.com/media/7792667878552/shifting-trends-in-africas-luxury-market",
+    "domain": "cnbcafrica.com",
+    "when": "Oct 22 · 16:00z"
+   },
+   {
+    "title": "Heads up : united kingdom retail sales to test the case for further BOE rate hikes",
+    "url": "https://investinglive.com/news/heads-up-uk-retail-sales-to-test-the-case-for-further-boe-rate-hikes/",
+    "domain": "investinglive.com",
+    "when": "Oct 23 · 05:00z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Democracy Manifest",
-    "url": "http://www.zerohedge.com/political/democracy-manifest",
-    "domain": "zerohedge.com",
-    "when": "Oct 19 · 16:15z"
+    "title": "Arkansas farmers pushed  to the brink  as Senate hopefuls clash over tariffs",
+    "url": "https://katv.com/news/local/arkansas-farmers-pushed-to-the-brink-as-senate-hopefuls-clash-over-tariffs",
+    "domain": "katv.com",
+    "when": "Oct 22 · 16:15z"
    },
    {
-    "title": "Marco Rubio to arrive in India today as trade deal nears finalisation ; talks with Jaishankar on agenda",
-    "url": "https://www.newindianexpress.com/india/2026/Oct/20/marco-rubio-to-arrive-in-india-today-as-trade-deal-nears-finalisation-talks-with-jaishankar-on-agenda",
-    "domain": "newindianexpress.com",
-    "when": "Oct 20 · 06:00z"
+    "title": "Canadian diplomats based in U . S . advised to avoid appearing with midterm candidates",
+    "url": "https://www.cbc.ca/news/politics/canadian-diplomats-notice-midterms-u-s-9.7392072",
+    "domain": "cbc.ca",
+    "when": "Oct 22 · 21:00z"
    },
    {
-    "title": "Trump trade adviser defends tariffs , touts Texas Instrument investment in new Lehi plant",
-    "url": "https://www.ksl.com:443/article/51638221/trumps-trade-adviser-defends-tariffs-touts-texas-instrument-investment-in-new-lehi-plant",
-    "domain": "ksl.com",
-    "when": "Oct 20 · 01:30z"
+    "title": "The critical minerals war",
+    "url": "https://tribune.com.pk/story/2636380/the-critical-minerals-war",
+    "domain": "tribune.com.pk",
+    "when": "Oct 23 · 08:30z"
    },
    {
-    "title": "Oil prices fall as markets assess U . S . move on Russian energy sanctions",
-    "url": "https://sana.sy/en/economic/2352340/",
-    "domain": "sana.sy",
-    "when": "Oct 20 · 06:15z"
+    "title": "How Elon Musk went from Tesla CEO to the  most powerful civilian , non - governmental actor in history  ",
+    "url": "https://finance.yahoo.com/technology/article/how-elon-musk-went-from-tesla-ceo-to-the-most-powerful-civilian-non-governmental-actor-in-history-100000227.html",
+    "domain": "finance.yahoo.com",
+    "when": "Oct 23 · 12:30z"
    },
    {
-    "title": "Trump Defends Russia Sanctions Waiver as Ukraine Warns of More Attacks",
-    "url": "https://econotimes.com/Trump-Defends-Russia-Sanctions-Waiver-as-Ukraine-Warns-of-More-Attacks-1756944",
-    "domain": "econotimes.com",
-    "when": "Oct 19 · 22:00z"
+    "title": "Russian Diesel Tanker Heads to New York After Trump - Putin Deal",
+    "url": "https://www.kyivpost.com/post/87980",
+    "domain": "kyivpost.com",
+    "when": "Oct 23 · 12:00z"
    },
    {
-    "title": "Can NZ lamb crack India massive market ? – The Front Page",
-    "url": "https://www.nzherald.co.nz/nz/can-nz-lamb-crack-indias-massive-market-the-front-page/WJ5TZXLF5ZFXBBYH6WAGTLPW3I/",
-    "domain": "nzherald.co.nz",
-    "when": "Oct 20 · 04:30z"
+    "title": "Voters Face Higher Cost of Living as Midterms Loom . Import Prices Saw The Highest Jump in Years . ",
+    "url": "https://www.ibtimes.com/voters-face-higher-cost-living-midterms-loom-import-prices-saw-highest-jump-years-3808818",
+    "domain": "ibtimes.com",
+    "when": "Oct 22 · 23:45z"
    },
    {
-    "title": "As Japan pursues a chip - industry reboot , it being pressed to build America ",
-    "url": "https://www.businesstimes.com.sg/international/global/japan-pursues-chip-industry-reboot-its-being-pressed-build-americas",
-    "domain": "businesstimes.com.sg",
-    "when": "Oct 20 · 07:30z"
+    "title": "Tariff - free Canada - U . S . trade not returning , Canada negotiator says",
+    "url": "https://www.stcatharinesstandard.ca/politics/federal/tariff-free-canada-u-s-trade-not-returning-carney-s-top-negotiator-says/article_6acc19d5-dbcc-55e9-8df9-f448076fef23.html",
+    "domain": "stcatharinesstandard.ca",
+    "when": "Oct 22 · 23:45z"
    },
    {
-    "title": "US crude oil stocks in strategic reserve fall to their lowest level since 1982",
-    "url": "https://www.businesstoday.in/world/story/us-crude-oil-stocks-in-strategic-reserve-fall-to-their-lowest-level-since-1982-562614-2026-10-20",
-    "domain": "businesstoday.in",
-    "when": "Oct 20 · 08:00z"
+    "title": "Weekly Sanctions Update : October 19 , 2026",
+    "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1858564/weekly-sanctions-update-october-19-2026",
+    "domain": "mondaq.com",
+    "when": "Oct 22 · 23:15z"
    },
    {
-    "title": "Zelensky and US envoys discuss peace process",
-    "url": "http://europe.chinadaily.com.cn/a/202610/20/WS6ad6c18de4b06d4aa0563ac2.html",
-    "domain": "europe.chinadaily.com.cn",
-    "when": "Oct 20 · 03:00z"
+    "title": "Carney in Turkey says  no merit  to claims of Canada meddling in U . S . midterms",
+    "url": "https://www.theglobeandmail.com/politics/article-carney-in-turkey/",
+    "domain": "theglobeandmail.com",
+    "when": "Oct 23 · 11:00z"
    },
    {
-    "title": "Marco Rubio to commence three - day visit to India ; trade deal , talks with Jaishankar on agenda",
-    "url": "https://news.webindia123.com/news/Articles/World/20261020/4512954.html",
-    "domain": "news.webindia123.com",
-    "when": "Oct 19 · 21:45z"
+    "title": "The Kremlin says a first tanker of Russian diesel sets sail for the US despite Ukraine protests",
+    "url": "https://www.clickondetroit.com/business/2026/10/23/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraines-protests/",
+    "domain": "clickondetroit.com",
+    "when": "Oct 23 · 13:30z"
    },
    {
-    "title": "Why Cleveland - Cliffs Stock Popped Today",
-    "url": "https://www.fool.com/investing/2026/10/19/why-cleveland-cliffs-stock-popped-today/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Oct 19 · 17:30z"
+    "title": "Ukraine news : Russian diesel headed for U . S ., Kremlin says",
+    "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/23/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraines-protests/",
+    "domain": "bnnbloomberg.ca",
+    "when": "Oct 23 · 13:00z"
    },
    {
-    "title": "Bipartisan backlash from Long Island lawmakers over Trump lifting Russia sanctions",
-    "url": "https://www.newsday.com/long-island/politics/russia-sanctions-pushback-ckivj8b7",
-    "domain": "newsday.com",
-    "when": "Oct 20 · 12:00z"
+    "title": "EU sees Korea as  trusted partner  in evolving Indo - Pacific strategy",
+    "url": "https://www.koreatimes.co.kr/foreignaffairs/20261023/eu-sees-korea-as-trusted-partner-in-evolving-indo-pacific-strategy",
+    "domain": "koreatimes.co.kr",
+    "when": "Oct 23 · 06:45z"
    },
    {
-    "title": "US blinks on Russia , India less fluttered - The Economic Times",
-    "url": "https://economictimes.indiatimes.com/opinion/et-editorial/us-blinks-on-russia-india-less-fluttered/articleshow/135055487.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 19 · 19:30z"
+    "title": "Canada - U . S . trade war : Deal still possible ahead of midterms",
+    "url": "https://www.cp24.com/news/canada/2026/10/22/exclusive-canada-hasnt-yet-closed-door-on-us-trade-deal-ahead-of-midterms/",
+    "domain": "cp24.com",
+    "when": "Oct 22 · 23:45z"
    },
    {
-    "title": "Russia hits Ukrainian energy sites while Ukraine launches large drone wave after US waives some sanctions",
-    "url": "https://www.investmentwatchblog.com/russia-hits-ukrainian-energy-sites-while-ukraine-launches-large-drone-wave-after-us-waives-some-sanctions/",
-    "domain": "investmentwatchblog.com",
-    "when": "Oct 20 · 03:15z"
+    "title": "Sanctions Update : October 19 , 2026",
+    "url": "https://www.mondaq.com:443/unitedstates/government/1858552/sanctions-update-october-19-2026",
+    "domain": "mondaq.com",
+    "when": "Oct 22 · 23:00z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
    {
-    "title": "Freshfield Desert Storm Moment – Firm Learns the Hard Way That  $Freshfields All  Is the Real AI Threat",
-    "url": "https://www.lawfuel.com/freshfields-desert-storm-firm-learns-the-hard-way-that-freshfields-all-is-the-real-ai-threat/",
-    "domain": "lawfuel.com",
-    "when": "Oct 20 · 13:45z"
-   },
-   {
-    "title": "Stafford Capital Partners says timberland portfolio absorbed 17 . 4m tonnes of CO2e in 2025",
-    "url": "https://www.financial-news.co.uk/stafford-capital-partners-says-timberland-portfolio-absorbed-17-4m-tonnes-of-co2e-in-2025/",
-    "domain": "financial-news.co.uk",
-    "when": "Oct 19 · 23:45z"
+    "title": "Auctions Can Give Evergreen Investors New Exit Option",
+    "url": "https://www.wealthmanagement.com/alternative-investments/secondary-auctions-offer-new-exit-for-evergreen-funds",
+    "domain": "wealthmanagement.com",
+    "when": "Oct 23 · 00:15z"
    }
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
@@ -1123,88 +1117,88 @@
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "Sonoco Reports Third Quarter 2026 Results",
-    "url": "https://www.simcoereformer.ca/press-releases/globe-newswire/sonoco-reports-third-quarter-2026-results/",
-    "domain": "simcoereformer.ca",
-    "when": "Oct 21 · 21:30z"
+    "title": "Levi & Korsinsky Announces Investigation of Securities Claims Against ... ",
+    "url": "https://www.pr-inside.com/levi-korsinsky-announces-investigation-of-securities-claims-against-r5236265.htm",
+    "domain": "pr-inside.com",
+    "when": "Oct 22 · 21:00z"
    },
    {
-    "title": "Sonoco Posts Loss In Q3 Hurt By Goodwill Impairment Charges",
-    "url": "https://www.finanzen.ch/nachrichten/aktien/sonoco-posts-loss-in-q3-hurt-by-goodwill-impairment-charges-1036651596",
-    "domain": "finanzen.ch",
-    "when": "Oct 21 · 22:15z"
+    "title": "Fox Factory Holding Corp Investigation Initiated : Levi & Korsinsky ... ",
+    "url": "https://www.pr-inside.com/fox-factory-holding-corp-investigation-initiated-levi-korsinsky-r5236264.htm",
+    "domain": "pr-inside.com",
+    "when": "Oct 22 · 21:00z"
    },
    {
-    "title": "Tavistock pursues Atomos deal as it shifts to AI advice strategy",
-    "url": "https://www.moneymarketing.co.uk/news/tavistock-pursues-atomos-deal-as-it-shifts-to-ai-advice-strategy/",
-    "domain": "moneymarketing.co.uk",
-    "when": "Oct 21 · 17:30z"
+    "title": "Investing $1 . 9b in Kangwinan bauxite project | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/rio-tinto--rio/investing-1-9b-in-kangwinan-bauxite-project/9837645",
+    "domain": "investegate.co.uk",
+    "when": "Oct 23 · 06:30z"
    },
    {
-    "title": "Stock Market Today , Oct . 21 : AT & T Beats Earnings on Strong Fiber Growth , Raises 2026 Profit Outlook",
-    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/21/stock-market-today-oct-21-at-and-t-beats-earnings-on-strong-fiber-growth-raises-2026-profit-outlook/?source=iedfolrf0000001",
+    "title": "Santos Posts Record Q3 Production and Cash Flow as Barossa , Pikka Ramp Up",
+    "url": "https://oilprice.com/Company-News/Santos-Posts-Record-Q3-Production-and-Cash-Flow-as-Barossa-Pikka-Ramp-Up.html",
+    "domain": "oilprice.com",
+    "when": "Oct 23 · 04:00z"
+   },
+   {
+    "title": "PG & E ( PCG ) Q3 2026 Earnings Call Transcript",
+    "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/pge-pcg-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
     "domain": "fool.com",
-    "when": "Oct 21 · 21:15z"
+    "when": "Oct 22 · 19:45z"
    },
    {
-    "title": "Cognizant Agrees to Buy DyFlex for SAP Reach in Australia and New Zealand",
-    "url": "https://econotimes.com/Cognizant-Agrees-to-Buy-DyFlex-for-SAP-Reach-in-Australia-and-New-Zealand-1759980",
-    "domain": "econotimes.com",
-    "when": "Oct 22 · 08:15z"
+    "title": "Acquisitions now a significant growth lever , says ITC CMD Sanjiv Puri",
+    "url": "https://www.business-standard.com/companies/people/acquisitions-now-a-significant-growth-lever-says-itc-cmd-sanjiv-puri-126102201704_1.html",
+    "domain": "business-standard.com",
+    "when": "Oct 22 · 18:15z"
    },
    {
-    "title": "Metals One targets full control of South African gold business in all - share deal",
-    "url": "https://www.proactiveinvestors.com/companies/news/1100532/metals-one-targets-full-control-of-south-african-gold-business-in-all-share-deal-1100532.html",
-    "domain": "proactiveinvestors.com",
-    "when": "Oct 22 · 11:15z"
-   },
-   {
-    "title": "Emirates NBD nine - month profit up 4pc , net income soars to $11 . 4bn",
-    "url": "https://tradearabia.com:443/News/488341/Emirates-NBD-nine-month-profit-up-4pc-net-income-soars-to-$11.4bn",
-    "domain": "tradearabia.com",
-    "when": "Oct 21 · 21:45z"
-   },
-   {
-    "title": "Emirates NBD nine - month profit before tax hits $6 . 62bn",
-    "url": "https://tradearabia.com:443/News/488341/Emirates-NBD-nine-month-profit-before-tax-hits-$6.62bn/BANK",
-    "domain": "tradearabia.com",
-    "when": "Oct 22 · 06:00z"
-   },
-   {
-    "title": "Australian Fund to Acquire Majority Stake in united kingdom Largest Port Operator in $13 . 4 Billion Deal",
-    "url": "https://gcaptain.com/australian-fund-to-acquire-majority-stake-in-uks-largest-port-operator-in-13-4-billion-deal/",
-    "domain": "gcaptain.com",
-    "when": "Oct 21 · 21:15z"
-   },
-   {
-    "title": "Quantum Stocks : Defense Giants Northrop , Lockheed Take Aim At Frontier Technologies",
-    "url": "https://www.investors.com/news/technology/quantum-stocks-defense-giants-northrop-lockheed-commercial-military-applications/",
-    "domain": "investors.com",
-    "when": "Oct 22 · 15:30z"
-   },
-   {
-    "title": "AST SpaceMobile Hit a 52 - Week Low Days After SpaceX Spent $8 Billion on Spectrum . That Not a Coincidence . ",
-    "url": "https://www.fool.com/investing/2026/10/21/ast-spacemobile-hit-a-52-week-low-days-after-space/",
-    "domain": "fool.com",
-    "when": "Oct 21 · 20:15z"
-   },
-   {
-    "title": "Allegion plc : Allegion ( NYSE : ALLE ) Reports Q3 - 2026 Financial Results",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69906216-allegion-plc-allegion-nyse-alle-reports-q3-2026-financial-results-004.htm",
+    "title": "Rio Tinto to invest $1 . 9 billion to develop the Kangwinan bauxite project in Western Cape York , Queensland",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69913497-rio-tinto-to-invest-dollar-1-9-billion-to-develop-the-kangwinan-bauxite-project-in-western-cape-york-queensland-004.htm",
     "domain": "finanznachrichten.de",
-    "when": "Oct 22 · 10:30z"
+    "when": "Oct 22 · 22:00z"
    },
    {
-    "title": "LSEG Agrees To Acquire Octus For $3 . 535 Bln",
-    "url": "https://www.rttnews.com/3701583/lseg-agrees-to-acquire-octus-for-3-535-bln.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 22 · 08:45z"
+    "title": "East Northport assisted living facility receives Suffolk IDA tax breaks",
+    "url": "https://www.newsday.com/business/east-northport-assisted-living-h10i8wjw",
+    "domain": "newsday.com",
+    "when": "Oct 22 · 23:00z"
    },
    {
-    "title": "Sonoco Reports Third Quarter 2026 Results",
-    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/sonoco-reportsthird-quarter-2026-results/2451282",
-    "domain": "manilatimes.net",
-    "when": "Oct 21 · 21:30z"
+    "title": "Electric Giants Say They Already Have the Tools to Fix the AI Power Crunch",
+    "url": "https://oilprice.com/Energy/Energy-General/Electric-Giants-Say-They-Already-Have-the-Tools-to-Fix-the-AI-Power-Crunch.html",
+    "domain": "oilprice.com",
+    "when": "Oct 22 · 23:00z"
+   },
+   {
+    "title": "A spoonful of government intervention helps the economic pain go down",
+    "url": "https://www.theglobeandmail.com/business/commentary/article-a-spoonful-of-government-intervention-helps-the-economic-pain-go-down/",
+    "domain": "theglobeandmail.com",
+    "when": "Oct 23 · 00:00z"
+   },
+   {
+    "title": "Boroo signs $100M deal for Yukon Eagle gold mine",
+    "url": "https://www.mining.com/boroo-signs-100m-deal-for-yukon-eagle-gold-mine/",
+    "domain": "mining.com",
+    "when": "Oct 23 · 02:30z"
+   },
+   {
+    "title": "Roxgold ( OTCMKTS : ROGFF ) Stock Price Up 2 % – Here Why",
+    "url": "https://www.dailypolitical.com/2026/10/22/roxgold-otcmktsrogff-stock-price-up-2-heres-why.html",
+    "domain": "dailypolitical.com",
+    "when": "Oct 23 · 05:00z"
+   },
+   {
+    "title": "Joly gives Stelco 15 days to comply with job commitments or face court action",
+    "url": "https://www.simcoereformer.ca/news/joly-gives-stelco-15-days-to-comply-with-job-commitments-or-face-court-action/",
+    "domain": "simcoereformer.ca",
+    "when": "Oct 23 · 00:00z"
+   },
+   {
+    "title": "Mark Cuban sold Broadcast . com to Yahoo for $5 . 7 billion in 1999 ; years later , he launched an online business to challenge prescription drug prices",
+    "url": "https://timesofindia.indiatimes.com/world/us/mark-cuban-sold-broadcast-com-to-yahoo-for-5-7-billion-in-1999-years-later-he-launched-an-online-business-to-challenge-prescription-drug-prices/articleshow/135137175.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Oct 23 · 08:45z"
    }
   ]
  }
