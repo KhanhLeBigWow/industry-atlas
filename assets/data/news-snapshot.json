@@ -1,66 +1,90 @@
 {
- "generated": "2026-11-02 21:04z",
+ "generated": "2026-11-03 18:46z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "Asian Markets Trade Mixed",
-    "url": "https://www.rttnews.com/3703088/asian-markets-trade-mixed.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "And the winner of The Globe stock - picking contest is ... ",
+    "url": "https://www.theglobeandmail.com/investing/article-and-the-winner-of-the-globes-stock-picking-contest-is-nov-2026/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "US consumer sentiment near record low as inflation fears persist",
-    "url": "http://www.myanmarnews.net/news/279395118/us-consumer-sentiment-near-record-low-as-inflation-fears-persist",
-    "domain": "myanmarnews.net",
-    "when": "Oct 27 · 05:15z"
+    "title": "Why AUD / USD Is Facing Its Most Important Test Yet",
+    "url": "https://www.dailyforex.com/forex-technical-analysis/2026/11/audusd-forecast-3-november-2026/251344",
+    "domain": "dailyforex.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "US consumer sentiment stays near record low in October",
-    "url": "http://www.milwaukeesun.com/news/279395118/us-consumer-sentiment-stays-near-record-low-in-october",
-    "domain": "milwaukeesun.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Fifth rate rise adds $107 a month to typical mortgage",
+    "url": "https://www.sbs.com.au/news/podcast-episode/fifth-rate-rise-adds-107-a-month-to-typical-mortgage/2psiw6uv8",
+    "domain": "sbs.com.au",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "RBI steps up liquidity support as tighter cash conditions push up borrowing rates : Report",
-    "url": "http://www.ohiostandard.com/news/279399101/rbi-steps-up-liquidity-support-as-tighter-cash-conditions-push-up-borrowing-rates-report",
-    "domain": "ohiostandard.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "EUR / USD Signal 03 / 11 : Rebound Meets Key Resistance at 1 . 1226",
+    "url": "https://www.dailyforex.com/forex-technical-analysis/2026/11/eurusd-signal-3-november-2026/251357",
+    "domain": "dailyforex.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Sensex falls over 300 points , Nifty slips below 22 , 690 as crude prices hover near USD 115",
-    "url": "http://www.myanmarnews.net/news/279399205/sensex-falls-over-300-points-nifty-slips-below-22690-as-crude-prices-hover-near-usd-115",
-    "domain": "myanmarnews.net",
-    "when": "Oct 27 · 05:15z"
+    "title": "Microsoft $25 Billion Bond Sale for AI Growth - Pragativadi I Latest Odisha News in English I Breaking News",
+    "url": "https://pragativadi.com/microsoft-25-billion-bond-sale-to-fund-innovations/",
+    "domain": "pragativadi.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Australian Market Swings To Modest Gains In Mid - market",
-    "url": "https://www.rttnews.com/3703089/australian-market-swings-to-modest-gains-in-mid-market.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Stock Market Today Live : Gift Nifty points to gap - up opening ; crude oil , US election in focus",
+    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-3-november-2026/article71657258.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 3 · 02:15z"
    },
    {
-    "title": "Brazil Stocks Plunge 13 . 9 % as Fed Week Begins | Global Economy , Oct 27",
-    "url": "https://www.riotimesonline.com/global-economy-briefing-october-27-2026/",
-    "domain": "riotimesonline.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Rising Through the Ranks : A Story of Resilience in Mortgage Leadership – THISDAYLIVE",
+    "url": "https://www.thisdaylive.com/2026/11/03/rising-through-the-ranks-a-story-of-resilience-in-mortgage-leadership/",
+    "domain": "thisdaylive.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
-    "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-    "domain": "theguardian.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Premarket : U . S . stock futures mixed as Apple slides , midterms loom",
+    "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-stocks-slip-as-ai-jitters-us-midterms-keep-investors-on-edge/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Indian Shares Marginally Lower In Early Trade ; IT Stocks Underperform",
-    "url": "https://www.rttnews.com/3703096/indian-shares-marginally-lower-in-early-trade-it-stocks-underperform.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Treasurer urged to rein in spending as rates rise again",
+    "url": "https://www.illawarramercury.com.au/story/9384716/treasurer-urged-to-rein-in-spending-as-rates-rise-again/",
+    "domain": "illawarramercury.com.au",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Anthropic model accessed publicly available Georgia voter data ; no human authorization",
-    "url": "https://wcti12.com/news/nation-world/anthropic-model-accessed-publicly-available-georgia-voter-data-no-human-authorization-artificial-intelligence",
-    "domain": "wcti12.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "newsroomamerica . com",
+    "url": "https://newsroomamerica.com/?before=119284",
+    "domain": "newsroomamerica.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "Trump says US midterms  most important in our lifetime  in last speech before vote",
+    "url": "https://www.abc.net.au/news/2026-11-03/us-midterms-most-important-in-our-lifetime-trump-says/107339402",
+    "domain": "abc.net.au",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "Nonso Okpala : Meet the Oracle of Uga and Nigeria Warren Buffett – THISDAYLIVE",
+    "url": "https://www.thisdaylive.com/2026/11/03/nonso-okpala-meet-the-oracle-of-uga-and-nigerias-warren-buffett/",
+    "domain": "thisdaylive.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Investors ready for possible shake - up in Congress as Election Day arrives",
+    "url": "https://www.theglobeandmail.com/investing/article-investors-ready-for-possible-shake-up-in-congress-as-election-day/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "PM Commonwealth  debt reset  plan after opening door to slavery apology",
+    "url": "https://www.theargus.co.uk/news/national/26692857.pms-commonwealth-debt-reset-plan-opening-door-slavery-apology/",
+    "domain": "theargus.co.uk",
+    "when": "Nov 3 · 02:15z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
@@ -311,34 +335,94 @@
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "Australian Market Swings To Modest Gains In Mid - market",
-    "url": "https://www.rttnews.com/3703089/australian-market-swings-to-modest-gains-in-mid-market.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "ELEKTROS ( OTC : ELEK ) Advances Review of U . S . Lithium Opportunity as Critical Minerals Gain Strategic Attention",
+    "url": "http://www.theusnews.com/news/279408624/elektros-otcelek-advances-review-of-us-lithium-opportunity-as-critical-minerals-gain-strategic-attention",
+    "domain": "theusnews.com",
+    "when": "Nov 3 · 02:15z"
    },
    {
-    "title": "Lula win in Brazil bucks regional shift to right , denies Trump ally",
-    "url": "https://www.sentinelandenterprise.com/2026/10/26/lula-win-brazil-election-regional-holdout/",
-    "domain": "sentinelandenterprise.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "LG Energy Solution Releases 2026 Third - Quarter Financial Results",
+    "url": "https://www.prnewswire.com/news-releases/lg-energy-solution-releases-2026-third-quarter-financial-results-302927133.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 3 · 02:15z"
    },
    {
-    "title": "Liberty Gold ( TSE : LGD ) Stock Jumps 1 . 6 % – Here Why",
-    "url": "https://www.dailypolitical.com/2026/10/26/liberty-gold-tselgd-stock-jumps-1-6-heres-why.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Japan , UNDP Commit $ 3 Million to Greener Mining in Kazakhstan",
+    "url": "https://astanatimes.com/2026/11/japan-undp-commit-3-million-to-greener-mining-in-kazakhstan/",
+    "domain": "astanatimes.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "How Lula turned the tables on the right in Brazil and the US with his comeback presidential victory",
-    "url": "https://www.suncommercial.com/brazil_times/news/national/article_7ef17163-e568-5e3f-a2de-4e9f0104a513.html",
-    "domain": "suncommercial.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "NSCDC Warns Mining Operators Against Operating Without Valid Licences",
+    "url": "https://leadership.ng/nscdc-warns-mining-operators-against-operating-without-valid-licences/",
+    "domain": "leadership.ng",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Australia Ferrero plant celebrates 50 years of Nutella production | Manning River Times",
-    "url": "https://www.manningrivertimes.com.au/story/9380741/australia-ferrero-plant-celebrates-50-years-of-nutella-production/",
-    "domain": "manningrivertimes.com.au",
-    "when": "Oct 27 · 05:15z"
+    "title": "As economics of green transition improve , some investors prioritize pragmatism over values",
+    "url": "https://www.theglobeandmail.com/investing/globe-advisor/advisor-etfs/article-as-economics-of-green-transition-improve-some-investors-prioritize/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "UltraProlink Travel Mate Pro 33 33W GaN universal travel adapter with 3 AC sockets , 2 USB - C ports and USB - A launched",
+    "url": "https://www.fonearena.com/blog/496251/ultraprolink-travel-mate-pro-33-price-features.html",
+    "domain": "fonearena.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Contrasting Euroseas ( NASDAQ : ESEA ) & Diana Shipping ( NYSE : DSX ) ",
+    "url": "https://www.themarketsdaily.com/2026/11/03/contrasting-euroseas-nasdaqesea-diana-shipping-nysedsx.html",
+    "domain": "themarketsdaily.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "SUVIKALP - Mine Repurposing Tool ; Transforming Closed and Abandoned Mines into Productive Assets",
+    "url": "https://orissadiary.com/suvikalp-mine-repurposing-tool-transforming-closed-and-abandoned-mines-into-productive-assets/",
+    "domain": "orissadiary.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Stock Market Today Live : Gift Nifty points to gap - up opening ; crude oil , US election in focus",
+    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-3-november-2026/article71657258.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "Cerro de Pasco Resources Advances Comprehensive Phase 2 Drilling Across the Quiulacocha Tailings Facility",
+    "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/globenewswire/cerro-de-pasco-resources-advances-comprehensive-phase-2-drilling-across-the-quiulacocha-tailings-facility/2460379",
+    "domain": "manilatimes.net",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Velavan Senthilkumar clinches Czech Open 2026 title , beats top seed Greg Lobban in final",
+    "url": "http://www.bangladeshsun.com/news/279409057/velavan-senthilkumar-clinches-czech-open-2026-title-beats-top-seed-greg-lobban-in-final",
+    "domain": "bangladeshsun.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "SK Hynix ramps up SOCAMM2 as material shortages push up PCB prices",
+    "url": "https://www.digitimes.com/news/a20261102VL215/sk-hynix-pcb-production-materials-nvidia.html",
+    "domain": "digitimes.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "  Ive been chased and shot at : Denzel Bentley on trauma , street violence and brutal boxing politics",
+    "url": "https://www.aol.co.uk/articles/ve-chased-shot-denzel-bentley-073041000.html",
+    "domain": "aol.co.uk",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "The Future of Idaho Culture is on the Line this Election",
+    "url": "https://983thesnake.com/ixp/95/p/idaho-must-vote/",
+    "domain": "983thesnake.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Kazakhstan Construction Program Seeks to Boost Growth and Improve Living Standards",
+    "url": "https://astanatimes.com/2026/11/kazakhstans-construction-program-seeks-to-boost-growth-and-improve-living-standards/",
+    "domain": "astanatimes.com",
+    "when": "Nov 3 · 11:15z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -393,88 +477,70 @@
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "RM7bil in Automotive Hi - Tech Valley investments realised , Parliament told",
-    "url": "https://www.thestar.com.my/news/nation/2026/10/27/rm7bil-in-automotive-hi-tech-valley-investments-realised-parliament-told",
+    "title": "Factory job growth hits 5 - year peak as US manufacturing keeps growing in October",
+    "url": "https://wwmt.com/news/nation-world/factory-job-growth-hits-5-year-peak-as-us-manufacturing-keeps-growing-in-october-2026-sp-global-us-manufacturing-pmi-ism-manufacturing-pmi",
+    "domain": "wwmt.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "Explosions rock Iran Qeshm Island as Tehran claims three US drones downed",
+    "url": "https://www.thehindubusinessline.com/news/world/explosions-reported-on-irans-qeshm-island-amid-rising-tensions-with-us/article71659179.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "Businesses still grappling with Brexit red tape and want change , says BCC",
+    "url": "https://www.theargus.co.uk/news/national/26692856.businesses-still-grappling-brexit-red-tape-want-change-says-bcc/",
+    "domain": "theargus.co.uk",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "NASA 1 . 5 Ton Spacecraft Set For Imminent Uncontrolled Reentry",
+    "url": "https://www.zerohedge.com/technology/nasas-15-ton-spacecraft-set-imminent-uncontrolled-reentry",
+    "domain": "zerohedge.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "Workplace Injuries in Silicon Valley : What Employees Should Know About Their Legal Rights",
+    "url": "https://pctechmag.com/2026/11/workplace-injuries-in-silicon-valley-what-employees-should-know-about-their-legal-rights/",
+    "domain": "pctechmag.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Baltimore County Council approves tax break for Anduril shipyard",
+    "url": "https://www.baltimoresun.com/2026/11/03/anduril-submarine-shipyard-baltimore-county/",
+    "domain": "baltimoresun.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "The price of cheaper labour",
+    "url": "https://www.thestar.com.my/news/nation/2026/11/03/the-price-of-cheaper-labour",
     "domain": "thestar.com.my",
-    "when": "Oct 27 · 05:15z"
+    "when": "Nov 3 · 02:15z"
    },
    {
-    "title": "Bodycote ( OTCMKTS : BYPLF ) Shares Down 0 . 8 % – Time to Sell ? ",
-    "url": "https://www.dailypolitical.com/2026/10/26/bodycote-otcmktsbyplf-shares-down-0-8-time-to-sell.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "S - REITs record higher renewal rents despite uneven payouts",
+    "url": "https://sbr.com.sg/commercial-property/news/s-reits-record-higher-renewal-rents-despite-uneven-payouts",
+    "domain": "sbr.com.sg",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Meerut Police Uncovers Illegal Arms Factory , Seizes Pistols",
-    "url": "https://www.rediff.com/news/report/arms-racket-busted-in-meerut-5-nabbed/20261027.htm",
-    "domain": "rediff.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Union Ministry of Health and Family Welfare proposes expansion of authorised Import gateways for Drugs , Medical Devices and Cosmetics",
+    "url": "https://orissadiary.com/union-ministry-of-health-and-family-welfare-proposes-expansion-of-authorised-import-gateways-for-drugs-medical-devices-and-cosmetics/",
+    "domain": "orissadiary.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Australia Ferrero plant celebrates 50 years of Nutella production | Manning River Times",
-    "url": "https://www.manningrivertimes.com.au/story/9380741/australia-ferrero-plant-celebrates-50-years-of-nutella-production/",
-    "domain": "manningrivertimes.com.au",
-    "when": "Oct 27 · 05:15z"
+    "title": "Russia - Ukraine war widens in the Black Sea in a test of NATO red lines",
+    "url": "https://www.channelnewsasia.com/world/russia-ukraine-war-black-sea-nato-6516256",
+    "domain": "channelnewsasia.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Vietnam and Poland target $6 billion in bilateral trade",
-    "url": "https://vir.com.vn/vietnam-and-poland-target-6-billion-in-bilateral-trade-163803.html",
-    "domain": "vir.com.vn",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Australian sunscreen regulation : TGA announces proposed reforms from consultation group",
-    "url": "https://www.theage.com.au/lifestyle/beauty/a-year-after-sunscreen-gate-the-tga-announces-overhaul-of-the-way-spf-products-are-regulated-20261027-p618v8.html",
-    "domain": "theage.com.au",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Europe vs . Elon : 5 ways the EU is trying to squeeze out Musk Starlink – POLITICO",
-    "url": "https://www.politico.eu/article/elon-musk-5-ways-eu-starlink/",
-    "domain": "politico.eu",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Floods : 90 areas in Kedah designated as hotspots",
-    "url": "https://www.thestar.com.my/news/nation/2026/10/27/floods-90-areas-in-kedah-designated-as-hotspots",
-    "domain": "thestar.com.my",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "IranAir to resume B747 Combi ops , A321 will wait - ch - aviation",
-    "url": "https://www.ch-aviation.com/news/173197-iranair-to-resume-b747-combi-ops-a321-will-wait",
-    "domain": "ch-aviation.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Vikings offense will need to step up to continue perfect start",
-    "url": "https://www.yardbarker.com/nfl/articles/vikings_offense_will_need_to_step_up_to_continue_perfect_start/s1_13132_44477741",
-    "domain": "yardbarker.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Who gets paid ? | Bleeding Green Nation",
-    "url": "https://www.bleedinggreennation.com/post/BIcbXU_2-P8z",
-    "domain": "bleedinggreennation.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "China harnesses smart technologies to power transport upgrade",
-    "url": "http://english.anhuinews.com/newscenter/headline/202610/t20261027_9692808.html",
-    "domain": "english.anhuinews.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "WNBA Finals takeaways : Valkyries move one win from first title",
-    "url": "https://www.yardbarker.com/wnba/articles/wnba_finals_takeaways_valkyries_defend_home_court_with_incredible_defensive_effort_move_one_win_from_first_league_title/s1_13132_44478079",
-    "domain": "yardbarker.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Anthropic warns TSMC disruptions could hit AI chip supply , threaten business",
-    "url": "http://www.milwaukeesun.com/news/279399199/anthropic-warns-tsmc-disruptions-could-hit-ai-chip-supply-threaten-business",
-    "domain": "milwaukeesun.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "As economics of green transition improve , some investors prioritize pragmatism over values",
+    "url": "https://www.theglobeandmail.com/investing/globe-advisor/advisor-etfs/article-as-economics-of-green-transition-improve-some-investors-prioritize/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 3 · 11:15z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
@@ -565,88 +631,88 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Anthropic warns TSMC disruptions could hit AI chip supply , threaten business",
-    "url": "http://www.milwaukeesun.com/news/279399199/anthropic-warns-tsmc-disruptions-could-hit-ai-chip-supply-threaten-business",
-    "domain": "milwaukeesun.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Tariff news : Maine Sen . Susan Collins fights backlash",
+    "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/",
+    "domain": "bnnbloomberg.ca",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "US designates three Iranian B747s for Russia flights - ch - aviation",
-    "url": "https://www.ch-aviation.com/news/119687-us-designates-three-iranian-b747s-for-russia-flights",
-    "domain": "ch-aviation.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Americans head to the polls for midterm election referendum on Trump tenure",
+    "url": "https://www.stcatharinesstandard.ca/business/americans-head-to-the-polls-for-midterm-election-referendum-on-trump-s-tenure/article_0afc0a70-bc58-5400-ac96-e1389236f644.html",
+    "domain": "stcatharinesstandard.ca",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "RM7bil in Automotive Hi - Tech Valley investments realised , Parliament told",
-    "url": "https://www.thestar.com.my/news/nation/2026/10/27/rm7bil-in-automotive-hi-tech-valley-investments-realised-parliament-told",
+    "title": "  Screwed either way : Republican senator fights backlash over Trump tariffs in Maine – Brandon Sun",
+    "url": "https://www.brandonsun.com/business/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine",
+    "domain": "brandonsun.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "LG Energy Solution Releases 2026 Third - Quarter Financial Results",
+    "url": "https://www.prnewswire.com/news-releases/lg-energy-solution-releases-2026-third-quarter-financial-results-302927133.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "In the news today : U . S . midterms today , Carney in Antigua , is AI stealing youth jobs ? ",
+    "url": "https://www.stcatharinesstandard.ca/news/canada/in-the-news-today-u-s-midterms-today-carney-in-antigua-is-ai-stealing-youth-jobs/article_67947e99-c468-5e65-bebd-541d4208cbcc.html",
+    "domain": "stcatharinesstandard.ca",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Tariffs : Manufacturers group optimistic about Canada - U . S . trade",
+    "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/progress-on-trade-talks-is-encouraging-says-canadian-industry-group/",
+    "domain": "bnnbloomberg.ca",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Airline data breaches trace back to single vendor failure",
+    "url": "https://www.insurancebusinessmag.com/au/news/cyber/airline-data-breaches-trace-back-to-single-vendor-failure-595929.aspx",
+    "domain": "insurancebusinessmag.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "Apple Record Q4 Revenue India Surges to New Heights - Pragativadi I Latest Odisha News in English I Breaking News",
+    "url": "https://pragativadi.com/apple-record-q4-revenue-india-marks-historic-achievement/",
+    "domain": "pragativadi.com",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "War , tariffs and China : What the US midterms mean for the Asia - Pacific - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+    "url": "https://dominicanrepublicpost.com/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific/",
+    "domain": "dominicanrepublicpost.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "India Semiconductor Sector Boosted by Government Policies : ISIG CEO , ETTelecom",
+    "url": "https://telecom.economictimes.indiatimes.com/news/devices/pm-modis-government-supporting-semiconductor-sector-with-enabling-policies-isig-ceo/135478479",
+    "domain": "telecom.economictimes.indiatimes.com",
+    "when": "Nov 3 · 02:15z"
+   },
+   {
+    "title": "Yum China Board Welcomes New Board Member",
+    "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/yum-china-board-welcomes-new-board-member/2460410",
+    "domain": "manilatimes.net",
+    "when": "Nov 3 · 11:15z"
+   },
+   {
+    "title": "AI scanners need more training",
+    "url": "https://www.thestar.com.my/news/nation/2026/11/03/ai-scanners-need-more-training",
     "domain": "thestar.com.my",
-    "when": "Oct 27 · 05:15z"
+    "when": "Nov 3 · 02:15z"
    },
    {
-    "title": "Washington orders suppliers to axe Iran aircraft contracts - ch - aviation",
-    "url": "https://www.ch-aviation.com/news/67061-washington-orders-suppliers-to-axe-iran-aircraft-contracts",
-    "domain": "ch-aviation.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Brits warned to stockpile after  cyberattack  sees  freezers switched to defrost mode  | News united kingdom ",
+    "url": "https://metro.co.uk/2026/11/03/brits-warned-stockpile-cyberattack-sees-freezers-switched-defrost-mode-29761363/",
+    "domain": "metro.co.uk",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Singapore aims to tighten haze law amid hurdles in gathering evidence , securing cooperation : Minister",
-    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/27/singapore-aims-to-tighten-haze-law-amid-hurdles-in-gathering-evidence-securing-cooperation-minister",
-    "domain": "thestar.com.my",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "IranAir to resume B747 Combi ops , A321 will wait - ch - aviation",
-    "url": "https://www.ch-aviation.com/news/173197-iranair-to-resume-b747-combi-ops-a321-will-wait",
-    "domain": "ch-aviation.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Unfolding the Kashmir Black Day - Pakistan Observer",
-    "url": "https://pakobserver.net/unfolding-the-kashmir-black-day/",
-    "domain": "pakobserver.net",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Europe vs . Elon : 5 ways the EU is trying to squeeze out Musk Starlink – POLITICO",
-    "url": "https://www.politico.eu/article/elon-musk-5-ways-eu-starlink/",
-    "domain": "politico.eu",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI",
-    "url": "http://www.thedailytimes.com/ap/business/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity/article_5dfd4b80-6ce8-5fb9-89d3-5c05dce075a7.html",
-    "domain": "thedailytimes.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Israelis should allow themselves to enjoy Election Day",
-    "url": "http://www.jpost.com/opinion/article-912952",
-    "domain": "jpost.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "SBP raises policy rate to 12 % ",
-    "url": "https://tribune.com.pk/story/2637107/sbp-raises-policy-rate-to-12",
-    "domain": "tribune.com.pk",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Lula win in Brazil bucks regional shift to right , denies Trump ally",
-    "url": "https://www.sentinelandenterprise.com/2026/10/26/lula-win-brazil-election-regional-holdout/",
-    "domain": "sentinelandenterprise.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Man Flew to Texas for the Last Cadillac CT5 - V in the Country , Drove It 1 , 400 Miles Home and Traded His Range Rover for an Escalade the Next Weekend",
-    "url": "https://www.torquenews.com/1/he-flew-texas-last-cadillac-ct5-v-country-drove-it-1400-miles-home-and-traded-his-range-rover",
-    "domain": "torquenews.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Voters in Israel will decide whether to oust Netanyahu after 3 years of war",
-    "url": "https://www.durangoherald.com/articles/associated-press/voters-in-israel-will-decide-whether-to-oust-netanyahu-after-3-years-of-war/",
-    "domain": "durangoherald.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Qualcomm Takes On The AI Inference Memory Bottleneck With Working HBC Silicon , And Its First Data Center Product Is Already Taped Out",
+    "url": "https://wccftech.com/qualcomm-hbc-silicon-ai-inference-memory-bottleneck-data-center-product-taped-out/",
+    "domain": "wccftech.com",
+    "when": "Nov 3 · 02:15z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -679,140 +745,62 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI",
-    "url": "http://www.thedailytimes.com/ap/business/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity/article_5dfd4b80-6ce8-5fb9-89d3-5c05dce075a7.html",
-    "domain": "thedailytimes.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Anthropic warns TSMC disruptions could hit AI chip supply , threaten business",
-    "url": "http://www.milwaukeesun.com/news/279399199/anthropic-warns-tsmc-disruptions-could-hit-ai-chip-supply-threaten-business",
-    "domain": "milwaukeesun.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Anthropic model accessed publicly available Georgia voter data ; no human authorization",
-    "url": "https://wcti12.com/news/nation-world/anthropic-model-accessed-publicly-available-georgia-voter-data-no-human-authorization-artificial-intelligence",
-    "domain": "wcti12.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Risks spelled out for Anthropic investors include possible harms from runaway AI",
-    "url": "https://www.dailygazette.com/ade/ap/business/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/article_af968ebf-46df-5c82-9f59-a8c8c682f722.html",
-    "domain": "dailygazette.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
-    "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-    "domain": "theguardian.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Stock Market Today Live : Gift Nifty points to gap - up opening ; crude oil , US election in focus",
+    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-3-november-2026/article71657258.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 3 · 02:15z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
    {
-    "title": "SBP raises policy rate to 12 % ",
-    "url": "https://tribune.com.pk/story/2637107/sbp-raises-policy-rate-to-12",
-    "domain": "tribune.com.pk",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Finance adviser highlights Pakistan economic gains in first - quarter scorecard",
-    "url": "https://www.pakistantimes.com/finance-adviser-highlights-pakistans-economic-gains-in-first-quarter-scorecard-15851/",
-    "domain": "pakistantimes.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Vinci Compass Investments ( NASDAQ : VINP ) Share Price Crosses Below 200 - Day Moving Average on Insider Selling",
-    "url": "https://www.dailypolitical.com/2026/10/26/vinci-compass-investments-nasdaqvinp-share-price-crosses-below-200-day-moving-average-on-insider-selling.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Head - To - Head Review : Invesco ( IVZ ) vs . Its Rivals",
+    "url": "https://www.themarketsdaily.com/2026/11/03/head-to-head-review-invesco-ivz-vs-its-rivals.html",
+    "domain": "themarketsdaily.com",
+    "when": "Nov 3 · 11:15z"
    }
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
-    "title": "Wereldhave announces the proposed appointment of Mr . Remco Langewouters as Statutory Managing Director and Chief Financial Officer ( CFO ) and convenes EGM",
-    "url": "https://www.manilatimes.net/2026/10/26/tmt-newswire/globenewswire/wereldhave-announces-the-proposed-appointment-of-mr-remco-langewouters-as-statutory-managing-director-and-chief-financial-officer-cfo-and-convenes-egm/2453636",
-    "domain": "manilatimes.net",
-    "when": "Oct 26 · 07:15z"
-   },
-   {
-    "title": "Everspan sells Rhode Island shell carrier to Falvey Insurance Group",
-    "url": "https://www.insurancebusinessmag.com/us/news/mergers-acquisitions/everspan-sells-rhode-island-shell-carrier-to-falvey-insurance-group-594835.aspx",
-    "domain": "insurancebusinessmag.com",
-    "when": "Oct 26 · 07:15z"
-   },
-   {
-    "title": "Jane Fraser Citi Overhaul Faces Its Latest Earnings Test",
-    "url": "https://observer.com/2026/10/jane-fraser-citigroup-restructuring-returns/",
-    "domain": "observer.com",
-    "when": "Oct 26 · 05:00z"
-   },
-   {
-    "title": "Rein in middlemen driving up prescription costs",
-    "url": "https://www.santafenewmexican.com/opinion/my_view/rein-in-middlemen-driving-up-prescription-costs/article_8b620673-c97d-4f95-9cc1-dc6bd8b3b2d4.html",
-    "domain": "santafenewmexican.com",
-    "when": "Oct 26 · 07:15z"
-   },
-   {
-    "title": "Kentucky Could Go From Zero Reactors To America Biggest Nuclear Plant",
-    "url": "http://www.zerohedge.com/energy/kentucky-could-go-zero-reactors-americas-biggest-nuclear-plant",
+    "title": "97 - Year - Old Sues  Toy Story  Star Over 58 % Gold Markups As Bankrupt Dealer Owes Customers $49 Million",
+    "url": "https://www.zerohedge.com/precious-metals/97-year-old-sues-toy-story-star-over-58-gold-markups-bankrupt-dealer-owes-customers",
     "domain": "zerohedge.com",
-    "when": "Oct 26 · 05:00z"
+    "when": "Nov 3 · 02:15z"
    },
    {
-    "title": "NX Group to Participate in 9th China International Import Expo ( CIIE ) ",
-    "url": "https://www.manilatimes.net/2026/10/26/tmt-newswire/pr-newswire/nx-group-to-participate-in-9th-china-international-import-expo-ciie/2453645",
-    "domain": "manilatimes.net",
-    "when": "Oct 26 · 07:15z"
+    "title": "Mercer International Announces Comprehensive Recapitalization Agreement with Significant Support from Noteholders and Shareholders",
+    "url": "https://www.saultstar.com/press-releases/globe-newswire/mercer-international-announces-comprehensive-recapitalization-agreement-with-significant-support-from-noteholders-and-shareholders/",
+    "domain": "saultstar.com",
+    "when": "Nov 3 · 02:15z"
    },
    {
-    "title": "UCU branches plan coordinated fightback to  apocalyptic  job cuts",
-    "url": "https://www.timeshighereducation.com/news/ucu-branches-plan-coordinated-fightback-apocalyptic-job-cuts",
-    "domain": "timeshighereducation.com",
-    "when": "Oct 26 · 05:00z"
+    "title": "Verene A Shepherd | Al Jazeera",
+    "url": "https://www.aljazeera.com/author/verene-a-shepherd",
+    "domain": "aljazeera.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Nokia cuts cash - flow assumption despite 35 % rise in comparable profit",
-    "url": "https://finchannel.com/nokia-cuts-cash-flow-assumption-despite-35-rise-in-comparable-profit/139398/american-business-trends/2026/10/",
-    "domain": "finchannel.com",
-    "when": "Oct 25 · 19:15z"
+    "title": "Races to watch in NYS Legislature",
+    "url": "https://nypost.com/2026/11/03/us-news/races-to-watch-in-nys-legislature/",
+    "domain": "nypost.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Rahul Gandhi Must Move Beyond Attacking Saffron Ideology to Defeat the RSS - BJP Combine",
-    "url": "https://countercurrents.org/2026/10/rahul-gandhi-must-move-beyond-attacking-saffron-ideology-to-defeat-the-rss-bjp-combine/",
-    "domain": "countercurrents.org",
-    "when": "Oct 25 · 18:00z"
+    "title": "Before the Brewers Were Champions , They Were the Seattle",
+    "url": "https://www.americanthinker.com/articles/2026/11/before-the-brewers-were-champions-they-were-the-seattle/",
+    "domain": "americanthinker.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "Lazard ( NYSE : LAZ ) Stock Gets Price Target Trim from Morgan Stanley",
-    "url": "https://www.themarketsdaily.com/2026/10/26/lazard-nyselaz-stock-gets-price-target-trim-from-morgan-stanley.html",
-    "domain": "themarketsdaily.com",
-    "when": "Oct 26 · 07:15z"
+    "title": "Volkswagen sinks to €5 . 9 billion loss as China woes deepen",
+    "url": "http://www.bangladeshsun.com/news/279403489/volkswagen-sinks-to-5-9-billion-loss-as-china-woes-deepen",
+    "domain": "bangladeshsun.com",
+    "when": "Nov 3 · 11:15z"
    },
    {
-    "title": "TOR to be listed on Ghana Stock Exchange – MD tells visiting IMF team",
-    "url": "https://thechronicle.com.gh/tor-to-be-listed-on-ghana-stock-exchange-md-tells-visiting-imf-team/",
-    "domain": "thechronicle.com.gh",
-    "when": "Oct 26 · 07:15z"
-   },
-   {
-    "title": "EU summit in Brussels : European powers intensify war drive against Russia",
-    "url": "https://nuclear-news.net/2026/10/26/6-b1-eu-summit-in-brussels-european-powers-intensify-war-drive-against-russia/",
-    "domain": "nuclear-news.net",
-    "when": "Oct 26 · 07:15z"
-   },
-   {
-    "title": "Periyar Radical Vision and the Unfinished Struggle Against Caste",
-    "url": "https://countercurrents.org/2026/10/periyars-radical-vision-and-the-unfinished-struggle-against-caste/",
-    "domain": "countercurrents.org",
-    "when": "Oct 25 · 18:00z"
-   },
-   {
-    "title": "7 Workforce Planning Platforms for Employers Trying to Raise Productivity Without Overhiring",
-    "url": "https://en.mercopress.com/2026/10/25/7-workforce-planning-platforms-for-employers-trying-to-raise-productivity-without-overhiring",
-    "domain": "en.mercopress.com",
-    "when": "Oct 26 · 05:00z"
+    "title": "ABC , Screen Australia partner to support First Nations screen industry",
+    "url": "https://if.com.au/abc-screen-australia-partner-to-support-first-nations-screen-industry/",
+    "domain": "if.com.au",
+    "when": "Nov 3 · 02:15z"
    }
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
