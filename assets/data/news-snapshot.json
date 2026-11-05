@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04 18:58z",
+ "generated": "2026-11-05 19:05z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -77,88 +77,22 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "India plans stringent digital locks to secure banking data",
-    "url": "https://www.livemint.com/economy/bis-safeguards-for-encryption-keys-banking-financial-data-cyber-security-11793711923718.html",
-    "domain": "livemint.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "China steps up judicial protection of intellectual property",
-    "url": "http://europe.chinadaily.com.cn/a/202611/03/WS6ae9d6c8e4b06d4aa0566d5e.html",
-    "domain": "europe.chinadaily.com.cn",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Apple : 3 Key Takeaways for Long - Term Investors",
-    "url": "https://www.fool.com/earnings/takeaways/2026/11/03/apple-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
+    "title": "Amazon Trades at a Fraction of Costco Valuation . Is the Discount Deserved ? ",
+    "url": "https://www.fool.com/investing/2026/11/05/amazon-trades-at-a-fraction-of-costcos-valuation-i/",
     "domain": "fool.com",
-    "when": "Nov 4 · 01:30z"
+    "when": "Nov 5 · 07:15z"
    },
    {
-    "title": "SEMICON Europa 2026 to Spotlight Advanced Packaging , Fab Management , and Europe Semiconductor Strategy for the AI Era · EMSNow",
-    "url": "https://www.emsnow.com/semicon-europa-2026-to-spotlight-advanced-packaging-fab-management-and-europes-semiconductor-strategy-for-the-ai-era/",
-    "domain": "emsnow.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Maritime security must keep pace with new threats : Rajnath",
+    "url": "https://kashmirreader.com/2026/11/05/maritime-security-must-keep-pace-with-new-threats-rajnath/",
+    "domain": "kashmirreader.com",
+    "when": "Nov 5 · 07:15z"
    },
    {
-    "title": "CrowdStrike to Buy AI Security Startups for $495M",
-    "url": "https://www.govinfosecurity.com/crowdstrike-to-buy-ai-security-startups-for-495m-a-33285",
-    "domain": "govinfosecurity.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Donated Cyber Range Gives Baltimore High Schoolers Hands - On Training",
-    "url": "https://www.govtech.com/education/k-12/donated-cyber-range-gives-baltimore-high-schoolers-hands-on-training",
-    "domain": "govtech.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Election 2026 live results : Democratic Sen . Jon Ossoff projected to win reelection in Georgia",
-    "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085&entryId=137827549",
-    "domain": "abcnews.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Sysco : 3 Key Takeaways for Long - Term Investors",
-    "url": "https://www.fool.com/earnings/takeaways/2026/11/03/sysco-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Japan Investment ‌Corp to sell JSR to Mitsui Chemicals in an over $8 . 20 bn deal : Report",
-    "url": "https://economictimes.indiatimes.com/news/international/business/japan-investment-corp-to-sell-jsr-to-mitsui-chemicals-in-an-over-8-20-bn-deal-report/articleshow/135517154.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "NC 3rd Congressional District : Murphy , Smith face off on Election Day",
-    "url": "https://wcti12.com/news/local/ncs-3rd-congressional-district-murphy-smith-face-off-on-election-day",
-    "domain": "wcti12.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Canva announces layoffs , job changes for about 22 % of workforce",
-    "url": "https://www.straitstimes.com/business/canva-announces-layoffs-job-changes-for-about-22-of-workforce",
-    "domain": "straitstimes.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "European supermarkets rush to patch vulnerabilities after region - wide fridge hack",
-    "url": "https://www.asiaone.com/world/european-supermarkets-rush-patch-vulnerabilities-after-region-wide-fridge-hack",
-    "domain": "asiaone.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Li calls for open , inclusive , dynamic digital innovation",
-    "url": "http://europe.chinadaily.com.cn/a/202611/03/WS6ae9fd4ee4b06d4aa0566dae.html",
-    "domain": "europe.chinadaily.com.cn",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Early Exit Polls Show Voters See Midterms As A Rebuke On Trump Administration",
-    "url": "https://wrak.iheart.com/content/2026-11-03-early-exit-polls-show-voters-see-midterms-as-a-rebuke-on-trump-administration/",
-    "domain": "wrak.iheart.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Asian shares mostly advance following US midterms , though Kospi falls on selling of chipmakers",
+    "url": "https://www.dailygazette.com/leader_herald/ap/business/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/article_49fd62b6-abc8-54bf-aee9-951a9fa82235.html",
+    "domain": "dailygazette.com",
+    "when": "Nov 5 · 07:15z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
@@ -237,88 +171,22 @@
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "JSW Steel flags domestic raw material bottlenecks as India eyes 600 mt capacity",
-    "url": "https://www.livemint.com/companies/news/jsw-steel-flags-domestic-raw-material-bottlenecks-as-india-eyes-600-mt-capacity-11792908254167.html",
-    "domain": "livemint.com",
-    "when": "Oct 25 · 09:30z"
+    "title": "Asian shares mostly advance following US midterms , though Kospi falls on selling of chipmakers",
+    "url": "https://www.dailygazette.com/leader_herald/ap/business/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/article_49fd62b6-abc8-54bf-aee9-951a9fa82235.html",
+    "domain": "dailygazette.com",
+    "when": "Nov 5 · 07:15z"
    },
    {
-    "title": "Indonesia gas cuts : Singapore importer will take  necessary step to protect rights , interests under contract , says PM Wong",
-    "url": "https://www.asiaone.com/singapore/indonesia-gas-cuts-lawrence-wong",
-    "domain": "asiaone.com",
-    "when": "Oct 25 · 08:00z"
+    "title": "EAM Jaishankar meets Australian , united kingdom PMs , discusses bilateral cooperation",
+    "url": "https://ianslive.in/eam-jaishankar-meets-australian-uk-pms-discusses-bilateral-cooperation--20261105105112",
+    "domain": "ianslive.in",
+    "when": "Nov 5 · 07:15z"
    },
    {
-    "title": "Spore expects all parties to honour commitments , says PM Wong after Indonesia cuts gas exports",
-    "url": "https://www.straitstimes.com/singapore/politics/spore-expects-all-parties-to-honour-commitments-says-pm-wong-after-indonesia-cuts-gas-exports",
-    "domain": "straitstimes.com",
-    "when": "Oct 25 · 04:45z"
-   },
-   {
-    "title": "Singapore expects all parties to honour commitments , says PM Wong after Indonesia cuts gas exports",
-    "url": "https://www.businesstimes.com.sg/singapore/singapore-expects-all-parties-honour-commitments-says-pm-wong-after-indonesia-cuts-gas-exports",
-    "domain": "businesstimes.com.sg",
-    "when": "Oct 25 · 03:30z"
-   },
-   {
-    "title": "  Keep calm and carry on : Tan See Leng says Indonesia gas cut unlikely to affect electricity prices for now",
-    "url": "https://www.asiaone.com:443/singapore/indonesia-natural-gas-exports-cuts-prices-tan-see-leng",
-    "domain": "asiaone.com",
-    "when": "Oct 25 · 08:30z"
-   },
-   {
-    "title": "China clean energy achievements accelerate global energy transition , says IEA chief -- China Economic Net",
-    "url": "http://en.ce.cn/main/latest/202610/t20261025_3270466.shtml",
-    "domain": "en.ce.cn",
-    "when": "Oct 25 · 11:00z"
-   },
-   {
-    "title": "Sri Lanka seeks faster green energy shift after oil shocks",
-    "url": "https://arynews.tv/sri-lanka-seeks-faster-green-energy-shift-oil-shocks",
-    "domain": "arynews.tv",
-    "when": "Oct 25 · 11:15z"
-   },
-   {
-    "title": "Sri Lanka seeks faster green energy shift after oil shocks - Breaking News",
-    "url": "https://www.dailymirror.lk/breaking-news/Sri-Lanka-seeks-faster-green-energy-shift-after-oil-shocks/108-353349",
-    "domain": "dailymirror.lk",
-    "when": "Oct 25 · 08:30z"
-   },
-   {
-    "title": "  Keep calm and carry on : Indonesia gas cut unlikely to hit Singapore electricity prices , says Tan See Leng",
-    "url": "https://www.channelnewsasia.com/singapore/electricity-prices-indonesia-gas-supply-cut-tan-see-leng-6490121",
-    "domain": "channelnewsasia.com",
-    "when": "Oct 25 · 09:30z"
-   },
-   {
-    "title": "Presidents Obama And Trump Held Competing Midterm Rallies On The Same Day . They Clashed On Iran . ",
-    "url": "https://www.ibtimes.com/presidents-obama-trump-held-competing-midterm-rallies-same-day-they-clashed-iran-3808966",
-    "domain": "ibtimes.com",
-    "when": "Oct 25 · 12:45z"
-   },
-   {
-    "title": "  American Nostradamu warns humanity doomed by 2028 as Trump tipped to trigger WW3",
-    "url": "https://www.dailystar.co.uk/news/latest-news/american-nostradamus-warns-humanity-doomed-37807594",
-    "domain": "dailystar.co.uk",
-    "when": "Oct 24 · 22:00z"
-   },
-   {
-    "title": "Obama Blasts Trump on Iran Conflict , Higher Prices While Stumping for Democrats - Latest News In Nigeria , Nigeria News Today , Your Online Nigerian Newspaper",
-    "url": "https://www.nigerianeye.com/2026/10/obama-blasts-trump-on-iran-conflict.html",
-    "domain": "nigerianeye.com",
-    "when": "Oct 25 · 11:15z"
-   },
-   {
-    "title": "Saipem ( OTCMKTS : SAPMF ) Sees Strong Trading Volume – Should You Buy ? ",
-    "url": "https://www.tickerreport.com/banking-finance/13635268/saipem-otcmktssapmf-sees-strong-trading-volume-should-you-buy.html",
-    "domain": "tickerreport.com",
-    "when": "Oct 24 · 15:45z"
-   },
-   {
-    "title": "Obama blasts Trump  chaos and cruelty  while campaigning for Democrats",
-    "url": "https://www.standardmedia.co.ke/america/article/2001560822/obama-blasts-trumps-chaos-and-cruelty-while-campaigning-for-democrats",
-    "domain": "standardmedia.co.ke",
-    "when": "Oct 25 · 09:30z"
+    "title": "2028 election season begins as parties navigate midterm fallout",
+    "url": "https://www.mynbc5.com/article/2028-presidential-election-season-underway/74339778",
+    "domain": "mynbc5.com",
+    "when": "Nov 5 · 07:15z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
@@ -527,88 +395,16 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Roots ( TSE : ROOT ) Shares Up 0 . 2 % – What Next ? ",
-    "url": "https://www.dailypolitical.com/2026/10/26/roots-tseroot-shares-up-0-2-whats-next.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Amazon Trades at a Fraction of Costco Valuation . Is the Discount Deserved ? ",
+    "url": "https://www.fool.com/investing/2026/11/05/amazon-trades-at-a-fraction-of-costcos-valuation-i/",
+    "domain": "fool.com",
+    "when": "Nov 5 · 07:15z"
    },
    {
-    "title": "Reviewing Phunware ( NASDAQ : PHUN ) & NCR Voyix ( NYSE : VYX ) ",
-    "url": "https://www.dailypolitical.com/2026/10/26/reviewing-phunware-nasdaqphun-ncr-voyix-nysevyx.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "TASMAC Digital Payments : New Rules For Liquor Sales In Tamil Nadu",
-    "url": "https://www.rediff.com/news/report/tasmac-digital-payments-mandatory-for-liquor-sales-over-rs-1000/20261027.htm",
-    "domain": "rediff.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "InHand Networks Brings 5G and Wi - Fi 7 to Outdoor Commercial Venues with the ODU12 AI - Native Router",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69941472-inhand-networks-brings-5g-and-wi-fi-7-to-outdoor-commercial-venues-with-the-odu12-ai-native-router-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "2026 Best of Santa Barbara® Driving",
-    "url": "https://www.independent.com/2026/10/21/2026-best-of-santa-barbara-driving/",
-    "domain": "independent.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Wannabe cartel hitman allegedly knifed Mesa clerk while trying to steal gun he needed to commit 5 murders",
-    "url": "https://www.fox10phoenix.com/news/wannabe-cartel-hitman-allegedly-knifed-mesa-clerk-while-trying-steal-gun-commit-5-murders",
-    "domain": "fox10phoenix.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "US consumer sentiment near record low as inflation fears persist",
-    "url": "http://www.myanmarnews.net/news/279395118/us-consumer-sentiment-near-record-low-as-inflation-fears-persist",
-    "domain": "myanmarnews.net",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "US consumer sentiment stays near record low in October",
-    "url": "http://www.milwaukeesun.com/news/279395118/us-consumer-sentiment-stays-near-record-low-in-october",
-    "domain": "milwaukeesun.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Mayor Williams Backs Rep . Helton - Haynes - Chattanoogan . com",
-    "url": "https://www.chattanoogan.com/2026/10/26/525264/Mayor-Williams-Backs-Rep.-Helton-Haynes.aspx",
-    "domain": "chattanoogan.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "UBA Targets Single - use Plastics , Poor Waste Habits In Group - wide Climate Campaign",
-    "url": "https://leadership.ng/uba-targets-single-use-plastics-poor-waste-habits-in-group-wide-climate-campaign/",
-    "domain": "leadership.ng",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Rick Steves Scandinavia",
-    "url": "https://www.hachettebookgroup.com/titles/rick-steves/rick-steves-scandinavia/9781641717175/",
-    "domain": "hachettebookgroup.com",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Vua Nem  s profit jumps 127 per cent in first nine months of 2026",
-    "url": "https://vir.com.vn/vua-nems-profit-jumps-127-per-cent-in-first-nine-months-of-2026-163724.html",
-    "domain": "vir.com.vn",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "SBP raises policy rate to 12 % ",
-    "url": "https://tribune.com.pk/story/2637107/sbp-raises-policy-rate-to-12",
-    "domain": "tribune.com.pk",
-    "when": "Oct 27 · 05:15z"
-   },
-   {
-    "title": "Why Renting a Rolls - Royce is the Ultimate Way to Experience Los Angeles in Style",
-    "url": "https://www.luxurytravelmagazine.com/news-articles/why-renting-a-rolls-royce-is-the-ultimate-way-to-experience-los-angeles-in-style",
-    "domain": "luxurytravelmagazine.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "5380 1A AVENUE , Delta $3 , 258 , 000",
+    "url": "https://www.bchomez.com/property/5380-1a-avenue/R3181413",
+    "domain": "bchomez.com",
+    "when": "Nov 5 · 07:15z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
