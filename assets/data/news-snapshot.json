@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05 19:05z",
+ "generated": "2026-11-06 18:29z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -171,84 +171,186 @@
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Asian shares mostly advance following US midterms , though Kospi falls on selling of chipmakers",
-    "url": "https://www.dailygazette.com/leader_herald/ap/business/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/article_49fd62b6-abc8-54bf-aee9-951a9fa82235.html",
-    "domain": "dailygazette.com",
-    "when": "Nov 5 · 07:15z"
+    "title": "Bangkok Post - Analysts propose cleaner power development plan",
+    "url": "https://www.bangkokpost.com/business/general/3349590/analysts-propose-cleaner-power-development-plan",
+    "domain": "bangkokpost.com",
+    "when": "Nov 5 · 23:30z"
    },
    {
-    "title": "EAM Jaishankar meets Australian , united kingdom PMs , discusses bilateral cooperation",
-    "url": "https://ianslive.in/eam-jaishankar-meets-australian-uk-pms-discusses-bilateral-cooperation--20261105105112",
-    "domain": "ianslive.in",
-    "when": "Nov 5 · 07:15z"
+    "title": "Ameren Announces Third Quarter 2026 Results",
+    "url": "https://www.prnewswire.com/news-releases/ameren-announces-third-quarter-2026-results-302931351.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 5 · 22:00z"
    },
    {
-    "title": "2028 election season begins as parties navigate midterm fallout",
-    "url": "https://www.mynbc5.com/article/2028-presidential-election-season-underway/74339778",
-    "domain": "mynbc5.com",
-    "when": "Nov 5 · 07:15z"
+    "title": "AZ Corporation Commission race too close to call , but Republican candidates have already conceded",
+    "url": "https://www.kjzz.org/elections/2026-11-05/az-corporation-commission-race-too-close-to-call-but-republican-candidates-have-already-conceded-elex",
+    "domain": "kjzz.org",
+    "when": "Nov 6 · 06:30z"
+   },
+   {
+    "title": "Turkey Unveils $500 Billion Energy Plan Built on Gas , Solar , Nuclear  | Peak Oil News and Message Boards",
+    "url": "https://peakoil.com/publicpolicy/turkey-unveils-500-billion-energy-plan-built-on-gas-solar-nuclear",
+    "domain": "peakoil.com",
+    "when": "Nov 6 · 08:30z"
+   },
+   {
+    "title": "Global renewable capacity to rise by nearly 4 , 800 GW by 2031 - IEA",
+    "url": "https://www.trend.az/world/4243682.html",
+    "domain": "trend.az",
+    "when": "Nov 6 · 09:30z"
+   },
+   {
+    "title": "Lagos summons power operators over erratic electricity suppl",
+    "url": "https://punchng.com/lagos-summons-power-operators-over-erratic-electricity-supply/",
+    "domain": "punchng.com",
+    "when": "Nov 6 · 02:00z"
+   },
+   {
+    "title": "Power generation fell 5 . 2 % in September as consumption kept rising",
+    "url": "https://www.timeslive.co.za/news/2026-11-06-power-generation-fell-52-in-september-as-consumption-kept-rising/",
+    "domain": "timeslive.co.za",
+    "when": "Nov 6 · 08:00z"
+   },
+   {
+    "title": "Kazakhstan role in global energy market grows - S & P Global vice chairman",
+    "url": "https://www.trend.az/casia/kazakhstan/4243823.html",
+    "domain": "trend.az",
+    "when": "Nov 6 · 12:00z"
+   },
+   {
+    "title": "Oil price today : Brent , WTI",
+    "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+    "domain": "cnbc.com",
+    "when": "Nov 6 · 06:00z"
+   },
+   {
+    "title": "New Mexico led Mountain West in windfall linked to energy development on public lands",
+    "url": "https://knpr.org/2026-11-05/new-mexico-mountain-west-windfall-energy-public-lands",
+    "domain": "knpr.org",
+    "when": "Nov 6 · 01:00z"
+   },
+   {
+    "title": "Anaerobic Digestion Provides Energy And Revenue Opportunities At US Water Resource Recovery Facilities",
+    "url": "https://www.wateronline.com/doc/anaerobic-digestion-provides-energy-and-revenue-opportunities-at-u-s-water-resource-recovery-facilities-0001",
+    "domain": "wateronline.com",
+    "when": "Nov 6 · 07:30z"
+   },
+   {
+    "title": "In a divided world , COP31 aims for agreement on electrification",
+    "url": "https://economictimes.indiatimes.com/small-biz/sustainability/in-a-divided-world-cop31-aims-for-agreement-on-electrification/articleshow/135591319.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 6 · 04:00z"
+   },
+   {
+    "title": "UAE Business : Oil surges towards $100 as fresh tanker attacks threaten Hormuz shipping",
+    "url": "https://www.gdnonline.com:443/Details/1412042/Oil-surges-towards-$100-as-fresh-tanker-attacks-threaten-Hormuz-shipping",
+    "domain": "gdnonline.com",
+    "when": "Nov 6 · 05:00z"
+   },
+   {
+    "title": "Energy transition to run gradually with renewable energy focus : DEN",
+    "url": "https://en.antaranews.com/news/440835/energy-transition-to-run-gradually-with-renewable-energy-focus-den",
+    "domain": "en.antaranews.com",
+    "when": "Nov 6 · 12:00z"
+   },
+   {
+    "title": "JPS and NIC complete Amity Hall Solar Project , setting a model for powering Jamaica agricultural growth",
+    "url": "https://www.jamaicaobserver.com/2026/11/05/jps-nic-complete-amity-hall-solar-project-setting-model-powering-jamaicas-agricultural-growth/",
+    "domain": "jamaicaobserver.com",
+    "when": "Nov 6 · 01:00z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "Could America Next Critical - Minerals Opportunity Be Taking Shape ? ... ",
-    "url": "https://www.pr-inside.com/could-america-s-next-critical-minerals-opportunity-be-taking-shape-r5240339.htm",
-    "domain": "pr-inside.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Govt Launches 9th Critical Minerals Auction With 20 Blocks",
+    "url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks",
+    "domain": "freepressjournal.in",
+    "when": "Nov 6 · 13:00z"
    },
    {
-    "title": "Ivanhoe Mines Issues 2026 Third - Quarter Financial Results , Overview of Operations and Exploration Activities",
-    "url": "https://www.elliotlakestandard.ca/press-releases/newsfile/ivanhoe-mines-issues-2026-third-quarter-financial-results-overview-of-operations-and-exploration-activities/",
-    "domain": "elliotlakestandard.ca",
-    "when": "Nov 4 · 01:30z"
+    "title": "Abubakar Malami And The Northwest Regional Campaign Manifesto ( Part 6 ) - By Hajia Hadiza Mohammed",
+    "url": "https://www.opinionnigeria.com/abubakar-malami-and-the-northwest-regional-campaign-manifesto-part-6-by-hajia-hadiza-mohammed/",
+    "domain": "opinionnigeria.com",
+    "when": "Nov 6 · 06:30z"
    },
    {
-    "title": "Triple Flag Announces Strong Growth in Operating Cash Flow per Share in Q3 2026",
-    "url": "https://www.elliotlakestandard.ca/press-releases/business-wire/triple-flag-announces-strong-growth-in-operating-cash-flow-per-share-in-q3-2026/",
-    "domain": "elliotlakestandard.ca",
-    "when": "Nov 4 · 01:30z"
+    "title": "America Rare Earth Reckoning Is Less Than 60 Days Away",
+    "url": "https://oilprice.com/Energy/Energy-General/Americas-Rare-Earth-Reckoning-Is-Less-Than-60-Days-Away.html",
+    "domain": "oilprice.com",
+    "when": "Nov 6 · 05:30z"
    },
    {
-    "title": "Verizon to Keep Copper Landlines for Some Customers in These 9 States",
-    "url": "https://www.pcmag.com/news/verizon-to-keep-copper-landlines-for-some-customers-in-these-9-states",
-    "domain": "pcmag.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Chile plans for copper , lithium and critical minerals : Q & A with the Mining Ministry",
+    "url": "https://www.mining-technology.com/features/chiles-plans-for-copper-lithium-and-critical-minerals-qa-with-the-mining-ministry/",
+    "domain": "mining-technology.com",
+    "when": "Nov 6 · 09:30z"
    },
    {
-    "title": "Indus Towers eyes 100K solar sites by FY29 , says MD & CEO Prachur Sah",
-    "url": "https://www.business-standard.com/companies/people/indus-towers-targets-100-000-solar-installations-by-fy29-md-ceo-126110301846_1.html",
-    "domain": "business-standard.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Iron Ore Futures Fall 1 . 8 % as China Mills Hold Back",
+    "url": "https://www.riotimesonline.com/iron-ore-markets-latam-thursday-november-5-2026/",
+    "domain": "riotimesonline.com",
+    "when": "Nov 6 · 02:00z"
    },
    {
-    "title": "Counter dining offers an immersive culinary experience",
-    "url": "http://europe.chinadaily.com.cn/a/202611/04/WS6aea7104e4b06d4aa0566e19.html",
-    "domain": "europe.chinadaily.com.cn",
-    "when": "Nov 4 · 01:30z"
+    "title": "Rio Tinto approves $144m for copper project in Arizona , US",
+    "url": "https://www.mining-technology.com/news/rio-tinto-144m-copper-project-arizona/",
+    "domain": "mining-technology.com",
+    "when": "Nov 6 · 09:30z"
    },
    {
-    "title": "Readout - Prime Minister Carney meets with President of Ghana John Dramani Mahama",
-    "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/readout-prime-minister-carney-meets-with-president-of-ghana-john-dramani-mahama/",
-    "domain": "brantfordexpositor.ca",
-    "when": "Nov 4 · 01:30z"
+    "title": "Ammonia - Powered Bulk Carrier Takes on Green Fuel in Australian First",
+    "url": "https://gcaptain.com/ammonia-powered-bulk-carrier-takes-on-green-fuel-in-australian-first/",
+    "domain": "gcaptain.com",
+    "when": "Nov 6 · 01:00z"
    },
    {
-    "title": "Triple Flag Declares Q4 2026 Dividend of US$0 . 06",
-    "url": "https://www.elliotlakestandard.ca/press-releases/business-wire/triple-flag-declares-q4-2026-dividend-of-us0-06/",
-    "domain": "elliotlakestandard.ca",
-    "when": "Nov 4 · 01:30z"
+    "title": "Eastport Critical Metals Corp .: Eastport Uncovers Multiple Trenches Extending over a Length of 12km with Copper Mineralisation at Copper Snake",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70059054-eastport-critical-metals-corp-eastport-uncovers-multiple-trenches-extending-over-a-length-of-12km-with-copper-mineralisation-at-copper-snake-296.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Nov 6 · 12:30z"
    },
    {
-    "title": "Alaska election shenanigans date back to territorial days",
-    "url": "http://www.sitkasentinel.com/premium/stories/alaska-election-shenanigans-date-back-to-territorial-days,183617",
-    "domain": "sitkasentinel.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "USW reaches labor contract agreement with Cleveland - Cliffs Inc . ",
+    "url": "https://www.mesabitribune.com/news/local/usw-reaches-labor-contract-agreement-with-cleveland-cliffs-inc/article_840e5ccc-bbe3-4bae-9832-df7c01c47cf3.html",
+    "domain": "mesabitribune.com",
+    "when": "Nov 6 · 00:30z"
    },
    {
-    "title": "Suncor Energy reports third quarter 2026 results",
-    "url": "https://www.elliotlakestandard.ca/press-releases/newsfile/suncor-energy-reports-third-quarter-2026-results/",
-    "domain": "elliotlakestandard.ca",
-    "when": "Nov 4 · 01:30z"
+    "title": "Govt launches 9th round of critical mineral auctions , 20 blocks across 8 states put up for bidding",
+    "url": "http://www.calcuttanews.net/news/279415563/govt-launches-9th-round-of-critical-mineral-auctions-20-blocks-across-8-states-put-up-for-bidding",
+    "domain": "calcuttanews.net",
+    "when": "Nov 6 · 08:00z"
+   },
+   {
+    "title": "Analysis - Lula election win dashes US hopes of quick access to Brazil rare earths",
+    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/06/analysis-lula-s-election-win-dashes-us-hopes-of-quick-access-to-brazil-s-rare-earths",
+    "domain": "internazionale.it",
+    "when": "Nov 6 · 03:00z"
+   },
+   {
+    "title": "India Finished Steel Consumption Nears 100 Mt in Seven Months ( April - October 2026 ) | Odisha Diary , Latest Odisha News , Breaking News Odisha",
+    "url": "https://orissadiary.com/indias-finished-steel-consumption-nears-100-mt-in-seven-months-april-october-2026/",
+    "domain": "orissadiary.com",
+    "when": "Nov 6 · 09:00z"
+   },
+   {
+    "title": "CAPEX Support Scheme to Promote Critical Mineral Processing",
+    "url": "https://orissadiary.com/capex-support-scheme-to-promote-critical-mineral-processing/",
+    "domain": "orissadiary.com",
+    "when": "Nov 6 · 09:00z"
+   },
+   {
+    "title": "From Defence to Mining : Airbotix Deploys India First Aerostat Surveillance Complex",
+    "url": "https://idrw.org/airbotix-india-first-aerostat-surveillance-iron-ore-mine/",
+    "domain": "idrw.org",
+    "when": "Nov 6 · 08:00z"
+   },
+   {
+    "title": "Vale ( NYSE : VALE ) Stock Gets Price Target Cut from Wells Fargo & Company",
+    "url": "https://www.tickerreport.com/banking-finance/13651931/vale-nysevale-stock-gets-price-target-cut-from-wells-fargo-company.html",
+    "domain": "tickerreport.com",
+    "when": "Nov 6 · 08:00z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -395,102 +497,174 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Amazon Trades at a Fraction of Costco Valuation . Is the Discount Deserved ? ",
-    "url": "https://www.fool.com/investing/2026/11/05/amazon-trades-at-a-fraction-of-costcos-valuation-i/",
-    "domain": "fool.com",
-    "when": "Nov 5 · 07:15z"
+    "title": "Cruise tourism : ESEE and CLIA seeking to increase local economic benefits",
+    "url": "https://www.naftemporiki.gr/english/2185333/cruise-tourism-esee-and-clia-seeking-to-increase-local-economic-benefits/",
+    "domain": "naftemporiki.gr",
+    "when": "Nov 6 · 09:30z"
    },
    {
-    "title": "5380 1A AVENUE , Delta $3 , 258 , 000",
-    "url": "https://www.bchomez.com/property/5380-1a-avenue/R3181413",
-    "domain": "bchomez.com",
-    "when": "Nov 5 · 07:15z"
+    "title": "Festive Decor Turns DLF Malls Into Destinations as Families Embrace the Season of Celebration",
+    "url": "https://news.webindia123.com/news/Articles/Business/20261106/4516746.html",
+    "domain": "news.webindia123.com",
+    "when": "Nov 6 · 12:30z"
+   },
+   {
+    "title": "InsMelo Makes AI - Powered Music Creation More Accessible",
+    "url": "https://www.openpr.com/news/4683743/insmelo-makes-ai-powered-music-creation-more-accessible",
+    "domain": "openpr.com",
+    "when": "Nov 6 · 11:00z"
+   },
+   {
+    "title": "PYMNTS | Walmart Adds 300 Sites to Drone Delivery Network",
+    "url": "https://www.pymnts.com/news/delivery/2026/walmart-adds-300-sites-drone-delivery-network/",
+    "domain": "pymnts.com",
+    "when": "Nov 6 · 01:00z"
+   },
+   {
+    "title": "17 Things That Take Up Far Less of American Budgets Than They Used To",
+    "url": "https://www.aol.com/articles/17-things-far-less-americans-110000000.html",
+    "domain": "aol.com",
+    "when": "Nov 6 · 11:30z"
+   },
+   {
+    "title": "David Konckier , owner of Bogart Group , completes acquisition of Marionnaud",
+    "url": "https://www.premiumbeautynews.com/en/david-konckier-owner-of-bogart,28483",
+    "domain": "premiumbeautynews.com",
+    "when": "Nov 6 · 02:00z"
+   },
+   {
+    "title": "The Biggest Stock Winners and Losers From the Midterm Elections",
+    "url": "https://www.fool.com/investing/2026/11/06/biggest-stock-winners-losers-midterm-election/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Nov 6 · 09:30z"
+   },
+   {
+    "title": "Residences at the Stoneleigh Celebrates Forbes Travel Guide VERIFIED™ Luxury Residences Recognition",
+    "url": "https://www.prnewswire.com/news-releases/residences-at-the-stoneleigh-celebrates-forbes-travel-guide-verified-luxury-residences-recognition-302931219.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 5 · 22:00z"
+   },
+   {
+    "title": "Monster : 3 Key Takeaways for Long - Term Investors",
+    "url": "https://www.fool.com/earnings/takeaways/2026/11/06/monster-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Nov 6 · 11:00z"
+   },
+   {
+    "title": "Retail growth to cool as haze and costs hit shoppers",
+    "url": "https://sbr.com.sg/retail/in-focus/retail-growth-cool-haze-and-costs-hit-shoppers",
+    "domain": "sbr.com.sg",
+    "when": "Nov 6 · 01:30z"
+   },
+   {
+    "title": "Honey Birdette sales jump 12 . 1 % in Q3",
+    "url": "https://www.ragtrader.com.au/news/honey-birdette-sales-jump-12-1-in-q3",
+    "domain": "ragtrader.com.au",
+    "when": "Nov 6 · 05:30z"
+   },
+   {
+    "title": "Do we need department stores ? ",
+    "url": "https://www.odt.co.nz/business/do-we-need-department-stores-q7aiwo77",
+    "domain": "odt.co.nz",
+    "when": "Nov 6 · 05:30z"
+   },
+   {
+    "title": "South African retailer TFG profit drops on weak overseas trade",
+    "url": "https://www.cnbcafrica.com/2026/south-african-retailer-tfg-posts-6-8-drop-in-half-year-profit",
+    "domain": "cnbcafrica.com",
+    "when": "Nov 6 · 08:30z"
+   },
+   {
+    "title": "IAB Ireland Announces Full Connect H2 Speaker Line - Up",
+    "url": "https://www.adworld.ie/2026/11/06/iab-ireland-announces-full-connect-h2-speaker-line-up/",
+    "domain": "adworld.ie",
+    "when": "Nov 6 · 11:00z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Tariff news : Maine Sen . Susan Collins fights backlash",
-    "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/",
-    "domain": "bnnbloomberg.ca",
-    "when": "Nov 3 · 11:15z"
+    "title": "Trump must restore  smart populism  and save his presidency",
+    "url": "https://nypost.com/2026/11/05/opinion/trump-must-restore-smart-populism-and-save-his-presidency/",
+    "domain": "nypost.com",
+    "when": "Nov 6 · 03:30z"
    },
    {
-    "title": "Americans head to the polls for midterm election referendum on Trump tenure",
-    "url": "https://www.stcatharinesstandard.ca/business/americans-head-to-the-polls-for-midterm-election-referendum-on-trump-s-tenure/article_0afc0a70-bc58-5400-ac96-e1389236f644.html",
+    "title": "This budget should really include a note of thanks to Trump",
+    "url": "https://www.stcatharinesstandard.ca/rolling-file/this-budget-should-really-include-a-note-of-thanks-to-trump/article_839de5a6-c8e8-5277-9b2e-460b45a5f82f.html",
     "domain": "stcatharinesstandard.ca",
-    "when": "Nov 3 · 11:15z"
+    "when": "Nov 6 · 00:30z"
    },
    {
-    "title": "  Screwed either way : Republican senator fights backlash over Trump tariffs in Maine – Brandon Sun",
-    "url": "https://www.brandonsun.com/business/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine",
-    "domain": "brandonsun.com",
-    "when": "Nov 3 · 11:15z"
+    "title": "A new political balance in Washington",
+    "url": "https://www.thehindu.com/news/international/a-new-political-balance-in-washington/article71669743.ece",
+    "domain": "thehindu.com",
+    "when": "Nov 6 · 03:30z"
    },
    {
-    "title": "LG Energy Solution Releases 2026 Third - Quarter Financial Results",
-    "url": "https://www.prnewswire.com/news-releases/lg-energy-solution-releases-2026-third-quarter-financial-results-302927133.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 3 · 02:15z"
+    "title": "Analysis - Lula election win dashes US hopes of quick access to Brazil rare earths",
+    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/06/analysis-lula-s-election-win-dashes-us-hopes-of-quick-access-to-brazil-s-rare-earths",
+    "domain": "internazionale.it",
+    "when": "Nov 6 · 03:00z"
    },
    {
-    "title": "In the news today : U . S . midterms today , Carney in Antigua , is AI stealing youth jobs ? ",
-    "url": "https://www.stcatharinesstandard.ca/news/canada/in-the-news-today-u-s-midterms-today-carney-in-antigua-is-ai-stealing-youth-jobs/article_67947e99-c468-5e65-bebd-541d4208cbcc.html",
-    "domain": "stcatharinesstandard.ca",
-    "when": "Nov 3 · 11:15z"
+    "title": "Democrats Plan Strategy to Eliminate Trump Canada Tariffs",
+    "url": "https://theconservativetreehouse.com/blog/2026/11/06/democrats-plan-strategy-to-eliminate-trumps-canada-tariffs/",
+    "domain": "theconservativetreehouse.com",
+    "when": "Nov 6 · 11:00z"
    },
    {
-    "title": "Tariffs : Manufacturers group optimistic about Canada - U . S . trade",
-    "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/progress-on-trade-talks-is-encouraging-says-canadian-industry-group/",
-    "domain": "bnnbloomberg.ca",
-    "when": "Nov 3 · 11:15z"
+    "title": "Petrol and diesel prices today , November 6 : Check fuel cost in Delhi , Mumbai , Bengaluru",
+    "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-november-6-check-fuel-cost-in-delhi-mumbai-bengaluru-11793929672121.html",
+    "domain": "livemint.com",
+    "when": "Nov 6 · 03:30z"
    },
    {
-    "title": "Airline data breaches trace back to single vendor failure",
-    "url": "https://www.insurancebusinessmag.com/au/news/cyber/airline-data-breaches-trace-back-to-single-vendor-failure-595929.aspx",
-    "domain": "insurancebusinessmag.com",
-    "when": "Nov 3 · 11:15z"
+    "title": "I - T dept flags gaps in foreign investor tax identification numbers , seeks changes in account - opening rules",
+    "url": "https://www.livemint.com/money/it-dept-flags-gaps-in-foreign-investors-tax-identification-numbers-seeks-changes-in-account-opening-rules-11793958605146.html",
+    "domain": "livemint.com",
+    "when": "Nov 6 · 12:00z"
    },
    {
-    "title": "Apple Record Q4 Revenue India Surges to New Heights - Pragativadi I Latest Odisha News in English I Breaking News",
-    "url": "https://pragativadi.com/apple-record-q4-revenue-india-marks-historic-achievement/",
-    "domain": "pragativadi.com",
-    "when": "Nov 3 · 11:15z"
+    "title": "US escalates economic campaign against Cuba and targets China - based suppliers",
+    "url": "https://abcnews.com/Politics/wireStory/us-escalates-economic-campaign-cuba-targets-china-based-137890475",
+    "domain": "abcnews.com",
+    "when": "Nov 5 · 23:30z"
    },
    {
-    "title": "War , tariffs and China : What the US midterms mean for the Asia - Pacific - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-    "url": "https://dominicanrepublicpost.com/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific/",
-    "domain": "dominicanrepublicpost.com",
-    "when": "Nov 3 · 02:15z"
+    "title": "Democrat midterm win could reverse global risk mood , support Indian market : Abhay Agarwal",
+    "url": "https://www.businesstoday.in/markets/stocks/story/democrats-midterm-win-could-reverse-global-risk-mood-support-indian-market-abhay-agarwal-566145-2026-11-06",
+    "domain": "businesstoday.in",
+    "when": "Nov 6 · 09:30z"
    },
    {
-    "title": "India Semiconductor Sector Boosted by Government Policies : ISIG CEO , ETTelecom",
-    "url": "https://telecom.economictimes.indiatimes.com/news/devices/pm-modis-government-supporting-semiconductor-sector-with-enabling-policies-isig-ceo/135478479",
-    "domain": "telecom.economictimes.indiatimes.com",
-    "when": "Nov 3 · 02:15z"
+    "title": "Decoding Energy Density : The Unseen Architecture of Industrial and Geopolitical Power",
+    "url": "https://www.newscentralasia.net/2026/11/06/decoding-energy-density-the-unseen-architecture-of-industrial-and-geopolitical-power/",
+    "domain": "newscentralasia.net",
+    "when": "Nov 6 · 08:30z"
    },
    {
-    "title": "Yum China Board Welcomes New Board Member",
-    "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/yum-china-board-welcomes-new-board-member/2460410",
-    "domain": "manilatimes.net",
-    "when": "Nov 3 · 11:15z"
+    "title": "U . S .- Canada trade war squeezes craft brewers",
+    "url": "https://www.latimes.com/business/story/2026-11-05/u-s-canada-trade-war-squeezes-craft-brewers",
+    "domain": "latimes.com",
+    "when": "Nov 5 · 23:30z"
    },
    {
-    "title": "AI scanners need more training",
-    "url": "https://www.thestar.com.my/news/nation/2026/11/03/ai-scanners-need-more-training",
-    "domain": "thestar.com.my",
-    "when": "Nov 3 · 02:15z"
+    "title": "Canada new budget targets affordability , sovereignty",
+    "url": "https://aa.com.tr/en/economy/canada-s-new-budget-targets-affordability-sovereignty/4113562",
+    "domain": "aa.com.tr",
+    "when": "Nov 6 · 07:30z"
    },
    {
-    "title": "Brits warned to stockpile after  cyberattack  sees  freezers switched to defrost mode  | News united kingdom ",
-    "url": "https://metro.co.uk/2026/11/03/brits-warned-stockpile-cyberattack-sees-freezers-switched-defrost-mode-29761363/",
-    "domain": "metro.co.uk",
-    "when": "Nov 3 · 11:15z"
+    "title": "No , Republicans Didnt Lose the Midterms Because of the Iran War or Trump Promise of  No New Wars  ",
+    "url": "https://townhall.com/news/dmitri-bolt/2026/11/05/the-iran-war-is-not-to-blame-for-the-blue-wave-n2685996",
+    "domain": "townhall.com",
+    "when": "Nov 6 · 01:00z"
    },
    {
-    "title": "Qualcomm Takes On The AI Inference Memory Bottleneck With Working HBC Silicon , And Its First Data Center Product Is Already Taped Out",
-    "url": "https://wccftech.com/qualcomm-hbc-silicon-ai-inference-memory-bottleneck-data-center-product-taped-out/",
-    "domain": "wccftech.com",
-    "when": "Nov 3 · 02:15z"
+    "title": "Chipotle Mexican Grill vs . e . l . f . Beauty : Which Consumer Stock Is a Better Buy ? ",
+    "url": "https://www.fool.com/coverage/better-buy/2026/11/05/chipotle-mexican-grill-vs-e-l-f-beauty-which-consumer-stock-is-a-better-buy/",
+    "domain": "fool.com",
+    "when": "Nov 6 · 06:30z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -503,78 +677,168 @@
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "Multiple Companies Reportedly Make Offer to Xbox to Acquire Arkane , Including Ubisoft",
-    "url": "https://www.vgchartz.com/article/469570/multiple-companies-reportedly-make-offer-to-xbox-to-acquire-arkane-including-ubisoft/",
-    "domain": "vgchartz.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Alfa Laval To Buy NAVTOR For $700M In Maritime Digital",
+    "url": "https://www.marinelink.com/news/alfa-laval-buy-navtor-m-maritime-digital-544194",
+    "domain": "marinelink.com",
+    "when": "Nov 6 · 11:30z"
    },
    {
-    "title": "Outback Steakhouse Franchisee Files For Bankruptcy",
-    "url": "https://newsradio540.iheart.com/content/2026-11-03-outback-steakhouse-franchisee-files-for-bankruptcy/",
-    "domain": "newsradio540.iheart.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Ex CBA leveraged finance operatives back Pemba latest M & A bet",
+    "url": "https://www.afr.com/street-talk/ex-cba-leveraged-finance-operatives-back-pemba-s-latest-m-and-a-bet-20261106-p61bsu",
+    "domain": "afr.com",
+    "when": "Nov 6 · 05:00z"
    },
    {
-    "title": "Outback Steakhouse Franchisee Files For Bankruptcy | News Radio 1400 WRAK",
-    "url": "https://wrak.iheart.com/content/2026-11-03-outback-steakhouse-franchisee-files-for-bankruptcy/",
-    "domain": "wrak.iheart.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Greenberg Traurig Wins  Best Large Law Firm , 2 Attorney Honors at Florida Legal Luminaries Gala",
+    "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-wins-best-large-law-firm-2-attorney-honors-at-florida-legal-luminaries-gala-302931476.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 6 · 01:30z"
    },
    {
-    "title": "Mets have question marks at several key positions",
-    "url": "https://www.yardbarker.com/mlb/articles/mets_have_question_marks_at_several_key_positions/s1_13132_44512606",
-    "domain": "yardbarker.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Alfa Laval to acquire NAVTOR AS to strengthen the digital offering for the maritime sector",
+    "url": "https://www.prnewswire.com/news-releases/alfa-laval-to-acquire-navtor-as-to-strengthen-the-digital-offering-for-the-maritime-sector-302931898.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 6 · 08:30z"
    },
    {
-    "title": "Gov Tech Biz Quarterly Roundup : Q3 2026 With Jeff Cook",
-    "url": "https://www.govtech.com/biz/gov-tech-biz-quarterly-roundup-q3-2026-with-jeff-cook",
-    "domain": "govtech.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "BioScience Health Innovations Announces Two Key Developments Supporting Diversified Growth and Expansion Strategy",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70053668-bioscience-health-innovations-announces-two-key-developments-supporting-diversified-growth-and-expansion-strategy-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Nov 6 · 04:30z"
    },
    {
-    "title": "Press And Pony Holiday Takeover Returns To Treasure Valley",
-    "url": "https://liteonline.com/ixp/737/p/press-and-pony-christmas-returns-boise/",
-    "domain": "liteonline.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Tech M & A deals : Shield , Echodyne , Agility Robotics , Meta , Conductor",
+    "url": "https://infotechlead.com/analytics/tech-ma-deals-shield-echodyne-agility-robotics-meta-conductor-99451",
+    "domain": "infotechlead.com",
+    "when": "Nov 6 · 04:30z"
    },
    {
-    "title": "What at stake for Congress this midterm ? ",
-    "url": "https://www.wyff4.com/article/whats-at-stake-for-congress-this-midterm/74299280",
-    "domain": "wyff4.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Top 10 Lawyers In Dubai # Dubai - Dubai City Guide . ",
+    "url": "https://www.dubaicityguide.com/site/features/13503/top-10-lawyers-in-dubai",
+    "domain": "dubaicityguide.com",
+    "when": "Nov 6 · 06:30z"
    },
    {
-    "title": "Historic Federal Loan Guarantee Enables Tlaamin Nation to Acquire Forestry Business",
-    "url": "https://www.brantfordexpositor.ca/press-releases/pr-newswire/historic-federal-loan-guarantee-enables-tlaamin-nation-to-acquire-forestry-business/",
-    "domain": "brantfordexpositor.ca",
-    "when": "Nov 4 · 01:30z"
+    "title": "Former National Bank employee pays $330K in insider trading settlement",
+    "url": "https://edmontonjournal.com/finance/banking/former-national-bank-employee-in-calgary-pays-330000-in-insider-trading-settlement",
+    "domain": "edmontonjournal.com",
+    "when": "Nov 6 · 01:00z"
    },
    {
-    "title": "CrowdStrike to Buy AI Security Startups for $495M",
-    "url": "https://www.govinfosecurity.com/crowdstrike-to-buy-ai-security-startups-for-495m-a-33285",
-    "domain": "govinfosecurity.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "ConocoPhillips says new energy policies could spur expansion of oil sands operations",
+    "url": "https://www.theglobeandmail.com/business/article-conocophillips-says-new-energy-policies-could-spur-expansion-of-oil/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 5 · 23:00z"
    },
    {
-    "title": "Triple Flag Announces Strong Growth in Operating Cash Flow per Share in Q3 2026",
-    "url": "https://www.elliotlakestandard.ca/press-releases/business-wire/triple-flag-announces-strong-growth-in-operating-cash-flow-per-share-in-q3-2026/",
-    "domain": "elliotlakestandard.ca",
-    "when": "Nov 4 · 01:30z"
+    "title": "Wendy rebuffs Nelson Peltz $1 . 4 billion bid , adopts poison pill",
+    "url": "https://www.proactiveinvestors.com/companies/news/1101322/wendy-s-rebuffs-nelson-peltz-s-1-4-billion-bid-adopts-poison-pill-1101322.html",
+    "domain": "proactiveinvestors.com",
+    "when": "Nov 5 · 22:00z"
    },
    {
-    "title": "Ivanhoe Mines Issues 2026 Third - Quarter Financial Results , Overview of Operations and Exploration Activities",
-    "url": "https://www.elliotlakestandard.ca/press-releases/newsfile/ivanhoe-mines-issues-2026-third-quarter-financial-results-overview-of-operations-and-exploration-activities/",
-    "domain": "elliotlakestandard.ca",
-    "when": "Nov 4 · 01:30z"
+    "title": "Penn Entertainment Isnt Prioritizing Acquisitions",
+    "url": "https://www.casino.org/news/penn-entertainment-isnt-prioritizing-acquisitions/",
+    "domain": "casino.org",
+    "when": "Nov 6 · 04:30z"
+   },
+   {
+    "title": "Nigel Farage exit from the Telegraph may be cause for cheer . But there a sobering side to this story | Jane Martinson",
+    "url": "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai",
+    "domain": "theguardian.com",
+    "when": "Nov 6 · 11:30z"
+   },
+   {
+    "title": "Paraguay president resigns amid banking scandal",
+    "url": "https://article.wn.com/view/2026/11/05/Paraguay_president_resigns_amid_banking_scandal/",
+    "domain": "article.wn.com",
+    "when": "Nov 5 · 22:00z"
+   },
+   {
+    "title": "Acquisition | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/chesnara--csn/acquisition/9861477",
+    "domain": "investegate.co.uk",
+    "when": "Nov 6 · 08:00z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Stock Market Today Live : Gift Nifty points to gap - up opening ; crude oil , US election in focus",
-    "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-3-november-2026/article71657258.ece",
+    "title": "Dangote , African bourses explore wider access for $1 . 6bn refinery IPO",
+    "url": "https://www.vanguardngr.com/2026/11/dangote-african-bourses-explore-wider-access-for-1-6bn-refinery-ipo/",
+    "domain": "vanguardngr.com",
+    "when": "Nov 6 · 07:30z"
+   },
+   {
+    "title": " [ Market Rider ] Essential market insights on the recent GCash IPO",
+    "url": "https://www.rappler.com/business/market-rider-essential-insights-gcash-ipo/",
+    "domain": "rappler.com",
+    "when": "Nov 6 · 00:30z"
+   },
+   {
+    "title": "Could Investing $500 a Month in SpaceX Stock Help You Retire a Millionaire ? ",
+    "url": "https://www.aol.com/articles/could-investing-500-month-spacex-103000000.html",
+    "domain": "aol.com",
+    "when": "Nov 6 · 11:30z"
+   },
+   {
+    "title": "Anthropic  largest IPO on record  ambition on hold ?  AI backlash could threaten timing , $1 . 5 trillion valuation  ",
+    "url": "https://www.livemint.com/companies/news/anthropics-largest-ipo-on-record-ambition-on-hold-ai-backlash-could-threaten-timing-1-5-trillion-valuation-11793930460210.html",
+    "domain": "livemint.com",
+    "when": "Nov 6 · 03:30z"
+   },
+   {
+    "title": "Anthropic rolls out personal finance feature for Claude",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/11/06/anthropic-rolls-out-personal-finance-feature-for-claude",
+    "domain": "thestar.com.my",
+    "when": "Nov 6 · 00:30z"
+   },
+   {
+    "title": "Mauritius - based investment firm Soach Global founder moots virtual food grain asset",
+    "url": "https://www.thehindubusinessline.com/economy/agri-business/mauritius-based-investment-firm-soach-global-founder-moots-virtual-food-grain-asset/article71673144.ece",
     "domain": "thehindubusinessline.com",
-    "when": "Nov 3 · 02:15z"
+    "when": "Nov 6 · 07:30z"
+   },
+   {
+    "title": "Demat account additions hit 9 - month high in October as IPO boom draws investors",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/demat-account-additions-hit-9-month-high-in-october-as-ipo-boom-draws-investors/articleshow/135589337.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 6 · 02:00z"
+   },
+   {
+    "title": "Maxwell Engineering shares list at 90 % premium . Here how HGS , other 2 SME issues debuted",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/maxwell-engineering-shares-list-at-90-premium-heres-how-hgs-other-2-sme-issues-debuted/articleshow/135594255.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 6 · 05:30z"
+   },
+   {
+    "title": "PYMNTS | Anthropic IPO Faces $500B Valuation Hit After Tech Stocks Plunge",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-ipo-faces-500-billion-valuation-hit-after-tech-stocks-plunge/",
+    "domain": "pymnts.com",
+    "when": "Nov 6 · 05:30z"
+   },
+   {
+    "title": "SoftBank credit default swaps hit 4 - year high as AI profitability concerns mount",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/softbank-credit-default-swaps-hit-4-year-high-as-ai-profitability-concerns-mount/articleshow/135593969.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 6 · 05:30z"
+   },
+   {
+    "title": "Affiliate Relationship and Fundraising | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/finseta-plc--fin/affiliate-relationship-and-fundraising/9861641",
+    "domain": "investegate.co.uk",
+    "when": "Nov 6 · 08:00z"
+   },
+   {
+    "title": "Anthropic $1 . 5 trillion IPO faces a $500 billion valuation cut before it even goes public",
+    "url": "https://www.investmentwatchblog.com/anthropics-1-5-trillion-ipo-faces-a-500-billion-valuation-cut-before-it-even-goes-public/",
+    "domain": "investmentwatchblog.com",
+    "when": "Nov 6 · 05:30z"
+   },
+   {
+    "title": "Anthropic IPO Could Make Hundreds Of Employees Millionaires As CEO Dario Amodei Worries About Mission",
+    "url": "https://www.freepressjournal.in/tech/anthropic-ipo-could-make-hundreds-of-employees-millionaires-as-ceo-dario-amodei-worries-about-mission",
+    "domain": "freepressjournal.in",
+    "when": "Nov 6 · 08:30z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
@@ -593,144 +857,174 @@
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
-    "title": "Mercer International files for bankruptcy , says B . C . operations will continue as usual",
-    "url": "https://hopestandard.com/2026/11/03/mercer-international-files-for-bankruptcy-says-b-c-operations-will-continue-as-usual/",
-    "domain": "hopestandard.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "  Breaking Bad  Dean Norri Dire Financial Situation Detailed in Restaurant Bankruptcy",
+    "url": "https://www.tmz.com/2026/11/05/dean-norris-financial-situation-detailed-in-bankruptcy-documents/",
+    "domain": "tmz.com",
+    "when": "Nov 6 · 03:00z"
    },
    {
-    "title": "Outback Steakhouse Franchisee Files For Bankruptcy",
-    "url": "https://newsradio540.iheart.com/content/2026-11-03-outback-steakhouse-franchisee-files-for-bankruptcy/",
-    "domain": "newsradio540.iheart.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Mike Tyson says he gives all his money to his wife after past financial mistakes :  It so good  ",
+    "url": "https://www.aol.com/articles/mike-tyson-says-gives-money-212709000.html",
+    "domain": "aol.com",
+    "when": "Nov 5 · 22:00z"
    },
    {
-    "title": "Outback Steakhouse Franchisee Files For Bankruptcy | News Radio 1400 WRAK",
-    "url": "https://wrak.iheart.com/content/2026-11-03-outback-steakhouse-franchisee-files-for-bankruptcy/",
-    "domain": "wrak.iheart.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "LIV Golf to shutter the league after failing to get support – KTBB News , Weather , Talk",
+    "url": "https://ktbb.com/post/?p=1558260",
+    "domain": "ktbb.com",
+    "when": "Nov 5 · 23:30z"
    },
    {
-    "title": "Long - Delayed Three - County Virginia Broadband Build Gears Up",
-    "url": "https://www.govtech.com/network/long-delayed-three-county-virginia-broadband-build-gears-up",
-    "domain": "govtech.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "NCLT declares Videocon promoter Venugopal Dhoot bankrupt on SBI plea ; appoints bankruptcy trustee",
+    "url": "https://news.webindia123.com/news/Articles/India/20261106/4516511.html",
+    "domain": "news.webindia123.com",
+    "when": "Nov 6 · 05:30z"
    },
    {
-    "title": "Brewery founder charged with defrauding investors",
-    "url": "https://www.denverpost.com/2026/11/03/live-slow-brewing-grant-babb-fraud/",
-    "domain": "denverpost.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Chief Rashee Rice Files For Bankruptcy Amid Legal Woes",
+    "url": "https://960weli.iheart.com/content/2026-11-06-chiefs-rashee-rice-files-for-bankruptcy-amid-legal-woes/",
+    "domain": "960weli.iheart.com",
+    "when": "Nov 6 · 14:00z"
    },
    {
-    "title": "HSBC Holdings : 3 Key Takeaways for Long - Term Investors",
-    "url": "https://www.fool.com/earnings/takeaways/2026/11/03/hsbc-holdings-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "LIV Golf bankruptcy : Cameron Smith future unclear as Saudi - backed league to wind down",
+    "url": "https://www.smh.com.au/sport/golf/smith-s-future-unclear-as-liv-golf-moves-to-liquidate-20261106-p61bw4.html",
+    "domain": "smh.com.au",
+    "when": "Nov 6 · 01:30z"
    },
    {
-    "title": "Paramount+ Drama Slate Post - Merger : Series Moving , Shared Oversight",
-    "url": "https://deadline.com/2026/11/paramount-plus-drama-slate-sarah-aubrey-francesca-orsi-1237212518/",
-    "domain": "deadline.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Chiefs wide receiver Rashee Rice files for bankruptcy , claims he owes over $3 . 45M in debts",
+    "url": "https://www.kake.com/home/chiefs-wide-receiver-rashee-rice-files-for-bankruptcy-claims-he-owes-over-3-45m-in/article_92d09c08-2930-47ba-9f8f-810d2d4ecfe5.html",
+    "domain": "kake.com",
+    "when": "Nov 6 · 00:30z"
    },
    {
-    "title": "Trading ideas : GDB , MMCS , Theta , ES Sunlogy , Salutica , IOIPG , TNB , SP Setia , Pertama Digital , Malakoff , Orkim , RHB , Asdion , TWL , Pekat , IOIPG REIT",
-    "url": "https://www.thestar.com.my/business/business-news/2026/11/04/trading-ideas-gdb-mmcs-theta-es-sunlogy-salutica-ioipg-tnb-sp-setia-pertama-digital-malakoff-orkim-rhb-asdion-twl-pekat-ioipg-reit",
-    "domain": "thestar.com.my",
-    "when": "Nov 4 · 01:30z"
+    "title": "LIV and let die : Rival league tells bankruptcy court it will wind down operations",
+    "url": "https://www.texarkanagazette.com/news/2026/nov/05/liv-and-let-die-rival-league-tells-bankruptcy/",
+    "domain": "texarkanagazette.com",
+    "when": "Nov 6 · 09:00z"
    },
    {
-    "title": "CIIE primed for a record ninth edition",
-    "url": "http://europe.chinadaily.com.cn/a/202611/03/WS6aea00a0e4b06d4aa0566db5.html",
-    "domain": "europe.chinadaily.com.cn",
-    "when": "Nov 4 · 01:30z"
+    "title": "Chief Rashee Rice files for bankruptcy",
+    "url": "https://www.kcra.com/article/rashee-rice-chiefs-bankruptcy-filing-3-million/74351385",
+    "domain": "kcra.com",
+    "when": "Nov 6 · 04:30z"
+   },
+   {
+    "title": "Chief Rashee Rice files for bankruptcy , reports $3 . 46M in liabilities",
+    "url": "https://www.kmbc.com/article/rashee-rice-chiefs-bankruptcy-filing-3-million-debt-texas/74349671",
+    "domain": "kmbc.com",
+    "when": "Nov 6 · 03:00z"
+   },
+   {
+    "title": "HYSTER - YALE ANNOUNCES THIRD QUARTER 2026 RESULTS",
+    "url": "https://www.prnewswire.com/news-releases/hyster-yale-announces-third-quarter-2026-results-302931352.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 5 · 22:00z"
+   },
+   {
+    "title": "Toys R Us returns to Connecticut with pop - up stores",
+    "url": "https://www.wfsb.com/2026/11/05/toys-r-us-returns-connecticut-with-pop-up-stores/",
+    "domain": "wfsb.com",
+    "when": "Nov 6 · 01:30z"
+   },
+   {
+    "title": "Jack Dorsey Block announces fresh layoffs , second round of job cuts in 2026 : Report",
+    "url": "https://www.moneycontrol.com/technology/jack-dorsey-s-block-announces-fresh-layoffs-second-round-of-job-cuts-in-2026-report-article-14072384.html",
+    "domain": "moneycontrol.com",
+    "when": "Nov 6 · 06:00z"
+   },
+   {
+    "title": "BT cuts over 11 , 700 jobs in one year period with thousands more to come",
+    "url": "https://www.aol.co.uk/articles/bt-cuts-over-11-700-065455000.html",
+    "domain": "aol.co.uk",
+    "when": "Nov 6 · 08:00z"
+   },
+   {
+    "title": "​Dutch Airline KLM Announces 1000 Structural Job Cuts Amid Soaring Fuel Costs and Global Instability",
+    "url": "https://pragativadi.com/dutch-airline-klm-announces-1000-structural-job-cuts-amid-soaring-fuel-costs-and-global-instability/",
+    "domain": "pragativadi.com",
+    "when": "Nov 6 · 09:30z"
    }
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "OPM Director Scott Kupor sold five tech stakes on one day , filing shows",
-    "url": "https://247wallst.com/cards/opm-director-scott-kupor-cleared-out-five-tech-positions-in-abnb-political-trade-01m5pke6y5dya3k78s7dgs50m8",
-    "domain": "247wallst.com",
-    "when": "Oct 24 · 11:30z"
+    "title": "BioScience Health Innovations Announces Two Key Developments Supporting Diversified Growth and Expansion Strategy",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70053668-bioscience-health-innovations-announces-two-key-developments-supporting-diversified-growth-and-expansion-strategy-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Nov 6 · 04:30z"
    },
    {
-    "title": "SpaceX FCC Filing Outlines Proposed Hybrid Wireless Network",
-    "url": "https://econotimes.com/SpaceX-FCC-Filing-Outlines-Proposed-Hybrid-Wireless-Network-1761925",
-    "domain": "econotimes.com",
-    "when": "Oct 24 · 02:45z"
+    "title": "Acquisition | Company Announcement",
+    "url": "https://www.investegate.co.uk/announcement/rns/chesnara--csn/acquisition/9861477",
+    "domain": "investegate.co.uk",
+    "when": "Nov 6 · 08:00z"
    },
    {
-    "title": "SLB - SLB Ltd Analysis | Morningstar",
-    "url": "https://www.morningstar.com/stocks/xnys/slb/analysis",
-    "domain": "morningstar.com",
-    "when": "Oct 23 · 23:45z"
+    "title": "Marvell Agreed to Pay $1 , 132 a Share for Lumentum . The Stock Trades Near $510 . Here Why It Not as Good As It Looks . ",
+    "url": "https://www.aol.com/articles/marvell-agreed-pay-1-132-123101000.html",
+    "domain": "aol.com",
+    "when": "Nov 6 · 13:00z"
    },
    {
-    "title": "Tech M & A deals : Experian , eInsights , Perfect Corp , Gradiente , FDM Business Services",
-    "url": "https://infotechlead.com/analytics/tech-ma-deals-experian-einsights-perfect-corp-gradiente-fdm-business-services-99149",
-    "domain": "infotechlead.com",
-    "when": "Oct 24 · 11:30z"
-   },
-   {
-    "title": "Coforge Q2 net profit jumps 56 . 5 % to Rs 588 crore on Encora deal",
-    "url": "https://economictimes.indiatimes.com/tech/information-tech/coforge-q2-net-profit-jumps-56-5-to-rs-588-crore-on-encora-deal/articleshow/135154318.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 24 · 05:00z"
-   },
-   {
-    "title": "Go Energy and SARCO announce strategic alliance for low - carbon fuels project in Saudi Arabia",
-    "url": "https://www.zawya.com/en/press-release/companies-news/go-energy-and-sarco-announce-strategic-alliance-for-low-carbon-fuels-project-in-saudi-arabia-1848949",
-    "domain": "zawya.com",
-    "when": "Oct 24 · 00:30z"
-   },
-   {
-    "title": "Rocket Lab Is Buying Iridium , and Guess What ? Iridium Just Beat Earnings ! ",
-    "url": "https://www.fool.com/investing/2026/10/24/rocket-lab-buying-iridium-which-just-beat-earnings/",
-    "domain": "fool.com",
-    "when": "Oct 24 · 11:30z"
-   },
-   {
-    "title": "India Real Estate Faces 76 % Deal Value Decline in Q3 2026 : PE Investments Drop 35 %, ETRealty",
-    "url": "https://realty.economictimes.indiatimes.com/news/industry/india-real-estate-deal-value-falls-76-while-pe-investment-dips-35-in-q3-2026-report/135159962",
-    "domain": "realty.economictimes.indiatimes.com",
-    "when": "Oct 24 · 07:15z"
-   },
-   {
-    "title": "US Government Greenlights Testing Of New Heat Ray Weapon",
-    "url": "https://www.slashgear.com/2295026/us-government-heat-ray-weapon-ads-testing-approval/",
-    "domain": "slashgear.com",
-    "when": "Oct 23 · 23:30z"
-   },
-   {
-    "title": "Police step up hunt for criminals hiding overseas : Minister - Breaking News",
-    "url": "https://www.dailymirror.lk/breaking-news/Police-step-up-hunt-for-criminals-hiding-overseas-Minister/108-353283",
-    "domain": "dailymirror.lk",
-    "when": "Oct 24 · 08:30z"
-   },
-   {
-    "title": "Five Indian stocks offering dividend yields up to 10 % ",
-    "url": "https://www.livemint.com/market/stock-market-news/five-indian-stocks-offering-dividend-yields-up-to-10-11792769464534.html",
-    "domain": "livemint.com",
-    "when": "Oct 24 · 02:00z"
-   },
-   {
-    "title": "Jonathan Taylor Trade Destinations : Five Landing Spots If Colts Deal Star RB",
-    "url": "https://www.si.com/nfl/trade-deadline/jonathan-taylor-destinations-five-landing-spots-if-colts-deal-star",
-    "domain": "si.com",
-    "when": "Oct 23 · 23:30z"
-   },
-   {
-    "title": "  Hold onto what you have : Techie viral post highlights tough job market for IT professionals",
-    "url": "https://www.moneycontrol.com/news/trends/hold-onto-what-you-have-techie-s-viral-post-highlights-tough-job-market-for-it-professionals-14058999.html",
-    "domain": "moneycontrol.com",
-    "when": "Oct 24 · 05:30z"
-   },
-   {
-    "title": "SOC as a Service ( SOCaaS ) Market worth $16 . 68 billion by 2031 - Report by MarketsandMarkets™",
-    "url": "https://www.prnewswire.com/news-releases/soc-as-a-service-socaas-market-worth-16-68-billion-by-2031--report-by-marketsandmarkets-302917993.html",
+    "title": "INVESTOR ALERT : Pomerantz Law Firm Reminds Investors with Losses on their Investment in Skechers united states A ., Inc . of Class Action Lawsuit and Upcoming Deadlines",
+    "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-skechers-usa-inc-of-class-action-lawsuit-and-upcoming-deadlines--skx-302931523.html",
     "domain": "prnewswire.com",
-    "when": "Oct 23 · 15:00z"
+    "when": "Nov 6 · 03:00z"
+   },
+   {
+    "title": "Adani Ports to buy storage operator Evos for $2 . 9bn",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/adani-ports-to-buy-storage-operator-evos-for-2-9bn/articleshow/135589343.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Nov 6 · 01:30z"
+   },
+   {
+    "title": "Devon Energy Posts $2 Billion in Free Cash Flow as Buybacks Accelerate",
+    "url": "https://oilprice.com/Company-News/Devon-Energy-Posts-2-Billion-in-Free-Cash-Flow-as-Buybacks-Accelerate.html",
+    "domain": "oilprice.com",
+    "when": "Nov 6 · 05:30z"
+   },
+   {
+    "title": "Shield AI to acquire radar maker Echodyne to bust drones",
+    "url": "https://www.militarytimes.com/news/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/",
+    "domain": "militarytimes.com",
+    "when": "Nov 6 · 02:00z"
+   },
+   {
+    "title": "Trinity Silver Corp .: Trinity Silver Announces TSXV Conditional Approval of Option Agreement to Acquire the Nueva Chanarcillo Silver Project in Northern Chile",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70058215-trinity-silver-corp-trinity-silver-announces-tsxv-conditional-approval-of-option-agreement-to-acquire-the-nueva-chanarcillo-silver-project-in-northe-296.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Nov 6 · 11:30z"
+   },
+   {
+    "title": "Alfa Laval to Acquire Maritime Software Provider NAVTOR Ship & Bunker",
+    "url": "https://shipandbunker.com/news/world/336327-alfa-laval-to-acquire-maritime-software-provider-navtor",
+    "domain": "shipandbunker.com",
+    "when": "Nov 6 · 11:00z"
+   },
+   {
+    "title": "Health Catalyst ( HCAT ) Q3 2026 Earnings Call Transcript",
+    "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/health-catalyst-hcat-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Nov 6 · 09:30z"
+   },
+   {
+    "title": "VEON To Acquire 33 . 75 % Stake In Jungo TV Holding Company",
+    "url": "https://www.rttnews.com/3711190/veon-to-acquire-33-75-stake-in-jungo-tv-holding-company.aspx",
+    "domain": "rttnews.com",
+    "when": "Nov 6 · 12:00z"
+   },
+   {
+    "title": "IMDEX Shares Fall 7 % in Risk - Off Session on ASX as Investors Weigh Tech Firm Record Results and Outlook",
+    "url": "https://www.ibtimes.com.au/imdex-shares-fall-despite-record-fiscal-2026-results-1878035",
+    "domain": "ibtimes.com.au",
+    "when": "Nov 6 · 09:30z"
+   },
+   {
+    "title": "AMG Increases Guidance Following Strong Third Quarter 2026 Earnings",
+    "url": "https://www.manilatimes.net/2026/11/06/tmt-newswire/globenewswire/amg-increases-guidance-following-strong-third-quarter-2026-earnings/2463638",
+    "domain": "manilatimes.net",
+    "when": "Nov 5 · 22:30z"
    }
   ]
  }
