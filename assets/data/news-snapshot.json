@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06 18:29z",
+ "generated": "2026-11-07 17:10z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -97,76 +97,88 @@
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Regal Funds Management ( RPL ASX ) unveils succession plan ahead of Phil King exit",
-    "url": "https://www.afr.com/street-talk/regal-unveils-succession-plan-to-clients-ahead-of-phil-king-s-exit-20261022-p617ru",
-    "domain": "afr.com",
-    "when": "Oct 22 · 08:30z"
+    "title": "Here How These 6 Big Bank Stocks Make Their Money",
+    "url": "https://www.aol.com/articles/heres-6-big-bank-stocks-150500000.html",
+    "domain": "aol.com",
+    "when": "Nov 7 · 16:00z"
    },
    {
-    "title": "Miras Investments Appoints Matthew Lesesky as Global Head of Private Equity",
-    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/miras-investments-appoints-matthew-lesesky-as-global-head-of-private-equity/2452035",
-    "domain": "manilatimes.net",
-    "when": "Oct 22 · 14:45z"
+    "title": "Edelweis Rashesh Shah Calls For Capital Gains Tax Exemption For FIIs",
+    "url": "https://www.freepressjournal.in/business/edelweiss-rashesh-shah-calls-for-capital-gains-tax-exemption-for-fiis",
+    "domain": "freepressjournal.in",
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "Domestic Banks Step Up to Fund India Deal Boom",
-    "url": "https://economictimes.indiatimes.com/et-front/domestic-banksstep-up-to-fundindia-deal-boom/articleshow/135101248.cms",
+    "title": "Progress Settles FTC , States Rent Pricing Claims For $50M",
+    "url": "https://www.law360.com:443/articles/2547134",
+    "domain": "law360.com",
+    "when": "Nov 7 · 06:00z"
+   },
+   {
+    "title": "Success lesson from Jeff Bezos : He asked one question to himself before quitting daily job to build Amazon . What his  regret minimisation framework  means ? ",
+    "url": "https://economictimes.indiatimes.com/magazines/panache/success-lesson-from-jeff-bezos-he-asked-one-question-to-himself-before-quitting-daily-job-to-build-amazon-what-his-regret-minimisation-framework-means/articleshow/135634055.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Oct 22 · 01:00z"
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "Indian banks open cheque books for ₹10 , 000 crore - plus in M & A funding after RBI rule change",
-    "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/indian-banks-open-cheque-books-for-10000-crore-plus-in-ma-funding-after-rbi-rule-change/articleshow/135099726.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Oct 22 · 01:00z"
+    "title": "PYMNTS | Synctera Raises $24 . 5 Million to Support New BaaS Demand",
+    "url": "https://www.pymnts.com/startups/2026/synctera-raises-25-million-dollars-support-new-baas-demand/",
+    "domain": "pymnts.com",
+    "when": "Nov 7 · 00:00z"
    },
    {
-    "title": "PR News | Oakley Capital Isola Joins Prosek Partners",
-    "url": "https://www.odwyerpr.com/story/public/25489/2026-10-21/oakley-capitals-isola-joins-prosek-partners.html",
-    "domain": "odwyerpr.com",
-    "when": "Oct 21 · 19:00z"
+    "title": "Gold - backed agriculture loans : RBI proposes changes to priority sector lending rules ; what could change for borrowers",
+    "url": "https://www.livemint.com/money/personal-finance/goldbacked-agriculture-loans-rbi-proposes-changes-to-priority-sector-lending-rules-what-could-change-for-borrowers-11794038739503.html",
+    "domain": "livemint.com",
+    "when": "Nov 7 · 09:30z"
    },
    {
-    "title": "Hedge fund demand for leverage drives Wall Street … ",
-    "url": "https://hedgeweek.com/news/hedge-fund-demand-for-leverage-drives-wall-street-equities-revenue-to-record-highs",
-    "domain": "hedgeweek.com",
-    "when": "Oct 22 · 11:15z"
+    "title": "Bank Holiday Today , November 7 , 2026 : Is It A Bank Holiday ? Which Banks Are Open ? Check The Full List Of Banks Operating",
+    "url": "https://www.jagranjosh.com/general-knowledge/bank-holiday-today-november-7-2026-is-it-a-bank-holiday-which-banks-are-open-check-the-full-list-of-banks-operating-1820013659-1",
+    "domain": "jagranjosh.com",
+    "when": "Nov 7 · 06:30z"
    },
    {
-    "title": "Orical Wins Regulatory Reporting Solution of the Year at Hedgeweek® US Awards 2026",
-    "url": "https://www.prnewswire.com/news-releases/orical-wins-regulatory-reporting-solution-of-the-year-at-hedgeweek-us-awards-2026-302915823.html",
-    "domain": "prnewswire.com",
-    "when": "Oct 21 · 19:30z"
+    "title": "Kirloskar - backed NBFC Arka gets ₹525 cr initial commitment from TPG Rise Funds",
+    "url": "https://www.livemint.com/companies/news/nbfc-india-arka-fincap-tpg-rise-funds-kirloskar-11794028463025.html",
+    "domain": "livemint.com",
+    "when": "Nov 7 · 06:30z"
    },
    {
-    "title": "Australian tech executive Zoe Kalar looks for rescue consortium to buy embattled WeAre8",
-    "url": "https://www.afr.com/street-talk/aussie-tech-exec-looks-for-rescue-consortium-to-buy-embattled-weare8-20261022-p6172d",
-    "domain": "afr.com",
-    "when": "Oct 22 · 05:15z"
+    "title": "Wall Street  Energy Transition  Funds Are Packed With Natural Gas",
+    "url": "https://oilprice.com/Energy/Natural-Gas/Wall-Streets-Energy-Transition-Funds-Are-Packed-With-Natural-Gas.html",
+    "domain": "oilprice.com",
+    "when": "Nov 7 · 00:00z"
    },
    {
-    "title": "TN High Court Says  No  to PE Ownership of Law Firms But Other Options Open",
-    "url": "https://www.insurancejournal.com/news/southeast/2026/10/22/889892.htm",
-    "domain": "insurancejournal.com",
-    "when": "Oct 22 · 06:45z"
+    "title": "$304m IPO : OPay and the Question of Accountability – THISDAYLIVE",
+    "url": "https://www.thisdaylive.com/2026/11/07/304m-ipo-opay-and-the-question-of-accountability/",
+    "domain": "thisdaylive.com",
+    "when": "Nov 7 · 05:00z"
    },
    {
-    "title": "NBPE Announces Transaction in Own Shares | The Manila Times",
-    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/globenewswire/nbpe-announces-transaction-in-own-shares/2451454",
-    "domain": "manilatimes.net",
-    "when": "Oct 22 · 07:00z"
+    "title": "Mozaik Restaurant in Sonoma Gets Surprise Visit From Tyra Banks",
+    "url": "https://www.sonomamag.com/mozaik-restaurant-in-sonoma-gets-surprise-visit-from-tyra-banks/",
+    "domain": "sonomamag.com",
+    "when": "Nov 7 · 00:00z"
    },
    {
-    "title": "Situational Unawareness : Banks Ran Out Of Room To Lever Up The AI Trade , So They Made More",
-    "url": "http://www.zerohedge.com/markets/situational-unawareness-banks-ran-out-room-lever-ai-trade-so-they-made-more",
-    "domain": "zerohedge.com",
-    "when": "Oct 21 · 23:15z"
+    "title": "Uninsured and flooded out , a Colorado man worries if life will be normal again",
+    "url": "https://www.santafenewmexican.com/ap/business/uninsured-and-flooded-out-a-colorado-man-worries-if-life-will-be-normal-again/article_33a4814e-89b5-5fce-91c1-255545bdab0a.html",
+    "domain": "santafenewmexican.com",
+    "when": "Nov 7 · 06:30z"
    },
    {
-    "title": "IIFL Capital Maiden Late - Stage Private Equity Fund Announces First Close at ~ ₹500 Crore",
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/iifl-capitals-maiden-late-stage-private-equity-fund-announces-first-close-at-500-crore/article71610142.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Oct 22 · 07:00z"
+    "title": "Own a HAIARA power bank ? Stop using it immediately , CPSC says",
+    "url": "https://www.fox5atlanta.com/news/own-haiara-power-bank-stop-using-immediately-cpsc-says",
+    "domain": "fox5atlanta.com",
+    "when": "Nov 7 · 01:00z"
+   },
+   {
+    "title": "Uninsured and flooded out , CO man worries if life will be normal again",
+    "url": "https://www.pressdemocrat.com/2026/11/06/southwest-flooding-one-familys-loss/",
+    "domain": "pressdemocrat.com",
+    "when": "Nov 7 · 00:00z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
@@ -583,88 +595,88 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Trump must restore  smart populism  and save his presidency",
-    "url": "https://nypost.com/2026/11/05/opinion/trump-must-restore-smart-populism-and-save-his-presidency/",
-    "domain": "nypost.com",
-    "when": "Nov 6 · 03:30z"
+    "title": "Carney says Canada welcomes  any move to restore free trade after U . S . midterms",
+    "url": "https://www.therecord.com/news/canada/carney-says-canada-welcomes-any-moves-to-restore-free-trade-after-u-s-midterms/article_ba67c321-72e6-54d3-9334-e49385e7d776.html",
+    "domain": "therecord.com",
+    "when": "Nov 7 · 02:00z"
    },
    {
-    "title": "This budget should really include a note of thanks to Trump",
-    "url": "https://www.stcatharinesstandard.ca/rolling-file/this-budget-should-really-include-a-note-of-thanks-to-trump/article_839de5a6-c8e8-5277-9b2e-460b45a5f82f.html",
-    "domain": "stcatharinesstandard.ca",
-    "when": "Nov 6 · 00:30z"
+    "title": "Erick Erickson :  Stephen Miller , Kristi Noem , and Corey Lewandowski are the ones who broke the Hispanic coalition out of the GOP  ",
+    "url": "https://www.mediamatters.org/erick-erickson/erick-erickson-stephen-miller-kristi-noem-and-corey-lewandowski-are-ones-who-broke",
+    "domain": "mediamatters.org",
+    "when": "Nov 7 · 02:00z"
    },
    {
-    "title": "A new political balance in Washington",
-    "url": "https://www.thehindu.com/news/international/a-new-political-balance-in-washington/article71669743.ece",
-    "domain": "thehindu.com",
-    "when": "Nov 6 · 03:30z"
+    "title": "The MAGA movement forgot what populism is",
+    "url": "https://www.thealpenanews.com/opinion/editorials-and-columns/2026/11/the-maga-movement-forgot-what-populism-is/",
+    "domain": "thealpenanews.com",
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "Analysis - Lula election win dashes US hopes of quick access to Brazil rare earths",
-    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/06/analysis-lula-s-election-win-dashes-us-hopes-of-quick-access-to-brazil-s-rare-earths",
-    "domain": "internazionale.it",
-    "when": "Nov 6 · 03:00z"
-   },
-   {
-    "title": "Democrats Plan Strategy to Eliminate Trump Canada Tariffs",
-    "url": "https://theconservativetreehouse.com/blog/2026/11/06/democrats-plan-strategy-to-eliminate-trumps-canada-tariffs/",
-    "domain": "theconservativetreehouse.com",
-    "when": "Nov 6 · 11:00z"
-   },
-   {
-    "title": "Petrol and diesel prices today , November 6 : Check fuel cost in Delhi , Mumbai , Bengaluru",
-    "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-november-6-check-fuel-cost-in-delhi-mumbai-bengaluru-11793929672121.html",
+    "title": "Can defence employees claim pension for past service after voluntary resignation ? What court order says",
+    "url": "https://www.livemint.com/money/can-defence-employees-claim-pension-for-past-service-after-voluntary-resignation-heres-what-meghalaya-hc-order-says-11794036637248.html",
     "domain": "livemint.com",
-    "when": "Nov 6 · 03:30z"
+    "when": "Nov 7 · 09:30z"
    },
    {
-    "title": "I - T dept flags gaps in foreign investor tax identification numbers , seeks changes in account - opening rules",
-    "url": "https://www.livemint.com/money/it-dept-flags-gaps-in-foreign-investors-tax-identification-numbers-seeks-changes-in-account-opening-rules-11793958605146.html",
+    "title": "ONGC Videsh eyes on two Venezuela oil projects ; know what finance head Anupam Agarwal said on $500 mn dividend",
+    "url": "https://www.livemint.com/companies/ongc-videsh-s-eyes-on-two-venezuela-oil-projects-know-what-finance-head-anupam-agarwal-said-on-500-mn-dividend-11794039002471.html",
     "domain": "livemint.com",
-    "when": "Nov 6 · 12:00z"
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "US escalates economic campaign against Cuba and targets China - based suppliers",
-    "url": "https://abcnews.com/Politics/wireStory/us-escalates-economic-campaign-cuba-targets-china-based-137890475",
-    "domain": "abcnews.com",
-    "when": "Nov 5 · 23:30z"
+    "title": "Republican Post - Midterms War Denialism Is an Exercise in Special Pleading",
+    "url": "https://www.theamericanconservative.com/republicans-post-midterms-war-denialism-is-an-exercise-in-special-pleading/",
+    "domain": "theamericanconservative.com",
+    "when": "Nov 7 · 06:00z"
    },
    {
-    "title": "Democrat midterm win could reverse global risk mood , support Indian market : Abhay Agarwal",
-    "url": "https://www.businesstoday.in/markets/stocks/story/democrats-midterm-win-could-reverse-global-risk-mood-support-indian-market-abhay-agarwal-566145-2026-11-06",
-    "domain": "businesstoday.in",
-    "when": "Nov 6 · 09:30z"
+    "title": "Tata Power $650 million debt battle : Why Singapore court ordered seizure , sale of shares in local firm",
+    "url": "https://www.livemint.com/companies/tata-powers-650-million-debt-battle-why-singapore-court-ordered-seizure-sale-of-shares-in-local-firm-11794035897676.html",
+    "domain": "livemint.com",
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "Decoding Energy Density : The Unseen Architecture of Industrial and Geopolitical Power",
-    "url": "https://www.newscentralasia.net/2026/11/06/decoding-energy-density-the-unseen-architecture-of-industrial-and-geopolitical-power/",
-    "domain": "newscentralasia.net",
-    "when": "Nov 6 · 08:30z"
+    "title": "Mukesh Ambani vs Gautam Adani : India richest wealth race since Diwali 2025 - Who won , who lost ? Wealth rise in $ bn",
+    "url": "https://www.livemint.com/companies/people/mukesh-ambani-vs-gautam-adani-indias-richest-wealth-race-since-diwali-2025-who-won-who-lost-wealth-rise-in-bn-11794034360761.html",
+    "domain": "livemint.com",
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "U . S .- Canada trade war squeezes craft brewers",
-    "url": "https://www.latimes.com/business/story/2026-11-05/u-s-canada-trade-war-squeezes-craft-brewers",
-    "domain": "latimes.com",
-    "when": "Nov 5 · 23:30z"
+    "title": "Trump New Chief Of Staff Stephen Miller Accused India Of Funding Russia Ukraine War Through Oil Purchases",
+    "url": "https://www.freepressjournal.in/world/trumps-new-chief-of-staff-stephen-miller-accused-india-of-funding-russias-ukraine-war-through-oil-purchases",
+    "domain": "freepressjournal.in",
+    "when": "Nov 7 · 10:00z"
    },
    {
-    "title": "Canada new budget targets affordability , sovereignty",
-    "url": "https://aa.com.tr/en/economy/canada-s-new-budget-targets-affordability-sovereignty/4113562",
-    "domain": "aa.com.tr",
-    "when": "Nov 6 · 07:30z"
+    "title": "Proxima Fusion signs Japan deals for fusion power supply chain",
+    "url": "https://www.cnbc.com/2026/11/07/proxima-fusion-power-japan-supply-chain.html",
+    "domain": "cnbc.com",
+    "when": "Nov 7 · 07:00z"
    },
    {
-    "title": "No , Republicans Didnt Lose the Midterms Because of the Iran War or Trump Promise of  No New Wars  ",
-    "url": "https://townhall.com/news/dmitri-bolt/2026/11/05/the-iran-war-is-not-to-blame-for-the-blue-wave-n2685996",
-    "domain": "townhall.com",
-    "when": "Nov 6 · 01:00z"
+    "title": "Satya Narayan Misra | Economic and Political Weekly",
+    "url": "https://www.epw.in/author/satya-narayan-misra",
+    "domain": "epw.in",
+    "when": "Nov 7 · 06:30z"
    },
    {
-    "title": "Chipotle Mexican Grill vs . e . l . f . Beauty : Which Consumer Stock Is a Better Buy ? ",
-    "url": "https://www.fool.com/coverage/better-buy/2026/11/05/chipotle-mexican-grill-vs-e-l-f-beauty-which-consumer-stock-is-a-better-buy/",
-    "domain": "fool.com",
-    "when": "Nov 6 · 06:30z"
+    "title": "Divya Bharti | Economic and Political Weekly",
+    "url": "https://www.epw.in/author/divya-bharti",
+    "domain": "epw.in",
+    "when": "Nov 7 · 06:30z"
+   },
+   {
+    "title": "  An echo chamber : US man sues OpenAI , claims ChatGPT helped wife craft plan on how to kill him",
+    "url": "https://www.livemint.com/news/us-news/an-echo-chamber-us-man-sues-openai-claims-chatgpt-helped-wife-craft-plan-on-how-to-kill-him-11794029314600.html",
+    "domain": "livemint.com",
+    "when": "Nov 7 · 06:30z"
+   },
+   {
+    "title": "CassTime Unveils AI - Driven  T+D Solution  to Tackle Data and Repair Bottlenecks in the Global Automotive Aftermarket",
+    "url": "https://www.manilatimes.net/2026/11/07/tmt-newswire/pr-newswire/casstime-unveils-ai-driven-td-solution-to-tackle-data-and-repair-bottlenecks-in-the-global-automotive-aftermarket/2464429",
+    "domain": "manilatimes.net",
+    "when": "Nov 7 · 05:00z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -677,88 +689,94 @@
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "Alfa Laval To Buy NAVTOR For $700M In Maritime Digital",
-    "url": "https://www.marinelink.com/news/alfa-laval-buy-navtor-m-maritime-digital-544194",
-    "domain": "marinelink.com",
-    "when": "Nov 6 · 11:30z"
+    "title": "Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
+    "domain": "middleeasteye.net",
+    "when": "Nov 7 · 02:00z"
    },
    {
-    "title": "Ex CBA leveraged finance operatives back Pemba latest M & A bet",
-    "url": "https://www.afr.com/street-talk/ex-cba-leveraged-finance-operatives-back-pemba-s-latest-m-and-a-bet-20261106-p61bsu",
-    "domain": "afr.com",
-    "when": "Nov 6 · 05:00z"
+    "title": "Maxwell Engineering Solutions lists at a 90 % premium on NSE Emerge ; JDA Capital acts as Book Running Lead Manager and Market Maker",
+    "url": "http://www.bignewsnetwork.com/news/279418379/maxwell-engineering-solutions-lists-at-a-90-premium-on-nse-emerge-jda-capital-acts-as-book-running-lead-manager-and-market-maker",
+    "domain": "bignewsnetwork.com",
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "Greenberg Traurig Wins  Best Large Law Firm , 2 Attorney Honors at Florida Legal Luminaries Gala",
-    "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-wins-best-large-law-firm-2-attorney-honors-at-florida-legal-luminaries-gala-302931476.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 6 · 01:30z"
+    "title": "Marico To Buy 51 % Stake In Bonorizon For Rs 35 Cr",
+    "url": "https://www.businessworld.in/article/marico-to-buy-51-stake-in-bonorizon-for-rs-35-cr-632585",
+    "domain": "businessworld.in",
+    "when": "Nov 7 · 07:00z"
    },
    {
-    "title": "Alfa Laval to acquire NAVTOR AS to strengthen the digital offering for the maritime sector",
-    "url": "https://www.prnewswire.com/news-releases/alfa-laval-to-acquire-navtor-as-to-strengthen-the-digital-offering-for-the-maritime-sector-302931898.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 6 · 08:30z"
+    "title": "Morocco celebrates anniversary of Western Sahara takeover as UN mission ends",
+    "url": "https://www.naharnet.com/stories/en/323597-morocco-celebrates-anniversary-of-western-sahara-takeover-as-un-mission-ends",
+    "domain": "naharnet.com",
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "BioScience Health Innovations Announces Two Key Developments Supporting Diversified Growth and Expansion Strategy",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70053668-bioscience-health-innovations-announces-two-key-developments-supporting-diversified-growth-and-expansion-strategy-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Nov 6 · 04:30z"
+    "title": "Google Parent Alphabet Builds $548 Mn Stake In Qualcomm",
+    "url": "https://www.businessworld.in/article/google-parent-alphabet-builds-548-mn-stake-in-qualcomm-632564",
+    "domain": "businessworld.in",
+    "when": "Nov 7 · 07:00z"
    },
    {
-    "title": "Tech M & A deals : Shield , Echodyne , Agility Robotics , Meta , Conductor",
-    "url": "https://infotechlead.com/analytics/tech-ma-deals-shield-echodyne-agility-robotics-meta-conductor-99451",
-    "domain": "infotechlead.com",
-    "when": "Nov 6 · 04:30z"
+    "title": "BEST files police complaint over  missing  bus stop after Sena MLA rebuilds shelter in Mumbai Andheri | Mumbai News",
+    "url": "https://timesofindia.indiatimes.com/city/mumbai/best-files-police-complaint-over-missing-bus-stop-after-sena-mla-rebuilds-shelter-in-mumbais-andheri/articleshow/135628809.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Nov 7 · 07:00z"
    },
    {
-    "title": "Top 10 Lawyers In Dubai # Dubai - Dubai City Guide . ",
-    "url": "https://www.dubaicityguide.com/site/features/13503/top-10-lawyers-in-dubai",
-    "domain": "dubaicityguide.com",
-    "when": "Nov 6 · 06:30z"
+    "title": "House Of The Dragon Officially Returns November 19 In Special Event",
+    "url": "https://screenrant.com/game-of-thrones-house-of-the-dragon-legends-november-2026/",
+    "domain": "screenrant.com",
+    "when": "Nov 7 · 07:00z"
    },
    {
-    "title": "Former National Bank employee pays $330K in insider trading settlement",
-    "url": "https://edmontonjournal.com/finance/banking/former-national-bank-employee-in-calgary-pays-330000-in-insider-trading-settlement",
-    "domain": "edmontonjournal.com",
-    "when": "Nov 6 · 01:00z"
+    "title": "Paraguay bank collapse sees president impeached , arrested",
+    "url": "https://www.rte.ie/news/world/2026/1107/1598335-paraguay-bank-collapse-sees-president-impeached-arrested/",
+    "domain": "rte.ie",
+    "when": "Nov 7 · 07:00z"
    },
    {
-    "title": "ConocoPhillips says new energy policies could spur expansion of oil sands operations",
-    "url": "https://www.theglobeandmail.com/business/article-conocophillips-says-new-energy-policies-could-spur-expansion-of-oil/",
-    "domain": "theglobeandmail.com",
-    "when": "Nov 5 · 23:00z"
+    "title": "Broncos checked in on TE Trey McBride , but the Cardinals refused to trade him",
+    "url": "https://www.milehighreport.com/denver-broncos-news/191443/broncos-checked-in-on-te-trey-mcbride-but-the-cardinals-refused-to-trade-him",
+    "domain": "milehighreport.com",
+    "when": "Nov 7 · 16:00z"
    },
    {
-    "title": "Wendy rebuffs Nelson Peltz $1 . 4 billion bid , adopts poison pill",
-    "url": "https://www.proactiveinvestors.com/companies/news/1101322/wendy-s-rebuffs-nelson-peltz-s-1-4-billion-bid-adopts-poison-pill-1101322.html",
-    "domain": "proactiveinvestors.com",
-    "when": "Nov 5 · 22:00z"
+    "title": "  Call the police , Im gonna kill you : A bunch of Democrat alleged criminals have just been elected",
+    "url": "https://www.theblaze.com/news/call-the-police-im-gonna-kill-you-voters-just-turned-a-bunch-of-alleged-lawbreakers-into-democrat-lawmakers",
+    "domain": "theblaze.com",
+    "when": "Nov 7 · 02:00z"
    },
    {
-    "title": "Penn Entertainment Isnt Prioritizing Acquisitions",
-    "url": "https://www.casino.org/news/penn-entertainment-isnt-prioritizing-acquisitions/",
-    "domain": "casino.org",
-    "when": "Nov 6 · 04:30z"
+    "title": "Jobs on the Line : Over 400 Mine Workers Beg Mahama to Reopen Northern Ashanti Mines – Ghanamma . com",
+    "url": "https://www.ghanamma.com/2026/11/06/jobs-on-the-line-over-400-mine-workers-beg-mahama-to-reopen-northern-ashanti-mines/",
+    "domain": "ghanamma.com",
+    "when": "Nov 7 · 01:00z"
    },
    {
-    "title": "Nigel Farage exit from the Telegraph may be cause for cheer . But there a sobering side to this story | Jane Martinson",
-    "url": "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai",
-    "domain": "theguardian.com",
-    "when": "Nov 6 · 11:30z"
+    "title": "Promising growth , Utah - based investor leads board takeover at Ethan Allen",
+    "url": "https://vtdigger.org/2026/11/06/promising-growth-utah-based-investor-leads-board-takeover-at-ethan-allen/",
+    "domain": "vtdigger.org",
+    "when": "Nov 7 · 00:00z"
    },
    {
-    "title": "Paraguay president resigns amid banking scandal",
-    "url": "https://article.wn.com/view/2026/11/05/Paraguay_president_resigns_amid_banking_scandal/",
-    "domain": "article.wn.com",
-    "when": "Nov 5 · 22:00z"
+    "title": "Mukesh Ambani vs Gautam Adani : India richest wealth race since Diwali 2025 - Who won , who lost ? Wealth rise in $ bn",
+    "url": "https://www.livemint.com/companies/people/mukesh-ambani-vs-gautam-adani-indias-richest-wealth-race-since-diwali-2025-who-won-who-lost-wealth-rise-in-bn-11794034360761.html",
+    "domain": "livemint.com",
+    "when": "Nov 7 · 11:30z"
    },
    {
-    "title": "Acquisition | Company Announcement",
-    "url": "https://www.investegate.co.uk/announcement/rns/chesnara--csn/acquisition/9861477",
-    "domain": "investegate.co.uk",
-    "when": "Nov 6 · 08:00z"
+    "title": "Diwali after the Chair : Who really cares ? ",
+    "url": "https://timesofindia.indiatimes.com/toi-blogs/muse-musings/diwali-after-the-chair-who-really-cares/articleshow/135632182.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Nov 7 · 10:00z"
+   },
+   {
+    "title": "Action Comics # 1104 Preview : Lex Luthor Makes a Friend",
+    "url": "https://bleedingcool.com/comics/action-comics-1104-preview-lex-luthor-makes-a-friend/",
+    "domain": "bleedingcool.com",
+    "when": "Nov 7 · 01:00z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
@@ -843,16 +861,70 @@
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
    {
-    "title": "Brother MFC - J5010DW Review : An Ideal Inkjet AIO for Home Offices",
-    "url": "https://www.pcmag.com/reviews/brother-mfc-j5010dw",
-    "domain": "pcmag.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Pakistan external debt nearly doubled to $135bn in a decade : World Bank report",
+    "url": "https://www.dailyexcelsior.com/pakistans-external-debt-nearly-doubled-to-135bn-in-a-decade-world-bank-report/",
+    "domain": "dailyexcelsior.com",
+    "when": "Nov 7 · 01:00z"
    },
    {
-    "title": "Dividend investing in 2026 : 5 stocks to know",
-    "url": "https://www.livemint.com/market/stock-market-news/dividend-investing-in-2026-5-stocks-to-know-11793705770748.html",
+    "title": "Pak external debt doubles in decade",
+    "url": "https://tribune.com.pk/story/2639086/pak-external-debt-doubles-in-decade",
+    "domain": "tribune.com.pk",
+    "when": "Nov 7 · 06:30z"
+   },
+   {
+    "title": "SCHD Just Hit a Record High Following Midterm Election Results . Id Still Rather Buy This Dividend King for Passive Income . ",
+    "url": "https://www.aol.com/articles/schd-just-hit-record-high-153500000.html",
+    "domain": "aol.com",
+    "when": "Nov 7 · 16:00z"
+   },
+   {
+    "title": "Pakistan sinks deeper in debt : Report",
+    "url": "https://ianslive.in/pakistan-sinks-deeper-in-debt--20261107154803",
+    "domain": "ianslive.in",
+    "when": "Nov 7 · 11:30z"
+   },
+   {
+    "title": "Kirloskar - backed NBFC Arka gets ₹525 cr initial commitment from TPG Rise Funds",
+    "url": "https://www.livemint.com/companies/news/nbfc-india-arka-fincap-tpg-rise-funds-kirloskar-11794028463025.html",
     "domain": "livemint.com",
-    "when": "Nov 4 · 01:30z"
+    "when": "Nov 7 · 06:30z"
+   },
+   {
+    "title": "Democrats expected to scrutinize Nvidia | The Arkansas Democrat - Gazette",
+    "url": "https://www.arkansasonline.com/news/2026/nov/07/democrats-expected-to-scrutinize-nvidia/",
+    "domain": "arkansasonline.com",
+    "when": "Nov 7 · 10:00z"
+   },
+   {
+    "title": "India offers remarkable resilience and opportunity amid AI frenzy : HSBC economists",
+    "url": "https://ianslive.in/india-offers-remarkable-resilience-and-opportunity-amid-ai-frenzy-hsbc-report--20261107095334",
+    "domain": "ianslive.in",
+    "when": "Nov 7 · 07:00z"
+   },
+   {
+    "title": "High Income Securities Fund ( NYSE : PCF ) Stock Jumps 0 . 4 % – Time to Buy ? ",
+    "url": "https://www.dailypolitical.com/2026/11/06/high-income-securities-fund-nysepcf-stock-jumps-0-4-time-to-buy.html",
+    "domain": "dailypolitical.com",
+    "when": "Nov 7 · 02:00z"
+   },
+   {
+    "title": "Franklin Resources ( NYSE : BEN ) Issues Quarterly Earnings Results , Beats Expectations By $0 . 17 EPS",
+    "url": "https://www.themarketsdaily.com/2026/11/07/franklin-resources-nyseben-issues-quarterly-earnings-results-beats-expectations-by-0-17-eps.html",
+    "domain": "themarketsdaily.com",
+    "when": "Nov 7 · 05:00z"
+   },
+   {
+    "title": "No rain for harvest : Dry spell traps groundnut farmers in Nabdam – Ghanamma . com",
+    "url": "https://www.ghanamma.com/2026/11/07/no-rain-for-harvest-dry-spell-traps-groundnut-farmers-in-nabdam/",
+    "domain": "ghanamma.com",
+    "when": "Nov 7 · 11:30z"
+   },
+   {
+    "title": "Blackstone and Canadian Pension Investors Commit $3 . 1 Billion to Shell - Led LNG Canada : A Deep Dive into Who Owns What and Who Bears the Risk – Royal Dutch Shell Plc . com",
+    "url": "https://royaldutchshellplc.com/2026/11/06/blackstone-and-canadian-pension-investors-commit-3-1-billion-to-shell-led-lng-canada-a-deep-dive-into-who-owns-what-and-who-bears-the-risk/",
+    "domain": "royaldutchshellplc.com",
+    "when": "Nov 7 · 00:00z"
    }
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
