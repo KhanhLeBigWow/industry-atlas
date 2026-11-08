@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07 17:10z",
+ "generated": "2026-11-08 17:24z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -77,22 +77,76 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Amazon Trades at a Fraction of Costco Valuation . Is the Discount Deserved ? ",
-    "url": "https://www.fool.com/investing/2026/11/05/amazon-trades-at-a-fraction-of-costcos-valuation-i/",
+    "title": "AI authority can be delegated , but responsibility cannot : Turkish technology minister",
+    "url": "https://aa.com.tr/en/middle-east/ai-authority-can-be-delegated-but-responsibility-cannot-turkish-technology-minister/4115354",
+    "domain": "aa.com.tr",
+    "when": "Nov 7 · 18:00z"
+   },
+   {
+    "title": "US approved Nvidia chip sales to China - linked firms",
+    "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-914132",
+    "domain": "jpost.com",
+    "when": "Nov 7 · 17:30z"
+   },
+   {
+    "title": "Samsung set to become South Korea first company with 200 trillion won in cash",
+    "url": "https://timesofindia.indiatimes.com/business/international-business/samsung-set-to-become-south-koreas-first-company-with-200-trillion-won-in-cash/articleshow/135654632.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Nov 8 · 09:00z"
+   },
+   {
+    "title": "Chip demand sees colleges scramble | The Arkansas Democrat - Gazette - Arkansa Best News Source",
+    "url": "https://www.arkansasonline.com/news/2026/nov/08/chip-demand-sees-colleges-scramble/",
+    "domain": "arkansasonline.com",
+    "when": "Nov 8 · 09:00z"
+   },
+   {
+    "title": "AP Technology SummaryBrief at 3 : 06 a . m . EST",
+    "url": "http://www.leadertelegram.com/news/nation-world/ap-technology-summarybrief-at-3-06-a-m-est/article_454f92a8-73fa-5af6-b7ed-91953cabcd6d.html",
+    "domain": "leadertelegram.com",
+    "when": "Nov 8 · 09:00z"
+   },
+   {
+    "title": "Many Canadians skipping online safety measures : Equifax",
+    "url": "https://www.orangeville.com/news/canadians-reuse-passwords-skip-mfa-equifax/article_851757ad-04d5-5bc2-b18e-47e971d3c5fe.html",
+    "domain": "orangeville.com",
+    "when": "Nov 7 · 17:30z"
+   },
+   {
+    "title": "Is Broadcom a Buy After Falling 9 % in One Day ? ",
+    "url": "https://www.fool.com/investing/2026/11/08/is-broadcom-a-buy-after-falling-9-in-one-day/",
     "domain": "fool.com",
-    "when": "Nov 5 · 07:15z"
+    "when": "Nov 8 · 09:00z"
    },
    {
-    "title": "Maritime security must keep pace with new threats : Rajnath",
-    "url": "https://kashmirreader.com/2026/11/05/maritime-security-must-keep-pace-with-new-threats-rajnath/",
-    "domain": "kashmirreader.com",
-    "when": "Nov 5 · 07:15z"
+    "title": "The role of AI in disaster response | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/11/08/business/sunday-business-it/the-role-of-ai-in-disaster-response/2464462",
+    "domain": "manilatimes.net",
+    "when": "Nov 7 · 17:30z"
    },
    {
-    "title": "Asian shares mostly advance following US midterms , though Kospi falls on selling of chipmakers",
-    "url": "https://www.dailygazette.com/leader_herald/ap/business/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/article_49fd62b6-abc8-54bf-aee9-951a9fa82235.html",
-    "domain": "dailygazette.com",
-    "when": "Nov 5 · 07:15z"
+    "title": "Samsung Electronics to become 1st local firm with cash assets of over $146 . 6 bil .: data",
+    "url": "https://www.koreatimes.co.kr/business/companies/20261108/samsung-electronics-to-become-1st-local-firm-with-cash-assets-of-over-1466-bil-data",
+    "domain": "koreatimes.co.kr",
+    "when": "Nov 8 · 16:00z"
+   },
+   {
+    "title": "Cyberport eyes PH tech partnerships | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/11/08/business/sunday-business-it/cyberport-eyes-ph-tech-partnerships/2464466",
+    "domain": "manilatimes.net",
+    "when": "Nov 7 · 17:30z"
+   },
+   {
+    "title": "WiMi Hologram Cloud ( NASDAQ : WIMI ) Stock Falls 8 . 4 % – Here What Happened",
+    "url": "https://www.themarketsdaily.com/2026/11/07/wimi-hologram-cloud-nasdaqwimi-stock-falls-8-4-heres-what-happened.html",
+    "domain": "themarketsdaily.com",
+    "when": "Nov 7 · 22:00z"
+   },
+   {
+    "title": "Hackers steal €100 million from French lender Credit Mutuel Arkea",
+    "url": "http://www.northkoreatimes.com/news/279414663/hackers-steal-100-million-from-french-lender-credit-mutuel-arkea",
+    "domain": "northkoreatimes.com",
+    "when": "Nov 8 · 13:00z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
@@ -367,230 +421,248 @@
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "Head to Head Survey : CureVac ( NASDAQ : CVAC ) vs . Altimmune ( NASDAQ : ALT ) ",
-    "url": "https://www.dailypolitical.com/2026/10/26/head-to-head-survey-curevac-nasdaqcvac-vs-altimmune-nasdaqalt.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "IYH and XBI : Two Distinct Paths to Investing in Healthcare",
+    "url": "https://www.fool.com/coverage/etfs/2026/11/07/iyh-and-xbi-two-distinct-paths-to-investing-in-healthcare/",
+    "domain": "fool.com",
+    "when": "Nov 7 · 19:00z"
    },
    {
-    "title": "Indian Shares Seen Opening On Flat Note",
-    "url": "https://www.rttnews.com/3703087/indian-shares-seen-opening-on-flat-note.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Magnesium Health Benefits , Risks and Best Food Sources : What Does the Research Show ? – NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-11-08-magnesiums-health-benefits-risks-and-best-food-sources.html",
+    "domain": "naturalnews.com",
+    "when": "Nov 8 · 16:00z"
    },
    {
-    "title": "Indian Shares Marginally Lower In Early Trade ; IT Stocks Underperform",
-    "url": "https://www.rttnews.com/3703096/indian-shares-marginally-lower-in-early-trade-it-stocks-underperform.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Rybrevant Faspro Wins Accelerated Approval for Advanced Head and Neck Cancer After 42 % of Trial Patients Responded",
+    "url": "https://www.medicaldaily.com/rybrevant-faspro-fda-approval-head-neck-cancer-480946",
+    "domain": "medicaldaily.com",
+    "when": "Nov 7 · 18:00z"
    },
    {
-    "title": "Asian Markets Trade Mixed",
-    "url": "https://www.rttnews.com/3703088/asian-markets-trade-mixed.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Biotech and Pharma Industry News | BioPharma Dive",
+    "url": "https://www.biopharmadive.com/?page=2&_sp=53e832ea-6e1d-4e13-a559-16ec877bf761",
+    "domain": "biopharmadive.com",
+    "when": "Nov 7 · 17:30z"
    },
    {
-    "title": "Merck KEYTRUDA Cuts Progression Risk By 43 % In Phase 3 Endometrial Cancer Trial",
-    "url": "https://www.rttnews.com/3703100/merck-s-keytruda-cuts-progression-risk-by-43-in-phase-3-endometrial-cancer-trial.aspx",
-    "domain": "rttnews.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Concord Biotech : Recovering business momentum and new ventures support growth",
+    "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/concord-biotech-recovering-business-momentum-and-new-ventures-support-growth/article71670378.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 7 · 17:30z"
    },
    {
-    "title": "Vietnam and Poland target $6 billion in bilateral trade",
-    "url": "https://vir.com.vn/vietnam-and-poland-target-6-billion-in-bilateral-trade-163803.html",
-    "domain": "vir.com.vn",
-    "when": "Oct 27 · 05:15z"
+    "title": "Maharashtra FDA Crackdown : 43 Food Licences Suspended , 17 , 824 Kg Of Products Worth ₹63 . 09 Lakh Seized Ahead Of Diwali",
+    "url": "https://www.freepressjournal.in/mumbai/maharashtra-fda-crackdown-43-food-licences-suspended-17824-kg-of-products-worth-6309-lakh-seized-ahead-of-diwali",
+    "domain": "freepressjournal.in",
+    "when": "Nov 7 · 17:30z"
    },
    {
-    "title": "Invesco Pharmaceuticals ETF ( NYSEARCA : PJP ) Shares Climb 0 . 6 % – What Next ? ",
-    "url": "https://www.dailypolitical.com/2026/10/26/invesco-pharmaceuticals-etf-nysearcapjp-shares-climb-0-6-whats-next.html",
-    "domain": "dailypolitical.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Toxicity , Not Relapse , Drives Infant Soft Tissue Tumor Survival Gap",
+    "url": "https://www.ajmc.com/view/toxicity-not-relapse-drives-infant-soft-tissue-tumor-survival-gap",
+    "domain": "ajmc.com",
+    "when": "Nov 7 · 17:30z"
    },
    {
-    "title": "Brazil Stocks Face Test After 13 . 9 % Plunge | Morning Call , Oct 27",
-    "url": "https://www.riotimesonline.com/brazils-financial-morning-call-for-tuesday-october-27-2026/",
-    "domain": "riotimesonline.com",
-    "when": "Oct 27 · 05:15z"
+    "title": "Fusion Power , Global Capital , Branded Streaming and Neurology Breakthroughs : New to The Street Show # 779 Premieres Tonight on Bloomberg Television",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70066378-fusion-power-global-capital-branded-streaming-and-neurology-breakthroughs-new-to-the-street-show-779-premieres-tonight-on-bloomberg-television-200.htm",
+    "domain": "finanznachrichten.de",
+    "when": "Nov 7 · 18:00z"
+   },
+   {
+    "title": "Promising cholesterol drug fails to prevent heart attacks or stroke – NBC4 Washington",
+    "url": "https://www.nbcwashington.com/news/national-international/promising-cholesterol-drug-fails-prevent-heart-attacks-stroke/4179543/",
+    "domain": "nbcwashington.com",
+    "when": "Nov 7 · 17:30z"
+   },
+   {
+    "title": "LOYOLA TESTING MELANOMA TREATMENT THAT BOOSTS PATIENT IMMUNE SYSTEM TO FIGHT DEADLY CANCER – Engineering Evil",
+    "url": "https://engineeringevil.com/2012/10/01/loyola-testing-melanoma-treatment-that-boosts-patients-immune-system-to-fight-deadly-cancer/",
+    "domain": "engineeringevil.com",
+    "when": "Nov 8 · 11:30z"
+   },
+   {
+    "title": "3 . 6 million ladders recalled following head injuries , skull fractures",
+    "url": "https://www.foxla.com/news/3-6-million-ladders-recalled-following-head-injuries-skull-fractures",
+    "domain": "foxla.com",
+    "when": "Nov 7 · 18:00z"
+   },
+   {
+    "title": "From products to partnerships , CIIE sets stage for global debuts",
+    "url": "http://www.beijingbulletin.com/news/279419095/from-products-to-partnerships-ciie-sets-stage-for-global-debuts",
+    "domain": "beijingbulletin.com",
+    "when": "Nov 8 · 09:00z"
+   },
+   {
+    "title": "Revised prices on anti - cancer medicines effective from Monday , estimated annual savings of over ₹3500 crore",
+    "url": "https://www.thehindubusinessline.com/news/national/revised-prices-on-anti-cancer-medicines-effective-from-monday-estimated-annual-savings-of-over-3500-crore/article71678658.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 7 · 17:30z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
    {
-    "title": "Hanwha names new president of US shipyard in Philadelphia amid expansion",
-    "url": "https://www.koreaherald.com/article/10925081",
-    "domain": "koreaherald.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Africa must shift gears from imports to industry",
+    "url": "https://mg.co.za/thought-leader/2026-11-08-africa-must-shift-gears-from-imports-to-industry/",
+    "domain": "mg.co.za",
+    "when": "Nov 8 · 09:00z"
    },
    {
-    "title": "Sensata : 3 Key Takeaways for Long - Term Investors",
-    "url": "https://www.fool.com/earnings/takeaways/2026/11/03/sensata-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "NASA unveils $10B Moon base contract as SpaceX , Blue Origin join lunar gold rush",
+    "url": "https://nypost.com/2026/11/08/tech/nasa-unveils-10b-moon-base-contract-as-spacex-blue-origin-join-lunar-gold-rush/",
+    "domain": "nypost.com",
+    "when": "Nov 8 · 09:00z"
    },
    {
-    "title": "Dividend investing in 2026 : 5 stocks to know",
-    "url": "https://www.livemint.com/market/stock-market-news/dividend-investing-in-2026-5-stocks-to-know-11793705770748.html",
-    "domain": "livemint.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Air Force Museum Foundation recovers $1 . 3M donation from Unclaimed Funds",
+    "url": "https://www.daytondailynews.com/community/air-force-museum-foundation-recovers-1-3m-donation-from-unclaimed-funds/article_e83a579a-854f-5bc8-ae4f-dccaa313277c.html",
+    "domain": "daytondailynews.com",
+    "when": "Nov 8 · 13:30z"
    },
    {
-    "title": "Trump says US will halt $4B in aid to Israel but will sell arms",
-    "url": "https://www.denverpost.com/2026/11/03/trump-halts-israel-aid/",
-    "domain": "denverpost.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "UAE and Africa partnership must move beyond investment pledges to deliver real growth",
+    "url": "https://www.standardmedia.co.ke/opinion/article/2001561837/uae-and-africa-partnership-must-move-beyond-investment-pledges-to-deliver-real-growth",
+    "domain": "standardmedia.co.ke",
+    "when": "Nov 8 · 16:00z"
    },
    {
-    "title": "Could America Next Critical - Minerals Opportunity Be Taking Shape ? ... ",
-    "url": "https://www.pr-inside.com/could-america-s-next-critical-minerals-opportunity-be-taking-shape-r5240339.htm",
-    "domain": "pr-inside.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Five things to watch for in the Canadian business world in the coming week – Winnipeg Free Press",
+    "url": "https://www.winnipegfreepress.com/business/2026/11/08/five-things-to-watch-for-in-the-canadian-business-world-in-the-coming-week-416",
+    "domain": "winnipegfreepress.com",
+    "when": "Nov 8 · 15:30z"
    },
    {
-    "title": "Trump is not undercutting Israel by withdrawing military aid",
-    "url": "https://www.americanthinker.com/blog/2026/11/trump-is-not-undercutting-israel-by-withdrawing-military-aid/",
-    "domain": "americanthinker.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "56 % of business leaders expect external shocks to severely disrupt operations over next 5 years : KPMG",
+    "url": "https://news.webindia123.com/news/Articles/Business/20261108/4517360.html",
+    "domain": "news.webindia123.com",
+    "when": "Nov 8 · 10:30z"
    },
    {
-    "title": "Haze and the quest for a new growth model - Academia",
-    "url": "http://www.thejakartapost.com/opinion/2026/11/04/haze-and-the-quest-for-a-new-growth-model",
-    "domain": "thejakartapost.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "The Gbenga Hashim advantage : A new national economic mobilisation",
+    "url": "https://thenationonlineng.net/the-gbenga-hashim-advantage-a-new-national-economic-mobilisation/",
+    "domain": "thenationonlineng.net",
+    "when": "Nov 8 · 09:30z"
    },
    {
-    "title": "COCC breaks ground on $8 million Manufacturing Center expansion",
-    "url": "https://ktvz.com/news/theres-good-news/2026/11/03/cocc-breaks-ground-on-8-million-manufacturing-center-expansion/",
-    "domain": "ktvz.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Elon Musk next target ? America self - entitled phone companies . ",
+    "url": "https://www.theblaze.com/tech/elon-musk-s-next-target-america-s-self-entitled-phone-companies",
+    "domain": "theblaze.com",
+    "when": "Nov 7 · 22:00z"
    },
    {
-    "title": "Why DuPont Stock Trounced the Market on Tuesday",
-    "url": "https://www.fool.com/investing/2026/11/03/why-dupont-stock-rocked-the-market-today/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Is the U guarantee good ? The world watches , questions",
+    "url": "https://www.manilatimes.net/2026/11/08/opinion/columns/is-the-us-guarantee-good-the-world-watches-questions/2464556",
+    "domain": "manilatimes.net",
+    "when": "Nov 7 · 17:30z"
    },
    {
-    "title": "Simpson : 3 Key Takeaways for Long - Term Investors",
-    "url": "https://www.fool.com/earnings/takeaways/2026/11/03/simpson-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "GCC railway pact today ; project to be ready by 2030",
+    "url": "https://www.omanobserver.om/article/1199229/business/economy/gcc-railway-pact-today-project-to-be-ready-by-2030",
+    "domain": "omanobserver.om",
+    "when": "Nov 8 · 11:30z"
    },
    {
-    "title": "  Straight to Wuzhen  competition brings innovations to reality",
-    "url": "http://europe.chinadaily.com.cn/a/202611/03/WS6ae982c8e4b06d4aa0566c07.html",
-    "domain": "europe.chinadaily.com.cn",
-    "when": "Nov 4 · 01:30z"
+    "title": "Amazon gifts bought before Nov . 1 likely face a return window that expires before Christmas",
+    "url": "https://fortune.com/2026/11/08/early-holiday-shopping-amazon-return-window-before-christmas/",
+    "domain": "fortune.com",
+    "when": "Nov 8 · 11:30z"
    },
    {
-    "title": "Democrat Amanda Hollowell focuses on jobs , affordability , and veteran care in 1st District race",
-    "url": "https://www.wtoc.com/2026/11/03/democrat-amanda-hollowell-focuses-jobs-affordability-veteran-care-1st-district-race/",
-    "domain": "wtoc.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "Oman aims to turn wartime windfall into lasting profits | The Arkansas Democrat - Gazette",
+    "url": "https://www.arkansasonline.com/news/2026/nov/08/oman-aims-to-turn-wartime-windfall-into-lasting/",
+    "domain": "arkansasonline.com",
+    "when": "Nov 8 · 09:00z"
    },
    {
-    "title": "Did You Lose Money on Fuelcell Energy , Inc . ( FCEL )? Levi & Korsinsky ... ",
-    "url": "https://www.pr-inside.com/did-you-lose-money-on-fuelcell-energy-inc-fcel-levi-korsinsky-r5240338.htm",
-    "domain": "pr-inside.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "inTEST ( NYSE : INTT ) Stock Breaks Above Fifty Day Moving Average – Time to Sell ? ",
+    "url": "https://www.dailypolitical.com/2026/11/08/intest-nyseintt-stock-breaks-above-fifty-day-moving-average-time-to-sell.html",
+    "domain": "dailypolitical.com",
+    "when": "Nov 8 · 14:30z"
    },
    {
-    "title": "Sysco : 3 Key Takeaways for Long - Term Investors",
-    "url": "https://www.fool.com/earnings/takeaways/2026/11/03/sysco-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 4 · 01:30z"
-   },
-   {
-    "title": "Apple : 3 Key Takeaways for Long - Term Investors",
-    "url": "https://www.fool.com/earnings/takeaways/2026/11/03/apple-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 4 · 01:30z"
+    "title": "US military says it fired on commercial vessel in Gulf of Oman after it attempted to breach blockade",
+    "url": "https://www.wral.com/news/ap/bc902-us-military-says-it-fired-on-commercial-vessel-in-gulf-of-oman-after-it-attempted-to-breach-blockade/",
+    "domain": "wral.com",
+    "when": "Nov 7 · 22:00z"
    }
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Cruise tourism : ESEE and CLIA seeking to increase local economic benefits",
-    "url": "https://www.naftemporiki.gr/english/2185333/cruise-tourism-esee-and-clia-seeking-to-increase-local-economic-benefits/",
-    "domain": "naftemporiki.gr",
-    "when": "Nov 6 · 09:30z"
+    "title": "Christian Dior S . E . ( OTCMKTS : CHDRY ) Stock Crosses Below 200 - Day Moving Average – Here Why",
+    "url": "https://www.dailypolitical.com/2026/11/08/christian-dior-s-e-otcmktschdry-stock-crosses-below-200-day-moving-average-heres-why.html",
+    "domain": "dailypolitical.com",
+    "when": "Nov 8 · 13:30z"
    },
    {
-    "title": "Festive Decor Turns DLF Malls Into Destinations as Families Embrace the Season of Celebration",
-    "url": "https://news.webindia123.com/news/Articles/Business/20261106/4516746.html",
-    "domain": "news.webindia123.com",
-    "when": "Nov 6 · 12:30z"
+    "title": "50 Times The Only Thing Multi - Level Marketing Delivered Was A Bunch Of Secondhand Embarrassment ( New Pics ) ",
+    "url": "https://2.boredpanda.com/anti-multi-level-marketing-pyramid-schemes/",
+    "domain": "2.boredpanda.com",
+    "when": "Nov 8 · 00:00z"
    },
    {
-    "title": "InsMelo Makes AI - Powered Music Creation More Accessible",
-    "url": "https://www.openpr.com/news/4683743/insmelo-makes-ai-powered-music-creation-more-accessible",
-    "domain": "openpr.com",
-    "when": "Nov 6 · 11:00z"
+    "title": "Business group seeks govt support as rising costs squeeze margins",
+    "url": "https://bworldonline.com/corporate/2026/11/08/792187/business-group-seeks-govt-support-as-rising-costs-squeeze-margins/",
+    "domain": "bworldonline.com",
+    "when": "Nov 8 · 13:30z"
    },
    {
-    "title": "PYMNTS | Walmart Adds 300 Sites to Drone Delivery Network",
-    "url": "https://www.pymnts.com/news/delivery/2026/walmart-adds-300-sites-drone-delivery-network/",
-    "domain": "pymnts.com",
-    "when": "Nov 6 · 01:00z"
+    "title": "BYD unveils luxury floating electric car to challenge Rolls - Royce",
+    "url": "https://www.aol.co.uk/articles/byd-unveils-luxury-floating-electric-152418000.html",
+    "domain": "aol.co.uk",
+    "when": "Nov 8 · 16:00z"
    },
    {
-    "title": "17 Things That Take Up Far Less of American Budgets Than They Used To",
-    "url": "https://www.aol.com/articles/17-things-far-less-americans-110000000.html",
+    "title": "Lightspeed ( NYSE : LSPD ) narrows loss as revenue edges higher in latest filing",
+    "url": "https://www.themarketsdaily.com/2026/11/07/lightspeed-nyse-lspd-narrows-loss-as-revenue-edges-higher-in-latest-filing.html",
+    "domain": "themarketsdaily.com",
+    "when": "Nov 8 · 00:00z"
+   },
+   {
+    "title": "Rustan celebrates Christmas nostalgia - BusinessWorld Online",
+    "url": "https://bworldonline.com/arts-and-leisure/2026/11/08/792134/rustans-celebrates-christmas-nostalgia/",
+    "domain": "bworldonline.com",
+    "when": "Nov 8 · 13:30z"
+   },
+   {
+    "title": "PC with 64GB of RAM plummet 18 % as memory prices soar CPU - Z install base data shows DDR4 making a surprise comeback",
+    "url": "https://www.tomshardware.com/pc-components/ram/pcs-with-64gb-of-ram-plummet-18-percent-as-memory-prices-soar-cpu-z-install-base-data-shows-ddr4-making-a-surprise-comeback",
+    "domain": "tomshardware.com",
+    "when": "Nov 8 · 13:30z"
+   },
+   {
+    "title": "One Of The Worst Cars A Retiree Can Buy Has Costs That Will Sneak Up On You",
+    "url": "https://www.aol.com/articles/one-worst-cars-retiree-buy-173000000.html",
     "domain": "aol.com",
-    "when": "Nov 6 · 11:30z"
+    "when": "Nov 7 · 19:00z"
    },
    {
-    "title": "David Konckier , owner of Bogart Group , completes acquisition of Marionnaud",
-    "url": "https://www.premiumbeautynews.com/en/david-konckier-owner-of-bogart,28483",
-    "domain": "premiumbeautynews.com",
-    "when": "Nov 6 · 02:00z"
+    "title": "Hrithik Roshan makes history as first Indian superstar at LACMA Art + Film Gala",
+    "url": "https://news.webindia123.com/news/Articles/Entertainment/20261108/4517359.html",
+    "domain": "news.webindia123.com",
+    "when": "Nov 8 · 10:30z"
    },
    {
-    "title": "The Biggest Stock Winners and Losers From the Midterm Elections",
-    "url": "https://www.fool.com/investing/2026/11/06/biggest-stock-winners-losers-midterm-election/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 6 · 09:30z"
+    "title": "Government issued £33m tax revision for firms after Budget",
+    "url": "https://www.echo-news.co.uk/news/national/26709331.government-issued-gbp33m-tax-revision-firms-budget/",
+    "domain": "echo-news.co.uk",
+    "when": "Nov 8 · 10:30z"
    },
    {
-    "title": "Residences at the Stoneleigh Celebrates Forbes Travel Guide VERIFIED™ Luxury Residences Recognition",
-    "url": "https://www.prnewswire.com/news-releases/residences-at-the-stoneleigh-celebrates-forbes-travel-guide-verified-luxury-residences-recognition-302931219.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 5 · 22:00z"
+    "title": "More than 140 , 000 rally as new protests against rising costs sweep France",
+    "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france",
+    "domain": "aljazeera.com",
+    "when": "Nov 8 · 00:00z"
    },
    {
-    "title": "Monster : 3 Key Takeaways for Long - Term Investors",
-    "url": "https://www.fool.com/earnings/takeaways/2026/11/06/monster-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 6 · 11:00z"
+    "title": "AI analytics , technological upgrades to drive retail investor experience in new Samvat : NSE CEO Ashishkumar Chauhan",
+    "url": "https://www.thehindubusinessline.com/markets/ai-analytics-technological-upgrades-to-drive-retail-investor-experience-in-new-samvat-nse-ceo-ashishkumar-chauhan/article71680890.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 8 · 13:30z"
    },
    {
-    "title": "Retail growth to cool as haze and costs hit shoppers",
-    "url": "https://sbr.com.sg/retail/in-focus/retail-growth-cool-haze-and-costs-hit-shoppers",
-    "domain": "sbr.com.sg",
-    "when": "Nov 6 · 01:30z"
-   },
-   {
-    "title": "Honey Birdette sales jump 12 . 1 % in Q3",
-    "url": "https://www.ragtrader.com.au/news/honey-birdette-sales-jump-12-1-in-q3",
-    "domain": "ragtrader.com.au",
-    "when": "Nov 6 · 05:30z"
-   },
-   {
-    "title": "Do we need department stores ? ",
-    "url": "https://www.odt.co.nz/business/do-we-need-department-stores-q7aiwo77",
-    "domain": "odt.co.nz",
-    "when": "Nov 6 · 05:30z"
-   },
-   {
-    "title": "South African retailer TFG profit drops on weak overseas trade",
-    "url": "https://www.cnbcafrica.com/2026/south-african-retailer-tfg-posts-6-8-drop-in-half-year-profit",
-    "domain": "cnbcafrica.com",
-    "when": "Nov 6 · 08:30z"
-   },
-   {
-    "title": "IAB Ireland Announces Full Connect H2 Speaker Line - Up",
-    "url": "https://www.adworld.ie/2026/11/06/iab-ireland-announces-full-connect-h2-speaker-line-up/",
-    "domain": "adworld.ie",
-    "when": "Nov 6 · 11:00z"
+    "title": "Japanese Nintendo Switch 2 and Switch releases for November 12 , 2026",
+    "url": "https://nintendoeverything.com/japanese-nintendo-switch-2-and-switch-releases-for-november-12-2026/",
+    "domain": "nintendoeverything.com",
+    "when": "Nov 8 · 15:30z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
@@ -689,94 +761,88 @@
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
-    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
-    "domain": "middleeasteye.net",
-    "when": "Nov 7 · 02:00z"
+    "title": "Lawbox opens new headquarters at Oxford ARC campus",
+    "url": "https://www.oxfordmail.co.uk/news/26694158.lawbox-opens-new-headquarters-oxfords-arc-campus/",
+    "domain": "oxfordmail.co.uk",
+    "when": "Nov 8 · 13:30z"
    },
    {
-    "title": "Maxwell Engineering Solutions lists at a 90 % premium on NSE Emerge ; JDA Capital acts as Book Running Lead Manager and Market Maker",
-    "url": "http://www.bignewsnetwork.com/news/279418379/maxwell-engineering-solutions-lists-at-a-90-premium-on-nse-emerge-jda-capital-acts-as-book-running-lead-manager-and-market-maker",
-    "domain": "bignewsnetwork.com",
-    "when": "Nov 7 · 11:30z"
+    "title": "Wall Street races for megadeals as countdown begins on Trump era",
+    "url": "https://www.thehindubusinessline.com/markets/wall-street-races-for-megadeals-as-countdown-begins-on-trump-era/article71681053.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 8 · 17:00z"
    },
    {
-    "title": "Marico To Buy 51 % Stake In Bonorizon For Rs 35 Cr",
-    "url": "https://www.businessworld.in/article/marico-to-buy-51-stake-in-bonorizon-for-rs-35-cr-632585",
-    "domain": "businessworld.in",
-    "when": "Nov 7 · 07:00z"
+    "title": "Why AT & T Stock Slumped in October | The Motley Fool",
+    "url": "https://www.fool.com/investing/2026/11/08/why-at-and-t-stock-slumped-in-october/",
+    "domain": "fool.com",
+    "when": "Nov 8 · 09:00z"
    },
    {
-    "title": "Morocco celebrates anniversary of Western Sahara takeover as UN mission ends",
-    "url": "https://www.naharnet.com/stories/en/323597-morocco-celebrates-anniversary-of-western-sahara-takeover-as-un-mission-ends",
-    "domain": "naharnet.com",
-    "when": "Nov 7 · 11:30z"
+    "title": "Connecticut Firm Named to 2027 Best Law Firms List",
+    "url": "https://westfaironline.com/newsmakers/connecticut-firm-named-to-2027-best-law-firms-list/",
+    "domain": "westfaironline.com",
+    "when": "Nov 7 · 17:30z"
    },
    {
-    "title": "Google Parent Alphabet Builds $548 Mn Stake In Qualcomm",
-    "url": "https://www.businessworld.in/article/google-parent-alphabet-builds-548-mn-stake-in-qualcomm-632564",
-    "domain": "businessworld.in",
-    "when": "Nov 7 · 07:00z"
+    "title": "Why Gina Hinojosa wants to fire Texas Education Commissioner Mike Morath",
+    "url": "https://www.tpr.org/government-politics/2026-11-07/why-gina-hinojosa-wants-to-fire-texas-education-commissioner-mike-morath",
+    "domain": "tpr.org",
+    "when": "Nov 8 · 00:00z"
    },
    {
-    "title": "BEST files police complaint over  missing  bus stop after Sena MLA rebuilds shelter in Mumbai Andheri | Mumbai News",
-    "url": "https://timesofindia.indiatimes.com/city/mumbai/best-files-police-complaint-over-missing-bus-stop-after-sena-mla-rebuilds-shelter-in-mumbais-andheri/articleshow/135628809.cms",
+    "title": "Ueno Bank Depositors Start Receiving Payments in Paraguay",
+    "url": "https://arynews.tv/ueno-bank-depositors-start-getting-money-back-paraguay-central-bank-official",
+    "domain": "arynews.tv",
+    "when": "Nov 7 · 18:00z"
+   },
+   {
+    "title": "Far - right wingnuts storm Diwali fest in Seattle after lights go out on MAGA",
+    "url": "https://timesofindia.indiatimes.com/world/us/far-right-wingnuts-storm-diwali-fest-in-seattle-after-lights-go-out-on-maga/articleshow/135660200.cms",
     "domain": "timesofindia.indiatimes.com",
-    "when": "Nov 7 · 07:00z"
+    "when": "Nov 8 · 14:30z"
    },
    {
-    "title": "House Of The Dragon Officially Returns November 19 In Special Event",
-    "url": "https://screenrant.com/game-of-thrones-house-of-the-dragon-legends-november-2026/",
-    "domain": "screenrant.com",
-    "when": "Nov 7 · 07:00z"
+    "title": "Patriots Open To Trading CB Carlton Davis ? ",
+    "url": "https://www.yardbarker.com/nfl/articles/patriots_open_to_trading_cb_carlton_davis/s1_14819_44532588",
+    "domain": "yardbarker.com",
+    "when": "Nov 8 · 16:00z"
    },
    {
-    "title": "Paraguay bank collapse sees president impeached , arrested",
-    "url": "https://www.rte.ie/news/world/2026/1107/1598335-paraguay-bank-collapse-sees-president-impeached-arrested/",
-    "domain": "rte.ie",
-    "when": "Nov 7 · 07:00z"
+    "title": "Nigerian Government Cancels All 2026 NTI , NCE Degree Admissions , Orders End To University Affiliations",
+    "url": "https://saharareporters.com/2026/11/07/nigerian-government-cancels-all-2026-nti-nce-degree-admissions-orders-end-university",
+    "domain": "saharareporters.com",
+    "when": "Nov 7 · 22:00z"
    },
    {
-    "title": "Broncos checked in on TE Trey McBride , but the Cardinals refused to trade him",
-    "url": "https://www.milehighreport.com/denver-broncos-news/191443/broncos-checked-in-on-te-trey-mcbride-but-the-cardinals-refused-to-trade-him",
+    "title": "The Great Replacement Chronicles : Top Texas Democrat Disturbing Race War Fantasy – PJ Media",
+    "url": "https://pjmedia.com/benbartee/2026/11/08/the-great-replacement-chronicles-top-texas-democrats-disturbing-race-war-fantasy-n4959143",
+    "domain": "pjmedia.com",
+    "when": "Nov 8 · 17:00z"
+   },
+   {
+    "title": "Former Broncos coaches Mike Shanahan , Dan Reeves among Hall of Fame finalists",
+    "url": "https://www.milehighreport.com/denver-broncos-news/191490/mike-shanahan-and-dan-reeves-among-hall-of-fame-finalists",
     "domain": "milehighreport.com",
-    "when": "Nov 7 · 16:00z"
+    "when": "Nov 8 · 16:00z"
    },
    {
-    "title": "  Call the police , Im gonna kill you : A bunch of Democrat alleged criminals have just been elected",
-    "url": "https://www.theblaze.com/news/call-the-police-im-gonna-kill-you-voters-just-turned-a-bunch-of-alleged-lawbreakers-into-democrat-lawmakers",
-    "domain": "theblaze.com",
-    "when": "Nov 7 · 02:00z"
+    "title": "Morrisons unveils Goldilocks - themed Christmas advert",
+    "url": "https://www.thenorthernecho.co.uk/news/26709388.morrisons-unveils-goldilocks-themed-christmas-advert/",
+    "domain": "thenorthernecho.co.uk",
+    "when": "Nov 8 · 13:00z"
    },
    {
-    "title": "Jobs on the Line : Over 400 Mine Workers Beg Mahama to Reopen Northern Ashanti Mines – Ghanamma . com",
-    "url": "https://www.ghanamma.com/2026/11/06/jobs-on-the-line-over-400-mine-workers-beg-mahama-to-reopen-northern-ashanti-mines/",
-    "domain": "ghanamma.com",
-    "when": "Nov 7 · 01:00z"
+    "title": "Inflation , housing , jobs and corporate earnings will dominate the business calendar this week",
+    "url": "https://japantoday.com/category/business/inflation-housing-jobs-and-corporate-earnings-will-dominate-the-business-calendar-this-week",
+    "domain": "japantoday.com",
+    "when": "Nov 8 · 00:00z"
    },
    {
-    "title": "Promising growth , Utah - based investor leads board takeover at Ethan Allen",
-    "url": "https://vtdigger.org/2026/11/06/promising-growth-utah-based-investor-leads-board-takeover-at-ethan-allen/",
-    "domain": "vtdigger.org",
-    "when": "Nov 7 · 00:00z"
-   },
-   {
-    "title": "Mukesh Ambani vs Gautam Adani : India richest wealth race since Diwali 2025 - Who won , who lost ? Wealth rise in $ bn",
-    "url": "https://www.livemint.com/companies/people/mukesh-ambani-vs-gautam-adani-indias-richest-wealth-race-since-diwali-2025-who-won-who-lost-wealth-rise-in-bn-11794034360761.html",
-    "domain": "livemint.com",
-    "when": "Nov 7 · 11:30z"
-   },
-   {
-    "title": "Diwali after the Chair : Who really cares ? ",
-    "url": "https://timesofindia.indiatimes.com/toi-blogs/muse-musings/diwali-after-the-chair-who-really-cares/articleshow/135632182.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Nov 7 · 10:00z"
-   },
-   {
-    "title": "Action Comics # 1104 Preview : Lex Luthor Makes a Friend",
-    "url": "https://bleedingcool.com/comics/action-comics-1104-preview-lex-luthor-makes-a-friend/",
-    "domain": "bleedingcool.com",
-    "when": "Nov 7 · 01:00z"
+    "title": "Survey results : Giants fans believe their team can win the NFC East",
+    "url": "https://www.bigblueview.com/nfl-reacts-survey/178746/survey-results-giants-fans-believe-their-team-can-win-the-nfc-east",
+    "domain": "bigblueview.com",
+    "when": "Nov 8 · 14:30z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
@@ -929,174 +995,174 @@
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
-    "title": "  Breaking Bad  Dean Norri Dire Financial Situation Detailed in Restaurant Bankruptcy",
-    "url": "https://www.tmz.com/2026/11/05/dean-norris-financial-situation-detailed-in-bankruptcy-documents/",
-    "domain": "tmz.com",
-    "when": "Nov 6 · 03:00z"
+    "title": "Trucking firms folding under costs | The Arkansas Democrat - Gazette - Arkansa Best News Source",
+    "url": "https://www.arkansasonline.com/news/2026/nov/08/trucking-firms-folding-under-costs/",
+    "domain": "arkansasonline.com",
+    "when": "Nov 8 · 09:00z"
    },
    {
-    "title": "Mike Tyson says he gives all his money to his wife after past financial mistakes :  It so good  ",
-    "url": "https://www.aol.com/articles/mike-tyson-says-gives-money-212709000.html",
-    "domain": "aol.com",
-    "when": "Nov 5 · 22:00z"
+    "title": "Trucking bankruptcies rise by 38 % as high diesel prices squeeze firms | The Arkansas Democrat - Gazette",
+    "url": "https://www.arkansasonline.com/news/2026/nov/08/trucking-bankruptcies-rise-by-38-as-high-diesel/",
+    "domain": "arkansasonline.com",
+    "when": "Nov 8 · 09:00z"
    },
    {
-    "title": "LIV Golf to shutter the league after failing to get support – KTBB News , Weather , Talk",
-    "url": "https://ktbb.com/post/?p=1558260",
-    "domain": "ktbb.com",
-    "when": "Nov 5 · 23:30z"
+    "title": "Ofori - Atta Calls For Posthumous National Honour For Late CLOGSAG Leader – Ghanamma . com",
+    "url": "https://www.ghanamma.com/2026/11/07/ofori-atta-calls-for-posthumous-national-honour-for-late-clogsag-leader/",
+    "domain": "ghanamma.com",
+    "when": "Nov 7 · 18:00z"
    },
    {
-    "title": "NCLT declares Videocon promoter Venugopal Dhoot bankrupt on SBI plea ; appoints bankruptcy trustee",
-    "url": "https://news.webindia123.com/news/Articles/India/20261106/4516511.html",
-    "domain": "news.webindia123.com",
-    "when": "Nov 6 · 05:30z"
+    "title": "Cong . Selling Telangana Future : BJP",
+    "url": "https://www.deccanchronicle.com/southern-states/telangana/cong-selling-tgs-future-bjp-2002602",
+    "domain": "deccanchronicle.com",
+    "when": "Nov 7 · 17:30z"
    },
    {
-    "title": "Chief Rashee Rice Files For Bankruptcy Amid Legal Woes",
-    "url": "https://960weli.iheart.com/content/2026-11-06-chiefs-rashee-rice-files-for-bankruptcy-amid-legal-woes/",
-    "domain": "960weli.iheart.com",
-    "when": "Nov 6 · 14:00z"
+    "title": "Khawaja Asif backs creation of new provinces , says even 12 could be considered",
+    "url": "https://www.geo.tv/latest/690273-khawaja-asif-backs-creation-of-new-provinces-says-even-12-could-be-considered",
+    "domain": "geo.tv",
+    "when": "Nov 8 · 13:30z"
    },
    {
-    "title": "LIV Golf bankruptcy : Cameron Smith future unclear as Saudi - backed league to wind down",
-    "url": "https://www.smh.com.au/sport/golf/smith-s-future-unclear-as-liv-golf-moves-to-liquidate-20261106-p61bw4.html",
-    "domain": "smh.com.au",
-    "when": "Nov 6 · 01:30z"
+    "title": "Khawaja Asif calls for decentralisation of power , supports u",
+    "url": "https://www.pakistantoday.com.pk/2026/11/08/khawaja-asif-calls-for-decentralisation-of-power-supports-up-to-12-administrative-units-in-pakistan",
+    "domain": "pakistantoday.com.pk",
+    "when": "Nov 8 · 17:00z"
    },
    {
-    "title": "Chiefs wide receiver Rashee Rice files for bankruptcy , claims he owes over $3 . 45M in debts",
-    "url": "https://www.kake.com/home/chiefs-wide-receiver-rashee-rice-files-for-bankruptcy-claims-he-owes-over-3-45m-in/article_92d09c08-2930-47ba-9f8f-810d2d4ecfe5.html",
-    "domain": "kake.com",
-    "when": "Nov 6 · 00:30z"
-   },
-   {
-    "title": "LIV and let die : Rival league tells bankruptcy court it will wind down operations",
-    "url": "https://www.texarkanagazette.com/news/2026/nov/05/liv-and-let-die-rival-league-tells-bankruptcy/",
-    "domain": "texarkanagazette.com",
-    "when": "Nov 6 · 09:00z"
-   },
-   {
-    "title": "Chief Rashee Rice files for bankruptcy",
-    "url": "https://www.kcra.com/article/rashee-rice-chiefs-bankruptcy-filing-3-million/74351385",
-    "domain": "kcra.com",
-    "when": "Nov 6 · 04:30z"
-   },
-   {
-    "title": "Chief Rashee Rice files for bankruptcy , reports $3 . 46M in liabilities",
-    "url": "https://www.kmbc.com/article/rashee-rice-chiefs-bankruptcy-filing-3-million-debt-texas/74349671",
-    "domain": "kmbc.com",
-    "when": "Nov 6 · 03:00z"
-   },
-   {
-    "title": "HYSTER - YALE ANNOUNCES THIRD QUARTER 2026 RESULTS",
-    "url": "https://www.prnewswire.com/news-releases/hyster-yale-announces-third-quarter-2026-results-302931352.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 5 · 22:00z"
-   },
-   {
-    "title": "Toys R Us returns to Connecticut with pop - up stores",
-    "url": "https://www.wfsb.com/2026/11/05/toys-r-us-returns-connecticut-with-pop-up-stores/",
-    "domain": "wfsb.com",
-    "when": "Nov 6 · 01:30z"
-   },
-   {
-    "title": "Jack Dorsey Block announces fresh layoffs , second round of job cuts in 2026 : Report",
-    "url": "https://www.moneycontrol.com/technology/jack-dorsey-s-block-announces-fresh-layoffs-second-round-of-job-cuts-in-2026-report-article-14072384.html",
+    "title": "The Legal Rearview : SC rules on lender CoC eligibility , reopens two - child norm debate , strengthens arrest safeguards ; SEBI settlement rules take effect",
+    "url": "https://www.moneycontrol.com/news/india/the-legal-rearview-sc-rules-on-lenders-coc-eligibility-reopens-two-child-norm-debate-strengthens-arrest-safeguards-sebi-settlement-rules-take-effect-14074902.html",
     "domain": "moneycontrol.com",
-    "when": "Nov 6 · 06:00z"
+    "when": "Nov 8 · 10:30z"
    },
    {
-    "title": "BT cuts over 11 , 700 jobs in one year period with thousands more to come",
-    "url": "https://www.aol.co.uk/articles/bt-cuts-over-11-700-065455000.html",
-    "domain": "aol.co.uk",
-    "when": "Nov 6 · 08:00z"
+    "title": "Consumer data increasingly lucrative asset in company insolvencies",
+    "url": "https://www.niagarafallsreview.ca/business/consumer-data-increasingly-lucrative-asset-in-company-insolvencies/article_6d1c288c-c77a-5aea-8258-c155b4066fa8.html",
+    "domain": "niagarafallsreview.ca",
+    "when": "Nov 8 · 13:30z"
    },
    {
-    "title": "​Dutch Airline KLM Announces 1000 Structural Job Cuts Amid Soaring Fuel Costs and Global Instability",
-    "url": "https://pragativadi.com/dutch-airline-klm-announces-1000-structural-job-cuts-amid-soaring-fuel-costs-and-global-instability/",
-    "domain": "pragativadi.com",
-    "when": "Nov 6 · 09:30z"
+    "title": "Connecticut Firm Named to 2027 Best Law Firms List",
+    "url": "https://westfaironline.com/newsmakers/connecticut-firm-named-to-2027-best-law-firms-list/",
+    "domain": "westfaironline.com",
+    "when": "Nov 7 · 17:30z"
+   },
+   {
+    "title": "Cyberport eyes PH tech partnerships | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/11/08/business/sunday-business-it/cyberport-eyes-ph-tech-partnerships/2464466",
+    "domain": "manilatimes.net",
+    "when": "Nov 7 · 17:30z"
+   },
+   {
+    "title": "New Economy to push Ghana towards investment grade – Dr . Ato Forson – Ghanamma . com",
+    "url": "https://www.ghanamma.com/2026/11/07/new-economy-to-push-ghana-towards-investment-grade-dr-ato-forson/",
+    "domain": "ghanamma.com",
+    "when": "Nov 7 · 18:00z"
+   },
+   {
+    "title": "Fayetteville distributes more than $81 , 000 in federal grant funding to area nonprofits | The Arkansas Democrat - Gazette",
+    "url": "https://www.arkansasonline.com/news/2026/nov/08/fayetteville-distributes-more-than-81000-in/",
+    "domain": "arkansasonline.com",
+    "when": "Nov 8 · 09:00z"
+   },
+   {
+    "title": "Can your business function without you ? | The Manila Times",
+    "url": "https://www.manilatimes.net/2026/11/08/business/sunday-business-it/can-your-business-function-without-you/2464460",
+    "domain": "manilatimes.net",
+    "when": "Nov 7 · 17:30z"
+   },
+   {
+    "title": "Too much capital ? | The Arkansas Democrat - Gazette - Arkansa Best News Source",
+    "url": "https://www.arkansasonline.com/news/2026/nov/08/too-much-capital/",
+    "domain": "arkansasonline.com",
+    "when": "Nov 8 · 09:00z"
+   },
+   {
+    "title": "How Javier Milei stopped Argentina double - digit inflation",
+    "url": "https://reason.com/2026/11/08/how-milei-defused-argentinas-hyperinflation-bomb/",
+    "domain": "reason.com",
+    "when": "Nov 8 · 11:30z"
    }
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "BioScience Health Innovations Announces Two Key Developments Supporting Diversified Growth and Expansion Strategy",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70053668-bioscience-health-innovations-announces-two-key-developments-supporting-diversified-growth-and-expansion-strategy-200.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Nov 6 · 04:30z"
+    "title": "Indictment for false claims in gun buys",
+    "url": "https://www.mercurynews.com/2026/11/07/santa-clara-man-lied-when-buying-nearly-a-dozen-guns-prosecutors-say/",
+    "domain": "mercurynews.com",
+    "when": "Nov 8 · 00:00z"
    },
    {
-    "title": "Acquisition | Company Announcement",
-    "url": "https://www.investegate.co.uk/announcement/rns/chesnara--csn/acquisition/9861477",
-    "domain": "investegate.co.uk",
-    "when": "Nov 6 · 08:00z"
+    "title": "UK spent £100m on zombie Brexit border inspection posts",
+    "url": "https://www.theguardian.com/politics/2026/nov/08/uk-zombie-brexit-border-inspection-posts-check-goods",
+    "domain": "theguardian.com",
+    "when": "Nov 8 · 14:30z"
    },
    {
-    "title": "Marvell Agreed to Pay $1 , 132 a Share for Lumentum . The Stock Trades Near $510 . Here Why It Not as Good As It Looks . ",
-    "url": "https://www.aol.com/articles/marvell-agreed-pay-1-132-123101000.html",
-    "domain": "aol.com",
-    "when": "Nov 6 · 13:00z"
-   },
-   {
-    "title": "INVESTOR ALERT : Pomerantz Law Firm Reminds Investors with Losses on their Investment in Skechers united states A ., Inc . of Class Action Lawsuit and Upcoming Deadlines",
-    "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-skechers-usa-inc-of-class-action-lawsuit-and-upcoming-deadlines--skx-302931523.html",
+    "title": "Impulse Space Awarded Two Task Orders for NASA Moon Base",
+    "url": "https://www.prnewswire.com/news-releases/impulse-space-awarded-two-task-orders-for-nasas-moon-base-302932625.html",
     "domain": "prnewswire.com",
-    "when": "Nov 6 · 03:00z"
+    "when": "Nov 8 · 00:00z"
    },
    {
-    "title": "Adani Ports to buy storage operator Evos for $2 . 9bn",
-    "url": "https://timesofindia.indiatimes.com/business/india-business/adani-ports-to-buy-storage-operator-evos-for-2-9bn/articleshow/135589343.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Nov 6 · 01:30z"
-   },
-   {
-    "title": "Devon Energy Posts $2 Billion in Free Cash Flow as Buybacks Accelerate",
-    "url": "https://oilprice.com/Company-News/Devon-Energy-Posts-2-Billion-in-Free-Cash-Flow-as-Buybacks-Accelerate.html",
-    "domain": "oilprice.com",
-    "when": "Nov 6 · 05:30z"
-   },
-   {
-    "title": "Shield AI to acquire radar maker Echodyne to bust drones",
-    "url": "https://www.militarytimes.com/news/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/",
-    "domain": "militarytimes.com",
-    "when": "Nov 6 · 02:00z"
-   },
-   {
-    "title": "Trinity Silver Corp .: Trinity Silver Announces TSXV Conditional Approval of Option Agreement to Acquire the Nueva Chanarcillo Silver Project in Northern Chile",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70058215-trinity-silver-corp-trinity-silver-announces-tsxv-conditional-approval-of-option-agreement-to-acquire-the-nueva-chanarcillo-silver-project-in-northe-296.htm",
+    "title": "EQS - PVR : Adtran Holdings , Inc .: Release according to Article 40 , Section 1 of the WpHG [ the German Securities Trading Act ] with the objective of Europe - wide distribution",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70067612-eqs-pvr-adtran-holdings-inc-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europ-023.htm",
     "domain": "finanznachrichten.de",
-    "when": "Nov 6 · 11:30z"
+    "when": "Nov 8 · 11:30z"
    },
    {
-    "title": "Alfa Laval to Acquire Maritime Software Provider NAVTOR Ship & Bunker",
-    "url": "https://shipandbunker.com/news/world/336327-alfa-laval-to-acquire-maritime-software-provider-navtor",
-    "domain": "shipandbunker.com",
-    "when": "Nov 6 · 11:00z"
+    "title": "Kyivstar Group ( NASDAQ : KYIV ) Issues Quarterly Earnings Results , Hits Expectations",
+    "url": "https://www.themarketsdaily.com/2026/11/07/kyivstar-group-nasdaqkyiv-issues-quarterly-earnings-results-hits-expectations.html",
+    "domain": "themarketsdaily.com",
+    "when": "Nov 7 · 22:00z"
    },
    {
-    "title": "Health Catalyst ( HCAT ) Q3 2026 Earnings Call Transcript",
-    "url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/health-catalyst-hcat-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
-    "domain": "fool.com",
-    "when": "Nov 6 · 09:30z"
+    "title": "Brookdale Senior Living ( NYSE : BKD ) Posts Earnings Results , Misses Expectations By $0 . 03 EPS",
+    "url": "https://www.themarketsdaily.com/2026/11/08/brookdale-senior-living-nysebkd-posts-earnings-results-misses-expectations-by-0-03-eps.html",
+    "domain": "themarketsdaily.com",
+    "when": "Nov 8 · 13:30z"
    },
    {
-    "title": "VEON To Acquire 33 . 75 % Stake In Jungo TV Holding Company",
-    "url": "https://www.rttnews.com/3711190/veon-to-acquire-33-75-stake-in-jungo-tv-holding-company.aspx",
-    "domain": "rttnews.com",
-    "when": "Nov 6 · 12:00z"
+    "title": "Wall Street races for megadeals as countdown begins on Trump era",
+    "url": "https://www.thehindubusinessline.com/markets/wall-street-races-for-megadeals-as-countdown-begins-on-trump-era/article71681053.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 8 · 17:00z"
    },
    {
-    "title": "IMDEX Shares Fall 7 % in Risk - Off Session on ASX as Investors Weigh Tech Firm Record Results and Outlook",
-    "url": "https://www.ibtimes.com.au/imdex-shares-fall-despite-record-fiscal-2026-results-1878035",
-    "domain": "ibtimes.com.au",
-    "when": "Nov 6 · 09:30z"
+    "title": "Report finds Istanbul municipality paid far more for dessert purchases",
+    "url": "https://www.dailysabah.com/politics/report-finds-istanbul-municipality-paid-far-more-for-dessert-purchases/news",
+    "domain": "dailysabah.com",
+    "when": "Nov 8 · 13:00z"
    },
    {
-    "title": "AMG Increases Guidance Following Strong Third Quarter 2026 Earnings",
-    "url": "https://www.manilatimes.net/2026/11/06/tmt-newswire/globenewswire/amg-increases-guidance-following-strong-third-quarter-2026-earnings/2463638",
-    "domain": "manilatimes.net",
-    "when": "Nov 5 · 22:30z"
+    "title": "Lightspeed ( NYSE : LSPD ) narrows loss as revenue edges higher in latest filing",
+    "url": "https://www.themarketsdaily.com/2026/11/07/lightspeed-nyse-lspd-narrows-loss-as-revenue-edges-higher-in-latest-filing.html",
+    "domain": "themarketsdaily.com",
+    "when": "Nov 8 · 00:00z"
+   },
+   {
+    "title": "Dow Jones , S & P 500 , Nasdaq : Last week AI stocks crash is not your garden variety correction",
+    "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 7 · 17:30z"
+   },
+   {
+    "title": "Murdoch family Fox buys Roku for $22 billion to broaden audience",
+    "url": "http://www.calcuttanews.net/news/279416468/murdoch-family-s-fox-buys-roku-for-usd22-billion-to-broaden-audience",
+    "domain": "calcuttanews.net",
+    "when": "Nov 8 · 16:00z"
+   },
+   {
+    "title": "Fox seals $22 billion Roku deal in Murdoch push into streaming",
+    "url": "http://www.neworleanssun.com/news/279416468/fox-seals-usd22-billion-roku-deal-in-murdoch-s-push-into-streaming",
+    "domain": "neworleanssun.com",
+    "when": "Nov 7 · 18:30z"
+   },
+   {
+    "title": "Murcoh family  Fox buys Roku for $22 billion to broaden audience",
+    "url": "http://www.laosnews.net/news/279416468/murcoh-family-s-fox-buys-roku-for-usd22-billion-to-broaden-audience",
+    "domain": "laosnews.net",
+    "when": "Nov 7 · 18:00z"
    }
   ]
  }
