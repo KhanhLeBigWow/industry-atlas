@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10 18:59z",
+ "generated": "2026-11-11 19:03z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -341,94 +341,76 @@
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "Govt Launches 9th Critical Minerals Auction With 20 Blocks",
-    "url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks",
-    "domain": "freepressjournal.in",
-    "when": "Nov 6 · 13:00z"
+    "title": "CoTec Holdings Corp . Files Third Quarter Financial Statements and MD & A and Provides Market Commentary",
+    "url": "https://investingnews.com/cotec-holdings-corp-files-third-quarter-financial-statements-and-mda-and-provides-market-commentary/",
+    "domain": "investingnews.com",
+    "when": "Nov 11 · 04:00z"
    },
    {
-    "title": "Abubakar Malami And The Northwest Regional Campaign Manifesto ( Part 6 ) - By Hajia Hadiza Mohammed",
-    "url": "https://www.opinionnigeria.com/abubakar-malami-and-the-northwest-regional-campaign-manifesto-part-6-by-hajia-hadiza-mohammed/",
-    "domain": "opinionnigeria.com",
-    "when": "Nov 6 · 06:30z"
-   },
-   {
-    "title": "America Rare Earth Reckoning Is Less Than 60 Days Away",
-    "url": "https://oilprice.com/Energy/Energy-General/Americas-Rare-Earth-Reckoning-Is-Less-Than-60-Days-Away.html",
-    "domain": "oilprice.com",
-    "when": "Nov 6 · 05:30z"
-   },
-   {
-    "title": "Chile plans for copper , lithium and critical minerals : Q & A with the Mining Ministry",
-    "url": "https://www.mining-technology.com/features/chiles-plans-for-copper-lithium-and-critical-minerals-qa-with-the-mining-ministry/",
-    "domain": "mining-technology.com",
-    "when": "Nov 6 · 09:30z"
-   },
-   {
-    "title": "Iron Ore Futures Fall 1 . 8 % as China Mills Hold Back",
-    "url": "https://www.riotimesonline.com/iron-ore-markets-latam-thursday-november-5-2026/",
+    "title": "Vale Shares Fall 3 . 3 % as Iron Ore Names Slide | Iron Ore Wrap , Nov 10",
+    "url": "https://www.riotimesonline.com/iron-ore-markets-latam-tuesday-november-10-2026/",
     "domain": "riotimesonline.com",
-    "when": "Nov 6 · 02:00z"
+    "when": "Nov 11 · 02:30z"
    },
    {
-    "title": "Rio Tinto approves $144m for copper project in Arizona , US",
-    "url": "https://www.mining-technology.com/news/rio-tinto-144m-copper-project-arizona/",
-    "domain": "mining-technology.com",
-    "when": "Nov 6 · 09:30z"
+    "title": "PMET Resources Delivers Enhanced CV5 Lithium - Tantalum Feasibility Study",
+    "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/pr-newswire/pmet-resources-delivers-enhanced-cv5-lithium-tantalum-feasibility-study/2467147",
+    "domain": "manilatimes.net",
+    "when": "Nov 11 · 02:00z"
    },
    {
-    "title": "Ammonia - Powered Bulk Carrier Takes on Green Fuel in Australian First",
-    "url": "https://gcaptain.com/ammonia-powered-bulk-carrier-takes-on-green-fuel-in-australian-first/",
-    "domain": "gcaptain.com",
-    "when": "Nov 6 · 01:00z"
+    "title": "A  Geologic Freak  in Arkansas Is Big Oil New Lithium Bet",
+    "url": "https://oilprice.com/Metals/Commodities/A-Geologic-Freak-in-Arkansas-Is-Big-Oils-New-Lithium-Bet.html",
+    "domain": "oilprice.com",
+    "when": "Nov 11 · 00:00z"
    },
    {
-    "title": "Eastport Critical Metals Corp .: Eastport Uncovers Multiple Trenches Extending over a Length of 12km with Copper Mineralisation at Copper Snake",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70059054-eastport-critical-metals-corp-eastport-uncovers-multiple-trenches-extending-over-a-length-of-12km-with-copper-mineralisation-at-copper-snake-296.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Nov 6 · 12:30z"
+    "title": "Aussie shares flat as US rates outlook hits miners",
+    "url": "https://www.perthnow.com.au/news/business/aussie-shares-flat-as-us-rates-outlook-hits-miners-c-23146617",
+    "domain": "perthnow.com.au",
+    "when": "Nov 11 · 02:30z"
    },
    {
-    "title": "USW reaches labor contract agreement with Cleveland - Cliffs Inc . ",
-    "url": "https://www.mesabitribune.com/news/local/usw-reaches-labor-contract-agreement-with-cleveland-cliffs-inc/article_840e5ccc-bbe3-4bae-9832-df7c01c47cf3.html",
-    "domain": "mesabitribune.com",
-    "when": "Nov 6 · 00:30z"
+    "title": "Orbit kicks off partner - funded NSW copper - gold drilling",
+    "url": "https://www.smh.com.au/business/companies/orbit-kicks-off-partner-funded-nsw-copper-gold-drilling-20261111-p61dcx.html",
+    "domain": "smh.com.au",
+    "when": "Nov 11 · 05:30z"
    },
    {
-    "title": "Govt launches 9th round of critical mineral auctions , 20 blocks across 8 states put up for bidding",
-    "url": "http://www.calcuttanews.net/news/279415563/govt-launches-9th-round-of-critical-mineral-auctions-20-blocks-across-8-states-put-up-for-bidding",
-    "domain": "calcuttanews.net",
-    "when": "Nov 6 · 08:00z"
+    "title": "Lithium Miners Fund Falls 2 . 2 % to Near 12 - Month Low",
+    "url": "https://www.riotimesonline.com/lithium-markets-latam-tuesday-november-10-2026/",
+    "domain": "riotimesonline.com",
+    "when": "Nov 11 · 02:30z"
    },
    {
-    "title": "Analysis - Lula election win dashes US hopes of quick access to Brazil rare earths",
-    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/06/analysis-lula-s-election-win-dashes-us-hopes-of-quick-access-to-brazil-s-rare-earths",
-    "domain": "internazionale.it",
-    "when": "Nov 6 · 03:00z"
+    "title": "NetNewsLedger - Barrick Keeps 2026 Output Forecasts as Gold Costs Rise 24 Per Cent",
+    "url": "https://www.netnewsledger.com/2026/11/10/barrick-keeps-2026-output-forecasts-as-gold-costs-rise-24-per-cent/",
+    "domain": "netnewsledger.com",
+    "when": "Nov 11 · 00:00z"
    },
    {
-    "title": "India Finished Steel Consumption Nears 100 Mt in Seven Months ( April - October 2026 ) | Odisha Diary , Latest Odisha News , Breaking News Odisha",
-    "url": "https://orissadiary.com/indias-finished-steel-consumption-nears-100-mt-in-seven-months-april-october-2026/",
-    "domain": "orissadiary.com",
-    "when": "Nov 6 · 09:00z"
+    "title": "China Trade Surplus Exceeds $1 Trillion for 2nd Time",
+    "url": "https://www.theepochtimes.com/china/chinas-trade-surplus-exceeds-1-trillion-for-2nd-time-6123268",
+    "domain": "theepochtimes.com",
+    "when": "Nov 11 · 02:30z"
    },
    {
-    "title": "CAPEX Support Scheme to Promote Critical Mineral Processing",
-    "url": "https://orissadiary.com/capex-support-scheme-to-promote-critical-mineral-processing/",
-    "domain": "orissadiary.com",
-    "when": "Nov 6 · 09:00z"
+    "title": "US extends 178 China tariff exclusions to January 9",
+    "url": "https://www.prokerala.com/news/articles/a1835330.html",
+    "domain": "prokerala.com",
+    "when": "Nov 11 · 05:00z"
    },
    {
-    "title": "From Defence to Mining : Airbotix Deploys India First Aerostat Surveillance Complex",
-    "url": "https://idrw.org/airbotix-india-first-aerostat-surveillance-iron-ore-mine/",
-    "domain": "idrw.org",
-    "when": "Nov 6 · 08:00z"
+    "title": "Investor Conference Call and Webcast Shaakichiuwaanaan Project - Updated Feasibility Study",
+    "url": "http://www.vietnamtribune.com/news/279425249/investor-conference-call-and-webcast-shaakichiuwaanaan-project-updated-feasibility-study",
+    "domain": "vietnamtribune.com",
+    "when": "Nov 11 · 05:30z"
    },
    {
-    "title": "Vale ( NYSE : VALE ) Stock Gets Price Target Cut from Wells Fargo & Company",
-    "url": "https://www.tickerreport.com/banking-finance/13651931/vale-nysevale-stock-gets-price-target-cut-from-wells-fargo-company.html",
-    "domain": "tickerreport.com",
-    "when": "Nov 6 · 08:00z"
+    "title": "Liberia : Sharing Development Opportunities Through High - Standard Opening - Up",
+    "url": "https://allafrica.com/stories/202611110074.html",
+    "domain": "allafrica.com",
+    "when": "Nov 11 · 03:00z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
@@ -785,76 +767,94 @@
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "Deloitte poaches KPMG Australia entire restructuring team",
-    "url": "https://www.afr.com/street-talk/deloitte-poaches-kpmg-australia-s-entire-restructuring-team-20261110-p61d01",
+    "title": "Sanjeev Gupta Infrabuild secures $375m in debt after legal win",
+    "url": "https://www.afr.com/street-talk/sanjeev-gupta-s-infrabuild-secures-375m-in-debt-after-legal-win-20261111-p61dai",
     "domain": "afr.com",
-    "when": "Nov 10 · 05:00z"
+    "when": "Nov 11 · 04:00z"
    },
    {
-    "title": "Quadrant Private Equity to double the size of Carlisle Health with Vision Radiology deal",
-    "url": "https://www.afr.com/street-talk/quadrant-to-double-size-of-carlisle-health-in-500m-vision-ary-deal-20261110-p61cwj",
+    "title": "Fifth Estate Asset Management defies market trend with new $250m small caps fund",
+    "url": "https://www.afr.com/street-talk/fifth-estate-defies-market-carnage-with-new-250m-small-caps-fund-20261111-p61d7y",
     "domain": "afr.com",
-    "when": "Nov 10 · 05:00z"
+    "when": "Nov 11 · 04:00z"
    },
    {
-    "title": "Generation Development Group looks for M & A targets in financial planning sector",
-    "url": "https://www.afr.com/street-talk/1-3b-generation-development-group-hunts-m-and-a-targets-in-client-pool-20261110-p61cwh",
-    "domain": "afr.com",
-    "when": "Nov 10 · 05:00z"
+    "title": "Ionis Pharmaceuticals ( IONS ) Stock Declines Following Sharp Reduction ... ",
+    "url": "https://www.pr-inside.com/ionis-pharmaceuticals-ions-stock-declines-following-sharp-reduction-r5242556.htm",
+    "domain": "pr-inside.com",
+    "when": "Nov 11 · 00:00z"
    },
    {
-    "title": "EPS Creative Health Technology Group Limited : EPS Creative Health Technology Group Strengthens Capabilities Through Executive Appointments",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70081756-eps-creative-health-technology-group-limited-eps-creative-health-technology-group-strengthens-capabilities-through-executive-appointments-011.htm",
+    "title": "Signing of Non - Binding Memorandum of Understanding for Small - Scale LNG Development in Abu Dhabi",
+    "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/pr-newswire/signing-of-non-binding-memorandum-of-understanding-for-small-scale-lng-development-in-abu-dhabi/2467161",
+    "domain": "manilatimes.net",
+    "when": "Nov 11 · 03:00z"
+   },
+   {
+    "title": "TSMC to invest up to $1 billion in Anthropic , OpenAI - The HinduBusinessLine",
+    "url": "https://www.thehindubusinessline.com/info-tech/tsmc-to-invest-up-to-1-billion-in-anthropic-openai/article71688330.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 11 · 06:30z"
+   },
+   {
+    "title": "TSMC to invest up to USD 1 billion in Anthropic , OpenAI",
+    "url": "https://aninews.in/news/business/tsmc-to-invest-up-to-usd-1-billion-in-anthropic-openai20261111100319/",
+    "domain": "aninews.in",
+    "when": "Nov 11 · 05:00z"
+   },
+   {
+    "title": "Democrats miss complete takeover of North Carolina state government by the smallest of margins",
+    "url": "https://www.theblaze.com/news/north-carolina-senate-trifecta-lost",
+    "domain": "theblaze.com",
+    "when": "Nov 11 · 01:30z"
+   },
+   {
+    "title": "Vantage Goldfields Limited : Lions Bay Resource Attempt to Acquire the Barbrook Mine Has Failed , But They Continue to Make Misleading and Deceptive Statements",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70093886-vantage-goldfields-limited-lions-bay-resources-attempt-to-acquire-the-barbrook-mine-has-failed-but-they-continue-to-make-misleading-and-deceptive-s-296.htm",
     "domain": "finanznachrichten.de",
-    "when": "Nov 10 · 06:00z"
+    "when": "Nov 11 · 00:00z"
    },
    {
-    "title": "PRIMEFLIGHT APPOINTS AMATH FALL AS CHIEF EXECUTIVE OFFICER , STRENGTHENING LEADERSHIP TEAM TO SUPPORT NEXT PHASE OF GROWTH",
-    "url": "https://www.prnewswire.com/news-releases/primeflight-appoints-amath-fall-as-chief-executive-officer-strengthening-leadership-team-to-support-next-phase-of-growth-302933976.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 10 · 00:00z"
+    "title": "Applied Energetics Nominates Amprius CFO Ricardo C . Rodriguez for Election ... ",
+    "url": "https://www.pr-inside.com/applied-energetics-nominates-amprius-cfo-ricardo-c-rodriguez-for-election-r5242527.htm",
+    "domain": "pr-inside.com",
+    "when": "Nov 10 · 22:00z"
    },
    {
-    "title": "Korean insurer agrees deal to take control of Canopius",
-    "url": "https://www.royalgazette.com/reinsurance/business/article/20261109/korean-insurer-agrees-deal-to-take-control-of-canopius/",
-    "domain": "royalgazette.com",
-    "when": "Nov 10 · 03:00z"
+    "title": "Vancouver - based meal kit company Fresh Prep approved to purchase competitor Goodfood",
+    "url": "https://www.cbc.ca/news/canada/british-columbia/fresh-prep-vancouver-meal-kit-goodfood-9.7416870",
+    "domain": "cbc.ca",
+    "when": "Nov 11 · 01:30z"
    },
    {
-    "title": "Greater Cincinnati startup sold to NYC firm",
-    "url": "https://local12.com/news/local/greater-cincinnati-startup-sold-nyc-firm-yext-flamel",
-    "domain": "local12.com",
-    "when": "Nov 10 · 01:00z"
+    "title": "Only One Freddy Remake Happening , Other ELM STREET Dead",
+    "url": "https://nerdist.com/article/nightmare-on-elm-street-remake-at-paramount-other-one-dead-freddy-krueger/",
+    "domain": "nerdist.com",
+    "when": "Nov 11 · 01:30z"
    },
    {
-    "title": "Century Communities names Jim Francescon as president",
-    "url": "https://www.housingwire.com/articles/entury-communities-jim-francescon-president/",
-    "domain": "housingwire.com",
-    "when": "Nov 10 · 00:00z"
+    "title": "Bills land impact safety Amani Hooker in trade with Titans",
+    "url": "https://www.buffalobills.com/news/bills-land-impact-safety-amani-hooker-in-trade-with-titans",
+    "domain": "buffalobills.com",
+    "when": "Nov 10 · 22:00z"
    },
    {
-    "title": "Telenor Connexion Appoints Thomas Bergström as CFO to Support Global IoT Growth",
-    "url": "https://www.thefastmode.com/leadership-and-management/51354-telenor-connexion-appoints-thomas-bergstrom-as-cfo-to-support-global-iot-growth",
-    "domain": "thefastmode.com",
-    "when": "Nov 10 · 05:00z"
+    "title": "Josh Downs Trade Grades : Chiefs Get Patrick Mahomes a Playmaker",
+    "url": "https://www.si.com/nfl/josh-downs-trade-grades-chiefs-get-patrick-mahomes-playmaker",
+    "domain": "si.com",
+    "when": "Nov 11 · 01:30z"
    },
    {
-    "title": "Craveworthy Brands Signs Definitive Agreement to Acquire New England Authentic Eats LLC , Accelerating Wing It On ! Expansion",
-    "url": "https://www.prnewswire.com/news-releases/craveworthy-brands-signs-definitive-agreement-to-acquire-new-england-authentic-eats-llc-accelerating-wing-it-on-expansion-302933955.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 10 · 00:00z"
+    "title": "Olandria  Byrdie  Cover Shoot Styled a Stunning Shade Also Seen in Her SI Swimsuit Debut",
+    "url": "https://swimsuit.si.com/fashion/olandria-byrdie-cover-shoot-stunning-shade-si-swimsuit-debut",
+    "domain": "swimsuit.si.com",
+    "when": "Nov 11 · 01:30z"
    },
    {
-    "title": "Greenfire Resources ( GFR ) is Soaring by Huge Double Digits Here What Fueled the Rally",
-    "url": "https://www.insidermonkey.com/news/greenfire-resources-gfr-is-soaring-by-huge-double-digits-heres-what-fueled-the-rally-1863594/",
-    "domain": "insidermonkey.com",
-    "when": "Nov 10 · 05:00z"
-   },
-   {
-    "title": "LASE Strengthens Board of Directors with Appointments of Tim Peterman and Sanjay Adhav",
-    "url": "http://www.tennesseedaily.com/news/279422739/lase-strengthens-board-of-directors-with-appointments-of-tim-peterman-and-sanjay-adhav",
-    "domain": "tennesseedaily.com",
-    "when": "Nov 10 · 00:00z"
+    "title": "Blue Jays reportedly interested in slugger Brandon Lowe in free agency",
+    "url": "https://www.yardbarker.com/mlb/articles/blue_jays_reportedly_interested_in_slugger_brandon_lowe_in_free_agency/s1_13132_44543552",
+    "domain": "yardbarker.com",
+    "when": "Nov 11 · 00:00z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
@@ -1045,82 +1045,88 @@
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "Indictment for false claims in gun buys",
-    "url": "https://www.mercurynews.com/2026/11/07/santa-clara-man-lied-when-buying-nearly-a-dozen-guns-prosecutors-say/",
-    "domain": "mercurynews.com",
-    "when": "Nov 8 · 00:00z"
+    "title": "Allens Advises Kimberly - Clark on Kenvue Acquisition Clearance",
+    "url": "https://www.miragenews.com/allens-advises-kimberly-clark-on-kenvue-1775442/",
+    "domain": "miragenews.com",
+    "when": "Nov 11 · 05:30z"
    },
    {
-    "title": "UK spent £100m on zombie Brexit border inspection posts",
-    "url": "https://www.theguardian.com/politics/2026/nov/08/uk-zombie-brexit-border-inspection-posts-check-goods",
-    "domain": "theguardian.com",
-    "when": "Nov 8 · 14:30z"
+    "title": "Allens Advises On $19bn Wave Of Take - privates",
+    "url": "https://www.miragenews.com/allens-advises-on-19bn-wave-of-take-privates-1775439/",
+    "domain": "miragenews.com",
+    "when": "Nov 11 · 05:30z"
    },
    {
-    "title": "Impulse Space Awarded Two Task Orders for NASA Moon Base",
-    "url": "https://www.prnewswire.com/news-releases/impulse-space-awarded-two-task-orders-for-nasas-moon-base-302932625.html",
+    "title": "49ers send sixth - round pick to Colts for WR Keenan Allen",
+    "url": "https://www.yardbarker.com/nfl/articles/49ers_send_sixth_round_pick_to_colts_for_wr_keenan_allen/s1_13132_44543161",
+    "domain": "yardbarker.com",
+    "when": "Nov 11 · 00:00z"
+   },
+   {
+    "title": "Trading for Kirk Cousins may not have been Viking first choice for new QB",
+    "url": "https://www.yardbarker.com/nfl/articles/trading_for_kirk_cousins_may_not_have_been_vikings_first_choice_for_new_qb/s1_13132_44543535",
+    "domain": "yardbarker.com",
+    "when": "Nov 11 · 00:00z"
+   },
+   {
+    "title": "Perrigo Q3 Earnings Call Highlights",
+    "url": "https://www.tickerreport.com/banking-finance/13658121/perrigo-q3-earnings-call-highlights.html",
+    "domain": "tickerreport.com",
+    "when": "Nov 10 · 22:00z"
+   },
+   {
+    "title": "Uber Introduces Parking Reservations In 15 U . S . Cities",
+    "url": "https://790waeb.iheart.com/content/2026-11-10-uber-introduces-parking-reservations-in-15-us-cities/",
+    "domain": "790waeb.iheart.com",
+    "when": "Nov 11 · 00:00z"
+   },
+   {
+    "title": "Rubio Says US Economic Pressure Makes Iran Strikes Unnecessary",
+    "url": "https://www.deccanchronicle.com/west-asia/rubio-says-us-economic-pressure-makes-iran-strikes-unnecessary-2003379",
+    "domain": "deccanchronicle.com",
+    "when": "Nov 11 · 02:00z"
+   },
+   {
+    "title": "France Approves Globalstar to Launch 54 Next - Gen D2D Satellites Under 20 - Year Spectrum License – SatNews",
+    "url": "https://satnews.com/2026/11/10/france-approves-globalstar-to-launch-54-next-gen-d2d-satellites-under-20-year-spectrum-license/",
+    "domain": "satnews.com",
+    "when": "Nov 11 · 02:30z"
+   },
+   {
+    "title": "Skydance Bets On AI To Help Reduce Its $87 Billion Debt Burden",
+    "url": "https://www.cartoonbrew.com/business/skydance-ai-cost-cutting-87-billion-debt-269275.html",
+    "domain": "cartoonbrew.com",
+    "when": "Nov 11 · 02:00z"
+   },
+   {
+    "title": "What We Know About Wachtell , the Law Firm Probing Jensen Huang",
+    "url": "https://www.businessinsider.com/wachtell-law-firm-joon-kim-investigating-nvidia-ceo-jensen-huang-2026-11",
+    "domain": "businessinsider.com",
+    "when": "Nov 11 · 02:00z"
+   },
+   {
+    "title": "Real REMAX Group : 3 Key Takeaways for Long - Term Investors",
+    "url": "https://www.fool.com/earnings/takeaways/2026/11/10/real-remax-group-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Nov 10 · 22:00z"
+   },
+   {
+    "title": "DC Best Selling Comic Just Saved Staff From Layoffs , Reports Claim",
+    "url": "https://screenrant.com/absolute-batman-save-dc-comics/",
+    "domain": "screenrant.com",
+    "when": "Nov 11 · 02:30z"
+   },
+   {
+    "title": "AtlasClear Holdings Responds to NYSE American Trading Suspension and Delisting Proceedings ; Intends to Appeal",
+    "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/globenewswire/atlasclear-holdings-responds-to-nyse-american-trading-suspension-and-delisting-proceedings-intends-to-appeal/2467141",
+    "domain": "manilatimes.net",
+    "when": "Nov 11 · 01:00z"
+   },
+   {
+    "title": "Nielsen Announces Pricing of $1 . 4 Billion Offering of Senior Secured Notes by its Affiliate",
+    "url": "https://www.prnewswire.com/news-releases/nielsen-announces-pricing-of-1-4-billion-offering-of-senior-secured-notes-by-its-affiliate-302935673.html",
     "domain": "prnewswire.com",
-    "when": "Nov 8 · 00:00z"
-   },
-   {
-    "title": "EQS - PVR : Adtran Holdings , Inc .: Release according to Article 40 , Section 1 of the WpHG [ the German Securities Trading Act ] with the objective of Europe - wide distribution",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70067612-eqs-pvr-adtran-holdings-inc-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europ-023.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Nov 8 · 11:30z"
-   },
-   {
-    "title": "Kyivstar Group ( NASDAQ : KYIV ) Issues Quarterly Earnings Results , Hits Expectations",
-    "url": "https://www.themarketsdaily.com/2026/11/07/kyivstar-group-nasdaqkyiv-issues-quarterly-earnings-results-hits-expectations.html",
-    "domain": "themarketsdaily.com",
-    "when": "Nov 7 · 22:00z"
-   },
-   {
-    "title": "Brookdale Senior Living ( NYSE : BKD ) Posts Earnings Results , Misses Expectations By $0 . 03 EPS",
-    "url": "https://www.themarketsdaily.com/2026/11/08/brookdale-senior-living-nysebkd-posts-earnings-results-misses-expectations-by-0-03-eps.html",
-    "domain": "themarketsdaily.com",
-    "when": "Nov 8 · 13:30z"
-   },
-   {
-    "title": "Wall Street races for megadeals as countdown begins on Trump era",
-    "url": "https://www.thehindubusinessline.com/markets/wall-street-races-for-megadeals-as-countdown-begins-on-trump-era/article71681053.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Nov 8 · 17:00z"
-   },
-   {
-    "title": "Report finds Istanbul municipality paid far more for dessert purchases",
-    "url": "https://www.dailysabah.com/politics/report-finds-istanbul-municipality-paid-far-more-for-dessert-purchases/news",
-    "domain": "dailysabah.com",
-    "when": "Nov 8 · 13:00z"
-   },
-   {
-    "title": "Lightspeed ( NYSE : LSPD ) narrows loss as revenue edges higher in latest filing",
-    "url": "https://www.themarketsdaily.com/2026/11/07/lightspeed-nyse-lspd-narrows-loss-as-revenue-edges-higher-in-latest-filing.html",
-    "domain": "themarketsdaily.com",
-    "when": "Nov 8 · 00:00z"
-   },
-   {
-    "title": "Dow Jones , S & P 500 , Nasdaq : Last week AI stocks crash is not your garden variety correction",
-    "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Nov 7 · 17:30z"
-   },
-   {
-    "title": "Murdoch family Fox buys Roku for $22 billion to broaden audience",
-    "url": "http://www.calcuttanews.net/news/279416468/murdoch-family-s-fox-buys-roku-for-usd22-billion-to-broaden-audience",
-    "domain": "calcuttanews.net",
-    "when": "Nov 8 · 16:00z"
-   },
-   {
-    "title": "Fox seals $22 billion Roku deal in Murdoch push into streaming",
-    "url": "http://www.neworleanssun.com/news/279416468/fox-seals-usd22-billion-roku-deal-in-murdoch-s-push-into-streaming",
-    "domain": "neworleanssun.com",
-    "when": "Nov 7 · 18:30z"
-   },
-   {
-    "title": "Murcoh family  Fox buys Roku for $22 billion to broaden audience",
-    "url": "http://www.laosnews.net/news/279416468/murcoh-family-s-fox-buys-roku-for-usd22-billion-to-broaden-audience",
-    "domain": "laosnews.net",
-    "when": "Nov 7 · 18:00z"
+    "when": "Nov 11 · 00:00z"
    }
   ]
  }
