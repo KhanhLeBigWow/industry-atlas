@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11 19:03z",
+ "generated": "2026-11-12 19:16z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -95,70 +95,94 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Semiconductor startups outpace AI firms in $2 . 5bn valuation",
-    "url": "https://punchng.com/semiconductor-startups-outpace-ai-firms-in-2-5bn-valuation/",
-    "domain": "punchng.com",
-    "when": "Nov 9 · 07:00z"
+    "title": "SC colleges approved for 17 new programs",
+    "url": "https://www.postandcourier.com/kingstree/kingstree/education/sc-colleges-approved-for-17-new-programs/article_57010e50-b435-4b1b-825a-9562a742d8ba.html",
+    "domain": "postandcourier.com",
+    "when": "Nov 12 · 01:30z"
    },
    {
-    "title": "PYMNTS | OpenAI Valuation Hits $1 . 25 Trillion in New Funding Round",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-valuation-hits-1-25-trillion-in-new-funding-round/",
-    "domain": "pymnts.com",
-    "when": "Nov 9 · 00:30z"
+    "title": "Dell Technologies vs . Taiwan Semiconductor : Which Technology Stock Is a Better Buy for 2027 ? ",
+    "url": "https://www.fool.com/coverage/better-buy/2026/11/11/dell-technologies-vs-taiwan-semiconductor-which-technology-stock-is-a-better-buy-for-2027/",
+    "domain": "fool.com",
+    "when": "Nov 12 · 00:30z"
    },
    {
-    "title": "Community colleges rush to expand semiconductor training as labor shortage looms U . S . chip industry",
-    "url": "https://www.santafenewmexican.com/news/education/community-colleges-rush-to-expand-semiconductor-training-as-labor-shortage-looms-u-s-chip-industry/article_ec0bcdc6-2b87-5377-bc49-f8567cb8e10c.html",
-    "domain": "santafenewmexican.com",
-    "when": "Nov 9 · 05:30z"
+    "title": "What Next for the AI Trade After the Midterms ? ",
+    "url": "https://www.morningstar.com/stocks/whats-next-ai-trade-after-midterms",
+    "domain": "morningstar.com",
+    "when": "Nov 12 · 03:30z"
    },
    {
-    "title": "Nvidia launches investigation into CEO Jensen Huang",
-    "url": "https://www.wyff4.com/article/nvidia-investigation-ceo-jensen-huang-foreign-intelligence/74369280",
-    "domain": "wyff4.com",
-    "when": "Nov 9 · 01:00z"
+    "title": "MARKETS LIVE : US stocks close higher as CoreWeave results revive AI optimism",
+    "url": "https://www.proactiveinvestors.com/companies/news/1101567/markets-live-us-stocks-close-higher-as-coreweave-results-revive-ai-optimism-1101567.html",
+    "domain": "proactiveinvestors.com",
+    "when": "Nov 12 · 01:30z"
    },
    {
-    "title": "IT firms with lower capital requirements may gain as investors shift focus to AI monetisation : Report",
-    "url": "https://aninews.in/news/business/it-firms-with-lower-capital-requirements-may-gain-as-investors-shift-focus-to-ai-monetisation-report20261109084419/",
-    "domain": "aninews.in",
-    "when": "Nov 9 · 05:30z"
+    "title": "Jensen Huang controversy sends Chinese AI firms scrambling for Nvidia computing power overseas",
+    "url": "https://www.moneycontrol.com/news/business/jensen-huang-controversy-sends-chinese-ai-firms-scrambling-for-nvidia-computing-power-overseas-14078021.html",
+    "domain": "moneycontrol.com",
+    "when": "Nov 12 · 07:00z"
    },
    {
-    "title": "Nvidia Launches Probe Into CEO Huang Links To Suspected Chinese Spy",
-    "url": "https://www.businessworld.in/article/nvidia-launches-probe-into-ceo-huang-s-links-to-suspected-chinese-spy-632672",
-    "domain": "businessworld.in",
-    "when": "Nov 9 · 06:00z"
+    "title": "Uzbekistan , France seek to expand strategic partnership across key sectors",
+    "url": "https://www.trend.az/casia/uzbekistan/4245473.html",
+    "domain": "trend.az",
+    "when": "Nov 12 · 06:45z"
    },
    {
-    "title": "Nvidia investigates whether CEO Jensen Huang was targeted by Chinese spy following alleged affair",
-    "url": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged",
-    "domain": "euronews.com",
-    "when": "Nov 9 · 06:00z"
+    "title": "UK economic growth expected to have picked up amid AI and defence drive",
+    "url": "https://www.standard.co.uk/business/business-news/gdp-office-for-national-statistics-hospitality-iran-data-centres-b1304556.html",
+    "domain": "standard.co.uk",
+    "when": "Nov 12 · 03:30z"
    },
    {
-    "title": "Alice Huang , alleged Chinese spy linked to Nvidia CEO , worked at state broadcaster CCTV , HSBC before Megaspeed stint",
-    "url": "https://www.hindustantimes.com/world-news/who-is-alice-huang-alleged-chinese-spy-linked-to-nvidia-ceo-jensen-huang-worked-reporter-cctv-banker-hsbc-megaspeed-101794198950902.html",
-    "domain": "hindustantimes.com",
-    "when": "Nov 9 · 07:00z"
+    "title": "Stock Market Today , Nov . 11 : Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-intel-climbs-on-broader-chip-rally-as-ai-infrastructure-demand-lifts-semiconductor-stocks/",
+    "domain": "fool.com",
+    "when": "Nov 12 · 00:30z"
    },
    {
-    "title": "Nvidia investigating CEO Jensen Huang over reported links to accused Chinese spy",
-    "url": "https://www.ktvu.com/news/nvidia-investigating-ceo-jensen-huang-over-reported-links-accused-chinese-spy",
-    "domain": "ktvu.com",
-    "when": "Nov 9 · 02:00z"
+    "title": "Chip upcycle , easing oil - related pressures to boost consumption in 2027 : KDI",
+    "url": "https://www.koreatimes.co.kr/business/20261112/chip-upcycle-easing-oil-related-pressures-to-boost-consumption-in-2027-kdi",
+    "domain": "koreatimes.co.kr",
+    "when": "Nov 12 · 05:30z"
    },
    {
-    "title": "NSE Chief Sees FII Comeback As Crude Cools , Rupee Stabilises",
-    "url": "https://www.businessworld.in/article/nse-chief-sees-fii-comeback-as-crude-cools-rupee-stabilises-632675",
-    "domain": "businessworld.in",
-    "when": "Nov 9 · 06:00z"
+    "title": "Bank of Ceylon joins 12th Annual Cyber Security Summit 2026 as Official Banking Partner",
+    "url": "https://www.ft.lk/front-page/Bank-of-Ceylon-joins-12th-Annual-Cyber-Security-Summit-2026-as-Official-Banking-Partner/44-799956",
+    "domain": "ft.lk",
+    "when": "Nov 12 · 03:00z"
    },
    {
-    "title": "Anthropic IPO dilemma after the AI sell - off :  Damned if you do , damned if you dont  ",
-    "url": "https://www.aol.com/articles/anthropics-ipo-dilemma-ai-sell-231228000.html",
-    "domain": "aol.com",
-    "when": "Nov 9 · 01:00z"
+    "title": "In 1986 , the US humbled Japan dominant chip sector . Is Korea next ? ",
+    "url": "https://www.hani.co.kr/arti/english_edition/e_business/1286956.html",
+    "domain": "hani.co.kr",
+    "when": "Nov 12 · 04:00z"
+   },
+   {
+    "title": "NYU Stern Launches AI Startup Competition With $5 Million Gift From Microsoft ( NASDAQ : MSFT ) Executive Jeff Teper And Wife Sandy",
+    "url": "https://www.foreignpolicyjournal.com/2026/11/11/nyu-stern-launches-ai-startup-competition-with-5-million-gift-from-microsoft-nasdaq-msft-executive-jeff-teper-and-wife-sandy/",
+    "domain": "foreignpolicyjournal.com",
+    "when": "Nov 12 · 01:30z"
+   },
+   {
+    "title": "Stock Market Today , Nov . 11 : Stock Market Today , Nov . 11 : Nasdaq Surges as CoreWeave 25 % Rally Reignites the AI Trade",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-stock-market-today-nov-11-nasdaq-surges-as-coreweave-s-25-rally-reignites-the-ai-trade/",
+    "domain": "fool.com",
+    "when": "Nov 12 · 00:30z"
+   },
+   {
+    "title": "Stock Market Today , Nov . 11 : Advanced Micro Devices Jumps -- and Not Only Because of CoreWeave Results",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-advanced-micro-devices-jumps-and-not-only-because-of-coreweave-s-results/",
+    "domain": "fool.com",
+    "when": "Nov 12 · 00:30z"
+   },
+   {
+    "title": "Google enters decision model market with Gemini Decisions API",
+    "url": "https://siliconangle.com/2026/11/11/google-enters-the-decision-model-market-with-gemini-decisions-api/",
+    "domain": "siliconangle.com",
+    "when": "Nov 12 · 03:30z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
@@ -581,94 +605,94 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "PYMNTS | Amazon - Uber Eats Deal Leaves DoorDash Investors Queasy",
-    "url": "https://www.pymnts.com/news/delivery/2026/amazon-uber-eats-deal-leaves-doordash-investors-queasy/",
-    "domain": "pymnts.com",
-    "when": "Nov 9 · 00:30z"
+    "title": "Retail spending falls for third month , down 0 . 7 % in October as fuel costs remain high",
+    "url": "https://www.nzherald.co.nz/business/companies/retail/retail-spending-falls-for-third-month-down-07-in-october-as-fuel-costs-remain-high/premium/HF2QPJR56JBBHD3N5YCWK4N5DM/",
+    "domain": "nzherald.co.nz",
+    "when": "Nov 12 · 00:30z"
    },
    {
-    "title": "Oxford Street footfall jumps 16 % in first week of pedestrianisation , City Hall says",
-    "url": "https://www.aol.co.uk/articles/oxford-street-footfall-jumps-16-002023000.html",
-    "domain": "aol.co.uk",
-    "when": "Nov 9 · 01:00z"
+    "title": "Turkmenistan foreign trade growth accelerates to 9 . 5 % in January - October",
+    "url": "https://www.trend.az/casia/turkmenistan/4245446.html",
+    "domain": "trend.az",
+    "when": "Nov 12 · 04:00z"
    },
    {
-    "title": "Retail News and Trends | Retail Dive",
-    "url": "https://www.retaildive.com/?page=2&_sp=8f0ab25d-62c1-4b72-830b-c72ef3544de6",
-    "domain": "retaildive.com",
-    "when": "Nov 9 · 01:00z"
+    "title": "First - time buyers , easy loans drive festive used - car sales to nearly 6 lakh",
+    "url": "https://www.thehindubusinessline.com/companies/first-time-buyers-easy-loans-drive-festive-used-car-sales-to-nearly-6-lakh/article71692416.ece",
+    "domain": "thehindubusinessline.com",
+    "when": "Nov 12 · 06:45z"
    },
    {
-    "title": "AI Shopping Statistics 2026 Across Buyers and Brands",
-    "url": "https://memeburn.com/ai-shopping-statistics-2026/",
-    "domain": "memeburn.com",
-    "when": "Nov 9 · 06:00z"
+    "title": "Paul Davis On Crime : My South Philly Review Crime Beat Column : The Impact of Retail Theft",
+    "url": "http://www.pauldavisoncrime.com/2026/11/my-south-philly-review-crime-beat.html",
+    "domain": "pauldavisoncrime.com",
+    "when": "Nov 12 · 03:00z"
    },
    {
-    "title": "  Personalisation  key to Canberra businesses thriving amid trying economic conditions",
-    "url": "https://www.abc.net.au/news/2026-11-09/how-small-retail-businesses-thriving-canberra/107362584",
-    "domain": "abc.net.au",
-    "when": "Nov 9 · 06:00z"
+    "title": "Paul Davis On Crime : 1st District Captain Kelly Robbins",
+    "url": "http://www.pauldavisoncrime.com/search/label/1st%20District%20Captain%20Kelly%20Robbins",
+    "domain": "pauldavisoncrime.com",
+    "when": "Nov 12 · 03:00z"
    },
    {
-    "title": "Greggs opening luxury hotel suite in Newcastle with  ring for a sausage roll  concierge service",
-    "url": "https://www.chroniclelive.co.uk/whats-on/whats-on-news/greggs-opening-luxury-hotel-suite-34881529",
-    "domain": "chroniclelive.co.uk",
-    "when": "Nov 9 · 01:00z"
+    "title": "Paul Davis On Crime : The Impact of Retail Theft",
+    "url": "http://www.pauldavisoncrime.com/search/label/The%20Impact%20of%20Retail%20Theft",
+    "domain": "pauldavisoncrime.com",
+    "when": "Nov 12 · 03:00z"
    },
    {
-    "title": "The Family Sedan That Hid Ferrari V8 In Plain Sight",
-    "url": "https://www.topspeed.com/lancia-thema-hid-ferraris-v8-in-plain-sight/",
-    "domain": "topspeed.com",
-    "when": "Nov 9 · 05:30z"
-   },
-   {
-    "title": "Delhi sees luxury housing boom as developers bet on high - rise gated communities",
-    "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/delhi-sees-luxury-housing-boom-as-developers-bet-on-high-rise-gated-communities/articleshow/135667527.cms",
+    "title": "Online festive sales miss estimates ; Munjal steps down as Unacademy CEO",
+    "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/online-festive-sales-grow-ev-makers-bet-on-family-scooters/articleshow/135752032.cms",
     "domain": "economictimes.indiatimes.com",
-    "when": "Nov 9 · 02:00z"
+    "when": "Nov 12 · 03:30z"
    },
    {
-    "title": "10 Winning Retail Marketing Strategies to Boost Sales",
-    "url": "https://smallbiztrends.com/retail-marketing-strategy/",
-    "domain": "smallbiztrends.com",
-    "when": "Nov 9 · 02:00z"
+    "title": "Stolen handbag story connects Chicago business owner to Prince family",
+    "url": "https://www.fox32chicago.com/news/stolen-handbag-story-connects-chicago-business-owner-princes-family",
+    "domain": "fox32chicago.com",
+    "when": "Nov 12 · 03:30z"
    },
    {
-    "title": "The Luxury Sedan With A Better Shot At 250 , 000 Miles Than A Camry",
-    "url": "https://www.topspeed.com/lexus-ls-better-shot-at-250k-miles-than-camry/",
-    "domain": "topspeed.com",
-    "when": "Nov 9 · 00:30z"
+    "title": "Pet Circle builds fulfilment foundation for continued ecommerce growth with Manhattan WMS",
+    "url": "https://www.manilatimes.net/2026/11/12/tmt-newswire/pr-newswire/pet-circle-builds-fulfilment-foundation-for-continued-ecommerce-growth-with-manhattan-wms/2468087",
+    "domain": "manilatimes.net",
+    "when": "Nov 12 · 05:30z"
    },
    {
-    "title": "Maserati Levante And Quattroporte Return December : Report",
-    "url": "https://www.motor1.com/news/814775/maserati-levante-quattroporte-concepts-rumored-december-debut/",
-    "domain": "motor1.com",
-    "when": "Nov 9 · 00:30z"
+    "title": "Survey : Iowans wont toss holiday traditions because of high prices",
+    "url": "https://kscj.com/2026/11/11/survey-iowans-wont-toss-holiday-traditions-because-of-high-prices/",
+    "domain": "kscj.com",
+    "when": "Nov 12 · 03:00z"
    },
    {
-    "title": "New images show inside Crazy Bear Beaconsfield after closure",
-    "url": "https://www.bucksfreepress.co.uk/news/26709880.new-images-show-inside-crazy-bear-beaconsfield-closure/",
-    "domain": "bucksfreepress.co.uk",
-    "when": "Nov 9 · 06:00z"
+    "title": "China Single Day shopping festival struggles to shake off weak consumer spending | Business",
+    "url": "https://www.journalgazette.net/ap/business/china-s-singles-day-shopping-festival-struggles-to-shake-off-weak-consumer-spending/article_8854f188-6535-5c57-8a86-5eece09e003f.html",
+    "domain": "journalgazette.net",
+    "when": "Nov 12 · 00:30z"
    },
    {
-    "title": "Starbucks launching huge  recruitment drive in the north  as part of plans to hire 7 , 500 new baristas",
-    "url": "https://www.chroniclelive.co.uk/news/north-east-news/starbucks-launching-huge-recruitment-drive-34881952",
-    "domain": "chroniclelive.co.uk",
-    "when": "Nov 9 · 01:00z"
+    "title": "OpenAI Launches Businesses in ChatGPT",
+    "url": "https://themobileindian.com/news/openai-launches-businesses-in-chatgpt",
+    "domain": "themobileindian.com",
+    "when": "Nov 12 · 06:45z"
    },
    {
-    "title": "  Back Australia : David Jones enjoys record sales boost",
-    "url": "https://www.juneesoutherncross.com.au/story/9388126/back-australia-david-jones-enjoys-record-sales-boost/",
-    "domain": "juneesoutherncross.com.au",
-    "when": "Nov 9 · 05:30z"
+    "title": "After losing $30 million Malibu mansion in corruption case , Equatorial Guinea vice - president former property sells for $93 . 5 million",
+    "url": "https://www.moneycontrol.com/world/after-losing-30-million-malibu-mansion-in-corruption-case-equatorial-guinea-vice-president-s-former-property-sells-for-93-5-million-article-14077978.html",
+    "domain": "moneycontrol.com",
+    "when": "Nov 12 · 07:00z"
    },
    {
-    "title": "NSE Chief Sees FII Comeback As Crude Cools , Rupee Stabilises",
-    "url": "https://www.businessworld.in/article/nse-chief-sees-fii-comeback-as-crude-cools-rupee-stabilises-632675",
-    "domain": "businessworld.in",
-    "when": "Nov 9 · 06:00z"
+    "title": "Bruce Springsteen Surprises at Loro Piana Luxurious Cashmere of the Year Event",
+    "url": "https://www.aceshowbiz.com/news/view/00263198.html",
+    "domain": "aceshowbiz.com",
+    "when": "Nov 12 · 03:00z"
+   },
+   {
+    "title": "Festive GMV up 17 %, But Phone Demand Low",
+    "url": "https://economictimes.indiatimes.com/et-front/festive-gmv-up-17-but-phone-demand-low/articleshow/135749355.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 12 · 01:30z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
@@ -767,94 +791,94 @@
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "Sanjeev Gupta Infrabuild secures $375m in debt after legal win",
-    "url": "https://www.afr.com/street-talk/sanjeev-gupta-s-infrabuild-secures-375m-in-debt-after-legal-win-20261111-p61dai",
+    "title": "Sharon AI shrugs off chaos to attract big backers for $4 . 7b debt deal",
+    "url": "https://www.afr.com/street-talk/huang-it-sharon-ai-attracts-global-heavyweights-for-4-7b-financing-20261112-p61dm4",
     "domain": "afr.com",
-    "when": "Nov 11 · 04:00z"
+    "when": "Nov 12 · 05:30z"
    },
    {
-    "title": "Fifth Estate Asset Management defies market trend with new $250m small caps fund",
-    "url": "https://www.afr.com/street-talk/fifth-estate-defies-market-carnage-with-new-250m-small-caps-fund-20261111-p61d7y",
-    "domain": "afr.com",
-    "when": "Nov 11 · 04:00z"
+    "title": "Aberdeen Group announces leadership transition at Ex - pack Corrugated Cartons PLC : Sattar Kassim retires as Chairman , Thulci Aluwihare appointed",
+    "url": "https://www.ft.lk/business/Aberdeen-Group-announces-leadership-transition-at-Ex-pack-Corrugated-Cartons-PLC-Sattar-Kassim-retires-as-Chairman-Thulci-Aluwihare-appointed/34-799965",
+    "domain": "ft.lk",
+    "when": "Nov 12 · 03:00z"
    },
    {
-    "title": "Ionis Pharmaceuticals ( IONS ) Stock Declines Following Sharp Reduction ... ",
-    "url": "https://www.pr-inside.com/ionis-pharmaceuticals-ions-stock-declines-following-sharp-reduction-r5242556.htm",
-    "domain": "pr-inside.com",
-    "when": "Nov 11 · 00:00z"
+    "title": "AMC Global Media : 3 Key Takeaways for Long - Term Investors",
+    "url": "https://www.fool.com/earnings/takeaways/2026/11/12/amc-global-media-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001",
+    "domain": "fool.com",
+    "when": "Nov 12 · 07:00z"
    },
    {
-    "title": "Signing of Non - Binding Memorandum of Understanding for Small - Scale LNG Development in Abu Dhabi",
-    "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/pr-newswire/signing-of-non-binding-memorandum-of-understanding-for-small-scale-lng-development-in-abu-dhabi/2467161",
-    "domain": "manilatimes.net",
-    "when": "Nov 11 · 03:00z"
+    "title": "EasyJet shareholders back £ . 5 . 7bil US takeover",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/11/12/easyjet-shareholders-back-5-7bil-us-takeover",
+    "domain": "freemalaysiatoday.com",
+    "when": "Nov 12 · 03:45z"
    },
    {
-    "title": "TSMC to invest up to $1 billion in Anthropic , OpenAI - The HinduBusinessLine",
-    "url": "https://www.thehindubusinessline.com/info-tech/tsmc-to-invest-up-to-1-billion-in-anthropic-openai/article71688330.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Nov 11 · 06:30z"
+    "title": "Mamdani gives nonprofits first shot at thousands of NYC apartment buildings",
+    "url": "https://www.investmentwatchblog.com/mamdani-gives-nonprofits-first-shot-at-thousands-of-nyc-apartment-buildings/",
+    "domain": "investmentwatchblog.com",
+    "when": "Nov 12 · 03:00z"
    },
    {
-    "title": "TSMC to invest up to USD 1 billion in Anthropic , OpenAI",
-    "url": "https://aninews.in/news/business/tsmc-to-invest-up-to-usd-1-billion-in-anthropic-openai20261111100319/",
-    "domain": "aninews.in",
-    "when": "Nov 11 · 05:00z"
+    "title": "Inghams inks new Woolies deal but war plucks at profit",
+    "url": "https://www.perthnow.com.au/news/business/inghams-inks-new-woolies-deal-but-war-plucks-at-profit-c-23152069",
+    "domain": "perthnow.com.au",
+    "when": "Nov 12 · 01:30z"
    },
    {
-    "title": "Democrats miss complete takeover of North Carolina state government by the smallest of margins",
-    "url": "https://www.theblaze.com/news/north-carolina-senate-trifecta-lost",
+    "title": "Hospital mergers are changing healthcare in Minnesota . Why now ? ",
+    "url": "http://www.minnpost.com/community-health/2026/11/a-wave-of-hospital-mergers-is-changing-healthcare-in-minnesota-why-now/",
+    "domain": "minnpost.com",
+    "when": "Nov 12 · 03:45z"
+   },
+   {
+    "title": "WBA orders Teofimo Lopez to face Jack Catterall",
+    "url": "https://www.badlefthook.com/boxing-news/120299/wba-orders-teofimo-lopez-to-face-jack-catterall",
+    "domain": "badlefthook.com",
+    "when": "Nov 12 · 04:00z"
+   },
+   {
+    "title": "WATCH : Stolen $500k supercar recovered after owner spots it in Detroit",
+    "url": "https://www.fox13seattle.com/news/watch-stolen-500k-supercar-recovered-after-owner-spots-detroit",
+    "domain": "fox13seattle.com",
+    "when": "Nov 12 · 00:30z"
+   },
+   {
+    "title": "Detroit Lions fans are flooding Munich for the international NFL game",
+    "url": "https://www.wxyz.com/news/honolulu-blue-takeover-detroit-lions-fans-are-flooding-munich-for-the-international-nfl-game",
+    "domain": "wxyz.com",
+    "when": "Nov 12 · 03:45z"
+   },
+   {
+    "title": "ELEKTROS to Meet with Prospective Party Regarding Potential Full Assignment of Patented EV Charging Technology",
+    "url": "http://www.tennesseedaily.com/news/279427699/elektros-to-meet-with-prospective-party-regarding-potential-full-assignment-of-patented-ev-charging-technology",
+    "domain": "tennesseedaily.com",
+    "when": "Nov 12 · 05:30z"
+   },
+   {
+    "title": "ELEKTROS Opens Preliminary Discussions on Potential Strategic Transaction for Multi - Port EV Charging Patent",
+    "url": "http://www.tennesseedaily.com/news/279427700/elektros-opens-preliminary-discussions-on-potential-strategic-transaction-for-multi-port-ev-charging-patent",
+    "domain": "tennesseedaily.com",
+    "when": "Nov 12 · 05:30z"
+   },
+   {
+    "title": "Mets plan meeting with Tarik Skubal as Stearns promises pitching additions",
+    "url": "https://www.fingerlakes1.com/2026/11/11/mets-plan-meeting-with-tarik-skubal-as-stearns-promises-pitching-additions/",
+    "domain": "fingerlakes1.com",
+    "when": "Nov 12 · 00:30z"
+   },
+   {
+    "title": "Kangana Ranaut questions Sonia Gandhi over Swiss accounts , takes dig at Rahul Gandhi  self - goal talent  ",
+    "url": "https://www.prokerala.com/news/articles/a1835760.html",
+    "domain": "prokerala.com",
+    "when": "Nov 12 · 07:00z"
+   },
+   {
+    "title": "Witchcraft ,  blue wave  spells , and abortion cheers : Rick Burgess says the midterms may be God judgment",
+    "url": "https://www.theblaze.com/shows/strange-encounters/witchcraft-blue-wave-spells-and-abortion-cheers-rick-burgess-says-the-midterms-may-be-gods-judgment",
     "domain": "theblaze.com",
-    "when": "Nov 11 · 01:30z"
-   },
-   {
-    "title": "Vantage Goldfields Limited : Lions Bay Resource Attempt to Acquire the Barbrook Mine Has Failed , But They Continue to Make Misleading and Deceptive Statements",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70093886-vantage-goldfields-limited-lions-bay-resources-attempt-to-acquire-the-barbrook-mine-has-failed-but-they-continue-to-make-misleading-and-deceptive-s-296.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Nov 11 · 00:00z"
-   },
-   {
-    "title": "Applied Energetics Nominates Amprius CFO Ricardo C . Rodriguez for Election ... ",
-    "url": "https://www.pr-inside.com/applied-energetics-nominates-amprius-cfo-ricardo-c-rodriguez-for-election-r5242527.htm",
-    "domain": "pr-inside.com",
-    "when": "Nov 10 · 22:00z"
-   },
-   {
-    "title": "Vancouver - based meal kit company Fresh Prep approved to purchase competitor Goodfood",
-    "url": "https://www.cbc.ca/news/canada/british-columbia/fresh-prep-vancouver-meal-kit-goodfood-9.7416870",
-    "domain": "cbc.ca",
-    "when": "Nov 11 · 01:30z"
-   },
-   {
-    "title": "Only One Freddy Remake Happening , Other ELM STREET Dead",
-    "url": "https://nerdist.com/article/nightmare-on-elm-street-remake-at-paramount-other-one-dead-freddy-krueger/",
-    "domain": "nerdist.com",
-    "when": "Nov 11 · 01:30z"
-   },
-   {
-    "title": "Bills land impact safety Amani Hooker in trade with Titans",
-    "url": "https://www.buffalobills.com/news/bills-land-impact-safety-amani-hooker-in-trade-with-titans",
-    "domain": "buffalobills.com",
-    "when": "Nov 10 · 22:00z"
-   },
-   {
-    "title": "Josh Downs Trade Grades : Chiefs Get Patrick Mahomes a Playmaker",
-    "url": "https://www.si.com/nfl/josh-downs-trade-grades-chiefs-get-patrick-mahomes-playmaker",
-    "domain": "si.com",
-    "when": "Nov 11 · 01:30z"
-   },
-   {
-    "title": "Olandria  Byrdie  Cover Shoot Styled a Stunning Shade Also Seen in Her SI Swimsuit Debut",
-    "url": "https://swimsuit.si.com/fashion/olandria-byrdie-cover-shoot-stunning-shade-si-swimsuit-debut",
-    "domain": "swimsuit.si.com",
-    "when": "Nov 11 · 01:30z"
-   },
-   {
-    "title": "Blue Jays reportedly interested in slugger Brandon Lowe in free agency",
-    "url": "https://www.yardbarker.com/mlb/articles/blue_jays_reportedly_interested_in_slugger_brandon_lowe_in_free_agency/s1_13132_44543552",
-    "domain": "yardbarker.com",
-    "when": "Nov 11 · 00:00z"
+    "when": "Nov 12 · 00:30z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
