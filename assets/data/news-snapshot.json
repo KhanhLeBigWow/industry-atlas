@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15 18:09z",
+ "generated": "2026-11-16 21:23z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -95,174 +95,186 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "SEBI to issue AI norms for capital markets , safeguard investor interests : Pandey",
-    "url": "https://www.thehindubusinessline.com/markets/sebi-to-issue-ai-norms-for-capital-markets-safeguard-investor-interests-pandey/article71704258.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "ICT exports in October jump 202 % to record - high USD 70 . 3B : data : Korea . net : The official website of the Republic of Korea",
+    "url": "https://www.korea.net/NewsFocus/Business/view?articleId=302883",
+    "domain": "korea.net",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "From bicycle parts to satellites : Inside Sunil Mittal 50 - year journey",
-    "url": "https://www.business-standard.com/companies/people/from-bicycle-parts-to-satellites-inside-sunil-mittal-s-50-year-journey-126111500180_1.html",
-    "domain": "business-standard.com",
-    "when": "Nov 15 · 07:45z"
-   },
-   {
-    "title": "Elon Musk and Silicon Valley tech bros rally behind ex - Nvidia CEO Jensen Huang",
-    "url": "https://www.afr.com/world/north-america/made-a-rookie-mistake-tech-bros-rally-behind-jensen-huang-20261115-p61e8w",
-    "domain": "afr.com",
-    "when": "Nov 15 · 07:45z"
-   },
-   {
-    "title": "NIFCA visual arts judge raises AI and copyright concerns",
-    "url": "https://nationnews.com/2026/11/14/nifca-visual-arts-judge-raises-ai-and-copyright-concerns/",
-    "domain": "nationnews.com",
-    "when": "Nov 14 · 20:00z"
-   },
-   {
-    "title": "130 of 163 gold medals won by women at first Jammu Cluster University convocation",
-    "url": "https://www.tribuneindia.com/news/j-k/130-of-163-gold-medals-won-by-women-at-first-jammu-cluster-university-convocation/",
-    "domain": "tribuneindia.com",
-    "when": "Nov 14 · 21:00z"
-   },
-   {
-    "title": "Microsoft says services fully restored after hourslong global outage",
-    "url": "https://www.baltimoresun.com/2026/11/14/microsoft-says-services-fully-restored-after-hourslong-global-outage/",
-    "domain": "baltimoresun.com",
-    "when": "Nov 14 · 20:00z"
-   },
-   {
-    "title": "They Honey Trap : When Personal Vulnerbilities Becomes A Weapon In The Global War of AI - The Zimbabwe Mail They Honey Trap : When Personal Vulnerbilities Becomes A Weapon In The Global War of AI | Zimbabwe News",
-    "url": "https://thezimbabwemail.com/news/world-world-3/they-honey-trap-when-personal-vulnerbilities-becomes-a-weapon-in-the-global-war-of-ai/",
-    "domain": "thezimbabwemail.com",
-    "when": "Nov 14 · 20:00z"
-   },
-   {
-    "title": "Philippines , Australia sign defence cooperation pact",
-    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/15/philippines-australia-sign-defence-pact-with-eye-on-china",
-    "domain": "freemalaysiatoday.com",
-    "when": "Nov 15 · 07:45z"
-   },
-   {
-    "title": "Obasanjo urges Nigerian youths to shun divisive , discriminatory campaigns",
-    "url": "https://www.vanguardngr.com/2026/11/obasanjo-urges-nigerian-youths-to-shun-divisive-discriminatory-campaigns/",
-    "domain": "vanguardngr.com",
-    "when": "Nov 14 · 21:00z"
-   },
-   {
-    "title": "HD Hyundai and Anduril Plan U . S . Testing for 600 - Ton Vessel in 2027",
-    "url": "https://econotimes.com/HD-Hyundai-and-Anduril-Plan-U-S-Testing-for-600-Ton-Vessel-in-2027-1777159",
-    "domain": "econotimes.com",
-    "when": "Nov 15 · 07:45z"
-   },
-   {
-    "title": "Ukraine Uses Stargate Drone to Evacuate Wounded Soldier 30 Kilometers",
-    "url": "https://econotimes.com/Ukraine-Uses-Stargate-Drone-to-Evacuate-Wounded-Soldier-30-Kilometers-1777160",
-    "domain": "econotimes.com",
-    "when": "Nov 15 · 07:45z"
-   },
-   {
-    "title": "South Korean police probes top exam scorer after AI cheating confession",
-    "url": "https://www.freemalaysiatoday.com/category/highlight/2026/11/15/south-korean-police-probes-top-exam-scorer-after-ai-cheating-confession",
-    "domain": "freemalaysiatoday.com",
-    "when": "Nov 15 · 07:45z"
-   },
-   {
-    "title": "Holiday shoppers plan bigger budgets , fewer gifts in 2026",
-    "url": "https://azbigmedia.com/lifestyle/holiday-shoppers-plan-bigger-budgets-fewer-gifts-in-2026/",
-    "domain": "azbigmedia.com",
-    "when": "Nov 14 · 20:00z"
-   },
-   {
-    "title": "South Korea probes top exam scorer after AI cheating confession",
-    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/south-korea-probes-top-exam-scorer-after-ai-cheating-confession",
+    "title": "India Mphasis says clients boost cybersecurity spending as AI - driven threats rise",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/11/16/india039s-mphasis-says-clients-boost-cybersecurity-spending-as-ai-driven-threats-rise",
     "domain": "thestar.com.my",
-    "when": "Nov 15 · 07:45z"
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "UN climate chief : UN climate chief highlights AI  potential  and  peril  at COP31",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/un-climate-chief-highlights-ais-potential-and-peril-at-cop31/articleshow/135876520.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Dynacons Systems shares zoom 18 % on strong order book , robust demand and Q2 earnings",
+    "url": "https://www.businesstoday.in/markets/stocks/story/dynacons-systems-shares-zoom-on-strong-order-book-robust-demand-and-q2-earnings-567588-2026-11-16",
+    "domain": "businesstoday.in",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "SK Hynix Invests $1 Billion to Boost Semiconductor Supply Chain Amid AI Chip Competition , ETTelecom",
+    "url": "https://telecom.economictimes.indiatimes.com/news/devices/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers/135871362",
+    "domain": "telecom.economictimes.indiatimes.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Megaspeed International : Megaspeed Investigates Alice Huang Exit Amid Nvidia Scandal , ETTelecom",
+    "url": "https://telecom.economictimes.indiatimes.com/news/devices/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout/135871334",
+    "domain": "telecom.economictimes.indiatimes.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "APEC Reviews China Trade Framework Before Shenzhen Leader Meeting",
+    "url": "https://econotimes.com/APEC-Reviews-China-s-Trade-Framework-Before-Shenzhen-Leaders-Meeting-1777507",
+    "domain": "econotimes.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "The expanding attack surface : what businesses cant afford to overlook",
+    "url": "https://it-online.co.za/2026/11/16/the-expanding-attack-surface-what-businesses-cant-afford-to-overlook/",
+    "domain": "it-online.co.za",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "KOSPI Plunges 3 . 6 % as South Korean Stocks Shed 190 Points , Sliding to 5 , 100 in a Brutal Session for Seoul",
+    "url": "https://www.ibtimes.com.au/south-korea-kospi-falls-chip-stocks-asian-selloff-1878668",
+    "domain": "ibtimes.com.au",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "AI could spark new battle over seafood industry profits , analyst warns",
+    "url": "https://www.intrafish.com/technology/ai-could-spark-new-battle-over-seafood-industry-profits-analyst-warns/2-1-2070955",
+    "domain": "intrafish.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Vertiv and Infineon deepen power infrastructure partnership",
+    "url": "https://it-online.co.za/2026/11/16/vertiv-and-infineon-deepen-power-infrastructure-partnership/",
+    "domain": "it-online.co.za",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Anthropic promises to pursue humanitys benefit . Its IPO filing gives it wiggle room",
+    "url": "https://www.livemint.com/companies/anthropic-promises-to-pursue-humanitys-benefit-its-ipo-filing-gives-it-wiggle-room-11794805350350.html",
+    "domain": "livemint.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Opinion : CT voters gave us a mandate . Let meet the moment . ",
+    "url": "https://ctmirror.org/2026/11/16/ct-voters-gave-us-a-mandate-lets-meet-the-moment/",
+    "domain": "ctmirror.org",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Glenn Close reflects on  awesome responsibility  of actors while accepting honorary Oscar",
+    "url": "https://www.film-news.co.uk/news/UK/130304/Glenn-Close-reflects-on-awesome-responsibility-of-actors-while-accepting-honorary-Oscar",
+    "domain": "film-news.co.uk",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Kunal Kapoor raises concerns over traditional education system , says children must be prepared for an AI - driven world",
+    "url": "https://ianslive.in/kunal-kapoor-raises-concerns-over-traditional-education-system-says-children-must-be-prepared-for-an-ai-driven-world--20261116132103",
+    "domain": "ianslive.in",
+    "when": "Nov 16 · 08:15z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
    {
-    "title": "Embattled Lendlease stares down the barrel at last - ditch raising",
-    "url": "https://www.afr.com/street-talk/bad-news-bandit-lendlease-running-out-of-options-20261115-p61e9v",
-    "domain": "afr.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "Canara HSBC Life Insurance announces the elevation of Mr . Indu Swaroop as its Chief Financial Officer",
+    "url": "https://www.thehindu.com/brandhub/pr-release/canara-hsbc-life-insurance-announces-the-elevation-of-mr-indu-swaroop-as-its-chief-financial-officer/article71707066.ece",
+    "domain": "thehindu.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Ord Minnett leadership : Antony Shaw begins building executive team with Killian Murphy appointment",
-    "url": "https://www.afr.com/street-talk/ord-minnett-rebuilds-its-ranks-for-antony-shaw-s-reign-20261115-p61eaq",
-    "domain": "afr.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "SPF | Joint Operation Between The Anti - Scam Centre And Four Partners Led To Disruption Of More Than 900 Scam Attempts",
+    "url": "https://www.police.gov.sg/media-hub/news/2026/11/20261111_joint_operation_between_the_anti_scam_centre_and_four_partners_led_to_disruption_of_more_than_900_scam_attempts",
+    "domain": "police.gov.sg",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Morrison issues right of first offer for Amplitel tower infrastructure business",
-    "url": "https://www.afr.com/street-talk/morrison-gets-set-at-5b-plus-telstra-backed-amplitel-20261115-p61e9y",
-    "domain": "afr.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "Nestle , HBM Nigeria , Stanbic IBTC Holdings top stock pick this week",
+    "url": "https://www.premiumtimesng.com/news/top-news/925437-nestle-hbm-nigeria-stanbic-ibtc-holdings-top-stock-pick-this-week.html",
+    "domain": "premiumtimesng.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Ali Chaudhry appointed CEO of Poole - based MSP Capital",
-    "url": "https://www.bournemouthecho.co.uk/news/26726848.ali-chaudhry-appointed-ceo-poole-based-msp-capital/",
-    "domain": "bournemouthecho.co.uk",
-    "when": "Nov 15 · 07:45z"
+    "title": "India Mphasis says clients boost cybersecurity spending as AI - driven threats rise",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/11/16/india039s-mphasis-says-clients-boost-cybersecurity-spending-as-ai-driven-threats-rise",
+    "domain": "thestar.com.my",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Business Analyst - Insurance Operations - REMOTE at WAHVE / Insurance Journal Jobs",
-    "url": "https://www.insurancejournal.com/jobs/891409-business-analyst-insurance-operations-remote",
-    "domain": "insurancejournal.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "Liberian Prosecutor Accuses Police of Singling Out Tricycle Riders in Traffic Crackdown",
+    "url": "https://frontpageafricaonline.com/liberian-prosecutor-accuses-police-of-singling-out-tricycle-riders-in-traffic-crackdown/",
+    "domain": "frontpageafricaonline.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Keralam plans full deposit guarantee for cooperative sector : CM",
-    "url": "https://www.thehindubusinessline.com/money-and-banking/keralam-plans-full-deposit-guarantee-for-cooperative-sector-cm/article71704257.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "SK Hynix Invests $1 Billion to Boost Semiconductor Supply Chain Amid AI Chip Competition , ETTelecom",
+    "url": "https://telecom.economictimes.indiatimes.com/news/devices/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers/135871362",
+    "domain": "telecom.economictimes.indiatimes.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Hustle & bustle as Chhath fervour pervades Amritsar city",
-    "url": "https://www.tribuneindia.com/news/amritsar/hustle-bustle-as-chhath-fervour-pervades-amritsar-city/",
-    "domain": "tribuneindia.com",
-    "when": "Nov 14 · 21:00z"
+    "title": "Column : How the world could reach 3°C of warming by 2050",
+    "url": "https://www.edp24.co.uk/news/26727359.column-world-reach-3-c-warming-2050/",
+    "domain": "edp24.co.uk",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Azerbaijani bank Bloomberg deals approach $34B in nine months",
-    "url": "https://www.trend.az/azerbaijan/4246502.html",
-    "domain": "trend.az",
-    "when": "Nov 14 · 20:00z"
+    "title": "Anthropic promises to pursue humanitys benefit . Its IPO filing gives it wiggle room",
+    "url": "https://www.livemint.com/companies/anthropic-promises-to-pursue-humanitys-benefit-its-ipo-filing-gives-it-wiggle-room-11794805350350.html",
+    "domain": "livemint.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Regional Underwriting Officer Construction at The Travelers Companies , Inc . / Insurance Journal Jobs",
-    "url": "https://www.insurancejournal.com/jobs/891952-regional-underwriting-officer-construction",
-    "domain": "insurancejournal.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "Liberia : Govt Officially Launches Seed Development and Certification Agency",
+    "url": "https://frontpageafricaonline.com/liberia-govt-officially-launches-seed-development-and-certification-agency/",
+    "domain": "frontpageafricaonline.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "The Outer Banks Voice - Coastal Humane Society and the Sound Veterinary Hospital are Holding a Pet Vaccination clinic on Saturday , November 28th With Pictures with Santa ! ",
-    "url": "https://www.outerbanksvoice.com/2026/11/14/coastal-humane-society-and-the-sound-veterinary-hospital-are-holding-a-pet-vaccination-clinic-on-saturday-november-28th-with-pictures-with-santa/",
-    "domain": "outerbanksvoice.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "Man has high praises for treatment center",
+    "url": "https://lufkindailynews.com/news/local/man-has-high-praises-for-treatment-center/article_0437a387-7741-5d80-9e55-79e785950a00.html",
+    "domain": "lufkindailynews.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Microsoft says services fully restored after hourslong global outage",
-    "url": "https://www.baltimoresun.com/2026/11/14/microsoft-says-services-fully-restored-after-hourslong-global-outage/",
-    "domain": "baltimoresun.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "Pound - to - Euro Week Ahead Forecast : Banks Warn Sterling Is Overvalued",
+    "url": "https://www.currencynews.co.uk/forecast/20261116-47784_pound-to-euro-week-ahead-forecast-banks-warn-sterling-is-overvalued.html",
+    "domain": "currencynews.co.uk",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Privacy - enhancing technologies boom , but adoption lags : OECD",
-    "url": "https://www.biometricupdate.com/202611/privacy-enhancing-technologies-boom-but-adoption-lags-oecd",
-    "domain": "biometricupdate.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "Backstage Country CMA Awards Week Host : Cody Johnson",
+    "url": "https://wkml.com/2026/11/16/backstage-countrys-cma-awards-week-host-cody-johnson/",
+    "domain": "wkml.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Ghats get ready to welcome Chhath devotees today",
-    "url": "https://timesofindia.indiatimes.com/city/kanpur/ghats-get-ready-to-welcome-chhath-devotees-today/articleshow/135841767.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "Georgia Democrats Begin Transition To Statewide Offices Following November Election",
+    "url": "https://chattooga1180.com/georgia-democrats-begin-transition-to-statewide-offices-following-november-election/",
+    "domain": "chattooga1180.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "  Cheap gold , protection from black magic cost former trader ₹29L | Rajkot News",
-    "url": "https://timesofindia.indiatimes.com/city/rajkot/cheap-gold-protection-from-black-magic-cost-former-trader-29l/articleshow/135841317.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "FWD and Junior Achievement inspire over 60 , 000 students in Asia to dream big with financial literacy",
+    "url": "https://www.jcnnewswire.com/pressrelease/111593/2/FWD-and-Junior-Achievement-inspire-over-60,000-students-in-Asia-to-dream-big-with-financial-literacy",
+    "domain": "jcnnewswire.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Pound to Dollar Weekly Forecast : Banks Target 1 . 37 - 1 . 39 Despite USD Rally",
+    "url": "https://www.currencynews.co.uk/forecast/20261116-47783_pound-to-dollar-weekly-forecast-banks-target-1-37-1-39-despite-usd-rally.html",
+    "domain": "currencynews.co.uk",
+    "when": "Nov 16 · 08:15z"
    }
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
@@ -673,88 +685,94 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Paul LePage lands in Washington , pitching himself as a dealmaker",
-    "url": "https://www.bangordailynews.com/2026/11/09/politics/washington/paul-lepage-washington-dealmaker/",
-    "domain": "bangordailynews.com",
-    "when": "Nov 10 · 00:00z"
+    "title": "Trump tariffs cast shadow over Apec talks",
+    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/16/trump-s-tariffs-cast-shadow-over-apec-talks",
+    "domain": "freemalaysiatoday.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Anthropic sends out $69 . 3 billion IPO details , then retracts , tells banks they will update new figures",
-    "url": "https://www.livemint.com/companies/news/anthropic-sends-out-69-3-billion-ipo-details-then-retracts-tells-banks-they-will-update-new-figures-11794280119925.html",
+    "title": "AI startup Zelmier . com cuts discovery & bidding of government tenders to minutes",
+    "url": "https://www.livemint.com/companies/start-ups/ai-startup-zelmier-com-cuts-discovery-bidding-of-government-tenders-to-minutes-11794805216212.html",
     "domain": "livemint.com",
-    "when": "Nov 10 · 05:00z"
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Power Solutions International Strengthens Longstanding HD Construction Equipment Partnership with Multi - Year Engine Supply Commitment",
-    "url": "https://www.manilatimes.net/2026/11/10/tmt-newswire/globenewswire/power-solutions-international-strengthens-longstanding-hd-construction-equipment-partnership-with-multi-year-engine-supply-commitment/2465892",
-    "domain": "manilatimes.net",
-    "when": "Nov 10 · 03:00z"
-   },
-   {
-    "title": "Zoe Kleinman : Nvidia CEO affair will cause ripples across US and beyond",
-    "url": "https://www.bbc.com/news/articles/cj3vqv3nee72o",
-    "domain": "bbc.com",
-    "when": "Nov 10 · 00:30z"
-   },
-   {
-    "title": "Ashurst Perkins Coie Advises Denglin Technology on Hong Kong IPO Sanctions",
-    "url": "https://www.miragenews.com/ashurst-perkins-coie-advises-denglin-technology-1774540/",
-    "domain": "miragenews.com",
-    "when": "Nov 10 · 02:30z"
-   },
-   {
-    "title": "West using  lawles economic warfare to crush rivals",
-    "url": "http://www.russiaherald.com/news/279422736/west-using-lawless-economic-warfare-to-crush-rivals-lavrov",
-    "domain": "russiaherald.com",
-    "when": "Nov 10 · 02:30z"
-   },
-   {
-    "title": "AI demand unlikely to be derailed by Nvidia CEO controversy , Taiwan supply chain sources say",
-    "url": "https://news.webindia123.com/news/Articles/Business/20261110/4517849.html",
-    "domain": "news.webindia123.com",
-    "when": "Nov 10 · 03:30z"
-   },
-   {
-    "title": "Who is Anna Konidala of Russia ? What Pawan Kalyan shared on WhatsApp group on parting ways",
-    "url": "https://www.livemint.com/news/india/who-is-anna-konidala-of-russia-what-pawan-kalyan-shared-on-whatsapp-group-on-parting-ways-11794277582968.html",
+    "title": "SpaceX launch : After Starship spectacular midair catch , Musk firm to launch Falcon 9 on Thursday",
+    "url": "https://www.livemint.com/companies/news/spacex-launch-after-starship-s-spectacular-midair-catch-musk-s-firm-to-launch-falcon-9-on-thursday-11794808344348.html",
     "domain": "livemint.com",
-    "when": "Nov 10 · 05:00z"
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "  Temple is made for the world : Deepinder Goyal says doesnt expect more than 1 % sale in India amid debate over pricing",
-    "url": "https://www.livemint.com/companies/news/temple-is-made-for-the-world-deepinder-goyal-says-doesn-t-expect-more-than-1-sale-in-india-amid-debate-over-pricing-11794284802672.html",
-    "domain": "livemint.com",
-    "when": "Nov 10 · 05:00z"
+    "title": "APEC Reviews China Trade Framework Before Shenzhen Leader Meeting",
+    "url": "https://econotimes.com/APEC-Reviews-China-s-Trade-Framework-Before-Shenzhen-Leaders-Meeting-1777507",
+    "domain": "econotimes.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Bypassing the Pharma Chokepoint | Council on Foreign Relations",
-    "url": "https://www.cfr.org/reports/bypassing-the-pharma-chokepoint",
-    "domain": "cfr.org",
-    "when": "Nov 10 · 03:30z"
+    "title": "SCGJWD Strengthens Its Position as a Leading Integrated Logistics Provider in ASEAN Through Strategic Freight Forwarding Partnership with Triple i",
+    "url": "https://www.jcnnewswire.com/pressrelease/111596/2/SCGJWD-Strengthens-Its-Position-as-a-Leading-Integrated-Logistics-Provider-in-ASEAN-Through-Strategi",
+    "domain": "jcnnewswire.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Canada expands US tariff exemptions , cuts some aluminum relief",
-    "url": "https://www.moneycontrol.com/world/canada-expands-us-tariff-exemptions-cuts-some-aluminum-relief-article-14075839.html",
-    "domain": "moneycontrol.com",
-    "when": "Nov 10 · 04:30z"
+    "title": "SK Hynix Invests $1 Billion to Boost Semiconductor Supply Chain Amid AI Chip Competition , ETTelecom",
+    "url": "https://telecom.economictimes.indiatimes.com/news/devices/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers/135871362",
+    "domain": "telecom.economictimes.indiatimes.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "HT morning brief Nov 10 : Trump says Iran war  militarily effectively over ; M John Harrison becomes oldest - ever Booker Prize winner",
-    "url": "https://www.hindustantimes.com/india-news/ht-morning-news-brief-november-10-trump-iran-war-m-john-harrison-booker-prize-nvidia-ramayana-movie-ind-vs-nz-odi-101794279743957.html",
-    "domain": "hindustantimes.com",
-    "when": "Nov 10 · 04:30z"
+    "title": "Trump trade tariffs take center stage at ASEAN summit as leaders seek new markets - Philippine Canadian Inquirer Nationwide Filipino Newspaper",
+    "url": "https://canadianinquirer.net/2026/11/16/trumps-trade-tariffs-take-center-stage-at-asean-summit-as-leaders-seek-new-markets/",
+    "domain": "canadianinquirer.net",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Stellantis Clinches Deal to Sell Canadian Factory to Defense Firm 2nd Update",
-    "url": "https://www.morningstar.com/news/dow-jones/2026110913660/stellantis-clinches-deal-to-sell-canadian-factory-to-defense-firm-2nd-update",
-    "domain": "morningstar.com",
-    "when": "Nov 10 · 00:30z"
+    "title": "Sen .- elect Kurt Alme outlines priorities for Montana",
+    "url": "https://nbcmontana.com/news/local/sen-elect-kurt-alme-outlines-priorities-for-montana",
+    "domain": "nbcmontana.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Trump says US - Iran war  effectively over  militarily but issues another  locked and loaded  warning ; oil tumbles",
-    "url": "https://www.livemint.com/news/us-news/trump-says-us-iran-war-effectively-over-militarily-but-issues-another-locked-and-loaded-warning-oil-tumbles-11794277541573.html",
-    "domain": "livemint.com",
-    "when": "Nov 10 · 05:00z"
+    "title": "China once feared becoming roadkill for Western automakers , but now the tables have turned",
+    "url": "https://fortune.com/2026/11/16/china-evs-tariffs-europe-reversal-wto-tesla/",
+    "domain": "fortune.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "AI could spark new battle over seafood industry profits , analyst warns",
+    "url": "https://www.intrafish.com/technology/ai-could-spark-new-battle-over-seafood-industry-profits-analyst-warns/2-1-2070955",
+    "domain": "intrafish.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Megaspeed International : Megaspeed Investigates Alice Huang Exit Amid Nvidia Scandal , ETTelecom",
+    "url": "https://telecom.economictimes.indiatimes.com/news/devices/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout/135871334",
+    "domain": "telecom.economictimes.indiatimes.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "UK Sanctions Slavneft and Vessels in New Russia Measures Ship & Bunker",
+    "url": "https://shipandbunker.com/news/emea/557303-uk-sanctions-slavneft-and-vessels-in-new-russia-measures",
+    "domain": "shipandbunker.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "U . S . Trade negotiators still insisting on market access in Indian Agri - Foods sector",
+    "url": "https://thenorthlines.com/u-s-trade-negotiators-still-insisting-on-market-access-in-indian-agri-foods-sector/",
+    "domain": "thenorthlines.com",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Black Friday tech deals : Three things to check before upgrading your home",
+    "url": "https://it-online.co.za/2026/11/16/black-friday-tech-deals-three-things-to-check-before-upgrading-your-home/",
+    "domain": "it-online.co.za",
+    "when": "Nov 16 · 08:15z"
+   },
+   {
+    "title": "Vertiv and Infineon deepen power infrastructure partnership",
+    "url": "https://it-online.co.za/2026/11/16/vertiv-and-infineon-deepen-power-infrastructure-partnership/",
+    "domain": "it-online.co.za",
+    "when": "Nov 16 · 08:15z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -859,34 +877,28 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "British trader to make $3 . 5bn from Anthropic float",
-    "url": "https://www.aol.com/articles/british-trader-3-5bn-anthropic-063000000.html",
-    "domain": "aol.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "Anthropic promises to pursue humanitys benefit . Its IPO filing gives it wiggle room",
+    "url": "https://www.livemint.com/companies/anthropic-promises-to-pursue-humanitys-benefit-its-ipo-filing-gives-it-wiggle-room-11794805350350.html",
+    "domain": "livemint.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Bitcoin tumbles to four - month low as liquidations accelerate",
-    "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "Canara HSBC Life Insurance announces the elevation of Mr . Indu Swaroop as its Chief Financial Officer",
+    "url": "https://www.thehindu.com/brandhub/pr-release/canara-hsbc-life-insurance-announces-the-elevation-of-mr-indu-swaroop-as-its-chief-financial-officer/article71707066.ece",
+    "domain": "thehindu.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Nvidia earnings along with the baggage top next week markets",
-    "url": "https://www.aol.com/articles/nvidia-earnings-along-baggage-top-023700000.html",
-    "domain": "aol.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "BOJ Takata calls for early rate hikes to curb inflation risks",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/bojs-takata-calls-for-early-rate-hikes-to-curb-inflation-risks/articleshow/135876217.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Data center diaspora : Democrat blue wave wins could send AI buildout out of U . S . | News",
-    "url": "http://www.grandrapidsmn.com/news/data-center-diaspora-democrats-blue-wave-wins-could-send-ai-buildout-out-of-u-s/article_c8e8c0e2-5ca6-4a62-90f6-abc9168ac1ae.html",
-    "domain": "grandrapidsmn.com",
-    "when": "Nov 14 · 20:00z"
-   },
-   {
-    "title": "How a $49 sushi boat and sizzling dumplings help turn P . F . Chang around | Business",
-    "url": "https://www.kten.com/news/business/how-a-49-sushi-boat-and-sizzling-dumplings-help-turn-p-f-chang-s-around/article_abf33b74-d359-56e6-96b6-082aeb377a79.html",
-    "domain": "kten.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "Anthropic promises to pursue humanity benefit . Its IPO filing gives it wiggle room",
+    "url": "https://www.dailygazette.com/ade/ap/business/anthropic-promises-to-pursue-humanitys-benefit-its-ipo-filing-gives-it-wiggle-room/article_4562d5ce-cc3c-511b-a496-ea3dd408f10a.html",
+    "domain": "dailygazette.com",
+    "when": "Nov 16 · 08:15z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
@@ -905,84 +917,48 @@
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
-    "title": "Thomas Cook India expects demerger of resorts business by Oct 2027 : MD",
-    "url": "https://www.business-standard.com/companies/news/thomas-cook-india-expects-demerger-of-resorts-business-by-oct-2027-md-126111500166_1.html",
-    "domain": "business-standard.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "AI startup Zelmier . com cuts discovery & bidding of government tenders to minutes",
+    "url": "https://www.livemint.com/companies/start-ups/ai-startup-zelmier-com-cuts-discovery-bidding-of-government-tenders-to-minutes-11794805216212.html",
+    "domain": "livemint.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Thomas Cook India targets October 2027 for resorts business demerger ; eyes acquisitions",
-    "url": "https://www.thehindubusinessline.com/companies/thomas-cook-india-targets-october-2027-for-resorts-business-demerger-eyes-acquisitions/article71704173.ece",
-    "domain": "thehindubusinessline.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "SpaceX launch : After Starship spectacular midair catch , Musk firm to launch Falcon 9 on Thursday",
+    "url": "https://www.livemint.com/companies/news/spacex-launch-after-starship-s-spectacular-midair-catch-musk-s-firm-to-launch-falcon-9-on-thursday-11794808344348.html",
+    "domain": "livemint.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "American Express vs . Mastercard : Which Financial Stock Is a Better Buy for 2027 ? ",
-    "url": "https://www.fool.com/coverage/better-buy/2026/11/14/american-express-vs-mastercard-which-financial-stock-is-a-better-buy-for-2027/",
-    "domain": "fool.com",
-    "when": "Nov 14 · 21:00z"
-   },
-   {
-    "title": "Plus Ultra Restructuring Raises Questions Over Air Zimbabwe London Flights - The Zimbabwe Mail Plus Ultra Restructuring Raises Questions Over Air Zimbabwe London Flights | Zimbabwe News",
-    "url": "https://thezimbabwemail.com/business/plus-ultra-restructuring-air-zimbabwe-london-flights/",
-    "domain": "thezimbabwemail.com",
-    "when": "Nov 14 · 20:00z"
-   },
-   {
-    "title": "The world is facing a new credit crunch",
-    "url": "https://www.aol.com/articles/world-facing-credit-crunch-060000000.html",
-    "domain": "aol.com",
-    "when": "Nov 15 · 07:45z"
-   },
-   {
-    "title": "Leading a Bionic Transformation",
-    "url": "https://www.strategy-business.com/article/Leading-a-Bionic-Transformation",
-    "domain": "strategy-business.com",
-    "when": "Nov 15 · 07:45z"
-   },
-   {
-    "title": "In  Possible Love , a power struggle goes beyond class it also about story",
-    "url": "https://www.kgou.org/arts-and-entertainment/2026-11-14/in-possible-love-a-power-struggle-goes-beyond-class-its-also-about-story",
-    "domain": "kgou.org",
-    "when": "Nov 14 · 20:00z"
-   },
-   {
-    "title": "How Ontario investigators cracked Canada 2024 Listeria outbreak",
-    "url": "https://www.northumberlandnews.com/news/listeria-outbreak-study-ontario/article_d0fba09f-d104-596e-a01c-3ab6fdb5efb8.html",
-    "domain": "northumberlandnews.com",
-    "when": "Nov 14 · 20:00z"
-   },
-   {
-    "title": "Why the MCP Post - Election Diagnosis is Missing the Whole Kitchen",
-    "url": "https://www.malawivoice.com/2026/11/14/why-the-mcps-post-election-diagnosis-is-missing-the-whole-kitchen/",
-    "domain": "malawivoice.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "New Hope Launches A$250 Million Hybrid Raise Ahead of Malabar Deal",
+    "url": "https://oilprice.com/Company-News/New-Hope-Launches-A250-Million-Hybrid-Raise-Ahead-of-Malabar-Deal.html",
+    "domain": "oilprice.com",
+    "when": "Nov 16 · 08:15z"
    }
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "Tabcorp Gillon McLachlan plays down customer data fears over BetMakers deal",
-    "url": "https://www.afr.com/companies/games-and-wagering/tabcorp-s-mclachlan-plays-down-customer-data-fears-over-betmakers-deal-20261115-p61720",
-    "domain": "afr.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "Centurion targets worker housing with $61m Kim Chuan site acquisition",
+    "url": "https://sbr.com.sg/commercial-property/news/centurion-targets-worker-housing-61m-kim-chuan-site-acquisition",
+    "domain": "sbr.com.sg",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "From bicycle parts to satellites : Inside Sunil Mittal 50 - year journey",
-    "url": "https://www.business-standard.com/companies/people/from-bicycle-parts-to-satellites-inside-sunil-mittal-s-50-year-journey-126111500180_1.html",
-    "domain": "business-standard.com",
-    "when": "Nov 15 · 07:45z"
+    "title": "Q & M Dental enters Thailand with 51 % Deezy stake buy",
+    "url": "https://sbr.com.sg/healthcare/news/q-m-dental-enters-thailand-51-deezy-stake-buy",
+    "domain": "sbr.com.sg",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "RSU to acquire Tulsa Atlas School",
-    "url": "https://www.claremoreprogress.com/news/rsu-to-acquire-tulsa-atlas-school/article_450d7936-a53f-45a3-8cb4-5cab7e9044e2.html",
-    "domain": "claremoreprogress.com",
-    "when": "Nov 14 · 20:00z"
+    "title": "New Hope Launches A$250 Million Hybrid Raise Ahead of Malabar Deal",
+    "url": "https://oilprice.com/Company-News/New-Hope-Launches-A250-Million-Hybrid-Raise-Ahead-of-Malabar-Deal.html",
+    "domain": "oilprice.com",
+    "when": "Nov 16 · 08:15z"
    },
    {
-    "title": "Will We Really Put Data Centers in Space ? ",
-    "url": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
-    "domain": "forethought.org",
-    "when": "Nov 14 · 21:00z"
+    "title": "Elders posts 187pc profit leap as new boss Dedoncker meets the team | The Land",
+    "url": "https://www.theland.com.au/story/9392452/elders-posts-187pc-profit-leap-as-new-boss-dedoncker-meets-the-team/",
+    "domain": "theland.com.au",
+    "when": "Nov 16 · 08:15z"
    }
   ]
  }
