@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22 18:50z",
+ "generated": "2026-11-23 23:05z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -225,272 +225,254 @@
   ],
   "(\"oil prices\" OR OPEC OR \"natural gas\" OR \"renewable energy\" OR nuclear)": [
    {
-    "title": "Rupee strength , not weakness , may pose challenge in FY28 : CEA Nageswaran",
-    "url": "https://www.business-standard.com/economy/news/lower-crude-oil-prices-could-bring-huge-windfall-for-india-in-fy28-cea-126111801445_1.html",
-    "domain": "business-standard.com",
-    "when": "Nov 18 · 17:30z"
+    "title": "Data centres are incompatible with renewable energy targets",
+    "url": "https://www.macrobusiness.com.au/2026/11/data-centres-are-incompatible-with-renewable-energy-targets-2/",
+    "domain": "macrobusiness.com.au",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "India 100 GW Nuclear Target Anchors Asia Bid To Dominate Global Atomic Energy Expansion",
-    "url": "https://www.foreignpolicyjournal.com/2026/11/17/indias-100-gw-nuclear-target-anchors-asias-bid-to-dominate-global-atomic-energy-expansion/",
-    "domain": "foreignpolicyjournal.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "COP 31 Plants A Big Wet Kiss On Failed Carbon Capture Technology",
+    "url": "https://cleantechnica.com/2026/11/23/cop-31-plants-a-big-wet-kiss-on-failed-carbon-capture-technology/",
+    "domain": "cleantechnica.com",
+    "when": "Nov 23 · 22:30z"
    },
    {
-    "title": "Google signs world first commercial superhot rock geothermal deal at Oregon Newberry Volcano",
-    "url": "https://www.klcc.org/environment/2026-11-17/google-quaise-energy-newberry-volcano-superhot-rock-geothermal-deal",
-    "domain": "klcc.org",
-    "when": "Nov 18 · 01:15z"
+    "title": "  Iran sees Democrats as weak : Trump links surge in drone , missile attacks to US midterm wins",
+    "url": "https://timesofindia.indiatimes.com/world/us/iran-sees-democrats-as-weak-trump-links-surge-in-drone-missile-attacks-to-us-midterm-wins/articleshow/136086441.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Nov 23 · 02:30z"
    },
    {
-    "title": "AMPERA and Berto Announce Proposed Business Combination to Accelerate Advanced Energy Technology Development and Commercialization",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70160136-ampera-and-berto-announce-proposed-business-combination-to-accelerate-advanced-energy-technology-development-and-commercialization-008.htm",
+    "title": "Canadian dollar on its longest daily losing streak in more than a decade",
+    "url": "https://www.theglobeandmail.com/investing/article-canadian-dollar-on-its-longest-daily-losing-streak-in-more-than-a/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 23 · 21:30z"
+   },
+   {
+    "title": "BT BIG STORY : India growth story faces a twin squeeze from inflation and the rupee",
+    "url": "https://www.businesstoday.in/latest/economy/story/bt-big-story-indias-growth-story-faces-a-twin-squeeze-from-inflation-and-the-rupee-568837-2026-11-20",
+    "domain": "businesstoday.in",
+    "when": "Nov 23 · 03:30z"
+   },
+   {
+    "title": "China or Europe ? How Africa can refine its future foreign policy",
+    "url": "https://www.standardmedia.co.ke/opinion/article/2001562876/china-or-europe-how-africa-can-refine-its-future-foreign-policy",
+    "domain": "standardmedia.co.ke",
+    "when": "Nov 23 · 21:30z"
+   },
+   {
+    "title": "Central Hudson expects electric supply costs to rise slightly in winter",
+    "url": "https://www.dailyfreeman.com/2026/11/23/central-hudson-expects-electric-supply-costs-to-rise-slightly-in-winter/",
+    "domain": "dailyfreeman.com",
+    "when": "Nov 23 · 21:30z"
+   },
+   {
+    "title": "Investigation is underway following Alabama natural gas pipeline fire",
+    "url": "https://www.apr.org/news/2026-11-22/investigation-is-underway-following-alabama-natural-gas-pipeline-fire",
+    "domain": "apr.org",
+    "when": "Nov 23 · 02:30z"
+   },
+   {
+    "title": "It time for monetary policy in India to act and contain inflationary expectations",
+    "url": "https://www.livemint.com/opinion/online-views/its-time-for-monetary-policy-in-india-to-act-and-contain-inflationary-expectations-11795361112974.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
+   },
+   {
+    "title": "Frontier Nuclear and Minerals Inc .: Frontier Nuclear Announces Receipt of Nasdaq Notice Regarding Delayed Filing of Annual Report on Form 20 - F",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70208913-frontier-nuclear-and-minerals-inc-frontier-nuclear-announces-receipt-of-nasdaq-notice-regarding-delayed-filing-of-annual-report-on-form-20-f-296.htm",
     "domain": "finanznachrichten.de",
-    "when": "Nov 18 · 01:15z"
+    "when": "Nov 23 · 22:30z"
    },
    {
-    "title": "Petrol Price in Pakistan to Drop to Rs322 Per Litre as another relief likely tonight",
-    "url": "https://pakobserver.net/petrol-price-in-pakistan-to-drop-to-rs322-per-litre-as-another-relief-likely-tonight/",
-    "domain": "pakobserver.net",
-    "when": "Nov 18 · 17:30z"
+    "title": "Europe Laments - The COP31 Global Climate Change Assembly Ends Without a Draft Agreement",
+    "url": "https://theconservativetreehouse.com/blog/2026/11/22/europe-laments-the-cop31-global-climate-change-assembly-ends-without-a-draft-agreement/",
+    "domain": "theconservativetreehouse.com",
+    "when": "Nov 23 · 00:30z"
    },
    {
-    "title": "Chevron Says AI Has Already Captured Over $100 Million in Value . Here Where It Might Find an Even Bigger Payoff . ",
-    "url": "https://www.fool.com/investing/2026/11/17/chevron-says-ai-has-already-captured-over-usd100-million-in-value-here-s-where-it-might-find-an-even-bigger-payoff/",
-    "domain": "fool.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "How Kim Jong Un gets away with building nukes and ghosting Trump",
+    "url": "https://www.livemint.com/global/how-kim-jong-un-gets-away-with-building-nukes-and-ghosting-trump-11795397191350.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Prince William presents Earthshot Prize winners with $1 . 3M each in Mumbai :: WRAL . com",
-    "url": "https://www.wral.com/news/ap/ca7f0-prince-william-s-presents-earthshot-prize-winners-with-1-3m-each-in-mumbai/",
-    "domain": "wral.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "GIFT Nifty up 144 pts ; Tata Steel , AESL , Waaree , GMR Airports , IndusInd Bank among stocks in focus",
+    "url": "https://www.businesstoday.in/markets/trending-stocks/story/gift-nifty-up-144-points-tata-steel-aesl-waaree-gmr-airports-indusind-bank-among-stocks-in-focus-568965-2026-11-23",
+    "domain": "businesstoday.in",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Prince William presents Earthshot Prize winners with $1 . 3 million each",
-    "url": "https://www.ksat.com/tech/2026/11/17/prince-william-presents-earthshot-prize-winners-with-13-million-each/",
-    "domain": "ksat.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "Trump blames US voters for ignoring his warnings about Democrats and Iran after midterm elections",
+    "url": "https://aa.com.tr/en/americas/trump-blames-us-voters-for-ignoring-his-warnings-about-democrats-and-iran-after-midterm-elections/4133900",
+    "domain": "aa.com.tr",
+    "when": "Nov 23 · 02:30z"
    },
    {
-    "title": "Venture Global and China Gas Announce Increased Long - Term LNG Agreement",
-    "url": "https://www.brantfordexpositor.ca/press-releases/business-wire/venture-global-and-china-gas-announce-increased-long-term-lng-agreement/",
-    "domain": "brantfordexpositor.ca",
-    "when": "Nov 18 · 01:15z"
-   },
-   {
-    "title": "Another wipeout hits Wall Street as Nvidia , other jittery AI stocks swing lower",
-    "url": "https://www.ky3.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/",
-    "domain": "ky3.com",
-    "when": "Nov 18 · 01:15z"
-   },
-   {
-    "title": "US Launches Unarmed ICBM Test During President Trump Trip To Asia | News Radio 920 AM & 104 . 7 FM",
-    "url": "https://newsradiori.iheart.com/content/2026-11-18-us-launches-unarmed-icbm-test-during-president-trumps-trip-to-asia/",
-    "domain": "newsradiori.iheart.com",
-    "when": "Nov 18 · 17:30z"
-   },
-   {
-    "title": "Only 11 % of the Power Plants Vistra Just Bought Are in Texas . Here Why That Matters After the Election . ",
-    "url": "https://www.fool.com/investing/2026/11/17/only-11-of-the-power-plants-vistra-just-bought-are/",
-    "domain": "fool.com",
-    "when": "Nov 18 · 01:15z"
-   },
-   {
-    "title": "Trump heads to China , betting on unscripted diplomacy with Xi and Putin",
-    "url": "https://www.wral.com/news/ap/3fc81-trump-heads-to-china-betting-on-unscripted-diplomacy-with-xi-and-putin/",
-    "domain": "wral.com",
-    "when": "Nov 18 · 01:15z"
-   },
-   {
-    "title": "DC Council delays condo insurance bill over concerns raised after Logan Circle shooting",
-    "url": "https://wjla.com/news/local/dc-council-condo-washington-insurance-amendment-logan-circle-damage-pinto-councilmembers-legan-extensive-damage",
-    "domain": "wjla.com",
-    "when": "Nov 18 · 01:15z"
-   },
-   {
-    "title": "4 . 4 - Gigawatt Position On U . S . Gas Power Takes Shape As GE Vernova ( NYSE : GEV ) Turbines Land In Pennsylvania",
-    "url": "https://www.foreignpolicyjournal.com/2026/11/17/4-4-gigawatt-position-on-u-s-gas-power-takes-shape-as-ge-vernova-nyse-gev-turbines-land-in-pennsylvania/",
-    "domain": "foreignpolicyjournal.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "Historic Winner of RRC Seat Wants Faster Permits",
+    "url": "https://www.rigzone.com/news/wire/historic_winner_of_rrc_seat_wants_faster_permits-23-nov-2026-185151-article/",
+    "domain": "rigzone.com",
+    "when": "Nov 23 · 22:30z"
    }
   ],
   "(copper OR lithium OR \"iron ore\" OR mining OR \"rare earth\")": [
    {
-    "title": "Chile Mining Portfolio Hits $111B Lithium Doubles , Copper Holds Firm",
-    "url": "https://www.latintimes.com/chile-mining-investment-pipeline-2026-2035-601632",
-    "domain": "latintimes.com",
-    "when": "Nov 20 · 21:45z"
+    "title": "Iron Bear reveals US$2 . 6B upside in Canadian iron ore giant",
+    "url": "https://www.theage.com.au/business/companies/iron-bear-reveals-us-2-6b-upside-in-canadian-iron-ore-giant-20261123-p61gih.html",
+    "domain": "theage.com.au",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "India doubles down on critical minerals amid global energy transition",
-    "url": "https://www.prokerala.com/news/articles/a1839522.html",
-    "domain": "prokerala.com",
-    "when": "Nov 21 · 13:30z"
+    "title": "Loukus Technologies Aluminum – Cerium Alloy project has support from the Department of Energy",
+    "url": "https://www.kbear102.com/2026/11/23/loukus-technologies-aluminum-cerium-alloy-project-has-support-from-the-department-of-energy/",
+    "domain": "kbear102.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Magnitude 6 . 8 quake in Peru Andean region sends Lima residents onto streets",
-    "url": "https://dunyanews.tv/en/World/984079-magnitude-68-quake-in-perus-andean-region-sends-lima-residents-onto-",
-    "domain": "dunyanews.tv",
-    "when": "Nov 21 · 11:30z"
+    "title": "These Safety Risks Go Beyond Just Children Toys , South Jersey Doctor Says",
+    "url": "https://patch.com/new-jersey/westdeptford/batteries-magnets-pose-safety-hazards-popular-childrens-toys",
+    "domain": "patch.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Atlantico Announces AGM Results and Provides Overview of Its Exploration Portfolio in Brazil and Canada",
-    "url": "https://www.stratfordbeaconherald.com/press-releases/newsfile/atlantico-announces-agm-results-and-provides-overview-of-its-exploration-portfolio-in-brazil-and-canada/",
-    "domain": "stratfordbeaconherald.com",
-    "when": "Nov 20 · 21:45z"
+    "title": "Denmark Parliament Approves Greenland Security Deal , Expanding U . S . Military Access in Arctic – NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-11-23-denmark-approves-greenland-deal-expanding-us-access-arctic.html",
+    "domain": "naturalnews.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Copper 360 loss per share shrinks as it focuses on richer Rietberg ore",
-    "url": "https://www.businessday.co.za/companies/2026-11-20-copper-360s-loss-per-share-shrinks-as-it-focuses-on-richer-rietberg-ore/",
-    "domain": "businessday.co.za",
-    "when": "Nov 20 · 21:45z"
+    "title": "Empower EIT Welcomes Maverick Power CEO Tom Currier as Strategic Equity Partner and Board Member , and Signs Large Binding Offtake With Glencore for 100 , 000 Tonnes of Lithium Over 10 Years",
+    "url": "https://www.theobserver.ca/press-releases/business-wire/empower-eit-welcomes-maverick-power-ceo-tom-currier-as-strategic-equity-partner-and-board-member-and-signs-large-binding-offtake-with-glencore-for-100000-tonnes-of-lithium-over-10-years/",
+    "domain": "theobserver.ca",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "On Your Side : Bicycle helmets recalled for failing to meet safety standards",
-    "url": "https://www.ky3.com/2026/11/20/your-side-bicycle-helmets-recalled-failing-meet-safety-standards/",
-    "domain": "ky3.com",
-    "when": "Nov 21 · 00:30z"
+    "title": "China or Europe ? How Africa can refine its future foreign policy",
+    "url": "https://www.standardmedia.co.ke/opinion/article/2001562876/china-or-europe-how-africa-can-refine-its-future-foreign-policy",
+    "domain": "standardmedia.co.ke",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "​​Ororo rechargeable battery​ recall : What to know",
-    "url": "https://www.bramptonguardian.com/news/canada-product-recall-battery/article_ed6a83ad-df1e-5d35-9614-73479940e730.html",
-    "domain": "bramptonguardian.com",
-    "when": "Nov 20 · 21:45z"
+    "title": "Gateway hits 16 . 5g / t gold as WA Yandal discovery gathers pace",
+    "url": "https://www.theage.com.au/business/companies/gateway-hits-16-5g-t-gold-as-wa-yandal-discovery-gathers-pace-20261123-p61gi1.html",
+    "domain": "theage.com.au",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Residents flee as magnitude 6 . 8 earthquake hits Peru",
-    "url": "https://www.singletonargus.com.au/story/9395711/residents-flee-as-magnitude-68-earthquake-hits-peru/",
-    "domain": "singletonargus.com.au",
-    "when": "Nov 21 · 06:45z"
+    "title": "Coming into Copper Mountain and Beaver Creek World Cup races , U . S . Ski Team veteran Bridger Gile is focused on results",
+    "url": "https://www.vaildaily.com/news/coming-into-copper-mountain-and-beaver-creek-world-cup-races-u-s-ski-team-veteran-bridger-gile-is-focused-on-results/",
+    "domain": "vaildaily.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Pakistan halts gold mining in Khyber Pakhtunkhwa as Governor alleges proceeds financing terrorism : Report",
-    "url": "https://www.prokerala.com/news/articles/a1839593.html",
-    "domain": "prokerala.com",
-    "when": "Nov 21 · 16:30z"
-   },
-   {
-    "title": "NGT takes suo motu cognisance of illegal mining near MP Bajranggarh Fort",
-    "url": "https://www.business-standard.com/india-news/ngt-takes-suo-motu-cognisance-of-illegal-mining-near-mp-s-bajranggarh-fort-126112100521_1.html",
-    "domain": "business-standard.com",
-    "when": "Nov 21 · 13:30z"
-   },
-   {
-    "title": "Gold , copper , aluminium dive to at least 7 - month lows",
-    "url": "https://www.thehindu.com/business/gold-copper-aluminium-dive-to-at-least-7-month-lows/article71729065.ece",
-    "domain": "thehindu.com",
-    "when": "Nov 21 · 16:30z"
-   },
-   {
-    "title": "As Trump basks in summit pomp , China Xi strengthens his hand",
-    "url": "https://tribune.com.pk/story/2641527/as-trump-basks-in-summit-pomp-chinas-xi-strengthens-his-hand",
-    "domain": "tribune.com.pk",
-    "when": "Nov 21 · 12:30z"
-   },
-   {
-    "title": "Takaichi meets leaders of Peru , Chile to discuss critical mineral supply chains",
-    "url": "https://japantoday.com/category/politics/update2-japan-peru-agree-to-promote-cooperation-on-critical-mineral-supply-chains",
-    "domain": "japantoday.com",
-    "when": "Nov 20 · 21:45z"
-   },
-   {
-    "title": "Fortitude Gold Corp .: Fortitude Gold Closes $10 Million Private Placement",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70193531-fortitude-gold-corp-fortitude-gold-closes-dollar-10-million-private-placement-200.htm",
+    "title": "Emerging Growth Research Initiates Coverage of Granada Gold Mine Inc . ",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70208911-emerging-growth-research-initiates-coverage-of-granada-gold-mine-inc-200.htm",
     "domain": "finanznachrichten.de",
-    "when": "Nov 20 · 21:45z"
+    "when": "Nov 23 · 22:30z"
+   },
+   {
+    "title": "Market Factors : Lucrative  fat pitche are here for investors",
+    "url": "https://www.theglobeandmail.com/investing/investment-ideas/article-market-factors-lucrative-fat-pitches-are-here-for-investors/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 23 · 21:30z"
+   },
+   {
+    "title": "Mikaela Shiffrin channels Killington triumphs over trauma in return to ski hill where she crashed",
+    "url": "https://www.therecord.com/news/world/united-states/mikaela-shiffrin-channels-killington-triumphs-over-trauma-in-return-to-ski-hill-where-she-crashed/article_a05c7eca-ab94-5ec0-b424-05f174c60dc7.html",
+    "domain": "therecord.com",
+    "when": "Nov 23 · 21:30z"
+   },
+   {
+    "title": "US Experts Engage Ghana On Mercury Pollution , Water Security",
+    "url": "https://thechronicle.com.gh/us-experts-engage-ghana-on-mercury-pollution-water-security/",
+    "domain": "thechronicle.com.gh",
+    "when": "Nov 23 · 02:30z"
+   },
+   {
+    "title": "Minnesota Senators Klobuchar , Smith divided on infrastructure and energy permitting bill",
+    "url": "https://www.twincities.com/2026/11/22/minnesota-senators-klobuchar-smith-divided-on-infrastructure-and-energy-permitting-bill/",
+    "domain": "twincities.com",
+    "when": "Nov 23 · 02:30z"
+   },
+   {
+    "title": "Canada invests in new mineral exploration capabilities through the Canadian Digital Core Library",
+    "url": "http://www.torontotelegraph.com/news/279451071/canada-invests-in-new-mineral-exploration-capabilities-through-the-canadian-digital-core-library",
+    "domain": "torontotelegraph.com",
+    "when": "Nov 23 · 21:30z"
    }
   ],
   "(pharmaceutical OR biotech OR FDA OR \"drug prices\" OR \"clinical trial\")": [
    {
-    "title": "Pancreatic cancer drugs : Early trials called  breakthrough  ",
-    "url": "https://www.cp24.com/news/canada/2026/11/22/early-test-results-for-us-drug-biggest-breakthrough-for-pancreatic-cancer-says-canadian-oncologist/",
-    "domain": "cp24.com",
-    "when": "Nov 22 · 11:30z"
+    "title": "Judge OKs $7B settlement over claims that Roundup caused cancer",
+    "url": "https://www.columbian.com/news/2026/nov/22/judge-oks-7b-settlement-over-claims-that-roundup-caused-cancer/",
+    "domain": "columbian.com",
+    "when": "Nov 23 · 02:30z"
    },
    {
-    "title": "Kid and adult toothpaste , mouthwash recalled nationwide over hormone contamination",
-    "url": "https://www.fox5ny.com/news/kids-adult-toothpaste-mouthwash-recalled-nationwide-over-hormone-contamination",
-    "domain": "fox5ny.com",
-    "when": "Nov 21 · 20:30z"
+    "title": "Lupin Receives Approval from U . S . FDA for Ferric Citrate Tablets",
+    "url": "https://www.simcoereformer.ca/press-releases/pr-newswire/lupin-receives-approval-from-u-s-fda-for-ferric-citrate-tablets/",
+    "domain": "simcoereformer.ca",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "India eyes space - based drug development as scientists , startups explore microgravity research",
-    "url": "https://www.prokerala.com/news/articles/a1839757.html",
-    "domain": "prokerala.com",
-    "when": "Nov 22 · 10:30z"
+    "title": "Arab News | King Faisal Specialist Hospital treats 288 patients with genetically modified t - cell therapy",
+    "url": "https://www.arabnews.com/saudi-arabia/king-faisal-specialist-hospital-treats-288-patients-with-genetically-modified-t-cell-therapy-3013645",
+    "domain": "arabnews.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "ATRX loss may guide targeted treatment for aggressive sarcomas",
-    "url": "https://www.news-medical.net/news/20261120/ATRX-loss-may-guide-targeted-treatment-for-aggressive-sarcomas.aspx",
-    "domain": "news-medical.net",
-    "when": "Nov 22 · 10:30z"
+    "title": "Nigeria : Pharmacists Task FG On Self Sufficiency in Drug Production",
+    "url": "https://allafrica.com/stories/202611230716.html",
+    "domain": "allafrica.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "China military backing to Pak raises two - front threat for India : US report",
-    "url": "https://www.tribuneindia.com/news/india/chinas-military-backing-to-pak-raises-two-front-threat-for-india-us-report/",
-    "domain": "tribuneindia.com",
-    "when": "Nov 21 · 20:30z"
+    "title": "FDA approves new hormone therapy Wilserdly for early - stage breast cancer",
+    "url": "https://www.wtae.com/article/fda-wilserdly-giredestrant-hormone-therapy-early-stage-breast-cancer/74510227",
+    "domain": "wtae.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Galectin - 3 protein identified as potential target for Alzheimer treatment",
-    "url": "https://www.news-medical.net/news/20261120/Galectin-3-protein-identified-as-potential-target-for-Alzheimers-treatment.aspx",
-    "domain": "news-medical.net",
-    "when": "Nov 22 · 10:30z"
+    "title": "FDA leadership search includes oncology group head , adviser to RFK Jr . ",
+    "url": "https://www.columbian.com/news/2026/nov/22/fda-leadership-search-includes-oncology-group-head-adviser-to-rfk-jr/",
+    "domain": "columbian.com",
+    "when": "Nov 23 · 02:30z"
    },
    {
-    "title": "Kentucky Rejects Peptide Compounding Waivers",
-    "url": "https://natlawreview.com/article/not-so-fast-kentucky-holds-line-peptide-compounding",
-    "domain": "natlawreview.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Top stocks to watch today : Tata Steel , APL Apollo Tubes , Maruti Suzuki , RVNL , Waaree Energies & 17 others in focus",
+    "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-tata-steel-apl-apollo-tubes-maruti-suzuki-rvnl-waaree-energies-17-others-in-focus-11795399384907.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Health Wrap Episode 60 discusses healthcare spending , antimicrobial resistance and more",
-    "url": "https://www.thehindu.com/sci-tech/health/health-wrap-episode-60-discusses-healthcare-spending-reproductive-health-antimicrobial-resistance-and-more/article71730685.ece",
-    "domain": "thehindu.com",
-    "when": "Nov 22 · 07:30z"
+    "title": "One Common Vitamin May Lower Toxic Alzheimer Proteins , Research Suggests",
+    "url": "https://www.sciencealert.com/one-common-vitamin-may-lower-toxic-alzheimers-proteins-research-suggests",
+    "domain": "sciencealert.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Women in business : Meet the women turning experience into entrepreneurial success",
-    "url": "https://www.thejournal.ie/readme/ai-layoffs-job-market-7231591-Nov2026/",
-    "domain": "thejournal.ie",
-    "when": "Nov 22 · 10:30z"
+    "title": "twice - yearly cholesterol treatment : Forget daily pills , a cholesterol shot every 6 months ? The heart benefits that surprised researchers",
+    "url": "https://economictimes.indiatimes.com/science/forget-daily-pills-a-cholesterol-shot-every-6-months-the-heart-benefits-that-surprised-researchers/articleshow/136111695.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "CARsgen Presents First Clinical Data on Its In Vivo CAR - T Product Candidate CT1182",
-    "url": "https://balticbusinessnews.com/carsgen-presents-first-clinical-data-on-its-in-vivo-car-t-product-candidate-ct1182/",
-    "domain": "balticbusinessnews.com",
-    "when": "Nov 22 · 12:30z"
+    "title": "Tampa General loses 340B lawsuit against Eli Lilly",
+    "url": "https://www.healthcaredive.com/news/tampa-general-loses-340b-lawsuit-against-lilly-over-data-demands/875497/",
+    "domain": "healthcaredive.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Accra court grants Kanayo Nwachukwu GH¢100 , 000 bail for drug charges – The New Statesman :: Ghana Oldest Mainstream Newspaper since 1949",
-    "url": "https://thestatesmanonline.com/accra-court-grants-kanayo-nwachukwu-gh%C2%A2100000-bail-for-drug-charges/",
-    "domain": "thestatesmanonline.com",
-    "when": "Nov 22 · 05:30z"
+    "title": "Governor to FFA youths : You are  the heartbeat of America  – AgriNews",
+    "url": "https://www.agrinews-pubs.com/business/2026/10/31/governor-to-ffa-youths-you-are-the-heartbeat-of-america/",
+    "domain": "agrinews-pubs.com",
+    "when": "Nov 23 · 22:30z"
    },
    {
-    "title": "Customs seize contraband worth N3 . 52bn in Ogun",
-    "url": "https://www.vanguardngr.com/2026/11/customs-seize-contraband-worth-n3-52bn-in-ogun/",
-    "domain": "vanguardngr.com",
-    "when": "Nov 22 · 00:30z"
-   },
-   {
-    "title": "AI Is COVID 2 . 0",
-    "url": "https://www.americanthinker.com/articles/2026/11/ai-is-covid-2-0/",
-    "domain": "americanthinker.com",
-    "when": "Nov 22 · 10:30z"
-   },
-   {
-    "title": "Carl Benedikt Frey :  Dont expect AI to work miracles  ",
-    "url": "https://moneyweek.com/investments/tech-stocks/carl-benedikt-frey-dont-expect-ai-to-work-miracles",
-    "domain": "moneyweek.com",
-    "when": "Nov 22 · 12:30z"
-   },
-   {
-    "title": "Bayer reaches Roundup settlement that could cost the company billions",
-    "url": "https://www.wgcu.org/2026-11-21/bayer-reaches-roundup-settlement-that-could-cost-the-company-billions",
-    "domain": "wgcu.org",
-    "when": "Nov 22 · 00:30z"
+    "title": "Ahead of Phase 2 CALMA Topline Readout , Ascendiant Capital Markets Raises IGC Pharma Price Target to $6 . 25",
+    "url": "http://www.californiatelegraph.com/news/279451038/ahead-of-phase-2-calma-topline-readout-ascendiant-capital-markets-raises-igc-pharma-price-target-to-625",
+    "domain": "californiatelegraph.com",
+    "when": "Nov 23 · 21:30z"
    }
   ],
   "(aerospace OR defense OR shipping OR manufacturing OR logistics)": [
@@ -575,168 +557,186 @@
   ],
   "(retail OR \"consumer spending\" OR ecommerce OR luxury)": [
    {
-    "title": "Mad Hatter site in Sea Bright cleared for new condos",
-    "url": "https://nj1015.com/mad-hatter-sea-bright-demolition/",
-    "domain": "nj1015.com",
-    "when": "Nov 20 · 21:45z"
+    "title": "Has the AI bubble already burst ? ",
+    "url": "https://www.livemint.com/global/has-the-ai-bubble-already-burst-11795394872180.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
+   },
+   {
+    "title": "Retail sales volumes rebound with $561m boost in September quarter",
+    "url": "https://www.interest.co.nz/business/141195/statistics-nz%E2%80%99s-retail-trade-survey-finds-seasonally-adjusted-retail-sales-volumes",
+    "domain": "interest.co.nz",
+    "when": "Nov 23 · 03:30z"
+   },
+   {
+    "title": "3 big things were watching in the market this Thanksgiving week",
+    "url": "https://www.cnbc.com/investingclub/2026/11/22/3-big-things-were-watching-in-the-market-this-thanksgiving-week.html",
+    "domain": "cnbc.com",
+    "when": "Nov 23 · 02:30z"
    },
    {
     "title": "Retail News and Trends | Retail Dive",
-    "url": "https://www.retaildive.com/?page=2&_sp=aa3773b2-1c84-46e1-9158-c3a0231da5a3",
+    "url": "https://www.retaildive.com/?page=2&_sp=9ddcba3a-3df2-4ebe-a982-5393fa7b4066",
     "domain": "retaildive.com",
-    "when": "Nov 21 · 12:30z"
+    "when": "Nov 23 · 02:30z"
    },
    {
-    "title": "Shop workers taught hostage negotiation tactics to deal with angry customers",
-    "url": "https://www.mirror.co.uk/news/uk-news/shop-workers-abuse-attacked-christmas-37894311",
-    "domain": "mirror.co.uk",
-    "when": "Nov 21 · 11:30z"
+    "title": "US Stock Market prediction for Monday : S & P 500 , Nasdaq , Dow Jones investors hope for positive start . Here what to expect ? ",
+    "url": "https://economictimes.indiatimes.com/world/business/us-stock-market-prediction-for-monday-sp-500-nasdaq-dow-jones-investors-hope-for-positive-start-heres-what-to-expect/articleshow/136085659.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 23 · 00:30z"
    },
    {
-    "title": "Debate grows over Inner Harbor redevelopment plans in Baltimore",
-    "url": "https://www.wbaltv.com/article/baltimore-inner-harbor-redevelopment-mcb-deal/74495921",
-    "domain": "wbaltv.com",
-    "when": "Nov 21 · 06:45z"
+    "title": "BT BIG STORY : India growth story faces a twin squeeze from inflation and the rupee",
+    "url": "https://www.businesstoday.in/latest/economy/story/bt-big-story-indias-growth-story-faces-a-twin-squeeze-from-inflation-and-the-rupee-568837-2026-11-20",
+    "domain": "businesstoday.in",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "South Louisiana retailers optimistic about holiday shopping | Business",
-    "url": "https://www.theadvocate.com/baton_rouge/news/business/retailers-forecast-holiday-sales-2026/article_c9f80d9a-4f08-5061-8a81-d5e742f3ebda.html",
-    "domain": "theadvocate.com",
-    "when": "Nov 21 · 11:30z"
+    "title": "Australian borrowers face threat of further rate hikes before relief in late 2027",
+    "url": "https://www.realestate.com.au/news/australian-borrowers-face-threat-of-further-rate-hikes-before-relief-in-late-2027/",
+    "domain": "realestate.com.au",
+    "when": "Nov 23 · 02:30z"
    },
    {
-    "title": "Recall roundup : Pastas , breakfast foods , whipped cream and more recalled across U . S . ",
-    "url": "https://www.wesh.com/article/food-recalls-cars-helmets-united-states/74492479",
-    "domain": "wesh.com",
-    "when": "Nov 21 · 00:30z"
+    "title": "Thanksgiving 2026 : Here what open and closed",
+    "url": "https://www.fox29.com/news/thanksgiving-2026-whats-open-closed",
+    "domain": "fox29.com",
+    "when": "Nov 23 · 22:30z"
    },
    {
-    "title": "  Grand Theft Auto VI  sets record with $3 . 79B in first - day retail sales",
-    "url": "https://www.wesh.com/article/grand-theft-auto-vi-launch-sales-record/74493950",
-    "domain": "wesh.com",
-    "when": "Nov 21 · 00:30z"
+    "title": "Single - digit inflation : Nigeria test after 14 . 06 % October",
+    "url": "https://punchng.com/single-digit-test-of-dropping-inflation/",
+    "domain": "punchng.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Signature Developers unveils third phase of W Residences Dubai",
-    "url": "https://tradearabia.com:443/News/489988/Signature-Developers-unveils-third-phase-of-W-Residences-Dubai-JLT",
-    "domain": "tradearabia.com",
-    "when": "Nov 21 · 11:30z"
+    "title": "Finding a foothold in Israel property market",
+    "url": "http://www.jpost.com/conferences/article-915828",
+    "domain": "jpost.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Vietnam emerges as promising destination for Russian tech firms",
-    "url": "https://vietnamnet.vn/en/vietnam-emerges-as-promising-destination-for-russian-tech-firms-2577436.html",
-    "domain": "vietnamnet.vn",
-    "when": "Nov 21 · 12:30z"
+    "title": "Baystreet . ca - Americans Enjoy Thanksgiving Shortened Week",
+    "url": "https://baystreet.ca/the_week_ahead/682/Americans-Enjoy-Thanksgiving-Shortened-Week",
+    "domain": "baystreet.ca",
+    "when": "Nov 23 · 02:30z"
    },
    {
-    "title": "News 12 | Westchester | Grand Theft Auto Vi Sets Record With 379b In First Day Retail Sales Rockstar Games Reports",
-    "url": "https://westchester.news12.com/grand-theft-auto-vi-sets-record-with-379b-in-first-day-retail-sales-rockstar-games-reports",
-    "domain": "westchester.news12.com",
-    "when": "Nov 20 · 21:45z"
+    "title": "Unbundling motor cover : let spread the joy ! ",
+    "url": "https://www.thehindu.com/business/Industry/unbundling-motor-cover-lets-spread-the-joy/article71730682.ece",
+    "domain": "thehindu.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "The Weekly Closeout : NYC bans surveillance pricing , FabFitFun lands in Walmart",
-    "url": "https://www.retaildive.com/news/nyc-surveillance-pricing-ban-fabfitfun-walmart/875277/",
-    "domain": "retaildive.com",
-    "when": "Nov 20 · 21:45z"
+    "title": "Local Bounti Reports Third Quarter 2026 Financial Results and Highlights Pending Acquisition of Revol Green Certified Organic Greenhouse Facilities in Texas and Minnesota",
+    "url": "https://www.prnewswire.com/news-releases/local-bounti-reports-third-quarter-2026-financial-results-and-highlights-pending-acquisition-of-revol-greens-certified-organic-greenhouse-facilities-in-texas-and-minnesota-302948644.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "The Cadillac V8 That Isnt In The Car Wearing Its Name",
-    "url": "https://www.topspeed.com/cadillac-shortlived-blackwing-v8-engine/",
-    "domain": "topspeed.com",
-    "when": "Nov 21 · 13:30z"
+    "title": "Grand Theft Auto 6 Is Really About The Death Of The American Dream",
+    "url": "https://www.engadget.com/2325713/grand-theft-auto/",
+    "domain": "engadget.com",
+    "when": "Nov 23 · 22:30z"
    },
    {
-    "title": "Black Friday 2026 : What time do Walmart , Target and other major stores open ? ",
-    "url": "https://www.kristv.com/life/holidays-and-celebrations/black-friday-2026-what-time-do-walmart-target-and-other-major-stores-open",
-    "domain": "kristv.com",
-    "when": "Nov 21 · 16:30z"
-   },
-   {
-    "title": "North America Exclusive Entertainment Events Market Roadmap : ",
-    "url": "https://www.openpr.com/news/4696181/north-america-exclusive-entertainment-events-market-roadmap",
-    "domain": "openpr.com",
-    "when": "Nov 21 · 10:30z"
+    "title": "Current rally in large - caps a bear market one : veteran investor Shankar Sharma",
+    "url": "https://www.livemint.com/market/stock-market-news/current-rally-in-large-caps-a-bear-market-one-veteran-investor-shankar-sharma-11795325109594.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
    }
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Taiwan warns Canada Carney that deeper ties with China come with risks",
-    "url": "https://www.wsbradio.com/news/business/taiwan-warns-canada/2S7JLF54OE25TKOZNCMHJE6J5Y/",
-    "domain": "wsbradio.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Indian supply chains may have $500 billion in inventory tied up : Kinaxis CEO",
+    "url": "https://www.thehindu.com/business/indian-supply-chains-may-have-500-billion-in-inventory-tied-up-kinaxis-ceo/article71729188.ece",
+    "domain": "thehindu.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Chinas EVs new Asia - Pacific growth driver",
-    "url": "https://www.sxdaily.com.cn/2026-11/22/content_20201431.html",
-    "domain": "sxdaily.com.cn",
-    "when": "Nov 22 · 10:30z"
+    "title": "India champions Diamond Trade and fairer rules at UN",
+    "url": "https://newsindiatimes.com/india-champions-diamond-trade-and-fairer-rules-at-un/",
+    "domain": "newsindiatimes.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Nvidia supply - chain expansion boosts confidence among Taiwan firms : Analyst",
-    "url": "https://focustaiwan.tw:443/business/202611220006",
-    "domain": "focustaiwan.tw",
-    "when": "Nov 22 · 10:30z"
+    "title": "Petrol and diesel prices today , 23 November : Check fuel rates in Delhi , Mumbai , Gurgaon , Noida , other cities",
+    "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-23-november-check-fuel-rates-in-delhi-mumbai-gurgaon-noida-other-cities-11795399476659.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Lorne Gunter : Carney Liberals too eager to ink EV deal with China",
-    "url": "https://edmontonjournal.com/opinion/columnists/lorne-gunter-carney-liberals-too-eager-to-ink-ev-deal-with-china",
-    "domain": "edmontonjournal.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Pentagon curbs troop social ties with Canada as trade war turns personal – NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-11-23-pentagon-social-ties-canada-trade-war.html",
+    "domain": "naturalnews.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Hotel Chocolat recalls some Christmas boxes over salmonella risk",
-    "url": "https://www.thenorthernecho.co.uk/news/national/26751127.hotel-chocolat-recalls-christmas-boxes-salmonella-risk/",
-    "domain": "thenorthernecho.co.uk",
-    "when": "Nov 21 · 20:30z"
+    "title": "MetroTrans 2026 Concludes Successfully in Guangzhou",
+    "url": "https://portal.sina.com.hk/finance/finance-mediaoutreachnewswire/media-outreach/2026/11/23/1994910/metrotrans-2026-concludes-successfully-in-guangzhou/",
+    "domain": "portal.sina.com.hk",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Hotel Chocolat recalls Christmas item due to salmonella risk",
-    "url": "https://www.manchestereveningnews.co.uk/news/uk-news/hotel-chocolat-recalls-christmas-item-34948602",
-    "domain": "manchestereveningnews.co.uk",
-    "when": "Nov 21 · 20:30z"
+    "title": "Sam Altman joins OpenAI chief scientist Jakub Pachocki in calling for common industry standard on powerful AI models",
+    "url": "https://www.livemint.com/ai/artificial-intelligence/sam-altman-joins-openai-s-chief-scientist-jakub-pachocki-in-calling-for-common-industry-standard-on-powerful-ai-models-11795399744915.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Cash - strapped DJB plans to monetise land , buildings for revenue generation",
-    "url": "https://www.newindianexpress.com/thesundaystandard/2026/Nov/22/cash-strapped-djb-plans-to-monetise-land-buildings-for-revenue-generation",
-    "domain": "newindianexpress.com",
-    "when": "Nov 22 · 05:30z"
+    "title": "US targets Iranian  shadow banking  financial institutes with sanctions",
+    "url": "http://www.jpost.com/middle-east/iran-news/article-915890",
+    "domain": "jpost.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "What drove the US midterm elections outcome ? - Jamaica Observer",
-    "url": "https://www.jamaicaobserver.com/2026/11/22/drove-us-midterm-elections-outcome/",
-    "domain": "jamaicaobserver.com",
-    "when": "Nov 22 · 07:30z"
+    "title": "Senator : Pentagon seeks to limit  social activitie with Canadian military",
+    "url": "https://www.columbian.com/news/2026/nov/22/senator-pentagon-seeks-to-limit-social-activities-with-canadian-military/",
+    "domain": "columbian.com",
+    "when": "Nov 23 · 02:30z"
    },
    {
-    "title": "InvIT IPO rush gathers pace ; 4 - 5 private trusts likely to go public by Mar 2027",
-    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/invit-ipo-rush-gathers-pace-4-5-private-trusts-likely-to-go-public-by-mar-2027/articleshow/136069094.cms",
-    "domain": "economictimes.indiatimes.com",
-    "when": "Nov 22 · 07:30z"
+    "title": "Trump Threatens Tax on Companies That Build Data Centers Abroad – NaturalNews . com",
+    "url": "https://www.naturalnews.com/2026-11-23-trump-threatens-tax-companies-build-data-centers-abroad.html",
+    "domain": "naturalnews.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "Trump attempts to reach Kim Jong Un go unanswered as North Korea expands nuclear arsenal : Report",
-    "url": "https://www.moneycontrol.com/world/trump-s-attempts-to-reach-kim-jong-un-go-unanswered-as-north-korea-expands-nuclear-arsenal-report-article-14086564.html",
-    "domain": "moneycontrol.com",
-    "when": "Nov 22 · 12:30z"
+    "title": "Ernesto Illy International Coffee Award 2026 : Honduras wins Best of the Best , Colombia takes the  Coffee Lover Choice  award",
+    "url": "https://www.prnewswire.com/news-releases/ernesto-illy-international-coffee-award-2026-honduras-wins-best-of-the-best-colombia-takes-the-coffee-lovers-choice-award-302948655.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 23 · 21:30z"
    },
    {
-    "title": "China military backing to Pak raises two - front threat for India : US report",
-    "url": "https://www.tribuneindia.com/news/india/chinas-military-backing-to-pak-raises-two-front-threat-for-india-us-report/",
-    "domain": "tribuneindia.com",
-    "when": "Nov 21 · 20:30z"
+    "title": "Iranian Courts Order US to Pay $290bn in Damages",
+    "url": "https://dailyk2.com/iranian-courts-order-us-to-pay-290bn-in-damages/",
+    "domain": "dailyk2.com",
+    "when": "Nov 23 · 22:30z"
    },
    {
-    "title": "US senator says Pentagon restrictions on Canada focus on think tanks and social events",
-    "url": "https://www.wsls.com/news/world/2026/11/21/us-senator-says-pentagon-restrictions-on-canada-focus-on-think-tanks-and-social-events/",
-    "domain": "wsls.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Defence tech funding cools after Operation Sindoor gold rush",
+    "url": "https://www.livemint.com/companies/start-ups/defence-tech-funding-cools-after-operation-sindoor-gold-rush-11795089406864.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Drones hit Russian cargo ship in Baltic , Finland tightens security",
-    "url": "https://timesofindia.indiatimes.com/world/europe/drones-hit-russian-cargo-ship-in-baltic-finland-tightens-security/articleshow/136065032.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Jeffries - backed Judea and Samaria sanctions a  welcome step , but Dems should go further , Mamdani says | JNS",
+    "url": "https://www.clevelandjewishnews.com/jns/jeffries-backed-judea-and-samaria-sanctions-a-welcome-step-but-dems-should-go-further-mamdani/article_e9b8e1ed-07a2-5faa-9511-1401aa2e3231.html",
+    "domain": "clevelandjewishnews.com",
+    "when": "Nov 23 · 22:30z"
+   },
+   {
+    "title": "Record grain harvest tests southern Australia supply chain | The Land",
+    "url": "https://www.theland.com.au/story/9396240/record-grain-harvest-tests-southern-australias-supply-chain/",
+    "domain": "theland.com.au",
+    "when": "Nov 23 · 02:30z"
+   },
+   {
+    "title": "Bank holiday today : Are SBI , HDFC branches in Shillong closed for Seng Kut Snem on Monday , 23 November ? See RBI calendar",
+    "url": "https://www.livemint.com/money/bank-holiday-today-sbi-hdfc-icici-canara-axis-branch-shillong-closed-seng-kut-snem-monday-23-november-check-rbi-calendar-11795395833689.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 02:30z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -887,46 +887,52 @@
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
    {
-    "title": "Samsung , LG face risk of higher costs as EU appliance makers seek carbon levies on imports",
-    "url": "https://www.koreaherald.com/article/10945073",
-    "domain": "koreaherald.com",
-    "when": "Nov 22 · 05:30z"
+    "title": "Petrol and diesel prices today , 23 November : Check fuel rates in Delhi , Mumbai , Gurgaon , Noida , other cities",
+    "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-23-november-check-fuel-rates-in-delhi-mumbai-gurgaon-noida-other-cities-11795399476659.html",
+    "domain": "livemint.com",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "2027 : Imperative of Peter Mbah second term in Enugu",
-    "url": "https://www.vanguardngr.com/2026/11/2027-imperative-of-peter-mbahs-second-term-in-enugu/",
-    "domain": "vanguardngr.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Showdown ahead of November 26 meet : Chandrasekaran backs Tata Sons IPO , Noel Tata flags conflict",
+    "url": "https://www.businesstoday.in/latest/corporate/story/showdown-ahead-of-november-26-meet-chandrasekaran-backs-tata-sons-ipo-noel-tata-flags-conflict-568968-2026-11-23",
+    "domain": "businesstoday.in",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Dr . Gene Dorio | Hope for Health Care",
-    "url": "https://signalscv.com/2026/11/dr-gene-dorio-hope-for-health-care/",
-    "domain": "signalscv.com",
-    "when": "Nov 22 · 10:30z"
+    "title": "Tata Sons works on IPO listing plan at Rs 18L cr valuation , report says ; Tata Chemicals , Tata Invest in focus",
+    "url": "https://www.businesstoday.in/markets/stocks/story/tata-sons-works-on-ipo-listing-plan-at-rs-18l-cr-valuation-report-says-tata-chemicals-tata-invest-in-focus-568971-2026-11-23",
+    "domain": "businesstoday.in",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "A truism for our political leaders : until work again involves respect and decent levels of pay , this crisis will continue | John Harris",
-    "url": "https://www.theguardian.com/commentisfree/2026/nov/22/work-respect-pay-crisis-neets-milburn-review",
-    "domain": "theguardian.com",
-    "when": "Nov 22 · 10:30z"
+    "title": "Jensen Huang was reinstated at Nvidia . What happened to other ousted CEOs ? ",
+    "url": "https://www.kshb.com/us-news/jensen-huang-was-reinstated-at-nvidia-what-happened-to-other-ousted-ceos",
+    "domain": "kshb.com",
+    "when": "Nov 23 · 22:30z"
    },
    {
-    "title": "Doug Casey On The Coming Collapse Of Saudi Arabia , And What It Means For The Petrodollar",
-    "url": "http://www.zerohedge.com/energy/doug-casey-coming-collapse-saudi-arabia-and-what-it-means-petrodollar",
-    "domain": "zerohedge.com",
-    "when": "Nov 22 · 05:30z"
+    "title": "Noel Tata seeks deferral of November 26 Tata Sons board meeting amid listing face off",
+    "url": "https://www.businesstoday.in/latest/story/tata-sons-board-meeting-delay-noel-tata-rbi-listing-row-568969-2026-11-23",
+    "domain": "businesstoday.in",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "Papyrus charity collapse leaves 94 people out of work",
-    "url": "https://www.warringtonguardian.co.uk/news/26748797.papyrus-charity-collapse-leaves-94-people-work/",
-    "domain": "warringtonguardian.co.uk",
-    "when": "Nov 22 · 07:30z"
+    "title": "New Zealand firefighters union cancels strikes",
+    "url": "https://www.wsws.org/en/articles/2026/11/23/wlch-n23.html",
+    "domain": "wsws.org",
+    "when": "Nov 23 · 03:30z"
    },
    {
-    "title": "He expected a small - business loan . It turned out to be a trap",
-    "url": "https://www.iowapublicradio.org/news-from-npr/2026-11-22/he-expected-a-small-business-loan-it-turned-out-to-be-a-trap",
-    "domain": "iowapublicradio.org",
-    "when": "Nov 22 · 10:30z"
+    "title": "When Beneficiary Forms Clash With Your Estate Plan",
+    "url": "https://www.wealthmanagement.com/estate-planning/the-hidden-pitfalls-of-beneficiary-designations",
+    "domain": "wealthmanagement.com",
+    "when": "Nov 23 · 22:30z"
+   },
+   {
+    "title": "Local Bounti Reports Third Quarter 2026 Financial Results and Highlights Pending Acquisition of Revol Green Certified Organic Greenhouse Facilities in Texas and Minnesota",
+    "url": "https://www.prnewswire.com/news-releases/local-bounti-reports-third-quarter-2026-financial-results-and-highlights-pending-acquisition-of-revol-greens-certified-organic-greenhouse-facilities-in-texas-and-minnesota-302948644.html",
+    "domain": "prnewswire.com",
+    "when": "Nov 23 · 21:30z"
    }
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
