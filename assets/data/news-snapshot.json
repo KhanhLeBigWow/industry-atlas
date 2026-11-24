@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23 23:05z",
+ "generated": "2026-11-24 21:40z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
@@ -53,82 +53,94 @@
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
    {
-    "title": "Alice Huang husband , asscoiate Li Ming , accused of running network to divert Nvidia AI Chips To China : Report",
-    "url": "https://www.moneycontrol.com/world/alice-huang-s-husband-asscoiate-li-ming-accused-of-running-network-to-divert-nvidia-ai-chips-to-china-report-article-14086546.html",
-    "domain": "moneycontrol.com",
-    "when": "Nov 22 · 12:30z"
+    "title": "From underground tunnels to the next cyber threat",
+    "url": "http://www.jpost.com/conferences/article-915826",
+    "domain": "jpost.com",
+    "when": "Nov 24 · 01:15z"
    },
    {
-    "title": "Taiwan banks deploy AI to prevent cyberattacks",
-    "url": "https://focustaiwan.tw/sci-tech/202611220007",
-    "domain": "focustaiwan.tw",
-    "when": "Nov 22 · 10:30z"
+    "title": "Lekki Tech Academy targets next generation of tech talent",
+    "url": "https://punchng.com/lekki-tech-academy-targets-next-generation-of-african-tech-professionals/",
+    "domain": "punchng.com",
+    "when": "Nov 24 · 01:30z"
    },
    {
-    "title": "Nvidia supply - chain expansion boosts confidence among Taiwan firms : Analyst",
-    "url": "https://focustaiwan.tw:443/business/202611220006",
-    "domain": "focustaiwan.tw",
-    "when": "Nov 22 · 10:30z"
+    "title": "Want to work in Singapore ? 24 shortage jobs can earn you extra visa points",
+    "url": "https://www.business-standard.com/immigration/want-to-work-in-singapore-24-shortage-jobs-can-earn-you-extra-visa-points-126112400222_1.html",
+    "domain": "business-standard.com",
+    "when": "Nov 24 · 07:15z"
    },
    {
-    "title": "China spy agency used intelligence network to secure advanced AI chips , bypass US curbs : Report",
-    "url": "https://www.moneycontrol.com/world/china-s-spy-agency-used-intelligence-network-to-secure-advanced-ai-chips-bypass-us-curbs-report-article-14086563.html",
-    "domain": "moneycontrol.com",
-    "when": "Nov 22 · 12:30z"
+    "title": "CrowdStrike to acquire Zscaler in a $56b deal that would create a cybersecurity giant",
+    "url": "https://www.asiaone.com/money/crowdstrike-acquire-zscaler-56b-deal-would-create-cybersecurity-giant",
+    "domain": "asiaone.com",
+    "when": "Nov 24 · 07:15z"
    },
    {
-    "title": "Here a theory for why everything is breaking down - BusinessWorld Online",
-    "url": "https://bworldonline.com/bloomberg/2026/11/22/795734/heres-a-theory-for-why-everything-is-breaking-down/",
-    "domain": "bworldonline.com",
-    "when": "Nov 22 · 12:30z"
+    "title": "Jensen back as Nvidia CEO , but Msian companies tied to  spy  lover blacklisted by US",
+    "url": "https://www.malaysiakini.com/news/889703-jensen-back-as-nvidia-ceo-but-msian-companies-tied-to-spy-lover-blacklisted-by-us",
+    "domain": "malaysiakini.com",
+    "when": "Nov 24 · 05:15z"
    },
    {
-    "title": "Looking forward to a new chapter in China - ASEAN comprehensive strategic partnership , says Chinese ambassador",
-    "url": "http://www.southeastasiapost.com/news/279448486/looking-forward-to-a-new-chapter-in-china-asean-comprehensive-strategic-partnership-says-chinese-ambassador",
-    "domain": "southeastasiapost.com",
-    "when": "Nov 22 · 10:30z"
+    "title": "Accountants urged to embrace AI",
+    "url": "https://ntv.co.ug/news/accountants-urged-to-embrace-ai",
+    "domain": "ntv.co.ug",
+    "when": "Nov 24 · 01:30z"
    },
    {
-    "title": "Hacks , AI and conspiracy theories : why are we having so many outages ? ",
-    "url": "https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple",
-    "domain": "theguardian.com",
-    "when": "Nov 22 · 07:30z"
+    "title": "U . S . adds Megaspeed to trade blacklist over export control concerns",
+    "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+    "domain": "cnbc.com",
+    "when": "Nov 24 · 02:45z"
    },
    {
-    "title": "Who Is Li Ming ? Man Accused Of Helping Alice Huang Smuggle Nvidia AI Chips To China",
-    "url": "https://www.oneindia.com/international/who-is-li-ming-man-accused-of-helping-alice-huang-smuggle-nvidia-ai-chips-to-china-8266847.html",
-    "domain": "oneindia.com",
-    "when": "Nov 22 · 10:30z"
+    "title": "A third - country link allowing Nvidia chips to get to China is under scrutiny",
+    "url": "https://www.sbs.com.au/news/article/a-loophole-allowing-nvidias-chips-to-get-to-china-is-under-scrutiny/9c85rqw04",
+    "domain": "sbs.com.au",
+    "when": "Nov 24 · 04:45z"
    },
    {
-    "title": "Cotton Offers No Sympathy for Lutnick : Should Have Taken Communist China Threat  More Seriously  ",
-    "url": "https://wcbm.com/national-headline/cotton-offers-no-sympathy-for-lutnick-should-have-taken-communist-china-threat-more-seriously/",
-    "domain": "wcbm.com",
-    "when": "Nov 21 · 20:30z"
+    "title": "Yash Patil : 23 - Year - Old Leads $4 . 5 Billion AI Startup Deal",
+    "url": "https://www.onlineindiannews.com/yash-patil-applied-compute-palo-alto-45-billion-deal/",
+    "domain": "onlineindiannews.com",
+    "when": "Nov 24 · 01:15z"
    },
    {
-    "title": "AI investment to rise to USD 1 . 4 trillion in 2027 , but returns remain key test : UBS",
-    "url": "https://news.webindia123.com/news/Articles/Business/20261122/4522916.html",
-    "domain": "news.webindia123.com",
-    "when": "Nov 22 · 07:30z"
+    "title": "AI - powered Bell hack a sign of things to come , Winnipeg cybersecurity firm says",
+    "url": "https://www.cbc.ca/news/canada/manitoba/bell-hack-ai-cybersecurity-winnipeg-9.7433290",
+    "domain": "cbc.ca",
+    "when": "Nov 24 · 05:15z"
    },
    {
-    "title": "The future of automobile technology : Embracing AI for business growth in Nigeria",
-    "url": "https://www.vanguardngr.com/2026/11/the-future-of-automobile-technology-embracing-ai-for-business-growth-in-nigeria-2/",
-    "domain": "vanguardngr.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Should Vanguard S & P 500 ETF Investors Be Worried About the Downturn in Nvidia and AI Stocks ? ",
+    "url": "https://www.fool.com/investing/2026/11/24/should-vanguard-s-and-p-500-etf-investors-be-worried-about-the-downturn-in-nvidia-and-ai-stocks/",
+    "domain": "fool.com",
+    "when": "Nov 24 · 20:15z"
    },
    {
-    "title": "IT Security Engineer ( m / f / d ) - Feste Anstellung , Vollzeit , Homeoffice Job in Gilching",
-    "url": "https://www.stepstone.de/stellenangebote--it-security-engineer-m-f-d-gilching-bayern-germany-quantum-systems-gmbh--14527573-inline.html",
-    "domain": "stepstone.de",
-    "when": "Nov 22 · 10:30z"
+    "title": "Is Microsoft the Best Big Tech Stock to Buy Now ? ",
+    "url": "https://www.fool.com/investing/2026/11/24/is-microsoft-the-best-big-tech-stock-to-buy-now/",
+    "domain": "fool.com",
+    "when": "Nov 24 · 20:15z"
    },
    {
-    "title": "Nvidia chip case : How Chinese man in Megaspeed built network serving China with Alice Huang",
-    "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-chip-case-how-chinese-man-in-megaspeed-built-network-serving-china-with-alice-huang/articleshow/136072827.cms",
-    "domain": "timesofindia.indiatimes.com",
-    "when": "Nov 22 · 12:30z"
+    "title": "Why aging federal computer systems are hard to replace : NPR",
+    "url": "https://www.npr.org/transcripts/nx-s1-6042543",
+    "domain": "npr.org",
+    "when": "Nov 24 · 01:30z"
+   },
+   {
+    "title": "Trump administration adds Megaspeed to trade blacklist after Jensen Huang scandal",
+    "url": "https://www.wwaytv3.com/trump-administration-adds-megaspeed-to-trade-blacklist-after-jensen-huang-scandal/",
+    "domain": "wwaytv3.com",
+    "when": "Nov 24 · 01:45z"
+   },
+   {
+    "title": "KOSPI Jumps 7 . 5 %, Nikkei Gains 5 % As Jensen Huang Reinstatement At Nvidia Fuels AI Stock Rally",
+    "url": "https://www.freepressjournal.in/business/kospi-jumps-75-nikkei-gains-5-as-jensen-huangs-reinstatement-at-nvidia-fuels-ai-stock-rally",
+    "domain": "freepressjournal.in",
+    "when": "Nov 24 · 06:15z"
    }
   ],
   "(\"investment banking\" OR \"private equity\" OR \"hedge fund\" OR insurance OR banks)": [
@@ -649,94 +661,82 @@
   ],
   "(tariffs OR sanctions OR \"trade war\" OR \"supply chain\" OR geopolitics)": [
    {
-    "title": "Indian supply chains may have $500 billion in inventory tied up : Kinaxis CEO",
-    "url": "https://www.thehindu.com/business/indian-supply-chains-may-have-500-billion-in-inventory-tied-up-kinaxis-ceo/article71729188.ece",
+    "title": "Nvidiaaargh ! > Nvidiaaah ? ",
+    "url": "https://www.zerohedge.com/markets/nvidiaaargh-nvidiaaah",
+    "domain": "zerohedge.com",
+    "when": "Nov 24 · 20:15z"
+   },
+   {
+    "title": "Global brands look to India for textile sourcing as trade shifts create new export opportunities",
+    "url": "https://news.webindia123.com/news/Articles/Business/20261124/4523764.html",
+    "domain": "news.webindia123.com",
+    "when": "Nov 24 · 06:30z"
+   },
+   {
+    "title": "Canada PM brings Trump impersonator on stage",
+    "url": "https://www.straitstimes.com/world/canada-pm-brings-trump-impersonator-on-stage-during-press-gala",
+    "domain": "straitstimes.com",
+    "when": "Nov 24 · 01:45z"
+   },
+   {
+    "title": "Canada PM brings Trump impersonator on stage during press gala",
+    "url": "https://www.manilatimes.net/2026/11/24/world/americas-emea/canada-pm-brings-trump-impersonator-on-stage-during-press-gala/2476734",
+    "domain": "manilatimes.net",
+    "when": "Nov 24 · 01:30z"
+   },
+   {
+    "title": "Trump Says US Will Catch China On Rare Earth Mineral Production In 10 Months",
+    "url": "https://www.zerohedge.com/markets/trump-says-us-will-catch-china-rare-earth-mineral-production-10-months",
+    "domain": "zerohedge.com",
+    "when": "Nov 24 · 05:15z"
+   },
+   {
+    "title": "Gold Rate Today Andhra Pradesh , Telangana 24 Nov 22K , 24K Prices : Tirupati , Hyderabad , Amaravati , Warangal , Rangareddy",
+    "url": "https://www.livemint.com/money/personal-finance/gold-rate-today-andhra-pradesh-telangana-24-nov-22k-24k-prices-tirupati-hyderabad-amaravati-warangal-rangareddy-11795501154862.html",
+    "domain": "livemint.com",
+    "when": "Nov 24 · 07:45z"
+   },
+   {
+    "title": "Supply chain hiring moves to specialised , data - savvy talent in 2027",
+    "url": "https://sbr.com.sg/hr-education/news/supply-chain-hiring-moves-specialised-data-savvy-talent-in-2027",
+    "domain": "sbr.com.sg",
+    "when": "Nov 24 · 01:15z"
+   },
+   {
+    "title": "Opinion : Geopolitics – Escalation Is the Base Case Now",
+    "url": "https://www.kyivpost.com/opinion/90996",
+    "domain": "kyivpost.com",
+    "when": "Nov 24 · 07:45z"
+   },
+   {
+    "title": "Visteon Expands Local Manufacturing in India with New Automotive Cellular Module Production Line",
+    "url": "https://www.thehindu.com/brandhub/pr-release/visteon-expands-local-manufacturing-in-india-with-new-automotive-cellular-module-production-line/article71737140.ece",
     "domain": "thehindu.com",
-    "when": "Nov 23 · 03:30z"
+    "when": "Nov 24 · 07:15z"
    },
    {
-    "title": "India champions Diamond Trade and fairer rules at UN",
-    "url": "https://newsindiatimes.com/india-champions-diamond-trade-and-fairer-rules-at-un/",
-    "domain": "newsindiatimes.com",
-    "when": "Nov 23 · 03:30z"
+    "title": "Experts link growing data center demand to higher tech prices",
+    "url": "https://www.wmtv15news.com/2026/11/24/experts-link-growing-data-center-demand-higher-tech-prices/",
+    "domain": "wmtv15news.com",
+    "when": "Nov 24 · 01:15z"
    },
    {
-    "title": "Petrol and diesel prices today , 23 November : Check fuel rates in Delhi , Mumbai , Gurgaon , Noida , other cities",
-    "url": "https://www.livemint.com/news/india/petrol-and-diesel-prices-today-23-november-check-fuel-rates-in-delhi-mumbai-gurgaon-noida-other-cities-11795399476659.html",
-    "domain": "livemint.com",
-    "when": "Nov 23 · 03:30z"
-   },
-   {
-    "title": "Pentagon curbs troop social ties with Canada as trade war turns personal – NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-11-23-pentagon-social-ties-canada-trade-war.html",
-    "domain": "naturalnews.com",
-    "when": "Nov 23 · 21:30z"
-   },
-   {
-    "title": "MetroTrans 2026 Concludes Successfully in Guangzhou",
-    "url": "https://portal.sina.com.hk/finance/finance-mediaoutreachnewswire/media-outreach/2026/11/23/1994910/metrotrans-2026-concludes-successfully-in-guangzhou/",
-    "domain": "portal.sina.com.hk",
-    "when": "Nov 23 · 03:30z"
-   },
-   {
-    "title": "Sam Altman joins OpenAI chief scientist Jakub Pachocki in calling for common industry standard on powerful AI models",
-    "url": "https://www.livemint.com/ai/artificial-intelligence/sam-altman-joins-openai-s-chief-scientist-jakub-pachocki-in-calling-for-common-industry-standard-on-powerful-ai-models-11795399744915.html",
-    "domain": "livemint.com",
-    "when": "Nov 23 · 03:30z"
-   },
-   {
-    "title": "US targets Iranian  shadow banking  financial institutes with sanctions",
-    "url": "http://www.jpost.com/middle-east/iran-news/article-915890",
-    "domain": "jpost.com",
-    "when": "Nov 23 · 21:30z"
-   },
-   {
-    "title": "Senator : Pentagon seeks to limit  social activitie with Canadian military",
-    "url": "https://www.columbian.com/news/2026/nov/22/senator-pentagon-seeks-to-limit-social-activities-with-canadian-military/",
-    "domain": "columbian.com",
-    "when": "Nov 23 · 02:30z"
-   },
-   {
-    "title": "Trump Threatens Tax on Companies That Build Data Centers Abroad – NaturalNews . com",
-    "url": "https://www.naturalnews.com/2026-11-23-trump-threatens-tax-companies-build-data-centers-abroad.html",
-    "domain": "naturalnews.com",
-    "when": "Nov 23 · 21:30z"
-   },
-   {
-    "title": "Ernesto Illy International Coffee Award 2026 : Honduras wins Best of the Best , Colombia takes the  Coffee Lover Choice  award",
-    "url": "https://www.prnewswire.com/news-releases/ernesto-illy-international-coffee-award-2026-honduras-wins-best-of-the-best-colombia-takes-the-coffee-lovers-choice-award-302948655.html",
+    "title": "Schibsted Opens Software Development to Every Employee , With Varnish Artifact Firewall Keeping It Secure",
+    "url": "https://www.prnewswire.com/news-releases/schibsted-opens-software-development-to-every-employee-with-varnish-artifact-firewall-keeping-it-secure-302948950.html",
     "domain": "prnewswire.com",
-    "when": "Nov 23 · 21:30z"
+    "when": "Nov 24 · 07:45z"
    },
    {
-    "title": "Iranian Courts Order US to Pay $290bn in Damages",
-    "url": "https://dailyk2.com/iranian-courts-order-us-to-pay-290bn-in-damages/",
-    "domain": "dailyk2.com",
-    "when": "Nov 23 · 22:30z"
+    "title": "Pentagon sharply rebukes Canada over defense spending and the F - 35 fighter jet review",
+    "url": "https://www.sun-sentinel.com/2026/11/23/canada-us-defense/",
+    "domain": "sun-sentinel.com",
+    "when": "Nov 24 · 03:30z"
    },
    {
-    "title": "Defence tech funding cools after Operation Sindoor gold rush",
-    "url": "https://www.livemint.com/companies/start-ups/defence-tech-funding-cools-after-operation-sindoor-gold-rush-11795089406864.html",
-    "domain": "livemint.com",
-    "when": "Nov 23 · 03:30z"
-   },
-   {
-    "title": "Jeffries - backed Judea and Samaria sanctions a  welcome step , but Dems should go further , Mamdani says | JNS",
-    "url": "https://www.clevelandjewishnews.com/jns/jeffries-backed-judea-and-samaria-sanctions-a-welcome-step-but-dems-should-go-further-mamdani/article_e9b8e1ed-07a2-5faa-9511-1401aa2e3231.html",
-    "domain": "clevelandjewishnews.com",
-    "when": "Nov 23 · 22:30z"
-   },
-   {
-    "title": "Record grain harvest tests southern Australia supply chain | The Land",
-    "url": "https://www.theland.com.au/story/9396240/record-grain-harvest-tests-southern-australias-supply-chain/",
-    "domain": "theland.com.au",
-    "when": "Nov 23 · 02:30z"
-   },
-   {
-    "title": "Bank holiday today : Are SBI , HDFC branches in Shillong closed for Seng Kut Snem on Monday , 23 November ? See RBI calendar",
-    "url": "https://www.livemint.com/money/bank-holiday-today-sbi-hdfc-icici-canara-axis-branch-shillong-closed-seng-kut-snem-monday-23-november-check-rbi-calendar-11795395833689.html",
-    "domain": "livemint.com",
-    "when": "Nov 23 · 02:30z"
+    "title": "Jensen Huang returns as Nvidia CEO : Did Trump save the  AI bubble ? ",
+    "url": "https://www.hindustantimes.com/ht-explainers/jensen-huang-returns-nvidia-ceo-trump-ai-bubble-stock-market-crash-101795499680720.html",
+    "domain": "hindustantimes.com",
+    "when": "Nov 24 · 06:30z"
    }
   ],
   "(\"continuation vehicle\" OR \"secondaries market\" OR \"GP stakes\" OR \"private equity secondaries\" OR \"secondaries fund\")": [
@@ -749,52 +749,46 @@
   ],
   "(\"mergers and acquisitions\" OR takeover OR \"definitive agreement\" OR \"all-cash deal\" OR \"to acquire\")": [
    {
-    "title": "Ten63 Therapeutics Launches BEYOND - Alpha , with Chugai Pharmaceutical as First Participant",
-    "url": "https://www.prnewswire.com/news-releases/ten63-therapeutics-launches-beyond-alpha-with-chugai-pharmaceutical-as-first-participant-302944186.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 18 · 17:30z"
+    "title": "Bending Spoons acquires Mailchimp from Intuit for $3 . 68 billion",
+    "url": "https://www.thevermilion.com/bending-spoons-acquires-mailchimp-from-intuit-for-3-68-billion/article_23184/",
+    "domain": "thevermilion.com",
+    "when": "Nov 24 · 01:15z"
    },
    {
-    "title": "A P ! NK - themed SlotZilla takeover runs through Nov . 19 at Fremont Street Experience",
-    "url": "https://www.fox5vegas.com/2026/11/17/pnk-themed-zip-line-takeover-runs-through-nov-19-fremont-street-experience/",
-    "domain": "fox5vegas.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "CEOs of Quebecor , Telus meet in Ottawa to discuss takeover proposal",
+    "url": "https://www.theglobeandmail.com/business/article-telecom-ceos-quebecor-telus-meet-ottawa-november-23/",
+    "domain": "theglobeandmail.com",
+    "when": "Nov 24 · 01:15z"
    },
    {
-    "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang exit",
-    "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
-    "domain": "techcrunch.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "Sherritt Announces Postponement of Annual General and Special Meeting",
+    "url": "https://nationalpost.com/press-releases/business-wire/sherritt-announces-postponement-of-annual-general-and-special-meeting/",
+    "domain": "nationalpost.com",
+    "when": "Nov 24 · 01:15z"
    },
    {
-    "title": "Targeted News Service",
-    "url": "https://targetednews.com/pr_disp.php?pr_id=9852810",
-    "domain": "targetednews.com",
-    "when": "Nov 18 · 17:30z"
+    "title": "Silica to Silicon : How a farmer son from a Himachal Pradesh village built a $44 - billion business Zscaler founder Jay Chaudhry American dream",
+    "url": "https://www.moneycontrol.com/news/business/information-technology/silica-to-silicon-how-a-farmer-s-son-from-a-himachal-pradesh-village-built-a-44-billion-business-zscaler-founder-jay-chaudhry-s-american-dream-14087520.html",
+    "domain": "moneycontrol.com",
+    "when": "Nov 24 · 01:45z"
    },
    {
-    "title": "AMPERA and Berto Announce Proposed Business Combination to Accelerate Advanced Energy Technology Development and Commercialization",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70160136-ampera-and-berto-announce-proposed-business-combination-to-accelerate-advanced-energy-technology-development-and-commercialization-008.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Nov 18 · 01:15z"
+    "title": "New Mexico Gas Co . to give customers a $3 . 38 rate credit starting this month",
+    "url": "https://www.abqjournal.com/business/monthly-rate-credits-kick-in-following-new-mexico-gas-co-sale/3168015",
+    "domain": "abqjournal.com",
+    "when": "Nov 24 · 02:45z"
    },
    {
-    "title": "Obiwulu : Nigeria is Making Significant Investments in Infrastructure – THISDAYLIVE",
-    "url": "https://www.thisdaylive.com/2026/11/18/obiwulu-nigeria-is-making-significant-investments-in-infrastructure/",
-    "domain": "thisdaylive.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "Jyong Biotech Announces Receipt of Letter of Intent from a Philippine Enterprise to Explore Commercialization of Investigational Innovative Drug in the Philippines",
+    "url": "https://www.manilatimes.net/2026/11/24/tmt-newswire/pr-newswire/jyong-biotech-announces-receipt-of-letter-of-intent-from-a-philippine-enterprise-to-explore-commercialization-of-investigational-innovative-drug-in-the-philippines/2476728",
+    "domain": "manilatimes.net",
+    "when": "Nov 24 · 01:45z"
    },
    {
-    "title": "Hundreds gather in Chubbuck as Giving Machines return for second year in East Idaho",
-    "url": "http://www.postregister.com/news/local/hundreds-gather-in-chubbuck-as-giving-machines-return-for-second-year-in-east-idaho/article_4f3eb7ac-49b6-5b38-aa36-c7bc65630988.html",
-    "domain": "postregister.com",
-    "when": "Nov 18 · 01:15z"
-   },
-   {
-    "title": "Google signs world first commercial superhot rock geothermal deal at Oregon Newberry Volcano",
-    "url": "https://www.klcc.org/environment/2026-11-17/google-quaise-energy-newberry-volcano-superhot-rock-geothermal-deal",
-    "domain": "klcc.org",
-    "when": "Nov 18 · 01:15z"
+    "title": "Unicredit and Commerzbank , an Italian bank that buys a German one : there is the government approval",
+    "url": "https://www.thevermilion.com/unicredit-and-commerzbank-an-italian-bank-that-buys-a-german-one-there-is-the-governments-approval/article_23178/",
+    "domain": "thevermilion.com",
+    "when": "Nov 24 · 01:15z"
    }
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
@@ -867,22 +861,46 @@
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
    {
-    "title": "ZCG Appoints Pierre Garnier as Managing Director , Global Head of Capital Formation",
-    "url": "https://en.antaranews.com/news/443339/zcg-appoints-pierre-garnier-as-managing-director-global-head-of-capital-formation",
-    "domain": "en.antaranews.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "Pension Goes Full CDO : New York Giant Retirement Fund Bundles Blue Owl , Blackstone Fund Stakes Into $4BN CFO",
+    "url": "https://www.zerohedge.com/markets/pension-goes-full-cdo-new-yorks-giant-reitrement-fund-bundles-blue-owl-blackstone-fund",
+    "domain": "zerohedge.com",
+    "when": "Nov 24 · 20:15z"
    },
    {
-    "title": "AMPERA and Berto Announce Proposed Business Combination to Accelerate Advanced Energy Technology Development and Commercialization",
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70160136-ampera-and-berto-announce-proposed-business-combination-to-accelerate-advanced-energy-technology-development-and-commercialization-008.htm",
-    "domain": "finanznachrichten.de",
-    "when": "Nov 18 · 01:15z"
+    "title": "A 3 . 6 % Social Security Raise Is Coming , but the Average Savings Rate Is Stuck at 0 . 38 % ",
+    "url": "https://www.aol.com/articles/3-6-social-security-raise-183500000.html",
+    "domain": "aol.com",
+    "when": "Nov 24 · 20:15z"
    },
    {
-    "title": "AI Agents vs . Banks : Who Will Win ? Im Betting on Banks . ",
-    "url": "https://www.fool.com/investing/2026/11/17/ai-agents-vs-banks-who-will-win-i-m-betting-on-banks/",
-    "domain": "fool.com",
-    "when": "Nov 18 · 01:15z"
+    "title": "Global banking sector retains stable outlook for 2027 , but risks to credit quality persist : Moody ",
+    "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/global-banking-sector-retains-stable-outlook-for-2027-but-risks-to-credit-quality-persist-moodys/articleshow/136121920.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 24 · 07:15z"
+   },
+   {
+    "title": "Ugly 5Y Auction : Foreign Demand Slides Resulting In 13th Consecutive Tail , Record Directs",
+    "url": "https://www.zerohedge.com/markets/ugly-5y-auction-foreign-demand-slides-resulting-13th-consecutive-tail-record-directs",
+    "domain": "zerohedge.com",
+    "when": "Nov 24 · 20:15z"
+   },
+   {
+    "title": "Applied Digital Secures $5 . 4 bn , 18 ‑ Year Lease for 150 MW AI Data Centre Capacity",
+    "url": "https://kenya-today.com/report-applied-digital-secures-54-bn-18year-lease-for-150-mw-ai-data-centre-capacity-32016/",
+    "domain": "kenya-today.com",
+    "when": "Nov 24 · 01:45z"
+   },
+   {
+    "title": "Chips can survive the space environment can their financing ? ",
+    "url": "http://www.businessghana.com/site/news/technology/360281/Chips-can-survive-the-space-environment-%E2%80%94-can-their-financing",
+    "domain": "businessghana.com",
+    "when": "Nov 24 · 07:45z"
+   },
+   {
+    "title": "Household incomes rose in 2025 . Here why money feels tight",
+    "url": "https://www.wyff4.com/article/us-median-household-incomes-rose-in-2025-heres-why-money-still-feels-tight/74511719",
+    "domain": "wyff4.com",
+    "when": "Nov 24 · 02:15z"
    }
   ],
   "(bankruptcy OR \"chapter 11\" OR restructuring OR \"distressed debt\" OR \"debt exchange\")": [
@@ -937,40 +955,88 @@
   ],
   "(\"acquisition of\" OR \"agreed to acquire\" OR \"strategic review\" OR divestiture OR \"take-private\")": [
    {
-    "title": "5 Water Heater Brands Owned By Rheem",
-    "url": "https://www.slashgear.com/2317994/water-heater-brands-owned-by-rheem/",
-    "domain": "slashgear.com",
-    "when": "Nov 21 · 20:30z"
+    "title": "Brookfield to buy PGP Glass from Blackstone for $1 . 7 billion",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/brookfield-to-buy-pgp-glass-from-blackstone-for-1-7-billion/articleshow/136117608.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Nov 24 · 03:15z"
    },
    {
-    "title": "India , Bulgaria discuss bilateral ties , IMEC , Black Sea situation",
-    "url": "https://www.hindustantimes.com/india-news/india-bulgaria-discuss-bilateral-ties-imec-black-sea-situation-101795289073921.html",
-    "domain": "hindustantimes.com",
-    "when": "Nov 21 · 20:30z"
+    "title": "CrowdStrike to buy Jay Chaudhry Zscaler in $43 . 9 billion all - stock deal",
+    "url": "https://economictimes.indiatimes.com/tech/technology/crowdstrike-to-buy-jay-chaudhrys-zscaler-in-43-9-billion-all-stock-deal/articleshow/136110776.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 24 · 01:15z"
    },
    {
-    "title": "Oando rising fortunes : How Wale Tinubu is rewriting growth story",
-    "url": "https://www.vanguardngr.com/2026/11/oandos-rising-fortunes-how-wale-tinubu-is-rewriting-growth-story/",
-    "domain": "vanguardngr.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Macquarie - led group to buy Axiata assets for US$1 . 2bil",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/11/24/macquarie-led-group-to-buy-axiata-assets-for-us-1-2bil",
+    "domain": "freemalaysiatoday.com",
+    "when": "Nov 24 · 06:30z"
    },
    {
-    "title": "Statement by Foreign Minister Osman Saleh at the Sixth Edition of the Aswan Forum for Sustainable Peace and Development",
-    "url": "https://shabait.com/2026/11/22/statement-by-at-the-sixth-edition-of-the-aswan-forum-for-sustainable-peace-and-development/",
-    "domain": "shabait.com",
-    "when": "Nov 22 · 12:30z"
+    "title": "Macquarie - led group to buy telecom assets of Malaysia Axiata for US$1 . 2 billion",
+    "url": "https://www.businesstimes.com.sg/property/macquarie-led-group-buy-telecom-assets-malaysias-axiata-us1-2-billion",
+    "domain": "businesstimes.com.sg",
+    "when": "Nov 24 · 06:15z"
    },
    {
-    "title": "Rangers D Alberts Smits , F Oliver Bjorkstrand sidelined 2 - 3 months",
-    "url": "https://kwsn.com/2026/11/21/rangers-d-alberts-smits-f-oliver-bjorkstrand-sidelined-2-3-months/",
-    "domain": "kwsn.com",
-    "when": "Nov 21 · 20:30z"
+    "title": "Macquarie Led Group to Buy Axiata International Towers in $1 . 2 Billion Deal",
+    "url": "https://www.morningstar.com/news/dow-jones/2026112310159/macquarie-led-group-to-buy-axiatas-international-towers-in-12-billion-deal",
+    "domain": "morningstar.com",
+    "when": "Nov 24 · 01:45z"
    },
    {
-    "title": "Solid Waste & Recycling News",
-    "url": "https://www.wastedive.com/?page=2&_sp=6c095e5b-5031-4b18-8804-5aa5d14251df",
-    "domain": "wastedive.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Aaron Rodgers admits DK Metcalf ejection in Steeler loss to Eagles was  disappointing  ",
+    "url": "https://www.yardbarker.com/nfl/articles/aaron_rodgers_admits_dk_metcalf_ejection_in_steelers_loss_to_eagles_was_disappointing/s1_13132_44605341",
+    "domain": "yardbarker.com",
+    "when": "Nov 24 · 01:45z"
+   },
+   {
+    "title": "Dow Jones Top Company Headlines at 7 PM ET : Nvidia Board Reinstates Jensen Huang as CEO | HPE ... ",
+    "url": "https://www.morningstar.com/news/dow-jones/2026112310058/dow-jones-top-company-headlines-at-7-pm-et-nvidia-board-reinstates-jensen-huang-as-ceo-hpe",
+    "domain": "morningstar.com",
+    "when": "Nov 24 · 01:45z"
+   },
+   {
+    "title": "Dow Jones Top Energy Headlines at 12 AM ET : Oil Prices Fall as Traders Weigh Supply Surplus , Gulf Attacks | Texas ... ",
+    "url": "https://www.morningstar.com/news/dow-jones/2026112438/dow-jones-top-energy-headlines-at-12-am-et-oil-prices-fall-as-traders-weigh-supply-surplus-gulf-attacks-texas",
+    "domain": "morningstar.com",
+    "when": "Nov 24 · 06:30z"
+   },
+   {
+    "title": "Dow Jones Top Company Headlines at 11 PM ET : Why Amazon Rival to Starlink Is Struggling to Catch Up With SpaceX | Jensen ... ",
+    "url": "https://www.morningstar.com/news/dow-jones/2026112310495/dow-jones-top-company-headlines-at-11-pm-et-why-amazons-rival-to-starlink-is-struggling-to-catch-up-with-spacex-jensen",
+    "domain": "morningstar.com",
+    "when": "Nov 24 · 06:30z"
+   },
+   {
+    "title": "Kyle Donnelly joins Norton Rose Fulbright partnership",
+    "url": "https://www.lawtimesnews.com/news/general/kyle-donnelly-joins-norton-rose-fulbright-partnership/393581",
+    "domain": "lawtimesnews.com",
+    "when": "Nov 24 · 02:45z"
+   },
+   {
+    "title": "Tata Steel to buy promoter stake in APL Apollo Tubes",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/tata-steel-to-buy-promoter-stake-in-apl-apollo-tubes/articleshow/136117537.cms",
+    "domain": "timesofindia.indiatimes.com",
+    "when": "Nov 24 · 03:15z"
+   },
+   {
+    "title": "Tata Steel to Acquire APL Apollo",
+    "url": "https://economictimes.indiatimes.com/et-front/tata-steel-to-acquire-apl-apollo/articleshow/136114058.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 24 · 01:15z"
+   },
+   {
+    "title": "Del . Judge OKs $18 . 2M Deal In Burger King Buyout Suit",
+    "url": "https://www.law360.com:443/articles/2555523",
+    "domain": "law360.com",
+    "when": "Nov 24 · 00:30z"
+   },
+   {
+    "title": "New Mexico Gas Co . to give customers a $3 . 38 rate credit starting this month",
+    "url": "https://www.abqjournal.com/business/monthly-rate-credits-kick-in-following-new-mexico-gas-co-sale/3168015",
+    "domain": "abqjournal.com",
+    "when": "Nov 24 · 02:45z"
    }
   ]
  }
