@@ -1,54 +1,30 @@
 {
- "generated": "2026-11-25 20:49z",
+ "generated": "2026-11-26 20:39z",
  "queries": {
   "(\"federal reserve\" OR \"stock market\" OR \"interest rates\" OR \"bond market\")": [
    {
-    "title": "President Donald Trump cites India growth , slams US high interest rates",
-    "url": "https://www.tribuneindia.com/news/india/president-donald-trump-cites-indias-growth-slams-us-high-interest-rates/",
-    "domain": "tribuneindia.com",
-    "when": "Nov 21 · 20:30z"
+    "title": "Inflation returns to year highest level ahead of Black Friday ; president proposes new tariffs",
+    "url": "https://www.wmur.com/article/inflation-returns-to-years-highest-level-ahead-of-black-friday-president-proposes-new-tariffs/74535311",
+    "domain": "wmur.com",
+    "when": "Nov 26 · 01:15z"
    },
    {
-    "title": "Trump vows to work with Democrats to cap credit card interest rates at 10 % ",
-    "url": "https://www.mcall.com/2026/11/21/trump-vows-to-work-with-democrats-to-cap-credit-card-interest-rates-at-10/",
-    "domain": "mcall.com",
-    "when": "Nov 22 · 00:30z"
+    "title": "Wall Street recovers most early losses as pullback in AI stocks eases",
+    "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/wall-street-recovers-most-early-losses-pullback-ai-stocks-eases",
+    "domain": "businesstimes.com.sg",
+    "when": "Nov 26 · 00:45z"
    },
    {
-    "title": "Peso to move sideways vs dollar as markets eye key US economic data",
-    "url": "https://bworldonline.com/banking-finance/2026/11/22/795691/peso-to-move-sideways-vs-dollar-as-markets-eye-key-us-economic-data/",
-    "domain": "bworldonline.com",
-    "when": "Nov 22 · 12:30z"
+    "title": "World stocks tumble as Trump tariffs rattle markets , AI rally fades",
+    "url": "https://www.asiaone.com:443/money/world-stocks-tumble-trump-tariffs-rattle-markets-ai-rally-fades",
+    "domain": "asiaone.com",
+    "when": "Nov 26 · 02:45z"
    },
    {
-    "title": "Trump pledges to work with Democrats to cap credit card interest rates",
-    "url": "https://www.ktvu.com/money/trump-pledges-work-democrats-cap-credit-card-interest-rates",
-    "domain": "ktvu.com",
-    "when": "Nov 22 · 00:30z"
-   },
-   {
-    "title": "Trump says hell work with Democrats to cap credit card interest rates",
-    "url": "https://turnto10.com/news/nation-world/trump-democrats-cap-credit-card-interest-rates-talarico-warren-hawley-banks-reserve-federal-new-york-congress-republicans",
-    "domain": "turnto10.com",
-    "when": "Nov 22 · 00:30z"
-   },
-   {
-    "title": "Trump wants to work with Democrats to cap credit card interest rates",
-    "url": "https://www.wdbo.com/news/business/trump-vows-work-with/ETUSCQV3HU46TFCRSXIB6C2VAQ/",
-    "domain": "wdbo.com",
-    "when": "Nov 21 · 20:30z"
-   },
-   {
-    "title": "Will Congress cap credit card interest rates ? Trump seeking bipartisan cooperation on the policy",
-    "url": "https://www.mynbc5.com/article/congress-credit-card-interest-rates-trump-bipartisan-cooperation/74500458",
-    "domain": "mynbc5.com",
-    "when": "Nov 22 · 16:30z"
-   },
-   {
-    "title": "US President Trump praises Modi , debunks Rahul Gandhi claims",
-    "url": "https://organiser.org/2026/11/22/428222/world/trump-praises-india-and-pm-modi-how-rahul-gandhi-faces-political-backlash-over-claims-of-surrender-economic-decline/",
-    "domain": "organiser.org",
-    "when": "Nov 22 · 12:30z"
+    "title": "THE CLOSING BELL : Wall street recovers most early losses as pullback in AI stocks eases",
+    "url": "https://www.wptf.com/2026/11/25/the-closing-bell-wall-street-recovers-most-early-losses-as-pullback-in-ai-stocks-eases/",
+    "domain": "wptf.com",
+    "when": "Nov 26 · 01:45z"
    }
   ],
   "(semiconductor OR \"artificial intelligence\" OR \"cloud computing\" OR cybersecurity)": [
@@ -793,70 +769,82 @@
   ],
   "(IPO OR \"initial public offering\" OR \"follow-on offering\" OR \"block trade\" OR \"convertible notes\")": [
    {
-    "title": "Anthropic CEO vacations at Italian resort after public listing",
-    "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/anthropic-ceo-vacations-italian-resort-after-public-listing",
-    "domain": "businesstimes.com.sg",
-    "when": "Nov 21 · 06:45z"
+    "title": "Dangote refinery shares debut on NGX December 1",
+    "url": "https://punchng.com/dangote-refinery-shares-debut-on-ngx-december-1/",
+    "domain": "punchng.com",
+    "when": "Nov 26 · 02:15z"
    },
    {
-    "title": "Anthropic record IPO puts pensions and 401 ( k ) plans closer to AI boom - and - bust risk",
-    "url": "https://kval.com/news/nation-world/anthropics-record-ipo-puts-pensions-and-401k-plans-closer-to-ai-boom-and-bust-risk",
-    "domain": "kval.com",
-    "when": "Nov 21 · 00:30z"
-   },
-   {
-    "title": "Anthropic slides 9 . 1 % to shrink IPO gain as AI trade unravels",
-    "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/anthropic-slides-9-1-shrink-ipo-gain-ai-trade-unravels",
-    "domain": "businesstimes.com.sg",
-    "when": "Nov 21 · 06:45z"
-   },
-   {
-    "title": "Anthropic researcher claims Claude cracked legendary $1M math problem and left him struggling to keep up",
-    "url": "https://nypost.com/2026/11/20/business/anthropic-researcher-claims-claude-cracked-legendary-1m-math-problem-and-left-him-struggling-to-keep-up/",
-    "domain": "nypost.com",
-    "when": "Nov 20 · 21:45z"
-   },
-   {
-    "title": "Wall Street Review : AI Fears Trigger Worst Weekly Tech Sell - Off in More Than 6 Years",
-    "url": "https://www.theepochtimes.com/business/wall-street-review-ai-fears-trigger-worst-weekly-tech-sell-off-in-more-than-6-years-6127740",
+    "title": "Anthropic Falls Below IPO Price",
+    "url": "https://www.theepochtimes.com/us/anthropic-falls-below-ipo-price-6129617",
     "domain": "theepochtimes.com",
-    "when": "Nov 21 · 13:30z"
+    "when": "Nov 26 · 04:30z"
    },
    {
-    "title": "Verlinvest Announces Commencement of Technical Tender Offer to Facilitate Buyout of Joint Venture Partner Interest in Oatly Group AB",
-    "url": "https://www.prnewswire.com/news-releases/verlinvest-announces-commencement-of-technical-tender-offer-to-facilitate-buyout-of-joint-venture-partners-interest-in-oatly-group-ab-302947330.html",
-    "domain": "prnewswire.com",
-    "when": "Nov 20 · 21:45z"
+    "title": "PYMNTS | ElevenLabs Targets $33B Valuation in Early 2027 Funding Round",
+    "url": "https://www.pymnts.com/news/investment-tracker/2026/elevenlabs-targets-33-billion-valuation-in-early-2027-funding-round/",
+    "domain": "pymnts.com",
+    "when": "Nov 26 · 03:00z"
    },
    {
-    "title": "Is It a Good Time to Buy SpaceX Stock ? Shares Crash Below $135 IPO Price as Debt Worries and AI Selloff Bite",
-    "url": "https://www.ibtimes.com.au/spacex-shares-fall-below-ipo-price-debt-concerns-1879070",
-    "domain": "ibtimes.com.au",
-    "when": "Nov 21 · 11:30z"
+    "title": "KK Mart starts RM462mil IPO delayed by socks row",
+    "url": "https://www.freemalaysiatoday.com/category/highlight/2026/11/26/kk-mart-starts-us-112mil-ipo-delayed-by-socks-row",
+    "domain": "freemalaysiatoday.com",
+    "when": "Nov 26 · 05:15z"
    },
    {
-    "title": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
-    "url": "https://www.wmtw.com/article/anthropic-claude-riemann-hypothesis-proof/74497243",
-    "domain": "wmtw.com",
-    "when": "Nov 21 · 16:30z"
+    "title": "Kalyan Krishnamurthy to exit Flipkart ; Rakesh Ranjan joins Uber",
+    "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/kalyan-krishnamurthy-to-exit-flipkart-rakesh-ranjan-joins-uber/articleshow/136176043.cms",
+    "domain": "economictimes.indiatimes.com",
+    "when": "Nov 26 · 03:30z"
    },
    {
-    "title": "Anthropic Stock Came Within 5 Cents of Its $83 IPO Price on Day 2 , Then Bounced 6 % to Close at $88 . 30 . Facebook Closed Its Day 2 10 % Below Its IPO Price",
-    "url": "https://247wallst.com/investing/2026/11/20/anthropic-stock-came-within-5-cents-of-its-83-ipo-price-on-day-2-then-bounced-6-to-close-at-88-30-facebook-closed-its-day-2-10-below-its-ipo-price/",
-    "domain": "247wallst.com",
-    "when": "Nov 20 · 21:45z"
-   },
-   {
-    "title": "Anthropic researcher claims to solve Riemann maths problem with Claude",
-    "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/anthropic-researcher-claims-solve-riemann-maths-problem-claude",
-    "domain": "businesstimes.com.sg",
-    "when": "Nov 21 · 06:45z"
-   },
-   {
-    "title": "AI sell - off batters Wall Street ; S & P 500 enters correction , Nasdaq turns negative for year",
-    "url": "https://timesofindia.indiatimes.com/business/international-business/ai-sell-off-batters-wall-street-sp-500-enters-correction-nasdaq-turns-negative-for-year/articleshow/136041935.cms",
+    "title": "Abrupt end to Kalyan - raj at Flipkart",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/abrupt-end-to-kalyan-raj-at-flipkart/articleshow/136175949.cms",
     "domain": "timesofindia.indiatimes.com",
-    "when": "Nov 21 · 00:30z"
+    "when": "Nov 26 · 02:15z"
+   },
+   {
+    "title": "Should Keppel swoop in to snare Mapletree Investments ? ",
+    "url": "https://www.businesstimes.com.sg/opinion-features/should-keppel-swoop-snare-mapletree-investments",
+    "domain": "businesstimes.com.sg",
+    "when": "Nov 26 · 00:45z"
+   },
+   {
+    "title": "Asian shares rebound led by AI stocks after Wall Street pares sharp losses – Winnipeg Free Press",
+    "url": "https://www.winnipegfreepress.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses",
+    "domain": "winnipegfreepress.com",
+    "when": "Nov 26 · 06:15z"
+   },
+   {
+    "title": "Business - Carroll Broadcasting Inc . ",
+    "url": "https://wkjc.com/business/2e1e82b6626150310b1f41fa2c534891",
+    "domain": "wkjc.com",
+    "when": "Nov 26 · 00:15z"
+   },
+   {
+    "title": "ROSEN , NATIONAL INVESTOR COUNSEL , Encourages Fervo Energy Company Investors ... ",
+    "url": "https://www.pr-inside.com/rosen-national-investor-counsel-encourages-fervo-energy-company-investors-r5247758.htm",
+    "domain": "pr-inside.com",
+    "when": "Nov 26 · 01:45z"
+   },
+   {
+    "title": "Stock Market LIVE : GIFT Nifty signals gap - up open ; Asia mkts rebound as dip - buyers return to tech",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-26-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112600049_1.html",
+    "domain": "business-standard.com",
+    "when": "Nov 26 · 03:15z"
+   },
+   {
+    "title": "SpaceX wins government approval to launch space data centres",
+    "url": "https://www.businesstimes.com.sg/companies-markets/spacex-wins-government-approval-launch-space-data-centres",
+    "domain": "businesstimes.com.sg",
+    "when": "Nov 26 · 00:45z"
+   },
+   {
+    "title": "Class Action Lawsuit Filed : Fervo Energy Company ( FRVO ) - Lead Plaintiff ... ",
+    "url": "https://www.pr-inside.com/class-action-lawsuit-filed-fervo-energy-company-frvo-lead-plaintiff-r5247949.htm",
+    "domain": "pr-inside.com",
+    "when": "Nov 26 · 19:45z"
    }
   ],
   "(\"high yield\" OR \"leveraged loan\" OR \"bond issuance\" OR \"private credit\" OR \"debt financing\")": [
